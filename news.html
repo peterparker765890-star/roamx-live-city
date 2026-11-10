@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#07111f">
-<title>Global Intelligence | ROAMX</title>
+<title>ROAMX | Live Global Intelligence</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +22,7 @@
   --blue:#648bff;
   --red:#ff6478;
   --green:#53dfae;
+  --yellow:#ffc66d;
   --radius:19px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -38,13 +39,14 @@ button,input{font:inherit}
 
 header{
   position:sticky;top:0;z-index:20;
-  background:rgba(7,17,31,.89);
+  background:rgba(7,17,31,.9);
   backdrop-filter:blur(18px);
   border-bottom:1px solid var(--line);
 }
 .nav{
-  min-height:76px;display:flex;align-items:center;
-  justify-content:space-between;gap:20px;
+  min-height:76px;display:flex;
+  align-items:center;justify-content:space-between;
+  gap:20px;
 }
 .brand{font-size:23px;font-weight:800;letter-spacing:3px}
 .brand span{color:var(--cyan)}
@@ -59,7 +61,10 @@ header{
   font:10px "DM Mono";color:var(--green);
   border:1px solid rgba(83,223,174,.25);
   padding:8px 11px;border-radius:30px;
+  white-space:nowrap;
 }
+.status.offline{color:var(--yellow);border-color:rgba(255,198,109,.3)}
+.status.loading{color:var(--cyan);border-color:rgba(72,217,238,.3)}
 
 .hero{padding:62px 0 35px}
 .eyebrow{
@@ -73,14 +78,38 @@ h1{
 }
 h1 span{color:var(--cyan)}
 .hero p{
-  max-width:670px;color:var(--muted);
+  max-width:690px;color:var(--muted);
   font-size:14px;line-height:1.9;
 }
 .hero-meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:23px}
 .pill{
   font:10px "DM Mono";color:#b9cce0;
-  border:1px solid var(--line);border-radius:30px;padding:9px 13px;
+  border:1px solid var(--line);
+  border-radius:30px;padding:9px 13px;
 }
+
+.live-strip{
+  display:flex;align-items:center;
+  justify-content:space-between;gap:15px;
+  flex-wrap:wrap;margin:0 0 23px;
+  padding:16px 19px;
+  background:linear-gradient(110deg,rgba(72,217,238,.09),rgba(13,27,43,.9));
+  border:1px solid rgba(72,217,238,.2);
+  border-radius:15px;
+}
+.live-left{display:flex;align-items:center;gap:12px}
+.live-dot{
+  width:9px;height:9px;border-radius:50%;
+  background:var(--green);
+  box-shadow:0 0 12px rgba(83,223,174,.65);
+  animation:pulse 1.8s infinite;
+}
+@keyframes pulse{
+  50%{opacity:.45;box-shadow:0 0 3px rgba(83,223,174,.3)}
+}
+.live-title{font-size:12px;font-weight:800}
+.live-sub{font:9px "DM Mono";color:var(--muted);margin-top:4px}
+.live-time{font:10px "DM Mono";color:var(--cyan)}
 
 .toolbar{
   display:flex;justify-content:space-between;
@@ -103,18 +132,18 @@ h1 span{color:var(--cyan)}
   font-weight:700;cursor:pointer;transition:.2s;
 }
 .action-btn:hover{background:rgba(72,217,238,.2)}
-.filters{
-  display:flex;gap:9px;flex-wrap:wrap;
-  margin:18px 0 25px;
-}
+.action-btn:disabled{opacity:.5;cursor:wait}
+
+.filters{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0 25px}
 .filter{
-  border:1px solid var(--line);background:var(--panel);
-  color:var(--muted);border-radius:30px;
-  padding:9px 15px;font-size:10px;
-  cursor:pointer;transition:.2s;
+  border:1px solid var(--line);
+  background:var(--panel);color:var(--muted);
+  border-radius:30px;padding:9px 15px;
+  font-size:10px;cursor:pointer;transition:.2s;
 }
 .filter:hover,.filter.active{
-  color:var(--cyan);border-color:rgba(72,217,238,.5);
+  color:var(--cyan);
+  border-color:rgba(72,217,238,.5);
   background:rgba(72,217,238,.08);
 }
 
@@ -137,16 +166,18 @@ h1 span{color:var(--cyan)}
   min-height:270px;background:#102238 center/cover no-repeat;
   position:relative;
 }
-.featured-image:after{
-  content:"";position:absolute;inset:0;
-  background:linear-gradient(90deg,transparent,rgba(13,27,43,.4));
+.featured-content{
+  padding:27px;display:flex;
+  flex-direction:column;justify-content:center;
 }
-.featured-content{padding:27px;display:flex;flex-direction:column;justify-content:center}
 .featured-content h3{font-size:23px;line-height:1.45;margin:13px 0}
 .featured-content p{font-size:11px;color:var(--muted);line-height:1.8}
-.article-grid{
-  display:grid;grid-template-columns:repeat(3,1fr);gap:16px;
+.featured-link{
+  display:inline-block;margin-top:20px;
+  color:var(--cyan);font:11px "DM Mono";
 }
+
+.article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .article{
   background:var(--panel);border:1px solid var(--line);
   border-radius:17px;overflow:hidden;
@@ -157,7 +188,7 @@ h1 span{color:var(--cyan)}
 .article-image{
   height:165px;background:#13273a center/cover no-repeat;
   display:flex;align-items:center;justify-content:center;
-  color:#60778d;font-size:12px;
+  color:#60778d;font:10px "DM Mono";letter-spacing:2px;
 }
 .article-body{padding:17px;display:flex;flex:1;flex-direction:column}
 .article-domain{
@@ -165,33 +196,39 @@ h1 span{color:var(--cyan)}
   letter-spacing:1px;text-transform:uppercase;
 }
 .article h3{font-size:14px;line-height:1.65;margin:11px 0}
-.article p{font-size:11px;line-height:1.8;color:var(--muted)}
 .article-bottom{
-  display:flex;align-items:center;justify-content:space-between;
-  gap:8px;margin-top:auto;padding-top:17px;
+  display:flex;align-items:center;
+  justify-content:space-between;gap:8px;
+  margin-top:auto;padding-top:17px;
 }
 .article-date{font:9px "DM Mono";color:#71869b}
 .read-link{font-size:10px;color:var(--cyan);font-weight:800}
+
 .state-box{
   background:var(--panel);border:1px solid var(--line);
   border-radius:17px;padding:35px 20px;
   text-align:center;color:var(--muted);
   font-size:12px;line-height:1.9;
 }
-.state-box strong{display:block;color:var(--text);font-size:16px;margin-bottom:7px}
+.state-box strong{
+  display:block;color:var(--text);
+  font-size:16px;margin-bottom:7px;
+}
 .spinner{
-  width:27px;height:27px;border:2px solid #263c50;
-  border-top-color:var(--cyan);border-radius:50%;
-  animation:spin .8s linear infinite;margin:0 auto 14px;
+  width:27px;height:27px;
+  border:2px solid #263c50;
+  border-top-color:var(--cyan);
+  border-radius:50%;animation:spin .8s linear infinite;
+  margin:0 auto 14px;
 }
 @keyframes spin{to{transform:rotate(360deg)}}
 .load-more{display:flex;justify-content:center;margin:25px 0}
-.load-more button:disabled{opacity:.45;cursor:not-allowed}
 .info-note{
   border:1px solid rgba(255,198,109,.2);
   background:rgba(255,198,109,.06);
   border-radius:13px;padding:15px;
-  color:#d9c29c;font-size:10px;line-height:1.8;margin-top:27px;
+  color:#d9c29c;font-size:10px;line-height:1.8;
+  margin-top:27px;
 }
 .footer{
   border-top:1px solid var(--line);
@@ -216,6 +253,7 @@ h1 span{color:var(--cyan)}
   .article-grid{grid-template-columns:1fr}
   .article-image{height:190px}
   .section-head{align-items:flex-start;flex-direction:column}
+  .search-wrap{min-width:100%}
 }
 </style>
 </head>
@@ -223,7 +261,11 @@ h1 span{color:var(--cyan)}
 <body>
 <header>
   <div class="container nav">
-    <a class="brand" href="index.html">ROAM<span>X</span><small>LIVE CITY INTELLIGENCE</small></a>
+    <a class="brand" href="index.html">
+      ROAM<span>X</span>
+      <small>LIVE CITY INTELLIGENCE</small>
+    </a>
+
     <nav class="navlinks">
       <a href="index.html">HOME</a>
       <a href="map.html">NAVIGATION</a>
@@ -231,33 +273,52 @@ h1 span{color:var(--cyan)}
       <a href="resilience.html">RESILIENCE</a>
       <a class="active" href="news.html">NEWS</a>
     </nav>
-    <div class="status">● GLOBAL FEED</div>
+
+    <div class="status" id="headerStatus">● AUTO NEWS</div>
   </div>
 </header>
 
 <main class="container">
+
   <section class="hero">
     <div class="eyebrow">ROAMX / GLOBAL INTELLIGENCE</div>
-    <h1>Understand what's<br>happening <span>around us.</span></h1>
+    <h1>Know what's happening<br><span>around the world.</span></h1>
     <p>
-      Explore current reporting on natural disasters, extreme weather,
-      environmental changes and community resilience from news publishers
-      around the world.
+      A continuously refreshed news discovery centre for natural disasters,
+      extreme weather, climate developments and environmental changes.
+      Explore current reporting from publishers around the world.
     </p>
     <div class="hero-meta">
       <span class="pill">GLOBAL NEWS DISCOVERY</span>
-      <span class="pill">DISASTER AWARENESS</span>
-      <span class="pill">ENVIRONMENT WATCH</span>
+      <span class="pill">ROLLING 24-HOUR COVERAGE</span>
+      <span class="pill">AUTOMATIC UPDATES</span>
     </div>
   </section>
+
+  <div class="live-strip">
+    <div class="live-left">
+      <div class="live-dot"></div>
+      <div>
+        <div class="live-title">ROAMX LIVE NEWS ENGINE</div>
+        <div class="live-sub" id="liveSub">CONNECTING TO GLOBAL SOURCES...</div>
+      </div>
+    </div>
+    <div class="live-time" id="liveTime">LAST UPDATE: WAITING</div>
+  </div>
 
   <section>
     <div class="toolbar">
       <div class="search-wrap">
-        <input id="searchInput" type="search" placeholder="Search floods, climate, earthquakes, disasters...">
+        <input
+          id="searchInput"
+          type="search"
+          maxlength="100"
+          placeholder="Search floods, climate, earthquakes, disasters..."
+          autocomplete="off"
+        >
         <button class="action-btn" id="searchBtn">SEARCH</button>
       </div>
-      <button class="action-btn" id="refreshBtn">↻ REFRESH FEED</button>
+      <button class="action-btn" id="refreshBtn">↻ REFRESH NOW</button>
     </div>
 
     <div class="filters" id="filters">
@@ -276,9 +337,9 @@ h1 span{color:var(--cyan)}
       <div>
         <div class="eyebrow">01 / TOP STORY</div>
         <h2>Featured coverage</h2>
-        <p>A leading result from the current news feed.</p>
+        <p>A leading result from the latest news feed.</p>
       </div>
-      <div class="results-meta" id="updatedAt">WAITING FOR FEED</div>
+      <div class="results-meta" id="featuredMeta">WAITING FOR FEED</div>
     </div>
 
     <article class="featured" id="featured">
@@ -287,7 +348,10 @@ h1 span{color:var(--cyan)}
         <div class="article-domain" id="featuredDomain"></div>
         <h3 id="featuredTitle"></h3>
         <p id="featuredDate"></p>
-        <a class="read-link" id="featuredLink" href="#" target="_blank" rel="noopener noreferrer">READ FULL STORY ↗</a>
+        <a class="featured-link" id="featuredLink"
+           href="#" target="_blank" rel="noopener noreferrer">
+          READ FULL STORY ↗
+        </a>
       </div>
     </article>
   </section>
@@ -296,8 +360,8 @@ h1 span{color:var(--cyan)}
     <div class="section-head">
       <div>
         <div class="eyebrow">02 / LATEST REPORTING</div>
-        <h2>News intelligence feed</h2>
-        <p>Articles discovered from external news publishers.</p>
+        <h2>Global news intelligence</h2>
+        <p>Fresh articles discovered from external news publishers.</p>
       </div>
       <div class="results-meta" id="resultCount">0 ARTICLES</div>
     </div>
@@ -311,28 +375,47 @@ h1 span{color:var(--cyan)}
     </div>
 
     <div class="load-more">
-      <button class="action-btn" id="loadMoreBtn" style="display:none">LOAD MORE STORIES</button>
+      <button class="action-btn" id="loadMoreBtn" style="display:none">
+        LOAD MORE STORIES
+      </button>
     </div>
   </section>
 
   <div class="info-note">
-    <strong>NEWS AND SAFETY DISCLAIMER:</strong>
-    ROAMX discovers and displays articles from external publishers.
-    Publication time, relevance and accuracy depend on the original source.
-    News coverage is not an official emergency warning. For urgent safety
-    decisions, follow government advisories and emergency authorities.
+    <strong>IMPORTANT:</strong>
+    ROAMX retrieves news articles through the GDELT news database.
+    Article availability, publication dates, images and accuracy depend on
+    external publishers and indexing services. Automatic updates work while
+    this page is open. This is a news discovery service, not an official
+    government emergency warning system.
   </div>
+
 </main>
 
 <footer class="footer">
   <div class="container footer-row">
-    <div><strong>ROAMX</strong><br>LIVE CITY INTELLIGENCE · SDG 11</div>
-    <div>Stay informed. Stay prepared. Build resilient communities.<br>News content belongs to its respective publishers.</div>
+    <div>
+      <strong>ROAMX</strong><br>
+      LIVE CITY INTELLIGENCE · SDG 11
+    </div>
+    <div>
+      Stay informed. Stay prepared. Build resilient communities.<br>
+      News content belongs to its respective publishers.
+    </div>
   </div>
 </footer>
 
 <script>
+/* ==========================================
+   ROAMX SMART NEWS ENGINE
+   Source: GDELT DOC API
+   Time window: Rolling 24 hours
+   Refresh: Every 15 minutes
+========================================== */
+
 const API = "https://api.gdeltproject.org/api/v2/doc/doc";
+
+const REFRESH_INTERVAL = 15 * 60 * 1000;
 
 const categoryQueries = {
   all: '(flood OR cyclone OR earthquake OR wildfire OR disaster OR "extreme weather" OR climate OR environment)',
@@ -344,246 +427,412 @@ const categoryQueries = {
   environment: '(environment OR pollution OR deforestation OR "air quality" OR conservation)'
 };
 
-const grid = document.getElementById("newsGrid");
-const featured = document.getElementById("featured");
-const loadMoreBtn = document.getElementById("loadMoreBtn");
+const elements = {
+  grid: document.getElementById("newsGrid"),
+  featured: document.getElementById("featured"),
+  featuredImage: document.getElementById("featuredImage"),
+  featuredTitle: document.getElementById("featuredTitle"),
+  featuredDomain: document.getElementById("featuredDomain"),
+  featuredDate: document.getElementById("featuredDate"),
+  featuredLink: document.getElementById("featuredLink"),
+  featuredMeta: document.getElementById("featuredMeta"),
+  resultCount: document.getElementById("resultCount"),
+  updatedAt: document.getElementById("liveTime"),
+  liveSub: document.getElementById("liveSub"),
+  headerStatus: document.getElementById("headerStatus"),
+  searchInput: document.getElementById("searchInput"),
+  refreshBtn: document.getElementById("refreshBtn"),
+  searchBtn: document.getElementById("searchBtn"),
+  loadMoreBtn: document.getElementById("loadMoreBtn")
+};
 
 let currentCategory = "all";
 let currentSearch = "";
 let articles = [];
 let visibleCount = 9;
 let requestNumber = 0;
+let lastSuccessfulUpdate = 0;
+let isLoading = false;
 
-function cleanText(value){
-  return String(value || "").replace(/<[^>]*>/g,"").trim();
+function escapeHTML(value) {
+  return String(value || "").replace(/[&<>"']/g, char => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[char]);
 }
 
-function formatDate(value){
-  if(!value) return "DATE UNAVAILABLE";
+function cleanText(value) {
+  return String(value || "").replace(/<[^>]*>/g, "").trim();
+}
+
+function formatDate(value) {
+  if (!value) return "DATE UNAVAILABLE";
+
   const match = String(value).match(/^(\d{4})(\d{2})(\d{2})T/);
-  if(!match) return "DATE UNAVAILABLE";
+
+  if (!match) return "DATE UNAVAILABLE";
+
   const date = new Date(
     Number(match[1]),
-    Number(match[2])-1,
+    Number(match[2]) - 1,
     Number(match[3])
   );
-  return date.toLocaleDateString("en-IN",{
-    day:"2-digit",month:"short",year:"numeric"
+
+  return date.toLocaleDateString("en-IN", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric"
   }).toUpperCase();
 }
 
-function validImage(url){
-  if(!url) return "";
-  try{
+function formatTime(date) {
+  return date.toLocaleTimeString("en-IN", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true
+  });
+}
+
+function validImage(url) {
+  if (!url) return "";
+
+  try {
     const parsed = new URL(url);
-    return parsed.protocol==="https:" ? parsed.href : "";
-  }catch{
+    return parsed.protocol === "https:" ? parsed.href : "";
+  } catch {
     return "";
   }
 }
 
-function showState(title,message){
-  featured.classList.remove("show");
-  grid.innerHTML = `
-    <div class="state-box" style="grid-column:1/-1">
-      <strong>${title}</strong>${message}
-    </div>`;
-  document.getElementById("resultCount").textContent="0 ARTICLES";
-  loadMoreBtn.style.display="none";
-}
+function setStatus(type, message) {
+  elements.headerStatus.className = "status";
 
-function buildQuery(){
-  const base = categoryQueries[currentCategory] || categoryQueries.all;
-  if(currentSearch){
-    return `(${currentSearch})`;
+  if (type === "loading") {
+    elements.headerStatus.classList.add("loading");
+    elements.headerStatus.textContent = "● UPDATING";
+  } else if (type === "offline") {
+    elements.headerStatus.classList.add("offline");
+    elements.headerStatus.textContent = "● FEED UNAVAILABLE";
+  } else {
+    elements.headerStatus.textContent = "● AUTO NEWS";
   }
-  return base;
+
+  elements.liveSub.textContent = message;
 }
 
-async function loadNews(){
+function showLoading() {
+  elements.grid.innerHTML = `
+    <div class="state-box" style="grid-column:1/-1">
+      <div class="spinner"></div>
+      <strong>Updating global coverage</strong>
+      Checking the latest available articles...
+    </div>
+  `;
+}
+
+function showMessage(title, message) {
+  elements.featured.classList.remove("show");
+
+  elements.grid.innerHTML = `
+    <div class="state-box" style="grid-column:1/-1">
+      <strong>${escapeHTML(title)}</strong>
+      ${escapeHTML(message)}
+    </div>
+  `;
+
+  elements.resultCount.textContent = "0 ARTICLES";
+  elements.loadMoreBtn.style.display = "none";
+}
+
+function buildQuery() {
+  if (currentSearch) return currentSearch;
+
+  return categoryQueries[currentCategory] || categoryQueries.all;
+}
+
+function makeSearchQuery(value) {
+  const words = value
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 7);
+
+  if (!words.length) return "";
+
+  return words
+    .map(word => `"${word.replace(/"/g, "")}"`)
+    .join(" AND ");
+}
+
+async function loadNews(options = {}) {
+  if (isLoading) return;
+
+  const silent = options.silent === true;
   const thisRequest = ++requestNumber;
-  const query = buildQuery();
 
-  showState("Loading current coverage","Searching external news publishers. This may take a few seconds.");
+  isLoading = true;
+  elements.refreshBtn.disabled = true;
+  elements.refreshBtn.textContent = "UPDATING...";
 
-  loadMoreBtn.style.display="none";
+  setStatus("loading", "RETRIEVING THE LATEST AVAILABLE NEWS...");
+
+  if (!silent || articles.length === 0) {
+    showLoading();
+  }
 
   const params = new URLSearchParams({
-    query: query,
+    query: buildQuery(),
     mode: "ArtList",
     format: "json",
     maxrecords: "50",
-    sort: "HybridRel",
-    timespan: "7d"
+    sort: "DateDesc",
+    timespan: "1d"
   });
 
-  try{
-    const response = await fetch(`${API}?${params.toString()}`,{
-      headers:{"Accept":"application/json"}
-    });
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 20000);
 
-    if(!response.ok) throw new Error("News service returned an error.");
+  try {
+    const response = await fetch(
+      `${API}?${params.toString()}`,
+      {
+        method: "GET",
+        headers: { "Accept": "application/json" },
+        signal: controller.signal
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error("News service returned HTTP " + response.status);
+    }
 
     const data = await response.json();
 
-    if(thisRequest !== requestNumber) return;
+    if (thisRequest !== requestNumber) return;
 
-    if(!data.articles || !data.articles.length){
-      articles=[];
-      showState("No matching articles found","Try another category or a broader search term.");
-      document.getElementById("updatedAt").textContent="NO RESULTS";
-      return;
+    if (!Array.isArray(data.articles)) {
+      throw new Error("Unexpected response from news service.");
     }
 
     const seen = new Set();
 
     articles = data.articles
-      .filter(item=>{
-        if(!item.url || !/^https?:\/\//i.test(item.url)) return false;
-        const key=item.url.split("#")[0];
-        if(seen.has(key)) return false;
+      .filter(item => {
+        if (!item.url || !/^https?:\/\//i.test(item.url)) return false;
+
+        const key = item.url.split("#")[0];
+
+        if (seen.has(key)) return false;
+
         seen.add(key);
         return true;
       })
-      .map(item=>({
-        title:cleanText(item.title || "Untitled news article"),
-        url:item.url,
-        domain:cleanText(item.domain || "External publisher"),
-        date:item.seendate || "",
-        image:validImage(item.socialimage),
-        language:item.language || ""
+      .map(item => ({
+        title: cleanText(item.title || "Untitled news article"),
+        url: item.url,
+        domain: cleanText(item.domain || "External publisher"),
+        date: item.seendate || "",
+        image: validImage(item.socialimage)
       }));
 
-    visibleCount=9;
+    visibleCount = 9;
+    lastSuccessfulUpdate = Date.now();
+
     renderNews();
 
-    document.getElementById("updatedAt").textContent =
-      "UPDATED "+new Date().toLocaleTimeString("en-IN",{
-        hour:"2-digit",minute:"2-digit"
-      });
+    const now = new Date();
 
-  }catch(error){
-    if(thisRequest !== requestNumber) return;
-    console.error("ROAMX news error:",error);
-    articles=[];
-    showState(
-      "News feed temporarily unavailable",
-      "The external news service could not be reached. Check your connection and try refreshing. ROAMX does not display fabricated headlines."
+    elements.updatedAt.textContent = "LAST UPDATE: " + formatTime(now);
+    elements.featuredMeta.textContent = "LATEST FEED · " + formatTime(now);
+
+    setStatus(
+      "online",
+      "FEED UPDATED · NEXT AUTOMATIC CHECK IN 15 MINUTES"
     );
-    document.getElementById("updatedAt").textContent="CONNECTION ISSUE";
+
+  } catch (error) {
+    if (thisRequest !== requestNumber) return;
+
+    console.error("ROAMX news error:", error);
+
+    if (articles.length > 0 && silent) {
+      setStatus(
+        "offline",
+        "LATEST REFRESH FAILED · SHOWING PREVIOUSLY LOADED RESULTS"
+      );
+    } else {
+      showMessage(
+        "News feed temporarily unavailable",
+        "The external news service could not be reached. Check your internet connection and try again. ROAMX never creates fake headlines."
+      );
+
+      setStatus("offline", "COULD NOT CONNECT TO THE NEWS SERVICE");
+      elements.featuredMeta.textContent = "CONNECTION ISSUE";
+    }
+
+  } finally {
+    clearTimeout(timeout);
+
+    if (thisRequest === requestNumber) {
+      isLoading = false;
+      elements.refreshBtn.disabled = false;
+      elements.refreshBtn.textContent = "↻ REFRESH NOW";
+    }
   }
 }
 
-function renderNews(){
-  if(!articles.length){
-    showState("No articles available","Try refreshing the news feed.");
+function renderNews() {
+  if (!articles.length) {
+    showMessage("No matching articles found", "Try another category or search term.");
     return;
   }
 
-  const first=articles[0];
+  const first = articles[0];
 
-  featured.classList.add("show");
-  document.getElementById("featuredTitle").textContent=first.title;
-  document.getElementById("featuredDomain").textContent=first.domain;
-  document.getElementById("featuredDate").textContent=formatDate(first.date);
-  document.getElementById("featuredLink").href=first.url;
+  elements.featured.classList.add("show");
+  elements.featuredTitle.textContent = first.title;
+  elements.featuredDomain.textContent = first.domain;
+  elements.featuredDate.textContent = formatDate(first.date);
+  elements.featuredLink.href = first.url;
 
-  const featuredImage=document.getElementById("featuredImage");
-  featuredImage.style.backgroundImage=first.image
-    ? `url("${first.image.replace(/["\\]/g,"")}")`
+  elements.featuredImage.style.backgroundImage = first.image
+    ? `url("${first.image.replace(/["\\]/g, "")}")`
     : "linear-gradient(135deg,#16344c,#0b1725)";
 
-  const visible=articles.slice(1,visibleCount+1);
+  const visible = articles.slice(1, visibleCount + 1);
 
-  if(!visible.length){
-    grid.innerHTML='<div class="state-box" style="grid-column:1/-1">No additional stories in this result.</div>';
-  }else{
-    grid.innerHTML=visible.map(item=>{
-      const safeTitle=escapeHTML(item.title);
-      const safeDomain=escapeHTML(item.domain);
-      const safeUrl=escapeHTML(item.url);
-      const safeDate=escapeHTML(formatDate(item.date));
-      const imageStyle=item.image
-        ? `style="background-image:url('${escapeHTML(item.image)}')"`
-        : "";
+  if (!visible.length) {
+    elements.grid.innerHTML = `
+      <div class="state-box" style="grid-column:1/-1">
+        <strong>Featured story available</strong>
+        No additional stories were returned for this search.
+      </div>
+    `;
+  } else {
+    elements.grid.innerHTML = "";
 
-      return `
-        <article class="article">
-          <div class="article-image" ${imageStyle}>
-            ${item.image ? "" : "ROAMX NEWS"}
-          </div>
-          <div class="article-body">
-            <div class="article-domain">${safeDomain}</div>
-            <h3>${safeTitle}</h3>
-            <div class="article-bottom">
-              <span class="article-date">${safeDate}</span>
-              <a class="read-link" href="${safeUrl}" target="_blank" rel="noopener noreferrer">READ ↗</a>
-            </div>
-          </div>
-        </article>`;
-    }).join("");
+    visible.forEach(item => {
+      const article = document.createElement("article");
+      article.className = "article";
+
+      const image = document.createElement("div");
+      image.className = "article-image";
+
+      if (item.image) {
+        image.style.backgroundImage = `url("${item.image.replace(/["\\]/g, "")}")`;
+      } else {
+        image.textContent = "ROAMX NEWS";
+      }
+
+      const body = document.createElement("div");
+      body.className = "article-body";
+
+      const domain = document.createElement("div");
+      domain.className = "article-domain";
+      domain.textContent = item.domain;
+
+      const title = document.createElement("h3");
+      title.textContent = item.title;
+
+      const bottom = document.createElement("div");
+      bottom.className = "article-bottom";
+
+      const date = document.createElement("span");
+      date.className = "article-date";
+      date.textContent = formatDate(item.date);
+
+      const link = document.createElement("a");
+      link.className = "read-link";
+      link.href = item.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = "READ ↗";
+
+      bottom.append(date, link);
+      body.append(domain, title, bottom);
+      article.append(image, body);
+
+      elements.grid.appendChild(article);
+    });
   }
 
-  document.getElementById("resultCount").textContent=
-    articles.length+" ARTICLES FOUND";
+  elements.resultCount.textContent = articles.length + " ARTICLES FOUND";
 
-  loadMoreBtn.style.display=visibleCount<articles.length-1?"inline-block":"none";
+  elements.loadMoreBtn.style.display =
+    visibleCount < articles.length - 1 ? "inline-block" : "none";
 }
 
-function escapeHTML(value){
-  return String(value).replace(/[&<>"']/g,char=>({
-    "&":"&amp;",
-    "<":"&lt;",
-    ">":"&gt;",
-    '"':"&quot;",
-    "'":"&#39;"
-  })[char]);
-}
+/* CATEGORY FILTERS */
+document.querySelectorAll(".filter").forEach(button => {
+  button.addEventListener("click", () => {
+    document.querySelectorAll(".filter").forEach(item => {
+      item.classList.remove("active");
+    });
 
-document.querySelectorAll(".filter").forEach(button=>{
-  button.addEventListener("click",()=>{
-    document.querySelectorAll(".filter").forEach(item=>item.classList.remove("active"));
     button.classList.add("active");
-    currentCategory=button.dataset.category;
-    currentSearch="";
-    document.getElementById("searchInput").value="";
+
+    currentCategory = button.dataset.category;
+    currentSearch = "";
+    elements.searchInput.value = "";
+
     loadNews();
   });
 });
 
-function searchNews(){
-  const value=document.getElementById("searchInput").value.trim();
-  if(!value){
-    currentSearch="";
+/* SEARCH */
+function searchNews() {
+  const value = elements.searchInput.value.trim();
+
+  if (!value) {
+    currentSearch = "";
     loadNews();
     return;
   }
 
-  currentSearch=value
-    .replace(/[^\p{L}\p{N}\s-]/gu," ")
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0,7)
-    .map(word=>`"${word}"`)
-    .join(" AND ");
-
-  document.querySelectorAll(".filter").forEach(item=>item.classList.remove("active"));
+  currentSearch = makeSearchQuery(value);
   loadNews();
 }
 
-document.getElementById("searchBtn").addEventListener("click",searchNews);
-document.getElementById("searchInput").addEventListener("keydown",event=>{
-  if(event.key==="Enter") searchNews();
+elements.searchBtn.addEventListener("click", searchNews);
+
+elements.searchInput.addEventListener("keydown", event => {
+  if (event.key === "Enter") searchNews();
 });
 
-document.getElementById("refreshBtn").addEventListener("click",loadNews);
+/* MANUAL REFRESH */
+elements.refreshBtn.addEventListener("click", () => {
+  loadNews();
+});
 
-loadMoreBtn.addEventListener("click",()=>{
-  visibleCount+=9;
+/* LOAD MORE */
+elements.loadMoreBtn.addEventListener("click", () => {
+  visibleCount += 9;
   renderNews();
 });
 
+/* AUTOMATIC 15-MINUTE REFRESH */
+setInterval(() => {
+  if (document.visibilityState === "visible") {
+    loadNews({ silent: true });
+  }
+}, REFRESH_INTERVAL);
+
+/* REFRESH WHEN VISITOR RETURNS */
+document.addEventListener("visibilitychange", () => {
+  if (
+    document.visibilityState === "visible" &&
+    Date.now() - lastSuccessfulUpdate >= REFRESH_INTERVAL
+  ) {
+    loadNews({ silent: true });
+  }
+});
+
+/* INITIAL NEWS FETCH */
 loadNews();
+
 </script>
 </body>
 </html>
