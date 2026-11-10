@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="ROAMX — Smart city navigation, environmental awareness and disaster resilience.">
+  <title>ROAMX | Live City Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #07111f;
+      --panel: #0d1b2b;
+      --line: rgba(158,190,220,.14);
+      --text: #edf6ff;
+      --muted: #8fa5ba;
+      --cyan: #54d7e8;
+      --blue: #638cff;
+      --green: #78e0bc;
+      --mono: 'DM Mono', monospace;
+      --sans: 'Manrope', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background:
+        radial-gradient(ellipse at 78% 5%, rgba(34,104,139,.14), transparent 34%),
+        var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+    }
+
+    a { text-decoration: none; color: inherit; }
+
+    .topbar {
+      height: 78px;
+      padding: 0 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--line);
+      background: rgba(7,17,31,.92);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(15px);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 19px;
+      font-weight: 800;
+      letter-spacing: 3px;
+    }
+
+    .brand-mark {
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      color: var(--cyan);
+      border: 1px solid var(--cyan);
+      transform: rotate(-8deg);
+    }
+
+    .brand small {
+      display: block;
+      color: #718ba5;
+      font: 8px var(--mono);
+      letter-spacing: 2px;
+      margin-top: 3px;
+    }
+
+    .brand-x { color: var(--cyan); }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    nav a {
+      color: var(--muted);
+      font-size: 11px;
+      transition: .2s;
+    }
+
+    nav a:hover, nav a.active { color: var(--cyan); }
+
+    .system-status {
+      color: var(--green);
+      font: 9px var(--mono);
+      letter-spacing: 1px;
+    }
+
+    .system-status::before {
+      content: "";
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--green);
+      margin-right: 8px;
+      box-shadow: 0 0 10px var(--green);
+    }
+
+    .menu-btn {
+      display: none;
+      color: white;
+      background: transparent;
+      border: 1px solid var(--line);
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+
+    .container {
+      max-width: 1400px;
+      padding: 0 6%;
+      margin: auto;
+    }
+
+    .hero {
+      min-height: 550px;
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      align-items: center;
+      gap: 45px;
+      padding: 65px 0;
+    }
+
+    .eyebrow {
+      color: var(--cyan);
+      font: 10px var(--mono);
+      letter-spacing: 2px;
+    }
+
+    .hero h1 {
+      font-size: clamp(48px, 6vw, 78px);
+      line-height: 1.04;
+      letter-spacing: -4px;
+      margin: 25px 0 20px;
+    }
+
+    .gradient {
+      background: linear-gradient(100deg, #66e3e5, #6e9cff);
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+
+    .hero-description {
+      color: #9bb0c4;
+      line-height: 1.9;
+      font-size: 14px;
+      max-width: 540px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 25px;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      padding: 14px 20px;
+      font-size: 11px;
+      font-weight: 800;
+      border: 1px solid transparent;
+      transition: .2s;
+    }
+
+    .button-primary {
+      color: #061421;
+      background: linear-gradient(110deg, #47cddd, #648cff);
+    }
+
+    .button-primary:hover {
+      transform: translateY(-3px);
+      filter: brightness(1.12);
+    }
+
+    .button-outline {
+      color: var(--cyan);
+      border-color: rgba(84,215,232,.4);
+    }
+
+    .hero-secondary {
+      font-size: 11px;
+      color: #c2d3e2;
+    }
+
+    .hero-secondary span { color: var(--cyan); }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      margin-top: 60px;
+      color: #668097;
+      font: 9px var(--mono);
+    }
+
+    /* Radar visual */
+
+    .hero-visual {
+      height: 390px;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: linear-gradient(140deg, #102b40, #091726);
+    }
+
+    .visual-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(100,160,190,.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(100,160,190,.08) 1px, transparent 1px);
+      background-size: 35px 35px;
+    }
+
+    .radar {
+      position: absolute;
+      width: 275px;
+      height: 275px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      border: 1px solid rgba(84,215,232,.4);
+      border-radius: 50%;
+    }
+
+    .radar::before, .radar::after {
+      content: "";
+      position: absolute;
+      background: rgba(84,215,232,.18);
+    }
+
+    .radar::before { height: 1px; width: 100%; top: 50%; }
+    .radar::after { width: 1px; height: 100%; left: 50%; }
+
+    .ring {
+      position: absolute;
+      inset: 18%;
+      border: 1px solid rgba(84,215,232,.22);
+      border-radius: 50%;
+    }
+
+    .ring-two { inset: 36%; }
+
+    .sweep {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg, transparent 0 75%, rgba(84,215,232,.2));
+      animation: rotate 8s linear infinite;
+    }
+
+    @keyframes rotate { to { transform: rotate(360deg); } }
+
+    .radar-center {
+      position: absolute;
+      width: 9px;
+      height: 9px;
+      background: var(--cyan);
+      border-radius: 50%;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      box-shadow: 0 0 20px var(--cyan);
+    }
+
+    .radar-point {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 12px var(--green);
+    }
+
+    .point-one { left: 68%; top: 25%; }
+    .point-two { left: 27%; top: 67%; }
+    .point-three { left: 73%; top: 75%; }
+
+    .visual-label {
+      position: absolute;
+      color: #9cb5c8;
+      font: 9px var(--mono);
+      letter-spacing: 1px;
+    }
+
+    .visual-top { top: 22px; left: 22px; }
+    .visual-bottom { bottom: 22px; right: 22px; }
+
+    .visual-top b { color: var(--green); margin-left: 9px; }
+
+    /* Dashboard */
+
+    .section-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      margin: 30px 0 25px;
+      gap: 20px;
+    }
+
+    .section-heading h2 {
+      font-size: clamp(25px, 3vw, 36px);
+      letter-spacing: -1.5px;
+      margin-top: 9px;
+    }
+
+    .muted { color: #71869b; }
+
+    .clock {
+      color: var(--cyan);
+      font: 13px var(--mono);
+    }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .metric {
+      padding: 22px;
+      min-height: 165px;
+      background: linear-gradient(145deg, #102338, #0a1928);
+      border: 1px solid var(--line);
+    }
+
+    .metric-label {
+      color: #8da5b9;
+      font: 9px var(--mono);
+      letter-spacing: 1px;
+    }
+
+    .metric-value {
+      font-size: 37px;
+      font-weight: 800;
+      margin: 18px 0 2px;
+      letter-spacing: -2px;
+    }
+
+    .metric-note {
+      color: #8ba1b5;
+      font-size: 10px;
+    }
+
+    .metric-link {
+      display: inline-block;
+      margin-top: 19px;
+      color: var(--cyan);
+      font: 9px var(--mono);
+    }
+
+    /* Feature cards */
+
+    .features { padding: 85px 0 70px; }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 13px;
+    }
+
+    .feature {
+      min-height: 245px;
+      padding: 20px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: .25s;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+      border-color: rgba(84,215,232,.55);
+    }
+
+    .feature-number {
+      color: #7891a7;
+      font: 9px var(--mono);
+      letter-spacing: 1px;
+    }
+
+    .feature-icon {
+      height: 115px;
+      display: grid;
+      place-items: center;
+      font-size: 49px;
+      color: var(--cyan);
+      text-shadow: 0 0 30px rgba(84,215,232,.35);
+    }
+
+    .feature h3 { font-size: 16px; margin-bottom: 6px; }
+
+    .feature p {
+      font-size: 10px;
+      color: #8299ad;
+      line-height: 1.7;
+    }
+
+    .feature-arrow {
+      float: right;
+      color: var(--cyan);
+      font-size: 20px;
+    }
+
+    /* Footer banner */
+
+    .mission {
+      padding: 35px;
+      margin: 15px 0 50px;
+      border: 1px solid rgba(84,215,232,.23);
+      background: linear-gradient(105deg, rgba(25,76,94,.25), rgba(14,32,54,.7));
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .mission h2 {
+      font-size: 27px;
+      margin-top: 10px;
+      letter-spacing: -1px;
+    }
+
+    .mission p {
+      color: #9ab0c2;
+      font-size: 11px;
+      line-height: 1.8;
+      max-width: 330px;
+      margin-bottom: 14px;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 23px 0 30px;
+      border-top: 1px solid var(--line);
+      color: #627b91;
+      font: 8px var(--mono);
+      letter-spacing: 1px;
+    }
+
+    footer a { color: var(--cyan); }
+
+    @media(max-width:950px) {
+      nav { gap: 12px; }
+      nav a { font-size: 10px; }
+      .metrics, .feature-grid { grid-template-columns: repeat(2,1fr); }
+    }
+
+    @media(max-width:700px) {
+      .topbar { height: 68px; padding: 0 18px; }
+      .menu-btn { display: block; }
+      .system-status { display: none; }
+      nav {
+        display: none;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        right: 0;
+        background: #091827;
+        padding: 20px;
+        border-bottom: 1px solid var(--line);
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav.open { display: flex; }
+      .container { padding: 0 18px; }
+      .hero { grid-template-columns: 1fr; padding: 55px 0; }
+      .hero h1 { font-size: 55px; }
+      .hero-visual { height: 300px; }
+      .hero-meta { margin-top: 35px; }
+      .metrics, .feature-grid { grid-template-columns: 1fr 1fr; }
+      .metric { padding: 15px; }
+      .metric-value { font-size: 30px; }
+      .mission { display: block; padding: 25px; }
+      .mission p { margin-top: 18px; }
+      .section-heading { align-items: flex-start; flex-direction: column; }
+    }
+
+    @media(max-width:390px) {
+      .metrics, .feature-grid { grid-template-columns: 1fr; }
+      .hero-buttons { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="index.html">
+    <span class="brand-mark">R</span>
+    <span>ROAM<span class="brand-x">X</span><small>LIVE CITY INTELLIGENCE</small></span>
+  </a>
+
+  <nav id="mainNav">
+    <a class="active" href="index.html">Overview</a>
+    <a href="map.html">Explore map</a>
+    <a href="environment.html">Environment</a>
+    <a href="resilience.html">Resilience</a>
+    <a href="news.html">World watch</a>
+  </nav>
+
+  <div class="system-status">INTERFACE READY</div>
+  <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+</header>
+
+<main class="container">
+
+  <section class="hero">
+    <div>
+      <div class="eyebrow">THE CITY, IN CLEARER VIEW</div>
+
+      <h1>
+        Move smarter.<br>
+        <span class="gradient">Live safer.</span>
+      </h1>
+
+      <p class="hero-description">
+        A connected view of your surroundings — discover useful places,
+        understand environmental conditions and prepare for unexpected events.
+        Welcome to a smarter way to explore your city.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="map.html" class="button button-primary">
+          Explore your city <span>↗</span>
+        </a>
+        <a href="resilience.html" class="hero-secondary">
+          Preparedness guide <span>→</span>
+        </a>
+      </div>
+
+      <div class="hero-meta">
+        <span>01 / URBAN MOBILITY</span>
+        <span>02 / ENVIRONMENT</span>
+        <span>03 / RESILIENCE</span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="visual-grid"></div>
+
+      <div class="radar">
+        <div class="ring"></div>
+        <div class="ring ring-two"></div>
+        <div class="sweep"></div>
+        <div class="radar-center"></div>
+        <div class="radar-point point-one"></div>
+        <div class="radar-point point-two"></div>
+        <div class="radar-point point-three"></div>
+      </div>
+
+      <div class="visual-label visual-top">ROAMX CITY NETWORK <b>READY</b></div>
+      <div class="visual-label visual-bottom">FIELD VIEW / 01.0</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">YOUR CITY SNAPSHOT</div>
+        <h2>One dashboard. <span class="muted">More awareness.</span></h2>
+      </div>
+      <div class="clock" id="clock">--:--:--</div>
+    </div>
+
+    <div class="metrics">
+      <article class="metric">
+        <div class="metric-label">WEATHER OUTLOOK</div>
+        <div class="metric-value" id="temperature">--°</div>
+        <div class="metric-note" id="weatherStatus">Loading conditions…</div>
+        <a href="environment.html" class="metric-link">VIEW WEATHER ↗</a>
+      </article>
+
+      <article class="metric">
+        <div class="metric-label">AIR QUALITY INDEX</div>
+        <div class="metric-value" id="airQuality">--</div>
+        <div class="metric-note" id="airStatus">Loading air quality…</div>
+        <a href="environment.html#air" class="metric-link">VIEW AIR QUALITY ↗</a>
+      </article>
+
+      <article class="metric">
+        <div class="metric-label">NEXT-HOUR RAIN CHANCE</div>
+        <div class="metric-value" id="rainChance">--%</div>
+        <div class="metric-note" id="rainStatus">Checking hourly forecast…</div>
+        <a href="environment.html" class="metric-link">VIEW FORECAST ↗</a>
+      </article>
+
+      <article class="metric">
+        <div class="metric-label">YOUR LOCATION</div>
+        <div class="metric-value" style="font-size:23px" id="locationName">Not set</div>
+        <div class="metric-note" id="locationStatus">Location permission needed</div>
+        <button id="locationBtn" class="metric-link" style="background:none;border:0;cursor:pointer">USE MY LOCATION ↗</button>
+      </article>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="section-heading">
+      <div>
+        <div class="eyebrow">EXPLORE ROAMX</div>
+        <h2>Built around <span class="muted">real-world needs.</span></h2>
+      </div>
+    </div>
+
+    <div class="feature-grid">
+      <a href="map.html" class="feature">
+        <div class="feature-number">01 / MOBILITY</div>
+        <div class="feature-icon">⌖</div>
+        <div>
+          <span class="feature-arrow">↗</span>
+          <h3>Explore map</h3>
+          <p>Discover hospitals, pharmacies, police stations, parks and useful places.</p>
+        </div>
+      </a>
+
+      <a href="environment.html" class="feature">
+        <div class="feature-number">02 / ENVIRONMENT</div>
+        <div class="feature-icon">☼</div>
+        <div>
+          <span class="feature-arrow">↗</span>
+          <h3>Sky & air</h3>
+          <p>Explore weather forecasts, rain outlook and air-quality estimates.</p>
+        </div>
+      </a>
+
+      <a href="resilience.html" class="feature">
+        <div class="feature-number">03 / PREPAREDNESS</div>
+        <div class="feature-icon">⬡</div>
+        <div>
+          <span class="feature-arrow">↗</span>
+          <h3>Resilience</h3>
+          <p>Learn practical safety steps for floods, cyclones, earthquakes and fires.</p>
+        </div>
+      </a>
+
+      <a href="news.html" class="feature">
+        <div class="feature-number">04 / WORLD WATCH</div>
+        <div class="feature-icon">◉</div>
+        <div>
+          <span class="feature-arrow">↗</span>
+          <h3>World watch</h3>
+          <p>Follow global reporting about disasters and extreme weather.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="mission">
+    <div>
+      <div class="eyebrow">A MORE RESILIENT TOMORROW</div>
+      <h2>Awareness is the first step<br>towards safer cities.</h2>
+    </div>
+    <div>
+      <p>
+        ROAMX is designed with the spirit of United Nations Sustainable
+        Development Goal 11 — Sustainable Cities and Communities.
+      </p>
+      <a href="resilience.html" class="button button-outline">Discover the mission ↗</a>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 ROAMX / STUDENT PROJECT</span>
+    <span>LEARN · EXPLORE · PREPARE</span>
+    <a href="about.html">ABOUT ROAMX ↗</a>
+  </footer>
+
+</main>
+
+<script>
+  const $ = id => document.getElementById(id);
+
+  function updateClock() {
+    $("clock").textContent = new Date().toLocaleTimeString([], {
+      hour12: false
+    });
+  }
+
+  updateClock();
+  setInterval(updateClock, 1000);
+
+  const defaultLocation = {
+    latitude: 11.0168,
+    longitude: 76.9558,
+    name: "Coimbatore (default)"
+  };
+
+  let activeLocation = defaultLocation;
+
+  function weatherDescription(code) {
+    const descriptions = {
+      0: "Clear sky",
+      1: "Mainly clear",
+      2: "Partly cloudy",
+      3: "Overcast",
+      45: "Fog",
+      48: "Fog",
+      51: "Light drizzle",
+      53: "Drizzle",
+      55: "Dense drizzle",
+      61: "Light rain",
+      63: "Moderate rain",
+      65: "Heavy rain",
+      80: "Rain showers",
+      81: "Moderate showers",
+      82: "Heavy showers",
+      95: "Thunderstorm"
+    };
+
+    return descriptions[code] || "Variable conditions";
+  }
+
+  async function loadCityData() {
+    const { latitude, longitude } = activeLocation;
+
+    try {
+      const weatherURL =
+        `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,weather_code&hourly=precipitation_probability&forecast_days=1&timezone=auto`;
+
+      const airURL =
+        `https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${latitude}&longitude=${longitude}&current=european_aqi&timezone=auto`;
+
+      const [weatherResponse, airResponse] = await Promise.all([
+        fetch(weatherURL),
+        fetch(airURL)
+      ]);
+
+      if (!weatherResponse.ok) throw new Error("Weather unavailable");
+
+      const weather = await weatherResponse.json();
+      const current = weather.current || {};
+      const rain = (weather.hourly?.precipitation_probability || []).slice(0, 2);
+      const rainProbability = rain.length ? Math.max(...rain) : 0;
+
+      $("temperature").textContent =
+        Math.round(current.temperature_2m) + "°";
+
+      $("weatherStatus").textContent =
+        weatherDescription(current.weather_code);
+
+      $("rainChance").textContent = rainProbability + "%";
+
+      $("rainStatus").textContent =
+        rainProbability >= 50
+          ? "Higher rain probability in the next hour"
+          : "Low-to-moderate rain probability";
+
+      if (airResponse.ok) {
+        const air = await airResponse.json();
+        const aqi = Math.round(air.current?.european_aqi ?? 0);
+
+        $("airQuality").textContent = aqi;
+
+        $("airStatus").textContent =
+          aqi <= 20 ? "Good air quality" :
+          aqi <= 40 ? "Fair air quality" :
+          aqi <= 60 ? "Moderate air quality" :
+          aqi <= 80 ? "Poor air quality" :
+          "Very poor air quality";
+      }
+
+    } catch (error) {
+      $("weatherStatus").textContent = "Forecast temporarily unavailable";
+      $("airStatus").textContent = "Air data temporarily unavailable";
+      $("rainStatus").textContent = "Try again later";
+    }
+  }
+
+  $("locationBtn").addEventListener("click", () => {
+    if (!navigator.geolocation) {
+      $("locationStatus").textContent = "Location is not supported";
+      return;
+    }
+
+    $("locationStatus").textContent = "Requesting permission…";
+
+    navigator.geolocation.getCurrentPosition(
+      position => {
+        activeLocation = {
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude,
+          name: "Your current location"
+        };
+
+        $("locationName").textContent = "Location set";
+        $("locationStatus").textContent = "Using device coordinates";
+        loadCityData();
+      },
+      () => {
+        $("locationStatus").textContent =
+          "Permission unavailable. Using Coimbatore default.";
+      }
+    );
+  });
+
+  const menuBtn = $("menuBtn");
+  menuBtn.addEventListener("click", () => {
+    $("mainNav").classList.toggle("open");
+  });
+
+  loadCityData();
+</script>
+</body>
+</html>
