@@ -240,51 +240,47 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-11T17:13:51Z",
-    "lastSuccessfulRun": "2026-11-11T17:13:51Z",
-    "lastUpdated": "2026-11-11T17:13:51Z",
-    "articlesAdded": 19,
+    "lastRun": "2026-11-11T18:33:16Z",
+    "lastSuccessfulRun": "2026-11-11T18:33:16Z",
+    "lastUpdated": "2026-11-11T18:33:16Z",
+    "articlesAdded": 5,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 39,
+    "duplicatesRemoved": 55,
     "failedSources": [],
     "newArticleIds": [
-      "8d60871660fa6f1d64a1",
-      "409fbc1327c207cf001f",
-      "b9a04de87f82c10452d4",
-      "b5a89d2c7647d14fdf7f",
-      "344113b61f68f63a1565",
-      "bac20e94e8b112bac5c3",
-      "ad1acd5524cab24f0f29",
-      "b6703e7bb4713c75da8b",
-      "abcf1a4d1a1e4e2c54f7",
-      "fd61d0dc90eb4be5b9a7",
-      "0e41d65a9a073dfa8a83",
-      "6c1f9f4b18f8beb23ba2",
-      "57751d1f79f0f07f4b04",
-      "a9ce1ba00e743e06a311",
-      "b436f28faf0c77621b48",
-      "1a2f42e1cf076f7ea1a6",
-      "7d1c67fce6cecc154912",
-      "f7b1c2920506dd709feb",
-      "78ddca879c4c57f133ef"
+      "dca5567d10621e2ed5e0",
+      "bdde93bd0e429cce442b",
+      "aeacf9e2a9c2ff3facae",
+      "7cec2e3d93b79945670c",
+      "da95e35982ec704cbdfe"
     ],
     "updatedArticleIds": [],
     "articlesRemoved": 0,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 56,
+    "totalArticles": 61,
     "categories": {
-      "World": 18,
+      "World": 19,
       "India": 8,
       "Technology": 4,
-      "Environment": 21,
-      "Disaster": 5
+      "Environment": 23,
+      "Disaster": 7
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "dca5567d10621e2ed5e0",
+      "title": "Amnesty International urges oil firms to fund Niger Delta environmental restoration - EnviroNews Nigeria",
+      "description": "Amnesty International urges oil firms to fund Niger Delta environmental restoration EnviroNews Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOWU0a19BT0d2UW5UcVVtOERqejVvc3ozVlo5RlhFZEVmdWJrQ1JaQkxpQTJ6cGZMY2J4Tmpfek9FTVFXVTV1U0dRNjNfS3Z6UHBTVTRjVkUwSmM0djRHVFVzRFdKQmRNb3lRYUs3NGw2YVg0SW84YWtCbGF6U1lxMmhINjdWLXo5MUQ2NVBRMmphazJXbjluRFBNSW8yWGxwQTV0WlQ1X1ZfakVTYXdwaW0taWUxR3ZOZGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOWU0a19BT0d2UW5UcVVtOERqejVvc3ozVlo5RlhFZEVmdWJrQ1JaQkxpQTJ6cGZMY2J4Tmpfek9FTVFXVTV1U0dRNjNfS3Z6UHBTVTRjVkUwSmM0djRHVFVzRFdKQmRNb3lRYUs3NGw2YVg0SW84YWtCbGF6U1lxMmhINjdWLXo5MUQ2NVBRMmphazJXbjluRFBNSW8yWGxwQTV0WlQ1X1ZfakVTYXdwaW0taWUxR3ZOZGc?oc=5",
+      "source": "EnviroNews Nigeria",
+      "category": "Environment",
+      "publishedAt": "2026-11-11T16:25:51Z"
+    },
     {
       "id": "19260c414baf9bb82aa7",
       "title": "UAE leads the way in empowering Arab women, says international advocate - The National",
@@ -366,6 +362,16 @@
       "publishedAt": "2026-11-11T13:04:10Z"
     },
     {
+      "id": "bdde93bd0e429cce442b",
+      "title": "12 free reports about climate change for COP31 - Yale Climate Connections",
+      "description": "12 free reports about climate change for COP31 Yale Climate Connections",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWkJKRkVRWTlMRW9ibnRhc2phWTAyWjJhcjRoamtjcnM1TURhSFQ2cmIwaHNaQWFyaG5VeTRRSWtnMTVObGw4LURTVzZUbWVVN2ZJV3QxczlSdWdCaFVzai01QmRkbi1QbjdiQUpBRUNyaGU3YkpEU1doY2pZdHZ0ZkhvLS1oVzJiV1dWLU9FdGFoRDZP?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWkJKRkVRWTlMRW9ibnRhc2phWTAyWjJhcjRoamtjcnM1TURhSFQ2cmIwaHNaQWFyaG5VeTRRSWtnMTVObGw4LURTVzZUbWVVN2ZJV3QxczlSdWdCaFVzai01QmRkbi1QbjdiQUpBRUNyaGU3YkpEU1doY2pZdHZ0ZkhvLS1oVzJiV1dWLU9FdGFoRDZP?oc=5",
+      "source": "Yale Climate Connections",
+      "category": "Environment",
+      "publishedAt": "2026-11-11T11:59:00Z"
+    },
+    {
       "id": "da7b371c5cba365cd011",
       "title": "COP31 POLICY AND INVESTMENT BRIEF BY THE WORLD FOOD PROGRAMME (WFP) AND INTERNATIONAL CENTER FOR INTEGRATED MOUNTAIN DEVELOPMENT (ICIMOD) - ReliefWeb",
       "description": "COP31 POLICY AND INVESTMENT BRIEF BY THE WORLD FOOD PROGRAMME (WFP) AND INTERNATIONAL CENTER FOR INTEGRATED MOUNTAIN DEVELOPMENT (ICIMOD) ReliefWeb",
@@ -414,6 +420,16 @@
       "source": "The Economic Times",
       "category": "World",
       "publishedAt": "2026-11-11T09:56:38Z"
+    },
+    {
+      "id": "aeacf9e2a9c2ff3facae",
+      "title": "$70,000 OPT fee could drive international students away from US, universities warn - The Times of India",
+      "description": "$70,000 OPT fee could drive international students away from US, universities warn The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNHZjOVlyUlp1eG5mNVQwSS1nRndFejFXSzRueElYTXE1d0VHN09xMWtZblZnQlNtZEdfVTRsak80RWNXSHBqbkFJOURpd3VhQ1hVeVk5UHRrX25yZ2JMZkFLRXZUNVIxU05IM21KWlZ5dE5fWC1DSW5hVEtfWFNMTVk1bGt6T1l4XzBlUks3cXVLQ0MyQkd5YTR5TElEdzhnUDJIRWx2U1ppdl9Kbmx2eFlVX3J3NXVLQ2l6NzdVbGQ3ek1uZnoyaEJXU1RJQTY3R2VuYXVBWVA4YkVVTUFNSzlmN0HSAeoBQVVfeXFMTlZwRXBiWGNraWpoTXdYdTd5by1zOW9Wa3RqTHFpeS1sUVdiVzNOd3NaNktvaDVkSG5ZenpBTGNXYXNwZDRxMXByWHNRT08tTUxlY0d6ZUxIZ281aUV2bjJVOU9kdFc3U1RsSkc0Ql85TXAzTXNycXp1TkFuLWJSNnllZDJCWWtSZDJGT1U5d1hwczRoeWVHalFHZ09WWFZ4OUR4Q2laTWUzcWRxdnZkMWZ5a2F0VW0xWTVtQTFQRmpoTTBkaU5aWWNzdlViZG1wQ2dmbGdSODM5ek5kc3hKYS1DY1cwMzJXZk13?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNHZjOVlyUlp1eG5mNVQwSS1nRndFejFXSzRueElYTXE1d0VHN09xMWtZblZnQlNtZEdfVTRsak80RWNXSHBqbkFJOURpd3VhQ1hVeVk5UHRrX25yZ2JMZkFLRXZUNVIxU05IM21KWlZ5dE5fWC1DSW5hVEtfWFNMTVk1bGt6T1l4XzBlUks3cXVLQ0MyQkd5YTR5TElEdzhnUDJIRWx2U1ppdl9Kbmx2eFlVX3J3NXVLQ2l6NzdVbGQ3ek1uZnoyaEJXU1RJQTY3R2VuYXVBWVA4YkVVTUFNSzlmN0HSAeoBQVVfeXFMTlZwRXBiWGNraWpoTXdYdTd5by1zOW9Wa3RqTHFpeS1sUVdiVzNOd3NaNktvaDVkSG5ZenpBTGNXYXNwZDRxMXByWHNRT08tTUxlY0d6ZUxIZ281aUV2bjJVOU9kdFc3U1RsSkc0Ql85TXAzTXNycXp1TkFuLWJSNnllZDJCWWtSZDJGT1U5d1hwczRoeWVHalFHZ09WWFZ4OUR4Q2laTWUzcWRxdnZkMWZ5a2F0VW0xWTVtQTFQRmpoTTBkaU5aWWNzdlViZG1wQ2dmbGdSODM5ek5kc3hKYS1DY1cwMzJXZk13?oc=5",
+      "source": "The Times of India",
+      "category": "World",
+      "publishedAt": "2026-11-11T09:51:00Z"
     },
     {
       "id": "4a4b937a482d8312e0d8",
@@ -544,6 +560,16 @@
       "source": "Vietnam.vn",
       "category": "Technology",
       "publishedAt": "2026-11-11T03:44:06Z"
+    },
+    {
+      "id": "7cec2e3d93b79945670c",
+      "title": "Gauteng weather alert: Temperatures to reach above 35°C as second heatwave hits province - The Citizen",
+      "description": "Gauteng weather alert: Temperatures to reach above 35°C as second heatwave hits province The Citizen",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLUpjM3pTSEo4cnU5WEwxRDV4OFl0eXhWYjllY1VzLVVWTWpnUi1RX25TRVE4QVAxRnFqOFRuMG5iczBQWEtacy1wMkNEN3lUVnRGTlFzSDVjUUVZTHQ1WktnU1A5dnlQUVBNb3owaXpIZ013NlhXVF9DOXNkaGs2SDliZzEzLUFGNFpNMHNtU3B0S3NIYU0zY2tRUmt2Vkhlc1dCV01OVFJPQmxCNnFrMlA1eGZjdEwzVEVHZ1k5X0d2MzNNb3hDQVFOY1A5Z3RkdHZKb19iOA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLUpjM3pTSEo4cnU5WEwxRDV4OFl0eXhWYjllY1VzLVVWTWpnUi1RX25TRVE4QVAxRnFqOFRuMG5iczBQWEtacy1wMkNEN3lUVnRGTlFzSDVjUUVZTHQ1WktnU1A5dnlQUVBNb3owaXpIZ013NlhXVF9DOXNkaGs2SDliZzEzLUFGNFpNMHNtU3B0S3NIYU0zY2tRUmt2Vkhlc1dCV01OVFJPQmxCNnFrMlA1eGZjdEwzVEVHZ1k5X0d2MzNNb3hDQVFOY1A5Z3RkdHZKb19iOA?oc=5",
+      "source": "The Citizen",
+      "category": "Disaster",
+      "publishedAt": "2026-11-11T03:03:50Z"
     },
     {
       "id": "8c5641d172589257c094",
@@ -836,6 +862,16 @@
       "publishedAt": "2026-11-05T17:31:38Z"
     },
     {
+      "id": "da95e35982ec704cbdfe",
+      "title": "Friday’s weather: Thunderstorms, hail and flood warning for 5 provinces - News24",
+      "description": "Friday’s weather: Thunderstorms, hail and flood warning for 5 provinces News24",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMEp0NWN0d1hwWGNFbHlRVDNGSHVhQ1NEWkRranFaNXRUZWpPZUUtLWMxeWFSbU5FOTBISmw5cnl6amhrNHEwYkFmNzBscWZMUVlhYWVOOUpQRk9xSDQ4Ql9FOU5menR0cXdkSUR6cXNadU1xeXR5UmRxMHpvZUwyMjFKckhFRXBTajNRYk5wX3RINjdBOFZXQjlmeUpmWThGTWo0QXJWaDAyc2JGYm53c3VMeGFNUXZzal9vbU02d2hpYnc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMEp0NWN0d1hwWGNFbHlRVDNGSHVhQ1NEWkRranFaNXRUZWpPZUUtLWMxeWFSbU5FOTBISmw5cnl6amhrNHEwYkFmNzBscWZMUVlhYWVOOUpQRk9xSDQ4Ql9FOU5menR0cXdkSUR6cXNadU1xeXR5UmRxMHpvZUwyMjFKckhFRXBTajNRYk5wX3RINjdBOFZXQjlmeUpmWThGTWo0QXJWaDAyc2JGYm53c3VMeGFNUXZzal9vbU02d2hpYnc?oc=5",
+      "source": "News24",
+      "category": "Disaster",
+      "publishedAt": "2026-11-05T16:36:50Z"
+    },
+    {
       "id": "78ddca879c4c57f133ef",
       "title": "White House Watch: Tracking Attacks on Our Environment & Health - NRDC",
       "description": "White House Watch: Tracking Attacks on Our Environment & Health NRDC",
@@ -846,6 +882,6 @@
       "publishedAt": "2026-11-05T12:00:00Z"
     }
   ],
-  "lastUpdated": "2026-11-11T17:13:51Z",
-  "updatedAt": "2026-11-11T17:13:51Z"
+  "lastUpdated": "2026-11-11T18:33:16Z",
+  "updatedAt": "2026-11-11T18:33:16Z"
 }
