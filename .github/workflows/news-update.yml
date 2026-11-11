@@ -33,7 +33,7 @@ jobs:
           fi
 
       - name: Collect latest news
-        run: python scripts/update_news.py
+        run: python news_collector.py
 
       - name: Save updated news
         run: |
