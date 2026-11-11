@@ -240,9 +240,9 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-11T17:01:24Z",
+    "lastRun": "2026-11-11T17:02:28Z",
     "lastSuccessfulRun": null,
-    "lastUpdated": "2026-11-11T17:01:24Z",
+    "lastUpdated": "2026-11-11T17:02:28Z",
     "articlesAdded": 0,
     "articlesUpdated": 0,
     "duplicatesRemoved": 0,
@@ -302,6 +302,6 @@
     "failedSources": 9
   },
   "articles": [],
-  "lastUpdated": "2026-11-11T17:01:24Z",
-  "updatedAt": "2026-11-11T17:01:24Z"
+  "lastUpdated": "2026-11-11T17:02:28Z",
+  "updatedAt": "2026-11-11T17:02:28Z"
 }
