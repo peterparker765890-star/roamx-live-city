@@ -240,68 +240,440 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-11T17:02:28Z",
-    "lastSuccessfulRun": null,
-    "lastUpdated": "2026-11-11T17:02:28Z",
-    "articlesAdded": 0,
+    "lastRun": "2026-11-11T17:13:31Z",
+    "lastSuccessfulRun": "2026-11-11T17:13:31Z",
+    "lastUpdated": "2026-11-11T17:13:31Z",
+    "articlesAdded": 37,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 0,
-    "failedSources": [
-      {
-        "source": "world_global",
-        "error": "RSS source has no feed URL."
-      },
-      {
-        "source": "sdg_cities",
-        "error": "RSS source has no feed URL."
-      },
-      {
-        "source": "india_news",
-        "error": "RSS source has no feed URL."
-      },
-      {
-        "source": "technology_news",
-        "error": "RSS source has no feed URL."
-      },
-      {
-        "source": "environment_news",
-        "error": "RSS source has no feed URL."
-      },
-      {
-        "source": "india_environment",
-        "error": "RSS source has no feed URL."
-      },
-      {
-        "source": "disaster_global",
-        "error": "RSS source has no feed URL."
-      },
-      {
-        "source": "disaster_india",
-        "error": "RSS source has no feed URL."
-      },
-      {
-        "source": "weather_global",
-        "error": "RSS source has no feed URL."
-      }
+    "duplicatesRemoved": 3,
+    "failedSources": [],
+    "newArticleIds": [
+      "19260c414baf9bb82aa7",
+      "5610d020d1f6944ed1db",
+      "45b1d0f68a0136c361a1",
+      "b87adbdf16328b1e79dc",
+      "7e48178d9b6ad6d3350f",
+      "b33f530620fa81feede2",
+      "da7b371c5cba365cd011",
+      "3c6737887bd7a8183deb",
+      "2a09b1b997b6a3b0a737",
+      "38d5dd3b2297befe647b",
+      "4a4b937a482d8312e0d8",
+      "51ab86416af8b481ff26",
+      "53e19ad621064d177258",
+      "15e46846ea118c4411b8",
+      "6cb2625b21b844f0c2bf",
+      "f02ba54b33a047b9e68b",
+      "4fa30114936ec1dcf50f",
+      "08c461786d1036a0c914",
+      "426add1f6e3bfee8f165",
+      "a997b91f1fe258a45b1d",
+      "76a33489df4c945e2cd7",
+      "8c5641d172589257c094",
+      "b7d19fc565bf85e82b56",
+      "fa765e6811995ab4d5fe",
+      "dac6fb04cbb6cfd51f4c",
+      "d0f14e1bd1156cc9f236",
+      "d44f972de11a04b10516",
+      "7b36421a409a3e12b0f4",
+      "adb3044ef302bc14467e",
+      "59d6a40414c108ff8c9a",
+      "05e6bf42cc67a702267f",
+      "aa4a6f60ae939970c759",
+      "5dc0b34ef0346e837b89",
+      "e4b6f3ed3dbb0177615d",
+      "76b8ab6e61aab78670b1",
+      "6ead3989448494c7a76c",
+      "243fea98aeca362d92d7"
     ],
-    "newArticleIds": [],
     "updatedArticleIds": [],
     "articlesRemoved": 0,
-    "successfulSources": 0
+    "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 0,
+    "totalArticles": 37,
     "categories": {
-      "World": 0,
-      "India": 0,
-      "Technology": 0,
-      "Environment": 0,
-      "Disaster": 0
+      "World": 18,
+      "India": 8,
+      "Technology": 4,
+      "Environment": 2,
+      "Disaster": 5
     },
-    "successfulSources": 0,
-    "failedSources": 9
+    "successfulSources": 9,
+    "failedSources": 0
   },
-  "articles": [],
-  "lastUpdated": "2026-11-11T17:02:28Z",
-  "updatedAt": "2026-11-11T17:02:28Z"
+  "articles": [
+    {
+      "id": "19260c414baf9bb82aa7",
+      "title": "UAE leads the way in empowering Arab women, says international advocate - The National",
+      "description": "UAE leads the way in empowering Arab women, says international advocate The National",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQS11VkJtUmxzOGtxUHNOcXllS1J3N3lCWGtDSFlYbGpFcm5HSkp2X0k4QUFpdW95VjZrSjRYMDhJaHQ2UDZVNVJuQkpMeTdLelpRdXNxUkRnWEQtdFVjcXl2RXZNQ0NCaVFmdDd6djFFSHY3bFQyb2hrbEZZMWI2TTZRV0ZvWjFKSHlxM3Q0SmdpVlp5RkN5dDUyUXc0WTd2V1pCNElzRGZsb2VzNVc5ZW9welVPMDFsM2F5clpHckM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQS11VkJtUmxzOGtxUHNOcXllS1J3N3lCWGtDSFlYbGpFcm5HSkp2X0k4QUFpdW95VjZrSjRYMDhJaHQ2UDZVNVJuQkpMeTdLelpRdXNxUkRnWEQtdFVjcXl2RXZNQ0NCaVFmdDd6djFFSHY3bFQyb2hrbEZZMWI2TTZRV0ZvWjFKSHlxM3Q0SmdpVlp5RkN5dDUyUXc0WTd2V1pCNElzRGZsb2VzNVc5ZW9welVPMDFsM2F5clpHckM?oc=5",
+      "source": "The National",
+      "category": "World",
+      "publishedAt": "2026-11-11T15:28:31Z"
+    },
+    {
+      "id": "5610d020d1f6944ed1db",
+      "title": "UN chief urges world leaders to tackle fossil fuels at COP31 - International - World - Ahram Online",
+      "description": "UN chief urges world leaders to tackle fossil fuels at COP31 - International - World Ahram Online",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSWZuMUhQVV9iWmtLYmxNOERpN3M4VFEzMXQ3c1FtNXotdmVpeThWekhUd3JwelRrVXVMRHFIdDFRZzZ0VF92M2xCQy01WWZUSjU3clRuSUNVSm1nVjRuMFRNdGVTNGhKVHBtNEp5MXlfQzNWeGl3Zk5PR0tNSHZqTkZ1eFEyZ1VUQXJVT2FwdkFINnM1aXJkbFpnZ01xRlNoMnU0ZFpqNEJDakdWOWEwR1lCQnhQd011azJpaS1rempNUHBLcmc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSWZuMUhQVV9iWmtLYmxNOERpN3M4VFEzMXQ3c1FtNXotdmVpeThWekhUd3JwelRrVXVMRHFIdDFRZzZ0VF92M2xCQy01WWZUSjU3clRuSUNVSm1nVjRuMFRNdGVTNGhKVHBtNEp5MXlfQzNWeGl3Zk5PR0tNSHZqTkZ1eFEyZ1VUQXJVT2FwdkFINnM1aXJkbFpnZ01xRlNoMnU0ZFpqNEJDakdWOWEwR1lCQnhQd011azJpaS1rempNUHBLcmc?oc=5",
+      "source": "Ahram Online",
+      "category": "World",
+      "publishedAt": "2026-11-11T14:03:52Z"
+    },
+    {
+      "id": "45b1d0f68a0136c361a1",
+      "title": "Severe Thunderstorm Warnings Hit Australia's Queensland, NSW - Tempo.co English",
+      "description": "Severe Thunderstorm Warnings Hit Australia's Queensland, NSW Tempo.co English",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLVliNTZhTlp5alBEVXhXaGNqRWpqWFMwMzNMQTV2OVVBS3lPVVFsejM5ZWI4cDdWSkZWTkkwLTBUb2pVWTJTUHVkM1pqNXc0cko5bzdmNDYtMFcwdTFjUno5QWFaMGhPdGtLd0JkX1h5U092dDdkTEloZm5YWmRGUDhFNTF0LXJZZFUzNW1oaENkVGNoaXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLVliNTZhTlp5alBEVXhXaGNqRWpqWFMwMzNMQTV2OVVBS3lPVVFsejM5ZWI4cDdWSkZWTkkwLTBUb2pVWTJTUHVkM1pqNXc0cko5bzdmNDYtMFcwdTFjUno5QWFaMGhPdGtLd0JkX1h5U092dDdkTEloZm5YWmRGUDhFNTF0LXJZZFUzNW1oaENkVGNoaXc?oc=5",
+      "source": "Tempo.co English",
+      "category": "Disaster",
+      "publishedAt": "2026-11-11T13:28:43Z"
+    },
+    {
+      "id": "b87adbdf16328b1e79dc",
+      "title": "World leaders urge stronger and faster action at UN climate talks over inadequate response - The Economic Times",
+      "description": "World leaders urge stronger and faster action at UN climate talks over inadequate response The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNSHdVUmZXYkFqaTFOZjgxQzFIT2Nna0NPczJjMGNPX2JidFFmdWpUTFRfN1UzREVMa25VaWc2bFQ3eVlZZGl1dWM3ajNkSk5wbnFVdnNJOXNOcjd1cy0zRXY3WExSenl0QkZNNXEwN1g3X1Yxa2RqUkhkQVk0a2Y4NDlqbl9Fc3ExOEtpTDBoX2Y4aV9tOFROODgxTnd0d1pRNEFWX2hfc2YyS3NPMmJ5X3UwOXlGeWliNUxieEQ5S0M5UUpNQzhJZk1mN09aTHpBaUZzdFE4RFQ4OVNFaDlKV25OSVJwVC1oeVJiQkxWZzJ1YTZVY1lGdl9UamFjMnhid09XTtIBigJBVV95cUxQcFMyNDMzV1V4ZTQ3dkc0c01zV1RpbVVjOVpBX0QxXzlfcTlkZFNLNlN0bDJCVEVGUnF1bm5mbEVoVmlLNnAtaDRqSFBObEx2UEdUWTRJSnRKcHlmZldHSEpFeTVJQjZoajFHS1VzV0xKeVRsMkdKem5LVmp2SHlHSTNHVnR6Z3dGOS00N1M2RTVDN3E2cmZQSWxzWE1NZHhLcTNYNFdaSjJqWkZhU1VVdy1kZ3FGOFBCMkRSSXVCZHNkMllRWFE1aFRFdDhLY2t1Wi1sUkk1UEdxN2RrQ1dXRWJmTW5YVlNGOFFOTUFsS25hQzRKWEdPS2xNU3c2dFEyOERpUzVNcUd5UQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNSHdVUmZXYkFqaTFOZjgxQzFIT2Nna0NPczJjMGNPX2JidFFmdWpUTFRfN1UzREVMa25VaWc2bFQ3eVlZZGl1dWM3ajNkSk5wbnFVdnNJOXNOcjd1cy0zRXY3WExSenl0QkZNNXEwN1g3X1Yxa2RqUkhkQVk0a2Y4NDlqbl9Fc3ExOEtpTDBoX2Y4aV9tOFROODgxTnd0d1pRNEFWX2hfc2YyS3NPMmJ5X3UwOXlGeWliNUxieEQ5S0M5UUpNQzhJZk1mN09aTHpBaUZzdFE4RFQ4OVNFaDlKV25OSVJwVC1oeVJiQkxWZzJ1YTZVY1lGdl9UamFjMnhid09XTtIBigJBVV95cUxQcFMyNDMzV1V4ZTQ3dkc0c01zV1RpbVVjOVpBX0QxXzlfcTlkZFNLNlN0bDJCVEVGUnF1bm5mbEVoVmlLNnAtaDRqSFBObEx2UEdUWTRJSnRKcHlmZldHSEpFeTVJQjZoajFHS1VzV0xKeVRsMkdKem5LVmp2SHlHSTNHVnR6Z3dGOS00N1M2RTVDN3E2cmZQSWxzWE1NZHhLcTNYNFdaSjJqWkZhU1VVdy1kZ3FGOFBCMkRSSXVCZHNkMllRWFE1aFRFdDhLY2t1Wi1sUkk1UEdxN2RrQ1dXRWJmTW5YVlNGOFFOTUFsS25hQzRKWEdPS2xNU3c2dFEyOERpUzVNcUd5UQ?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-11T13:23:38Z"
+    },
+    {
+      "id": "7e48178d9b6ad6d3350f",
+      "title": "Cyprus, Israel move towards new environmental cooperation agreement - Cyprus Mail",
+      "description": "Cyprus, Israel move towards new environmental cooperation agreement Cyprus Mail",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc21mQ2xkV0U3ZU1Jd3VsUERBMEJQbHJzQjBkRkFBcmt4QXNqZkpNRUpHaFduWlhoOVhmZy1UbXdyd1VleHdFSXhVUXNzNzhBLTdzRGVpdjdSYWtKcDVtbGRsdkpFQnlhWTVhb1JUZ05NY3N3X0ZhcHNjcVNiNnVnMG4xZU52YXNLdF9sbHpZdFNJMzRWQ2k0RDlXRUZ5LVpDVU13?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc21mQ2xkV0U3ZU1Jd3VsUERBMEJQbHJzQjBkRkFBcmt4QXNqZkpNRUpHaFduWlhoOVhmZy1UbXdyd1VleHdFSXhVUXNzNzhBLTdzRGVpdjdSYWtKcDVtbGRsdkpFQnlhWTVhb1JUZ05NY3N3X0ZhcHNjcVNiNnVnMG4xZU52YXNLdF9sbHpZdFNJMzRWQ2k0RDlXRUZ5LVpDVU13?oc=5",
+      "source": "Cyprus Mail",
+      "category": "Environment",
+      "publishedAt": "2026-11-11T13:23:12Z"
+    },
+    {
+      "id": "b33f530620fa81feede2",
+      "title": "Austria tightens laws against spying to protect the international organizations it hosts - Idaho Press",
+      "description": "Austria tightens laws against spying to protect the international organizations it hosts Idaho Press",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNWGktRGNHdU9mOW5EbHlmX01SaDVGSEtrb3o4YmJkQWdpUno2bExDZHYtVW1aWFN3QXRPWWRoTkZIVVh5Ml9xRmRMdkdjT2h1eXlOeEhDWnVBNzlQQWhVczFDUk9sQXhTYXhBQWhibWY4WkNqRlJ5dzBHUS0yWm9qQ0xaSDZwSHpzb01HQXlIbGt5TEcwcFRCTVpLZWlqZEliLVd2VHVsYlBrblcwSGlMdk91QTNXZzJ5dUk2UFZCZllGdWJWSVVZMWhWUEo2TEZxZ0tjRzd5WGNvZXZnNVJtNlV1RjlLdHYtMndjbHpQN3RSbVpHWjlpSFR1VWpYYkplWjZtTXkxbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNWGktRGNHdU9mOW5EbHlmX01SaDVGSEtrb3o4YmJkQWdpUno2bExDZHYtVW1aWFN3QXRPWWRoTkZIVVh5Ml9xRmRMdkdjT2h1eXlOeEhDWnVBNzlQQWhVczFDUk9sQXhTYXhBQWhibWY4WkNqRlJ5dzBHUS0yWm9qQ0xaSDZwSHpzb01HQXlIbGt5TEcwcFRCTVpLZWlqZEliLVd2VHVsYlBrblcwSGlMdk91QTNXZzJ5dUk2UFZCZllGdWJWSVVZMWhWUEo2TEZxZ0tjRzd5WGNvZXZnNVJtNlV1RjlLdHYtMndjbHpQN3RSbVpHWjlpSFR1VWpYYkplWjZtTXkxbw?oc=5",
+      "source": "Idaho Press",
+      "category": "World",
+      "publishedAt": "2026-11-11T13:04:10Z"
+    },
+    {
+      "id": "da7b371c5cba365cd011",
+      "title": "COP31 POLICY AND INVESTMENT BRIEF BY THE WORLD FOOD PROGRAMME (WFP) AND INTERNATIONAL CENTER FOR INTEGRATED MOUNTAIN DEVELOPMENT (ICIMOD) - ReliefWeb",
+      "description": "COP31 POLICY AND INVESTMENT BRIEF BY THE WORLD FOOD PROGRAMME (WFP) AND INTERNATIONAL CENTER FOR INTEGRATED MOUNTAIN DEVELOPMENT (ICIMOD) ReliefWeb",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOa3FlVnczYzFSNnRrVW9ib0pubHpTYktCa1N0ZEhpRWpuY0JpNGdleGFKNXd5aHc5TU5NS1YzemlpM2c4eUZ3c095UnZSMUVJbXZ2N05yT2J3bVpIV0lHNFZFWWZ4a21tWnl2bHdzYlpvZ281TWY3d2w2cDZoSzlTeVA0VFdNNWliXzY2UHVScU5aMDh0bnlQd0ZkcW5rMFY1Q19YLUdZUWdscDJpZTJCdmJ3bXVaNGpfX2JWTFBMRG9OM3Rkak0xemFzclVpNl94Z1VraWhBMWdYc2lfQUlMNjNSZFBib1F5S0lDV04wR2dpdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOa3FlVnczYzFSNnRrVW9ib0pubHpTYktCa1N0ZEhpRWpuY0JpNGdleGFKNXd5aHc5TU5NS1YzemlpM2c4eUZ3c095UnZSMUVJbXZ2N05yT2J3bVpIV0lHNFZFWWZ4a21tWnl2bHdzYlpvZ281TWY3d2w2cDZoSzlTeVA0VFdNNWliXzY2UHVScU5aMDh0bnlQd0ZkcW5rMFY1Q19YLUdZUWdscDJpZTJCdmJ3bXVaNGpfX2JWTFBMRG9OM3Rkak0xemFzclVpNl94Z1VraWhBMWdYc2lfQUlMNjNSZFBib1F5S0lDV04wR2dpdw?oc=5",
+      "source": "ReliefWeb",
+      "category": "World",
+      "publishedAt": "2026-11-11T11:31:21Z"
+    },
+    {
+      "id": "3c6737887bd7a8183deb",
+      "title": "Bangladesh Seeks International Pressure for Safe Rohingya Repatriation to Myanmar - UrduPoint",
+      "description": "Bangladesh Seeks International Pressure for Safe Rohingya Repatriation to Myanmar UrduPoint",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMXdZR2toelRIRUk3czA1N2toWHdRYWZrS2VHcnB3bzU1N0U0LVVBTnRIWEd4RTc4MHNfNHhJaVR2YmdDS3U2WFRDSHJyMWxYeDZpSkhELVdPbG9WRmlNREZVNDBRTzBZSUNraVFPT252bjgyOFBXamlCbkp0bXRjeE1Vd2M4dURaS3Zadk1QbzFfTWR6SlF4cg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMXdZR2toelRIRUk3czA1N2toWHdRYWZrS2VHcnB3bzU1N0U0LVVBTnRIWEd4RTc4MHNfNHhJaVR2YmdDS3U2WFRDSHJyMWxYeDZpSkhELVdPbG9WRmlNREZVNDBRTzBZSUNraVFPT252bjgyOFBXamlCbkp0bXRjeE1Vd2M4dURaS3Zadk1QbzFfTWR6SlF4cg?oc=5",
+      "source": "UrduPoint",
+      "category": "World",
+      "publishedAt": "2026-11-11T10:45:15Z"
+    },
+    {
+      "id": "2a09b1b997b6a3b0a737",
+      "title": "Cabinet Approves extension of Aqua Line Metro Rail Corridor from Noida Sector-51 to Greater Noida Sector-04 of route length of 8.449 Km with 5 stations - PM India",
+      "description": "Cabinet Approves extension of Aqua Line Metro Rail Corridor from Noida Sector-51 to Greater Noida Sector-04 of route length of 8.449 Km with 5 stations PM India",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxONjVyWjZYSGw4QVFLdXp6ak9MQV8xdFR6TjdZWEJLXzl3NHF6UVpqMDdXSHVaSExNZnE0dl9zb3ZJU3NnWjdmcHdtOW5CZHRWODZpMjJncU12OG9Sd1NlSVhQcEtrWTZyNmVLUjNYNUVCVDY4dkJaai01S2R6QlBwcUVvTFd4Nm1rN0hRc3V5ZXQ5Y3otRHRwWkpCOTJYeTdhZVdCc21VSnc4YlFTNFV0d3BuSTdyVUp2azlvOWdIQ0M3VU1RRnctY0RTUlVBMkVWMk1Ma1I5WklLYTlXZEh1dm0wb2phYXBoaWRDWHgtd3o0V2d4XzcteTg5UW9lQzhvLXZ2ZnpBOWVJa1JtQkJZdjZEV0Zya01tTmpfSllfTC1BTzNEU2tZS296S2Q4Z0RHcEJ2WjVR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxONjVyWjZYSGw4QVFLdXp6ak9MQV8xdFR6TjdZWEJLXzl3NHF6UVpqMDdXSHVaSExNZnE0dl9zb3ZJU3NnWjdmcHdtOW5CZHRWODZpMjJncU12OG9Sd1NlSVhQcEtrWTZyNmVLUjNYNUVCVDY4dkJaai01S2R6QlBwcUVvTFd4Nm1rN0hRc3V5ZXQ5Y3otRHRwWkpCOTJYeTdhZVdCc21VSnc4YlFTNFV0d3BuSTdyVUp2azlvOWdIQ0M3VU1RRnctY0RTUlVBMkVWMk1Ma1I5WklLYTlXZEh1dm0wb2phYXBoaWRDWHgtd3o0V2d4XzcteTg5UW9lQzhvLXZ2ZnpBOWVJa1JtQkJZdjZEV0Zya01tTmpfSllfTC1BTzNEU2tZS296S2Q4Z0RHcEJ2WjVR?oc=5",
+      "source": "PM India",
+      "category": "India",
+      "publishedAt": "2026-11-11T10:34:47Z"
+    },
+    {
+      "id": "38d5dd3b2297befe647b",
+      "title": "Climate crisis is outrunning world, UN chief Antonio Guterres warns leaders at COP31 - The Economic Times",
+      "description": "Climate crisis is outrunning world, UN chief Antonio Guterres warns leaders at COP31 The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNXN3UXlvemkwMjMyMEhWM0F6MXYzeUh3Y1VUMUF5SnpTY1NtS3B2N1kwaklpamItdGg2OWVqNGFYY2NsQjNHcE9aLWtLVk9xTTZONEI1WjUtcWhXWFVod0hoYk1mSFVQNmFlNHhUcE1oVDNPNEhzcEFlMER3NklpVGd5X2w5NlY2RnlUY2JkZWItZ2NKX0xOT1h3SDRoTUplcE9iWFlVbjRUVnNjRXp3Y0RsWTd0QlE3anZBOU10bEhWMWtRQmJ1XzlNajVISzJ0NEY5UGZyUFdVR3QwWEg5VG1VU3Q0cWdmVEk2NUpGYUNLZnBkMGc2TmxTWdIBgAJBVV95cUxOZGRtbmV6V0hEOGh0MEhEUGFEeG9MWkVhSE5FM3d1ODd4ZXNrYmQyTUF1Q1Nld1U0VFRzMzRmM0VzR3R2dFVGbXY2YjRTSUU0Sm1PR3dEb29FTVcwZDlzV1hmeDllMGlBeEpIQ1ZCTmYtS3YzbHZSQlBoLVpUT0JiWFVqMVRaN0JVejlNcGxtd0RDdjMzSF9VaGcxYlluUVBhbG03WFJhVU1NekIwUWVhdG5LREkxNktsMEJEbTJ6WnJxWXNYUjU4RE12Nmlyd0E5d292Z09HcXY2UFpUczN5NWE2MThxWXczd2dlNHVOa2UwNHd6MW1iZGdsOUQ1QTV3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNXN3UXlvemkwMjMyMEhWM0F6MXYzeUh3Y1VUMUF5SnpTY1NtS3B2N1kwaklpamItdGg2OWVqNGFYY2NsQjNHcE9aLWtLVk9xTTZONEI1WjUtcWhXWFVod0hoYk1mSFVQNmFlNHhUcE1oVDNPNEhzcEFlMER3NklpVGd5X2w5NlY2RnlUY2JkZWItZ2NKX0xOT1h3SDRoTUplcE9iWFlVbjRUVnNjRXp3Y0RsWTd0QlE3anZBOU10bEhWMWtRQmJ1XzlNajVISzJ0NEY5UGZyUFdVR3QwWEg5VG1VU3Q0cWdmVEk2NUpGYUNLZnBkMGc2TmxTWdIBgAJBVV95cUxOZGRtbmV6V0hEOGh0MEhEUGFEeG9MWkVhSE5FM3d1ODd4ZXNrYmQyTUF1Q1Nld1U0VFRzMzRmM0VzR3R2dFVGbXY2YjRTSUU0Sm1PR3dEb29FTVcwZDlzV1hmeDllMGlBeEpIQ1ZCTmYtS3YzbHZSQlBoLVpUT0JiWFVqMVRaN0JVejlNcGxtd0RDdjMzSF9VaGcxYlluUVBhbG03WFJhVU1NekIwUWVhdG5LREkxNktsMEJEbTJ6WnJxWXNYUjU4RE12Nmlyd0E5d292Z09HcXY2UFpUczN5NWE2MThxWXczd2dlNHVOa2UwNHd6MW1iZGdsOUQ1QTV3?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-11T09:56:38Z"
+    },
+    {
+      "id": "4a4b937a482d8312e0d8",
+      "title": "Acton Belle Property International Moth Worlds 2026 at Mounts Bay Sailing Club - Day 5 - Sail-World.com",
+      "description": "Acton Belle Property International Moth Worlds 2026 at Mounts Bay Sailing Club - Day 5 Sail-World.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdXVEc0ZEbmpyay1EVXg0SFo5S0N4YU1PQm9fUXNFQzJBLTg3NzhzbnlzQ1ptRmZaUnJIeElOVFk1cDZkY0lCTDlPc2o2eGU0bC0yd1lDVE00N2lsNlJzLWRZaUVZdWdQNm82c2g3YWU3b3dLZGNWTGVHQ2lVd1NoUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdXVEc0ZEbmpyay1EVXg0SFo5S0N4YU1PQm9fUXNFQzJBLTg3NzhzbnlzQ1ptRmZaUnJIeElOVFk1cDZkY0lCTDlPc2o2eGU0bC0yd1lDVE00N2lsNlJzLWRZaUVZdWdQNm82c2g3YWU3b3dLZGNWTGVHQ2lVd1NoUQ?oc=5",
+      "source": "Sail-World.com",
+      "category": "World",
+      "publishedAt": "2026-11-11T09:48:00Z"
+    },
+    {
+      "id": "51ab86416af8b481ff26",
+      "title": "HKSTP brings 10 tech ventures to Singapore to showcase smart mobility innovations - The Standard (HK)",
+      "description": "HKSTP brings 10 tech ventures to Singapore to showcase smart mobility innovations The Standard (HK)",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNHdxUEFFSkdkSm5EcjBfVHNJS1d6bFN2QkdWNjB4OUI1MnI3eGNhYmxLUGRhdTJER0pLYklQeFVMaVR4Q1BJSzNRb3M4WTM3TU1VX1lMdm5IYlEzNWZJb0lwTEd0Q05tT0M3TWFRam9lclJzZDRrV0tnS3VFUUVkSFQ1cHFmWmstLVNEVV9nSlhZMnVtcU00Yk16ZXVQdzhrTXVZNmpWVHM2eVhaWE9tdzZCSW51TGQtQ0pHUV9WSlVsX1JuQUpZZlB0Z1A?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNHdxUEFFSkdkSm5EcjBfVHNJS1d6bFN2QkdWNjB4OUI1MnI3eGNhYmxLUGRhdTJER0pLYklQeFVMaVR4Q1BJSzNRb3M4WTM3TU1VX1lMdm5IYlEzNWZJb0lwTEd0Q05tT0M3TWFRam9lclJzZDRrV0tnS3VFUUVkSFQ1cHFmWmstLVNEVV9nSlhZMnVtcU00Yk16ZXVQdzhrTXVZNmpWVHM2eVhaWE9tdzZCSW51TGQtQ0pHUV9WSlVsX1JuQUpZZlB0Z1A?oc=5",
+      "source": "The Standard (HK)",
+      "category": "Technology",
+      "publishedAt": "2026-11-11T09:37:30Z"
+    },
+    {
+      "id": "53e19ad621064d177258",
+      "title": "Meet the Teams - 32nd Harken International Youth Match Racing Championship - Sail-World.com",
+      "description": "Meet the Teams - 32nd Harken International Youth Match Racing Championship Sail-World.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMG91dWE3clVGOG00UTJSVks0d0JKR0hpRXhLV080M3dFTjBXWUNoWTgzeHVPMjVXaWR5YW91TjBHVGVlMEJaek9rcW5fcUROTmxJTW04QlZ5dERtQndHZ2tfZ0FJeU5ZdmpTcUlWeld1TzQyQ0lJZ25lcW5WUlFCSXkzNEZ0M0tMMGRyWmpDRQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMG91dWE3clVGOG00UTJSVks0d0JKR0hpRXhLV080M3dFTjBXWUNoWTgzeHVPMjVXaWR5YW91TjBHVGVlMEJaek9rcW5fcUROTmxJTW04QlZ5dERtQndHZ2tfZ0FJeU5ZdmpTcUlWeld1TzQyQ0lJZ25lcW5WUlFCSXkzNEZ0M0tMMGRyWmpDRQ?oc=5",
+      "source": "Sail-World.com",
+      "category": "World",
+      "publishedAt": "2026-11-11T07:42:00Z"
+    },
+    {
+      "id": "15e46846ea118c4411b8",
+      "title": "The International Media Center, located at the World Trade Center in Pasay City, is being prepared to host members of the press from different member states for the 49th ASEAN Summit and Related Summits on November 14–18, 2026, under the theme “Navi - Facebook",
+      "description": "The International Media Center, located at the World Trade Center in Pasay City, is being prepared to host members of the press from different member states for the 49th ASEAN Summit and Related Summits on November 14–18, 2026, under the theme “Navi Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWjVQaVVGaWhhTEtJV2xBMkhrcVM5V0xTZ0xNOFBYV1lOTHRUVW5lQjRvRks0WlBWVy1MWjJkeHdCRElLVWJ0ajg4NHhhSnRSN3JFVTM1SWFUOGoyNGQ3YzlFODNaeGR5dU9TVWtNclZFcVE0OXVsZUh3MGlySEZhenc5azVTTl83a19oc1RqMFh2azFSTFJ4a01Zb0x1ZXFPRG1VWWtqNWhFUGhaazZRT3M0eHVIYlJSMEU0Z0VVQWJJdHgteGxURmxKQTVWdkRfM2tTRFJ2RQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWjVQaVVGaWhhTEtJV2xBMkhrcVM5V0xTZ0xNOFBYV1lOTHRUVW5lQjRvRks0WlBWVy1MWjJkeHdCRElLVWJ0ajg4NHhhSnRSN3JFVTM1SWFUOGoyNGQ3YzlFODNaeGR5dU9TVWtNclZFcVE0OXVsZUh3MGlySEZhenc5azVTTl83a19oc1RqMFh2azFSTFJ4a01Zb0x1ZXFPRG1VWWtqNWhFUGhaazZRT3M0eHVIYlJSMEU0Z0VVQWJJdHgteGxURmxKQTVWdkRfM2tTRFJ2RQ?oc=5",
+      "source": "Facebook",
+      "category": "World",
+      "publishedAt": "2026-11-11T07:28:31Z"
+    },
+    {
+      "id": "6cb2625b21b844f0c2bf",
+      "title": "Hanoi prioritizes attracting investment in strategic infrastructure and high technology. - Vietnam.vn",
+      "description": "Hanoi prioritizes attracting investment in strategic infrastructure and high technology. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOREpIbE5sRlpYZzVDSV85Y2ZFemszcHk1UnhkVmJJZEdBSjBjT2ljYUhNT3V5a180dUFSYzRVZldFS2VVd1ZZbEs0S3lnLUYzNlBHM3B3WE1vSWFfcUhkeHBrNlpnQ2MtM0g0cFJjSmlydkVBZHB2NkpnVGlGQThIZVE4VWUzZlpFME9RQXEzRGxGZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOREpIbE5sRlpYZzVDSV85Y2ZFemszcHk1UnhkVmJJZEdBSjBjT2ljYUhNT3V5a180dUFSYzRVZldFS2VVd1ZZbEs0S3lnLUYzNlBHM3B3WE1vSWFfcUhkeHBrNlpnQ2MtM0g0cFJjSmlydkVBZHB2NkpnVGlGQThIZVE4VWUzZlpFME9RQXEzRGxGZw?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-11T07:10:00Z"
+    },
+    {
+      "id": "f02ba54b33a047b9e68b",
+      "title": "LOOK: ASEAN Sari-sari Store features Pinoy goodies here at the International Media Center at the World Trade Center. | via Jervis Manahan, ABS-CBN News - Facebook",
+      "description": "LOOK: ASEAN Sari-sari Store features Pinoy goodies here at the International Media Center at the World Trade Center. | via Jervis Manahan, ABS-CBN News Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVWlRVC1MY01MR1doX0FHNmxneERVOXpZTmxyN05TRThoenNLTFJmUDIzMkNlOXlCMVRTeEtvNWFXRmNSVnFKRThMUkk4TDlnWUpub2NIZ3VUY0lKOHhRUm4wbW5pQzhWWDNycm9EVGYwNC03S2dLZHRXaHRFR3dxdlhEblBMSkVCc251SVZKOWFybUt5VjVXT1Z0OWM0eFdQbUtQbVpSY0lUSXlvbWM4NHdodFBkV3YtNWVBdFVBcmJJOW5SNHVXQ0hGcG15U0RwdVFRazhtbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVWlRVC1MY01MR1doX0FHNmxneERVOXpZTmxyN05TRThoenNLTFJmUDIzMkNlOXlCMVRTeEtvNWFXRmNSVnFKRThMUkk4TDlnWUpub2NIZ3VUY0lKOHhRUm4wbW5pQzhWWDNycm9EVGYwNC03S2dLZHRXaHRFR3dxdlhEblBMSkVCc251SVZKOWFybUt5VjVXT1Z0OWM0eFdQbUtQbVpSY0lUSXlvbWM4NHdodFBkV3YtNWVBdFVBcmJJOW5SNHVXQ0hGcG15U0RwdVFRazhtbw?oc=5",
+      "source": "Facebook",
+      "category": "World",
+      "publishedAt": "2026-11-11T07:09:19Z"
+    },
+    {
+      "id": "4fa30114936ec1dcf50f",
+      "title": "World leaders begin talks as COP31 faces pressure to turn climate promises into action amid rising global - The Economic Times",
+      "description": "World leaders begin talks as COP31 faces pressure to turn climate promises into action amid rising global The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNTDVOQUxJbXFkN2Q5NUgzcDZiLXJaUWFsWk9SeXNFQkVVVF9PekV3VDVzdnA3NHpoZEZWejVjOWVrb29tVkg5eEs4YWhrcTY5MDJGY3UxWk9HWmU5bUNjMElTQktWbThkak9ITHVLcFA4ZEdmQ0ljYTlGQjJpTGU1bHRKS1dDUk8tUWVlV3pKZXg3bUphcERGb0M1RFpyeGQ0X3YyV1h5ZmVfekxBcHFyRDdmMjJFZ0E4UHNIRy1FM3lHQXRidHhPM3hfZ3gzZzhjcDNvRFFWVDdXVkoySTBOalVKbm5wN2xxQWgyRXFtYjBYYXlGN252SVRMbGNiMlQwU3d3a3BBMFVjc3prOFBJSndCSzNDMHM3Rkh4bDh4RlR4U0HSAagCQVVfeXFMTi05WXYwd040S2FxWFVkVS0wbU0yM09JSGRsNzdwN1Q3UEl0ekE4WlFnT0J3RXlRX1BWQVhTdWJ4MENDNTBWLVVnMEVhR1hTTE1zSUluekY2NmZsSFJMLUtvdUVIR3FXMy02eUNIRV82ZHdIMWJVMWl0WW5XbTRVeldCODRleUx4YTRhWjQzTEpRbGZobDh2N3UxUTUzTFRfdTlXcTZ5aFJ0YzVBZnN3eW5ydDl6UEhjVV9RR25xTWRSMGxYeGR2SzRUbW95ZU1UczRwZnR2T3BUYVM5SEhMSDRWWmU5SWxQZEEzQWU2ZHJmLVVhSU5pZDF0OWszVGcwY2Y2TFRrck0wZ1M3THdUZ0NnYW9IY2g1T3VRdmpGdHdDZlJHZk9HX0Y?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNTDVOQUxJbXFkN2Q5NUgzcDZiLXJaUWFsWk9SeXNFQkVVVF9PekV3VDVzdnA3NHpoZEZWejVjOWVrb29tVkg5eEs4YWhrcTY5MDJGY3UxWk9HWmU5bUNjMElTQktWbThkak9ITHVLcFA4ZEdmQ0ljYTlGQjJpTGU1bHRKS1dDUk8tUWVlV3pKZXg3bUphcERGb0M1RFpyeGQ0X3YyV1h5ZmVfekxBcHFyRDdmMjJFZ0E4UHNIRy1FM3lHQXRidHhPM3hfZ3gzZzhjcDNvRFFWVDdXVkoySTBOalVKbm5wN2xxQWgyRXFtYjBYYXlGN252SVRMbGNiMlQwU3d3a3BBMFVjc3prOFBJSndCSzNDMHM3Rkh4bDh4RlR4U0HSAagCQVVfeXFMTi05WXYwd040S2FxWFVkVS0wbU0yM09JSGRsNzdwN1Q3UEl0ekE4WlFnT0J3RXlRX1BWQVhTdWJ4MENDNTBWLVVnMEVhR1hTTE1zSUluekY2NmZsSFJMLUtvdUVIR3FXMy02eUNIRV82ZHdIMWJVMWl0WW5XbTRVeldCODRleUx4YTRhWjQzTEpRbGZobDh2N3UxUTUzTFRfdTlXcTZ5aFJ0YzVBZnN3eW5ydDl6UEhjVV9RR25xTWRSMGxYeGR2SzRUbW95ZU1UczRwZnR2T3BUYVM5SEhMSDRWWmU5SWxQZEEzQWU2ZHJmLVVhSU5pZDF0OWszVGcwY2Y2TFRrck0wZ1M3THdUZ0NnYW9IY2g1T3VRdmpGdHdDZlJHZk9HX0Y?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-11T06:38:16Z"
+    },
+    {
+      "id": "08c461786d1036a0c914",
+      "title": "Tomas Francis: Wales prop targets fourth World Cup after international return - BBC",
+      "description": "Tomas Francis: Wales prop targets fourth World Cup after international return BBC",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pZ3RMb0Y1WURUUmdGcDA4NjdvMWtNNjBWN2Y4dlVOMmtNT3BDcjhtbjZBblU0TThVLW5iSFBXZ1dzSEE5M2ZFZ2JRRmxRTkRJcFpHYjRSQ3lwQjlZSUQ3NGxHNU5sNmdYRGJwcG5WNA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pZ3RMb0Y1WURUUmdGcDA4NjdvMWtNNjBWN2Y4dlVOMmtNT3BDcjhtbjZBblU0TThVLW5iSFBXZ1dzSEE5M2ZFZ2JRRmxRTkRJcFpHYjRSQ3lwQjlZSUQ3NGxHNU5sNmdYRGJwcG5WNA?oc=5",
+      "source": "BBC",
+      "category": "World",
+      "publishedAt": "2026-11-11T06:09:57Z"
+    },
+    {
+      "id": "426add1f6e3bfee8f165",
+      "title": "Members of the media visit the International Media Center at the World Trade Center in Pasay City during its soft opening on Wednesday, ahead of the 49th ASEAN Summit and Related Meetings scheduled for November 15–17, 2026. The Department of Touri - Facebook",
+      "description": "Members of the media visit the International Media Center at the World Trade Center in Pasay City during its soft opening on Wednesday, ahead of the 49th ASEAN Summit and Related Meetings scheduled for November 15–17, 2026. The Department of Touri Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWkxTSGttTjZ6bVZCUlRlT0Zha3VNWWpGMEhRQ0dIQkFZV2hRcE5CaTh5Wjl1b1hVeHdrOVg5YUFSWFA0N3BjQ3ZhQ0lmSE5zR3JLVDJOUUUwdHpFQk5obHJhVzFUcmZHWU56U0wwVzZvalV1SFFweS1jYzlTM1BpRkYxZGlrek5EQlhSM19VTXlwekF1dDZHX1BudkZKajBzQzBvMHVKS3Y1b1ZPMEFlUGMwMGhIVkpDNlM4S3M4aFltcXJOZmpYbmdlSkNVcXRMS2tJMzZ3WTlQTFlV?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWkxTSGttTjZ6bVZCUlRlT0Zha3VNWWpGMEhRQ0dIQkFZV2hRcE5CaTh5Wjl1b1hVeHdrOVg5YUFSWFA0N3BjQ3ZhQ0lmSE5zR3JLVDJOUUUwdHpFQk5obHJhVzFUcmZHWU56U0wwVzZvalV1SFFweS1jYzlTM1BpRkYxZGlrek5EQlhSM19VTXlwekF1dDZHX1BudkZKajBzQzBvMHVKS3Y1b1ZPMEFlUGMwMGhIVkpDNlM4S3M4aFltcXJOZmpYbmdlSkNVcXRMS2tJMzZ3WTlQTFlV?oc=5",
+      "source": "Facebook",
+      "category": "World",
+      "publishedAt": "2026-11-11T05:51:16Z"
+    },
+    {
+      "id": "a997b91f1fe258a45b1d",
+      "title": "International & World News – 11 November 2026 - Saachi Baat",
+      "description": "International & World News – 11 November 2026 Saachi Baat",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTG52RVllWVMxa1FTX045LW5TNFpreUJBUXdQZllHU0JEYUZXZ3B5TXU2R25hMnhzcGZMa3lPRmhJWnNsTTEzbHlvN3k1dG5RVDJGM3NQZFhnaVIwSkphOXZMeUJVckU3WjlNNkVLXzdRbWdLMkN4YmZzU3QtUVJHLTgwWDFvUHVZZmFwZg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTG52RVllWVMxa1FTX045LW5TNFpreUJBUXdQZllHU0JEYUZXZ3B5TXU2R25hMnhzcGZMa3lPRmhJWnNsTTEzbHlvN3k1dG5RVDJGM3NQZFhnaVIwSkphOXZMeUJVckU3WjlNNkVLXzdRbWdLMkN4YmZzU3QtUVJHLTgwWDFvUHVZZmFwZg?oc=5",
+      "source": "Saachi Baat",
+      "category": "World",
+      "publishedAt": "2026-11-11T03:51:15Z"
+    },
+    {
+      "id": "76a33489df4c945e2cd7",
+      "title": "Proposal to research and develop a 100-hectare technology space in Hanoi. - Vietnam.vn",
+      "description": "Proposal to research and develop a 100-hectare technology space in Hanoi. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZmZRWW42Sldja3hycTJWY2JBSDNGY2xZVUhfUm5nRzRXdXNudVU5VUY4M1RWNFUySlpUN1AweWhUQ3lsUEFJdlNXTk1rTDhaTThab01xcHEtRUZHOGRXcENkeEFrUzN1OWstY1prVWQ1X3o3dzRIRGdHdTFIYXVHaU9RbnBBZ004RUNwaTZPeWNYSENfYmRmblNqYTJFTjA0dDZN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZmZRWW42Sldja3hycTJWY2JBSDNGY2xZVUhfUm5nRzRXdXNudVU5VUY4M1RWNFUySlpUN1AweWhUQ3lsUEFJdlNXTk1rTDhaTThab01xcHEtRUZHOGRXcENkeEFrUzN1OWstY1prVWQ1X3o3dzRIRGdHdTFIYXVHaU9RbnBBZ004RUNwaTZPeWNYSENfYmRmblNqYTJFTjA0dDZN?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-11T03:44:06Z"
+    },
+    {
+      "id": "8c5641d172589257c094",
+      "title": "War, conflict must not distract from climate action, leaders warn COP31 - Reuters",
+      "description": "War, conflict must not distract from climate action, leaders warn COP31 Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcy1FRWhTbVJwQjAtOUVzaXJGczgtR0hGWV9UeXlXZkwtT3Z5TXBKUV8yU3lEajg0NFlmdmMteW50ZlNYWnpaX3Jud2o5SWF1dE1mWkhBbXhNY05GWW1HLUdaM1ZnX2pEUEZfbUg4NGZLWlMxYl9uRVBiNHNWekFGM1lqWGJrRUxKZHZKMF9RZE1HcUo0VDI4aWdlUERkd2EyeUs4bTFTb2N5UFNsWDJDVDc2RQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcy1FRWhTbVJwQjAtOUVzaXJGczgtR0hGWV9UeXlXZkwtT3Z5TXBKUV8yU3lEajg0NFlmdmMteW50ZlNYWnpaX3Jud2o5SWF1dE1mWkhBbXhNY05GWW1HLUdaM1ZnX2pEUEZfbUg4NGZLWlMxYl9uRVBiNHNWekFGM1lqWGJrRUxKZHZKMF9RZE1HcUo0VDI4aWdlUERkd2EyeUs4bTFTb2N5UFNsWDJDVDc2RQ?oc=5",
+      "source": "Reuters",
+      "category": "World",
+      "publishedAt": "2026-11-11T03:02:00Z"
+    },
+    {
+      "id": "b7d19fc565bf85e82b56",
+      "title": "Climate action cannot ignore an ageing world - HelpAge International",
+      "description": "Climate action cannot ignore an ageing world HelpAge International",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TdUQtSUVmVEJzREdDV0w1TGRLUDJiSlk0eUJJMkxUS3A2TWtzYjVfeXhIVlBzUnhvUUg1MXhkcEZXUExWcjdKMjZNWVBTSjhVTHpyVU9BZFBMcUJCbG1zbFh2dThwbWpRT2RNakI4OFo5M0tKUmhlZzBNYy1aU00?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TdUQtSUVmVEJzREdDV0w1TGRLUDJiSlk0eUJJMkxUS3A2TWtzYjVfeXhIVlBzUnhvUUg1MXhkcEZXUExWcjdKMjZNWVBTSjhVTHpyVU9BZFBMcUJCbG1zbFh2dThwbWpRT2RNakI4OFo5M0tKUmhlZzBNYy1aU00?oc=5",
+      "source": "HelpAge International",
+      "category": "World",
+      "publishedAt": "2026-11-10T15:19:33Z"
+    },
+    {
+      "id": "fa765e6811995ab4d5fe",
+      "title": "Scindia holds meet to speed up expansion of telecom infrastructure - ET Telecom",
+      "description": "Scindia holds meet to speed up expansion of telecom infrastructure ET Telecom",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTFg3NnlWYXRHcFdLYVpnY2FGc1I1WjBYQno1akZHUlRLeVNnZzBCaWtIbWg0OUZOX250T19mU3VUWGd1aWxqaEdtbFdTT1c4RkxfTG9HU3lTYXl2cy1DNUdqYkYzaEl6VGRqaEYyZFF3d2hxbERHVGpfWlkzckRDWkpFZTdFZXBjeWRreXVfVGNjcFptcmFfaHREazg4cFVBSkVpNXRuV24yNkNRU0IwaHJsaHNHdFN1eFpvbXpvODlXTG9NT2tkU3V1emVCZ9IB0wFBVV95cUxOOVBhWHJyNXhPUmFhckltM1dVYkpMekFhT01vU2N0TE52bEpQdk9ERl9ZeEM1U1U5Z1Uxb284M1NSREtKRjNESHM0MFVsR2Y0Q0RhR05lLTJmNm5EbEI1QnZGN0tqSEVvalJrLTZCMzdGVVJvWEpmMVEzY1pfM3hVUkZPUUdUZlU1MHRXNzFNV0x6UHNYUVZ3amRKRzhzMGNrYnBmcmlsMWdIazVycl9XTTJCMEZCRk1mMHI0eElIcmxMLUdMWnBTRzVhT2szQ3pFTTdj?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTFg3NnlWYXRHcFdLYVpnY2FGc1I1WjBYQno1akZHUlRLeVNnZzBCaWtIbWg0OUZOX250T19mU3VUWGd1aWxqaEdtbFdTT1c4RkxfTG9HU3lTYXl2cy1DNUdqYkYzaEl6VGRqaEYyZFF3d2hxbERHVGpfWlkzckRDWkpFZTdFZXBjeWRreXVfVGNjcFptcmFfaHREazg4cFVBSkVpNXRuV24yNkNRU0IwaHJsaHNHdFN1eFpvbXpvODlXTG9NT2tkU3V1emVCZ9IB0wFBVV95cUxOOVBhWHJyNXhPUmFhckltM1dVYkpMekFhT01vU2N0TE52bEpQdk9ERl9ZeEM1U1U5Z1Uxb284M1NSREtKRjNESHM0MFVsR2Y0Q0RhR05lLTJmNm5EbEI1QnZGN0tqSEVvalJrLTZCMzdGVVJvWEpmMVEzY1pfM3hVUkZPUUdUZlU1MHRXNzFNV0x6UHNYUVZ3amRKRzhzMGNrYnBmcmlsMWdIazVycl9XTTJCMEZCRk1mMHI0eElIcmxMLUdMWnBTRzVhT2szQ3pFTTdj?oc=5",
+      "source": "ET Telecom",
+      "category": "India",
+      "publishedAt": "2026-11-10T11:32:06Z"
+    },
+    {
+      "id": "dac6fb04cbb6cfd51f4c",
+      "title": "Tamil Nadu sets up new infrastructure corporation to execute projects above Rs 200 Cr - The Hans India",
+      "description": "Tamil Nadu sets up new infrastructure corporation to execute projects above Rs 200 Cr The Hans India",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNY1pOaXlmZ0NEajM5NGFJNW5OSXJwZWs2YTM3MkVsV1lQUGI1WWpmc3pET0I3UzhSY05udFFkcDIyazdfYmVDSFZ5UTdyNldyZ3hTQmU4QXRqcUxUcDM5UWZtbUVpNUZJMVZfQk1wVm1IUlZhZWg1RDN0cW1TVV9iWU9wMDJpb3JtTndIMjF3alJYRzdFVklEcndLc0xHb0ZvOHgzVkR3cjJYZ2VXNjFmTm9ySXk1dDRIQ09fYUJrdlJfS2FKMmsxZm1PVnhiMjlhZExTRTdBaEpwQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNY1pOaXlmZ0NEajM5NGFJNW5OSXJwZWs2YTM3MkVsV1lQUGI1WWpmc3pET0I3UzhSY05udFFkcDIyazdfYmVDSFZ5UTdyNldyZ3hTQmU4QXRqcUxUcDM5UWZtbUVpNUZJMVZfQk1wVm1IUlZhZWg1RDN0cW1TVV9iWU9wMDJpb3JtTndIMjF3alJYRzdFVklEcndLc0xHb0ZvOHgzVkR3cjJYZ2VXNjFmTm9ySXk1dDRIQ09fYUJrdlJfS2FKMmsxZm1PVnhiMjlhZExTRTdBaEpwQQ?oc=5",
+      "source": "The Hans India",
+      "category": "India",
+      "publishedAt": "2026-11-10T08:45:28Z"
+    },
+    {
+      "id": "d0f14e1bd1156cc9f236",
+      "title": "Vodafone Qatar, QMIC sign MoU to accelerate innovation in AI, IoT and smart technologies - The Peninsula Qatar",
+      "description": "Vodafone Qatar, QMIC sign MoU to accelerate innovation in AI, IoT and smart technologies The Peninsula Qatar",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNamZza2gyVTdtMHdRQ2c3aHpmQUxXTmVDZXljYXlOZUdLMzczc1JGQnVrMWZHc195WTJ2RXRNcGIxSGVhUU9HTTFSSzlocVp0b1FCcUxiQzkyN1dTWTFDYlFJbzVQeGd1ckJWd3JqMjBLZjRiMmhXbWtMZWtFdVh2OXl6aHNuQjVORDlubFBQeFF5SXptYnpheUFYOWtXWmVROExsY1A2X2VXMXVNZzlpX3ViVmp5MzQyc2xJV2JSTjN6dXlTMnluR1hOMmNUVlpp?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNamZza2gyVTdtMHdRQ2c3aHpmQUxXTmVDZXljYXlOZUdLMzczc1JGQnVrMWZHc195WTJ2RXRNcGIxSGVhUU9HTTFSSzlocVp0b1FCcUxiQzkyN1dTWTFDYlFJbzVQeGd1ckJWd3JqMjBLZjRiMmhXbWtMZWtFdVh2OXl6aHNuQjVORDlubFBQeFF5SXptYnpheUFYOWtXWmVROExsY1A2X2VXMXVNZzlpX3ViVmp5MzQyc2xJV2JSTjN6dXlTMnluR1hOMmNUVlpp?oc=5",
+      "source": "The Peninsula Qatar",
+      "category": "Technology",
+      "publishedAt": "2026-11-10T06:54:49Z"
+    },
+    {
+      "id": "d44f972de11a04b10516",
+      "title": "Tamil Nadu Launches New Infrastructure Corporation For Projects Above Rs 200 Crore - Indian Masterminds",
+      "description": "Tamil Nadu Launches New Infrastructure Corporation For Projects Above Rs 200 Crore Indian Masterminds",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSXJ3NkVsSktzTFJ2V3dMRkFXREtRa1ZSMkVhUHAxNEd1emdoVDR5UVh1aElhSGxFV2tYdDY1QlRYdm04TkJYYm4xenBDRVh3Ym1pMkpmX240SzdRSW53cnZRVjJIUHdhRVZHb05Ed01LR3JZS2ZoV2h3azBmVmc1QjNNT25QRzNOc1cxbA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSXJ3NkVsSktzTFJ2V3dMRkFXREtRa1ZSMkVhUHAxNEd1emdoVDR5UVh1aElhSGxFV2tYdDY1QlRYdm04TkJYYm4xenBDRVh3Ym1pMkpmX240SzdRSW53cnZRVjJIUHdhRVZHb05Ed01LR3JZS2ZoV2h3azBmVmc1QjNNT25QRzNOc1cxbA?oc=5",
+      "source": "Indian Masterminds",
+      "category": "India",
+      "publishedAt": "2026-11-10T05:36:41Z"
+    },
+    {
+      "id": "7b36421a409a3e12b0f4",
+      "title": "TN to set up new PSU to execute mega infra projects worth over Rs 200 crore - The New Indian Express",
+      "description": "TN to set up new PSU to execute mega infra projects worth over Rs 200 crore The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaTNFb3pLeXJDN1k4U3FISjkxcmtPRnhyck16WFF1Zm9tX19WUUZlWHNjX1k0VVpnOWZjU1R3QlBKeWZDbU1qTWViMWlnMlNuczJRU211WGFBdGZodVQweDZaM096eF9pNHNHbkUzMmo0RUFRU0VSU0R1NFJ3OG00OTZ0R29DbHVhZWtRODVPb0xUOEZ4RGsxUWFkWnBGSHVONnpyOGxMVE1uSTZMYnBKNGxJanBSbTE2eC0zOF9hNEEzY1RjYXZ1ZUpYcGJXcmpfbDN1RdIB4gFBVV95cUxOX1VtMHpzWUhtOFVhUm5XRjB6MDZHNTBFa1JHa09UeWd4UjdpUEVaNjVWNWFGdDlTRjZGWmRTRm0zOWdIbHV1TE5QLUxLbks5RmNnT040YXpEX3lhNllvTGVsVFZaU0t2b1BzMXRXUHhWV0ExV1VBOEZEMTZxNlk1ZnU0N1dzRUJzWTlGRDQ4X1hJWWMxR055a1ltNjliOVhHX2VLQVV2UnVlX3BCSGRFLTd3M3M0SURoZU5hTl9McTExRGxCZWpFQnhEa2t4S3BkM2xNanZxOGRDSFZuRHY5b2JR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaTNFb3pLeXJDN1k4U3FISjkxcmtPRnhyck16WFF1Zm9tX19WUUZlWHNjX1k0VVpnOWZjU1R3QlBKeWZDbU1qTWViMWlnMlNuczJRU211WGFBdGZodVQweDZaM096eF9pNHNHbkUzMmo0RUFRU0VSU0R1NFJ3OG00OTZ0R29DbHVhZWtRODVPb0xUOEZ4RGsxUWFkWnBGSHVONnpyOGxMVE1uSTZMYnBKNGxJanBSbTE2eC0zOF9hNEEzY1RjYXZ1ZUpYcGJXcmpfbDN1RdIB4gFBVV95cUxOX1VtMHpzWUhtOFVhUm5XRjB6MDZHNTBFa1JHa09UeWd4UjdpUEVaNjVWNWFGdDlTRjZGWmRTRm0zOWdIbHV1TE5QLUxLbks5RmNnT040YXpEX3lhNllvTGVsVFZaU0t2b1BzMXRXUHhWV0ExV1VBOEZEMTZxNlk1ZnU0N1dzRUJzWTlGRDQ4X1hJWWMxR055a1ltNjliOVhHX2VLQVV2UnVlX3BCSGRFLTd3M3M0SURoZU5hTl9McTExRGxCZWpFQnhEa2t4S3BkM2xNanZxOGRDSFZuRHY5b2JR?oc=5",
+      "source": "The New Indian Express",
+      "category": "India",
+      "publishedAt": "2026-11-10T01:07:39Z"
+    },
+    {
+      "id": "adb3044ef302bc14467e",
+      "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna - International Atomic Energy Agency",
+      "description": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna International Atomic Energy Agency",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNWF1NUxqbVg4UWwzTWZvQVVBYkJSVDl1SDFDTHNvVXRJZlhUZWJPZ1NZdGJIWU44ekRzSjU1dnh5N3JHdVhEVUVDaVpXMC03N2dSOW51VEVNckpadHpfTHNwbFllQloyZjRzXzJFc1lmXzN0OWYzLVNfUmtia0NxcXo4VmRXT3Y1czc5SjNQOTVpd1NRQU5SOEY5NG1KTGF3RkpTQkJSMnZYMjlYVW5WZEhZak5pM2tZM1pkZk5kSFhHUXhRdFFVaGdSaHNfQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNWF1NUxqbVg4UWwzTWZvQVVBYkJSVDl1SDFDTHNvVXRJZlhUZWJPZ1NZdGJIWU44ekRzSjU1dnh5N3JHdVhEVUVDaVpXMC03N2dSOW51VEVNckpadHpfTHNwbFllQloyZjRzXzJFc1lmXzN0OWYzLVNfUmtia0NxcXo4VmRXT3Y1czc5SjNQOTVpd1NRQU5SOEY5NG1KTGF3RkpTQkJSMnZYMjlYVW5WZEhZak5pM2tZM1pkZk5kSFhHUXhRdFFVaGdSaHNfQQ?oc=5",
+      "source": "International Atomic Energy Agency",
+      "category": "World",
+      "publishedAt": "2026-11-09T15:00:00Z"
+    },
+    {
+      "id": "59d6a40414c108ff8c9a",
+      "title": "How the smart cities mission is reshaping Uttar Pradesh's urban landscape - India Today",
+      "description": "How the smart cities mission is reshaping Uttar Pradesh's urban landscape India Today",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdjRjM1dZQ1RSV1A3OW1NeDVScVd2YWVwMUdId21uRldyTkNFT3RMYlNSQmkyYURueFFaLV9DdGZ0OFhQSnYxemJNb2ozbkMtUVNjSVotbUF4NlhuQkVvYXR6aFRiYUhXaEZQdWpqUjliYUlHRFJrNEFqcktjcjlRbVNBb20tTl92dkpjQUctMllsbDl1LUk0WGIwcWdfSmw0S2JNeWdWazZSVDctZzBLVTZEZmZ4QzJHOE5obl9RQlhfNzdFLXNUZTltWkhRMmZmTF9rTXRLOTZyWWhOUk5yVTN30gHnAUFVX3lxTE81VUVqLS1QcktDc2lTVG5IdVZrWXZMVFF4MWF1SHlJbDBTVm1zSDByeEotOUc5dGloVm5EMzJmMHdfMl9ydFJ2TmQ3bWU5a1J0NTdhSEJUZHN3bzVkY3lyRUkyNll5VUdPd2dsdzNfNXMtUTZMWWZLakpUbWRpTGw0T0VnNzUwSWpncE5KQzR2RlNLcDQ2MUtEOFdhV3RpdkJfdTRzWV9XUlNlb3Uydy1GV2pwVTdFeE1XZ255TTN6bGlZV2NxNVU4Njc2TVg4bXZ3MzFjZGdlYTI4ZnM2VjNoRHJxdVJKSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdjRjM1dZQ1RSV1A3OW1NeDVScVd2YWVwMUdId21uRldyTkNFT3RMYlNSQmkyYURueFFaLV9DdGZ0OFhQSnYxemJNb2ozbkMtUVNjSVotbUF4NlhuQkVvYXR6aFRiYUhXaEZQdWpqUjliYUlHRFJrNEFqcktjcjlRbVNBb20tTl92dkpjQUctMllsbDl1LUk0WGIwcWdfSmw0S2JNeWdWazZSVDctZzBLVTZEZmZ4QzJHOE5obl9RQlhfNzdFLXNUZTltWkhRMmZmTF9rTXRLOTZyWWhOUk5yVTN30gHnAUFVX3lxTE81VUVqLS1QcktDc2lTVG5IdVZrWXZMVFF4MWF1SHlJbDBTVm1zSDByeEotOUc5dGloVm5EMzJmMHdfMl9ydFJ2TmQ3bWU5a1J0NTdhSEJUZHN3bzVkY3lyRUkyNll5VUdPd2dsdzNfNXMtUTZMWWZLakpUbWRpTGw0T0VnNzUwSWpncE5KQzR2RlNLcDQ2MUtEOFdhV3RpdkJfdTRzWV9XUlNlb3Uydy1GV2pwVTdFeE1XZ255TTN6bGlZV2NxNVU4Njc2TVg4bXZ3MzFjZGdlYTI4ZnM2VjNoRHJxdVJKSQ?oc=5",
+      "source": "India Today",
+      "category": "India",
+      "publishedAt": "2026-11-09T10:41:55Z"
+    },
+    {
+      "id": "05e6bf42cc67a702267f",
+      "title": "Tamil Nadu approves new PSU for infrastructure projects worth over Rs 200 crore - PSU Watch",
+      "description": "Tamil Nadu approves new PSU for infrastructure projects worth over Rs 200 crore PSU Watch",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRFo2dlk0cldrSVh4YmkyTlFYaU5mQnBiTUc0RzdMYmFvQ1JKbjktUVJQZjU2SmkxQ2ctYjYtNVpqU25HV3ZWU2x2LWw0Skc3YU14cUxXNzBjd0hxUTFMVkRsenIwLXY4ajZzZThaN2dzSXpraW5VS2lPYUpIWlV1WHY3YjdNZkFKNmVtem5WMGRnVjAwcWtJOGJFVmtuUUtTbGRGOWZZVHJrSk9ZVkVwWVpn0gG_AUFVX3lxTE9VNjFjN1oyZUNTODZlZHpCaXQ1aXdaYW1uUFpwYnN3UTdpNkxrdUlTdHl0cWlxa2pmRXdEYW51a3JQZnJ2SFFCT0xHTGZ2S0hGbFJnaElXWGZDbWozQlJFOGlPWWpRQlVDYzdCdEdPbjJpdWlQZ0V5dzBfcERTT2VUbHl3eUpaNE9QY2NvenQxbFJRYXJEM0ZLYnV6ZGpDN19nNHVzSkZuSzcwN05QeWFDek1EQ3BwSTg2RjQ3WkNJ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRFo2dlk0cldrSVh4YmkyTlFYaU5mQnBiTUc0RzdMYmFvQ1JKbjktUVJQZjU2SmkxQ2ctYjYtNVpqU25HV3ZWU2x2LWw0Skc3YU14cUxXNzBjd0hxUTFMVkRsenIwLXY4ajZzZThaN2dzSXpraW5VS2lPYUpIWlV1WHY3YjdNZkFKNmVtem5WMGRnVjAwcWtJOGJFVmtuUUtTbGRGOWZZVHJrSk9ZVkVwWVpn0gG_AUFVX3lxTE9VNjFjN1oyZUNTODZlZHpCaXQ1aXdaYW1uUFpwYnN3UTdpNkxrdUlTdHl0cWlxa2pmRXdEYW51a3JQZnJ2SFFCT0xHTGZ2S0hGbFJnaElXWGZDbWozQlJFOGlPWWpRQlVDYzdCdEdPbjJpdWlQZ0V5dzBfcERTT2VUbHl3eUpaNE9QY2NvenQxbFJRYXJEM0ZLYnV6ZGpDN19nNHVzSkZuSzcwN05QeWFDek1EQ3BwSTg2RjQ3WkNJ?oc=5",
+      "source": "PSU Watch",
+      "category": "India",
+      "publishedAt": "2026-11-09T09:50:14Z"
+    },
+    {
+      "id": "aa4a6f60ae939970c759",
+      "title": "Master Plan Meets Land: Planning Amaravati, India’s New State Capital - ArchDaily",
+      "description": "Master Plan Meets Land: Planning Amaravati, India’s New State Capital ArchDaily",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaHpIMUhJZU5BeDdNM1NYZGJhN0dROFpQd2lIcDNiSXFSazloMktvaFp5Mm5CZ1FEVDFGZllQYklwVEF1OWlLMTZSc2I3cWNsTjd3czllQURocEk5S3QtdmtRb2J6bjhYcjdkOHFLSzMxQV95NVAxajJ1YlJLWTdSQTVGZDJ1czVwV3RDSmZ3YUx2aE1hc1RuSEE1cGVQZkZXNnc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaHpIMUhJZU5BeDdNM1NYZGJhN0dROFpQd2lIcDNiSXFSazloMktvaFp5Mm5CZ1FEVDFGZllQYklwVEF1OWlLMTZSc2I3cWNsTjd3czllQURocEk5S3QtdmtRb2J6bjhYcjdkOHFLSzMxQV95NVAxajJ1YlJLWTdSQTVGZDJ1czVwV3RDSmZ3YUx2aE1hc1RuSEE1cGVQZkZXNnc?oc=5",
+      "source": "ArchDaily",
+      "category": "India",
+      "publishedAt": "2026-11-09T09:00:00Z"
+    },
+    {
+      "id": "5dc0b34ef0346e837b89",
+      "title": "Storm snaps powerpoles in CQ while 'insufferable' heatwave lingers in Far North - ABC News & Headlines – Australian Broadcasting Corporation",
+      "description": "Storm snaps powerpoles in CQ while 'insufferable' heatwave lingers in Far North ABC News & Headlines – Australian Broadcasting Corporation",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObjAtTExPcDJHTFZUNWhFZTgtamVrVWtoQWhfclJYcWRFYnFyVDd0VjZqTW1BVzNMSk9UZEkwaUNtVkV0QTBwdWlMVDVrTVdNb0xJYWlNTDhUVGY1WXpRX3llUXBFbTBSTndFX0hHU2dOTDdWNkhYbEVpUXgtZ21NZWZybFRSVmxzckpTVTh2UVpqT2c5bVc4amRCbXp0Nmhfbk9j?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObjAtTExPcDJHTFZUNWhFZTgtamVrVWtoQWhfclJYcWRFYnFyVDd0VjZqTW1BVzNMSk9UZEkwaUNtVkV0QTBwdWlMVDVrTVdNb0xJYWlNTDhUVGY1WXpRX3llUXBFbTBSTndFX0hHU2dOTDdWNkhYbEVpUXgtZ21NZWZybFRSVmxzckpTVTh2UVpqT2c5bVc4amRCbXp0Nmhfbk9j?oc=5",
+      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+      "category": "Disaster",
+      "publishedAt": "2026-11-08T20:31:58Z"
+    },
+    {
+      "id": "e4b6f3ed3dbb0177615d",
+      "title": "Natural disaster | Causes, Types, & Facts - Britannica",
+      "description": "Natural disaster | Causes, Types, & Facts Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vMDE1X2pVcjlrYzMzY3QzQ2hXdHdYbkZ1WkFkUGNmLXU3NnNPaXEyMEhSQ2FPY3E1R0VneWhvaDJIbXdFejFNUWRQczdnZl9aTHhUbG1ZVHhwNF9xVlRmOQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vMDE1X2pVcjlrYzMzY3QzQ2hXdHdYbkZ1WkFkUGNmLXU3NnNPaXEyMEhSQ2FPY3E1R0VneWhvaDJIbXdFejFNUWRQczdnZl9aTHhUbG1ZVHhwNF9xVlRmOQ?oc=5",
+      "source": "Britannica",
+      "category": "Disaster",
+      "publishedAt": "2026-11-08T08:00:00Z"
+    },
+    {
+      "id": "76b8ab6e61aab78670b1",
+      "title": "Earthquakes, Tornadoes, and Wildfires | All About Natural Disasters - Britannica",
+      "description": "Earthquakes, Tornadoes, and Wildfires | All About Natural Disasters Britannica",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wUHFYY0N5Z2lqd1FjLVpmRzhvM1FKNGhXbGc0Wm41bjE1bnI1YmdtVmtDS3IwQVJGb1E2eGh6bllWM0hDVU9BbHB1RzBFclZRVXNZbGpjYzl3QWJPMVczSTMyLXdsMVJqTDZMNWtVTTRnMmM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wUHFYY0N5Z2lqd1FjLVpmRzhvM1FKNGhXbGc0Wm41bjE1bnI1YmdtVmtDS3IwQVJGb1E2eGh6bllWM0hDVU9BbHB1RzBFclZRVXNZbGpjYzl3QWJPMVczSTMyLXdsMVJqTDZMNWtVTTRnMmM?oc=5",
+      "source": "Britannica",
+      "category": "Disaster",
+      "publishedAt": "2026-11-08T08:00:00Z"
+    },
+    {
+      "id": "6ead3989448494c7a76c",
+      "title": "How climate change worsens heatwaves, droughts, wildfires and floods - BBC",
+      "description": "How climate change worsens heatwaves, droughts, wildfires and floods BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBha2hSMWluWVdKUHpEZUNyTVFmVC1idnd2cFY5eDNxckF6OFE2NGxzb2lSVnNMYlA5aklTVk5CdldkSXpzV3ptX1YxVEdEdG5vaXU2b2FkUHR3QQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBha2hSMWluWVdKUHpEZUNyTVFmVC1idnd2cFY5eDNxckF6OFE2NGxzb2lSVnNMYlA5aklTVk5CdldkSXpzV3ptX1YxVEdEdG5vaXU2b2FkUHR3QQ?oc=5",
+      "source": "BBC",
+      "category": "Environment",
+      "publishedAt": "2026-11-06T16:43:30Z"
+    },
+    {
+      "id": "243fea98aeca362d92d7",
+      "title": "Extreme weather: floods, droughts and heatwaves - European Environment Agency (EEA)",
+      "description": "Extreme weather: floods, droughts and heatwaves European Environment Agency (EEA)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTBqZTlsSnUwVkVSSm0zTEgwcUx0NG11dEs4UzJQV1lXeUlSUzJHUVJ4bE1UTkhYN21va0VseEVJSTNxckxCMGp6TzBLTm1xUUpnZmFCbElxYmdvNjIwSERRUi1qLUJKSWdydWJlRjJHQ1VPMWdwX3RfRXZmLUNta003OEUzbXhVRUI1QnJ4cHdpbjhl?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTBqZTlsSnUwVkVSSm0zTEgwcUx0NG11dEs4UzJQV1lXeUlSUzJHUVJ4bE1UTkhYN21va0VseEVJSTNxckxCMGp6TzBLTm1xUUpnZmFCbElxYmdvNjIwSERRUi1qLUJKSWdydWJlRjJHQ1VPMWdwX3RfRXZmLUNta003OEUzbXhVRUI1QnJ4cHdpbjhl?oc=5",
+      "source": "European Environment Agency (EEA)",
+      "category": "Disaster",
+      "publishedAt": "2026-11-05T17:31:38Z"
+    }
+  ],
+  "lastUpdated": "2026-11-11T17:13:31Z",
+  "updatedAt": "2026-11-11T17:13:31Z"
 }
