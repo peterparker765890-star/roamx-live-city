@@ -240,63 +240,45 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-11T17:13:31Z",
-    "lastSuccessfulRun": "2026-11-11T17:13:31Z",
-    "lastUpdated": "2026-11-11T17:13:31Z",
-    "articlesAdded": 37,
+    "lastRun": "2026-11-11T17:13:51Z",
+    "lastSuccessfulRun": "2026-11-11T17:13:51Z",
+    "lastUpdated": "2026-11-11T17:13:51Z",
+    "articlesAdded": 19,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 3,
+    "duplicatesRemoved": 39,
     "failedSources": [],
     "newArticleIds": [
-      "19260c414baf9bb82aa7",
-      "5610d020d1f6944ed1db",
-      "45b1d0f68a0136c361a1",
-      "b87adbdf16328b1e79dc",
-      "7e48178d9b6ad6d3350f",
-      "b33f530620fa81feede2",
-      "da7b371c5cba365cd011",
-      "3c6737887bd7a8183deb",
-      "2a09b1b997b6a3b0a737",
-      "38d5dd3b2297befe647b",
-      "4a4b937a482d8312e0d8",
-      "51ab86416af8b481ff26",
-      "53e19ad621064d177258",
-      "15e46846ea118c4411b8",
-      "6cb2625b21b844f0c2bf",
-      "f02ba54b33a047b9e68b",
-      "4fa30114936ec1dcf50f",
-      "08c461786d1036a0c914",
-      "426add1f6e3bfee8f165",
-      "a997b91f1fe258a45b1d",
-      "76a33489df4c945e2cd7",
-      "8c5641d172589257c094",
-      "b7d19fc565bf85e82b56",
-      "fa765e6811995ab4d5fe",
-      "dac6fb04cbb6cfd51f4c",
-      "d0f14e1bd1156cc9f236",
-      "d44f972de11a04b10516",
-      "7b36421a409a3e12b0f4",
-      "adb3044ef302bc14467e",
-      "59d6a40414c108ff8c9a",
-      "05e6bf42cc67a702267f",
-      "aa4a6f60ae939970c759",
-      "5dc0b34ef0346e837b89",
-      "e4b6f3ed3dbb0177615d",
-      "76b8ab6e61aab78670b1",
-      "6ead3989448494c7a76c",
-      "243fea98aeca362d92d7"
+      "8d60871660fa6f1d64a1",
+      "409fbc1327c207cf001f",
+      "b9a04de87f82c10452d4",
+      "b5a89d2c7647d14fdf7f",
+      "344113b61f68f63a1565",
+      "bac20e94e8b112bac5c3",
+      "ad1acd5524cab24f0f29",
+      "b6703e7bb4713c75da8b",
+      "abcf1a4d1a1e4e2c54f7",
+      "fd61d0dc90eb4be5b9a7",
+      "0e41d65a9a073dfa8a83",
+      "6c1f9f4b18f8beb23ba2",
+      "57751d1f79f0f07f4b04",
+      "a9ce1ba00e743e06a311",
+      "b436f28faf0c77621b48",
+      "1a2f42e1cf076f7ea1a6",
+      "7d1c67fce6cecc154912",
+      "f7b1c2920506dd709feb",
+      "78ddca879c4c57f133ef"
     ],
     "updatedArticleIds": [],
     "articlesRemoved": 0,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 37,
+    "totalArticles": 56,
     "categories": {
       "World": 18,
       "India": 8,
       "Technology": 4,
-      "Environment": 2,
+      "Environment": 21,
       "Disaster": 5
     },
     "successfulSources": 9,
@@ -314,6 +296,16 @@
       "publishedAt": "2026-11-11T15:28:31Z"
     },
     {
+      "id": "8d60871660fa6f1d64a1",
+      "title": "At COP31, Turkey pushes zero-waste plan to curb climate change - News4JAX",
+      "description": "At COP31, Turkey pushes zero-waste plan to curb climate change News4JAX",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORU5iS2lRc0t6YXlSZjB0MElHSEVvc21OS2h5djc5NkZZRjZTdUIydC1XVTl2bVQzTHctWWVMc2hORnhBQlRVWWNmNzBIRy1ZbFFUZlhSeW92TnMwdTc3bURJbkE1WGM3UzVSc056OEUwOVlwSkNaMkRwZm9aakhoT0lqQTgxMUR2TVhmYmd2eVIzZDFYS3l1YjYyMWgwMUU0NktwZ2M2Ti1nTG5uTXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORU5iS2lRc0t6YXlSZjB0MElHSEVvc21OS2h5djc5NkZZRjZTdUIydC1XVTl2bVQzTHctWWVMc2hORnhBQlRVWWNmNzBIRy1ZbFFUZlhSeW92TnMwdTc3bURJbkE1WGM3UzVSc056OEUwOVlwSkNaMkRwZm9aakhoT0lqQTgxMUR2TVhmYmd2eVIzZDFYS3l1YjYyMWgwMUU0NktwZ2M2Ti1nTG5uTXc?oc=5",
+      "source": "News4JAX",
+      "category": "Environment",
+      "publishedAt": "2026-11-11T15:12:43Z"
+    },
+    {
       "id": "5610d020d1f6944ed1db",
       "title": "UN chief urges world leaders to tackle fossil fuels at COP31 - International - World - Ahram Online",
       "description": "UN chief urges world leaders to tackle fossil fuels at COP31 - International - World Ahram Online",
@@ -322,6 +314,16 @@
       "source": "Ahram Online",
       "category": "World",
       "publishedAt": "2026-11-11T14:03:52Z"
+    },
+    {
+      "id": "409fbc1327c207cf001f",
+      "title": "Cyprus and Israel move towards bilateral memorandum on environmental cooperation - Cyprus Inform",
+      "description": "Cyprus and Israel move towards bilateral memorandum on environmental cooperation Cyprus Inform",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN1JIMm82M21iNXdkRklsUDE0bTdQbFFacjJSNHRCVHV3R1pNUXhQM3VRM000OUZ6TE40bEF1ZkRFOE9jemgzUkd2SkpCdl9mMnBFTVdSWkZHdlFXUlptSVc4aTNfQkgzMG1tTEV2b2ZZa3FLSWp3MVBYaU9qZGlGUTRGY1dPSnpFR1g4UHU3bHBhdkswajd3bUFxMzNxVzlBdC16bE1YbWdKa0tScVdwdjRzMTEyZW8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN1JIMm82M21iNXdkRklsUDE0bTdQbFFacjJSNHRCVHV3R1pNUXhQM3VRM000OUZ6TE40bEF1ZkRFOE9jemgzUkd2SkpCdl9mMnBFTVdSWkZHdlFXUlptSVc4aTNfQkgzMG1tTEV2b2ZZa3FLSWp3MVBYaU9qZGlGUTRGY1dPSnpFR1g4UHU3bHBhdkswajd3bUFxMzNxVzlBdC16bE1YbWdKa0tScVdwdjRzMTEyZW8?oc=5",
+      "source": "Cyprus Inform",
+      "category": "Environment",
+      "publishedAt": "2026-11-11T13:30:06Z"
     },
     {
       "id": "45b1d0f68a0136c361a1",
@@ -374,6 +376,16 @@
       "publishedAt": "2026-11-11T11:31:21Z"
     },
     {
+      "id": "b9a04de87f82c10452d4",
+      "title": "What Plaid Cymru’s Plan for government tells us about its environmental ambitions - ENDS Report",
+      "description": "What Plaid Cymru’s Plan for government tells us about its environmental ambitions ENDS Report",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOEhNVGUzelVsbWdvQzVPZGgxbXZCX0ZZbmhBSTh0ZnJzLWUybmcxZWNBSXo1ejQ4NHF4b0dxRjJZWjQ0dThRcWVKUHkyQU9pSm5rRWc3eVBMQVh2WUc4ejJubHNVNWFSV1Y5VEZJVXM4S3F1LXM2dG5hRW5wV1lZOUlWQktmSUxUWDBFSHlzdEIzRWN4WjdWOUl6VEkyRUJ1cHVuLW5WRV9NTms4?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOEhNVGUzelVsbWdvQzVPZGgxbXZCX0ZZbmhBSTh0ZnJzLWUybmcxZWNBSXo1ejQ4NHF4b0dxRjJZWjQ0dThRcWVKUHkyQU9pSm5rRWc3eVBMQVh2WUc4ejJubHNVNWFSV1Y5VEZJVXM4S3F1LXM2dG5hRW5wV1lZOUlWQktmSUxUWDBFSHlzdEIzRWN4WjdWOUl6VEkyRUJ1cHVuLW5WRV9NTms4?oc=5",
+      "source": "ENDS Report",
+      "category": "Environment",
+      "publishedAt": "2026-11-11T11:11:41Z"
+    },
+    {
       "id": "3c6737887bd7a8183deb",
       "title": "Bangladesh Seeks International Pressure for Safe Rohingya Repatriation to Myanmar - UrduPoint",
       "description": "Bangladesh Seeks International Pressure for Safe Rohingya Repatriation to Myanmar UrduPoint",
@@ -422,6 +434,16 @@
       "source": "The Standard (HK)",
       "category": "Technology",
       "publishedAt": "2026-11-11T09:37:30Z"
+    },
+    {
+      "id": "b5a89d2c7647d14fdf7f",
+      "title": "TZ balances coastal infrastructure with environmental protection - Daily News",
+      "description": "TZ balances coastal infrastructure with environmental protection Daily News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVEJsRzBsdFFyOU43d2dyWWQwSURkSjh5VnMwaWlGbWFMUnBSdDN1LWduVnRNT2pBRDQ1cG1MNG5nSUg1RFpHNmd0cWhoNXk1YlRKZXUyN0xKZGl0eEhtWkFKeko3eW9MVnZIV3paaGQ4MlFRc1JJTzlRN3JZODNsREV5Vm1zeFJDRHZCanM0Q0NHNFk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVEJsRzBsdFFyOU43d2dyWWQwSURkSjh5VnMwaWlGbWFMUnBSdDN1LWduVnRNT2pBRDQ1cG1MNG5nSUg1RFpHNmd0cWhoNXk1YlRKZXUyN0xKZGl0eEhtWkFKeko3eW9MVnZIV3paaGQ4MlFRc1JJTzlRN3JZODNsREV5Vm1zeFJDRHZCanM0Q0NHNFk?oc=5",
+      "source": "Daily News",
+      "category": "Environment",
+      "publishedAt": "2026-11-11T08:05:17Z"
     },
     {
       "id": "53e19ad621064d177258",
@@ -494,6 +516,16 @@
       "publishedAt": "2026-11-11T05:51:16Z"
     },
     {
+      "id": "344113b61f68f63a1565",
+      "title": "The economics of climate change - Financial Times",
+      "description": "The economics of climate change Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY282VlNHUEg5aWVCcFp4ZzFBTjJyMmplOFdXY0R6UTRUalNVdEQ1RHV0Uk5HbHIzWXlZVkNHdGY5RE5rbXJ4S1FWNGZwYlJ1SEdjUWh3bG5iNHQyYXN6RmhyZEVrb0E0YUVkMkN4VDFUNmNMOENTZ3ljRVR1ZlpuYzhjMGg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNY282VlNHUEg5aWVCcFp4ZzFBTjJyMmplOFdXY0R6UTRUalNVdEQ1RHV0Uk5HbHIzWXlZVkNHdGY5RE5rbXJ4S1FWNGZwYlJ1SEdjUWh3bG5iNHQyYXN6RmhyZEVrb0E0YUVkMkN4VDFUNmNMOENTZ3ljRVR1ZlpuYzhjMGg?oc=5",
+      "source": "Financial Times",
+      "category": "Environment",
+      "publishedAt": "2026-11-11T05:00:22Z"
+    },
+    {
       "id": "a997b91f1fe258a45b1d",
       "title": "International & World News – 11 November 2026 - Saachi Baat",
       "description": "International & World News – 11 November 2026 Saachi Baat",
@@ -524,6 +556,36 @@
       "publishedAt": "2026-11-11T03:02:00Z"
     },
     {
+      "id": "bac20e94e8b112bac5c3",
+      "title": "A new method for tracking climate change and air pollution - Phys.org",
+      "description": "A new method for tracking climate change and air pollution Phys.org",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBzVWhuMDFSRFdybE9pSjI4UFk2MFZMSDhuZWxpVkVKNnRXOXVoczBUR1Zsbk1QeGxLMmxpYzVrejZWd0tWZzl4VHlQalZ5SHdWUzBpXzEweG1lcG44Nkk0VVZuUlJoWHBHODdfbnJGTkJ5N0RfZUdDZ3hOQVI?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBzVWhuMDFSRFdybE9pSjI4UFk2MFZMSDhuZWxpVkVKNnRXOXVoczBUR1Zsbk1QeGxLMmxpYzVrejZWd0tWZzl4VHlQalZ5SHdWUzBpXzEweG1lcG44Nkk0VVZuUlJoWHBHODdfbnJGTkJ5N0RfZUdDZ3hOQVI?oc=5",
+      "source": "Phys.org",
+      "category": "Environment",
+      "publishedAt": "2026-11-10T20:20:06Z"
+    },
+    {
+      "id": "ad1acd5524cab24f0f29",
+      "title": "COP31: Why air quality is key to climate health - IQAir",
+      "description": "COP31: Why air quality is key to climate health IQAir",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPejJhaEZjN0Y5WXU3NmZhM2xNaUNiamNFUkVEX0NJYm9wT0pUcXhFbEJLMHd4aHFqNFZrWmJZTUM0aXp2SV9uWGk1WVhXTGdZUkQycFFVMl9kZm5kX2JtN1hLQlNiMVloRlp4RHJNVUdURUxwZEhhMWYwcGhBUFNlMjl6VjdIaGl2UUdR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPejJhaEZjN0Y5WXU3NmZhM2xNaUNiamNFUkVEX0NJYm9wT0pUcXhFbEJLMHd4aHFqNFZrWmJZTUM0aXp2SV9uWGk1WVhXTGdZUkQycFFVMl9kZm5kX2JtN1hLQlNiMVloRlp4RHJNVUdURUxwZEhhMWYwcGhBUFNlMjl6VjdIaGl2UUdR?oc=5",
+      "source": "IQAir",
+      "category": "Environment",
+      "publishedAt": "2026-11-10T18:51:56Z"
+    },
+    {
+      "id": "b6703e7bb4713c75da8b",
+      "title": "Climate and Biodiversity Plans Leave Pollution and Policy Trade-offs in the Blind Spot - The Policy Edge",
+      "description": "Climate and Biodiversity Plans Leave Pollution and Policy Trade-offs in the Blind Spot The Policy Edge",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZjc1S3hsaEJuSjRKQ2FHbTVaaFZFZDB6UmNpSUlSQXA4TU1wSFhZNThEemxNMHQyRlJBREx5UE05TF95U2hDd2tkdW9mZEZnYjJIMGNnV3Qtb0RsTUdSMTN5U1Q0YlJUWTdKMjZwLUN2X0xXYk9CSHVsUTVpdVNibnJ2T2tGMVV4dGJfTTFDS2RYTVcyOXlJcnE2OXA0ZExFVHM1aGtEZWNWTzFaeGRLd1FWMno?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZjc1S3hsaEJuSjRKQ2FHbTVaaFZFZDB6UmNpSUlSQXA4TU1wSFhZNThEemxNMHQyRlJBREx5UE05TF95U2hDd2tkdW9mZEZnYjJIMGNnV3Qtb0RsTUdSMTN5U1Q0YlJUWTdKMjZwLUN2X0xXYk9CSHVsUTVpdVNibnJ2T2tGMVV4dGJfTTFDS2RYTVcyOXlJcnE2OXA0ZExFVHM1aGtEZWNWTzFaeGRLd1FWMno?oc=5",
+      "source": "The Policy Edge",
+      "category": "Environment",
+      "publishedAt": "2026-11-10T16:06:12Z"
+    },
+    {
       "id": "b7d19fc565bf85e82b56",
       "title": "Climate action cannot ignore an ageing world - HelpAge International",
       "description": "Climate action cannot ignore an ageing world HelpAge International",
@@ -532,6 +594,26 @@
       "source": "HelpAge International",
       "category": "World",
       "publishedAt": "2026-11-10T15:19:33Z"
+    },
+    {
+      "id": "abcf1a4d1a1e4e2c54f7",
+      "title": "Local Development Minister reviews Greater Cairo Air Pollution project - Egypt Independent",
+      "description": "Local Development Minister reviews Greater Cairo Air Pollution project Egypt Independent",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW9qS051ZXRJTDJ2My1VcFlXbmFlaDhQT095dU5HN19NV3QyVGV0SlV1QlNhWnhPUlFvUWpyUTV0dUxhWlNiUkV3SEdLS0h1cnZVVk1VU3VIcmE2c3hUZjQ4Z3I1YmV3QTlVcG9tOGphaFhNQW9EQ2k0ZUlaSDg3MEtPOFB0MGxkUmMtNC1WU0hIdGRDNlBvZW5MdVk2WFN5ZXFHQXA2UQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW9qS051ZXRJTDJ2My1VcFlXbmFlaDhQT095dU5HN19NV3QyVGV0SlV1QlNhWnhPUlFvUWpyUTV0dUxhWlNiUkV3SEdLS0h1cnZVVk1VU3VIcmE2c3hUZjQ4Z3I1YmV3QTlVcG9tOGphaFhNQW9EQ2k0ZUlaSDg3MEtPOFB0MGxkUmMtNC1WU0hIdGRDNlBvZW5MdVk2WFN5ZXFHQXA2UQ?oc=5",
+      "source": "Egypt Independent",
+      "category": "Environment",
+      "publishedAt": "2026-11-10T11:53:46Z"
+    },
+    {
+      "id": "fd61d0dc90eb4be5b9a7",
+      "title": "Vietnam and Japan expand environmental cooperation under new deal - Vietnam Investment Review - VIR",
+      "description": "Vietnam and Japan expand environmental cooperation under new deal Vietnam Investment Review - VIR",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUjJpZWhNWk5vLTdCUUVzWTBuLWx1QUxvclo3bU1reWtqMkdxMXVSNFNaczFlaUNicTZRXzd4TVoycno1MGUwdlFkb2hOWmh0clVnRVNNOEgxdU14RF9iaTlkdFo0eGljY1Q3c19FLW9TMFVEbkY5eFRtVUZNbS1zbkhSSGxMTUZNYmFkT3dQaVNYVHZsZ0dYZnhqV0U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUjJpZWhNWk5vLTdCUUVzWTBuLWx1QUxvclo3bU1reWtqMkdxMXVSNFNaczFlaUNicTZRXzd4TVoycno1MGUwdlFkb2hOWmh0clVnRVNNOEgxdU14RF9iaTlkdFo0eGljY1Q3c19FLW9TMFVEbkY5eFRtVUZNbS1zbkhSSGxMTUZNYmFkT3dQaVNYVHZsZ0dYZnhqV0U?oc=5",
+      "source": "Vietnam Investment Review - VIR",
+      "category": "Environment",
+      "publishedAt": "2026-11-10T11:50:27Z"
     },
     {
       "id": "fa765e6811995ab4d5fe",
@@ -544,6 +626,16 @@
       "publishedAt": "2026-11-10T11:32:06Z"
     },
     {
+      "id": "0e41d65a9a073dfa8a83",
+      "title": "Bill Gates Wants to Stop Global Warming. He’s Earned Billions From Climate-Polluting Landfills. - ProPublica",
+      "description": "Bill Gates Wants to Stop Global Warming. He’s Earned Billions From Climate-Polluting Landfills. ProPublica",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUQ3VUVudHpickxmeGh6M0lmWFhGTXdXd3VRNi1Od1cwYkFrdVFPb0RRS0pBc2lCOGloREJPeUc4eGJvUHNzMGRMajRJakVjRFJRbW9TVHhCcjRFMlpkdTM3N2J6NWhyMDBZQUNWZ2ZBZ2s5b0VXbzRuNjFNREcyXzcyaDI4cTds?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUQ3VUVudHpickxmeGh6M0lmWFhGTXdXd3VRNi1Od1cwYkFrdVFPb0RRS0pBc2lCOGloREJPeUc4eGJvUHNzMGRMajRJakVjRFJRbW9TVHhCcjRFMlpkdTM3N2J6NWhyMDBZQUNWZ2ZBZ2s5b0VXbzRuNjFNREcyXzcyaDI4cTds?oc=5",
+      "source": "ProPublica",
+      "category": "Environment",
+      "publishedAt": "2026-11-10T10:00:00Z"
+    },
+    {
       "id": "dac6fb04cbb6cfd51f4c",
       "title": "Tamil Nadu sets up new infrastructure corporation to execute projects above Rs 200 Cr - The Hans India",
       "description": "Tamil Nadu sets up new infrastructure corporation to execute projects above Rs 200 Cr The Hans India",
@@ -552,6 +644,16 @@
       "source": "The Hans India",
       "category": "India",
       "publishedAt": "2026-11-10T08:45:28Z"
+    },
+    {
+      "id": "6c1f9f4b18f8beb23ba2",
+      "title": "Türkiye and Uzbekistan sign environmental pact at COP31 - Yeni Safak English",
+      "description": "Türkiye and Uzbekistan sign environmental pact at COP31 Yeni Safak English",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRHI1di1jTzFxYVJqelVvNVI4RzduSWtwYi11NjBpbTNhN0RUblNaQlRDT3I3MzUxS3h0cEdENEhDS1ZVaEVEV1VDdTlrdG9BbWlPb3Z0TTBXVW5hYWZkbmxBOEE1VXdpMThMWVN1QnUzUHcyUTlRM2NDZnZFbVM1TGVqaC1sRXpOUVRjc2RTUGc3NmFnOWZTb0VBNWc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRHI1di1jTzFxYVJqelVvNVI4RzduSWtwYi11NjBpbTNhN0RUblNaQlRDT3I3MzUxS3h0cEdENEhDS1ZVaEVEV1VDdTlrdG9BbWlPb3Z0TTBXVW5hYWZkbmxBOEE1VXdpMThMWVN1QnUzUHcyUTlRM2NDZnZFbVM1TGVqaC1sRXpOUVRjc2RTUGc3NmFnOWZTb0VBNWc?oc=5",
+      "source": "Yeni Safak English",
+      "category": "Environment",
+      "publishedAt": "2026-11-10T07:15:48Z"
     },
     {
       "id": "d0f14e1bd1156cc9f236",
@@ -564,6 +666,16 @@
       "publishedAt": "2026-11-10T06:54:49Z"
     },
     {
+      "id": "57751d1f79f0f07f4b04",
+      "title": "Greenhouse pollution down but global warming surges as climate talks begin - SMH.com.au",
+      "description": "Greenhouse pollution down but global warming surges as climate talks begin SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPT0N0NllIa1pXbjY0TW1DOXJuVGNOXzdLbmFwNEhjTl82WmdMcTZ4Z0lFdHFwRlFqRUE5Qzc1UFNHRXY0bHdHcVp0QS0wejg3ZmFoNFZkUVh5allHZzNaaUhTTUdScEw0a1lFUzdPelRjQmlRUjA2WHViUnVXVjBScDNqc1prY1lTM1hzTU9paW9JX3RwcHZKLUt5dmNkRmRYSGQwOHV0bDJVV19LU0M5SHRIQ1hONVVXOGVDcVpTRG9qNVdGNXZETENsbF84UGw3RDZBZlYzeFl6MDZYc0E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPT0N0NllIa1pXbjY0TW1DOXJuVGNOXzdLbmFwNEhjTl82WmdMcTZ4Z0lFdHFwRlFqRUE5Qzc1UFNHRXY0bHdHcVp0QS0wejg3ZmFoNFZkUVh5allHZzNaaUhTTUdScEw0a1lFUzdPelRjQmlRUjA2WHViUnVXVjBScDNqc1prY1lTM1hzTU9paW9JX3RwcHZKLUt5dmNkRmRYSGQwOHV0bDJVV19LU0M5SHRIQ1hONVVXOGVDcVpTRG9qNVdGNXZETENsbF84UGw3RDZBZlYzeFl6MDZYc0E?oc=5",
+      "source": "SMH.com.au",
+      "category": "Environment",
+      "publishedAt": "2026-11-10T06:33:59Z"
+    },
+    {
       "id": "d44f972de11a04b10516",
       "title": "Tamil Nadu Launches New Infrastructure Corporation For Projects Above Rs 200 Crore - Indian Masterminds",
       "description": "Tamil Nadu Launches New Infrastructure Corporation For Projects Above Rs 200 Crore Indian Masterminds",
@@ -572,6 +684,26 @@
       "source": "Indian Masterminds",
       "category": "India",
       "publishedAt": "2026-11-10T05:36:41Z"
+    },
+    {
+      "id": "a9ce1ba00e743e06a311",
+      "title": "\"Connecting the World\" at Eco Expo Asia 2026: China, Hong Kong, and the UN Agree No Country Can Face the Environmental Crisis Alone - Techsauce",
+      "description": "\"Connecting the World\" at Eco Expo Asia 2026: China, Hong Kong, and the UN Agree No Country Can Face the Environmental Crisis Alone Techsauce",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbjdBNU9zUVlqM1prNjVqdUlzbHpNbjUzVVc3NFBaZVY3MnZLMEVobFlKR3VFT1B6enVSMHRIQktEc0wwX0RGSWk3dWNfVXF3U3lHRDVSOHA1c2RhSGVYbDhYVDd1ckItRmM4aVU4SW1mNFBVVDN6MFN5SlVLUmFJZEdXcS1PNGJYenUwWE0tUVdjZVJKVFR2cGZLbkRpalBORmlXTjVVdDA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbjdBNU9zUVlqM1prNjVqdUlzbHpNbjUzVVc3NFBaZVY3MnZLMEVobFlKR3VFT1B6enVSMHRIQktEc0wwX0RGSWk3dWNfVXF3U3lHRDVSOHA1c2RhSGVYbDhYVDd1ckItRmM4aVU4SW1mNFBVVDN6MFN5SlVLUmFJZEdXcS1PNGJYenUwWE0tUVdjZVJKVFR2cGZLbkRpalBORmlXTjVVdDA?oc=5",
+      "source": "Techsauce",
+      "category": "Environment",
+      "publishedAt": "2026-11-10T04:14:29Z"
+    },
+    {
+      "id": "b436f28faf0c77621b48",
+      "title": "A further acceleration of clean energy is needed for global CO2 emissions to peak and decline | Nature Climate Change - Nature",
+      "description": "A further acceleration of clean energy is needed for global CO2 emissions to peak and decline | Nature Climate Change Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5ajRLRzZmTUg2bXJKc0EwRHQ4UElCZ2h4REZzamJxSk9HRENjbGRfcEluOUw1Si1NNk94Tm05blg1N1lKMWowalZHUlVwVnlhZGE3TnlFUWd6R1ZhMS00?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5ajRLRzZmTUg2bXJKc0EwRHQ4UElCZ2h4REZzamJxSk9HRENjbGRfcEluOUw1Si1NNk94Tm05blg1N1lKMWowalZHUlVwVnlhZGE3TnlFUWd6R1ZhMS00?oc=5",
+      "source": "Nature",
+      "category": "Environment",
+      "publishedAt": "2026-11-10T02:10:16Z"
     },
     {
       "id": "7b36421a409a3e12b0f4",
@@ -584,6 +716,26 @@
       "publishedAt": "2026-11-10T01:07:39Z"
     },
     {
+      "id": "1a2f42e1cf076f7ea1a6",
+      "title": "Türkiye, Uzbekistan sign environmental cooperation agreement - Anadolu Ajansı",
+      "description": "Türkiye, Uzbekistan sign environmental cooperation agreement Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQTRLUjJ4TFRTU19NMks4QnJ3a05Dd2hCUkFMZjMyTmdkYkkwVVhHcWFzUUJmemJ4enZrbjBGXzZIUld5NGZINHNaZ2Z6SWhYbFQ4UHNaVWJNdGJxNlc3aUFQNWYyaXBhS2pvelVmbS1wT05HOG1aNVVoSXN1UzVQQzN5VmRkY2JWZ3Z6TUt5YlNXeldJUjBnWHNBbXZVS1pPWGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQTRLUjJ4TFRTU19NMks4QnJ3a05Dd2hCUkFMZjMyTmdkYkkwVVhHcWFzUUJmemJ4enZrbjBGXzZIUld5NGZINHNaZ2Z6SWhYbFQ4UHNaVWJNdGJxNlc3aUFQNWYyaXBhS2pvelVmbS1wT05HOG1aNVVoSXN1UzVQQzN5VmRkY2JWZ3Z6TUt5YlNXeldJUjBnWHNBbXZVS1pPWGc?oc=5",
+      "source": "Anadolu Ajansı",
+      "category": "Environment",
+      "publishedAt": "2026-11-09T19:52:58Z"
+    },
+    {
+      "id": "7d1c67fce6cecc154912",
+      "title": "A new study looks at how climate changes our brains - The Allegheny Front",
+      "description": "A new study looks at how climate changes our brains The Allegheny Front",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53dGNhQl9nczFIRWktSDRUT21za2RDaElWcENoZmQzNWxNblRPMDFkMWluNzlPc2ZMNDg2aFlNOHB4ZFVzaWpoOE9vWHlpWk9pREQ5VTB1d2NEbDNfQnFBQ2wyTS1NMy1xU2hNQURDY3B5al9LRDc0NA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53dGNhQl9nczFIRWktSDRUT21za2RDaElWcENoZmQzNWxNblRPMDFkMWluNzlPc2ZMNDg2aFlNOHB4ZFVzaWpoOE9vWHlpWk9pREQ5VTB1d2NEbDNfQnFBQ2wyTS1NMy1xU2hNQURDY3B5al9LRDc0NA?oc=5",
+      "source": "The Allegheny Front",
+      "category": "Environment",
+      "publishedAt": "2026-11-09T19:03:46Z"
+    },
+    {
       "id": "adb3044ef302bc14467e",
       "title": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna - International Atomic Energy Agency",
       "description": "Nuclear Safeguards in a Changing World – 15th Symposium on International Safeguards Opens in Vienna International Atomic Energy Agency",
@@ -592,6 +744,16 @@
       "source": "International Atomic Energy Agency",
       "category": "World",
       "publishedAt": "2026-11-09T15:00:00Z"
+    },
+    {
+      "id": "f7b1c2920506dd709feb",
+      "title": "How the European Commission assessed Ukraine's environmental reforms and what problems it identified - Європейська правда",
+      "description": "How the European Commission assessed Ukraine's environmental reforms and what problems it identified Європейська правда",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kZTVwVUZ4MU54cm9fUks4bFhvZFZMek5WWHZzV19oX3pmU2JvTWlGV25kUnBuY1BtbjNyTW5USzZoTmZ3T1RINk9jZ05CM1BkM3pDaXpnNUdRY3pBdzdYTk1MTG9xV0swUW9xVXZWcw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kZTVwVUZ4MU54cm9fUks4bFhvZFZMek5WWHZzV19oX3pmU2JvTWlGV25kUnBuY1BtbjNyTW5USzZoTmZ3T1RINk9jZ05CM1BkM3pDaXpnNUdRY3pBdzdYTk1MTG9xV0swUW9xVXZWcw?oc=5",
+      "source": "Європейська правда",
+      "category": "Environment",
+      "publishedAt": "2026-11-09T14:00:12Z"
     },
     {
       "id": "59d6a40414c108ff8c9a",
@@ -672,8 +834,18 @@
       "source": "European Environment Agency (EEA)",
       "category": "Disaster",
       "publishedAt": "2026-11-05T17:31:38Z"
+    },
+    {
+      "id": "78ddca879c4c57f133ef",
+      "title": "White House Watch: Tracking Attacks on Our Environment & Health - NRDC",
+      "description": "White House Watch: Tracking Attacks on Our Environment & Health NRDC",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeXRXT1ZGdUF0S2NRNkhWR0cyRjBreExxaWtDMDdvUEZ6RTdSUTBwaTRyQWxaTVVMTTlUaS1nREJvMlVGM2RsX1d3U19nT3h0MG8xeDZlVUR5ZWZPYlVGeWpQRjZKVU54Sm96MjZ3MGFXYk00ZC1vZUk3WmVSS3FkTVpkM2RJRE0zQ1BaYVNiVDZUUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeXRXT1ZGdUF0S2NRNkhWR0cyRjBreExxaWtDMDdvUEZ6RTdSUTBwaTRyQWxaTVVMTTlUaS1nREJvMlVGM2RsX1d3U19nT3h0MG8xeDZlVUR5ZWZPYlVGeWpQRjZKVU54Sm96MjZ3MGFXYk00ZC1vZUk3WmVSS3FkTVpkM2RJRE0zQ1BaYVNiVDZUUQ?oc=5",
+      "source": "NRDC",
+      "category": "Environment",
+      "publishedAt": "2026-11-05T12:00:00Z"
     }
   ],
-  "lastUpdated": "2026-11-11T17:13:31Z",
-  "updatedAt": "2026-11-11T17:13:31Z"
+  "lastUpdated": "2026-11-11T17:13:51Z",
+  "updatedAt": "2026-11-11T17:13:51Z"
 }
