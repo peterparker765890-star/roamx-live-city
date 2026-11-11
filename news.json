@@ -1,50 +1,272 @@
 {
   "project": "ROAMX",
-  "version": "2.0",
+  "projectName": "ROAMX World Watch",
+  "version": "3.0",
   "language": "en",
-  "lastUpdated": null,
-  "updateMode": "scheduled-rss-collection",
-  "refreshIntervalMinutes": 5,
-  "sortOrder": "newest-first",
-  "removeDuplicates": true,
+  "purpose": "Real-world news monitoring aligned with SDG 11 - Sustainable Cities and Communities",
+
+  "sdg": {
+    "number": 11,
+    "name": "Sustainable Cities and Communities",
+    "priorities": [
+      "Sustainable urban development",
+      "Affordable housing",
+      "Public transportation",
+      "Urban infrastructure",
+      "Waste management",
+      "Air quality",
+      "Water management",
+      "Disaster risk reduction",
+      "Climate resilience",
+      "Public safety",
+      "Sustainable communities"
+    ]
+  },
+
+  "collection": {
+    "mode": "scheduled-rss",
+    "enabled": true,
+    "intervalMinutes": 5,
+    "language": "en",
+    "sortOrder": "publishedAt-descending",
+    "maxArticles": 300,
+    "maxArticlesPerSource": 50,
+    "maximumArticleAgeDays": 7,
+    "preserveExistingArticles": true,
+    "removeDuplicates": true,
+    "rejectInvalidUrls": true,
+    "rejectMissingTitles": true,
+    "requireRealPublicationDate": true,
+    "neverGenerateArticles": true,
+    "neverInventPublicationDates": true,
+    "convertForeignHeadlinesToEnglish": true,
+    "preserveOriginalPublisherLinks": true
+  },
+
   "categories": [
-    "World",
-    "India",
-    "Technology",
-    "Environment",
-    "Disaster"
-  ],
-  "sources": [
     {
       "id": "world",
-      "name": "Google News - World",
-      "category": "World",
-      "rss": "https://news.google.com/rss/search?q=world+news&hl=en&gl=US&ceid=US:en"
+      "name": "World",
+      "enabled": true,
+      "priority": 1,
+      "topics": [
+        "International news",
+        "Global developments",
+        "United Nations",
+        "Sustainable development",
+        "Urban development",
+        "Smart cities",
+        "Public infrastructure",
+        "Public transportation",
+        "Housing",
+        "Community development"
+      ]
     },
     {
       "id": "india",
-      "name": "Google News - India",
-      "category": "India",
-      "rss": "https://news.google.com/rss/search?q=India+news&hl=en-IN&gl=IN&ceid=IN:en"
+      "name": "India",
+      "enabled": true,
+      "priority": 2,
+      "topics": [
+        "India news",
+        "Indian government",
+        "Indian cities",
+        "Infrastructure",
+        "Transportation",
+        "Urban development",
+        "Public safety",
+        "Indian environmental developments"
+      ]
     },
     {
       "id": "technology",
-      "name": "Google News - Technology",
-      "category": "Technology",
-      "rss": "https://news.google.com/rss/search?q=technology+news&hl=en&gl=US&ceid=US:en"
+      "name": "Technology",
+      "enabled": true,
+      "priority": 3,
+      "topics": [
+        "Technology",
+        "Artificial intelligence",
+        "Smart city technology",
+        "Intelligent transportation",
+        "Scientific research",
+        "Environmental monitoring",
+        "Disaster technology",
+        "Innovation"
+      ]
     },
     {
       "id": "environment",
-      "name": "Google News - Environment",
-      "category": "Environment",
-      "rss": "https://news.google.com/rss/search?q=environment+climate+news&hl=en&gl=US&ceid=US:en"
+      "name": "Environment",
+      "enabled": true,
+      "priority": 4,
+      "topics": [
+        "Climate change",
+        "Air pollution",
+        "Water pollution",
+        "Waste management",
+        "Deforestation",
+        "Extreme weather",
+        "Water scarcity",
+        "Environmental protection",
+        "Sustainability",
+        "Heatwaves"
+      ]
     },
     {
       "id": "disaster",
-      "name": "Google News - Disaster",
-      "category": "Disaster",
-      "rss": "https://news.google.com/rss/search?q=disaster+flood+cyclone+earthquake&hl=en&gl=US&ceid=US:en"
+      "name": "Disaster",
+      "enabled": true,
+      "priority": 5,
+      "topics": [
+        "Floods",
+        "Cyclones",
+        "Earthquakes",
+        "Landslides",
+        "Wildfires",
+        "Tsunamis",
+        "Natural disasters",
+        "Emergency warnings",
+        "Disaster response",
+        "Disaster preparedness"
+      ]
     }
   ],
+
+  "sources": [
+    {
+      "id": "world_global",
+      "name": "Google News - World",
+      "category": "World",
+      "enabled": true,
+      "rss": "https://news.google.com/rss/search?q=world+news+international&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "id": "sdg_cities",
+      "name": "Google News - Sustainable Cities",
+      "category": "World",
+      "enabled": true,
+      "rss": "https://news.google.com/rss/search?q=sustainable+cities+urban+development+public+transport+infrastructure&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "id": "india_news",
+      "name": "Google News - India",
+      "category": "India",
+      "enabled": true,
+      "rss": "https://news.google.com/rss/search?q=India+latest+news+government+cities+infrastructure&hl=en-IN&gl=IN&ceid=IN:en"
+    },
+    {
+      "id": "technology_news",
+      "name": "Google News - Technology",
+      "category": "Technology",
+      "enabled": true,
+      "rss": "https://news.google.com/rss/search?q=technology+science+innovation+smart+city&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "id": "environment_news",
+      "name": "Google News - Environment",
+      "category": "Environment",
+      "enabled": true,
+      "rss": "https://news.google.com/rss/search?q=environment+climate+change+pollution+sustainability&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "id": "india_environment",
+      "name": "Google News - India Environment",
+      "category": "Environment",
+      "enabled": true,
+      "rss": "https://news.google.com/rss/search?q=India+air+pollution+floods+climate+environment&hl=en-IN&gl=IN&ceid=IN:en"
+    },
+    {
+      "id": "disaster_global",
+      "name": "Google News - Global Disasters",
+      "category": "Disaster",
+      "enabled": true,
+      "rss": "https://news.google.com/rss/search?q=global+flood+cyclone+earthquake+wildfire+disaster&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "id": "disaster_india",
+      "name": "Google News - India Disaster Watch",
+      "category": "Disaster",
+      "enabled": true,
+      "rss": "https://news.google.com/rss/search?q=India+flood+cyclone+earthquake+disaster+warning&hl=en-IN&gl=IN&ceid=IN:en"
+    },
+    {
+      "id": "weather_global",
+      "name": "Google News - Extreme Weather",
+      "category": "Disaster",
+      "enabled": true,
+      "rss": "https://news.google.com/rss/search?q=extreme+weather+heatwave+heavy+rainfall+storm+warning&hl=en-US&gl=US&ceid=US:en"
+    }
+  ],
+
+  "deduplication": {
+    "enabled": true,
+    "methods": [
+      "canonical-url",
+      "normalized-title",
+      "publisher-guid"
+    ],
+    "ignoreUrlTrackingParameters": true,
+    "caseInsensitiveTitles": true,
+    "preserveOriginalArticle": true,
+    "keepNewestDuplicate": true,
+    "neverRepeatExistingArticles": true
+  },
+
+  "relevance": {
+    "enabled": true,
+    "priorityTopics": [
+      "SDG 11",
+      "sustainable cities",
+      "urban resilience",
+      "public transportation",
+      "infrastructure",
+      "air quality",
+      "water management",
+      "waste management",
+      "climate resilience",
+      "disaster preparedness",
+      "emergency warnings",
+      "natural disasters"
+    ],
+    "prioritizeDisasterUpdates": true,
+    "prioritizeIndiaNews": true,
+    "includeImportantInternationalEvents": true,
+    "excludeUnrelatedPromotionalContent": true
+  },
+
+  "updates": {
+    "enabled": true,
+    "refreshIntervalMinutes": 5,
+    "showLastSuccessfulUpdate": true,
+    "showNewArticleCount": true,
+    "trackNewArticleIds": true,
+    "trackUpdatedArticles": true,
+    "notifyWhenNewArticlesArrive": true,
+    "preservePreviousArticles": true,
+    "showCollectionErrors": true,
+    "showStaleDatabaseWarning": true
+  },
+
+  "changeLog": {
+    "lastRun": null,
+    "lastSuccessfulRun": null,
+    "lastUpdated": null,
+    "articlesAdded": 0,
+    "articlesUpdated": 0,
+    "duplicatesRemoved": 0,
+    "failedSources": [],
+    "newArticleIds": [],
+    "updatedArticleIds": []
+  },
+
+  "statistics": {
+    "totalArticles": 0,
+    "world": 0,
+    "india": 0,
+    "technology": 0,
+    "environment": 0,
+    "disaster": 0
+  },
+
   "articles": []
 }
