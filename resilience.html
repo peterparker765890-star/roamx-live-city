@@ -3,334 +3,749 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#080d18">
+<meta name="theme-color" content="#090b0e">
 <title>ROAMX | Resilience & Safety</title>
+
 <style>
 :root{
-  --bg:#080d18;--panel:#101a2b;--panel2:#142239;--line:#263650;
-  --text:#edf4ff;--muted:#9aabc2;--cyan:#36d9ed;--blue:#638cff;
-  --red:#ff647c;--green:#43d6a0;--yellow:#ffc96b;
+  --bg:#090b0e;
+  --panel:#12161c;
+  --panel2:#191e26;
+  --gold:#c8a96e;
+  --gold2:#e4c995;
+  --text:#f1f0eb;
+  --muted:#9299a3;
+  --line:rgba(200,169,110,.18);
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:radial-gradient(circle at 85% 0%,#142744 0,transparent 30%),var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.6}
+body{
+  margin:0;
+  background:radial-gradient(ellipse at 50% -20%,rgba(200,169,110,.12),transparent 42%),var(--bg);
+  color:var(--text);
+  font-family:Inter,"Segoe UI",Arial,sans-serif;
+  line-height:1.6;
+}
 a{color:inherit;text-decoration:none}
 button{font:inherit}
-header{position:sticky;top:0;z-index:20;background:#080d18eF;backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
-.nav{max-width:1180px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.brand{font-size:23px;font-weight:900;letter-spacing:2px}
-.brand span{color:var(--cyan)}
-.navlinks{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
-.navlinks a{font-size:13px;color:var(--muted);font-weight:700}
-.navlinks a:hover,.navlinks a.active{color:var(--cyan)}
-.menu{display:none;background:transparent;border:1px solid var(--line);color:white;padding:7px 11px;border-radius:9px}
-main{max-width:1180px;margin:auto;padding:35px 22px 65px}
-.hero{padding:48px 0 35px;display:grid;grid-template-columns:1.35fr .65fr;gap:25px;align-items:center}
-.eyebrow{color:var(--cyan);font-size:12px;font-weight:900;letter-spacing:3px;text-transform:uppercase}
-h1{font-size:clamp(38px,6vw,68px);line-height:1.04;letter-spacing:-2px;margin:12px 0 18px}
-h1 span{color:var(--cyan)}
-.hero p{color:var(--muted);max-width:680px;font-size:16px}
-.hero-card{background:linear-gradient(145deg,#152944,#101827);border:1px solid #2d4968;border-radius:22px;padding:25px;box-shadow:0 20px 60px #0005}
-.hero-icon{font-size:38px}
+
+header{
+  position:sticky;top:0;z-index:20;
+  background:rgba(9,11,14,.96);
+  backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--line);
+}
+.nav{
+  max-width:1280px;margin:auto;padding:15px 24px;
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
+}
+.brand{font-size:24px;font-weight:900;letter-spacing:2px}
+.brand span{color:var(--gold)}
+.navlinks{display:flex;gap:23px;align-items:center;flex-wrap:wrap}
+.navlinks a{
+  font-size:12px;font-weight:800;letter-spacing:1px;
+  color:var(--muted);transition:.2s;
+}
+.navlinks a:hover,.navlinks a.active{color:var(--gold2)}
+.menu{
+  display:none;background:#171c23;color:var(--gold2);
+  border:1px solid var(--line);padding:8px 12px;border-radius:9px;
+}
+main{max-width:1200px;margin:auto;padding:35px 24px 70px}
+
+.hero{
+  padding:55px 0 35px;
+  display:grid;grid-template-columns:1.35fr .65fr;
+  gap:28px;align-items:center;
+}
+.eyebrow{
+  color:var(--gold);font-size:11px;font-weight:900;
+  letter-spacing:3px;text-transform:uppercase;
+}
+h1{
+  font-size:clamp(42px,6vw,72px);
+  line-height:1.02;letter-spacing:-2px;margin:13px 0 18px;
+}
+h1 span{color:var(--gold)}
+.hero p{color:var(--muted);max-width:700px;font-size:15px}
+.hero-card{
+  background:linear-gradient(145deg,#202329,#11151a);
+  border:1px solid var(--line);border-radius:22px;
+  padding:27px;box-shadow:0 20px 60px #0006;
+}
+.hero-icon{font-size:40px}
 .hero-card strong{display:block;font-size:20px;margin:12px 0 6px}
 .hero-card p{font-size:13px;margin:0}
-.notice{margin:12px 0 30px;padding:15px 18px;border:1px solid #725b2d;background:#30271666;border-radius:13px;color:#f5d99e;font-size:13px}
-.section-head{display:flex;justify-content:space-between;align-items:end;gap:15px;margin:42px 0 18px}
+
+.notice{
+  margin:15px 0 30px;padding:16px 19px;
+  border:1px solid rgba(200,169,110,.35);
+  background:rgba(200,169,110,.07);
+  border-radius:13px;color:#e5d2a9;font-size:13px;
+}
+.section-head{
+  display:flex;justify-content:space-between;align-items:end;
+  gap:15px;margin:44px 0 18px;
+}
 .section-head h2{font-size:27px;margin:0}
-.section-head p{margin:3px 0 0;color:var(--muted);font-size:13px}
+.section-head p{margin:4px 0 0;color:var(--muted);font-size:13px}
+
 .quick-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.quick{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;transition:.2s}
-.quick:hover,.guide:hover{border-color:#3c6c91;transform:translateY(-2px)}
-.quick .ico{font-size:25px}
-.quick strong{display:block;margin:7px 0 3px}
+.quick{
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:16px;padding:19px;transition:.2s;
+}
+.quick:hover,.guide:hover{border-color:var(--gold);transform:translateY(-3px)}
+.quick .ico{font-size:26px}
+.quick strong{display:block;margin:8px 0 3px}
 .quick p{font-size:12px;color:var(--muted);margin:0}
-.guide-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
-.guide{background:linear-gradient(150deg,#121f32,#0e1726);border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:.2s}
-.guide-top{padding:20px 21px 13px;display:flex;align-items:center;gap:13px}
-.guide-icon{width:48px;height:48px;border-radius:14px;background:#1c3049;display:grid;place-items:center;font-size:25px;flex-shrink:0}
+
+.guide-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}
+.guide{
+  background:linear-gradient(145deg,#171b21,#101318);
+  border:1px solid var(--line);border-radius:18px;
+  overflow:hidden;transition:.2s;
+}
+.guide-top{padding:20px 21px 13px;display:flex;align-items:center;gap:14px}
+.guide-icon{
+  width:49px;height:49px;border-radius:14px;
+  background:rgba(200,169,110,.12);
+  display:grid;place-items:center;font-size:25px;flex-shrink:0;
+}
 .guide-top h3{margin:0;font-size:19px}
 .guide-top small{color:var(--muted);font-size:11px}
 .guide-content{padding:0 21px 20px}
-.guide-content p{font-size:13px;color:var(--muted);margin:4px 0 12px}
+.guide-content p{font-size:13px;color:var(--muted);margin:4px 0 13px}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
-.step{background:#0a1321;border:1px solid #20324a;border-radius:12px;padding:12px}
-.step b{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--cyan)}
+.step{
+  background:#0c1015;border:1px solid rgba(255,255,255,.08);
+  border-radius:12px;padding:12px;
+}
+.step b{
+  font-size:11px;letter-spacing:1px;
+  text-transform:uppercase;color:var(--gold);
+}
 .step ul{padding-left:16px;margin:7px 0 0}
-.step li{font-size:11px;color:#c1cde0;margin:5px 0}
-.emergency{margin-top:42px;padding:25px;border-radius:20px;background:linear-gradient(135deg,#311d2a,#17192a 65%,#14243a);border:1px solid #64384a}
+.step li{font-size:11px;color:#c4c5c7;margin:6px 0}
+
+.emergency{
+  margin-top:43px;padding:26px;border-radius:20px;
+  background:linear-gradient(135deg,#291b20,#17191e 65%,#171b20);
+  border:1px solid rgba(200,100,110,.3);
+}
 .emergency h2{margin:0;font-size:27px}
-.emergency>p{color:#c4b7c2;font-size:13px}
-.number-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin-top:18px}
-.number{background:#0b1322;border:1px solid #493344;border-radius:13px;padding:15px}
+.emergency>p{color:#c4b7b7;font-size:13px}
+.number-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:11px;margin-top:18px;
+}
+.number{
+  background:#0c1015;border:1px solid rgba(200,169,110,.2);
+  border-radius:13px;padding:15px;
+}
 .number small{display:block;color:var(--muted);font-size:11px}
 .number strong{display:block;font-size:27px;color:#fff;letter-spacing:1px}
-.number a{display:inline-block;margin-top:5px;color:var(--cyan);font-size:11px;font-weight:800}
+.number a{display:inline-block;margin-top:5px;color:var(--gold2);font-size:11px;font-weight:900}
 .number.primary{border-color:#a3485d;background:#351d2b}
 .number.primary strong{color:#ff9bac}
-.qualification{font-size:11px!important;color:#d7c4ce!important;margin-top:14px!important}
-.check-layout{display:grid;grid-template-columns:1fr 270px;gap:18px;margin-top:20px}
-.check-panel,.progress-panel{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:20px}
+.qualification{font-size:11px!important;color:#d7c4ce!important;margin-top:15px!important}
+
+.check-layout{
+  display:grid;grid-template-columns:1fr 270px;
+  gap:18px;margin-top:20px;
+}
+.check-panel,.progress-panel{
+  background:var(--panel);border:1px solid var(--line);
+  border-radius:17px;padding:20px;
+}
 .check-panel h3,.progress-panel h3{margin:0 0 5px}
 .check-panel>p,.progress-panel p{font-size:12px;color:var(--muted);margin:0 0 15px}
-.check-item{display:flex;gap:11px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #26354a;font-size:13px;color:#dce7f6}
-.check-item:last-child{border:0}
-.check-item input{width:17px;height:17px;accent-color:var(--cyan);margin-top:2px;flex-shrink:0}
-.check-item.done span{text-decoration:line-through;color:#8191a8}
-.progress-number{font-size:38px;font-weight:900;color:var(--cyan);margin:8px 0}
-.progress-track{height:9px;background:#26364d;border-radius:20px;overflow:hidden;margin:10px 0 18px}
-.progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--blue),var(--cyan));border-radius:20px;transition:width .25s}
-.action{border:1px solid #34516e;background:#172943;color:#e9f4ff;border-radius:10px;padding:9px 13px;font-size:12px;font-weight:800;cursor:pointer}
-.action:hover{border-color:var(--cyan)}
-.action.danger{border-color:#70404b;background:#321d29}
-.source-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
-.source{padding:15px;background:var(--panel);border:1px solid var(--line);border-radius:13px}
-.source b{display:block;font-size:13px}
-.source p{font-size:11px;color:var(--muted);margin:4px 0 8px}
-.source a{color:var(--cyan);font-size:11px;font-weight:800}
-footer{border-top:1px solid var(--line);padding:25px 20px;text-align:center;color:var(--muted);font-size:12px}
-footer strong{color:#dce8f8}
-.footer-credit{margin-top:7px;color:var(--cyan);font-weight:800}
-@media(max-width:800px){
- .hero{grid-template-columns:1fr;padding-top:30px}
- .quick-grid{grid-template-columns:repeat(2,1fr)}
- .number-grid{grid-template-columns:repeat(2,1fr)}
- .check-layout{grid-template-columns:1fr}
- .source-list{grid-template-columns:1fr}
+.check-item{
+  display:flex;gap:11px;align-items:flex-start;
+  padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08);
+  font-size:13px;color:#dce0e5;
 }
-@media(max-width:620px){
- .nav{padding:12px 16px}
- .menu{display:block}
- .navlinks{display:none;position:absolute;top:60px;left:0;right:0;background:#0b1423;padding:18px 22px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}
- .navlinks.open{display:flex}
- main{padding:22px 16px 50px}
- .quick-grid,.guide-grid{grid-template-columns:1fr}
- .steps{grid-template-columns:1fr}
- .section-head{align-items:start;flex-direction:column}
- h1{letter-spacing:-1px}
- .number-grid{grid-template-columns:repeat(2,1fr)}
+.check-item:last-child{border:0}
+.check-item input{
+  width:17px;height:17px;accent-color:var(--gold);
+  margin-top:3px;flex-shrink:0;
+}
+.check-item.done span{text-decoration:line-through;color:#818995}
+.progress-number{font-size:39px;font-weight:900;color:var(--gold);margin:8px 0}
+.progress-track{height:9px;background:#30343b;border-radius:20px;overflow:hidden;margin:10px 0 18px}
+.progress-fill{
+  height:100%;width:0;
+  background:linear-gradient(90deg,#9b7945,var(--gold2));
+  border-radius:20px;transition:width .25s;
+}
+.action{
+  border:1px solid var(--line);background:#202329;color:var(--gold2);
+  border-radius:10px;padding:10px 14px;font-size:12px;
+  font-weight:800;cursor:pointer;
+}
+.action:hover{border-color:var(--gold)}
+.action.danger{border-color:#70404b;background:#321d29;color:#ffb0bd}
+
+.source-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.source{
+  padding:16px;background:var(--panel);
+  border:1px solid var(--line);border-radius:13px;
+}
+.source b{display:block;font-size:13px}
+.source p{font-size:11px;color:var(--muted);margin:5px 0 9px}
+.source a{color:var(--gold2);font-size:11px;font-weight:900}
+
+footer{
+  border-top:1px solid var(--line);
+  padding:26px 20px;text-align:center;
+  color:var(--muted);font-size:12px;background:#080a0d;
+}
+.footer-credit{margin-top:7px;color:var(--gold);font-weight:800}
+
+@media(max-width:850px){
+  .hero{grid-template-columns:1fr;padding-top:30px}
+  .quick-grid{grid-template-columns:repeat(2,1fr)}
+  .number-grid{grid-template-columns:repeat(2,1fr)}
+  .check-layout{grid-template-columns:1fr}
+  .source-list{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:650px){
+  .nav{padding:12px 16px}
+  .menu{display:block}
+  .navlinks{
+    display:none;position:absolute;top:60px;left:12px;right:12px;
+    background:#101318;padding:18px;border:1px solid var(--line);
+    border-radius:13px;flex-direction:column;align-items:flex-start;
+  }
+  .navlinks.open{display:flex}
+  main{padding:22px 16px 50px}
+  .quick-grid,.guide-grid,.source-list{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .section-head{align-items:start;flex-direction:column}
+  h1{letter-spacing:-1px}
+}
+@media print{
+  body{background:#fff!important;color:#111!important}
+  header,.hero-card,.progress-panel .action,.menu{display:none!important}
+  main{max-width:none;padding:0}
+  .hero{display:block;padding:10px 0}
+  h1,h2,h3,.guide-top h3{color:#111!important}
+  .hero p,.guide-content p,.step li,.source p,.section-head p{color:#333!important}
+  .guide,.quick,.check-panel,.source,.emergency,.notice{
+    break-inside:avoid;background:#fff!important;color:#111!important;
+    border:1px solid #bbb!important;box-shadow:none!important;
+  }
+  .step{background:#f7f7f7!important;border-color:#ccc!important}
+  .step b,.eyebrow,.footer-credit{color:#76551c!important}
+  footer{color:#333!important;background:#fff!important}
+  a{color:#111!important;text-decoration:underline}
 }
 </style>
 </head>
+
 <body>
+
 <header>
- <nav class="nav">
+<nav class="nav">
   <a class="brand" href="index.html">ROAM<span>X</span></a>
-  <button class="menu" id="menuBtn" aria-label="Toggle navigation">☰</button>
+  <button class="menu" id="menuBtn" aria-label="Toggle navigation"
+    aria-controls="navLinks" aria-expanded="false">☰</button>
+
   <div class="navlinks" id="navLinks">
-   <a href="index.html">HOME</a>
-   <a href="environment.html">ENVIRONMENT</a>
-   <a href="news.html">WORLD NEWS</a>
-   <a class="active" href="resilience.html">RESILIENCE</a>
+    <a href="index.html">OVERVIEW</a>
+    <a href="environment.html">ROAMX AIR</a>
+    <a href="news.html">WORLD WATCH</a>
+    <a class="active" href="resilience.html">RESILIENCE</a>
   </div>
- </nav>
+</nav>
 </header>
 
 <main>
- <section class="hero">
+
+<section class="hero">
   <div>
-   <div class="eyebrow">ROAMX / RESILIENCE CENTRE</div>
-   <h1>BE READY.<br><span>STAY SAFE.</span></h1>
-   <p>Practical disaster-preparedness knowledge for everyday life. Learn what to do before, during and after emergencies — and prepare your household before a crisis happens.</p>
+    <div class="eyebrow">ROAMX / RESILIENCE CENTRE</div>
+    <h1>BE READY.<br><span>STAY SAFE.</span></h1>
+    <p>
+      Practical disaster-preparedness knowledge for everyday life.
+      Learn what to do before, during and after emergencies — and
+      prepare your household before a crisis happens.
+    </p>
   </div>
+
   <div class="hero-card">
-   <div class="hero-icon">🛡️</div>
-   <strong>Preparedness saves time.</strong>
-   <p>Know your evacuation route, keep essential supplies ready, protect important documents and follow official emergency instructions.</p>
+    <div class="hero-icon">🛡️</div>
+    <strong>Preparedness saves time.</strong>
+    <p>
+      Know your evacuation route, keep essential supplies ready,
+      protect important documents and follow official emergency instructions.
+    </p>
   </div>
- </section>
+</section>
 
- <div class="notice">⚠ SAFETY FIRST: This page is an educational reference, not a live emergency service. During an emergency, contact the appropriate authorities and follow instructions from local officials. Never delay evacuation to finish reading a guide.</div>
+<div class="notice">
+  ⚠ SAFETY FIRST: This page is an educational reference, not a live emergency
+  service. During an emergency, contact the appropriate authorities and follow
+  instructions from local officials. Never delay evacuation to finish reading a guide.
+</div>
 
- <div class="section-head">
-  <div><h2>Emergency essentials</h2><p>Simple actions that can make a difference.</p></div>
- </div>
- <div class="quick-grid">
-  <div class="quick"><div class="ico">📞</div><strong>Know emergency numbers</strong><p>Save 112 and relevant local emergency contacts in your phone.</p></div>
-  <div class="quick"><div class="ico">🎒</div><strong>Prepare a go-bag</strong><p>Keep water, food, medicines, torch, batteries and basic supplies ready.</p></div>
-  <div class="quick"><div class="ico">📍</div><strong>Plan safe meeting points</strong><p>Choose a family meeting point and an out-of-area contact.</p></div>
-  <div class="quick"><div class="ico">📄</div><strong>Protect documents</strong><p>Store copies of IDs, prescriptions and essential records in a waterproof pouch.</p></div>
-  <div class="quick"><div class="ico">🔋</div><strong>Keep devices charged</strong><p>Charge phones and power banks; keep a battery-powered radio if available.</p></div>
-  <div class="quick"><div class="ico">📢</div><strong>Follow official alerts</strong><p>Use government weather and disaster updates, not unverified forwards.</p></div>
- </div>
+<div class="section-head">
+  <div>
+    <h2>Emergency essentials</h2>
+    <p>Simple actions that can make a difference.</p>
+  </div>
+</div>
 
- <div class="section-head">
-  <div><h2>Disaster safety guides</h2><p>Review the steps for each hazard and adapt them to local conditions.</p></div>
- </div>
+<div class="quick-grid">
+  <div class="quick">
+    <div class="ico">📞</div>
+    <strong>Know emergency numbers</strong>
+    <p>Save 112 and relevant local emergency contacts in your phone.</p>
+  </div>
+  <div class="quick">
+    <div class="ico">🎒</div>
+    <strong>Prepare a go-bag</strong>
+    <p>Keep water, food, medicines, torch, batteries and basic supplies ready.</p>
+  </div>
+  <div class="quick">
+    <div class="ico">📍</div>
+    <strong>Plan safe meeting points</strong>
+    <p>Choose a family meeting point and an out-of-area contact.</p>
+  </div>
+  <div class="quick">
+    <div class="ico">📄</div>
+    <strong>Protect documents</strong>
+    <p>Store copies of IDs, prescriptions and essential records in a waterproof pouch.</p>
+  </div>
+  <div class="quick">
+    <div class="ico">🔋</div>
+    <strong>Keep devices charged</strong>
+    <p>Charge phones and power banks; keep a battery-powered radio if available.</p>
+  </div>
+  <div class="quick">
+    <div class="ico">📢</div>
+    <strong>Follow official alerts</strong>
+    <p>Use government weather and disaster updates, not unverified forwards.</p>
+  </div>
+</div>
 
- <div class="guide-grid">
-  <article class="guide">
-   <div class="guide-top"><div class="guide-icon">🌊</div><div><h3>Flood</h3><small>Heavy rain · Rising water · Flash floods</small></div></div>
-   <div class="guide-content">
+<div class="section-head">
+  <div>
+    <h2>Disaster safety guides</h2>
+    <p>Review the steps for each hazard and adapt them to local conditions.</p>
+  </div>
+</div>
+
+<div class="guide-grid">
+
+<article class="guide">
+  <div class="guide-top">
+    <div class="guide-icon">🌊</div>
+    <div><h3>Flood</h3><small>Heavy rain · Rising water · Flash floods</small></div>
+  </div>
+  <div class="guide-content">
     <p>Floodwater can hide open drains, debris and electrical hazards. Move to higher ground when instructed.</p>
     <div class="steps">
-     <div class="step"><b>Before</b><ul><li>Know local flood-prone areas.</li><li>Keep documents and medicines protected.</li><li>Prepare to move to higher ground.</li></ul></div>
-     <div class="step"><b>During</b><ul><li>Move away from rising water.</li><li>Never walk or drive through floodwater.</li><li>Switch off electricity only if safe.</li></ul></div>
-     <div class="step"><b>After</b><ul><li>Return only when authorities permit.</li><li>Avoid damaged wires and buildings.</li><li>Use safe drinking water.</li></ul></div>
+      <div class="step"><b>Before</b><ul>
+        <li>Know local flood-prone areas.</li>
+        <li>Keep documents and medicines protected.</li>
+        <li>Prepare to move to higher ground.</li>
+      </ul></div>
+      <div class="step"><b>During</b><ul>
+        <li>Move away from rising water.</li>
+        <li>Never walk or drive through floodwater.</li>
+        <li>Switch off electricity only if safe.</li>
+      </ul></div>
+      <div class="step"><b>After</b><ul>
+        <li>Return only when authorities permit.</li>
+        <li>Avoid damaged wires and buildings.</li>
+        <li>Use safe drinking water.</li>
+      </ul></div>
     </div>
-   </div>
-  </article>
+  </div>
+</article>
 
-  <article class="guide">
-   <div class="guide-top"><div class="guide-icon">🌀</div><div><h3>Cyclone</h3><small>Strong winds · Coastal storm surge</small></div></div>
-   <div class="guide-content">
+<article class="guide">
+  <div class="guide-top">
+    <div class="guide-icon">🌀</div>
+    <div><h3>Cyclone</h3><small>Strong winds · Coastal storm surge</small></div>
+  </div>
+  <div class="guide-content">
     <p>Follow official cyclone warnings and evacuation orders, especially in coastal and low-lying areas.</p>
     <div class="steps">
-     <div class="step"><b>Before</b><ul><li>Secure loose outdoor objects.</li><li>Charge phones and power banks.</li><li>Know the nearest safe shelter.</li></ul></div>
-     <div class="step"><b>During</b><ul><li>Stay inside a strong building.</li><li>Keep away from windows.</li><li>Do not go outside during a lull.</li></ul></div>
-     <div class="step"><b>After</b><ul><li>Wait for the official all-clear.</li><li>Avoid fallen power lines.</li><li>Stay away from the coast until safe.</li></ul></div>
+      <div class="step"><b>Before</b><ul>
+        <li>Secure loose outdoor objects.</li>
+        <li>Charge phones and power banks.</li>
+        <li>Know the nearest safe shelter.</li>
+      </ul></div>
+      <div class="step"><b>During</b><ul>
+        <li>Stay inside a strong building.</li>
+        <li>Keep away from windows.</li>
+        <li>Do not go outside during a lull.</li>
+      </ul></div>
+      <div class="step"><b>After</b><ul>
+        <li>Wait for the official all-clear.</li>
+        <li>Avoid fallen power lines.</li>
+        <li>Stay away from the coast until safe.</li>
+      </ul></div>
     </div>
-   </div>
-  </article>
+  </div>
+</article>
 
-  <article class="guide">
-   <div class="guide-top"><div class="guide-icon">🏚️</div><div><h3>Earthquake</h3><small>Ground shaking · Structural damage</small></div></div>
-   <div class="guide-content">
+<article class="guide">
+  <div class="guide-top">
+    <div class="guide-icon">🏚️</div>
+    <div><h3>Earthquake</h3><small>Ground shaking · Structural damage</small></div>
+  </div>
+  <div class="guide-content">
     <p>During shaking, protect yourself first. Do not run through buildings or use lifts.</p>
     <div class="steps">
-     <div class="step"><b>Before</b><ul><li>Secure heavy shelves and objects.</li><li>Identify sturdy cover.</li><li>Keep shoes and a torch accessible.</li></ul></div>
-     <div class="step"><b>During</b><ul><li>Drop, Cover and Hold On.</li><li>Protect your head and neck.</li><li>Stay away from glass and windows.</li></ul></div>
-     <div class="step"><b>After</b><ul><li>Expect aftershocks.</li><li>Leave damaged buildings carefully.</li><li>Do not re-enter unsafe structures.</li></ul></div>
+      <div class="step"><b>Before</b><ul>
+        <li>Secure heavy shelves and objects.</li>
+        <li>Identify sturdy cover.</li>
+        <li>Keep shoes and a torch accessible.</li>
+      </ul></div>
+      <div class="step"><b>During</b><ul>
+        <li>Drop, Cover and Hold On.</li>
+        <li>Protect your head and neck.</li>
+        <li>Stay away from glass and windows.</li>
+      </ul></div>
+      <div class="step"><b>After</b><ul>
+        <li>Expect aftershocks.</li>
+        <li>Leave damaged buildings carefully.</li>
+        <li>Do not re-enter unsafe structures.</li>
+      </ul></div>
     </div>
-   </div>
-  </article>
+  </div>
+</article>
 
-  <article class="guide">
-   <div class="guide-top"><div class="guide-icon">🔥</div><div><h3>Fire</h3><small>Household · Electrical · Building fire</small></div></div>
-   <div class="guide-content">
+<article class="guide">
+  <div class="guide-top">
+    <div class="guide-icon">🔥</div>
+    <div><h3>Fire</h3><small>Household · Electrical · Building fire</small></div>
+  </div>
+  <div class="guide-content">
     <p>Raise the alarm and evacuate immediately. Never risk your life trying to save belongings.</p>
     <div class="steps">
-     <div class="step"><b>Before</b><ul><li>Know two exits where possible.</li><li>Keep exits and corridors clear.</li><li>Check smoke alarms regularly.</li></ul></div>
-     <div class="step"><b>During</b><ul><li>Alert others and call 112 or 101.</li><li>Use stairs, never lifts.</li><li>Stay low under smoke.</li></ul></div>
-     <div class="step"><b>After</b><ul><li>Stay outside at a safe point.</li><li>Do not re-enter the building.</li><li>Seek medical help after smoke exposure.</li></ul></div>
+      <div class="step"><b>Before</b><ul>
+        <li>Know two exits where possible.</li>
+        <li>Keep exits and corridors clear.</li>
+        <li>Check smoke alarms regularly.</li>
+      </ul></div>
+      <div class="step"><b>During</b><ul>
+        <li>Alert others and call 112 or 101.</li>
+        <li>Use stairs, never lifts.</li>
+        <li>Stay low under smoke.</li>
+      </ul></div>
+      <div class="step"><b>After</b><ul>
+        <li>Stay outside at a safe point.</li>
+        <li>Do not re-enter the building.</li>
+        <li>Seek medical help after smoke exposure.</li>
+      </ul></div>
     </div>
-   </div>
-  </article>
+  </div>
+</article>
 
-  <article class="guide">
-   <div class="guide-top"><div class="guide-icon">☀️</div><div><h3>Heatwave</h3><small>Extreme heat · Dehydration · Heat illness</small></div></div>
-   <div class="guide-content">
+<article class="guide">
+  <div class="guide-top">
+    <div class="guide-icon">☀️</div>
+    <div><h3>Heatwave</h3><small>Extreme heat · Dehydration · Heat illness</small></div>
+  </div>
+  <div class="guide-content">
     <p>Reduce heat exposure, drink water regularly and take heat-related symptoms seriously.</p>
     <div class="steps">
-     <div class="step"><b>Before</b><ul><li>Check official heat warnings.</li><li>Keep drinking water available.</li><li>Plan outdoor work for cooler hours.</li></ul></div>
-     <div class="step"><b>During</b><ul><li>Stay in a cool or shaded place.</li><li>Wear light, loose clothing.</li><li>Help children, older people and pets stay cool.</li></ul></div>
-     <div class="step"><b>After</b><ul><li>Rest and rehydrate.</li><li>Seek urgent help for confusion or collapse.</li><li>Do not leave anyone in a parked vehicle.</li></ul></div>
+      <div class="step"><b>Before</b><ul>
+        <li>Check official heat warnings.</li>
+        <li>Keep drinking water available.</li>
+        <li>Plan outdoor work for cooler hours.</li>
+      </ul></div>
+      <div class="step"><b>During</b><ul>
+        <li>Stay in a cool or shaded place.</li>
+        <li>Wear light, loose clothing.</li>
+        <li>Help children, older people and pets stay cool.</li>
+      </ul></div>
+      <div class="step"><b>After</b><ul>
+        <li>Rest and rehydrate.</li>
+        <li>Seek urgent help for confusion or collapse.</li>
+        <li>Do not leave anyone in a parked vehicle.</li>
+      </ul></div>
     </div>
-   </div>
-  </article>
+  </div>
+</article>
 
-  <article class="guide">
-   <div class="guide-top"><div class="guide-icon">⛈️</div><div><h3>Lightning & Thunderstorm</h3><small>Lightning · Strong wind · Heavy rain</small></div></div>
-   <div class="guide-content">
+<article class="guide">
+  <div class="guide-top">
+    <div class="guide-icon">⛰️</div>
+    <div><h3>Landslide</h3><small>Unstable slopes · Heavy rain · Rockfall</small></div>
+  </div>
+  <div class="guide-content">
+    <p>Watch for cracks, tilted trees, unusual sounds or sudden changes in water flow on slopes.</p>
+    <div class="steps">
+      <div class="step"><b>Before</b><ul>
+        <li>Know whether your area is near an unstable slope.</li>
+        <li>Keep drains clear when safe.</li>
+        <li>Know the local evacuation route.</li>
+      </ul></div>
+      <div class="step"><b>During</b><ul>
+        <li>Move quickly away from the slide path.</li>
+        <li>Do not cross an active landslide area.</li>
+        <li>Follow evacuation instructions immediately.</li>
+      </ul></div>
+      <div class="step"><b>After</b><ul>
+        <li>Stay away from the slide zone.</li>
+        <li>Avoid damaged roads, bridges and slopes.</li>
+        <li>Report hazards to authorities.</li>
+      </ul></div>
+    </div>
+  </div>
+</article>
+
+<article class="guide">
+  <div class="guide-top">
+    <div class="guide-icon">🌊</div>
+    <div><h3>Tsunami & Coastal Surge</h3><small>Coastal earthquake · Sudden sea withdrawal · Official warning</small></div>
+  </div>
+  <div class="guide-content">
+    <p>If you are near the coast and feel a strong or long earthquake, or notice the sea suddenly receding or surging, move inland or to higher ground immediately. Do not wait to watch the sea.</p>
+    <div class="steps">
+      <div class="step"><b>Before</b><ul>
+        <li>Know your coastal evacuation route.</li>
+        <li>Identify official warning channels and shelters.</li>
+        <li>Keep an emergency kit ready.</li>
+      </ul></div>
+      <div class="step"><b>During</b><ul>
+        <li>Move inland or uphill immediately.</li>
+        <li>Do not go to the shore to observe waves.</li>
+        <li>Stay away from coastal rivers and estuaries.</li>
+      </ul></div>
+      <div class="step"><b>After</b><ul>
+        <li>Remain in a safe area until the all-clear.</li>
+        <li>Do not assume the first wave is the largest.</li>
+        <li>Avoid floodwater and damaged structures.</li>
+      </ul></div>
+    </div>
+  </div>
+</article>
+
+<article class="guide">
+  <div class="guide-top">
+    <div class="guide-icon">⛈️</div>
+    <div><h3>Lightning & Thunderstorm</h3><small>Lightning · Strong wind · Heavy rain</small></div>
+  </div>
+  <div class="guide-content">
     <p>When thunder is heard, move indoors or into a fully enclosed hard-topped vehicle.</p>
     <div class="steps">
-     <div class="step"><b>Before</b><ul><li>Check weather warnings.</li><li>Postpone exposed outdoor activity.</li><li>Secure loose items outside.</li></ul></div>
-     <div class="step"><b>During</b><ul><li>Stay away from open fields and tall isolated trees.</li><li>Avoid water and metal objects outdoors.</li><li>Do not use wired electrical devices.</li></ul></div>
-     <div class="step"><b>After</b><ul><li>Wait 30 minutes after the last thunder before going outside.</li><li>Avoid fallen wires.</li><li>Report dangerous damage to authorities.</li></ul></div>
+      <div class="step"><b>Before</b><ul>
+        <li>Check weather warnings.</li>
+        <li>Postpone exposed outdoor activity.</li>
+        <li>Secure loose items outside.</li>
+      </ul></div>
+      <div class="step"><b>During</b><ul>
+        <li>Stay away from open fields and isolated trees.</li>
+        <li>Avoid water and metal objects outdoors.</li>
+        <li>Do not use wired electrical devices.</li>
+      </ul></div>
+      <div class="step"><b>After</b><ul>
+        <li>Wait 30 minutes after the last thunder before going outside.</li>
+        <li>Avoid fallen wires.</li>
+        <li>Report dangerous damage to authorities.</li>
+      </ul></div>
     </div>
-   </div>
-  </article>
- </div>
+  </div>
+</article>
 
- <section class="emergency" id="emergency">
+</div>
+
+<section class="emergency" id="emergency">
   <div class="eyebrow">INDIA / EMERGENCY DIRECTORY</div>
   <h2>Important emergency contacts</h2>
   <p>Save these contacts before an emergency. Tap a number on a supported phone to call.</p>
+
   <div class="number-grid">
-   <div class="number primary"><small>Unified emergency response</small><strong>112</strong><a href="tel:112">CALL 112 ↗</a></div>
-   <div class="number"><small>Fire & rescue</small><strong>101</strong><a href="tel:101">CALL 101 ↗</a></div>
-   <div class="number"><small>National ambulance service</small><strong>102</strong><a href="tel:102">CALL 102 ↗</a></div>
-   <div class="number"><small>Child helpline</small><strong>1098</strong><a href="tel:1098">CALL 1098 ↗</a></div>
-   <div class="number"><small>Relief commissioner / natural calamities</small><strong>1070</strong><a href="tel:1070">CALL 1070 ↗</a></div>
+    <div class="number primary">
+      <small>Unified emergency response</small>
+      <strong>112</strong><a href="tel:112">CALL 112 ↗</a>
+    </div>
+    <div class="number">
+      <small>Fire & rescue</small>
+      <strong>101</strong><a href="tel:101">CALL 101 ↗</a>
+    </div>
+    <div class="number">
+      <small>Ambulance service</small>
+      <strong>102</strong><a href="tel:102">CALL 102 ↗</a>
+    </div>
+    <div class="number">
+      <small>Police</small>
+      <strong>100</strong><a href="tel:100">CALL 100 ↗</a>
+    </div>
+    <div class="number">
+      <small>Relief commissioner / natural calamities</small>
+      <strong>1070</strong><a href="tel:1070">CALL 1070 ↗</a>
+    </div>
   </div>
-  <p class="qualification">112 is the nationwide unified emergency number. The other services and disaster-control numbers may have state, district or operational differences. Check your district administration's current directory. For an immediate emergency, try 112 if a dedicated line is unavailable. Do not make test calls.</p>
- </section>
 
- <div class="section-head">
-  <div><h2>Your emergency go-bag checklist</h2><p>Tick each item as you prepare it. Your progress is saved on this device.</p></div>
- </div>
- <div class="check-layout">
+  <p class="qualification">
+    112 is India's nationwide unified emergency number. Other services and
+    disaster-control numbers may have state, district or operational differences.
+    Check your district administration's current directory. For an immediate
+    emergency, try 112 if a dedicated line is unavailable. Do not make test calls.
+  </p>
+</section>
+
+<div class="section-head">
+  <div>
+    <h2>Your emergency go-bag checklist</h2>
+    <p>Tick each item as you prepare it. Your progress is saved on this device.</p>
+  </div>
+</div>
+
+<div class="check-layout">
   <section class="check-panel">
-   <h3>Essential supplies</h3>
-   <p>Prepare enough for your household and adapt quantities to local guidance.</p>
-   <label class="check-item"><input type="checkbox" data-item="water"><span>Drinking water and ready-to-eat food</span></label>
-   <label class="check-item"><input type="checkbox" data-item="firstaid"><span>First-aid kit and essential medicines</span></label>
-   <label class="check-item"><input type="checkbox" data-item="documents"><span>Copies of identification and important documents in a waterproof pouch</span></label>
-   <label class="check-item"><input type="checkbox" data-item="torch"><span>Torch, spare batteries and whistle</span></label>
-   <label class="check-item"><input type="checkbox" data-item="power"><span>Charged power bank and phone charger</span></label>
-   <label class="check-item"><input type="checkbox" data-item="clothes"><span>Extra clothes, sturdy footwear and rain protection</span></label>
-   <label class="check-item"><input type="checkbox" data-item="hygiene"><span>Personal hygiene items, masks and sanitation supplies</span></label>
-   <label class="check-item"><input type="checkbox" data-item="cash"><span>Small amount of cash and essential contact numbers on paper</span></label>
-   <label class="check-item"><input type="checkbox" data-item="family"><span>Family meeting point and emergency communication plan</span></label>
-   <label class="check-item"><input type="checkbox" data-item="pets"><span>Supplies and arrangements for children, older adults and pets</span></label>
-  </section>
-  <aside class="progress-panel">
-   <h3>Preparedness progress</h3>
-   <p>Your checklist completion</p>
-   <div class="progress-number" id="progressNumber">0%</div>
-   <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
-   <p id="progressText">0 of 10 items prepared</p>
-   <button class="action" id="printBtn" type="button">PRINT CHECKLIST</button>
-   <br><br>
-   <button class="action danger" id="resetBtn" type="button">RESET CHECKLIST</button>
-   <p style="margin-top:16px">Progress is stored locally in this browser. It is not uploaded to ROAMX or shared with anyone.</p>
-  </aside>
- </div>
+    <h3>Essential supplies</h3>
+    <p>Prepare enough for your household and adapt quantities to local guidance.</p>
 
- <div class="section-head">
-  <div><h2>Official information sources</h2><p>Use trusted government sources for warnings, procedures and updated contact details.</p></div>
- </div>
- <div class="source-list">
-  <div class="source"><b>Ministry of Home Affairs — ERSS</b><p>Official information about India's unified emergency response system.</p><a href="https://www.mha.gov.in/en" target="_blank" rel="noopener">VISIT MHA ↗</a></div>
-  <div class="source"><b>National Disaster Management Authority</b><p>Disaster preparedness, public guidance and safety resources.</p><a href="https://ndma.gov.in/" target="_blank" rel="noopener">VISIT NDMA ↗</a></div>
-  <div class="source"><b>India Government Portal — Helplines</b><p>Government directory of emergency and public helpline numbers.</p><a href="https://www.india.gov.in/directory/helpline" target="_blank" rel="noopener">VIEW HELPLINES ↗</a></div>
- </div>
- <div class="notice" style="margin-top:25px">Remember: emergency conditions change quickly. Use official weather bulletins, district administration announcements and local emergency services for the latest instructions.</div>
+    <label class="check-item"><input type="checkbox" data-item="water"><span>Drinking water and ready-to-eat food</span></label>
+    <label class="check-item"><input type="checkbox" data-item="firstaid"><span>First-aid kit and essential medicines</span></label>
+    <label class="check-item"><input type="checkbox" data-item="documents"><span>Copies of identification and important documents in a waterproof pouch</span></label>
+    <label class="check-item"><input type="checkbox" data-item="torch"><span>Torch, spare batteries and whistle</span></label>
+    <label class="check-item"><input type="checkbox" data-item="power"><span>Charged power bank and phone charger</span></label>
+    <label class="check-item"><input type="checkbox" data-item="clothes"><span>Extra clothes, sturdy footwear and rain protection</span></label>
+    <label class="check-item"><input type="checkbox" data-item="hygiene"><span>Personal hygiene items, masks and sanitation supplies</span></label>
+    <label class="check-item"><input type="checkbox" data-item="cash"><span>Small amount of cash and essential contact numbers on paper</span></label>
+    <label class="check-item"><input type="checkbox" data-item="family"><span>Family meeting point and emergency communication plan</span></label>
+    <label class="check-item"><input type="checkbox" data-item="pets"><span>Supplies and arrangements for children, older adults and pets</span></label>
+  </section>
+
+  <aside class="progress-panel">
+    <h3>Preparedness progress</h3>
+    <p>Your checklist completion</p>
+    <div class="progress-number" id="progressNumber">0%</div>
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <p id="progressText">0 of 10 items prepared</p>
+    <button class="action" id="printBtn" type="button">PRINT CHECKLIST</button>
+    <br><br>
+    <button class="action danger" id="resetBtn" type="button">RESET CHECKLIST</button>
+    <p style="margin-top:16px">Progress is stored locally in this browser. It is not uploaded to ROAMX or shared with anyone.</p>
+  </aside>
+</div>
+
+<div class="section-head">
+  <div>
+    <h2>Official information sources</h2>
+    <p>Use trusted government sources for warnings, procedures and updated contact details.</p>
+  </div>
+</div>
+
+<div class="source-list">
+  <div class="source">
+    <b>Ministry of Home Affairs — ERSS</b>
+    <p>Official information about India's unified emergency response system.</p>
+    <a href="https://www.mha.gov.in/en" target="_blank" rel="noopener">VISIT MHA ↗</a>
+  </div>
+  <div class="source">
+    <b>National Disaster Management Authority</b>
+    <p>Disaster preparedness, public guidance and safety resources.</p>
+    <a href="https://ndma.gov.in/" target="_blank" rel="noopener">VISIT NDMA ↗</a>
+  </div>
+  <div class="source">
+    <b>India Government Portal — Helplines</b>
+    <p>Government directory of emergency and public helpline numbers.</p>
+    <a href="https://www.india.gov.in/directory/helpline" target="_blank" rel="noopener">VIEW HELPLINES ↗</a>
+  </div>
+  <div class="source">
+    <b>SACHET — National Disaster Alert Portal</b>
+    <p>Official disaster alerts and hazard-specific safety guidance.</p>
+    <a href="https://sachet.ndma.gov.in/" target="_blank" rel="noopener">OPEN SACHET ↗</a>
+  </div>
+  <div class="source">
+    <b>National Disaster Response Force</b>
+    <p>Disaster awareness and preparedness learning resources.</p>
+    <a href="https://ndrf.mha.gov.in/en/disaster-awareness-e-content.html" target="_blank" rel="noopener">VIEW NDRF RESOURCES ↗</a>
+  </div>
+</div>
+
+<div class="notice" style="margin-top:25px">
+  Remember: emergency conditions change quickly. Use official weather bulletins,
+  district administration announcements and local emergency services for the
+  latest instructions.
+</div>
+
 </main>
 
 <footer>
- <div>ROAMX — Awareness. Preparedness. Resilience.</div>
- <div class="footer-credit">Designed &amp; Developed by Sabarish P | B.Tech IT</div>
+  <div>ROAMX — Awareness. Preparedness. Resilience.</div>
+  <div class="footer-credit">Designed &amp; Developed by Sabarish P | B.Tech IT</div>
 </footer>
 
 <script>
-const menuBtn=document.getElementById("menuBtn");
-const navLinks=document.getElementById("navLinks");
-menuBtn.addEventListener("click",()=>navLinks.classList.toggle("open"));
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.getElementById("navLinks");
 
-const checks=[...document.querySelectorAll(".check-item input")];
-const progressNumber=document.getElementById("progressNumber");
-const progressFill=document.getElementById("progressFill");
-const progressText=document.getElementById("progressText");
-const STORAGE_KEY="roamx_resilience_checklist_v1";
-
-function updateProgress(){
- const completed=checks.filter(c=>c.checked).length;
- const percent=Math.round((completed/checks.length)*100);
- progressNumber.textContent=percent+"%";
- progressFill.style.width=percent+"%";
- progressText.textContent=completed+" of "+checks.length+" items prepared";
- checks.forEach(c=>c.closest(".check-item").classList.toggle("done",c.checked));
- try{
-  const saved={};
-  checks.forEach(c=>saved[c.dataset.item]=c.checked);
-  localStorage.setItem(STORAGE_KEY,JSON.stringify(saved));
- }catch(e){}
-}
-function loadProgress(){
- try{
-  const saved=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");
-  checks.forEach(c=>c.checked=Boolean(saved[c.dataset.item]));
- }catch(e){}
- updateProgress();
-}
-checks.forEach(c=>c.addEventListener("change",updateProgress));
-document.getElementById("resetBtn").addEventListener("click",()=>{
- if(!confirm("Clear all checklist progress?"))return;
- checks.forEach(c=>c.checked=false);
- updateProgress();
+menuBtn.addEventListener("click", () => {
+  const open = navLinks.classList.toggle("open");
+  menuBtn.setAttribute("aria-expanded", String(open));
 });
-document.getElementById("printBtn").addEventListener("click",()=>window.print());
+
+navLinks.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    menuBtn.setAttribute("aria-expanded", "false");
+  });
+});
+
+const checks = [...document.querySelectorAll(".check-item input")];
+const progressNumber = document.getElementById("progressNumber");
+const progressFill = document.getElementById("progressFill");
+const progressText = document.getElementById("progressText");
+const STORAGE_KEY = "roamx_resilience_checklist_v1";
+
+function updateProgress() {
+  const completed = checks.filter(c => c.checked).length;
+  const percent = Math.round((completed / checks.length) * 100);
+
+  progressNumber.textContent = percent + "%";
+  progressFill.style.width = percent + "%";
+  progressText.textContent = completed + " of " + checks.length + " items prepared";
+
+  checks.forEach(c => {
+    c.closest(".check-item").classList.toggle("done", c.checked);
+  });
+
+  try {
+    const saved = {};
+    checks.forEach(c => saved[c.dataset.item] = c.checked);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+  } catch (error) {
+    console.warn("Checklist storage is unavailable.", error);
+  }
+}
+
+function loadProgress() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    checks.forEach(c => {
+      c.checked = Boolean(saved[c.dataset.item]);
+    });
+  } catch (error) {
+    console.warn("Could not load saved checklist.", error);
+  }
+  updateProgress();
+}
+
+checks.forEach(c => c.addEventListener("change", updateProgress));
+
+document.getElementById("resetBtn").addEventListener("click", () => {
+  if (!confirm("Clear all checklist progress?")) return;
+  checks.forEach(c => c.checked = false);
+  updateProgress();
+});
+
+document.getElementById("printBtn").addEventListener("click", () => {
+  window.print();
+});
+
 loadProgress();
 </script>
+
 </body>
 </html>
