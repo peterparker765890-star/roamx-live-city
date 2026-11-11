@@ -1,97 +1,50 @@
 {
-  "lastUpdated": "2026-11-11T21:35:00+05:30",
+  "project": "ROAMX",
+  "version": "2.0",
   "language": "en",
-  "totalArticles": 9,
-  "articles": [
+  "lastUpdated": null,
+  "updateMode": "scheduled-rss-collection",
+  "refreshIntervalMinutes": 5,
+  "sortOrder": "newest-first",
+  "removeDuplicates": true,
+  "categories": [
+    "World",
+    "India",
+    "Technology",
+    "Environment",
+    "Disaster"
+  ],
+  "sources": [
     {
-      "id": "roamx-20261111-001",
-      "title": "World Leaders Urge Stronger Action at COP31 Climate Talks",
-      "description": "At the COP31 climate conference in Antalya, UN Secretary-General António Guterres called for faster action on global warming, reduced dependence on fossil fuels and stronger financial support for vulnerable countries.",
-      "category": "Environment",
-      "country": "Global",
-      "source": "Associated Press",
-      "publishedAt": "2026-11-11",
-      "url": "https://apnews.com/article/056ff011b2e6f324c2cd089862c13824"
+      "id": "world",
+      "name": "Google News - World",
+      "category": "World",
+      "rss": "https://news.google.com/rss/search?q=world+news&hl=en&gl=US&ceid=US:en"
     },
     {
-      "id": "roamx-20261111-002",
-      "title": "Disaster Warning Systems Race to Keep Pace with Climate Risks",
-      "description": "Governments and communities are working to improve early-warning systems as extreme weather risks increase. A UN assessment highlights major gaps in forecasting, alert delivery and emergency preparedness across countries.",
-      "category": "Disaster",
-      "country": "Global",
-      "source": "Reuters",
-      "publishedAt": "2026-11-11",
-      "url": "https://www.reuters.com/sustainability/cop/disaster-warning-systems-race-keep-pace-with-galloping-climate-risks-2026-11-11/"
-    },
-    {
-      "id": "roamx-20261111-003",
-      "title": "Navi Mumbai Named India's Cleanest City in Swachh Survekshan Awards",
-      "description": "Navi Mumbai secured the leading position in the Super Swachh League for the 2025–26 cleanliness awards. Surat and Vijayawada followed in the rankings announced at the national awards ceremony.",
+      "id": "india",
+      "name": "Google News - India",
       "category": "India",
-      "country": "India",
-      "source": "The Indian Express",
-      "publishedAt": "2026-11-11T20:33:00+05:30",
-      "url": "https://indianexpress.com/article/india/navi-mumbai-cleanest-city-india-swachh-survekshan-awards-2025-26-surat-vijayawada-10959238/"
+      "rss": "https://news.google.com/rss/search?q=India+news&hl=en-IN&gl=IN&ceid=IN:en"
     },
     {
-      "id": "roamx-20261111-004",
-      "title": "India Approves ₹3,230-Crore Yuge Yugeen Bharat Museum Project",
-      "description": "The Union Cabinet approved the transformation of New Delhi's historic North and South Block buildings into a major national museum. The project will be developed in phases, with completion planned around 2030–31.",
-      "category": "India",
-      "country": "India",
-      "source": "The Indian Express",
-      "publishedAt": "2026-11-11T20:05:00+05:30",
-      "url": "https://indianexpress.com/article/india/cabinet-approves-rs-3230-crore-yuge-yugeen-bharat-museum-north-south-block-10959239/"
+      "id": "technology",
+      "name": "Google News - Technology",
+      "category": "Technology",
+      "rss": "https://news.google.com/rss/search?q=technology+news&hl=en&gl=US&ceid=US:en"
     },
     {
-      "id": "roamx-20261111-005",
-      "title": "India's IMD Issues Rainfall and Snowfall Alerts Across Several Regions",
-      "description": "The India Meteorological Department has forecast rainfall and snowfall in several regions between November 10 and 16. Parts of Tamil Nadu, Puducherry and Karaikal are also included in the rainfall alerts.",
+      "id": "environment",
+      "name": "Google News - Environment",
+      "category": "Environment",
+      "rss": "https://news.google.com/rss/search?q=environment+climate+news&hl=en&gl=US&ceid=US:en"
+    },
+    {
+      "id": "disaster",
+      "name": "Google News - Disaster",
       "category": "Disaster",
-      "country": "India",
-      "source": "Mint",
-      "publishedAt": "2026-11-11T06:52:00+05:30",
-      "url": "https://www.livemint.com/news/india/heavy-rain-snowfall-alerts-across-india-till-nov-16-delhi-s-aqi-improves-marginally-to-poor-full-imd-forecast/amp-11794358744598.html"
-    },
-    {
-      "id": "roamx-20261111-006",
-      "title": "China University Buys Advanced Nvidia AI Chips Despite US Restrictions",
-      "description": "A Reuters investigation reports that a Chinese university with military links obtained Nvidia H200 AI chips through a domestic supplier, raising fresh questions about export restrictions and access to advanced computing technology.",
-      "category": "Technology",
-      "country": "China",
-      "source": "Reuters",
-      "publishedAt": "2026-11-11",
-      "url": "https://www.marketscreener.com/news/concerns-grow-as-military-linked-chinese-university-buys-nvidia-chips-ce785edbdc80f62d"
-    },
-    {
-      "id": "roamx-20261111-007",
-      "title": "Electrification Takes Centre Stage in COP31 Climate Negotiations",
-      "description": "Countries at COP31 are discussing ways to increase electricity's share of global energy use by 2035. Electric transport and heating could reduce fossil-fuel dependence, although cleaner electricity generation remains essential.",
-      "category": "Environment",
-      "country": "Global",
-      "source": "Le Monde",
-      "publishedAt": "2026-11-11",
-      "url": "https://www.lemonde.fr/en/environment/article/2026/11/11/why-electrification-is-at-the-heart-of-cop31-talks_6777223_114.html"
-    },
-    {
-      "id": "roamx-20261111-008",
-      "title": "Delhi's Post-Diwali Air Pollution Raises Public Health Concerns",
-      "description": "New Delhi experienced severe seasonal air pollution following Diwali celebrations. Fireworks, crop-residue burning, vehicle emissions and construction dust continue to contribute to poor air quality.",
-      "category": "Environment",
-      "country": "India",
-      "source": "Associated Press",
-      "publishedAt": "2026-11-09",
-      "url": "https://apnews.com/article/f3ba17c93d6fb0898392dce06ca4d776"
-    },
-    {
-      "id": "roamx-20261111-009",
-      "title": "India's Proposed Agriwaste-to-Fuel Industry Receives Major Funding",
-      "description": "A proposed large-scale biofuel facility in India has attracted a reported ₹250 crore funding commitment. The project aims to convert agricultural residues such as paddy straw, husks and sugarcane waste into bio-crude.",
-      "category": "Technology",
-      "country": "India",
-      "source": "The Indian Express",
-      "publishedAt": "2026-11-11",
-      "url": "https://indianexpress.com/section/india/"
+      "rss": "https://news.google.com/rss/search?q=disaster+flood+cyclone+earthquake&hl=en&gl=US&ceid=US:en"
     }
-  ]
+  ],
+  "articles": []
 }
