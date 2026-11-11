@@ -1,4 +1,37 @@
 {
-  "updated_at": "",
-  "articles": []
+  "updated_at": "2026-11-11T21:24:00+05:30",
+  "articles": [
+    {
+      "title": "World Leaders Urge Stronger Action at COP31 Climate Talks",
+      "description": "At the COP31 climate conference in Antalya, UN Secretary-General António Guterres urged countries to accelerate climate action, reduce fossil fuel dependence and increase support for vulnerable nations.",
+      "url": "https://apnews.com/article/056ff011b2e6f324c2cd089862c13824",
+      "source": "Associated Press",
+      "published_at": "2026-11-11",
+      "category": "environment"
+    },
+    {
+      "title": "Russia and Ukraine Report Progress in Abu Dhabi Peace Talks",
+      "description": "US-mediated negotiations between Russia and Ukraine produced some progress and an agreement on a major prisoner exchange, although significant disagreements remain.",
+      "url": "https://www.reuters.com/world/europe/us-russia-ukraine-start-second-day-abu-dhabi-peace-talks-2026-11-11/",
+      "source": "Reuters",
+      "published_at": "2026-11-11",
+      "category": "world"
+    },
+    {
+      "title": "Ukraine Captures First Indonesian Prisoner of War",
+      "description": "Reports from Ukraine describe the capture of an Indonesian national amid concerns about recruitment of foreign nationals into Russia's war effort.",
+      "url": "https://www.theguardian.com/world/2026/nov/11/all",
+      "source": "The Guardian",
+      "published_at": "2026-11-11",
+      "category": "world"
+    },
+    {
+      "title": "Gaza Faces Further Humanitarian Challenges Amid Regional Tensions",
+      "description": "New reports describe continuing violence and humanitarian concerns across Gaza and the wider Middle East, including casualties from strikes and gunfire.",
+      "url": "https://apnews.com/article/f4407845b6dd105e54190ccab7d55f8d",
+      "source": "Associated Press",
+      "published_at": "2026-11-10",
+      "category": "world"
+    }
+  ]
 }
