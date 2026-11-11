@@ -4,7 +4,6 @@
   "version": "3.0",
   "language": "en",
   "purpose": "Real-world news monitoring aligned with SDG 11 - Sustainable Cities and Communities",
-
   "sdg": {
     "number": 11,
     "name": "Sustainable Cities and Communities",
@@ -22,7 +21,6 @@
       "Sustainable communities"
     ]
   },
-
   "collection": {
     "mode": "scheduled-rss",
     "enabled": true,
@@ -42,7 +40,6 @@
     "convertForeignHeadlinesToEnglish": true,
     "preserveOriginalPublisherLinks": true
   },
-
   "categories": [
     {
       "id": "world",
@@ -131,7 +128,6 @@
       ]
     }
   ],
-
   "sources": [
     {
       "id": "world_global",
@@ -197,7 +193,6 @@
       "rss": "https://news.google.com/rss/search?q=extreme+weather+heatwave+heavy+rainfall+storm+warning&hl=en-US&gl=US&ceid=US:en"
     }
   ],
-
   "deduplication": {
     "enabled": true,
     "methods": [
@@ -211,7 +206,6 @@
     "keepNewestDuplicate": true,
     "neverRepeatExistingArticles": true
   },
-
   "relevance": {
     "enabled": true,
     "priorityTopics": [
@@ -233,7 +227,6 @@
     "includeImportantInternationalEvents": true,
     "excludeUnrelatedPromotionalContent": true
   },
-
   "updates": {
     "enabled": true,
     "refreshIntervalMinutes": 5,
@@ -246,27 +239,69 @@
     "showCollectionErrors": true,
     "showStaleDatabaseWarning": true
   },
-
   "changeLog": {
-    "lastRun": null,
+    "lastRun": "2026-11-11T17:01:24Z",
     "lastSuccessfulRun": null,
-    "lastUpdated": null,
+    "lastUpdated": "2026-11-11T17:01:24Z",
     "articlesAdded": 0,
     "articlesUpdated": 0,
     "duplicatesRemoved": 0,
-    "failedSources": [],
+    "failedSources": [
+      {
+        "source": "world_global",
+        "error": "RSS source has no feed URL."
+      },
+      {
+        "source": "sdg_cities",
+        "error": "RSS source has no feed URL."
+      },
+      {
+        "source": "india_news",
+        "error": "RSS source has no feed URL."
+      },
+      {
+        "source": "technology_news",
+        "error": "RSS source has no feed URL."
+      },
+      {
+        "source": "environment_news",
+        "error": "RSS source has no feed URL."
+      },
+      {
+        "source": "india_environment",
+        "error": "RSS source has no feed URL."
+      },
+      {
+        "source": "disaster_global",
+        "error": "RSS source has no feed URL."
+      },
+      {
+        "source": "disaster_india",
+        "error": "RSS source has no feed URL."
+      },
+      {
+        "source": "weather_global",
+        "error": "RSS source has no feed URL."
+      }
+    ],
     "newArticleIds": [],
-    "updatedArticleIds": []
+    "updatedArticleIds": [],
+    "articlesRemoved": 0,
+    "successfulSources": 0
   },
-
   "statistics": {
     "totalArticles": 0,
-    "world": 0,
-    "india": 0,
-    "technology": 0,
-    "environment": 0,
-    "disaster": 0
+    "categories": {
+      "World": 0,
+      "India": 0,
+      "Technology": 0,
+      "Environment": 0,
+      "Disaster": 0
+    },
+    "successfulSources": 0,
+    "failedSources": 9
   },
-
-  "articles": []
+  "articles": [],
+  "lastUpdated": "2026-11-11T17:01:24Z",
+  "updatedAt": "2026-11-11T17:01:24Z"
 }
