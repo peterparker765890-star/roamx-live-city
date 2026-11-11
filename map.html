@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090b10">
+<title>ROAMX | Explore Map</title>
+
+<link rel="stylesheet"
+ href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<style>
+:root {
+    --bg:#090b10;
+    --panel:#11151d;
+    --panel2:#171d27;
+    --gold:#d6ad63;
+    --gold2:#f2ce87;
+    --text:#f1f1f1;
+    --muted:#929ba9;
+    --border:rgba(214,173,99,.2);
+    --green:#42d69a;
+    --red:#f06c72;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background:var(--bg);
+    color:var(--text);
+    font-family:Arial,Helvetica,sans-serif;
+    min-height:100vh;
+}
+
+button,input {
+    font:inherit;
+}
+
+button {
+    cursor:pointer;
+}
+
+header {
+    height:72px;
+    padding:0 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid var(--border);
+    background:#0c0f15;
+    position:relative;
+    z-index:1000;
+}
+
+.brand {
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.brand-logo {
+    width:38px;
+    height:38px;
+    border:1px solid var(--gold);
+    color:var(--gold);
+    display:grid;
+    place-items:center;
+    font-size:21px;
+    font-weight:bold;
+}
+
+.brand-name {
+    font-size:20px;
+    font-weight:800;
+    letter-spacing:3px;
+}
+
+.brand-sub {
+    color:var(--muted);
+    font-size:9px;
+    letter-spacing:2px;
+    margin-top:4px;
+}
+
+nav {
+    display:flex;
+    gap:24px;
+}
+
+nav a {
+    text-decoration:none;
+    color:#abb2bf;
+    font-size:12px;
+    letter-spacing:1px;
+    transition:.2s;
+}
+
+nav a:hover,
+nav a.active {
+    color:var(--gold);
+}
+
+.menu-btn {
+    display:none;
+    background:none;
+    border:none;
+    color:white;
+    font-size:25px;
+}
+
+.hero {
+    padding:32px 5% 22px;
+}
+
+.eyebrow {
+    color:var(--gold);
+    font-size:10px;
+    letter-spacing:3px;
+    margin-bottom:12px;
+}
+
+.hero h1 {
+    font-size:clamp(27px,4vw,42px);
+    letter-spacing:-1px;
+    margin-bottom:10px;
+}
+
+.hero h1 span {
+    color:var(--gold);
+}
+
+.hero p {
+    color:var(--muted);
+    font-size:13px;
+    line-height:1.7;
+    max-width:650px;
+}
+
+.workspace {
+    padding:0 5% 35px;
+    display:grid;
+    grid-template-columns:350px minmax(0,1fr);
+    gap:18px;
+}
+
+.sidebar {
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+    min-width:0;
+}
+
+.panel {
+    background:var(--panel);
+    border:1px solid var(--border);
+    border-radius:9px;
+    padding:17px;
+}
+
+.panel-title {
+    font-size:12px;
+    letter-spacing:1.4px;
+    color:var(--gold);
+    font-weight:bold;
+    margin-bottom:14px;
+}
+
+.search-row {
+    display:flex;
+    gap:7px;
+}
+
+.search-row input {
+    width:100%;
+    min-width:0;
+    padding:12px;
+    background:#090d14;
+    border:1px solid #303846;
+    border-radius:5px;
+    color:white;
+    outline:none;
+    font-size:12px;
+}
+
+.search-row input:focus {
+    border-color:var(--gold);
+}
+
+.primary-btn {
+    padding:11px 13px;
+    background:var(--gold);
+    border:0;
+    color:#17130b;
+    border-radius:5px;
+    font-size:11px;
+    font-weight:bold;
+    white-space:nowrap;
+}
+
+.secondary-btn {
+    background:#202733;
+    border:1px solid #35404d;
+    color:white;
+    padding:11px;
+    border-radius:5px;
+    font-size:11px;
+}
+
+.location-btn {
+    width:100%;
+    margin-top:9px;
+}
+
+.status {
+    font-size:11px;
+    color:var(--muted);
+    line-height:1.6;
+    margin-top:12px;
+    min-height:17px;
+}
+
+.category-grid {
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:8px;
+}
+
+.category-btn {
+    background:#171d27;
+    border:1px solid #303846;
+    color:#d9dce3;
+    padding:12px 8px;
+    border-radius:5px;
+    text-align:left;
+    font-size:11px;
+    transition:.2s;
+}
+
+.category-btn:hover,
+.category-btn.selected {
+    border-color:var(--gold);
+    color:var(--gold);
+    background:#24231e;
+}
+
+.category-btn span {
+    margin-right:6px;
+    font-size:15px;
+}
+
+.info-text {
+    font-size:11px;
+    line-height:1.7;
+    color:var(--muted);
+}
+
+.route-input {
+    margin-bottom:9px;
+}
+
+.route-input label {
+    display:block;
+    font-size:10px;
+    color:var(--muted);
+    margin-bottom:6px;
+    letter-spacing:1px;
+}
+
+.route-input input {
+    width:100%;
+    padding:11px;
+    background:#090d14;
+    border:1px solid #303846;
+    border-radius:5px;
+    color:white;
+    outline:none;
+    font-size:12px;
+}
+
+.route-input input:focus {
+    border-color:var(--gold);
+}
+
+.route-buttons {
+    display:flex;
+    gap:8px;
+    margin-top:12px;
+}
+
+.route-buttons button {
+    flex:1;
+}
+
+.route-stats {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:8px;
+    margin-top:14px;
+}
+
+.stat {
+    padding:12px;
+    background:#0b1017;
+    border:1px solid #27313d;
+    border-radius:5px;
+}
+
+.stat strong {
+    display:block;
+    color:var(--gold);
+    font-size:19px;
+    margin-bottom:5px;
+}
+
+.stat small {
+    color:var(--muted);
+    font-size:9px;
+    letter-spacing:1px;
+}
+
+.simulation {
+    display:none;
+    margin-top:13px;
+    padding:13px;
+    background:#171d27;
+    border:1px solid var(--border);
+    border-radius:5px;
+}
+
+.simulation.active {
+    display:block;
+}
+
+.sim-title {
+    color:var(--gold);
+    font-size:11px;
+    letter-spacing:1px;
+    margin-bottom:12px;
+}
+
+.progress-track {
+    height:5px;
+    background:#343c48;
+    border-radius:10px;
+    overflow:hidden;
+    margin:10px 0;
+}
+
+.progress-bar {
+    height:100%;
+    width:0%;
+    background:var(--gold);
+    transition:width .2s;
+}
+
+.sim-controls {
+    display:flex;
+    gap:7px;
+    margin-top:12px;
+}
+
+.sim-controls button {
+    flex:1;
+    padding:10px 5px;
+    border:1px solid #414b58;
+    border-radius:4px;
+    background:#252e3a;
+    color:white;
+    font-size:10px;
+}
+
+.sim-controls .play {
+    background:var(--gold);
+    color:#17130b;
+    border-color:var(--gold);
+}
+
+.map-area {
+    position:relative;
+    min-width:0;
+    min-height:680px;
+    height:calc(100vh - 205px);
+    max-height:900px;
+    border:1px solid var(--border);
+    border-radius:9px;
+    overflow:hidden;
+    background:#151a21;
+}
+
+#map {
+    width:100%;
+    height:100%;
+    min-height:500px;
+    z-index:1;
+}
+
+.map-label {
+    position:absolute;
+    top:14px;
+    left:14px;
+    z-index:500;
+    background:rgba(9,11,16,.92);
+    border:1px solid var(--border);
+    border-radius:5px;
+    padding:11px 14px;
+    pointer-events:none;
+}
+
+.map-label strong {
+    color:var(--gold);
+    display:block;
+    font-size:11px;
+    letter-spacing:2px;
+}
+
+.map-label small {
+    color:#aab0bb;
+    font-size:9px;
+    margin-top:4px;
+    display:block;
+}
+
+.map-footer {
+    position:absolute;
+    bottom:13px;
+    left:13px;
+    z-index:500;
+    background:rgba(9,11,16,.92);
+    border:1px solid var(--border);
+    padding:9px 12px;
+    border-radius:4px;
+    color:#c3c8d0;
+    font-size:10px;
+    pointer-events:none;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background:#151b24;
+    color:#eee;
+}
+
+.leaflet-popup-content {
+    font-size:12px;
+}
+
+.leaflet-popup-content strong {
+    color:#d6ad63;
+}
+
+.leaflet-control-zoom a {
+    background:#11151d !important;
+    color:#d6ad63 !important;
+    border-color:#343b47 !important;
+}
+
+.vehicle-icon {
+    font-size:27px;
+    width:36px;
+    height:36px;
+    display:grid;
+    place-items:center;
+    background:#d6ad63;
+    border:2px solid white;
+    border-radius:50%;
+    box-shadow:0 0 15px rgba(214,173,99,.7);
+}
+
+footer {
+    padding:25px 5%;
+    border-top:1px solid var(--border);
+    background:#0c0f15;
+    text-align:center;
+}
+
+.footer-brand {
+    color:var(--gold);
+    font-weight:bold;
+    letter-spacing:3px;
+    font-size:15px;
+    margin-bottom:8px;
+}
+
+footer p {
+    font-size:11px;
+    color:var(--muted);
+    line-height:1.8;
+}
+
+footer .credit {
+    margin-top:12px;
+    color:#b9a078;
+    font-size:11px;
+}
+
+.leaflet-container {
+    background:#151a21;
+}
+
+@media(max-width:950px) {
+    .workspace {
+        grid-template-columns:1fr;
+    }
+
+    .sidebar {
+        display:grid;
+        grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+
+    .map-area {
+        height:65vh;
+        min-height:480px;
+    }
+}
+
+@media(max-width:600px) {
+    header {
+        padding:0 5%;
+        height:65px;
+    }
+
+    .brand-name {
+        font-size:17px;
+    }
+
+    nav {
+        display:none;
+        position:absolute;
+        top:64px;
+        left:0;
+        width:100%;
+        background:#10151d;
+        padding:20px;
+        flex-direction:column;
+        gap:18px;
+        border-bottom:1px solid var(--border);
+    }
+
+    nav.open {
+        display:flex;
+    }
+
+    .menu-btn {
+        display:block;
+    }
+
+    .hero {
+        padding-top:25px;
+    }
+
+    .workspace {
+        padding:0 4% 25px;
+    }
+
+    .sidebar {
+        display:flex;
+    }
+
+    .map-area {
+        height:58vh;
+        min-height:390px;
+    }
+
+    #map {
+        min-height:390px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="brand">
+        <div class="brand-logo">R</div>
+        <div>
+            <div class="brand-name">ROAMX</div>
+            <div class="brand-sub">CITY INTELLIGENCE</div>
+        </div>
+    </div>
+
+    <nav id="navigation">
+        <a href="index.html">HOME</a>
+        <a href="map.html" class="active">EXPLORE MAP</a>
+        <a href="environment.html">ROAMX AIR</a>
+        <a href="news.html">WORLD WATCH</a>
+        <a href="resilience.html">RESILIENCE</a>
+    </nav>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">☰</button>
+</header>
+
+<section class="hero">
+    <div class="eyebrow">ROAMX · NAVIGATION INTELLIGENCE</div>
+    <h1>Explore the <span>world.</span></h1>
+    <p>
+        Discover places, explore nearby essential services and calculate
+        routes. Experience your journey through Navigation Simulation Mode.
+    </p>
+</section>
+
+<main class="workspace">
+
+    <aside class="sidebar">
+
+        <!-- LOCATION SEARCH -->
+        <section class="panel">
+            <div class="panel-title">⌕ FIND A LOCATION</div>
+
+            <div class="search-row">
+                <input id="placeSearch"
+                       type="search"
+                       placeholder="Search city, address or place..."
+                       autocomplete="off">
+                <button class="primary-btn" id="searchBtn">SEARCH</button>
+            </div>
+
+            <button class="secondary-btn location-btn" id="locateBtn">
+                ◎ USE MY LOCATION
+            </button>
+
+            <div class="status" id="locationStatus">
+                Search for a destination or detect your location.
+            </div>
+        </section>
+
+        <!-- NEARBY PLACES -->
+        <section class="panel">
+            <div class="panel-title">NEARBY ESSENTIAL PLACES</div>
+
+            <div class="category-grid">
+                <button class="category-btn" data-category="hospital">
+                    <span>✚</span> Hospitals
+                </button>
+                <button class="category-btn" data-category="pharmacy">
+                    <span>⚕</span> Pharmacies
+                </button>
+                <button class="category-btn" data-category="police">
+                    <span>◈</span> Police
+                </button>
+                <button class="category-btn" data-category="fuel">
+                    <span>⛽</span> Fuel stations
+                </button>
+                <button class="category-btn" data-category="atm">
+                    <span>▣</span> ATMs
+                </button>
+                <button class="category-btn" data-category="food">
+                    <span>☕</span> Food places
+                </button>
+            </div>
+
+            <div class="status" id="nearbyStatus">
+                Select a category to explore nearby places.
+            </div>
+        </section>
+
+        <!-- ROUTE PLANNER -->
+        <section class="panel">
+            <div class="panel-title">⌖ ROUTE EXPLORER</div>
+
+            <div class="route-input">
+                <label>STARTING POINT</label>
+                <input id="startInput"
+                       type="text"
+                       placeholder="Use current location"
+                       readonly>
+            </div>
+
+            <div class="route-input">
+                <label>DESTINATION</label>
+                <input id="destinationInput"
+                       type="text"
+                       placeholder="Enter destination">
+            </div>
+
+            <div class="route-buttons">
+                <button class="primary-btn" id="routeBtn">FIND ROUTE</button>
+                <button class="secondary-btn" id="clearBtn">CLEAR</button>
+            </div>
+
+            <div class="route-stats">
+                <div class="stat">
+                    <strong id="distance">--</strong>
+                    <small>DISTANCE</small>
+                </div>
+                <div class="stat">
+                    <strong id="duration">--</strong>
+                    <small>ESTIMATED TIME</small>
+                </div>
+            </div>
+
+            <div class="status" id="routeStatus">
+                Select your location and destination to calculate a route.
+            </div>
+
+            <div class="simulation" id="simulation">
+                <div class="sim-title">◉ NAVIGATION SIMULATION MODE</div>
+
+                <div class="info-text">
+                    Simulated journey progress:
+                    <strong id="progressText">0%</strong>
+                </div>
+
+                <div class="progress-track">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+
+                <div class="info-text" id="remainingText">
+                    Ready to begin your simulated journey.
+                </div>
+
+                <div class="sim-controls">
+                    <button class="play" id="playBtn">▶ START</button>
+                    <button id="pauseBtn">Ⅱ PAUSE</button>
+                    <button id="resetBtn">↺ RESET</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAP INFORMATION -->
+        <section class="panel">
+            <div class="panel-title">ABOUT NAVIGATION</div>
+            <p class="info-text">
+                ROAMX uses OpenStreetMap data to display geographic
+                information. Route calculations are provided by a
+                public routing service.
+                <br><br>
+                Navigation Simulation Mode demonstrates a virtual
+                vehicle travelling along the calculated route.
+                It does not represent real-time GPS vehicle tracking.
+            </p>
+        </section>
+
+    </aside>
+
+    <!-- MAP -->
+    <section class="map-area">
+
+        <div id="map"></div>
+
+        <div class="map-label">
+            <strong>ROAMX MAP INTELLIGENCE</strong>
+            <small>EXPLORE · DISCOVER · NAVIGATE</small>
+        </div>
+
+        <div class="map-footer">
+            MAP DATA © OPENSTREETMAP CONTRIBUTORS
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-brand">ROAMX</div>
+    <p>Stay Aware. Stay Informed. Stay Prepared.</p>
+    <p>Explore places and navigate your surroundings.</p>
+    <p class="credit">
+        Designed &amp; Developed by Sabarish P | B.Tech IT
+    </p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+/* ==========================================
+   ROAMX MAP ENGINE
+========================================== */
+
+const map = L.map("map", {
+    zoomControl:true
+}).setView([11.0168, 76.9558], 12);
+
+L.tileLayer(
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    {
+        maxZoom:19,
+        attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }
+).addTo(map);
+
+/* ==========================================
+   GLOBAL VARIABLES
+========================================== */
+
+let currentPosition = null;
+let startMarker = null;
+let destinationMarker = null;
+let routeLine = null;
+let nearbyMarkers = [];
+let vehicleMarker = null;
+let routeCoordinates = [];
+let routeDistance = 0;
+let routeDuration = 0;
+
+let animationFrame = null;
+let simulationStart = null;
+let elapsedBeforePause = 0;
+let simulationRunning = false;
+let selectedDestination = null;
+
+const $ = id => document.getElementById(id);
+
+const locationStatus = $("locationStatus");
+const nearbyStatus = $("nearbyStatus");
+const routeStatus = $("routeStatus");
+
+/* ==========================================
+   MAP ICONS
+========================================== */
+
+function createVehicleIcon() {
+    return L.divIcon({
+        className:"",
+        html:'<div class="vehicle-icon">🚗</div>',
+        iconSize:[36,36],
+        iconAnchor:[18,18]
+    });
+}
+
+function addStartMarker(position) {
+
+    if(startMarker) {
+        map.removeLayer(startMarker);
+    }
+
+    startMarker = L.marker(position)
+        .addTo(map)
+        .bindPopup("<strong>Starting Point</strong>");
+}
+
+function addDestinationMarker(position) {
+
+    if(destinationMarker) {
+        map.removeLayer(destinationMarker);
+    }
+
+    destinationMarker = L.marker(position)
+        .addTo(map)
+        .bindPopup("<strong>Destination</strong>");
+
+    selectedDestination = position;
+}
+
+/* ==========================================
+   LOCATION DETECTION
+========================================== */
+
+function getCurrentLocation() {
+
+    if(!navigator.geolocation) {
+        locationStatus.textContent =
+            "Your browser does not support location detection.";
+        return;
+    }
+
+    locationStatus.textContent = "Detecting your location...";
+
+    navigator.geolocation.getCurrentPosition(
+        async position => {
+
+            const lat = position.coords.latitude;
+            const lon = position.coords.longitude;
+
+            currentPosition = [lat,lon];
+
+            addStartMarker(currentPosition);
+
+            map.setView(currentPosition,15);
+
+            $("startInput").value = "Current location";
+
+            locationStatus.textContent =
+                "Your current location has been detected.";
+
+            try {
+
+                const response = await fetch(
+                    "https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=" +
+                    lat + "&lon=" + lon
+                );
+
+                if(response.ok) {
+                    const data = await response.json();
+
+                    $("startInput").value =
+                        data.display_name || "Current location";
+                }
+
+            } catch(error) {
+                console.log("Reverse geocoding unavailable.");
+            }
+
+        },
+        error => {
+
+            const messages = {
+                1:"Location permission was denied.",
+                2:"Your location is currently unavailable.",
+                3:"Location request timed out."
+            };
+
+            locationStatus.textContent =
+                messages[error.code] || "Unable to detect location.";
+        },
+        {
+            enableHighAccuracy:true,
+            timeout:15000,
+            maximumAge:30000
+        }
+    );
+}
+
+$("locateBtn").addEventListener("click",getCurrentLocation);
+
+/* ==========================================
+   CITY AND PLACE SEARCH
+========================================== */
+
+async function searchPlace() {
+
+    const query = $("placeSearch").value.trim();
+
+    if(!query) {
+        locationStatus.textContent =
+            "Please enter a city or place name.";
+        return;
+    }
+
+    locationStatus.textContent = "Searching for location...";
+
+    try {
+
+        const url =
+            "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=5&q=" +
+            encodeURIComponent(query);
+
+        const response = await fetch(url);
+
+        if(!response.ok) {
+            throw new Error("Search service unavailable.");
+        }
+
+        const results = await response.json();
+
+        if(!results.length) {
+            locationStatus.textContent = "No matching place found.";
+            return;
+        }
+
+        const place = results[0];
+
+        const position = [
+            Number(place.lat),
+            Number(place.lon)
+        ];
+
+        currentPosition = position;
+
+        addStartMarker(position);
+
+        map.setView(position,14);
+
+        $("startInput").value =
+            place.display_name;
+
+        locationStatus.textContent =
+            "Location found: " + place.display_name;
+
+    } catch(error) {
+
+        locationStatus.textContent =
+            "Unable to search right now. Please try again later.";
+
+        console.error(error);
+    }
+}
+
+$("searchBtn").addEventListener("click",searchPlace);
+
+$("placeSearch").addEventListener("keydown",event => {
+    if(event.key === "Enter") searchPlace();
+});
+
+/* ==========================================
+   SELECT DESTINATION BY MAP CLICK
+========================================== */
+
+map.on("click",event => {
+
+    const position = [
+        event.latlng.lat,
+        event.latlng.lng
+    ];
+
+    addDestinationMarker(position);
+
+    $("destinationInput").value =
+        position[0].toFixed(5) + ", " +
+        position[1].toFixed(5);
+
+    routeStatus.textContent =
+        "Destination selected from the map. Find your route.";
+
+});
+
+/* ==========================================
+   NEARBY PLACE SEARCH
+========================================== */
+
+const categories = {
+
+    hospital:{
+        title:"Hospitals",
+        filter:'["amenity"="hospital"]',
+        emoji:"✚"
+    },
+
+    pharmacy:{
+        title:"Pharmacies",
+        filter:'["amenity"="pharmacy"]',
+        emoji:"⚕"
+    },
+
+    police:{
+        title:"Police Stations",
+        filter:'["amenity"="police"]',
+        emoji:"◈"
+    },
+
+    fuel:{
+        title:"Fuel Stations",
+        filter:'["amenity"="fuel"]',
+        emoji:"⛽"
+    },
+
+    atm:{
+        title:"ATMs",
+        filter:'["amenity"="atm"]',
+        emoji:"▣"
+    },
+
+    food:{
+        title:"Food Places",
+        filter:'["amenity"~"restaurant|cafe|fast_food"]',
+        emoji:"☕"
+    }
+};
+
+function clearNearbyMarkers() {
+
+    nearbyMarkers.forEach(marker => {
+        map.removeLayer(marker);
+    });
+
+    nearbyMarkers = [];
+}
+
+async function findNearby(category) {
+
+    if(!currentPosition) {
+        nearbyStatus.textContent =
+            "Please search for a location or use My Location first.";
+        return;
+    }
+
+    const selected = categories[category];
+
+    if(!selected) return;
+
+    document.querySelectorAll(".category-btn")
+        .forEach(button => button.classList.remove("selected"));
+
+    document.querySelector(
+        '[data-category="' + category + '"]'
+    ).classList.add("selected");
+
+    nearbyStatus.textContent =
+        "Searching nearby " + selected.title.toLowerCase() + "...";
+
+    clearNearbyMarkers();
+
+    const lat = currentPosition[0];
+    const lon = currentPosition[1];
+
+    /*
+      Valid Overpass QL:
+      Searches nodes, ways and relations around the selected location.
+    */
+
+    const query = `
+[out:json][timeout:25];
+(
+  node${selected.filter}(around:5000,${lat},${lon});
+  way${selected.filter}(around:5000,${lat},${lon});
+  relation${selected.filter}(around:5000,${lat},${lon});
+);
+out center tags;
+`;
+
+    const servers = [
+        "https://overpass-api.de/api/interpreter",
+        "https://overpass.kumi.systems/api/interpreter"
+    ];
+
+    let data = null;
+
+    for(const server of servers) {
+
+        try {
+
+            const response = await fetch(server,{
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/x-www-form-urlencoded"
+                },
+                body:"data=" + encodeURIComponent(query)
+            });
+
+            if(!response.ok) {
+                throw new Error("Overpass server error");
+            }
+
+            data = await response.json();
+            break;
+
+        } catch(error) {
+            console.log("Nearby service unavailable:",server);
+        }
+    }
+
+    if(!data) {
+        nearbyStatus.textContent =
+            "Nearby search is temporarily unavailable. Try again later.";
+        return;
+    }
+
+    const places = data.elements || [];
+
+    if(!places.length) {
+        nearbyStatus.textContent =
+            "No nearby " + selected.title.toLowerCase() +
+            " found within 5 km.";
+        return;
+    }
+
+    places.forEach(place => {
+
+        const placeLat =
+            place.lat ?? place.center?.lat;
+
+        const placeLon =
+            place.lon ?? place.center?.lon;
+
+        if(placeLat == null || placeLon == null) return;
+
+        const name =
+            place.tags?.name || selected.title;
+
+        const marker = L.marker([placeLat,placeLon])
+            .addTo(map)
+            .bindPopup(
+                "<strong>" + escapeHTML(name) + "</strong><br>" +
+                escapeHTML(selected.title)
+            );
+
+        nearbyMarkers.push(marker);
+    });
+
+    nearbyStatus.textContent =
+        places.length + " nearby places found within 5 km.";
+}
+
+document.querySelectorAll(".category-btn")
+    .forEach(button => {
+
+        button.addEventListener("click",() => {
+            findNearby(button.dataset.category);
+        });
+
+    });
+
+/* ==========================================
+   SAFE HTML DISPLAY
+========================================== */
+
+function escapeHTML(value) {
+
+    return String(value).replace(/[&<>"']/g,char => ({
+        "&":"&amp;",
+        "<":"&lt;",
+        ">":"&gt;",
+        '"':"&quot;",
+        "'":"&#39;"
+    })[char]);
+}
+
+/* ==========================================
+   DESTINATION GEOCODING
+========================================== */
+
+async function geocodeDestination(query) {
+
+    const trimmed = query.trim();
+
+    if(!trimmed) {
+        throw new Error("Enter a destination.");
+    }
+
+    // Allow coordinates such as 11.0168, 76.9558.
+    const coordinateMatch =
+        trimmed.match(/^\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*$/);
+
+    if(coordinateMatch) {
+
+        const lat = Number(coordinateMatch[1]);
+        const lon = Number(coordinateMatch[2]);
+
+        if(lat < -90 || lat > 90 || lon < -180 || lon > 180) {
+            throw new Error("Invalid coordinates.");
+        }
+
+        return {
+            position:[lat,lon],
+            name:trimmed
+        };
+    }
+
+    const url =
+        "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&q=" +
+        encodeURIComponent(trimmed);
+
+    const response = await fetch(url);
+
+    if(!response.ok) {
+        throw new Error("Destination search service unavailable.");
+    }
+
+    const results = await response.json();
+
+    if(!results.length) {
+        throw new Error("Destination not found.");
+    }
+
+    return {
+        position:[
+            Number(results[0].lat),
+            Number(results[0].lon)
+        ],
+        name:results[0].display_name
+    };
+}
+
+/* ==========================================
+   ROUTE CALCULATION
+========================================== */
+
+async function findRoute() {
+
+    if(!currentPosition) {
+        routeStatus.textContent =
+            "Please detect your location or search for a starting city first.";
+        return;
+    }
+
+    const destinationText =
+        $("destinationInput").value.trim();
+
+    if(!destinationText) {
+        routeStatus.textContent =
+            "Please enter a destination.";
+        return;
+    }
+
+    stopSimulation();
+
+    routeStatus.textContent =
+        "Calculating your driving route...";
+
+    $("routeBtn").disabled = true;
+
+    try {
+
+        const destination =
+            await geocodeDestination(destinationText);
+
+        const end = destination.position;
+
+        const start = currentPosition;
+
+        addDestinationMarker(end);
+
+        const url =
+            "https://router.project-osrm.org/route/v1/driving/" +
+            start[1] + "," + start[0] + ";" +
+            end[1] + "," + end[0] +
+            "?overview=full&geometries=geojson&steps=true";
+
+        const response = await fetch(url);
+
+        if(!response.ok) {
+            throw new Error("Routing service unavailable.");
+        }
+
+        const data = await response.json();
+
+        if(data.code !== "Ok" || !data.routes.length) {
+            throw new Error("No driving route could be found.");
+        }
+
+        const route = data.routes[0];
+
+        routeCoordinates =
+            route.geometry.coordinates.map(point => [
+                point[1],
+                point[0]
+            ]);
+
+        routeDistance = route.distance;
+        routeDuration = route.duration;
+
+        if(routeLine) {
+            map.removeLayer(routeLine);
+        }
+
+        routeLine = L.polyline(routeCoordinates,{
+            color:"#d6ad63",
+            weight:5,
+            opacity:.9
+        }).addTo(map);
+
+        map.fitBounds(routeLine.getBounds(),{
+            padding:[45,45]
+        });
+
+        $("distance").textContent =
+            (routeDistance / 1000).toFixed(2) + " km";
+
+        $("duration").textContent =
+            formatDuration(routeDuration);
+
+        routeStatus.textContent =
+            "Driving route successfully calculated.";
+
+        $("simulation").classList.add("active");
+
+        resetSimulation();
+
+    } catch(error) {
+
+        routeStatus.textContent =
+            error.message || "Unable to calculate route.";
+
+        console.error(error);
+
+    } finally {
+
+        $("routeBtn").disabled = false;
+    }
+}
+
+$("routeBtn").addEventListener("click",findRoute);
+
+$("destinationInput").addEventListener("keydown",event => {
+    if(event.key === "Enter") findRoute();
+});
+
+/* ==========================================
+   DURATION FORMAT
+========================================== */
+
+function formatDuration(seconds) {
+
+    const minutes = Math.round(seconds / 60);
+
+    if(minutes < 60) {
+        return minutes + " min";
+    }
+
+    const hours = Math.floor(minutes / 60);
+    const remaining = minutes % 60;
+
+    return remaining
+        ? hours + " hr " + remaining + " min"
+        : hours + " hr";
+}
+
+/* ==========================================
+   NAVIGATION SIMULATION
+========================================== */
+
+const SIMULATION_SPEED = 30;
+
+function getPositionAtProgress(progress) {
+
+    if(!routeCoordinates.length) return null;
+
+    const totalSegments = routeCoordinates.length - 1;
+
+    const position = progress * totalSegments;
+
+    const index = Math.min(
+        Math.floor(position),
+        totalSegments - 1
+    );
+
+    if(totalSegments <= 0) {
+        return routeCoordinates[0];
+    }
+
+    const fraction = position - index;
+
+    const start = routeCoordinates[index];
+    const end = routeCoordinates[index + 1];
+
+    return [
+        start[0] + (end[0] - start[0]) * fraction,
+        start[1] + (end[1] - start[1]) * fraction
+    ];
+}
+
+function updateSimulation(elapsed) {
+
+    const totalTime =
+        Math.max(routeDuration,10) * 1000 / SIMULATION_SPEED;
+
+    const progress = Math.min(elapsed / totalTime,1);
+
+    const position = getPositionAtProgress(progress);
+
+    if(position) {
+
+        if(!vehicleMarker) {
+
+            vehicleMarker = L.marker(position,{
+                icon:createVehicleIcon(),
+                zIndexOffset:1000
+            }).addTo(map);
+
+        } else {
+
+            vehicleMarker.setLatLng(position);
+        }
+
+        map.panTo(position,{
+            animate:false
+        });
+    }
+
+    const percentage = Math.round(progress * 100);
+
+    $("progressText").textContent =
+        percentage + "%";
+
+    $("progressBar").style.width =
+        percentage + "%";
+
+    const remainingDistance =
+        routeDistance * (1 - progress);
+
+    $("remainingText").textContent =
+        percentage >= 100
+        ? "You have reached your destination."
+        : "Remaining distance: " +
+          (remainingDistance / 1000).toFixed(2) + " km";
+
+    if(progress >= 1) {
+
+        simulationRunning = false;
+        cancelAnimationFrame(animationFrame);
+        animationFrame = null;
+
+        $("playBtn").textContent = "✓ COMPLETED";
+
+        routeStatus.textContent =
+            "Simulation completed. Destination reached.";
+
+        return;
+    }
+}
+
+function animateSimulation(timestamp) {
+
+    if(!simulationRunning) return;
+
+    if(simulationStart === null) {
+        simulationStart = timestamp - elapsedBeforePause;
+    }
+
+    const elapsed = timestamp - simulationStart;
+
+    updateSimulation(elapsed);
+
+    if(simulationRunning) {
+        animationFrame =
+            requestAnimationFrame(animateSimulation);
+    }
+}
+
+function startSimulation() {
+
+    if(!routeCoordinates.length) {
+        routeStatus.textContent =
+            "Calculate a route before starting simulation.";
+        return;
+    }
+
+    if(simulationRunning) return;
+
+    const progress = Number(
+        $("progressText").textContent.replace("%","")
+    );
+
+    if(progress >= 100) {
+        resetSimulation();
+    }
+
+    simulationRunning = true;
+    simulationStart = null;
+
+    $("playBtn").textContent = "▶ RUNNING";
+
+    animationFrame =
+        requestAnimationFrame(animateSimulation);
+}
+
+function pauseSimulation() {
+
+    if(!simulationRunning) return;
+
+    simulationRunning = false;
+
+    if(animationFrame !== null) {
+        cancelAnimationFrame(animationFrame);
+        animationFrame = null;
+    }
+
+    if(simulationStart !== null) {
+        elapsedBeforePause =
+            performance.now() - simulationStart;
+    }
+
+    simulationStart = null;
+
+    $("playBtn").textContent = "▶ RESUME";
+}
+
+function stopSimulation() {
+
+    simulationRunning = false;
+
+    if(animationFrame !== null) {
+        cancelAnimationFrame(animationFrame);
+        animationFrame = null;
+    }
+
+    simulationStart = null;
+    elapsedBeforePause = 0;
+}
+
+function resetSimulation() {
+
+    stopSimulation();
+
+    elapsedBeforePause = 0;
+
+    if(vehicleMarker) {
+        map.removeLayer(vehicleMarker);
+        vehicleMarker = null;
+    }
+
+    $("progressText").textContent = "0%";
+    $("progressBar").style.width = "0%";
+
+    $("remainingText").textContent =
+        "Ready to begin your simulated journey.";
+
+    $("playBtn").textContent = "▶ START";
+
+    if(routeCoordinates.length) {
+        map.fitBounds(routeLine.getBounds(),{
+            padding:[45,45]
+        });
+    }
+}
+
+$("playBtn").addEventListener("click",startSimulation);
+
+$("pauseBtn").addEventListener("click",pauseSimulation);
+
+$("resetBtn").addEventListener("click",resetSimulation);
+
+/* ==========================================
+   CLEAR ROUTE
+========================================== */
+
+function clearRoute() {
+
+    stopSimulation();
+
+    if(routeLine) {
+        map.removeLayer(routeLine);
+        routeLine = null;
+    }
+
+    if(destinationMarker) {
+        map.removeLayer(destinationMarker);
+        destinationMarker = null;
+    }
+
+    if(vehicleMarker) {
+        map.removeLayer(vehicleMarker);
+        vehicleMarker = null;
+    }
+
+    routeCoordinates = [];
+    routeDistance = 0;
+    routeDuration = 0;
+    selectedDestination = null;
+
+    $("destinationInput").value = "";
+    $("distance").textContent = "--";
+    $("duration").textContent = "--";
+
+    $("simulation").classList.remove("active");
+
+    $("progressText").textContent = "0%";
+    $("progressBar").style.width = "0%";
+
+    routeStatus.textContent =
+        "Route cleared. Select a new destination.";
+
+    if(currentPosition) {
+        map.setView(currentPosition,14);
+    }
+}
+
+$("clearBtn").addEventListener("click",clearRoute);
+
+/* ==========================================
+   MOBILE NAVIGATION
+========================================== */
+
+$("menuBtn").addEventListener("click",() => {
+
+    $("navigation").classList.toggle("open");
+
+});
+
+/* ==========================================
+   INITIAL MAP CONFIGURATION
+========================================== */
+
+$("startInput").value = "Waiting for location";
+
+map.whenReady(() => {
+
+    setTimeout(() => {
+        map.invalidateSize();
+    },300);
+
+});
+
+window.addEventListener("resize",() => {
+    map.invalidateSize();
+});
+
+</script>
+
+</body>
+</html>
