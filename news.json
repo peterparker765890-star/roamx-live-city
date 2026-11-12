@@ -240,44 +240,255 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-12T08:11:20Z",
-    "lastSuccessfulRun": "2026-11-12T08:11:20Z",
-    "lastUpdated": "2026-11-12T08:11:20Z",
-    "articlesAdded": 12,
+    "lastRun": "2026-11-12T16:59:55Z",
+    "lastSuccessfulRun": "2026-11-12T16:59:55Z",
+    "lastUpdated": "2026-11-12T16:59:55Z",
+    "articlesAdded": 23,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 45,
+    "duplicatesRemoved": 36,
     "failedSources": [],
     "newArticleIds": [
-      "a703d0b1a7bd2bd3e9de",
-      "3a21d8b0624e16d6537b",
-      "b10acd63c44b232f1343",
-      "61ebd930fde2246e7503",
-      "2cd576b5de4fa11009bd",
-      "871155b7db2e6ea64dc2",
-      "b6d4a806505507c3d5c1",
-      "a3b5a7b4cddc2b789a40",
-      "4b3e52652d6638f71ed4",
-      "acdfc149fd0e420028e2",
-      "2389aa8f36c831594836",
-      "17fcc4c2b7f024023f9b"
+      "f5b355e88db7a0ffbbde",
+      "8e46414d7ee4d50ba17d",
+      "6299c0c702e10259c00b",
+      "8b093e6abb660fe8ac41",
+      "fd3557b229b75b714da5",
+      "4d00c170e9e95ce9c485",
+      "a3f37781e8cd86838e86",
+      "728adb6ea7c61506bf3f",
+      "0b782421e77bbf431679",
+      "0996ecdfaabcbd20009d",
+      "9521cd6f8ca5b38bd4c6",
+      "f95e0b51bd928dd1c22b",
+      "2577dedc5b1fd2c232b6",
+      "5f7886dc1c7d56b164c2",
+      "26ca620482f986691925",
+      "9074c211c4278db985af",
+      "7904662be63524777418",
+      "b9a4e0f762bfc4118a29",
+      "a65ec59d21d8faece8c9",
+      "2192d9299f02264b196e",
+      "ab7600592c46cca5ba19",
+      "7e0828ed1de63fc444c3",
+      "a5c246dcc64f1cde410d"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 0,
+    "articlesRemoved": 2,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 83,
+    "totalArticles": 104,
     "categories": {
-      "World": 31,
-      "India": 9,
-      "Technology": 6,
-      "Environment": 27,
+      "World": 45,
+      "India": 10,
+      "Technology": 7,
+      "Environment": 32,
       "Disaster": 10
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "f5b355e88db7a0ffbbde",
+      "title": "Private capital helped build India's early infrastructure, can do so again - Business Standard",
+      "description": "Private capital helped build India's early infrastructure, can do so again Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbW1lVS0wYW1sMHYyWE5RUXZXQjcwRjQwRWgyYzdXMDkyVHVfZWNKaVNBeU9tekZQVFN2NTRMOUd6NTRCUGswUkxxWlYwZkdZaDVMTHFnZFhDX1J6REhYUVg4b3lDWDY3MXRjTlBlb0tLb0lqV2ZoemlZMmxCUmFrZUY3WThRam9iR0JFWW5rSnpvMzlUbUdxT1VkejFKdENkdEhHdWl5eTJoWk5wS0c1aDJLc2NXSGVEdmFNQjVIT19wWHVPbWd1RHJkVjNHRjJ6aXQxWFZCZ3RzNk3SAeABQVVfeXFMTnRJaXhWOXV2d2pxNVNiN256RldlcVlERzFvQ1FmcnBVYlFkLXpFNHZBRFRPWEROMG4waUlBTnppLUdweWpwbTBrbFBVYTJHeWFZa0QxS2ZZWm5udjZqU1B4d1o1VlNseEk1aHlwZVRwV1lIaFFXTzVfa1pEbDI1a3JTRldKaTJwaHRDV0xSYXFOejdPQzFLVVdHM0JESFNnel94VE1uMmNicnhMYWRBSXpkUHY5N3V0VjV4Z0pPblJtc1prN2xnTThVSzdRUlpjdWIwblBHRXA3Z2pTRVdyalU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbW1lVS0wYW1sMHYyWE5RUXZXQjcwRjQwRWgyYzdXMDkyVHVfZWNKaVNBeU9tekZQVFN2NTRMOUd6NTRCUGswUkxxWlYwZkdZaDVMTHFnZFhDX1J6REhYUVg4b3lDWDY3MXRjTlBlb0tLb0lqV2ZoemlZMmxCUmFrZUY3WThRam9iR0JFWW5rSnpvMzlUbUdxT1VkejFKdENkdEhHdWl5eTJoWk5wS0c1aDJLc2NXSGVEdmFNQjVIT19wWHVPbWd1RHJkVjNHRjJ6aXQxWFZCZ3RzNk3SAeABQVVfeXFMTnRJaXhWOXV2d2pxNVNiN256RldlcVlERzFvQ1FmcnBVYlFkLXpFNHZBRFRPWEROMG4waUlBTnppLUdweWpwbTBrbFBVYTJHeWFZa0QxS2ZZWm5udjZqU1B4d1o1VlNseEk1aHlwZVRwV1lIaFFXTzVfa1pEbDI1a3JTRldKaTJwaHRDV0xSYXFOejdPQzFLVVdHM0JESFNnel94VE1uMmNicnhMYWRBSXpkUHY5N3V0VjV4Z0pPblJtc1prN2xnTThVSzdRUlpjdWIwblBHRXA3Z2pTRVdyalU?oc=5",
+      "source": "Business Standard",
+      "category": "India",
+      "publishedAt": "2026-11-12T16:33:02Z"
+    },
+    {
+      "id": "8e46414d7ee4d50ba17d",
+      "title": "COP31: Iran wants compensation for environmental damage from US-Israeli strikes Iran President Masoud Pezeshkian tells the COP31 climate conference his country wanted compensation for environmental damage caused by US and Israeli strikes. Full story - Facebook",
+      "description": "COP31: Iran wants compensation for environmental damage from US-Israeli strikes Iran President Masoud Pezeshkian tells the COP31 climate conference his country wanted compensation for environmental damage caused by US and Israeli strikes. Full story Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNb0hQNXdhbmJHV2xlVGpzUXdsbTdqNnZXb2huUTdVcHJ1YTNjcWVqaE5xS294UnpEempLVUpjeXlBTGpZR09zcWFYTDBwcURWMDhqY0dMMFdLX0dkR3NYdFZnS0U5bm5NS2l2WURnTDBiT1VwNFd1NFZKYXRiZDM5X25kekJYXzVUZjhsX05ZY0hOMmpub3F4TDFrR20tNmhPLUhKYjlyZXB4eDlKZE42Q3VGUV82WFhEUy1nRmZGRXB5dXRaeUhzN011S2tiWnVZYnZ6ZFE5RmlXeG8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNb0hQNXdhbmJHV2xlVGpzUXdsbTdqNnZXb2huUTdVcHJ1YTNjcWVqaE5xS294UnpEempLVUpjeXlBTGpZR09zcWFYTDBwcURWMDhqY0dMMFdLX0dkR3NYdFZnS0U5bm5NS2l2WURnTDBiT1VwNFd1NFZKYXRiZDM5X25kekJYXzVUZjhsX05ZY0hOMmpub3F4TDFrR20tNmhPLUhKYjlyZXB4eDlKZE42Q3VGUV82WFhEUy1nRmZGRXB5dXRaeUhzN011S2tiWnVZYnZ6ZFE5RmlXeG8?oc=5",
+      "source": "Facebook",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T16:29:19Z"
+    },
+    {
+      "id": "6299c0c702e10259c00b",
+      "title": "SILEJ 2026: What to Expect From Casablanca’s International Children’s and Youth Book Fair - Morocco World News",
+      "description": "SILEJ 2026: What to Expect From Casablanca’s International Children’s and Youth Book Fair Morocco World News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObXNjMEN1SlJ4enVha0VYSF9qb19icWlWWlhVRmtUUmdacmU4TUxaaW9RbmJoTVloTlFsOHczd2NxLWp0QlQzc19jSWs3N2FuWHlETEtBc1hmalpHLVp1UGhLQ21NQ21qSXpTTTZxY3FPYUh3dW9QR3JEdXo0cGNJZHBaYUlNUjAzcjBOSnA1eGpPZVNmeG4tcDZGUUNqdnFEUTcxbmlPMjhEODlSZXBlQTBrUkRvV0NCMVlaYTN1WWdMNWEwN0tsQzFtcjVsVm42?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObXNjMEN1SlJ4enVha0VYSF9qb19icWlWWlhVRmtUUmdacmU4TUxaaW9RbmJoTVloTlFsOHczd2NxLWp0QlQzc19jSWs3N2FuWHlETEtBc1hmalpHLVp1UGhLQ21NQ21qSXpTTTZxY3FPYUh3dW9QR3JEdXo0cGNJZHBaYUlNUjAzcjBOSnA1eGpPZVNmeG4tcDZGUUNqdnFEUTcxbmlPMjhEODlSZXBlQTBrUkRvV0NCMVlaYTN1WWdMNWEwN0tsQzFtcjVsVm42?oc=5",
+      "source": "Morocco World News",
+      "category": "World",
+      "publishedAt": "2026-11-12T16:24:17Z"
+    },
+    {
+      "id": "8b093e6abb660fe8ac41",
+      "title": "Acton Belle Property International Moth Worlds 2026 at Mounts Bay Sailing Club - Overall - Sail-World.com",
+      "description": "Acton Belle Property International Moth Worlds 2026 at Mounts Bay Sailing Club - Overall Sail-World.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcDR4aTM0c18wZzFPd3BwQzRIWkZMX3JkSlhCSFRXTXMwS0pNN0RDOC1yOGJVRWc2dFdlUjRjMzJPMXAxa1lHT2U5bXZMdTdIeWt0QU1yQkE4TFRuNUVnT2JPNFFibTlXM2JMakd5bWZhbUJ3MEM5UHhOc1BJbVpfX2NhNA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcDR4aTM0c18wZzFPd3BwQzRIWkZMX3JkSlhCSFRXTXMwS0pNN0RDOC1yOGJVRWc2dFdlUjRjMzJPMXAxa1lHT2U5bXZMdTdIeWt0QU1yQkE4TFRuNUVnT2JPNFFibTlXM2JMakd5bWZhbUJ3MEM5UHhOc1BJbVpfX2NhNA?oc=5",
+      "source": "Sail-World.com",
+      "category": "World",
+      "publishedAt": "2026-11-12T15:16:00Z"
+    },
+    {
+      "id": "fd3557b229b75b714da5",
+      "title": "Enzo Balanger claims second consecutive International Moth World Championship title in Perth - Sail-World.com",
+      "description": "Enzo Balanger claims second consecutive International Moth World Championship title in Perth Sail-World.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSU9PeHkxck13d2ExNElkN2tUX1hPdmc1UktCZndLWmJwWTg2X3dUSk9jNWhocjNwUU9nQXVOSG1MeEh5Ry01dEw2M0FIM3FVZWZYZGJaU3NuQXlnaFppOHF3UFUtUnFINXBSVzVfQ2otMzc5cTlqeTdqUHVoSXZPMjA0WGgtN0FT?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSU9PeHkxck13d2ExNElkN2tUX1hPdmc1UktCZndLWmJwWTg2X3dUSk9jNWhocjNwUU9nQXVOSG1MeEh5Ry01dEw2M0FIM3FVZWZYZGJaU3NuQXlnaFppOHF3UFUtUnFINXBSVzVfQ2otMzc5cTlqeTdqUHVoSXZPMjA0WGgtN0FT?oc=5",
+      "source": "Sail-World.com",
+      "category": "World",
+      "publishedAt": "2026-11-12T14:59:00Z"
+    },
+    {
+      "id": "4d00c170e9e95ce9c485",
+      "title": "World of Patria International enters administration - DFNI",
+      "description": "World of Patria International enters administration DFNI",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMHZCRjlkRjVHZnEwQ1hvcTg5MGNyM2RfelZCXzktWDdOb2dibElBUktpLTMySVBWZkx5RGprTjJ2dEtSanI0OUFVcGFJLUJpYjk2cngzZVRaRDRtRjZuRXphUmhxRG4yaHJldHNpcUZiN1lLWUhpWHkwOWN1NEFlcnE2N2hodmJEdUNHVjA3QW9SNGZMVXQ0MU83b0dPb1B0Y29naw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMHZCRjlkRjVHZnEwQ1hvcTg5MGNyM2RfelZCXzktWDdOb2dibElBUktpLTMySVBWZkx5RGprTjJ2dEtSanI0OUFVcGFJLUJpYjk2cngzZVRaRDRtRjZuRXphUmhxRG4yaHJldHNpcUZiN1lLWUhpWHkwOWN1NEFlcnE2N2hodmJEdUNHVjA3QW9SNGZMVXQ0MU83b0dPb1B0Y29naw?oc=5",
+      "source": "DFNI",
+      "category": "World",
+      "publishedAt": "2026-11-12T14:08:07Z"
+    },
+    {
+      "id": "a3f37781e8cd86838e86",
+      "title": "US, UK see sharp fall in international student enrolments amid visa curbs: Survey - The Times of India",
+      "description": "US, UK see sharp fall in international student enrolments amid visa curbs: Survey The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVzdKSTdrR3dkbENrclc1ZzF6OUV6dmVNbW01Q3dGMmJnVmxJLUNLVlJnVWxRZmt5SkFoMTZ3ZF9VckdQN3ZuM0YzMlZGMXY0blY5LWVGbXVoQTh0bVNXZTRSOWt5ejJxMGpGbi0taXZjR1Fid0hBVzk3NlJ6VW8tamNsYlYwWHZVX3VkR2laMXB0TW95NTNsd21UaDJ5MnRoLXhha01SNHk1clBxSnFhV2MtMXpncFBGSkphem1odGozR1pBM3A2cGV3U0RYQXppTnZsRTY2aGZoSnhWa2VJNm9pUEdaNVBXUkJkMzA1M2JjbFXSAfgBQVVfeXFMUHBFTTIzS0pCRC04TlZFQ3M0c01Kam1IaEx0UTlpUkR6NDFLbExLUS1KZlhDZ3RuY1U5ZEZFdzNHeEk4b2twUF9Ld2RYT1hGVWtadnlsWXZGTHloUFJOMVhHQ3dLdVJGZ3k1MzVhZjZOQmhiQ1BsVlJHclI2OG03TkNlRjdZeUxyTDlHM2Rvd1ZITjI0eTJFbERZenhteFVxcXZTa2F5UDBuQms2SWJEUDh4dllzaXRRYlFRMXVnd21PUWVoMkhaVEx3a2tqLW9ZcUQtZkpaQ1JIU2xULTZIR2JMeW1OYmdKLTZvUEl5dmhGbUJTamRNRUg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVzdKSTdrR3dkbENrclc1ZzF6OUV6dmVNbW01Q3dGMmJnVmxJLUNLVlJnVWxRZmt5SkFoMTZ3ZF9VckdQN3ZuM0YzMlZGMXY0blY5LWVGbXVoQTh0bVNXZTRSOWt5ejJxMGpGbi0taXZjR1Fid0hBVzk3NlJ6VW8tamNsYlYwWHZVX3VkR2laMXB0TW95NTNsd21UaDJ5MnRoLXhha01SNHk1clBxSnFhV2MtMXpncFBGSkphem1odGozR1pBM3A2cGV3U0RYQXppTnZsRTY2aGZoSnhWa2VJNm9pUEdaNVBXUkJkMzA1M2JjbFXSAfgBQVVfeXFMUHBFTTIzS0pCRC04TlZFQ3M0c01Kam1IaEx0UTlpUkR6NDFLbExLUS1KZlhDZ3RuY1U5ZEZFdzNHeEk4b2twUF9Ld2RYT1hGVWtadnlsWXZGTHloUFJOMVhHQ3dLdVJGZ3k1MzVhZjZOQmhiQ1BsVlJHclI2OG03TkNlRjdZeUxyTDlHM2Rvd1ZITjI0eTJFbERZenhteFVxcXZTa2F5UDBuQms2SWJEUDh4dllzaXRRYlFRMXVnd21PUWVoMkhaVEx3a2tqLW9ZcUQtZkpaQ1JIU2xULTZIR2JMeW1OYmdKLTZvUEl5dmhGbUJTamRNRUg?oc=5",
+      "source": "The Times of India",
+      "category": "World",
+      "publishedAt": "2026-11-12T13:49:00Z"
+    },
+    {
+      "id": "728adb6ea7c61506bf3f",
+      "title": "Bahrain International Trophy: Aidan O’Brien could break his own world record - Racing TV",
+      "description": "Bahrain International Trophy: Aidan O’Brien could break his own world record Racing TV",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOFliZGZZUWFONFg3Tk9ka1lKdVJhTll5Y2ZmUE9TblhXQjR6bFRRUXIyQ2NVZ25FVnNVZWxvTW03MEpZZGJMS1Z0SjQ1d3Rfbl9kbzc3QWoxa1lnTVpwNm9weHNYaVZtLXFLN3QxeUs0ckhfYXQ4WW1Cdm9na1IzZ202Q0FhNXUzNDBmZGthbjhLeUpxY3gxN0RwUkNZZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOFliZGZZUWFONFg3Tk9ka1lKdVJhTll5Y2ZmUE9TblhXQjR6bFRRUXIyQ2NVZ25FVnNVZWxvTW03MEpZZGJMS1Z0SjQ1d3Rfbl9kbzc3QWoxa1lnTVpwNm9weHNYaVZtLXFLN3QxeUs0ckhfYXQ4WW1Cdm9na1IzZ202Q0FhNXUzNDBmZGthbjhLeUpxY3gxN0RwUkNZZw?oc=5",
+      "source": "Racing TV",
+      "category": "World",
+      "publishedAt": "2026-11-12T13:20:58Z"
+    },
+    {
+      "id": "0b782421e77bbf431679",
+      "title": "34th African Diaspora International Film Festival Opens with World Premiere of John Johnson Reporting - EIN Presswire",
+      "description": "34th African Diaspora International Film Festival Opens with World Premiere of John Johnson Reporting EIN Presswire",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVHJUcy1EbWVRQm15eGc4SHZWbHJ3dGF6RjdRWlFQMWQ4YWJ5WVgzakdWWXJLbmw1Z0c4Q0tNdkZLSnR3WEhsNDJ4T2hFQUJ3amQyWHlsa0YyWk5JRDRtNnRjckZSVnpBZUJtNXhRTzVZal9jOV82amRadE1qZFpIdHpjdzZaRXV6YVZaWTRzR0c2VktHYUxCUWRnVmRGYi1fWnZBT2xMQW1vUllhZ2ZubUdLYkUxNmN3bjJsU2tsQWtCX1FtN19RekVwYlZxMnJwZHEtdVRkclowTFcwYlNXQVdR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVHJUcy1EbWVRQm15eGc4SHZWbHJ3dGF6RjdRWlFQMWQ4YWJ5WVgzakdWWXJLbmw1Z0c4Q0tNdkZLSnR3WEhsNDJ4T2hFQUJ3amQyWHlsa0YyWk5JRDRtNnRjckZSVnpBZUJtNXhRTzVZal9jOV82amRadE1qZFpIdHpjdzZaRXV6YVZaWTRzR0c2VktHYUxCUWRnVmRGYi1fWnZBT2xMQW1vUllhZ2ZubUdLYkUxNmN3bjJsU2tsQWtCX1FtN19RekVwYlZxMnJwZHEtdVRkclowTFcwYlNXQVdR?oc=5",
+      "source": "EIN Presswire",
+      "category": "World",
+      "publishedAt": "2026-11-12T13:13:00Z"
+    },
+    {
+      "id": "0996ecdfaabcbd20009d",
+      "title": "Studying the Convergence of Toxic Dust, Lung Disease, and Environmental Injustice Around California’s Salton Sea - UConn Today",
+      "description": "Studying the Convergence of Toxic Dust, Lung Disease, and Environmental Injustice Around California’s Salton Sea UConn Today",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaVVDRXNVelJKR0FCTjFFbXVuLTVuNmFlSFZMSXJ6bHh4dC01N3htakZ2bkdSX2ZkMjMza1M1WF9tTkZDUm5YNmtaallLTHRpd0FoMUVNTzROZld3YlQ4ZmFkZHI3WGJFb3BJOUo2OGpOZ0JfSmtJdm5CdnRnREZUMWNqWmRxSTBrUkZaWmRKWnlySTVSN0Y0RlcycnBYVm4zRWc2ZFFhczRQYXd3ZGlPR1NtUkc5ajZ5RWMxdmlya0lrSzZFWUtaUmU0MFdvdEZwVjlwS0hyd005UQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaVVDRXNVelJKR0FCTjFFbXVuLTVuNmFlSFZMSXJ6bHh4dC01N3htakZ2bkdSX2ZkMjMza1M1WF9tTkZDUm5YNmtaallLTHRpd0FoMUVNTzROZld3YlQ4ZmFkZHI3WGJFb3BJOUo2OGpOZ0JfSmtJdm5CdnRnREZUMWNqWmRxSTBrUkZaWmRKWnlySTVSN0Y0RlcycnBYVm4zRWc2ZFFhczRQYXd3ZGlPR1NtUkc5ajZ5RWMxdmlya0lrSzZFWUtaUmU0MFdvdEZwVjlwS0hyd005UQ?oc=5",
+      "source": "UConn Today",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T13:04:40Z"
+    },
+    {
+      "id": "9521cd6f8ca5b38bd4c6",
+      "title": "Aaditya Thackeray Slams Centre Over Pollution Crisis; Demands PM-Led ‘Council Of Climate Change’ - Ommcom News",
+      "description": "Aaditya Thackeray Slams Centre Over Pollution Crisis; Demands PM-Led ‘Council Of Climate Change’ Ommcom News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUkx5R3pQN3FHYVd1Q0xSQ2dxRjhMaTNfRlUxX1lRYmhQTjZYWWYtRWVlekd5ZjM1bGVadWlwOFVwcWJWZlFZYXhud3NFal8ySzVnYUx0VmYxN1FYYjVlUHoxaU01dGxxSUxIUHNCbmNIY1dsQVYzTkdJRXFhcnpVaHYwVl8yRE0xME84ZlNZTnQ5d3VPVjJua0hmTEl2SlEwa25WWmdndU9TWkFDOHdhUWdJVWdES3NYd2Jockp3THo1eHp1Z1A4?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUkx5R3pQN3FHYVd1Q0xSQ2dxRjhMaTNfRlUxX1lRYmhQTjZYWWYtRWVlekd5ZjM1bGVadWlwOFVwcWJWZlFZYXhud3NFal8ySzVnYUx0VmYxN1FYYjVlUHoxaU01dGxxSUxIUHNCbmNIY1dsQVYzTkdJRXFhcnpVaHYwVl8yRE0xME84ZlNZTnQ5d3VPVjJua0hmTEl2SlEwa25WWmdndU9TWkFDOHdhUWdJVWdES3NYd2Jockp3THo1eHp1Z1A4?oc=5",
+      "source": "Ommcom News",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T12:51:14Z"
+    },
+    {
+      "id": "f95e0b51bd928dd1c22b",
+      "title": "Rein Entertainment's \"LAYA\" premiered at the Women and the World International Film Festival 2026 in London last November 7, and lead actress Andrea Brillantes graced the red carpet and screening. \"LAYA\" stars Andrea, JC Santos, and Anthony Jennings, - Facebook",
+      "description": "Rein Entertainment's \"LAYA\" premiered at the Women and the World International Film Festival 2026 in London last November 7, and lead actress Andrea Brillantes graced the red carpet and screening. \"LAYA\" stars Andrea, JC Santos, and Anthony Jennings, Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPanl2ZDk5c1RsVVgtVjFYdjZNS2VoLV95eGxDTDZjRTN3dy1KNWM2UkNZdHI1S1VrMTBlTWtnOUFNcjBud0QtTDIwalROc0VQWHY3SWRXcy01ZWlHRDR6RHlrNlowWElHQzJPWkRWMlZMa1ZjaFNFMTROUDNqTTNQaUlITnRNamxvS0xKNjhXYU5KY0tOd3QyVmtTcmlaN3JOUGR6X1NxQUFzQzdFeGsyaU5OVVBERExidm8tbFYxREJXWG5TTmYxR2I5dHNwR1h1TkRxTjRSSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPanl2ZDk5c1RsVVgtVjFYdjZNS2VoLV95eGxDTDZjRTN3dy1KNWM2UkNZdHI1S1VrMTBlTWtnOUFNcjBud0QtTDIwalROc0VQWHY3SWRXcy01ZWlHRDR6RHlrNlowWElHQzJPWkRWMlZMa1ZjaFNFMTROUDNqTTNQaUlITnRNamxvS0xKNjhXYU5KY0tOd3QyVmtTcmlaN3JOUGR6X1NxQUFzQzdFeGsyaU5OVVBERExidm8tbFYxREJXWG5TTmYxR2I5dHNwR1h1TkRxTjRSSQ?oc=5",
+      "source": "Facebook",
+      "category": "World",
+      "publishedAt": "2026-11-12T12:42:53Z"
+    },
+    {
+      "id": "2577dedc5b1fd2c232b6",
+      "title": "Scottish Sailor Dominates at International Moth Lowrider World Championship 2026 in Australia - Sail-World.com",
+      "description": "Scottish Sailor Dominates at International Moth Lowrider World Championship 2026 in Australia Sail-World.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbnpNTXp1OGdsRmswb194dDZhMXVOMlctVXlGVzIzTjNZYUlwUmxDaDJBTWp1aTBndHRHcnJfNkthMHFrTGZjZmhpdVdqc3ZZYzQ1akx5bjRBNHlISkI1UGE5cU5vS3FiZ2Rxck5QSlE2d2tRN2dPcGFlSENEd0ZKazdPQzM3c0U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbnpNTXp1OGdsRmswb194dDZhMXVOMlctVXlGVzIzTjNZYUlwUmxDaDJBTWp1aTBndHRHcnJfNkthMHFrTGZjZmhpdVdqc3ZZYzQ1akx5bjRBNHlISkI1UGE5cU5vS3FiZ2Rxck5QSlE2d2tRN2dPcGFlSENEd0ZKazdPQzM3c0U?oc=5",
+      "source": "Sail-World.com",
+      "category": "World",
+      "publishedAt": "2026-11-12T12:20:00Z"
+    },
+    {
+      "id": "5f7886dc1c7d56b164c2",
+      "title": "AFG International Company unveils “AFG Retail” to replace Cenomi Retail - Trend News Agency",
+      "description": "AFG International Company unveils “AFG Retail” to replace Cenomi Retail Trend News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBaS3hQQlV4d0dOaUtEZTVBc0FCSll0S29IUzZDT2hJOVZ3QmFXSl9KanpVNWFhRDdiUkYxNmRyeUNTb0dqaUdVcElSazVpM1g2?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBaS3hQQlV4d0dOaUtEZTVBc0FCSll0S29IUzZDT2hJOVZ3QmFXSl9KanpVNWFhRDdiUkYxNmRyeUNTb0dqaUdVcElSazVpM1g2?oc=5",
+      "source": "Trend News Agency",
+      "category": "World",
+      "publishedAt": "2026-11-12T11:04:22Z"
+    },
+    {
+      "id": "26ca620482f986691925",
+      "title": "School assembly news headlines for 13th November, 2026: Top Indian, International, Sports and Business news - Education Times",
+      "description": "School assembly news headlines for 13th November, 2026: Top Indian, International, Sports and Business news Education Times",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPS01qaGNKUU8xMUxvMHNNeDBYRUt5aTBvMEVTT09BSk95YlZnZFdnZk9RcGNxVGNkalBxTDZSMG51ZlItR1VrOUFHQlR1Mm5ZdjhCdjl2YVltT2ZuRTk3a0IzYUxPSW5tUWR2Sm1yb01vVEhWa1ctNjFjbFR2dXQtRF9qQnF4STZSbWNCRmRCSTJHY1JkcUNWaHMxY1Bnd2draUxOckhUV3NObEtONXhNcW5RdHF4aG44VXgxaHlTenNqZ2JWWlFfQkpmTHBNY3M0RF9ZVGpCQU85Yy1qcnVtRlFyTkNNdjRfYlhqUnlhUTZMc2R2UE9xTQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPS01qaGNKUU8xMUxvMHNNeDBYRUt5aTBvMEVTT09BSk95YlZnZFdnZk9RcGNxVGNkalBxTDZSMG51ZlItR1VrOUFHQlR1Mm5ZdjhCdjl2YVltT2ZuRTk3a0IzYUxPSW5tUWR2Sm1yb01vVEhWa1ctNjFjbFR2dXQtRF9qQnF4STZSbWNCRmRCSTJHY1JkcUNWaHMxY1Bnd2draUxOckhUV3NObEtONXhNcW5RdHF4aG44VXgxaHlTenNqZ2JWWlFfQkpmTHBNY3M0RF9ZVGpCQU85Yy1qcnVtRlFyTkNNdjRfYlhqUnlhUTZMc2R2UE9xTQ?oc=5",
+      "source": "Education Times",
+      "category": "World",
+      "publishedAt": "2026-11-12T10:58:00Z"
+    },
+    {
+      "id": "9074c211c4278db985af",
+      "title": "Msheireb Properties concludes Qatar Sustainability Week 2026 participation with a focus on smart city innovation - Doha News",
+      "description": "Msheireb Properties concludes Qatar Sustainability Week 2026 participation with a focus on smart city innovation Doha News",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeTVSMC1yWjB3alpibTRrMG1GWUEtQUZYMXNXdU5uLUQzYnRERU5WbjdES2JiMEsxRmZjWUZZNEx3V0pHZmJvYWNSQ2J1aEJwNWNfalJOWllpYllmY2ZQZUlMNFhpMG1TRk9WZU43UFAzY3BwWTlQWGM5ODVNcFJSY2RRX3BNQ0wyVmRTdW9CZEN5TzA0eHpsSkpzV0FqTWJQWlNCOUF4Rlh0Q1dEZUxqWnZ2NXdZLUtiS0MyYjZJRVg5NHA5Y3hrZk1YWlR0dw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeTVSMC1yWjB3alpibTRrMG1GWUEtQUZYMXNXdU5uLUQzYnRERU5WbjdES2JiMEsxRmZjWUZZNEx3V0pHZmJvYWNSQ2J1aEJwNWNfalJOWllpYllmY2ZQZUlMNFhpMG1TRk9WZU43UFAzY3BwWTlQWGM5ODVNcFJSY2RRX3BNQ0wyVmRTdW9CZEN5TzA0eHpsSkpzV0FqTWJQWlNCOUF4Rlh0Q1dEZUxqWnZ2NXdZLUtiS0MyYjZJRVg5NHA5Y3hrZk1YWlR0dw?oc=5",
+      "source": "Doha News",
+      "category": "Technology",
+      "publishedAt": "2026-11-12T10:45:27Z"
+    },
+    {
+      "id": "7904662be63524777418",
+      "title": "Energy, PFAS and Knowles-Nelson on the environmental agenda as Democrats take control - Wisconsin Examiner",
+      "description": "Energy, PFAS and Knowles-Nelson on the environmental agenda as Democrats take control Wisconsin Examiner",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYk5lTFRBUUFSUVhNVUozRmhBTXVtUUw4dWRwVHdvU19KbGdCaWdDa0hyMmtxZXI1M01YdFR1T3p2ekh2MXJ6MVZ4Skp6elpHYXlMSGhfT055OXF5cDhaMFRUMktaRmdORVg5aTJTb25vUkxfUjNZT0RaWDYybUNiak5yTGx2MTdSSnFMaXpWRmVOeVhYMklwRldvM1MtbVpNUFVNUGhnOGpvcXY5WGxPR3RjQ2VWRTdCLWQ5S2htSXF0T3lK?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYk5lTFRBUUFSUVhNVUozRmhBTXVtUUw4dWRwVHdvU19KbGdCaWdDa0hyMmtxZXI1M01YdFR1T3p2ekh2MXJ6MVZ4Skp6elpHYXlMSGhfT055OXF5cDhaMFRUMktaRmdORVg5aTJTb25vUkxfUjNZT0RaWDYybUNiak5yTGx2MTdSSnFMaXpWRmVOeVhYMklwRldvM1MtbVpNUFVNUGhnOGpvcXY5WGxPR3RjQ2VWRTdCLWQ5S2htSXF0T3lK?oc=5",
+      "source": "Wisconsin Examiner",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T09:48:15Z"
+    },
+    {
+      "id": "b9a4e0f762bfc4118a29",
+      "title": "Students apply AI in environmental protection initiatives. - Vietnam.vn",
+      "description": "Students apply AI in environmental protection initiatives. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcWJXOEtWcXNoWTZKUVU1aEFSX1VtZVBXMllvUkttWnh4WE1lV0lYMU5rRVVhdkdLNktLNldrelozdDBWOE5GMUd3S1p2MTFGeHF5MGJrWHhTNzlQcnJkWXJrZnJHY2FTX1d0ZHBWVVFKY0paYWVNMTRhWnBwODZZbnB5aVY2d3kxdWZ5MzhR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcWJXOEtWcXNoWTZKUVU1aEFSX1VtZVBXMllvUkttWnh4WE1lV0lYMU5rRVVhdkdLNktLNldrelozdDBWOE5GMUd3S1p2MTFGeHF5MGJrWHhTNzlQcnJkWXJrZnJHY2FTX1d0ZHBWVVFKY0paYWVNMTRhWnBwODZZbnB5aVY2d3kxdWZ5MzhR?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T09:43:16Z"
+    },
+    {
+      "id": "a65ec59d21d8faece8c9",
+      "title": "Enzo Balanger is 2026 International Moth World Champion - Sailweb",
+      "description": "Enzo Balanger is 2026 International Moth World Champion Sailweb",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdS0zVEkyN1BpT0ZPNGh1NEN2OHZsSUhQdE9ORmI4S0dXUkFyakJMeC1tQ1BjOGRTa0djLVdQcWZMSUdQZm1iRXMxMFA4UEJkVEplSC1JMnVraFZpQ3duNk9qOHRzZWNfMlo2b3pBTm1sNzA0bUF3SGs0OFByYW1nTEVFTmtvaXdZNk9mcXhnRTRHSEloUnU0cQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdS0zVEkyN1BpT0ZPNGh1NEN2OHZsSUhQdE9ORmI4S0dXUkFyakJMeC1tQ1BjOGRTa0djLVdQcWZMSUdQZm1iRXMxMFA4UEJkVEplSC1JMnVraFZpQ3duNk9qOHRzZWNfMlo2b3pBTm1sNzA0bUF3SGs0OFByYW1nTEVFTmtvaXdZNk9mcXhnRTRHSEloUnU0cQ?oc=5",
+      "source": "Sailweb",
+      "category": "World",
+      "publishedAt": "2026-11-12T08:19:54Z"
+    },
+    {
+      "id": "2192d9299f02264b196e",
+      "title": "AMERICA’S CUP STARS DOMINATE INTERNATIONAL MOTH WORLD CHAMPIONSHIPS IN PERTH - Louis Vuitton 38th America’s Cup",
+      "description": "AMERICA’S CUP STARS DOMINATE INTERNATIONAL MOTH WORLD CHAMPIONSHIPS IN PERTH Louis Vuitton 38th America’s Cup",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUjVjd2Uta01vam5uWDZVODNUV0twUGxxY1VwajNka2xzbk9URWZwTkkyS1J3c2dDbHN5RnpvcmFLcHpPell0cTZEMHNyMmVKaUcxX0xISnB0d0hkOTE5ZzB4WXJhY1JTY0VKSEFMMkZOMXAtc055cWV2WFhBVHJmS29SNHEwVzF2ZGU0TEVJQl9sSjB4SUhQVS11N3dPZDN5QktUR1RCRzFxZmM3b0VoRkprSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUjVjd2Uta01vam5uWDZVODNUV0twUGxxY1VwajNka2xzbk9URWZwTkkyS1J3c2dDbHN5RnpvcmFLcHpPell0cTZEMHNyMmVKaUcxX0xISnB0d0hkOTE5ZzB4WXJhY1JTY0VKSEFMMkZOMXAtc055cWV2WFhBVHJmS29SNHEwVzF2ZGU0TEVJQl9sSjB4SUhQVS11N3dPZDN5QktUR1RCRzFxZmM3b0VoRkprSQ?oc=5",
+      "source": "Louis Vuitton 38th America’s Cup",
+      "category": "World",
+      "publishedAt": "2026-11-12T07:38:00Z"
+    },
     {
       "id": "a703d0b1a7bd2bd3e9de",
       "title": "UN climate change summit puts Türkiye at center of international diplomacy: Communications director - A News",
@@ -339,6 +550,16 @@
       "publishedAt": "2026-11-12T05:54:42Z"
     },
     {
+      "id": "ab7600592c46cca5ba19",
+      "title": "Super 16 Power Rankings go international to celebrate Global Series - NHL.com",
+      "description": "Super 16 Power Rankings go international to celebrate Global Series NHL.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeTQ5aTc4a191WjBHa0JRaWVYdXZ0RjhhTWR4RkdwTHI2MlVmYTZQODVuMWFMeWtZSy1WcnQ1bDA2blMtbHkwalVHdDg5czdzUXRoWElwbGM5Y21GaWRyVUpneHVJZGE1NWlqTnVEdlFGY3hwZzNvYV9BbXFMZ2JWWUpLcElTN0dMM3NiVw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeTQ5aTc4a191WjBHa0JRaWVYdXZ0RjhhTWR4RkdwTHI2MlVmYTZQODVuMWFMeWtZSy1WcnQ1bDA2blMtbHkwalVHdDg5czdzUXRoWElwbGM5Y21GaWRyVUpneHVJZGE1NWlqTnVEdlFGY3hwZzNvYV9BbXFMZ2JWWUpLcElTN0dMM3NiVw?oc=5",
+      "source": "NHL.com",
+      "category": "World",
+      "publishedAt": "2026-11-12T04:48:59Z"
+    },
+    {
       "id": "b6d4a806505507c3d5c1",
       "title": "Vietnamese and Japanese businesses promote cooperation in innovation. - Vietnam.vn",
       "description": "Vietnamese and Japanese businesses promote cooperation in innovation. Vietnam.vn",
@@ -347,6 +568,16 @@
       "source": "Vietnam.vn",
       "category": "Technology",
       "publishedAt": "2026-11-12T04:26:10Z"
+    },
+    {
+      "id": "7e0828ed1de63fc444c3",
+      "title": "5 years of fighting climate change haven't done much and stronger targets are needed, report says - KVUE",
+      "description": "5 years of fighting climate change haven't done much and stronger targets are needed, report says KVUE",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQMEQ3SGRnbjY4dDlNQ2dTMm1zMVlTdEl1dTJMSkdDVkVhdXNPZEw3VTlFSU1zZGcyRWJkVnB6dWpTZUMya3Y1NWlZU0V5ZXUzYlVkNV9CN1V3WDNSWEhMYXJOZFpHQ3JHUGlJejhmMkJ3cVBKcGJOTFRRNHEzdEZZZmphc2VTTzNHTmp2R01vQVAwRlVUaFMwUEJNa3ZBY3JVLWdBQUZJdC11b28xWHBjT0tsOWhNTGNBUW94cHAwelNDOUFBWDlYYWdobUVaT0NTUDBfcjl1RzJiMDBEbUI5ZmtITmVuY2xHZXdjdWVRa0VLR3NGaS1WLXZiUlBMTWpIVmZ5MGZLVGJHeDF0Q3hlV1d3Y2YzWk1GY3hZVTRR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQMEQ3SGRnbjY4dDlNQ2dTMm1zMVlTdEl1dTJMSkdDVkVhdXNPZEw3VTlFSU1zZGcyRWJkVnB6dWpTZUMya3Y1NWlZU0V5ZXUzYlVkNV9CN1V3WDNSWEhMYXJOZFpHQ3JHUGlJejhmMkJ3cVBKcGJOTFRRNHEzdEZZZmphc2VTTzNHTmp2R01vQVAwRlVUaFMwUEJNa3ZBY3JVLWdBQUZJdC11b28xWHBjT0tsOWhNTGNBUW94cHAwelNDOUFBWDlYYWdobUVaT0NTUDBfcjl1RzJiMDBEbUI5ZmtITmVuY2xHZXdjdWVRa0VLR3NGaS1WLXZiUlBMTWpIVmZ5MGZLVGJHeDF0Q3hlV1d3Y2YzWk1GY3hZVTRR?oc=5",
+      "source": "KVUE",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T04:11:57Z"
     },
     {
       "id": "a3b5a7b4cddc2b789a40",
@@ -999,6 +1230,16 @@
       "publishedAt": "2026-11-09T13:26:20Z"
     },
     {
+      "id": "a5c246dcc64f1cde410d",
+      "title": "Gauteng Braces for Intense Heatwave After Severe Storms - Joburg ETC",
+      "description": "Gauteng Braces for Intense Heatwave After Severe Storms Joburg ETC",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TV1Jrcnc3WjljNzdaNWZad2Rkc2xUYkozNEJWZkt3bzBIdzdmWEpZQTRRNU8tcWl1QmNEdVlRTWZRVU96SnZmQ05lR2gzSmJJbFNBRXNxWmVJUWk5WVhXU0s2aWhTLURqUjdSalFOZmZCcFk1Q1NDV3hR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TV1Jrcnc3WjljNzdaNWZad2Rkc2xUYkozNEJWZkt3bzBIdzdmWEpZQTRRNU8tcWl1QmNEdVlRTWZRVU96SnZmQ05lR2gzSmJJbFNBRXNxWmVJUWk5WVhXU0s2aWhTLURqUjdSalFOZmZCcFk1Q1NDV3hR?oc=5",
+      "source": "Joburg ETC",
+      "category": "Disaster",
+      "publishedAt": "2026-11-09T12:30:57Z"
+    },
+    {
       "id": "59d6a40414c108ff8c9a",
       "title": "How the smart cities mission is reshaping Uttar Pradesh's urban landscape - India Today",
       "description": "How the smart cities mission is reshaping Uttar Pradesh's urban landscape India Today",
@@ -1087,28 +1328,8 @@
       "source": "European Environment Agency (EEA)",
       "category": "Disaster",
       "publishedAt": "2026-11-05T17:31:38Z"
-    },
-    {
-      "id": "da95e35982ec704cbdfe",
-      "title": "Friday’s weather: Thunderstorms, hail and flood warning for 5 provinces - News24",
-      "description": "Friday’s weather: Thunderstorms, hail and flood warning for 5 provinces News24",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMEp0NWN0d1hwWGNFbHlRVDNGSHVhQ1NEWkRranFaNXRUZWpPZUUtLWMxeWFSbU5FOTBISmw5cnl6amhrNHEwYkFmNzBscWZMUVlhYWVOOUpQRk9xSDQ4Ql9FOU5menR0cXdkSUR6cXNadU1xeXR5UmRxMHpvZUwyMjFKckhFRXBTajNRYk5wX3RINjdBOFZXQjlmeUpmWThGTWo0QXJWaDAyc2JGYm53c3VMeGFNUXZzal9vbU02d2hpYnc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMEp0NWN0d1hwWGNFbHlRVDNGSHVhQ1NEWkRranFaNXRUZWpPZUUtLWMxeWFSbU5FOTBISmw5cnl6amhrNHEwYkFmNzBscWZMUVlhYWVOOUpQRk9xSDQ4Ql9FOU5menR0cXdkSUR6cXNadU1xeXR5UmRxMHpvZUwyMjFKckhFRXBTajNRYk5wX3RINjdBOFZXQjlmeUpmWThGTWo0QXJWaDAyc2JGYm53c3VMeGFNUXZzal9vbU02d2hpYnc?oc=5",
-      "source": "News24",
-      "category": "Disaster",
-      "publishedAt": "2026-11-05T16:36:50Z"
-    },
-    {
-      "id": "78ddca879c4c57f133ef",
-      "title": "White House Watch: Tracking Attacks on Our Environment & Health - NRDC",
-      "description": "White House Watch: Tracking Attacks on Our Environment & Health NRDC",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeXRXT1ZGdUF0S2NRNkhWR0cyRjBreExxaWtDMDdvUEZ6RTdSUTBwaTRyQWxaTVVMTTlUaS1nREJvMlVGM2RsX1d3U19nT3h0MG8xeDZlVUR5ZWZPYlVGeWpQRjZKVU54Sm96MjZ3MGFXYk00ZC1vZUk3WmVSS3FkTVpkM2RJRE0zQ1BaYVNiVDZUUQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeXRXT1ZGdUF0S2NRNkhWR0cyRjBreExxaWtDMDdvUEZ6RTdSUTBwaTRyQWxaTVVMTTlUaS1nREJvMlVGM2RsX1d3U19nT3h0MG8xeDZlVUR5ZWZPYlVGeWpQRjZKVU54Sm96MjZ3MGFXYk00ZC1vZUk3WmVSS3FkTVpkM2RJRE0zQ1BaYVNiVDZUUQ?oc=5",
-      "source": "NRDC",
-      "category": "Environment",
-      "publishedAt": "2026-11-05T12:00:00Z"
     }
   ],
-  "lastUpdated": "2026-11-12T08:11:20Z",
-  "updatedAt": "2026-11-12T08:11:20Z"
+  "lastUpdated": "2026-11-12T16:59:55Z",
+  "updatedAt": "2026-11-12T16:59:55Z"
 }
