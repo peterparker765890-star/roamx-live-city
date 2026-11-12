@@ -3,1333 +3,894 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#0b0c10">
-<meta name="description" content="ROAMX Eco Intelligence — Explore global air quality, pollution levels, environmental risks and forecasts.">
-<title>Eco Intelligence | ROAMX</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-
+<meta name="theme-color" content="#090b0d">
+<title>ROAMX | Eco Intelligence</title>
 <style>
 :root{
-  color-scheme:dark;
-  --bg:#0b0c10;
-  --panel:#14171d;
-  --panel2:#191d24;
-  --line:rgba(224,208,174,.14);
-  --gold:#d7bd86;
-  --gold2:#ead6a9;
-  --text:#f3f0e9;
-  --muted:#a7a49d;
-  --green:#8ec7a5;
-  --red:#e58d86;
-  --blue:#9db9d6;
-  --radius:20px;
-  --max:1220px;
+  --bg:#080a0c;--panel:#111518;--panel2:#151b1e;
+  --gold:#e8bd68;--gold2:#f5d995;--text:#f1f2ed;
+  --muted:#9ba5a4;--line:#28302f;--green:#70d6a0;
+  --red:#ff7777;--orange:#ffb36b;--blue:#79c9e8;
 }
-
-*{box-sizing:border-box;margin:0;padding:0}
-
-html{scroll-behavior:smooth;scroll-padding-top:100px}
-
+*{box-sizing:border-box}
 body{
-  background:
-  radial-gradient(ellipse at 10% 0%,rgba(190,160,104,.09),transparent 35%),
-  radial-gradient(ellipse at 90% 30%,rgba(107,130,151,.07),transparent 30%),
-  var(--bg);
-  color:var(--text);
-  font-family:"DM Sans",sans-serif;
-  line-height:1.65;
-  min-height:100vh;
+  margin:0;background:var(--bg);color:var(--text);
+  font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.55;
 }
-
-button,input{font:inherit}
+button,input,select{font:inherit}
 button{cursor:pointer}
 a{color:inherit;text-decoration:none}
-button:focus-visible,a:focus-visible,input:focus-visible{
-  outline:2px solid var(--gold2);outline-offset:3px
-}
-
-.shell{width:min(var(--max),calc(100% - 44px));margin:auto}
-
-.topline{
-  height:3px;
-  background:linear-gradient(90deg,transparent,var(--gold),#f0e0bd,var(--gold),transparent)
-}
-
 header{
-  position:sticky;top:0;z-index:100;
-  background:rgba(11,12,16,.92);
-  backdrop-filter:blur(18px);
-  border-bottom:1px solid var(--line)
+  position:sticky;top:0;z-index:10;background:#090b0df2;
+  backdrop-filter:blur(14px);border-bottom:1px solid var(--line);
 }
-
 .nav{
-  min-height:78px;display:flex;align-items:center;
-  justify-content:space-between;gap:20px
+  max-width:1250px;margin:auto;padding:15px 5%;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
 }
-
-.brand{display:flex;align-items:center;gap:12px}
-
-.brand-mark{
-  width:39px;height:39px;display:grid;place-items:center;
-  border:1px solid rgba(215,189,134,.6);
-  border-radius:12px;color:var(--gold2);
-  font:800 20px Manrope;background:rgba(215,189,134,.07)
+.logo{font-size:22px;font-weight:900;letter-spacing:3px}
+.logo span{color:var(--gold)}
+.navlinks{display:flex;gap:20px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.navlinks a:hover{color:var(--gold)}
+.lang{
+  background:#171c1e;border:1px solid var(--line);color:var(--gold);
+  border-radius:9px;padding:8px 10px;
 }
-
-.brand-name{font:800 23px Manrope;letter-spacing:.19em}
-.brand-name span{color:var(--gold)}
-.brand-caption{display:block;color:#777;font-size:8px;letter-spacing:.2em}
-
-.nav-links{display:flex;align-items:center;gap:25px}
-.nav-links a{
-  font-size:10px;font-weight:800;letter-spacing:.09em;
-  text-transform:uppercase;color:#b8b6b0
-}
-.nav-links a:hover,.nav-links .active{color:var(--gold2)}
-
-.menu{
-  display:none;background:var(--panel);color:white;
-  border:1px solid var(--line);border-radius:10px;padding:9px 13px
-}
-
-.hero{padding:49px 0 30px}
-
-.hero-box{
-  position:relative;overflow:hidden;
-  padding:clamp(28px,5vw,55px);
-  border:1px solid var(--line-strong,var(--line));
-  border-radius:27px;
-  background:
-  radial-gradient(circle at 85% 15%,rgba(215,189,134,.14),transparent 30%),
-  linear-gradient(110deg,#111318,#1a1b1c);
-}
-
-.hero-box:after{
-  content:"ECO";position:absolute;right:2%;bottom:-35px;
-  font:800 clamp(100px,20vw,240px) Manrope;
-  color:rgba(215,189,134,.035);pointer-events:none
-}
-
-.eyebrow{
-  color:var(--gold);font-size:9px;font-weight:800;
-  letter-spacing:.23em;text-transform:uppercase
-}
-
-.hero h1{
-  position:relative;z-index:1;margin-top:19px;
-  font:600 clamp(39px,6vw,68px)/1.08 "Playfair Display",serif;
-  max-width:800px
-}
-
-.hero h1 em{font-style:normal;color:var(--gold2)}
-
-.hero p{
-  max-width:650px;margin-top:18px;color:#b4b2ad;
-  font-size:13px;line-height:1.9
-}
-
-.hero-note{
-  margin-top:25px;display:flex;flex-wrap:wrap;
-  align-items:center;gap:12px;font-size:10px;color:var(--muted)
-}
-
-.live-dot{
-  display:inline-block;width:7px;height:7px;
-  border-radius:50%;background:var(--green);
-  box-shadow:0 0 12px var(--green)
-}
-
-.btn{
-  display:inline-flex;align-items:center;justify-content:center;
-  gap:8px;padding:11px 17px;border-radius:999px;
-  font-size:10px;font-weight:800;letter-spacing:.07em;
-  border:1px solid var(--line-strong,var(--line));
-  transition:.2s
-}
-
-.btn-gold{background:var(--gold2);color:#17150f;border-color:var(--gold2)}
-.btn-outline{background:transparent;color:var(--text)}
-.btn:hover{transform:translateY(-2px);border-color:var(--gold)}
-
-.section{padding:30px 0}
-
-.section-head{
-  display:flex;align-items:end;justify-content:space-between;
-  gap:18px;margin-bottom:22px
-}
-
-.section-head h2{
-  margin-top:7px;font:600 clamp(24px,3vw,32px) "Playfair Display",serif
-}
-
-.section-head p{color:var(--muted);font-size:11px;margin-top:6px}
-
+main{max-width:1250px;margin:auto;padding:35px 5% 65px}
+.eyebrow{color:var(--gold);font-size:11px;letter-spacing:3px;font-weight:800}
+h1{font-size:clamp(32px,5vw,55px);line-height:1.08;margin:12px 0}
+h1 span{color:var(--gold)}
+h2{font-size:23px;margin:0 0 8px}
+h3{font-size:16px;margin:0 0 7px}
+p{color:var(--muted);margin:7px 0}
+.hero{padding:30px 0 25px}
+.hero p{max-width:700px}
 .panel{
-  padding:23px;border:1px solid var(--line);
-  border-radius:var(--radius);
-  background:linear-gradient(145deg,#191d24,#121419)
+  background:linear-gradient(145deg,#141a1d,#0e1214);
+  border:1px solid var(--line);border-radius:17px;padding:22px;
 }
-
-.search-layout{
-  display:grid;grid-template-columns:1fr auto;gap:12px
+.section{margin-top:30px}
+.section-head{margin-bottom:15px}
+.section-head p{font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.locationbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+input,select{
+  min-width:0;background:#090d0f;border:1px solid #35403e;
+  border-radius:10px;color:var(--text);padding:13px;
 }
-
-.search-box{
-  display:flex;align-items:center;gap:10px;
-  padding:5px 13px;border:1px solid var(--line);
-  background:#0f1116;border-radius:13px
+.locationbar input{flex:1;min-width:190px}
+.btn{
+  border:1px solid var(--gold);background:var(--gold);color:#17130a;
+  padding:12px 17px;border-radius:10px;font-weight:800;
 }
-
-.search-box input{
-  width:100%;padding:11px 0;background:none;
-  border:0;outline:none;color:white;font-size:12px
+.btn:hover{background:var(--gold2)}
+.btn.secondary{background:#171d1f;color:var(--gold);border-color:#3c4643}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.smallbtn{padding:9px 12px;font-size:12px}
+.status{font-size:12px;color:var(--muted);margin-top:12px}
+.location-name{font-size:19px;font-weight:800;margin-top:8px}
+.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
+.stat{background:#0a0e10;border:1px solid var(--line);padding:13px;border-radius:12px}
+.stat strong{display:block;font-size:21px;color:var(--gold)}
+.stat small{color:var(--muted);font-size:11px}
+.aqi-layout{display:grid;grid-template-columns:190px 1fr;gap:22px;align-items:center}
+.aqi-circle{
+  width:165px;height:165px;border-radius:50%;margin:auto;
+  border:8px solid var(--gold);display:flex;flex-direction:column;
+  align-items:center;justify-content:center;background:#0a0e10;
 }
-
-.search-box input::placeholder{color:#777}
-
-.search-results{
-  position:absolute;z-index:20;left:0;right:0;top:100%;
-  margin-top:5px;background:#1c2027;
-  border:1px solid var(--line);border-radius:12px;
-  overflow:hidden;box-shadow:0 15px 40px #0009
+.aqi-circle strong{font-size:48px;line-height:1}
+.aqi-circle span{font-size:11px;color:var(--muted)}
+.pill{
+  display:inline-block;padding:5px 10px;border-radius:30px;
+  font-size:11px;font-weight:800;background:#262c2b;color:var(--gold);
 }
-
-.search-wrap{position:relative}
-
-.search-result{
-  display:block;width:100%;text-align:left;
-  padding:12px 15px;border:0;border-bottom:1px solid var(--line);
-  background:transparent;color:white;font-size:11px
-}
-.search-result:hover{background:#292c32}
-.search-result small{display:block;color:var(--muted)}
-
-.location-status{
-  margin-top:12px;font-size:10px;color:var(--muted)
-}
-
-.location-status.error{color:var(--red)}
-
-.dashboard{
-  display:grid;grid-template-columns:1.05fr 1.95fr;
-  gap:15px
-}
-
-.aqi-panel{
-  min-height:315px;display:flex;flex-direction:column;
-  justify-content:space-between
-}
-
-.aqi-top{display:flex;justify-content:space-between;gap:10px}
-
-.aqi-number{
-  font:700 clamp(58px,8vw,85px)/1 Manrope;
-  letter-spacing:-.07em;margin-top:19px;
-  font-variant-numeric:tabular-nums
-}
-
-.aqi-label{font-size:12px;color:var(--muted);margin-top:10px}
-
-.aqi-category{
-  display:inline-block;margin-top:13px;padding:6px 11px;
-  border-radius:30px;font-size:9px;font-weight:800;
-  letter-spacing:.1em;text-transform:uppercase
-}
-
-.category-good{background:#254b35;color:#a3e2b7}
-.category-moderate{background:#62511d;color:#f4d77f}
-.category-sensitive{background:#64401f;color:#f2b47e}
-.category-unhealthy{background:#632b32;color:#ffabb1}
-.category-very{background:#59335e;color:#e8b9f0}
-.category-hazardous{background:#622820;color:#ffb1a2}
-
-.aqi-meter{
-  height:8px;border-radius:10px;margin-top:24px;
-  background:linear-gradient(90deg,#63b88b 0%,#d8d06e 25%,#e99a53 50%,#df6666 75%,#a75a91 90%,#792d2d 100%);
-  position:relative
-}
-
-.aqi-marker{
-  position:absolute;top:-5px;left:0;
-  width:4px;height:18px;background:white;
-  border:1px solid #111;border-radius:3px;
-  transition:left .5s
-}
-
-.aqi-scale{
-  display:flex;justify-content:space-between;
-  margin-top:9px;color:#777;font-size:8px
-}
-
-.aqi-foot{
-  margin-top:20px;color:var(--muted);font-size:10px;
-  display:flex;justify-content:space-between;gap:10px
-}
-
-.metrics{
-  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:12px
-}
-
-.metric{
-  padding:19px;border:1px solid var(--line);
-  border-radius:15px;background:#111419;
-  min-height:145px
-}
-
-.metric-symbol{color:var(--gold);font:700 11px Manrope;letter-spacing:.1em}
-.metric h3{font-size:11px;margin-top:14px}
-.metric-value{font:700 25px Manrope;margin-top:5px}
-.metric-unit{font-size:9px;color:var(--muted)}
-.metric-desc{font-size:9px;color:#777;margin-top:6px}
-
-.chart-panel{margin-top:15px}
-
-.chart{
-  display:grid;grid-template-columns:repeat(12,minmax(0,1fr));
-  align-items:end;gap:8px;height:170px;margin-top:20px
-}
-
-.chart-column{
-  height:100%;display:flex;flex-direction:column;
-  justify-content:end;align-items:center;gap:8px
-}
-
-.chart-bar{
-  width:100%;max-width:34px;min-height:4px;
-  background:linear-gradient(180deg,#ead6a9,#a98c54);
-  border-radius:5px 5px 2px 2px;
-  transition:height .4s
-}
-
-.chart-time{font-size:8px;color:#888;white-space:nowrap}
-.chart-value{font-size:8px;color:var(--gold2)}
-
-.chart-legend{color:var(--muted);font-size:9px;margin-top:14px}
-
-.pollutant-grid{
-  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px
-}
-
+.good{color:#79dda5}.moderate{color:#f0d36c}.poor{color:#ffae69}
+.bad{color:#ff7777}
 .pollutant{
-  padding:18px;border:1px solid var(--line);
-  border-radius:15px;background:#15181e
+  background:#0b1012;border:1px solid var(--line);
+  border-radius:12px;padding:14px;
 }
-
-.pollutant h3{font:700 12px Manrope}
-.pollutant strong{display:block;font:700 24px Manrope;margin-top:11px}
-.pollutant small{color:var(--muted);font-size:9px}
-.pollutant .bar{height:4px;background:#292d33;margin-top:14px;border-radius:10px;overflow:hidden}
-.pollutant .bar span{display:block;height:100%;background:var(--gold);border-radius:10px}
-
-.risk-grid{
-  display:grid;grid-template-columns:repeat(3,1fr);gap:12px
+.pollutant strong{font-size:21px;color:var(--gold)}
+.pollutant small{display:block;color:var(--muted)}
+.pollutant .unit{font-size:11px;color:var(--muted)}
+.bar{height:6px;background:#28302f;border-radius:9px;margin-top:10px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--gold);width:0%}
+.notice{
+  border-left:3px solid var(--gold);padding:12px 15px;
+  background:#171813;border-radius:0 10px 10px 0;
+  font-size:12px;color:#d7d6c9;margin-top:15px;
 }
-
-.risk-card{
-  padding:21px;border:1px solid var(--line);
-  border-radius:15px;background:#15181e
+.warning{border-left-color:var(--orange);background:#1d1711}
+.danger{border-left-color:var(--red);background:#1c1213}
+.info-card{
+  padding:16px;background:#0b1012;border:1px solid var(--line);
+  border-radius:12px;
 }
-
-.risk-icon{font-size:21px}
-.risk-card h3{font:700 13px Manrope;margin-top:13px}
-.risk-card p{font-size:10px;color:var(--muted);margin-top:8px;line-height:1.8}
-
-.solution-list{display:grid;gap:11px}
-
+.info-card p{font-size:13px}
+.tag{font-size:10px;color:var(--gold);letter-spacing:1px;font-weight:800}
+.source-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:15px}
+.source-option{
+  display:flex;gap:10px;align-items:flex-start;padding:13px;
+  border:1px solid var(--line);background:#0b1012;border-radius:11px;
+  cursor:pointer;font-size:13px;
+}
+.source-option:has(input:checked){border-color:var(--gold);background:#1c1a13}
+.source-option input{accent-color:var(--gold);margin-top:4px}
+.solution-list{display:grid;gap:12px;margin-top:14px}
 .solution{
-  display:flex;align-items:flex-start;gap:13px;
-  padding:15px;border:1px solid var(--line);
-  border-radius:13px;background:#15181e
+  padding:15px;background:#0b1012;border:1px solid var(--line);
+  border-radius:12px;
 }
-
-.solution-number{
-  width:29px;height:29px;flex-shrink:0;
-  display:grid;place-items:center;border-radius:9px;
-  color:var(--gold2);background:rgba(215,189,134,.09);
-  font:700 11px Manrope
+.solution h3{color:var(--gold)}
+.solution p{font-size:13px}
+.solution .who{font-size:10px;color:var(--green);font-weight:800;letter-spacing:1px}
+.forecast{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}
+.hour{
+  padding:11px 7px;text-align:center;background:#0b1012;
+  border:1px solid var(--line);border-radius:10px;
 }
-
-.solution h3{font-size:11px}
-.solution p{font-size:10px;color:var(--muted);margin-top:4px}
-
-.city-grid{
-  display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:11px
+.hour strong{display:block;color:var(--gold);font-size:17px}
+.hour small{font-size:10px;color:var(--muted)}
+.steps{counter-reset:step;display:grid;gap:12px}
+.step{display:flex;gap:13px;align-items:flex-start}
+.step:before{
+  counter-increment:step;content:counter(step);
+  min-width:29px;height:29px;border-radius:50%;display:grid;place-items:center;
+  background:#282315;color:var(--gold);font-weight:900;
 }
-
-.city-card{
-  padding:16px;border:1px solid var(--line);
-  border-radius:14px;background:#15181e;min-width:0
+footer{
+  border-top:1px solid var(--line);padding:25px 5%;
+  text-align:center;color:var(--muted);font-size:11px;
 }
-
-.city-card h3{font:700 12px Manrope}
-.city-card strong{display:block;font:700 27px Manrope;margin-top:10px}
-.city-card small{color:var(--muted);font-size:9px}
-
-.compare-layout{
-  display:grid;grid-template-columns:1fr 1fr;gap:12px
-}
-
-.compare-box{
-  padding:17px;border:1px solid var(--line);
-  border-radius:14px;background:#15181e
-}
-
-.compare-box label{
-  display:block;font-size:9px;color:var(--muted);margin-bottom:8px
-}
-
-.compare-box input{
-  width:100%;padding:11px;background:#0d0f13;
-  color:white;border:1px solid var(--line);border-radius:9px;
-  font-size:11px
-}
-
-.compare-result{
-  margin-top:15px;color:var(--muted);font-size:11px;line-height:1.9
-}
-
-.green-score{
-  display:grid;grid-template-columns:auto 1fr;gap:25px;align-items:center
-}
-
-.score-circle{
-  width:135px;height:135px;border-radius:50%;
-  display:grid;place-items:center;
-  border:7px solid rgba(142,199,165,.45);
-  box-shadow:0 0 35px rgba(142,199,165,.08);
-  text-align:center
-}
-
-.score-circle strong{display:block;font:700 37px Manrope}
-.score-circle span{font-size:8px;color:var(--muted)}
-.green-score h3{font:600 20px "Playfair Display",serif}
-.green-score p{font-size:10px;color:var(--muted);margin-top:8px}
-
-.source-note{
-  margin-top:20px;padding:15px;
-  border:1px solid var(--line);border-radius:13px;
-  color:var(--muted);font-size:9px;line-height:1.9
-}
-
-.loading{opacity:.65}
+footer strong{color:var(--gold)}
+.loading{opacity:.6;pointer-events:none}
 .hidden{display:none!important}
-
-.site-footer{
-  margin-top:55px;border-top:1px solid var(--line);
-  background:#090a0d
+#toast{
+  position:fixed;bottom:20px;left:50%;transform:translateX(-50%);
+  background:#e8bd68;color:#17130a;padding:11px 17px;border-radius:10px;
+  font-size:12px;font-weight:800;display:none;z-index:30;
 }
-
-.footer-main{
-  padding:27px 0;display:flex;justify-content:space-between;
-  flex-wrap:wrap;gap:20px
+@media(max-width:760px){
+  .nav{padding:12px 4%}.navlinks{display:none}
+  main{padding:25px 4% 45px}
+  .grid3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .aqi-layout{grid-template-columns:1fr;text-align:center}
+  .aqi-layout .aqi-description{text-align:left}
+  .forecast{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
-
-.footer-main p{font-size:10px;color:var(--muted);max-width:420px}
-
-.developer-credit{
-  padding:16px;text-align:center;
-  border-top:1px solid var(--line);
-  color:#a49d8d;font-size:10px;letter-spacing:.08em
+@media(max-width:450px){
+  .grid,.source-list{grid-template-columns:1fr}
+  .hero-stats{grid-template-columns:1fr 1fr}
+  .grid3{grid-template-columns:1fr 1fr}
+  .panel{padding:16px}
 }
-
-.toast{
-  position:fixed;bottom:20px;right:20px;z-index:200;
-  padding:13px 18px;border:1px solid var(--line);
-  border-radius:12px;background:#20242b;
-  color:white;font-size:11px;
-  box-shadow:0 10px 35px #0008
-}
-
-@media(max-width:950px){
-  .dashboard{grid-template-columns:1fr}
-  .city-grid{grid-template-columns:repeat(3,1fr)}
-  .nav-links{gap:14px}
-  .nav-links a{font-size:9px}
-}
-
-@media(max-width:700px){
-  .shell{width:calc(100% - 30px)}
-  .menu{display:block}
-  .nav{min-height:70px}
-  .nav-links{
-    display:none;position:absolute;top:70px;left:0;right:0;
-    background:#101217;padding:15px 20px;
-    flex-direction:column;align-items:stretch;
-    border-bottom:1px solid var(--line);gap:0
+@media print{
+  body{background:white;color:#111}
+  header,.locationbar,#sourceForm,.no-print,footer{display:none!important}
+  main{max-width:none;padding:0}
+  .panel,.info-card,.solution,.pollutant,.hour{
+    background:white;color:#111;border:1px solid #bbb;break-inside:avoid
   }
-  .nav-links.open{display:flex}
-  .nav-links a{padding:12px 0;font-size:10px}
-  .hero{padding-top:25px}
-  .search-layout{grid-template-columns:1fr}
-  .metrics,.pollutant-grid{grid-template-columns:repeat(2,1fr)}
-  .risk-grid{grid-template-columns:1fr}
-  .city-grid{grid-template-columns:repeat(2,1fr)}
-  .section-head{align-items:flex-start;flex-direction:column}
-  .green-score{grid-template-columns:1fr;justify-items:center;text-align:center}
-  .chart{gap:4px}
-}
-
-@media(max-width:400px){
-  .metrics,.pollutant-grid{grid-template-columns:1fr}
-  .compare-layout{grid-template-columns:1fr}
+  p,.status,.pollutant small,.pollutant .unit{color:#333}
+  .section{break-inside:avoid}
 }
 </style>
 </head>
-
 <body>
-<div class="topline"></div>
 
 <header>
-  <div class="shell nav">
-    <a class="brand" href="index.html">
-      <span class="brand-mark">R</span>
-      <span>
-        <span class="brand-name">ROAM<span style="color:var(--gold)">X</span></span>
-        <span class="brand-caption">Eco Intelligence</span>
-      </span>
-    </a>
-
-    <button class="menu" id="menuBtn" aria-label="Toggle menu">☰</button>
-
-    <nav class="nav-links" id="navLinks">
-      <a href="index.html">Overview</a>
-      <a href="map.html">Live Map</a>
-      <a href="environment.html">ROAMX AIR</a>
-      <a href="pollution.html" class="active">Eco Intelligence</a>
-      <a href="news.html">World Watch</a>
-      <a href="resilience.html">Safety Centre</a>
+  <div class="nav">
+    <a class="logo" href="index.html">ROAM<span>X</span></a>
+    <nav class="navlinks">
+      <a href="index.html">HOME</a>
+      <a href="map.html">MAP</a>
+      <a href="news.html">NEWS</a>
+      <a href="resilience.html">RESILIENCE</a>
     </nav>
+    <select class="lang" id="language" aria-label="Choose language">
+      <option value="en">English</option>
+      <option value="ta">தமிழ்</option>
+      <option value="hi">हिन्दी</option>
+    </select>
   </div>
 </header>
 
 <main>
-<section class="hero">
-  <div class="shell">
-    <div class="hero-box">
-      <div class="eyebrow">ROAMX / Environmental intelligence</div>
-      <h1>Understand the air.<br><em>Protect the future.</em></h1>
-      <p>
-        Explore atmospheric conditions, monitor six major pollutants,
-        understand air-quality risks and discover how environmental
-        conditions affect everyday life.
-      </p>
-      <div class="hero-note">
-        <span class="live-dot"></span>
-        <span>GLOBAL AIR QUALITY MONITORING</span>
-        <span>•</span>
-        <span id="updateTime">Waiting for location data</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-<div class="shell">
-  <div class="section-head">
-    <div>
-      <div class="eyebrow">01 / Location intelligence</div>
-      <h2>Explore your atmosphere.</h2>
-      <p>Search any city worldwide or use your current location.</p>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="search-layout">
-      <div class="search-wrap">
-        <div class="search-box">
-          <span>⌕</span>
-          <input id="citySearch" type="search"
-            placeholder="Search city, country or location..."
-            autocomplete="off">
-        </div>
-        <div class="search-results hidden" id="searchResults"></div>
-      </div>
-      <button class="btn btn-gold" id="locateBtn">⌖ Detect my location</button>
-    </div>
-    <div class="location-status" id="locationStatus">
-      Select a city or allow location access to begin.
-    </div>
-  </div>
-</div>
-</section>
-
-<section class="section" id="dashboard">
-<div class="shell">
-  <div class="section-head">
-    <div>
-      <div class="eyebrow">02 / Live environmental conditions</div>
-      <h2 id="cityHeading">Air quality overview</h2>
-      <p id="citySubheading">Waiting for environmental data.</p>
-    </div>
-    <button class="btn btn-outline" id="refreshBtn">↻ Refresh</button>
-  </div>
-
-  <div class="dashboard">
-    <div class="panel aqi-panel">
-      <div>
-        <div class="aqi-top">
-          <span class="eyebrow">US Air Quality Index</span>
-          <span class="live-dot"></span>
-        </div>
-        <div class="aqi-number" id="aqiValue">--</div>
-        <div class="aqi-label">Air Quality Index</div>
-        <span class="aqi-category category-moderate" id="aqiCategory">Awaiting data</span>
-        <div class="aqi-meter">
-          <div class="aqi-marker" id="aqiMarker"></div>
-        </div>
-        <div class="aqi-scale">
-          <span>0</span><span>50</span><span>100</span>
-          <span>150</span><span>200</span><span>300+</span>
-        </div>
-      </div>
-      <div class="aqi-foot">
-        <span>Dominant pollutant</span>
-        <strong id="dominantPollutant">—</strong>
-      </div>
-    </div>
-
-    <div class="metrics" id="metrics">
-      <div class="metric"><span class="metric-symbol">PM 2.5</span><h3>Fine particles</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
-      <div class="metric"><span class="metric-symbol">PM 10</span><h3>Coarse particles</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
-      <div class="metric"><span class="metric-symbol">CO</span><h3>Carbon monoxide</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
-      <div class="metric"><span class="metric-symbol">NO₂</span><h3>Nitrogen dioxide</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
-      <div class="metric"><span class="metric-symbol">SO₂</span><h3>Sulphur dioxide</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
-      <div class="metric"><span class="metric-symbol">O₃</span><h3>Ground-level ozone</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
-    </div>
-  </div>
-</div>
-</section>
-
-<section class="section">
-<div class="shell">
-  <div class="section-head">
-    <div>
-      <div class="eyebrow">03 / Atmospheric forecast</div>
-      <h2>Next 24 hours.</h2>
-      <p>Hourly modelled US AQI forecast for the selected location.</p>
-    </div>
-  </div>
-  <div class="panel chart-panel">
-    <div class="chart" id="forecastChart">
-      <p class="muted">Load a location to view the forecast.</p>
-    </div>
-    <div class="chart-legend">Hourly air quality index · Lower values generally indicate cleaner air.</div>
-  </div>
-</div>
-</section>
-
-<section class="section">
-<div class="shell">
-  <div class="section-head">
-    <div>
-      <div class="eyebrow">04 / Pollutant intelligence</div>
-      <h2>What's in the air?</h2>
-      <p>Measurements of six important atmospheric pollutants.</p>
-    </div>
-  </div>
-  <div class="pollutant-grid" id="pollutants">
-    <div class="pollutant"><h3>PM2.5</h3><strong>--</strong><small>µg/m³</small></div>
-    <div class="pollutant"><h3>PM10</h3><strong>--</strong><small>µg/m³</small></div>
-    <div class="pollutant"><h3>CO</h3><strong>--</strong><small>µg/m³</small></div>
-    <div class="pollutant"><h3>NO₂</h3><strong>--</strong><small>µg/m³</small></div>
-    <div class="pollutant"><h3>SO₂</h3><strong>--</strong><small>µg/m³</small></div>
-    <div class="pollutant"><h3>O₃</h3><strong>--</strong><small>µg/m³</small></div>
-  </div>
-</div>
-</section>
-
-<section class="section">
-<div class="shell">
-  <div class="section-head">
-    <div>
-      <div class="eyebrow">05 / Environmental diagnosis</div>
-      <h2>Understand the risks.</h2>
-      <p>Practical information based on the selected air-quality category.</p>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="eyebrow">CURRENT AIR QUALITY ASSESSMENT</div>
-    <h2 id="riskTitle" style="font:600 22px 'Playfair Display';margin-top:10px">Awaiting data</h2>
-    <p id="riskDescription" style="font-size:11px;color:var(--muted);margin-top:10px">
-      Select a location to receive an environmental assessment.
+  <section class="hero">
+    <div class="eyebrow" data-i18n="eyebrow">ROAMX / COMMUNITY ECO INTELLIGENCE</div>
+    <h1 data-i18n="title">Understand your air.<br><span>Protect your community.</span></h1>
+    <p data-i18n="intro">
+      Discover outdoor air-quality conditions, understand possible pollution sources,
+      protect your family and find practical ways to make your surroundings healthier.
     </p>
-    <div class="risk-grid" style="margin-top:20px" id="riskGrid">
-      <div class="risk-card"><div class="risk-icon">🫁</div><h3>Respiratory health</h3><p>Assessment will appear here.</p></div>
-      <div class="risk-card"><div class="risk-icon">❤️</div><h3>Heart health</h3><p>Assessment will appear here.</p></div>
-      <div class="risk-card"><div class="risk-icon">🌿</div><h3>Outdoor activity</h3><p>Assessment will appear here.</p></div>
-    </div>
-  </div>
-</div>
-</section>
 
-<section class="section">
-<div class="shell">
-  <div class="section-head">
-    <div>
-      <div class="eyebrow">06 / Environmental action</div>
-      <h2>Make informed decisions.</h2>
-      <p>Precautions and practical steps to reduce exposure.</p>
-    </div>
-  </div>
-  <div class="panel">
-    <div class="solution-list" id="solutions">
-      <div class="solution"><div class="solution-number">01</div><div><h3>Check local air quality</h3><p>Review conditions before planning outdoor activities.</p></div></div>
-      <div class="solution"><div class="solution-number">02</div><div><h3>Reduce unnecessary exposure</h3><p>Limit prolonged outdoor exertion when pollution is elevated.</p></div></div>
-      <div class="solution"><div class="solution-number">03</div><div><h3>Protect indoor air</h3><p>Keep indoor spaces clean and ventilated when outdoor conditions permit.</p></div></div>
-    </div>
-  </div>
-</div>
-</section>
-
-<section class="section">
-<div class="shell">
-  <div class="section-head">
-    <div>
-      <div class="eyebrow">07 / Global hotspot radar</div>
-      <h2>Pollution across cities.</h2>
-      <p>Compare modelled air quality in selected world cities.</p>
-    </div>
-    <button class="btn btn-outline" id="hotspotRefresh">↻ Update radar</button>
-  </div>
-  <div class="city-grid" id="hotspotGrid">
-    <div class="city-card"><h3>Chennai</h3><strong>--</strong><small>Loading...</small></div>
-    <div class="city-card"><h3>Delhi</h3><strong>--</strong><small>Loading...</small></div>
-    <div class="city-card"><h3>Mumbai</h3><strong>--</strong><small>Loading...</small></div>
-    <div class="city-card"><h3>Bengaluru</h3><strong>--</strong><small>Loading...</small></div>
-    <div class="city-card"><h3>Kolkata</h3><strong>--</strong><small>Loading...</small></div>
-  </div>
-</div>
-</section>
-
-<section class="section">
-<div class="shell">
-  <div class="section-head">
-    <div>
-      <div class="eyebrow">08 / City comparison</div>
-      <h2>Two cities. One comparison.</h2>
-      <p>Compare modelled air quality between any two locations.</p>
-    </div>
-  </div>
-
-  <div class="panel">
-    <div class="compare-layout">
-      <div class="compare-box">
-        <label for="cityA">FIRST CITY</label>
-        <input id="cityA" value="Chennai" placeholder="Enter first city">
+    <div class="panel" style="margin-top:22px">
+      <div class="tag" data-i18n="locationTitle">LOCATION DETECTION</div>
+      <div class="locationbar">
+        <input id="placeInput" placeholder="Enter village, town, district or city">
+        <button class="btn" id="searchBtn" data-i18n="search">Search location</button>
+        <button class="btn secondary" id="gpsBtn" data-i18n="gps">◎ Use my location</button>
       </div>
-      <div class="compare-box">
-        <label for="cityB">SECOND CITY</label>
-        <input id="cityB" value="Delhi" placeholder="Enter second city">
+      <div id="locationStatus" class="status" data-i18n="locationHint">
+        Search for a place or allow location access to begin.
+      </div>
+      <div id="locationName" class="location-name">No location selected</div>
+      <div class="status" id="updatedAt"></div>
+    </div>
+  </section>
+
+  <section class="section" id="airSection">
+    <div class="section-head">
+      <div class="eyebrow" data-i18n="airEyebrow">01 / OUTDOOR AIR CHECK</div>
+      <h2 data-i18n="airTitle">What is in the air around this location?</h2>
+      <p data-i18n="airIntro">Understand the modelled outdoor air-quality conditions and the pollutants that need attention.</p>
+    </div>
+
+    <div class="panel">
+      <div class="aqi-layout">
+        <div class="aqi-circle" id="aqiCircle">
+          <strong id="aqiValue">--</strong>
+          <span>US AQI</span>
+        </div>
+        <div class="aqi-description">
+          <span class="pill" id="aqiLabel">Waiting for location</span>
+          <h2 id="airHeadline" style="margin-top:12px">Your local air report</h2>
+          <p id="airSummary">Choose a location to view its outdoor air-quality estimate.</p>
+          <div class="hero-stats">
+            <div class="stat"><strong id="pm25Value">--</strong><small>PM2.5 µg/m³</small></div>
+            <div class="stat"><strong id="pm10Value">--</strong><small>PM10 µg/m³</small></div>
+            <div class="stat"><strong id="peakTime">--</strong><small data-i18n="peakTime">Next 24h peak</small></div>
+          </div>
+        </div>
+      </div>
+      <div class="notice warning" data-i18n="modelNotice">
+        Important: this is a model-based outdoor estimate, not a reading from a local government monitoring station.
+        It cannot measure indoor kitchen smoke or identify an exact pollution source.
       </div>
     </div>
-    <button class="btn btn-gold" id="compareBtn" style="margin-top:17px">Compare cities →</button>
-    <div class="compare-result" id="compareResult">Choose two cities and start your comparison.</div>
-  </div>
-</div>
-</section>
+  </section>
 
-<section class="section">
-<div class="shell">
-  <div class="section-head">
-    <div>
-      <div class="eyebrow">09 / Environmental score</div>
-      <h2>Green intelligence.</h2>
-      <p>A simplified environmental indicator derived from the modelled AQI.</p>
+  <section class="section">
+    <div class="section-head">
+      <div class="eyebrow" data-i18n="pollutantsEyebrow">02 / POLLUTANT BREAKDOWN</div>
+      <h2 data-i18n="pollutantsTitle">Which pollutants need attention?</h2>
+      <p data-i18n="pollutantsIntro">Simple explanations help everyone understand what the measurements mean.</p>
     </div>
-  </div>
-  <div class="panel">
-    <div class="green-score">
-      <div class="score-circle">
-        <div><strong id="greenScore">--</strong><span>GREEN SCORE</span></div>
-      </div>
-      <div>
-        <h3 id="greenTitle">Awaiting environmental data</h3>
-        <p id="greenDescription">Your environmental score will be calculated when a location is selected. This is an educational indicator, not an official sustainability certification.</p>
+    <div class="grid3" id="pollutantGrid">
+      <div class="pollutant"><strong>--</strong><small>PM2.5</small></div>
+      <div class="pollutant"><strong>--</strong><small>PM10</small></div>
+      <div class="pollutant"><strong>--</strong><small>Carbon monoxide</small></div>
+      <div class="pollutant"><strong>--</strong><small>Nitrogen dioxide</small></div>
+      <div class="pollutant"><strong>--</strong><small>Sulphur dioxide</small></div>
+      <div class="pollutant"><strong>--</strong><small>Ozone</small></div>
+    </div>
+    <div class="panel section" id="diagnosis">
+      <div class="tag" data-i18n="diagnosisTag">AUTOMATED READING INTERPRETATION</div>
+      <h2 data-i18n="diagnosisTitle">What does the data suggest?</h2>
+      <div id="diagnosisText">
+        <p>Select a location to receive a plain-language explanation of the available pollutant readings.</p>
       </div>
     </div>
-  </div>
-</div>
-</section>
+  </section>
 
-<section class="section">
-<div class="shell">
-  <div class="panel">
-    <div class="eyebrow">DATA TRANSPARENCY</div>
-    <h3 style="font:600 18px 'Playfair Display';margin-top:9px">Understanding the data.</h3>
-    <div class="source-note">
-      ROAMX Eco Intelligence retrieves modelled atmospheric information through the free Open-Meteo Air Quality API. Its forecast data is based on Copernicus Atmosphere Monitoring Service (CAMS) models.
-      <br><br>
-      <strong style="color:var(--gold2)">Important:</strong> These are model-based estimates, not direct measurements from a physical monitoring station. Data resolution, coverage and update frequency vary by region. Values may differ from local government monitoring stations.
-      <br><br>
-      US AQI is used for the main dashboard. It should not be confused with India's CPCB National AQI scale. This page is an educational awareness tool and does not provide medical advice.
-      <br><br>
-      Data attribution: <a href="https://open-meteo.com/" target="_blank" rel="noopener" style="color:var(--gold2)">Open-Meteo</a> · <a href="https://atmosphere.copernicus.eu/" target="_blank" rel="noopener" style="color:var(--gold2)">Copernicus CAMS</a>.
+  <section class="section">
+    <div class="section-head">
+      <div class="eyebrow" data-i18n="forecastEyebrow">03 / SHORT-TERM OUTLOOK</div>
+      <h2 data-i18n="forecastTitle">How could air quality change?</h2>
+      <p data-i18n="forecastIntro">A short forecast helps families plan outdoor activities. It is guidance, not a guarantee.</p>
     </div>
-  </div>
-</div>
-</section>
+    <div class="panel">
+      <div class="forecast" id="forecastGrid">
+        <div class="hour"><strong>--</strong><small>Waiting for data</small></div>
+      </div>
+      <div class="notice" data-i18n="forecastNotice">
+        If pollution is elevated, consider reducing strenuous outdoor activity and keeping children away from visible smoke and dust.
+      </div>
+    </div>
+  </section>
 
+  <section class="section">
+    <div class="section-head">
+      <div class="eyebrow" data-i18n="sourceEyebrow">04 / LOCAL COMMUNITY OBSERVATION</div>
+      <h2 data-i18n="sourceTitle">What pollution sources do you notice nearby?</h2>
+      <p data-i18n="sourceIntro">
+        Select what you actually observe around your home or village. This makes the advice more relevant.
+        These are community observations, not automatically detected sources.
+      </p>
+    </div>
+
+    <div class="panel">
+      <form id="sourceForm">
+        <div class="source-list">
+          <label class="source-option"><input type="checkbox" value="waste"><span><b data-i18n="srcWaste">Burning plastic or household waste</b><br><small data-i18n="srcWasteSub">Smoke from rubbish or dumping areas</small></span></label>
+          <label class="source-option"><input type="checkbox" value="cooking"><span><b data-i18n="srcCooking">Cooking smoke indoors</b><br><small data-i18n="srcCookingSub">Firewood, dung cakes, coal or kerosene</small></span></label>
+          <label class="source-option"><input type="checkbox" value="road"><span><b data-i18n="srcRoad">Dusty roads and unpaved paths</b><br><small data-i18n="srcRoadSub">Dust raised by vehicles and wind</small></span></label>
+          <label class="source-option"><input type="checkbox" value="traffic"><span><b data-i18n="srcTraffic">Vehicle exhaust and traffic</b><br><small data-i18n="srcTrafficSub">Smoke near roads and busy junctions</small></span></label>
+          <label class="source-option"><input type="checkbox" value="crop"><span><b data-i18n="srcCrop">Crop-residue or field burning</b><br><small data-i18n="srcCropSub">Smoke from burning farm waste</small></span></label>
+          <label class="source-option"><input type="checkbox" value="industry"><span><b data-i18n="srcIndustry">Factory, brick-kiln or generator smoke</b><br><small data-i18n="srcIndustrySub">Smoke from nearby operations</small></span></label>
+          <label class="source-option"><input type="checkbox" value="construction"><span><b data-i18n="srcConstruction">Construction and building dust</b><br><small data-i18n="srcConstructionSub">Dust from sand, cement and demolition</small></span></label>
+          <label class="source-option"><input type="checkbox" value="other"><span><b data-i18n="srcOther">Other or unsure</b><br><small data-i18n="srcOtherSub">I notice pollution but cannot identify it</small></span></label>
+        </div>
+        <div class="locationbar">
+          <button class="btn" type="submit" data-i18n="analyseSources">Create my local action plan</button>
+          <button class="btn secondary" type="reset" data-i18n="clearSources">Clear selections</button>
+        </div>
+      </form>
+      <div id="sourceResults" class="hidden">
+        <div class="tag" style="margin-top:25px" data-i18n="actionPlanTag">YOUR COMMUNITY ACTION PLAN</div>
+        <h2 data-i18n="actionPlanTitle">Practical steps for your surroundings</h2>
+        <p id="sourceSummary"></p>
+        <div id="solutionList" class="solution-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="eyebrow" data-i18n="familyEyebrow">05 / FAMILY HEALTH PROTECTION</div>
+      <h2 data-i18n="familyTitle">Simple ways to protect your family</h2>
+      <p data-i18n="familyIntro">Affordable steps that can help reduce exposure, especially in homes with children and older people.</p>
+    </div>
+    <div class="grid">
+      <div class="info-card">
+        <h3>🏠 <span data-i18n="homeTitle">At home</span></h3>
+        <p data-i18n="homeText">Avoid burning plastic, rubber and rubbish. Keep indoor smoke away from living and sleeping areas. If cooking with solid fuel, improve ventilation and keep children away from the smoke as much as possible.</p>
+      </div>
+      <div class="info-card">
+        <h3>🍃 <span data-i18n="cleanTitle">Cleaner cooking</span></h3>
+        <p data-i18n="cleanText">Where affordable and available, consider cleaner cooking options such as LPG, electricity or biogas. Do not assume every household can immediately afford a new stove or fuel.</p>
+      </div>
+      <div class="info-card">
+        <h3>🧹 <span data-i18n="dustTitle">Reduce dust</span></h3>
+        <p data-i18n="dustText">Use damp cloths or wet cleaning rather than dry sweeping where practical. Cover stored sand and construction materials. Avoid creating dust near homes and schools.</p>
+      </div>
+      <div class="info-card">
+        <h3>👨‍👩‍👧 <span data-i18n="peopleTitle">Protect vulnerable people</span></h3>
+        <p data-i18n="peopleText">Children, older adults, pregnant women and people with heart or lung conditions may need extra care. Reduce strenuous outdoor activity during heavy smoke or poor air conditions.</p>
+      </div>
+    </div>
+    <div class="notice danger" data-i18n="medicalNotice">
+      Health warning: seek medical help for severe breathlessness, chest pain, fainting or worsening breathing problems. This website does not diagnose illness or replace a healthcare professional.
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="eyebrow" data-i18n="villageEyebrow">06 / VILLAGE-LEVEL IMPACT</div>
+      <h2 data-i18n="villageTitle">Small local actions. Healthier communities.</h2>
+      <p data-i18n="villageIntro">Pollution prevention becomes stronger when households, schools, farmers and local authorities work together.</p>
+    </div>
+    <div class="panel">
+      <div class="steps">
+        <div class="step"><div><h3 data-i18n="v1Title">Organise waste properly</h3><p data-i18n="v1Text">Separate wet and dry waste, use designated collection points and discourage open burning. Ask the local panchayat about available waste collection services.</p></div></div>
+        <div class="step"><div><h3 data-i18n="v2Title">Support smoke-free cooking spaces</h3><p data-i18n="v2Text">Share information about cleaner cooking access, safer kitchen ventilation and keeping children away from cooking smoke.</p></div></div>
+        <div class="step"><div><h3 data-i18n="v3Title">Reduce road and construction dust</h3><p data-i18n="v3Text">Encourage responsible covering of dusty materials, careful handling of construction waste and suitable dust-control measures.</p></div></div>
+        <div class="step"><div><h3 data-i18n="v4Title">Work with farmers</h3><p data-i18n="v4Text">Promote locally suitable alternatives to crop-residue burning, such as collection, composting, mulching or approved residue-management programmes.</p></div></div>
+        <div class="step"><div><h3 data-i18n="v5Title">Involve schools and local bodies</h3><p data-i18n="v5Text">Hold awareness sessions, identify recurring smoke sources and share concerns with the panchayat or relevant pollution-control authorities.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <div class="eyebrow" data-i18n="reportEyebrow">07 / TAKE ACTION</div>
+      <h2 data-i18n="reportTitle">Your local environment action report</h2>
+      <p data-i18n="reportIntro">Save or print the current location's readings, observations and suggested actions to discuss with your family or community.</p>
+    </div>
+    <div class="panel">
+      <div id="reportContent">
+        <h3>ROAMX Community Eco Report</h3>
+        <p>Select a location and create your local action plan to prepare a report.</p>
+      </div>
+      <div class="locationbar no-print">
+        <button class="btn" id="printBtn" data-i18n="printReport">Print / Save report</button>
+        <button class="btn secondary" id="copyBtn" data-i18n="copyReport">Copy report text</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="notice">
+      <b>Data transparency:</b> ROAMX uses the Open-Meteo Air Quality API, which provides modelled air-quality estimates based on Copernicus Atmosphere Monitoring Service (CAMS) data. Model resolution varies by region; global forecasts are approximately 45 km and European forecasts approximately 11 km. A village or neighbourhood may not have its own monitoring station. Indoor household pollution is not measured by this page. The displayed US AQI is not India's official CPCB AQI.
+    </div>
+    <p class="status">
+      Data: <a href="https://open-meteo.com/en/docs/air-quality-api" target="_blank" rel="noopener">Open-Meteo Air Quality API</a> |
+      CAMS attribution: Copernicus Atmosphere Monitoring Service
+    </p>
+    <p class="status">
+      Health guidance: <a href="https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health" target="_blank" rel="noopener">WHO Household Air Pollution</a> |
+      <a href="https://ncdc.mohfw.gov.in/" target="_blank" rel="noopener">India NCDC</a> |
+      <a href="https://www.cpcb.nic.in/" target="_blank" rel="noopener">CPCB</a>
+    </p>
+  </section>
 </main>
 
-<footer class="site-footer">
-  <div class="shell footer-main">
-    <div>
-      <div class="brand-name">ROAM<span style="color:var(--gold)">X</span></div>
-      <p>Eco Intelligence · Understand the atmosphere. Protect the future.</p>
-    </div>
-    <p>Environmental information for awareness and education. Forecast availability depends on external data providers.</p>
-  </div>
-  <div class="developer-credit">
-    Designed &amp; Developed by Sabarish P | B.Tech IT
-  </div>
+<footer>
+  <strong>ROAMX</strong> — Awareness • Prevention • Community Action
+  <br><br>
+  Designed &amp; Developed by Sabarish P | B.Tech IT
 </footer>
 
-<div class="toast hidden" id="toast" role="status"></div>
+<div id="toast"></div>
 
 <script>
-"use strict";
-
 const $ = id => document.getElementById(id);
+let currentLocation = null;
+let airData = null;
+let currentReport = "";
+let currentLanguage = "en";
 
-const AIR_API = "https://air-quality-api.open-meteo.com/v1/air-quality";
-const GEO_API = "https://geocoding-api.open-meteo.com/v1/search";
-
-const pollutantInfo = [
-  {key:"pm2_5",name:"PM2.5",symbol:"PM 2.5",desc:"Fine particulate matter",unit:"µg/m³",limit:75},
-  {key:"pm10",name:"PM10",symbol:"PM 10",desc:"Coarse particulate matter",unit:"µg/m³",limit:150},
-  {key:"carbon_monoxide",name:"Carbon monoxide",symbol:"CO",desc:"Combustion-related gas",unit:"µg/m³",limit:10000},
-  {key:"nitrogen_dioxide",name:"Nitrogen dioxide",symbol:"NO₂",desc:"Traffic and combustion emissions",unit:"µg/m³",limit:200},
-  {key:"sulphur_dioxide",name:"Sulphur dioxide",symbol:"SO₂",desc:"Industrial and fuel emissions",unit:"µg/m³",limit:350},
-  {key:"ozone",name:"Ozone",symbol:"O₃",desc:"Ground-level ozone",unit:"µg/m³",limit:180}
-];
-
-let currentLocation = {
-  name:"Chennai",
-  country:"India",
-  latitude:13.0827,
-  longitude:80.2707
+const translations = {
+en:{
+eyebrow:"ROAMX / COMMUNITY ECO INTELLIGENCE",
+title:'Understand your air.<br><span>Protect your community.</span>',
+intro:"Discover outdoor air-quality conditions, understand possible pollution sources, protect your family and find practical ways to make your surroundings healthier.",
+locationTitle:"LOCATION DETECTION",search:"Search location",gps:"◎ Use my location",
+locationHint:"Search for a place or allow location access to begin.",
+airEyebrow:"01 / OUTDOOR AIR CHECK",airTitle:"What is in the air around this location?",
+airIntro:"Understand the modelled outdoor air-quality conditions and the pollutants that need attention.",
+pollutantsEyebrow:"02 / POLLUTANT BREAKDOWN",pollutantsTitle:"Which pollutants need attention?",
+pollutantsIntro:"Simple explanations help everyone understand what the measurements mean.",
+diagnosisTag:"AUTOMATED READING INTERPRETATION",diagnosisTitle:"What does the data suggest?",
+forecastEyebrow:"03 / SHORT-TERM OUTLOOK",forecastTitle:"How could air quality change?",
+forecastIntro:"A short forecast helps families plan outdoor activities. It is guidance, not a guarantee.",
+sourceEyebrow:"04 / LOCAL COMMUNITY OBSERVATION",sourceTitle:"What pollution sources do you notice nearby?",
+sourceIntro:"Select what you actually observe around your home or village. This makes the advice more relevant. These are community observations, not automatically detected sources.",
+srcWaste:"Burning plastic or household waste",srcWasteSub:"Smoke from rubbish or dumping areas",
+srcCooking:"Cooking smoke indoors",srcCookingSub:"Firewood, dung cakes, coal or kerosene",
+srcRoad:"Dusty roads and unpaved paths",srcRoadSub:"Dust raised by vehicles and wind",
+srcTraffic:"Vehicle exhaust and traffic",srcTrafficSub:"Smoke near roads and busy junctions",
+srcCrop:"Crop-residue or field burning",srcCropSub:"Smoke from burning farm waste",
+srcIndustry:"Factory, brick-kiln or generator smoke",srcIndustrySub:"Smoke from nearby operations",
+srcConstruction:"Construction and building dust",srcConstructionSub:"Dust from sand, cement and demolition",
+srcOther:"Other or unsure",srcOtherSub:"I notice pollution but cannot identify it",
+analyseSources:"Create my local action plan",clearSources:"Clear selections",
+actionPlanTag:"YOUR COMMUNITY ACTION PLAN",actionPlanTitle:"Practical steps for your surroundings",
+familyEyebrow:"05 / FAMILY HEALTH PROTECTION",familyTitle:"Simple ways to protect your family",
+familyIntro:"Affordable steps that can help reduce exposure, especially in homes with children and older people.",
+homeTitle:"At home",homeText:"Avoid burning plastic, rubber and rubbish. Keep indoor smoke away from living and sleeping areas. If cooking with solid fuel, improve ventilation and keep children away from the smoke as much as possible.",
+cleanTitle:"Cleaner cooking",cleanText:"Where affordable and available, consider cleaner cooking options such as LPG, electricity or biogas. Do not assume every household can immediately afford a new stove or fuel.",
+dustTitle:"Reduce dust",dustText:"Use damp cloths or wet cleaning rather than dry sweeping where practical. Cover stored sand and construction materials. Avoid creating dust near homes and schools.",
+peopleTitle:"Protect vulnerable people",peopleText:"Children, older adults, pregnant women and people with heart or lung conditions may need extra care. Reduce strenuous outdoor activity during heavy smoke or poor air conditions.",
+villageEyebrow:"06 / VILLAGE-LEVEL IMPACT",villageTitle:"Small local actions. Healthier communities.",
+villageIntro:"Pollution prevention becomes stronger when households, schools, farmers and local authorities work together.",
+v1Title:"Organise waste properly",v1Text:"Separate wet and dry waste, use designated collection points and discourage open burning. Ask the local panchayat about available waste collection services.",
+v2Title:"Support smoke-free cooking spaces",v2Text:"Share information about cleaner cooking access, safer kitchen ventilation and keeping children away from cooking smoke.",
+v3Title:"Reduce road and construction dust",v3Text:"Encourage responsible covering of dusty materials, careful handling of construction waste and suitable dust-control measures.",
+v4Title:"Work with farmers",v4Text:"Promote locally suitable alternatives to crop-residue burning, such as collection, composting, mulching or approved residue-management programmes.",
+v5Title:"Involve schools and local bodies",v5Text:"Hold awareness sessions, identify recurring smoke sources and share concerns with the panchayat or relevant pollution-control authorities.",
+reportEyebrow:"07 / TAKE ACTION",reportTitle:"Your local environment action report",reportIntro:"Save or print the current location's readings, observations and suggested actions to discuss with your family or community.",
+printReport:"Print / Save report",copyReport:"Copy report text",
+modelNotice:"Important: this is a model-based outdoor estimate, not a reading from a local government monitoring station. It cannot measure indoor kitchen smoke or identify an exact pollution source.",
+forecastNotice:"If pollution is elevated, consider reducing strenuous outdoor activity and keeping children away from visible smoke and dust.",
+medicalNotice:"Health warning: seek medical help for severe breathlessness, chest pain, fainting or worsening breathing problems. This website does not diagnose illness or replace a healthcare professional.",
+peakTime:"Next 24h peak"
+},
+ta:{
+eyebrow:"ROAMX / சமூக சுற்றுச்சூழல் விழிப்புணர்வு",
+title:'உங்கள் காற்றைப் புரிந்துகொள்ளுங்கள்.<br><span>உங்கள் சமூகத்தைக் காப்பாற்றுங்கள்.</span>',
+intro:"வெளிக்காற்றின் தரத்தை அறிந்து, மாசுபாட்டின் சாத்தியமான காரணங்களைப் புரிந்து, குடும்பத்தையும் சமூகத்தையும் பாதுகாக்க நடைமுறை வழிகளைக் கண்டறியுங்கள்.",
+locationTitle:"இடத்தைக் கண்டறிதல்",search:"இடத்தைத் தேடு",gps:"◎ எனது இருப்பிடம்",
+locationHint:"ஊர் அல்லது நகரத்தைத் தேடுங்கள் அல்லது இருப்பிட அனுமதி வழங்குங்கள்.",
+airEyebrow:"01 / வெளிக்காற்று ஆய்வு",airTitle:"இந்த இடத்தின் காற்றில் என்ன உள்ளது?",
+airIntro:"கணிக்கப்பட்ட வெளிக்காற்றுத் தரத்தையும் கவனம் தேவைப்படும் மாசுபடுத்திகளையும் அறியுங்கள்.",
+pollutantsEyebrow:"02 / மாசுபடுத்திகள்",pollutantsTitle:"எந்த மாசுபடுத்திகளைக் கவனிக்க வேண்டும்?",
+pollutantsIntro:"அளவீடுகளை எளிய மொழியில் புரிந்துகொள்ளுங்கள்.",
+diagnosisTag:"அளவீடுகளின் விளக்கம்",diagnosisTitle:"தரவு என்ன சொல்கிறது?",
+forecastEyebrow:"03 / குறுகிய கால முன்னறிவிப்பு",forecastTitle:"காற்றின் தரம் எப்படி மாறலாம்?",
+forecastIntro:"வெளிப்புறச் செயல்களைத் திட்டமிட இந்த முன்னறிவிப்பு உதவும். இது உறுதியான உத்தரவாதம் அல்ல.",
+sourceEyebrow:"04 / உள்ளூர் சமூகக் கண்காணிப்பு",sourceTitle:"உங்கள் அருகில் எந்த மாசுபாட்டைக் கவனிக்கிறீர்கள்?",
+sourceIntro:"உங்கள் வீடு அல்லது கிராமத்தில் உண்மையில் காண்பவற்றைத் தேர்ந்தெடுக்கவும். இவை மக்களின் நேரடி கவனிப்புகள்; தானியங்கி கண்டறிதல் அல்ல.",
+srcWaste:"பிளாஸ்டிக் அல்லது குப்பை எரித்தல்",srcWasteSub:"குப்பை எரிப்பதால் வரும் புகை",
+srcCooking:"வீட்டுக்குள் சமையல் புகை",srcCookingSub:"விறகு, சாணம், நிலக்கரி அல்லது மண்ணெண்ணெய்",
+srcRoad:"தூசி நிறைந்த சாலைகள்",srcRoadSub:"வாகனங்கள் மற்றும் காற்றால் எழும் தூசி",
+srcTraffic:"வாகனப் புகை மற்றும் போக்குவரத்து",srcTrafficSub:"சாலை மற்றும் சந்திப்புகளில் வரும் புகை",
+srcCrop:"விவசாயக் கழிவுகளை எரித்தல்",srcCropSub:"வயல்களில் இருந்து வரும் புகை",
+srcIndustry:"தொழிற்சாலை, செங்கல் சூளை அல்லது ஜெனரேட்டர் புகை",srcIndustrySub:"அருகிலுள்ள செயல்பாடுகளின் புகை",
+srcConstruction:"கட்டுமானத் தூசி",srcConstructionSub:"மணல், சிமெண்ட் மற்றும் இடிப்பு தூசி",
+srcOther:"மற்றவை அல்லது தெரியவில்லை",srcOtherSub:"மாசுபாடு தெரிகிறது; காரணம் தெரியவில்லை",
+analyseSources:"எனது உள்ளூர் செயல் திட்டத்தை உருவாக்கு",clearSources:"தேர்வுகளை நீக்கு",
+actionPlanTag:"உங்கள் சமூக செயல் திட்டம்",actionPlanTitle:"உங்கள் சுற்றுப்புறத்திற்கான நடைமுறை நடவடிக்கைகள்",
+familyEyebrow:"05 / குடும்ப நலப் பாதுகாப்பு",familyTitle:"குடும்பத்தைப் பாதுகாக்க எளிய வழிகள்",
+familyIntro:"குழந்தைகள் மற்றும் முதியவர்கள் உள்ள வீடுகளுக்கு உதவும் செலவு குறைந்த முன்னெச்சரிக்கைகள்.",
+homeTitle:"வீட்டில்",homeText:"பிளாஸ்டிக், ரப்பர் மற்றும் குப்பைகளை எரிக்க வேண்டாம். சமையல் புகை வாழும் மற்றும் தூங்கும் இடங்களுக்குள் பரவாமல் பார்த்துக்கொள்ளுங்கள். திட எரிபொருள் பயன்படுத்தினால் காற்றோட்டத்தை மேம்படுத்தி, குழந்தைகளை புகையிலிருந்து விலக்குங்கள்.",
+cleanTitle:"தூய்மையான சமையல்",cleanText:"வசதியும் செலவுத் திறனும் இருந்தால் LPG, மின்சாரம் அல்லது உயிரிவாயு போன்ற தூய்மையான சமையல் முறைகளைப் பரிசீலிக்கவும்.",
+dustTitle:"தூசியைக் குறைக்கவும்",dustText:"சாத்தியமான இடங்களில் உலர்ந்த துடைப்புக்குப் பதிலாக ஈரத்துணி அல்லது ஈரமான சுத்தம் பயன்படுத்தவும். மணல் மற்றும் கட்டுமானப் பொருட்களை மூடி வைக்கவும்.",
+peopleTitle:"பாதிக்கப்படக்கூடியவர்களைப் பாதுகாக்கவும்",peopleText:"குழந்தைகள், முதியவர்கள், கர்ப்பிணிகள் மற்றும் இதயம் அல்லது நுரையீரல் பிரச்சினை உள்ளவர்கள் கூடுதல் கவனம் தேவைப்படலாம்.",
+villageEyebrow:"06 / கிராம அளவிலான தாக்கம்",villageTitle:"சிறிய உள்ளூர் நடவடிக்கைகள். ஆரோக்கியமான சமூகங்கள்.",
+villageIntro:"குடும்பங்கள், பள்ளிகள், விவசாயிகள் மற்றும் உள்ளாட்சி அமைப்புகள் இணைந்து செயல்பட்டால் மாசுபாட்டைத் தடுக்கலாம்.",
+v1Title:"குப்பைகளை முறையாகக் கையாளுங்கள்",v1Text:"ஈர மற்றும் உலர் குப்பைகளைப் பிரித்து, நிர்ணயிக்கப்பட்ட சேகரிப்பு இடங்களைப் பயன்படுத்துங்கள். திறந்தவெளியில் குப்பை எரிப்பதைத் தவிர்க்கவும்.",
+v2Title:"புகையற்ற சமையல் இடங்களை ஆதரிக்கவும்",v2Text:"தூய்மையான சமையல் வசதிகள், சமையலறை காற்றோட்டம் மற்றும் குழந்தைகளைப் புகையிலிருந்து விலக்குவது குறித்து விழிப்புணர்வு ஏற்படுத்துங்கள்.",
+v3Title:"சாலை மற்றும் கட்டுமானத் தூசியைக் குறைக்கவும்",v3Text:"தூசி ஏற்படுத்தும் பொருட்களை மூடி வைப்பது மற்றும் கட்டுமானக் கழிவுகளை முறையாகக் கையாள்வதை ஊக்குவிக்கவும்.",
+v4Title:"விவசாயிகளுடன் இணைந்து செயல்படுங்கள்",v4Text:"விவசாயக் கழிவுகளை எரிப்பதற்குப் பதிலாக சேகரித்தல், உரமாக்குதல் அல்லது உள்ளூருக்கு ஏற்ற மாற்று முறைகளை ஊக்குவிக்கவும்.",
+v5Title:"பள்ளிகள் மற்றும் உள்ளாட்சி அமைப்புகளை ஈடுபடுத்துங்கள்",v5Text:"விழிப்புணர்வு நிகழ்ச்சிகள் நடத்தி, மீண்டும் மீண்டும் ஏற்படும் புகை மூலங்களைப் பதிவு செய்து உள்ளாட்சியிடம் தெரிவிக்கவும்.",
+reportEyebrow:"07 / நடவடிக்கை எடுங்கள்",reportTitle:"உங்கள் உள்ளூர் சுற்றுச்சூழல் அறிக்கை",reportIntro:"அளவீடுகள், கவனிப்புகள் மற்றும் பரிந்துரைகளை குடும்பம் அல்லது சமூகத்துடன் பகிர்ந்து கொள்ள அச்சிடுங்கள்.",
+printReport:"அச்சிடு / சேமி",copyReport:"அறிக்கை உரையை நகலெடு",
+modelNotice:"முக்கியம்: இது கணினி மாதிரியை அடிப்படையாகக் கொண்ட வெளிக்காற்று மதிப்பீடு. அரசு கண்காணிப்பு நிலையத்தின் நேரடி அளவீடு அல்ல. சமையலறை புகையை இது அளவிடாது.",
+forecastNotice:"மாசுபாடு அதிகமாக இருந்தால் கடுமையான வெளிப்புற உடற்பயிற்சியைக் குறைத்து, குழந்தைகளை புகை மற்றும் தூசியிலிருந்து விலக்குங்கள்.",
+medicalNotice:"கடுமையான மூச்சுத்திணறல், நெஞ்சுவலி அல்லது மயக்கம் ஏற்பட்டால் மருத்துவ உதவியை நாடுங்கள். இந்த இணையதளம் நோயைக் கண்டறியாது.",
+peakTime:"அடுத்த 24 மணி நேர உச்சம்"
+},
+hi:{
+eyebrow:"ROAMX / सामुदायिक पर्यावरण जागरूकता",
+title:'अपनी हवा को समझें।<br><span>अपने समुदाय की रक्षा करें।</span>',
+intro:"बाहरी हवा की स्थिति जानें, प्रदूषण के संभावित स्रोत समझें, परिवार की रक्षा करें और आसपास के वातावरण को बेहतर बनाने के व्यावहारिक तरीके खोजें।",
+locationTitle:"स्थान की पहचान",search:"स्थान खोजें",gps:"◎ मेरा स्थान",
+locationHint:"स्थान खोजें या शुरू करने के लिए लोकेशन की अनुमति दें।",
+airEyebrow:"01 / बाहरी हवा की जाँच",airTitle:"इस स्थान की हवा में क्या है?",
+airIntro:"मॉडल-आधारित बाहरी हवा की स्थिति और ध्यान देने योग्य प्रदूषकों को समझें।",
+pollutantsEyebrow:"02 / प्रदूषकों का विवरण",pollutantsTitle:"किन प्रदूषकों पर ध्यान देना चाहिए?",
+pollutantsIntro:"सरल भाषा में माप का अर्थ समझें।",
+diagnosisTag:"माप की व्याख्या",diagnosisTitle:"डेटा क्या बताता है?",
+forecastEyebrow:"03 / अल्पकालिक अनुमान",forecastTitle:"हवा की गुणवत्ता कैसे बदल सकती है?",
+forecastIntro:"यह अनुमान बाहरी गतिविधियों की योजना बनाने में मदद करता है, लेकिन गारंटी नहीं है।",
+sourceEyebrow:"04 / स्थानीय सामुदायिक अवलोकन",sourceTitle:"आप आसपास प्रदूषण के कौन से स्रोत देखते हैं?",
+sourceIntro:"अपने घर या गाँव के आसपास जो वास्तव में देखते हैं, उसे चुनें। ये लोगों के अवलोकन हैं, स्वचालित पहचान नहीं।",
+srcWaste:"प्लास्टिक या घरेलू कचरा जलाना",srcWasteSub:"कचरा जलने से निकलने वाला धुआँ",
+srcCooking:"घर के अंदर खाना पकाने का धुआँ",srcCookingSub:"लकड़ी, उपले, कोयला या मिट्टी का तेल",
+srcRoad:"धूल भरी सड़कें",srcRoadSub:"वाहनों और हवा से उठने वाली धूल",
+srcTraffic:"वाहनों का धुआँ और यातायात",srcTrafficSub:"सड़क और चौराहों के पास धुआँ",
+srcCrop:"फसल अवशेष जलाना",srcCropSub:"खेतों में कृषि कचरा जलाने का धुआँ",
+srcIndustry:"कारखाने, ईंट भट्ठे या जनरेटर का धुआँ",srcIndustrySub:"आसपास के कामकाज से निकलने वाला धुआँ",
+srcConstruction:"निर्माण कार्य की धूल",srcConstructionSub:"रेत, सीमेंट और तोड़-फोड़ की धूल",
+srcOther:"अन्य या पता नहीं",srcOtherSub:"प्रदूषण दिखता है, लेकिन स्रोत पता नहीं",
+analyseSources:"मेरी स्थानीय कार्य योजना बनाएँ",clearSources:"चयन हटाएँ",
+actionPlanTag:"आपकी सामुदायिक कार्य योजना",actionPlanTitle:"आपके आसपास के लिए व्यावहारिक कदम",
+familyEyebrow:"05 / परिवार के स्वास्थ्य की सुरक्षा",familyTitle:"परिवार की सुरक्षा के सरल तरीके",
+familyIntro:"बच्चों और बुजुर्गों वाले घरों के लिए किफायती सावधानियाँ।",
+homeTitle:"घर पर",homeText:"प्लास्टिक, रबर और कचरा न जलाएँ। खाना पकाने के धुएँ को रहने और सोने की जगहों से दूर रखें। ठोस ईंधन का उपयोग करने पर वेंटिलेशन बेहतर करें और बच्चों को धुएँ से दूर रखें।",
+cleanTitle:"स्वच्छ खाना पकाना",cleanText:"जहाँ उपलब्ध और किफायती हो, LPG, बिजली या बायोगैस जैसे स्वच्छ विकल्पों पर विचार करें।",
+dustTitle:"धूल कम करें",dustText:"जहाँ संभव हो सूखी झाड़ू के बजाय गीले कपड़े से सफाई करें। रेत और निर्माण सामग्री को ढककर रखें।",
+peopleTitle:"कमज़ोर लोगों की रक्षा करें",peopleText:"बच्चों, बुजुर्गों, गर्भवती महिलाओं और हृदय या फेफड़ों की समस्या वाले लोगों को अतिरिक्त सावधानी की आवश्यकता हो सकती है।",
+villageEyebrow:"06 / गाँव के स्तर पर प्रभाव",villageTitle:"छोटे स्थानीय कदम। स्वस्थ समुदाय।",
+villageIntro:"परिवार, स्कूल, किसान और स्थानीय निकाय मिलकर प्रदूषण रोकने में मदद कर सकते हैं।",
+v1Title:"कचरे का सही प्रबंधन करें",v1Text:"गीले और सूखे कचरे को अलग करें और खुले में कचरा जलाने से बचें। पंचायत से कचरा संग्रह सेवा के बारे में पूछें।",
+v2Title:"धुआँ-मुक्त रसोई को बढ़ावा दें",v2Text:"स्वच्छ ईंधन, रसोई में वेंटिलेशन और बच्चों को धुएँ से दूर रखने के बारे में जागरूकता फैलाएँ।",
+v3Title:"सड़क और निर्माण की धूल घटाएँ",v3Text:"धूल पैदा करने वाली सामग्री को ढककर रखने और निर्माण कचरे का सही प्रबंधन करने को बढ़ावा दें।",
+v4Title:"किसानों के साथ काम करें",v4Text:"फसल अवशेष जलाने के बजाय संग्रह, खाद या स्थानीय रूप से उपयुक्त विकल्पों को बढ़ावा दें।",
+v5Title:"स्कूल और स्थानीय निकायों को जोड़ें",v5Text:"जागरूकता कार्यक्रम करें और बार-बार होने वाले धुएँ के स्रोतों की जानकारी पंचायत या संबंधित अधिकारियों को दें।",
+reportEyebrow:"07 / कार्रवाई करें",reportTitle:"आपकी स्थानीय पर्यावरण रिपोर्ट",reportIntro:"माप, अवलोकन और सुझावों को परिवार या समुदाय के साथ साझा करने के लिए प्रिंट करें।",
+printReport:"प्रिंट / सेव करें",copyReport:"रिपोर्ट कॉपी करें",
+modelNotice:"महत्वपूर्ण: यह मॉडल-आधारित बाहरी हवा का अनुमान है, सरकारी निगरानी केंद्र की रीडिंग नहीं। यह रसोई के अंदर के धुएँ को नहीं मापता।",
+forecastNotice:"प्रदूषण अधिक होने पर कठिन बाहरी गतिविधियाँ कम करें और बच्चों को धुएँ तथा धूल से दूर रखें।",
+medicalNotice:"गंभीर साँस की तकलीफ़, सीने में दर्द या बेहोशी होने पर चिकित्सा सहायता लें। यह वेबसाइट बीमारी का निदान नहीं करती।",
+peakTime:"अगले 24 घंटे का उच्चतम स्तर"
+}
 };
 
-let currentData = null;
-let searchTimer = null;
-let searchController = null;
-let toastTimer = null;
+const pollutantInfo = {
+pm2_5:{name:"PM2.5",unit:"µg/m³",about:"Very fine particles that can travel deep into the lungs. Sources can include smoke, burning, traffic and some industrial activity.",tip:"Avoid smoke where possible, do not burn rubbish, and reduce exposure during visible smoke episodes."},
+pm10:{name:"PM10",unit:"µg/m³",about:"Larger airborne particles often linked to road dust, construction, soil and some combustion sources.",tip:"Use damp cleaning, cover dusty materials and reduce dust generation near homes and schools."},
+carbon_monoxide:{name:"Carbon monoxide",unit:"µg/m³",about:"A gas produced by incomplete fuel burning. Indoor exposure can be dangerous, especially in poorly ventilated spaces.",tip:"Never use a generator or charcoal stove inside a room. Keep fuel-burning equipment away from enclosed living spaces."},
+nitrogen_dioxide:{name:"Nitrogen dioxide",unit:"µg/m³",about:"A gas associated with fuel combustion, including traffic, generators and some industrial sources.",tip:"Avoid standing near idling vehicles and keep children away from heavy traffic and exhaust."},
+sulphur_dioxide:{name:"Sulphur dioxide",unit:"µg/m³",about:"A gas that can be released when fuels containing sulphur are burned, including some industrial processes.",tip:"Avoid smoke plumes and report persistent industrial emissions to the appropriate local authority."},
+ozone:{name:"Ozone",unit:"µg/m³",about:"Ground-level ozone forms through reactions involving other pollutants and sunlight. It is different from the protective ozone layer high in the atmosphere.",tip:"When ozone is elevated, reduce strenuous outdoor activity during the hours identified as higher in the forecast."}
+};
+
+const sourceSolutions = {
+waste:{
+title:"Open waste burning",
+why:"Burning mixed rubbish can release harmful smoke and fine particles. Plastic and rubber burning should be avoided.",
+actions:["Do not burn plastic, rubber, wrappers or mixed household rubbish.","Separate wet and dry waste and use the available collection service.","Ask the panchayat or local body for a designated waste collection point.","Organise a community discussion about safe disposal instead of open burning."],
+who:"HOUSEHOLDS • PANCHAYAT • COMMUNITY"
+},
+cooking:{
+title:"Household cooking smoke",
+why:"Smoke from solid fuels can build up indoors and expose the people who spend the most time near the cooking area.",
+actions:["Where possible, move children and older people away from the cooking smoke.","Improve safe ventilation by allowing smoke to escape through suitable openings or a chimney.","Where affordable and available, explore LPG, electricity, biogas or other cleaner cooking options.","Never use a generator or charcoal-burning device inside a home or enclosed room."],
+who:"FAMILIES • HEALTH WORKERS • LOCAL SUPPORT PROGRAMMES"
+},
+road:{
+title:"Road and soil dust",
+why:"Wind and vehicle movement can lift dust into the air, especially on unpaved roads and near exposed soil.",
+actions:["Use damp cleaning around the home instead of dry sweeping where practical.","Cover sand, soil and dusty building materials.","Encourage suitable dust-control measures on frequently used roads.","Keep school play areas and household entrances as free from loose dust as practical."],
+who:"HOUSEHOLDS • ROAD AUTHORITIES • PANCHAYAT"
+},
+traffic:{
+title:"Vehicle exhaust",
+why:"Engines release pollutants, especially when vehicles are poorly maintained or left idling.",
+actions:["Switch off engines when waiting for a longer period where safe and practical.","Keep children away from busy road edges and vehicle exhaust.","Maintain vehicles and avoid unnecessary trips where alternatives exist.","Raise recurring heavy-exhaust concerns with local transport or pollution-control authorities."],
+who:"DRIVERS • FAMILIES • LOCAL AUTHORITIES"
+},
+crop:{
+title:"Crop-residue burning",
+why:"Open field burning produces smoke and fine particles that can affect nearby homes and communities.",
+actions:["Avoid burning crop residue where a practical alternative is available.","Explore collection, composting, mulching or locally supported residue-management methods.","Discuss available agricultural support and machinery with local agriculture officers.","Coordinate with neighbouring farms to reduce smoke exposure across the community."],
+who:"FARMERS • AGRICULTURE OFFICERS • COMMUNITY"
+},
+industry:{
+title:"Industrial and generator emissions",
+why:"Some industrial operations, brick kilns and generators can release smoke and gases, depending on fuel and equipment.",
+actions:["Avoid lingering near visible smoke plumes.","Keep children and vulnerable people away from the immediate emission area.","Record the time and general location of recurring smoke without putting yourself at risk.","Report persistent concerns to the relevant pollution-control authority or local administration."],
+who:"OPERATORS • LOCAL AUTHORITIES • POLLUTION CONTROL"
+},
+construction:{
+title:"Construction dust",
+why:"Uncovered sand, cement, demolition and vehicle movement can create airborne dust.",
+actions:["Cover stored sand and other dusty materials.","Use appropriate dust suppression during construction where safe and permitted.","Transport debris in a covered manner and dispose of it responsibly.","Keep children away from active dusty work areas."],
+who:"BUILDERS • CONTRACTORS • LOCAL AUTHORITIES"
+},
+other:{
+title:"Unidentified local pollution",
+why:"The source is not clear yet. Do not guess the cause from the outdoor model data alone.",
+actions:["Observe when the pollution appears: morning, evening, cooking time or during nearby activity.","Note visible smoke, smell, dust and the general location without approaching a suspected hazard.","Ask neighbours whether they notice the same pattern.","Share repeated concerns with local health workers or the appropriate local authority."],
+who:"RESIDENTS • COMMUNITY HEALTH WORKERS • LOCAL AUTHORITIES"
+}
+};
 
 function showToast(message){
-  const el=$("toast");
-  el.textContent=message;
-  el.classList.remove("hidden");
-  clearTimeout(toastTimer);
-  toastTimer=setTimeout(()=>el.classList.add("hidden"),3500);
+  const t=$("toast");t.textContent=message;t.style.display="block";
+  setTimeout(()=>t.style.display="none",2600);
 }
-
-function escapeHTML(value){
-  return String(value).replace(/[&<>"']/g,c=>({
-    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-  }[c]));
+function setStatus(message){$("locationStatus").textContent=message}
+function number(value){
+  return Number.isFinite(Number(value))?Number(value):null;
 }
-
-function getCategory(aqi){
-  if(aqi<=50)return {name:"Good",class:"category-good",title:"Air quality is good"};
-  if(aqi<=100)return {name:"Moderate",class:"category-moderate",title:"Moderate air quality"};
-  if(aqi<=150)return {name:"Unhealthy for sensitive groups",class:"category-sensitive",title:"Sensitive groups may be affected"};
-  if(aqi<=200)return {name:"Unhealthy",class:"category-unhealthy",title:"Air quality is unhealthy"};
-  if(aqi<=300)return {name:"Very unhealthy",class:"category-very",title:"Air quality is very unhealthy"};
-  return {name:"Hazardous",class:"category-hazardous",title:"Hazardous air quality"};
+function fmt(value){
+  const n=number(value);
+  return n===null?"--":n.toFixed(n<10?1:0);
 }
-
-function getRisk(aqi){
-  if(aqi<=50)return {
-    title:"Favourable air-quality conditions",
-    description:"The modelled AQI indicates relatively clean air. Continue normal activities while remaining aware of local conditions.",
-    respiratory:"Generally favourable conditions. People with respiratory conditions should continue their usual care.",
-    heart:"No additional AQI-based precautions are generally indicated.",
-    outdoor:"Normal outdoor activities are generally suitable.",
-    solutions:[
-      ["Maintain good habits","Continue avoiding unnecessary emissions and keep indoor spaces clean."],
-      ["Protect green spaces","Support trees, parks and local environmental conservation."],
-      ["Stay informed","Check forecasts when weather or pollution conditions change."]
-    ]
-  };
-  if(aqi<=100)return {
-    title:"Moderate environmental conditions",
-    description:"Most people can continue normal activities. Unusually sensitive individuals may experience mild effects.",
-    respiratory:"People unusually sensitive to air pollution should monitor symptoms.",
-    heart:"People with existing heart conditions should follow their normal care plan.",
-    outdoor:"Most outdoor activities can continue. Sensitive individuals should consider reducing prolonged exertion if symptoms occur.",
-    solutions:[
-      ["Monitor symptoms","Pay attention to coughing, wheezing or breathing discomfort."],
-      ["Plan outdoor activity","Consider local conditions when exercising outdoors."],
-      ["Reduce emissions","Avoid unnecessary vehicle idling and open burning."]
-    ]
-  };
-  if(aqi<=150)return {
-    title:"Increased sensitivity risk",
-    description:"Sensitive groups may experience health effects. Children, older adults and people with respiratory or cardiovascular conditions should take additional care.",
-    respiratory:"People with asthma or other respiratory conditions should reduce prolonged heavy outdoor exertion.",
-    heart:"People with cardiovascular conditions should pay attention to symptoms and follow medical guidance.",
-    outdoor:"Consider shorter outdoor activities, especially strenuous exercise.",
-    solutions:[
-      ["Reduce prolonged exposure","Limit strenuous outdoor activity, especially for sensitive groups."],
-      ["Follow health guidance","Use prescribed medication as directed and follow professional advice."],
-      ["Improve indoor conditions","Keep indoor air clean and use suitable filtration where available."]
-    ]
-  };
-  if(aqi<=200)return {
-    title:"Unhealthy air-quality conditions",
-    description:"Everyone may begin to experience health effects. Sensitive groups may experience more serious effects.",
-    respiratory:"Reduce outdoor exertion. People with respiratory conditions should be especially cautious.",
-    heart:"People with heart disease should avoid strenuous outdoor activity and monitor symptoms.",
-    outdoor:"Move strenuous exercise indoors where indoor air is cleaner.",
-    solutions:[
-      ["Limit outdoor exertion","Reduce prolonged or intense physical activity outdoors."],
-      ["Use suitable protection","A well-fitted particulate respirator may reduce particle exposure, but does not protect against all gases."],
-      ["Keep indoor air cleaner","Close windows during high pollution episodes if outdoor air is worse; use appropriate filtration."]
-    ]
-  };
-  return {
-    title:"Very poor to hazardous conditions",
-    description:"The AQI indicates a high pollution risk. Everyone should reduce exposure and follow official local health advisories.",
-    respiratory:"Avoid outdoor exertion. Seek medical attention for severe breathing difficulty.",
-    heart:"People with cardiovascular conditions should follow medical advice and avoid unnecessary exposure.",
-    outdoor:"Avoid strenuous outdoor activity. Follow local emergency or public-health instructions.",
-    solutions:[
-      ["Avoid unnecessary exposure","Stay indoors in cleaner air where possible."],
-      ["Follow official alerts","Monitor government pollution and public-health advisories."],
-      ["Seek help when needed","Contact medical services if severe symptoms occur."]
-    ]
-  };
+function getAqiBand(aqi){
+  if(aqi===null)return ["Unavailable",""];
+  if(aqi<=50)return ["Good","good"];
+  if(aqi<=100)return ["Moderate","moderate"];
+  if(aqi<=150)return ["Unhealthy for sensitive groups","poor"];
+  if(aqi<=200)return ["Unhealthy","bad"];
+  if(aqi<=300)return ["Very unhealthy","bad"];
+  return ["Hazardous","bad"];
 }
-
-function renderMetrics(data){
-  const current=data.current||{};
-  $("metrics").innerHTML=pollutantInfo.map(p=>`
-    <div class="metric">
-      <span class="metric-symbol">${p.symbol}</span>
-      <h3>${p.name}</h3>
-      <div class="metric-value">${Number.isFinite(current[p.key])?current[p.key].toFixed(1):"—"}</div>
-      <span class="metric-unit">${p.unit}</span>
-      <div class="metric-desc">${p.desc}</div>
-    </div>
-  `).join("");
-
-  $("pollutants").innerHTML=pollutantInfo.map(p=>{
-    const value=current[p.key];
-    const valid=Number.isFinite(value);
-    const width=valid?Math.min(100,Math.max(0,value/p.limit*100)):0;
-    return `
-      <div class="pollutant">
-        <h3>${p.name}</h3>
-        <strong>${valid?value.toFixed(1):"—"}</strong>
-        <small>${p.unit} · ${p.desc}</small>
-        <div class="bar"><span style="width:${width}%"></span></div>
-      </div>
-    `;
-  }).join("");
-}
-
-function renderForecast(data){
-  const times=data.hourly?.time||[];
-  const values=data.hourly?.us_aqi||[];
-  const now=new Date();
-  const entries=[];
-
-  for(let i=0;i<times.length;i++){
-    const date=new Date(times[i]);
-    if(date>=new Date(now.getTime()-60*60*1000)&&entries.length<12){
-      entries.push({time:date,value:values[i]});
-    }
-  }
-
-  if(!entries.length){
-    $("forecastChart").textContent="Forecast unavailable for this location.";
-    return;
-  }
-
-  const max=Math.max(100,...entries.map(x=>Number(x.value)||0));
-
-  $("forecastChart").innerHTML=entries.map(item=>{
-    const value=Number(item.value);
-    const height=Number.isFinite(value)?Math.max(4,value/max*140):4;
-    const label=item.time.toLocaleTimeString([],{hour:"2-digit",hour12:true});
-    return `
-      <div class="chart-column" title="${label}: ${Number.isFinite(value)?value:"Unavailable"} AQI">
-        <span class="chart-value">${Number.isFinite(value)?Math.round(value):"—"}</span>
-        <div class="chart-bar" style="height:${height}px"></div>
-        <span class="chart-time">${label}</span>
-      </div>
-    `;
-  }).join("");
-}
-
-function renderAssessment(aqi){
-  const risk=getRisk(aqi);
-
-  $("riskTitle").textContent=risk.title;
-  $("riskDescription").textContent=risk.description;
-
-  $("riskGrid").innerHTML=[
-    ["🫁","Respiratory health",risk.respiratory],
-    ["❤️","Heart health",risk.heart],
-    ["🌿","Outdoor activity",risk.outdoor]
-  ].map(item=>`
-    <div class="risk-card">
-      <div class="risk-icon">${item[0]}</div>
-      <h3>${item[1]}</h3>
-      <p>${item[2]}</p>
-    </div>
-  `).join("");
-
-  $("solutions").innerHTML=risk.solutions.map((item,i)=>`
-    <div class="solution">
-      <div class="solution-number">${String(i+1).padStart(2,"0")}</div>
-      <div><h3>${item[0]}</h3><p>${item[1]}</p></div>
-    </div>
-  `).join("");
-}
-
-function renderGreenScore(aqi){
-  const score=Math.max(0,Math.min(100,Math.round(100-(aqi/500*100))));
-  $("greenScore").textContent=score;
-
-  let title="Environmental conditions need attention";
-  if(score>=80)title="Relatively cleaner atmospheric conditions";
-  else if(score>=60)title="Moderate environmental conditions";
-  else if(score>=40)title="Elevated pollution pressure";
-
-  $("greenTitle").textContent=title;
-  $("greenDescription").textContent=
-    `The educational Green Score is ${score}/100, calculated from the inverse of the modelled US AQI. It is not an official environmental or sustainability rating.`;
-}
-
-function renderData(data,location){
-  const current=data.current||{};
-  const aqi=Number(current.us_aqi);
-
-  if(!Number.isFinite(aqi)){
-    throw new Error("The air-quality provider did not return a valid US AQI value.");
-  }
-
-  currentData=data;
-  currentLocation=location;
-
-  const category=getCategory(aqi);
-  $("aqiValue").textContent=Math.round(aqi);
-  $("aqiCategory").textContent=category.name;
-  $("aqiCategory").className="aqi-category "+category.class;
-  $("aqiMarker").style.left=Math.min(100,aqi/400*100)+"%";
-
-  const dominant=pollutantInfo
-    .filter(p=>Number.isFinite(current[p.key]))
-    .sort((a,b)=>(current[b.key]/b.limit)-(current[a.key]/a.limit))[0];
-
-  $("dominantPollutant").textContent=dominant?dominant.name:"Unavailable";
-  $("cityHeading").textContent=location.name+" · Air quality";
-  $("citySubheading").textContent=
-    [location.country,data.timezone].filter(Boolean).join(" · ");
-
-  renderMetrics(data);
-  renderForecast(data);
-  renderAssessment(aqi);
-  renderGreenScore(aqi);
-
-  const timestamp=current.time?new Date(current.time):new Date();
-  $("updateTime").textContent="Model data time: "+timestamp.toLocaleString();
-  $("locationStatus").className="location-status";
-  $("locationStatus").textContent=
-    `Monitoring ${location.name}, ${location.country||""} · ${location.latitude.toFixed(3)}, ${location.longitude.toFixed(3)}`;
-
-  $("dashboard").classList.remove("loading");
-}
-
-async function fetchAirQuality(location){
-  $("dashboard").classList.add("loading");
-  $("locationStatus").textContent="Retrieving atmospheric information...";
-  $("locationStatus").className="location-status";
-
-  const params=new URLSearchParams({
-    latitude:location.latitude,
-    longitude:location.longitude,
-    current:"us_aqi,european_aqi,pm2_5,pm10,carbon_monoxide,nitrogen_dioxide,sulphur_dioxide,ozone",
-    hourly:"us_aqi,pm2_5,pm10",
-    forecast_hours:"24",
-    timezone:"auto",
-    domains:"auto"
+function setLanguage(lang){
+  currentLanguage=lang;
+  document.documentElement.lang=lang;
+  const dict=translations[lang];
+  document.querySelectorAll("[data-i18n]").forEach(el=>{
+    const key=el.dataset.i18n;
+    if(dict[key])el.innerHTML=dict[key];
   });
-
-  const controller=new AbortController();
-  const timeout=setTimeout(()=>controller.abort(),18000);
-
-  try{
-    const response=await fetch(`${AIR_API}?${params}`,{signal:controller.signal});
-    if(!response.ok)throw new Error("Air-quality service returned HTTP "+response.status);
-    const data=await response.json();
-
-    if(data.error)throw new Error(data.reason||"Invalid data response");
-
-    renderData(data,location);
-  }catch(error){
-    $("dashboard").classList.remove("loading");
-    $("locationStatus").className="location-status error";
-    $("locationStatus").textContent=
-      error.name==="AbortError"
-      ?"Request timed out. Please try again."
-      :"Unable to retrieve air-quality data. "+error.message;
-    showToast("Could not load environmental data.");
-  }finally{
-    clearTimeout(timeout);
-  }
+  $("placeInput").placeholder=
+    lang==="ta"?"கிராமம், ஊர் அல்லது நகரத்தை உள்ளிடுங்கள்":
+    lang==="hi"?"गाँव, कस्बा या शहर दर्ज करें":
+    "Enter village, town, district or city";
 }
+$("language").addEventListener("change",e=>setLanguage(e.target.value));
 
-async function searchCities(query){
-  if(searchController)searchController.abort();
-  searchController=new AbortController();
-
-  const params=new URLSearchParams({
-    name:query,
-    count:"7",
-    language:"en",
-    format:"json"
-  });
-
-  const response=await fetch(`${GEO_API}?${params}`,{signal:searchController.signal});
-  if(!response.ok)throw new Error("City search unavailable");
-
+async function geocode(query){
+  const url="https://geocoding-api.open-meteo.com/v1/search?name="+
+    encodeURIComponent(query)+"&count=8&language=en&format=json";
+  const response=await fetch(url);
+  if(!response.ok)throw new Error("Location search unavailable");
   const data=await response.json();
   return data.results||[];
 }
-
-$("citySearch").addEventListener("input",event=>{
-  clearTimeout(searchTimer);
-  const query=event.target.value.trim();
-
-  if(query.length<2){
-    $("searchResults").classList.add("hidden");
-    return;
-  }
-
-  searchTimer=setTimeout(async()=>{
-    try{
-      const results=await searchCities(query);
-      const box=$("searchResults");
-
-      if(!results.length){
-        box.innerHTML='<div class="search-result">No matching locations found.</div>';
-      }else{
-        box.innerHTML=results.map((city,i)=>`
-          <button class="search-result" data-index="${i}">
-            ${escapeHTML(city.name)}
-            <small>${escapeHTML([city.admin1,city.country].filter(Boolean).join(", "))}</small>
-          </button>
-        `).join("");
-
-        box.querySelectorAll("button").forEach(button=>{
-          button.addEventListener("click",()=>{
-            const city=results[Number(button.dataset.index)];
-            const location={
-              name:city.name,
-              country:city.country||"",
-              latitude:city.latitude,
-              longitude:city.longitude
-            };
-            $("citySearch").value=city.name;
-            box.classList.add("hidden");
-            fetchAirQuality(location);
-          });
-        });
-      }
-
-      box.classList.remove("hidden");
-    }catch(error){
-      if(error.name!=="AbortError")showToast("City search failed.");
-    }
-  },350);
-});
-
-document.addEventListener("click",event=>{
-  if(!event.target.closest(".search-wrap")){
-    $("searchResults").classList.add("hidden");
-  }
-});
-
-$("locateBtn").addEventListener("click",()=>{
-  if(!navigator.geolocation){
-    showToast("Geolocation is not supported by this browser.");
-    return;
-  }
-
-  $("locationStatus").textContent="Requesting location permission...";
-
-  navigator.geolocation.getCurrentPosition(
-    async position=>{
-      const location={
-        name:"Your location",
-        country:"Detected coordinates",
-        latitude:position.coords.latitude,
-        longitude:position.coords.longitude
-      };
-      $("citySearch").value="";
-      await fetchAirQuality(location);
-    },
-    error=>{
-      const messages={
-        1:"Location permission was denied.",
-        2:"Your location could not be determined.",
-        3:"Location request timed out."
-      };
-      $("locationStatus").className="location-status error";
-      $("locationStatus").textContent=messages[error.code]||"Location unavailable.";
-    },
-    {enableHighAccuracy:false,timeout:12000,maximumAge:300000}
-  );
-});
-
-$("refreshBtn").addEventListener("click",()=>{
-  fetchAirQuality(currentLocation);
-});
-
-$("menuBtn").addEventListener("click",()=>{
-  $("navLinks").classList.toggle("open");
-});
-
-$("navLinks").querySelectorAll("a").forEach(link=>{
-  link.addEventListener("click",()=>$("navLinks").classList.remove("open"));
-});
-
-const hotspotCities=[
-  {name:"Chennai",country:"India",latitude:13.0827,longitude:80.2707},
-  {name:"Delhi",country:"India",latitude:28.6139,longitude:77.2090},
-  {name:"Mumbai",country:"India",latitude:19.0760,longitude:72.8777},
-  {name:"Bengaluru",country:"India",latitude:12.9716,longitude:77.5946},
-  {name:"Kolkata",country:"India",latitude:22.5726,longitude:88.3639}
-];
-
-async function getCityAQI(city){
-  const params=new URLSearchParams({
-    latitude:city.latitude,
-    longitude:city.longitude,
-    current:"us_aqi",
-    timezone:"auto"
-  });
-
-  const response=await fetch(`${AIR_API}?${params}`);
-  if(!response.ok)throw new Error("City data unavailable");
-  const data=await response.json();
-
-  return Number(data.current?.us_aqi);
-}
-
-async function loadHotspots(){
-  const grid=$("hotspotGrid");
-  grid.innerHTML=hotspotCities.map((city,i)=>`
-    <div class="city-card" id="hotspot-${i}">
-      <h3>${city.name}</h3>
-      <strong>--</strong>
-      <small>Loading...</small>
-    </div>
-  `).join("");
-
-  await Promise.all(hotspotCities.map(async(city,i)=>{
-    const card=$("hotspot-"+i);
-    try{
-      const aqi=await getCityAQI(city);
-      const category=getCategory(aqi);
-      card.innerHTML=`
-        <h3>${city.name}</h3>
-        <strong>${Math.round(aqi)}</strong>
-        <small>${category.name} · US AQI</small>
-      `;
-    }catch(error){
-      card.innerHTML=`<h3>${city.name}</h3><strong>--</strong><small>Unavailable</small>`;
-    }
-  }));
-}
-
-$("hotspotRefresh").addEventListener("click",loadHotspots);
-
-async function geocodeCity(name){
-  const results=await searchCities(name);
-  if(!results.length)throw new Error(`City "${name}" was not found.`);
-  const city=results[0];
-  return {
-    name:city.name,
-    country:city.country||"",
-    latitude:city.latitude,
-    longitude:city.longitude
-  };
-}
-
-$("compareBtn").addEventListener("click",async()=>{
-  const a=$("cityA").value.trim();
-  const b=$("cityB").value.trim();
-  const output=$("compareResult");
-
-  if(!a||!b){
-    output.textContent="Please enter both city names.";
-    return;
-  }
-
-  if(a.toLowerCase()===b.toLowerCase()){
-    output.textContent="Please enter two different cities.";
-    return;
-  }
-
-  $("compareBtn").disabled=true;
-  $("compareBtn").textContent="Comparing...";
-  output.textContent="Retrieving data for both locations...";
-
+async function loadLocation(place){
+  currentLocation=place;
+  $("locationName").textContent=[place.name,place.admin1,place.country].filter(Boolean).join(", ");
+  setStatus("Loading outdoor air-quality estimate...");
+  $("airSection").classList.add("loading");
   try{
-    const [locationA,locationB]=await Promise.all([
-      geocodeCity(a),geocodeCity(b)
-    ]);
-
-    const [aqiA,aqiB]=await Promise.all([
-      getCityAQI(locationA),getCityAQI(locationB)
-    ]);
-
-    if(!Number.isFinite(aqiA)||!Number.isFinite(aqiB)){
-      throw new Error("One or both AQI readings are unavailable.");
-    }
-
-    const difference=Math.abs(aqiA-aqiB);
-    const cleaner=aqiA<aqiB?locationA.name:
-      aqiB<aqiA?locationB.name:"Both cities have equal AQI values";
-
-    output.innerHTML=`
-      <div class="compare-layout">
-        <div class="compare-box">
-          <strong>${escapeHTML(locationA.name)}</strong>
-          <div style="font:700 32px Manrope;color:var(--gold2)">${Math.round(aqiA)}</div>
-          <small>${getCategory(aqiA).name} · US AQI</small>
-        </div>
-        <div class="compare-box">
-          <strong>${escapeHTML(locationB.name)}</strong>
-          <div style="font:700 32px Manrope;color:var(--gold2)">${Math.round(aqiB)}</div>
-          <small>${getCategory(aqiB).name} · US AQI</small>
-        </div>
-      </div>
-      <p style="margin-top:15px">
-        ${escapeHTML(cleaner)} has the lower modelled AQI by ${Math.round(difference)} points.
-      </p>
-      <small>Comparison is based on modelled data retrieved at approximately the same time, not permanent city rankings.</small>
-    `;
+    const params=new URLSearchParams({
+      latitude:place.latitude,longitude:place.longitude,
+      current:"us_aqi,pm2_5,pm10,carbon_monoxide,nitrogen_dioxide,sulphur_dioxide,ozone",
+      hourly:"us_aqi,pm2_5,pm10,carbon_monoxide,nitrogen_dioxide,sulphur_dioxide,ozone",
+      forecast_days:"2",timezone:"auto",domains:"auto"
+    });
+    const response=await fetch("https://air-quality-api.open-meteo.com/v1/air-quality?"+params);
+    if(!response.ok)throw new Error("Air-quality service unavailable");
+    airData=await response.json();
+    renderAir();
+    setStatus("Outdoor model data loaded. This is an estimate, not a local sensor reading.");
+    $("updatedAt").textContent="Model time: "+(airData.current?.time||"Not supplied")+
+      " · Time zone: "+(airData.timezone||"Local");
+    updateReport();
   }catch(error){
-    output.textContent=error.message;
+    setStatus("Unable to load data right now. Please try again later or choose another location.");
+    $("airSummary").textContent=error.message;
   }finally{
-    $("compareBtn").disabled=false;
-    $("compareBtn").textContent="Compare cities →";
+    $("airSection").classList.remove("loading");
   }
+}
+function renderAir(){
+  if(!airData||!airData.current)return;
+  const c=airData.current;
+  const aqi=number(c.us_aqi);
+  const band=getAqiBand(aqi);
+  $("aqiValue").textContent=aqi===null?"--":Math.round(aqi);
+  $("aqiLabel").textContent=band[0];
+  $("aqiLabel").className="pill "+band[1];
+  $("aqiCircle").style.borderColor=
+    band[1]==="good"?"#70d6a0":band[1]==="moderate"?"#e8bd68":
+    band[1]==="poor"?"#ffae69":"#ff7777";
+  $("pm25Value").textContent=fmt(c.pm2_5);
+  $("pm10Value").textContent=fmt(c.pm10);
+  $("airHeadline").textContent=aqi===null?"Pollutant readings available":"Outdoor air: "+band[0];
+  $("airSummary").textContent=aqi===null?
+    "An overall US AQI value was not returned. Review the individual pollutant readings below.":
+    "The model estimates a US AQI of "+Math.round(aqi)+". Use the pollutant breakdown and local observations below to decide what actions may help.";
+  renderPollutants(c);
+  renderDiagnosis(c);
+  renderForecast();
+}
+function renderPollutants(c){
+  const fields=Object.keys(pollutantInfo);
+  $("pollutantGrid").innerHTML=fields.map(key=>{
+    const info=pollutantInfo[key],v=number(c[key]);
+    const max=key==="pm2_5"?75:key==="pm10"?150:
+      key==="carbon_monoxide"?10000:key==="nitrogen_dioxide"?100:
+      key==="sulphur_dioxide"?100:120;
+    const pct=v===null?0:Math.max(0,Math.min(100,v/max*100));
+    return `<div class="pollutant">
+      <div class="tag">${info.name}</div>
+      <strong>${fmt(v)}</strong><span class="unit"> ${info.unit}</span>
+      <small>${info.about}</small>
+      <div class="bar"><i style="width:${pct}%"></i></div>
+    </div>`;
+  }).join("");
+}
+function renderDiagnosis(c){
+  const values=Object.keys(pollutantInfo)
+    .map(k=>({key:k,value:number(c[k])}))
+    .filter(x=>x.value!==null);
+  if(!values.length){
+    $("diagnosisText").innerHTML="<p>No pollutant values were returned for this location. Try again later.</p>";
+    return;
+  }
+  const highest=values.slice().sort((a,b)=>b.value-a.value)[0];
+  const info=pollutantInfo[highest.key];
+  $("diagnosisText").innerHTML=`
+    <div class="info-card">
+      <span class="pill">Available reading requiring attention</span>
+      <h3 style="margin-top:12px;color:var(--gold)">${info.name}: ${fmt(highest.value)} ${info.unit}</h3>
+      <p>${info.about}</p>
+      <p><b>Practical step:</b> ${info.tip}</p>
+    </div>
+    <p style="font-size:12px;margin-top:12px">
+      This is a simple reading-based highlight, not a source diagnosis or medical assessment.
+      Different pollutants have different units and health thresholds, so their raw numbers
+      should not be compared directly to decide which is most dangerous.
+    </p>`;
+}
+function renderForecast(){
+  const h=airData.hourly;
+  if(!h||!h.time){$("forecastGrid").innerHTML="<p>Forecast unavailable.</p>";return;}
+  const now=airData.current?.time;
+  let start=h.time.findIndex(t=>t>=now);
+  if(start<0)start=0;
+  const items=[];
+  for(let i=start;i<Math.min(start+24,h.time.length);i+=4){
+    const aqi=number(h.us_aqi?.[i]);
+    const date=new Date(h.time[i]);
+    items.push({time:date.toLocaleTimeString([], {hour:"2-digit",minute:"2-digit"}),aqi});
+  }
+  $("forecastGrid").innerHTML=items.map(item=>{
+    const b=getAqiBand(item.aqi);
+    return `<div class="hour"><small>${item.time}</small><strong class="${b[1]}">${item.aqi===null?"--":Math.round(item.aqi)}</strong><small>${b[0]}</small></div>`;
+  }).join("");
+  const valid=items.filter(x=>x.aqi!==null);
+  if(valid.length){
+    const peak=valid.reduce((a,b)=>b.aqi>a.aqi?b:a);
+    $("peakTime").textContent=peak.time;
+  }
+}
+$("searchBtn").addEventListener("click",async()=>{
+  const query=$("placeInput").value.trim();
+  if(!query){setStatus("Please enter a village, town, district or city.");return;}
+  setStatus("Searching for locations...");
+  try{
+    const results=await geocode(query);
+    if(!results.length){setStatus("No matching place found. Try a nearby town or district name.");return;}
+    if(results.length===1){loadLocation(results[0]);return;}
+    const options=results.map((r,i)=>
+      `${i+1}. ${[r.name,r.admin1,r.country].filter(Boolean).join(", ")}`
+    ).join("\n");
+    const choice=prompt("Choose the correct location by number:\n\n"+options);
+    const index=Number(choice)-1;
+    if(Number.isInteger(index)&&results[index])loadLocation(results[index]);
+    else setStatus("Location selection cancelled.");
+  }catch(e){setStatus("Location search failed. Check your internet connection.");}
+});
+$("placeInput").addEventListener("keydown",e=>{
+  if(e.key==="Enter")$("searchBtn").click();
+});
+$("gpsBtn").addEventListener("click",()=>{
+  if(!navigator.geolocation){setStatus("Location services are not supported by this browser.");return;}
+  setStatus("Requesting your location permission...");
+  navigator.geolocation.getCurrentPosition(async pos=>{
+    const lat=pos.coords.latitude,lon=pos.coords.longitude;
+    try{
+      const url=`https://geocoding-api.open-meteo.com/v1/reverse?latitude=${lat}&longitude=${lon}&language=en&format=json`;
+      const response=await fetch(url);
+      const data=await response.json();
+      const place=data.results?.[0]||{
+        name:"Your detected location",latitude:lat,longitude:lon,country:""
+      };
+      place.latitude=lat;place.longitude=lon;
+      loadLocation(place);
+    }catch(e){
+      loadLocation({name:"Your detected location",latitude:lat,longitude:lon,country:""});
+    }
+  },err=>{
+    setStatus(err.code===1?"Location permission was denied. You can search for your village or town instead.":"Could not detect location. Please search manually.");
+  },{enableHighAccuracy:false,timeout:12000,maximumAge:300000});
 });
 
-// INITIALISE
-fetchAirQuality(currentLocation);
-loadHotspots();
-</script>
+$("sourceForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const selected=[...document.querySelectorAll('#sourceForm input:checked')].map(x=>x.value);
+  if(!selected.length){showToast("Please select at least one observed source.");return;}
+  const list=selected.map(key=>sourceSolutions[key]);
+  $("sourceSummary").textContent=
+    "These recommendations are based on the pollution sources you selected. They are not automatically detected by the air-quality model.";
+  $("solutionList").innerHTML=list.map(s=>`
+    <div class="solution">
+      <div class="who">${s.who}</div>
+      <h3>${s.title}</h3>
+      <p>${s.why}</p>
+      <ul>${s.actions.map(a=>`<li>${a}</li>`).join("")}</ul>
+    </div>`).join("");
+  $("sourceResults").classList.remove("hidden");
+  updateReport();
+  $("sourceResults").scrollIntoView({behavior:"smooth",block:"start"});
+});
+$("sourceForm").addEventListener("reset",()=>{
+  $("sourceResults").classList.add("hidden");
+  setTimeout(updateReport,0);
+});
+function updateReport(){
+  const loc=currentLocation?
+    [currentLocation.name,currentLocation.admin1,currentLocation.country].filter(Boolean).join(", "):
+    "No location selected";
+  const c=airData?.current||{};
+  const selected=[...document.querySelectorAll('#sourceForm input:checked')].map(x=>x.value);
+  const observations=selected.length?selected.map(k=>sourceSolutions[k].title).join(", "):"No local sources selected";
+  const readings=Object.keys(pollutantInfo).map(k=>
+    `${pollutantInfo[k].name}: ${fmt(c[k])} ${pollutantInfo[k].unit}`
+  ).join("\n");
+  const actions=selected.length?selected.flatMap(k=>sourceSolutions[k].actions).map(x=>"- "+x).join("\n"):"Select observed pollution sources to generate targeted actions.";
+  currentReport=`ROAMX COMMUNITY ECO REPORT
+Location: ${loc}
+Model time: ${c.time||"Not available"}
+US AQI (modelled): ${c.us_aqi??"Not available"}
 
+POLLUTANT READINGS
+${readings}
+
+LOCAL OBSERVATIONS
+${observations}
+
+SUGGESTED ACTIONS
+${actions}
+
+IMPORTANT
+Outdoor estimates are model-based, not official local station measurements.
+This report does not measure indoor pollution or diagnose health conditions.
+CAMS data via Open-Meteo Air Quality API.
+
+Designed & Developed by Sabarish P | B.Tech IT`;
+  $("reportContent").innerHTML=`
+    <h3>ROAMX Community Eco Report</h3>
+    <p><b>Location:</b> ${loc}</p>
+    <p><b>Modelled US AQI:</b> ${c.us_aqi??"--"}</p>
+    <p><b>Local observations:</b> ${observations}</p>
+    <p><b>Pollutant readings:</b></p>
+    <ul>${Object.keys(pollutantInfo).map(k=>`<li>${pollutantInfo[k].name}: ${fmt(c[k])} ${pollutantInfo[k].unit}</li>`).join("")}</ul>
+    <p><b>Suggested actions:</b></p>
+    <pre style="white-space:pre-wrap;font:inherit;color:inherit">${actions}</pre>
+    <p style="font-size:11px">Model-based outdoor estimate. Not an official monitoring-station reading or medical diagnosis.</p>`;
+}
+$("printBtn").addEventListener("click",()=>{
+  updateReport();
+  window.print();
+});
+$("copyBtn").addEventListener("click",async()=>{
+  updateReport();
+  try{
+    await navigator.clipboard.writeText(currentReport);
+    showToast("Report copied.");
+  }catch(e){showToast("Copy not available in this browser. Use Print / Save instead.");}
+});
+updateReport();
+</script>
 </body>
 </html>
