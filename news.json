@@ -240,37 +240,82 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-11T18:33:16Z",
-    "lastSuccessfulRun": "2026-11-11T18:33:16Z",
-    "lastUpdated": "2026-11-11T18:33:16Z",
-    "articlesAdded": 5,
+    "lastRun": "2026-11-12T00:58:14Z",
+    "lastSuccessfulRun": "2026-11-12T00:58:14Z",
+    "lastUpdated": "2026-11-12T00:58:14Z",
+    "articlesAdded": 10,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 55,
+    "duplicatesRemoved": 44,
     "failedSources": [],
     "newArticleIds": [
-      "dca5567d10621e2ed5e0",
-      "bdde93bd0e429cce442b",
-      "aeacf9e2a9c2ff3facae",
-      "7cec2e3d93b79945670c",
-      "da95e35982ec704cbdfe"
+      "526f8db8c798f35ca5d4",
+      "86bf19c8e6ec48df7492",
+      "d100ffcedc4bf2a4e092",
+      "e7c9639f048bd60131f6",
+      "10109e1a76d22885d829",
+      "1067aab165e5a39b429e",
+      "a54cd32bca03768f36f8",
+      "80025ee05c02df15dee0",
+      "dc39db46376dbc78e14d",
+      "c4e62401208fde62eef7"
     ],
     "updatedArticleIds": [],
     "articlesRemoved": 0,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 61,
+    "totalArticles": 71,
     "categories": {
-      "World": 19,
+      "World": 24,
       "India": 8,
-      "Technology": 4,
-      "Environment": 23,
-      "Disaster": 7
+      "Technology": 5,
+      "Environment": 25,
+      "Disaster": 9
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "526f8db8c798f35ca5d4",
+      "title": "LIVE | End of an era! SS United States sinks as the world's largest artificial reef takes shape - The Economic Times",
+      "description": "LIVE | End of an era! SS United States sinks as the world's largest artificial reef takes shape The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTXVUY2s0SHpSbW40OWw4TXZ1ZExkWTkxMGpOSmg4YXhoWjBiajcxc05QQkdiU3Z2VGFqZzVMQ0JrSWh5aUl2RDl6Nm5qeEJiMnBqeEZzTWY2YlN3UWJwQ216Rl9GTFRtT0NnbzV3bXd3UkZNaTkwZmFNOWdHbTFwX0E3ckJzZWt3b3VhM21oWFdTbWxtTmo3QkZ3V1FPOHozWDZVS1FGWGdGQjBCd2VtbDYta284QUpCLTQySlZTZW5kT09LeDJaNnNNN24zTElKQm0yYUF2N0NnenlNZGhlOFdqVURFR3hDQ2ZQSXVobjdhNmhLT3hLQnJEay1nUy1nbllV0gGIAkFVX3lxTE4yNU5OcUVZODlLay0taWlwd19DUXY1Z19KSDVkclJGbjlCVmdXUE5JdzBLZ21hbUttRTh0dU1uQnYweDRxRmFEWnBvbk9PRXMyNGRaTmVlY3prc1RMajg4RE15RjdRLUx2TFNKOUxKSWcxT0VObnlVYktrTnFxTjZsamwwSVNPQVpUM185eW15bF8zOURlSi1YQk8yM0lTV3BpUE10b0ljQ0RVYWZUdllGVXY2RVVJUFVtUFJ2U2dlV3JlZEtUanRIZU9pUk1Udy0wSjJZcUJlY2xhbEpMcWZZMURfSXBqVWlWU2IwTEZ3cEwzYnhxRUFuQWJVQ2VQWlFKN2RfVHA4MA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTXVUY2s0SHpSbW40OWw4TXZ1ZExkWTkxMGpOSmg4YXhoWjBiajcxc05QQkdiU3Z2VGFqZzVMQ0JrSWh5aUl2RDl6Nm5qeEJiMnBqeEZzTWY2YlN3UWJwQ216Rl9GTFRtT0NnbzV3bXd3UkZNaTkwZmFNOWdHbTFwX0E3ckJzZWt3b3VhM21oWFdTbWxtTmo3QkZ3V1FPOHozWDZVS1FGWGdGQjBCd2VtbDYta284QUpCLTQySlZTZW5kT09LeDJaNnNNN24zTElKQm0yYUF2N0NnenlNZGhlOFdqVURFR3hDQ2ZQSXVobjdhNmhLT3hLQnJEay1nUy1nbllV0gGIAkFVX3lxTE4yNU5OcUVZODlLay0taWlwd19DUXY1Z19KSDVkclJGbjlCVmdXUE5JdzBLZ21hbUttRTh0dU1uQnYweDRxRmFEWnBvbk9PRXMyNGRaTmVlY3prc1RMajg4RE15RjdRLUx2TFNKOUxKSWcxT0VObnlVYktrTnFxTjZsamwwSVNPQVpUM185eW15bF8zOURlSi1YQk8yM0lTV3BpUE10b0ljQ0RVYWZUdllGVXY2RVVJUFVtUFJ2U2dlV3JlZEtUanRIZU9pUk1Udy0wSjJZcUJlY2xhbEpMcWZZMURfSXBqVWlWU2IwTEZ3cEwzYnhxRUFuQWJVQ2VQWlFKN2RfVHA4MA?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-11T21:43:24Z"
+    },
+    {
+      "id": "86bf19c8e6ec48df7492",
+      "title": "\"America Did Not Start Iran War\": Trump Says Wants To Have \"Total Victory\" - NDTV",
+      "description": "\"America Did Not Start Iran War\": Trump Says Wants To Have \"Total Victory\" NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR0JyNUNhOFVEUGdxbkNGQklxVnJPRHNoZW4wcElsRVFndmM1c0k0OFZhUzlDMUZwb1FsQkM5aUxjdzRxWWprckJWQ2xBWHlNQ3dxT2lvbHl0YnBHUTRYZFFQNExQY0ZSQmNKY0hsM3B2QTlUWGF5QzY0Yy1Rb1JuTmJKaFBTd2VJUThObko5SE5EcEhwcXpfS05OQm1GNDFVeFhTWGNROEs5eVBMeFB0cFp6UEcwVlFJ0gHAAUFVX3lxTFBCR3lNbEZpQTcyQUdJY25LU0h6bVA3NUhrUDBqRUNRMHlUam9NRlNMWWYtYTZJZEJpOHJiVW9UMkwtQ1dDUjVVVHRuQW9saFZMNHhBUjZ0OFlHUGlORndtSFA2RzhoOFVzQnRMWXpWcTl6U3ZMWnQxVmphVnhsel9XdnNPS2NiLTVGTHBPNmJqNEhjQ1puWk9iNm52V1h5QkE1T3RXckt1ZTJMSDA0cFE4T0RMQ0VyeW9HYVJuMjRkUA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR0JyNUNhOFVEUGdxbkNGQklxVnJPRHNoZW4wcElsRVFndmM1c0k0OFZhUzlDMUZwb1FsQkM5aUxjdzRxWWprckJWQ2xBWHlNQ3dxT2lvbHl0YnBHUTRYZFFQNExQY0ZSQmNKY0hsM3B2QTlUWGF5QzY0Yy1Rb1JuTmJKaFBTd2VJUThObko5SE5EcEhwcXpfS05OQm1GNDFVeFhTWGNROEs5eVBMeFB0cFp6UEcwVlFJ0gHAAUFVX3lxTFBCR3lNbEZpQTcyQUdJY25LU0h6bVA3NUhrUDBqRUNRMHlUam9NRlNMWWYtYTZJZEJpOHJiVW9UMkwtQ1dDUjVVVHRuQW9saFZMNHhBUjZ0OFlHUGlORndtSFA2RzhoOFVzQnRMWXpWcTl6U3ZMWnQxVmphVnhsel9XdnNPS2NiLTVGTHBPNmJqNEhjQ1puWk9iNm52V1h5QkE1T3RXckt1ZTJMSDA0cFE4T0RMQ0VyeW9HYVJuMjRkUA?oc=5",
+      "source": "NDTV",
+      "category": "World",
+      "publishedAt": "2026-11-11T20:28:49Z"
+    },
+    {
+      "id": "d100ffcedc4bf2a4e092",
+      "title": "Iran president accuses US, Israel of causing environmental damage during war - The Korea Times",
+      "description": "Iran president accuses US, Israel of causing environmental damage during war The Korea Times",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRXo0QkN4dk13UEVTeHFjQ1ZVb01mR3AxNWhNYnpsU0hGZEZxbzlIRjlFdFdJN2tBUDdhZ3FhNG40LXN5TUJhUmNMUmpRUktjSlF5UTkzdDNsMXVxbDBUMExIUkhMQmQ5U1R1dHVQRTB4cVI2c0pIWnRsem5qanlfZzhybGlrZ1lXMmU3TEpHRHJiVTAzaFBKQmtZOWJ5WGFZdkJST2hLVGljSkNIMDJVUlRrZ3pRaWlmTTE00gHAAUFVX3lxTFBoV29yNS1jWDBMSFJVTXlOeXhNOUhjQWZTejFqLVVVcjNoay1zSDdSdHdvZmw2MmpBUEQ0eTV1SDRmd0E1SW1tVUxZSVNXTVVYdkIybm5wQ3dDZm04SkNBQ241bXA0SVg2TDB2YkduZFRCYy11bGg0ZE8xM0xuZHlObkZWSEZJempGNGZ0VGxDbUJJY3JDMDBIRHFwbURPYmpMaEtJdGdQR1lpbkZuVV9Ga3ZnZDMwRlQ5TFF4SFpFdQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRXo0QkN4dk13UEVTeHFjQ1ZVb01mR3AxNWhNYnpsU0hGZEZxbzlIRjlFdFdJN2tBUDdhZ3FhNG40LXN5TUJhUmNMUmpRUktjSlF5UTkzdDNsMXVxbDBUMExIUkhMQmQ5U1R1dHVQRTB4cVI2c0pIWnRsem5qanlfZzhybGlrZ1lXMmU3TEpHRHJiVTAzaFBKQmtZOWJ5WGFZdkJST2hLVGljSkNIMDJVUlRrZ3pRaWlmTTE00gHAAUFVX3lxTFBoV29yNS1jWDBMSFJVTXlOeXhNOUhjQWZTejFqLVVVcjNoay1zSDdSdHdvZmw2MmpBUEQ0eTV1SDRmd0E1SW1tVUxZSVNXTVVYdkIybm5wQ3dDZm04SkNBQ241bXA0SVg2TDB2YkduZFRCYy11bGg0ZE8xM0xuZHlObkZWSEZJempGNGZ0VGxDbUJJY3JDMDBIRHFwbURPYmpMaEtJdGdQR1lpbkZuVV9Ga3ZnZDMwRlQ5TFF4SFpFdQ?oc=5",
+      "source": "The Korea Times",
+      "category": "Environment",
+      "publishedAt": "2026-11-11T18:44:00Z"
+    },
+    {
+      "id": "e7c9639f048bd60131f6",
+      "title": "Ex-SPFL Premiership star who won major trophy lands first international call-up from world's only Scottish national boss - The Scottish Sun",
+      "description": "Ex-SPFL Premiership star who won major trophy lands first international call-up from world's only Scottish national boss The Scottish Sun",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeXFKUkdMVS1yUDFzS2J2YUFFYjhpQ1BDeXdLVUxxdmtHRVF2a3BuRmlHZ2dDUGJuSnlwRFVPdWY3aXhzbVY1RlVUMm9ILU41M3VsNVczWkxEVURvby13LVZMSDdTc0JCRFZ0RXlhZ2dDMVptdmlqMnF6VF9hNk11YmRTaFFPeHlEaXhEa2x4S1llVUNYMkdtdDBqbHZUSzRqYnlr?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeXFKUkdMVS1yUDFzS2J2YUFFYjhpQ1BDeXdLVUxxdmtHRVF2a3BuRmlHZ2dDUGJuSnlwRFVPdWY3aXhzbVY1RlVUMm9ILU41M3VsNVczWkxEVURvby13LVZMSDdTc0JCRFZ0RXlhZ2dDMVptdmlqMnF6VF9hNk11YmRTaFFPeHlEaXhEa2x4S1llVUNYMkdtdDBqbHZUSzRqYnlr?oc=5",
+      "source": "The Scottish Sun",
+      "category": "World",
+      "publishedAt": "2026-11-11T17:15:00Z"
+    },
     {
       "id": "dca5567d10621e2ed5e0",
       "title": "Amnesty International urges oil firms to fund Niger Delta environmental restoration - EnviroNews Nigeria",
@@ -332,6 +377,16 @@
       "publishedAt": "2026-11-11T13:28:43Z"
     },
     {
+      "id": "10109e1a76d22885d829",
+      "title": "Austria tightens laws against spying to protect the international organizations it hosts - Stuff",
+      "description": "Austria tightens laws against spying to protect the international organizations it hosts Stuff",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLXhwNHpwQ0JDV1UtYnFoVHZCTmhnTk9oYVNYZUlSa2RNS3Q3eWxLNVA5YzItQjlGa29kbkc1emxkMmp4ZHRHeFVCOFBLWk56QVNiNWMxWElRckNYbEpJMmI0TUh2c2VJWXVaV2p0VVpPNWctaHVueVN5Zkd2NG16NURTS3FpVHhLYkJiWWRTd04ydFJoNnc2RFJkTVhvaVU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLXhwNHpwQ0JDV1UtYnFoVHZCTmhnTk9oYVNYZUlSa2RNS3Q3eWxLNVA5YzItQjlGa29kbkc1emxkMmp4ZHRHeFVCOFBLWk56QVNiNWMxWElRckNYbEpJMmI0TUh2c2VJWXVaV2p0VVpPNWctaHVueVN5Zkd2NG16NURTS3FpVHhLYkJiWWRTd04ydFJoNnc2RFJkTVhvaVU?oc=5",
+      "source": "Stuff",
+      "category": "World",
+      "publishedAt": "2026-11-11T13:25:14Z"
+    },
+    {
       "id": "b87adbdf16328b1e79dc",
       "title": "World leaders urge stronger and faster action at UN climate talks over inadequate response - The Economic Times",
       "description": "World leaders urge stronger and faster action at UN climate talks over inadequate response The Economic Times",
@@ -389,7 +444,7 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOEhNVGUzelVsbWdvQzVPZGgxbXZCX0ZZbmhBSTh0ZnJzLWUybmcxZWNBSXo1ejQ4NHF4b0dxRjJZWjQ0dThRcWVKUHkyQU9pSm5rRWc3eVBMQVh2WUc4ejJubHNVNWFSV1Y5VEZJVXM4S3F1LXM2dG5hRW5wV1lZOUlWQktmSUxUWDBFSHlzdEIzRWN4WjdWOUl6VEkyRUJ1cHVuLW5WRV9NTms4?oc=5",
       "source": "ENDS Report",
       "category": "Environment",
-      "publishedAt": "2026-11-11T11:11:41Z"
+      "publishedAt": "2026-11-11T11:14:09Z"
     },
     {
       "id": "3c6737887bd7a8183deb",
@@ -459,7 +514,7 @@
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVEJsRzBsdFFyOU43d2dyWWQwSURkSjh5VnMwaWlGbWFMUnBSdDN1LWduVnRNT2pBRDQ1cG1MNG5nSUg1RFpHNmd0cWhoNXk1YlRKZXUyN0xKZGl0eEhtWkFKeko3eW9MVnZIV3paaGQ4MlFRc1JJTzlRN3JZODNsREV5Vm1zeFJDRHZCanM0Q0NHNFk?oc=5",
       "source": "Daily News",
       "category": "Environment",
-      "publishedAt": "2026-11-11T08:05:17Z"
+      "publishedAt": "2026-11-11T08:05:19Z"
     },
     {
       "id": "53e19ad621064d177258",
@@ -600,6 +655,16 @@
       "source": "IQAir",
       "category": "Environment",
       "publishedAt": "2026-11-10T18:51:56Z"
+    },
+    {
+      "id": "1067aab165e5a39b429e",
+      "title": "How an Italian Capital of Design Is Coping with Climate Change - The New York Times",
+      "description": "How an Italian Capital of Design Is Coping with Climate Change The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY0pYOTdqVm5sSTJENF8zd0hQcFRCc0RFVS1nU09EZk50VEVKN05OcUR0N05RNDBuM0VLYkJWRFZfeFdNaC1JR1AzSE1kUGUxS082bS1uUkc5M25RbXpwWjRuMDZYNVpKNFBGTHRKYWF6cWRzdXktWFNFS29xRVFqd1U5QUtpS2NobGZ2TVpsdWxKMm0teGZZ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNY0pYOTdqVm5sSTJENF8zd0hQcFRCc0RFVS1nU09EZk50VEVKN05OcUR0N05RNDBuM0VLYkJWRFZfeFdNaC1JR1AzSE1kUGUxS082bS1uUkc5M25RbXpwWjRuMDZYNVpKNFBGTHRKYWF6cWRzdXktWFNFS29xRVFqd1U5QUtpS2NobGZ2TVpsdWxKMm0teGZZ?oc=5",
+      "source": "The New York Times",
+      "category": "Environment",
+      "publishedAt": "2026-11-10T17:06:01Z"
     },
     {
       "id": "b6703e7bb4713c75da8b",
@@ -772,6 +837,16 @@
       "publishedAt": "2026-11-09T15:00:00Z"
     },
     {
+      "id": "a54cd32bca03768f36f8",
+      "title": "From floods to fire: Gauteng faces extreme heat after violent storms - The Citizen",
+      "description": "From floods to fire: Gauteng faces extreme heat after violent storms The Citizen",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV2tjSHNyYldVcWNhcElnSDF0X2hKUFR6SzlyUDJRaG1ub3ZXdlB6NmdLNE11YmxrOGNBVzhzZlZPMll6Q28xQ2VjMHZ1c3FQNEVTVWFvUmJwbmtqMmFkaVNYaGROdXZsWHg3MkFtenZWeThVY0lZRTdZNlBfdFdMTVlCcVNqWGU5YW1HZjdMQXFxRGFHMmFNZkNCR1JVZGZhR3ZVOXYtcGhHZHVpblRSWjRXQ3pwTnFUNGxEUA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV2tjSHNyYldVcWNhcElnSDF0X2hKUFR6SzlyUDJRaG1ub3ZXdlB6NmdLNE11YmxrOGNBVzhzZlZPMll6Q28xQ2VjMHZ1c3FQNEVTVWFvUmJwbmtqMmFkaVNYaGROdXZsWHg3MkFtenZWeThVY0lZRTdZNlBfdFdMTVlCcVNqWGU5YW1HZjdMQXFxRGFHMmFNZkNCR1JVZGZhR3ZVOXYtcGhHZHVpblRSWjRXQ3pwTnFUNGxEUA?oc=5",
+      "source": "The Citizen",
+      "category": "Disaster",
+      "publishedAt": "2026-11-09T14:55:14Z"
+    },
+    {
       "id": "f7b1c2920506dd709feb",
       "title": "How the European Commission assessed Ukraine's environmental reforms and what problems it identified - Європейська правда",
       "description": "How the European Commission assessed Ukraine's environmental reforms and what problems it identified Європейська правда",
@@ -780,6 +855,26 @@
       "source": "Європейська правда",
       "category": "Environment",
       "publishedAt": "2026-11-09T14:00:12Z"
+    },
+    {
+      "id": "80025ee05c02df15dee0",
+      "title": "Severe storms threaten South Texas with flash flooding while the rest of the country braces for a heat wave - voz.us",
+      "description": "Severe storms threaten South Texas with flash flooding while the rest of the country braces for a heat wave voz.us",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZnlHWUx3RW1TS1ZtakVsRlRxam5vWk8zSUNwU1k5QmcxUUxpUHRqZEUxOFM1b1FLTkswOVNRa2R0ZGJ1LXY0TFNZUkZqeVpPUnZVV1pJLVRTY3dfTnQybTkybm5nWUxsZFJRdFNDVWlDajZla2VhUF9aOVVmekFIUGd4QnVONzFPcFNNVkRPY19QRXVkX2gtM3JfVjdoM3B1YmF2T0s2LXA2M0pmMVItSGhOZjJ6bEdYakFGc254Yl84RUt2REJQZWx6VHQ2U1VvT3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZnlHWUx3RW1TS1ZtakVsRlRxam5vWk8zSUNwU1k5QmcxUUxpUHRqZEUxOFM1b1FLTkswOVNRa2R0ZGJ1LXY0TFNZUkZqeVpPUnZVV1pJLVRTY3dfTnQybTkybm5nWUxsZFJRdFNDVWlDajZla2VhUF9aOVVmekFIUGd4QnVONzFPcFNNVkRPY19QRXVkX2gtM3JfVjdoM3B1YmF2T0s2LXA2M0pmMVItSGhOZjJ6bEdYakFGc254Yl84RUt2REJQZWx6VHQ2U1VvT3c?oc=5",
+      "source": "voz.us",
+      "category": "Disaster",
+      "publishedAt": "2026-11-09T13:38:02Z"
+    },
+    {
+      "id": "dc39db46376dbc78e14d",
+      "title": "UK Statement at the Global International Humanitarian Law Dialogue - GOV.UK",
+      "description": "UK Statement at the Global International Humanitarian Law Dialogue GOV.UK",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUjRMdE42S0dwSFZyNkdLNklqeE1aY0t2WmJuRXpjLVViVnRTS0RNSW1ZdXFkdS1janYtOEdzQzdTYlZsWVpjeTg1STY4M3JWbVgzb3Fid0JGbWtJVkRGWjlGWWhuNTRSQjd4NUlieUU5UGlZX0RKa2hfVlZmQUFEQzdmTHZNZ2V3WmxsbzdJQ2pERTYwOWpHZmdETld4aFkyZG1n?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUjRMdE42S0dwSFZyNkdLNklqeE1aY0t2WmJuRXpjLVViVnRTS0RNSW1ZdXFkdS1janYtOEdzQzdTYlZsWVpjeTg1STY4M3JWbVgzb3Fid0JGbWtJVkRGWjlGWWhuNTRSQjd4NUlieUU5UGlZX0RKa2hfVlZmQUFEQzdmTHZNZ2V3WmxsbzdJQ2pERTYwOWpHZmdETld4aFkyZG1n?oc=5",
+      "source": "GOV.UK",
+      "category": "World",
+      "publishedAt": "2026-11-09T13:26:20Z"
     },
     {
       "id": "59d6a40414c108ff8c9a",
@@ -810,6 +905,16 @@
       "source": "ArchDaily",
       "category": "India",
       "publishedAt": "2026-11-09T09:00:00Z"
+    },
+    {
+      "id": "c4e62401208fde62eef7",
+      "title": "Last week, he participated in the \"2026 Smart City Expo World Congress\" in Barcelona, Spain. Various.. - 매일경제",
+      "description": "Last week, he participated in the \"2026 Smart City Expo World Congress\" in Barcelona, Spain. Various.. 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0za0hxMUx3dF9sYTNJYTVIYVJGeFJuTFloT2N6WFFZUE1YQUxEX0doaEMxYTloRXVjZHpSSFdJLS01V1RKM3RpNzFkcjdNcHNHcGpfd25mM0U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0za0hxMUx3dF9sYTNJYTVIYVJGeFJuTFloT2N6WFFZUE1YQUxEX0doaEMxYTloRXVjZHpSSFdJLS01V1RKM3RpNzFkcjdNcHNHcGpfd25mM0U?oc=5",
+      "source": "매일경제",
+      "category": "Technology",
+      "publishedAt": "2026-11-09T07:54:01Z"
     },
     {
       "id": "5dc0b34ef0346e837b89",
@@ -882,6 +987,6 @@
       "publishedAt": "2026-11-05T12:00:00Z"
     }
   ],
-  "lastUpdated": "2026-11-11T18:33:16Z",
-  "updatedAt": "2026-11-11T18:33:16Z"
+  "lastUpdated": "2026-11-12T00:58:14Z",
+  "updatedAt": "2026-11-12T00:58:14Z"
 }
