@@ -240,55 +240,90 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-12T16:59:55Z",
-    "lastSuccessfulRun": "2026-11-12T16:59:55Z",
-    "lastUpdated": "2026-11-12T16:59:55Z",
-    "articlesAdded": 23,
+    "lastRun": "2026-11-12T22:41:12Z",
+    "lastSuccessfulRun": "2026-11-12T22:41:12Z",
+    "lastUpdated": "2026-11-12T22:41:12Z",
+    "articlesAdded": 8,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 36,
+    "duplicatesRemoved": 46,
     "failedSources": [],
     "newArticleIds": [
-      "f5b355e88db7a0ffbbde",
-      "8e46414d7ee4d50ba17d",
-      "6299c0c702e10259c00b",
-      "8b093e6abb660fe8ac41",
-      "fd3557b229b75b714da5",
-      "4d00c170e9e95ce9c485",
-      "a3f37781e8cd86838e86",
-      "728adb6ea7c61506bf3f",
-      "0b782421e77bbf431679",
-      "0996ecdfaabcbd20009d",
-      "9521cd6f8ca5b38bd4c6",
-      "f95e0b51bd928dd1c22b",
-      "2577dedc5b1fd2c232b6",
-      "5f7886dc1c7d56b164c2",
-      "26ca620482f986691925",
-      "9074c211c4278db985af",
-      "7904662be63524777418",
-      "b9a4e0f762bfc4118a29",
-      "a65ec59d21d8faece8c9",
-      "2192d9299f02264b196e",
-      "ab7600592c46cca5ba19",
-      "7e0828ed1de63fc444c3",
-      "a5c246dcc64f1cde410d"
+      "60c347e1f6f161318206",
+      "241d4999cf33f30c8fcc",
+      "d8384d2cc6c05480872e",
+      "0bb987a0593ae8299c86",
+      "72f0bda46c9e4634d050",
+      "6f90ec2e27df49bf89f7",
+      "2287a36bef14c6ee3ade",
+      "5c3b65a6d1b5c1e15351"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 2,
+    "articlesRemoved": 1,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 104,
+    "totalArticles": 111,
     "categories": {
-      "World": 45,
+      "World": 48,
       "India": 10,
       "Technology": 7,
-      "Environment": 32,
-      "Disaster": 10
+      "Environment": 37,
+      "Disaster": 9
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "60c347e1f6f161318206",
+      "title": "Leyla Aliyeva participates in discussions on improving air quality in cities at COP31 - Azərtac",
+      "description": "Leyla Aliyeva participates in discussions on improving air quality in cities at COP31 Azərtac",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaE9NdDB4OXM3dE8wYjQ2dTJEbUI3NFNJYWJ4NG4zMTZoeUpLYWJqSkJ0MUpEUURXQVlTMnJtR0E4LXJJRnBwRXNDcXlZZ0tzdzk1UjlHQzB3TUdFWGRKRmxnRkUtY1JKWXlrWTFxU2k1S0gtUFZvTUVCR2pzZkx6cEVZVllZSEpocjBjSjYwQm9wSXZhT1VFcnNnbmhDazFmZm1FeXIzSEF1X3FrMUFyVkpYNHJ2WTUyX0Mwc1pB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaE9NdDB4OXM3dE8wYjQ2dTJEbUI3NFNJYWJ4NG4zMTZoeUpLYWJqSkJ0MUpEUURXQVlTMnJtR0E4LXJJRnBwRXNDcXlZZ0tzdzk1UjlHQzB3TUdFWGRKRmxnRkUtY1JKWXlrWTFxU2k1S0gtUFZvTUVCR2pzZkx6cEVZVllZSEpocjBjSjYwQm9wSXZhT1VFcnNnbmhDazFmZm1FeXIzSEF1X3FrMUFyVkpYNHJ2WTUyX0Mwc1pB?oc=5",
+      "source": "Azərtac",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T20:23:00Z"
+    },
+    {
+      "id": "241d4999cf33f30c8fcc",
+      "title": "President links U.S., Israel to environmental damage - Daily Tribune",
+      "description": "President links U.S., Israel to environmental damage Daily Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbGxybHNSOW5sVXhiY1ZDZDlCVUd2bEhPNFNWSERpdWk4N1FZbzA1dGx0VjBnb1plamxfYTQya2ozUWNuSXc1Wi1NZVMzS1laem50NVpEU2ZmeFAwcDdZa0s4MTJwd1FLM1dIN25ZUEJzTW9rRld3N0F2MDhDSHZZRmt4ZWxvNlhLTzZV?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbGxybHNSOW5sVXhiY1ZDZDlCVUd2bEhPNFNWSERpdWk4N1FZbzA1dGx0VjBnb1plamxfYTQya2ozUWNuSXc1Wi1NZVMzS1laem50NVpEU2ZmeFAwcDdZa0s4MTJwd1FLM1dIN25ZUEJzTW9rRld3N0F2MDhDSHZZRmt4ZWxvNlhLTzZV?oc=5",
+      "source": "Daily Tribune",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T19:25:08Z"
+    },
+    {
+      "id": "d8384d2cc6c05480872e",
+      "title": "Germany Hopes For Yet Another Surprise On The International Stage Against Finland - The Hockey News",
+      "description": "Germany Hopes For Yet Another Surprise On The International Stage Against Finland The Hockey News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOamR3dE1YaW5rY2VfZlNZdTc5ZVVtbDBqWWlfOVhWN3NRYlhOWGtsV3YtUmZySWdhMEJ5OTFmWlM1TVBMdGpfVUlPcWkzcDQ2X2tUWVVjTVNYOTZ4bFVpNFo4YWVXa2ttQ3VLWGxOa0hpaW9SUHU1MURuNmhhMGttNGZsSklMZ3JWOG90TEZYTExyLTluVEp6WjBWUXBWT20zci1nT1cwajl2RTlRT2hVTkxnczNLMU5rM1ZtV213b1ZXMzFhUHg0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOamR3dE1YaW5rY2VfZlNZdTc5ZVVtbDBqWWlfOVhWN3NRYlhOWGtsV3YtUmZySWdhMEJ5OTFmWlM1TVBMdGpfVUlPcWkzcDQ2X2tUWVVjTVNYOTZ4bFVpNFo4YWVXa2ttQ3VLWGxOa0hpaW9SUHU1MURuNmhhMGttNGZsSklMZ3JWOG90TEZYTExyLTluVEp6WjBWUXBWT20zci1nT1cwajl2RTlRT2hVTkxnczNLMU5rM1ZtV213b1ZXMzFhUHg0?oc=5",
+      "source": "The Hockey News",
+      "category": "World",
+      "publishedAt": "2026-11-12T18:56:12Z"
+    },
+    {
+      "id": "0bb987a0593ae8299c86",
+      "title": "Wars, energy security reshape global climate debate at COP31 - The Economic Times",
+      "description": "Wars, energy security reshape global climate debate at COP31 The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORnFyc2RUMEVvN0ctOXRoV3ZyY0dwSGdZZzltMFFMcTQyQU94VW5UWnlxU05Ed1dBMUMxZ25EYVhBOTJVRWY4dE04Yk9IUVItWlRXWENtWlZlOWNybmtwbXZGNEl3UEZXbjRxT1NrTFNnenVaTnhFbVhBRlJaMUZiT05RN0FsV0h4UFVzUl9wTlNGV3BKQ09WQVl6V3FqQk44TXNzS21sQlRMdlk3SzUxZ1YwdlJsbnJONTJBNFJiMkpoOVdlUnExTzk5WGdfNGhhT1ZwNldydGxMMWfSAeABQVVfeXFMT2pqWVA4M1NSczduNm05X0ZaLU0xVkVKWTdHWFFhdlNFWVFFbmJIMkxlWnlUQlRDTmdlcFp4VGNvZ0J1SEo0WE9fM2VJa3lzYmp1RWZDMlJPODc5c3ZyVjVFTHpJUDVfUjZ6VTFHZXNxMmN1SW5Mb0djSnVDcXNmWlZwOTgtenlSeXBsaVV1N2U0aEx3blFCcVd6ZmQyX3Z4WkJYVDJmUVFEM1YzYlRYNFg5ci15SWZzanB0VWxtZnd2T1BGLUUydlItUjlORXplQVBHMU4zZDZERXNQTGhTd2E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORnFyc2RUMEVvN0ctOXRoV3ZyY0dwSGdZZzltMFFMcTQyQU94VW5UWnlxU05Ed1dBMUMxZ25EYVhBOTJVRWY4dE04Yk9IUVItWlRXWENtWlZlOWNybmtwbXZGNEl3UEZXbjRxT1NrTFNnenVaTnhFbVhBRlJaMUZiT05RN0FsV0h4UFVzUl9wTlNGV3BKQ09WQVl6V3FqQk44TXNzS21sQlRMdlk3SzUxZ1YwdlJsbnJONTJBNFJiMkpoOVdlUnExTzk5WGdfNGhhT1ZwNldydGxMMWfSAeABQVVfeXFMT2pqWVA4M1NSczduNm05X0ZaLU0xVkVKWTdHWFFhdlNFWVFFbmJIMkxlWnlUQlRDTmdlcFp4VGNvZ0J1SEo0WE9fM2VJa3lzYmp1RWZDMlJPODc5c3ZyVjVFTHpJUDVfUjZ6VTFHZXNxMmN1SW5Mb0djSnVDcXNmWlZwOTgtenlSeXBsaVV1N2U0aEx3blFCcVd6ZmQyX3Z4WkJYVDJmUVFEM1YzYlRYNFg5ci15SWZzanB0VWxtZnd2T1BGLUUydlItUjlORXplQVBHMU4zZDZERXNQTGhTd2E?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-12T18:55:59Z"
+    },
+    {
+      "id": "72f0bda46c9e4634d050",
+      "title": "‘As one veteran to the next….’: JD Vance celebrates World War II soldiers on National Veterans Day - The Economic Times",
+      "description": "‘As one veteran to the next….’: JD Vance celebrates World War II soldiers on National Veterans Day The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQLTdXOUpCUThvZllYM1BpYWZoN0FHUHFuZHZvaHV6a2NmSi1DdmZBTU1qcTdSeUtSclpFamotaFR2WF94a2dsZzEwYnJERUYyLThZYmo5dGNLb3VyYWp4UFh4ZDNOWldwVkhfUi1oOVlrZER6YzNSb1FjZzlPQXBEVnlvc0EyenkzdUs3bzYyTlhRMEl5UTdmZHV2Qi1IXzdvZi1HLTVPdG5IcGY0T2lhODVUOGhlNU0zbUU4cXRhWnRVcmMxNklSbU5IVkphdTcyWm1SbUN4bERzSE1zNzdvdWZPd0o1bVVMZGFibXJLSnc3UG42bE9HQWdYejZJeTRLeGhwWURn0gGLAkFVX3lxTE9BNkVZcEFJZ2xPRDZNS2FQblREQzU4THdqZDFaY0dqS3I3eVhZUm9rTXB5NWVjVENzdmpRRy0wVWxIemxXaHRkX3FRVVh3X0NhTkdhRjN5U0ZDbDJvNmpBVkhjS0hBMFdBYVRiSDBxNElyLTBSZERpTkpYdFZmYm4xb2ExZFNLQ01OY1hYZHh1N0hlaVNLTDAzRlZyWmdnSGxFNVhFcm43OFppcW9QMnNyVnV6U1ZOQ3pUREdCTjhWLVRRMUFjUlpua2xaOExHVjlNYThaLXVHUkUzcXlwaUFDbkR4YVhZX1hsWU9zOEViMkNLcjdBbEZlY3Q2OHBrMWpZclpySG5GX3JGZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQLTdXOUpCUThvZllYM1BpYWZoN0FHUHFuZHZvaHV6a2NmSi1DdmZBTU1qcTdSeUtSclpFamotaFR2WF94a2dsZzEwYnJERUYyLThZYmo5dGNLb3VyYWp4UFh4ZDNOWldwVkhfUi1oOVlrZER6YzNSb1FjZzlPQXBEVnlvc0EyenkzdUs3bzYyTlhRMEl5UTdmZHV2Qi1IXzdvZi1HLTVPdG5IcGY0T2lhODVUOGhlNU0zbUU4cXRhWnRVcmMxNklSbU5IVkphdTcyWm1SbUN4bERzSE1zNzdvdWZPd0o1bVVMZGFibXJLSnc3UG42bE9HQWdYejZJeTRLeGhwWURn0gGLAkFVX3lxTE9BNkVZcEFJZ2xPRDZNS2FQblREQzU4THdqZDFaY0dqS3I3eVhZUm9rTXB5NWVjVENzdmpRRy0wVWxIemxXaHRkX3FRVVh3X0NhTkdhRjN5U0ZDbDJvNmpBVkhjS0hBMFdBYVRiSDBxNElyLTBSZERpTkpYdFZmYm4xb2ExZFNLQ01OY1hYZHh1N0hlaVNLTDAzRlZyWmdnSGxFNVhFcm43OFppcW9QMnNyVnV6U1ZOQ3pUREdCTjhWLVRRMUFjUlpua2xaOExHVjlNYThaLXVHUkUzcXlwaUFDbkR4YVhZX1hsWU9zOEViMkNLcjdBbEZlY3Q2OHBrMWpZclpySG5GX3JGZw?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-12T17:48:45Z"
+    },
     {
       "id": "f5b355e88db7a0ffbbde",
       "title": "Private capital helped build India's early infrastructure, can do so again - Business Standard",
@@ -317,7 +352,7 @@
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObXNjMEN1SlJ4enVha0VYSF9qb19icWlWWlhVRmtUUmdacmU4TUxaaW9RbmJoTVloTlFsOHczd2NxLWp0QlQzc19jSWs3N2FuWHlETEtBc1hmalpHLVp1UGhLQ21NQ21qSXpTTTZxY3FPYUh3dW9QR3JEdXo0cGNJZHBaYUlNUjAzcjBOSnA1eGpPZVNmeG4tcDZGUUNqdnFEUTcxbmlPMjhEODlSZXBlQTBrUkRvV0NCMVlaYTN1WWdMNWEwN0tsQzFtcjVsVm42?oc=5",
       "source": "Morocco World News",
       "category": "World",
-      "publishedAt": "2026-11-12T16:24:17Z"
+      "publishedAt": "2026-11-12T16:27:58Z"
     },
     {
       "id": "8b093e6abb660fe8ac41",
@@ -347,7 +382,17 @@
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMHZCRjlkRjVHZnEwQ1hvcTg5MGNyM2RfelZCXzktWDdOb2dibElBUktpLTMySVBWZkx5RGprTjJ2dEtSanI0OUFVcGFJLUJpYjk2cngzZVRaRDRtRjZuRXphUmhxRG4yaHJldHNpcUZiN1lLWUhpWHkwOWN1NEFlcnE2N2hodmJEdUNHVjA3QW9SNGZMVXQ0MU83b0dPb1B0Y29naw?oc=5",
       "source": "DFNI",
       "category": "World",
-      "publishedAt": "2026-11-12T14:08:07Z"
+      "publishedAt": "2026-11-12T14:27:58Z"
+    },
+    {
+      "id": "6f90ec2e27df49bf89f7",
+      "title": "Mumbai to host Earthshot Prize: Aaditya Thackeray slams Centre over pollution, demands climate change council - Mid-Day",
+      "description": "Mumbai to host Earthshot Prize: Aaditya Thackeray slams Centre over pollution, demands climate change council Mid-Day",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX0tmV0FISGlhNFF4MzR4X2dIdHNvX2t3UkZmblVMYlhNUURvMExJRGIwZzVSdC1zUlVtQkp0WkVQV2tRWnhZU1hXY2ZPTkhXUzhudy1rUlZ3dzR0UVVFV1FzTEtiRkt0bU0zNVNUMm5La05NVV9NZ1ZsOGplNlJXbmJjWkl2MlhMc08ySG5oUWtfZnRCbFMxNXY4U29sUVcxU2NYVEtWaDlURGw0cDdBRlZuZnIydDFyX0taX0ZvZUhvR1dUQmpBaGUwLURmbWZPenlkVktwYWtHeUhmdTJ6THJ0aDlsOHNCc1FPR3I3NTRvc0EyVnloN3puVQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX0tmV0FISGlhNFF4MzR4X2dIdHNvX2t3UkZmblVMYlhNUURvMExJRGIwZzVSdC1zUlVtQkp0WkVQV2tRWnhZU1hXY2ZPTkhXUzhudy1rUlZ3dzR0UVVFV1FzTEtiRkt0bU0zNVNUMm5La05NVV9NZ1ZsOGplNlJXbmJjWkl2MlhMc08ySG5oUWtfZnRCbFMxNXY4U29sUVcxU2NYVEtWaDlURGw0cDdBRlZuZnIydDFyX0taX0ZvZUhvR1dUQmpBaGUwLURmbWZPenlkVktwYWtHeUhmdTJ6THJ0aDlsOHNCc1FPR3I3NTRvc0EyVnloN3puVQ?oc=5",
+      "source": "Mid-Day",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T14:18:00Z"
     },
     {
       "id": "a3f37781e8cd86838e86",
@@ -410,6 +455,16 @@
       "publishedAt": "2026-11-12T12:42:53Z"
     },
     {
+      "id": "2287a36bef14c6ee3ade",
+      "title": "Salford researchers to investigate noise pollution and climate change - Salford Now",
+      "description": "Salford researchers to investigate noise pollution and climate change Salford Now",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYlo2aGRoenZ2ZU0zYWFNYUdKOFhRUlVyNmxjY2gyWWE1UUpWWjcwNEZpM2FTTDF4Y2YzZ2lkSlp6TWZyT2JBTlIyWU9PU2Q3X1hzSkdMOTBXc2twemJJT3NDeGxrNFZvdy00NUlsaEFZQThsMUphbk5aWjl1aFBkT1JUcjVCRFJrR092bUNfbURuVkEyYjIzX2FvMkxDMG1aOXFyN1pqNnYtczI3X3R3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYlo2aGRoenZ2ZU0zYWFNYUdKOFhRUlVyNmxjY2gyWWE1UUpWWjcwNEZpM2FTTDF4Y2YzZ2lkSlp6TWZyT2JBTlIyWU9PU2Q3X1hzSkdMOTBXc2twemJJT3NDeGxrNFZvdy00NUlsaEFZQThsMUphbk5aWjl1aFBkT1JUcjVCRFJrR092bUNfbURuVkEyYjIzX2FvMkxDMG1aOXFyN1pqNnYtczI3X3R3?oc=5",
+      "source": "Salford Now",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T12:38:17Z"
+    },
+    {
       "id": "2577dedc5b1fd2c232b6",
       "title": "Scottish Sailor Dominates at International Moth Lowrider World Championship 2026 in Australia - Sail-World.com",
       "description": "Scottish Sailor Dominates at International Moth Lowrider World Championship 2026 in Australia Sail-World.com",
@@ -468,6 +523,16 @@
       "source": "Vietnam.vn",
       "category": "Environment",
       "publishedAt": "2026-11-12T09:43:16Z"
+    },
+    {
+      "id": "5c3b65a6d1b5c1e15351",
+      "title": "UNEP, nations show real progress on reducing methane emissions | UNEP - UN Environment Programme - UNEP - UN Environment Programme",
+      "description": "UNEP, nations show real progress on reducing methane emissions | UNEP - UN Environment Programme UNEP - UN Environment Programme",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcmxtaDBFRlEzUUgzYTBkc29zV1Ywbm8tYmZ5TXc3MGh3R0MyOTR5UHd1bHZ0ak5ZbFRxZEFXeGU2bEFhdm9mcXJEUGFCeWFLeU1sY1hxLWthSERlN2QwZldCVFBubnllX0gwZkR1bFJNNkNhNjl4QUV6cWJlNkctTkxzQjBiTVZXNHJDdEV3eElubmdENWpQXzZhckxHRkdhUDFVT3ljZHZYU2lyNlNiZFNSbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcmxtaDBFRlEzUUgzYTBkc29zV1Ywbm8tYmZ5TXc3MGh3R0MyOTR5UHd1bHZ0ak5ZbFRxZEFXeGU2bEFhdm9mcXJEUGFCeWFLeU1sY1hxLWthSERlN2QwZldCVFBubnllX0gwZkR1bFJNNkNhNjl4QUV6cWJlNkctTkxzQjBiTVZXNHJDdEV3eElubmdENWpQXzZhckxHRkdhUDFVT3ljZHZYU2lyNlNiZFNSbw?oc=5",
+      "source": "UNEP - UN Environment Programme",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T09:17:59Z"
     },
     {
       "id": "a65ec59d21d8faece8c9",
@@ -1318,18 +1383,8 @@
       "source": "BBC",
       "category": "Environment",
       "publishedAt": "2026-11-06T16:43:30Z"
-    },
-    {
-      "id": "243fea98aeca362d92d7",
-      "title": "Extreme weather: floods, droughts and heatwaves - European Environment Agency (EEA)",
-      "description": "Extreme weather: floods, droughts and heatwaves European Environment Agency (EEA)",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTBqZTlsSnUwVkVSSm0zTEgwcUx0NG11dEs4UzJQV1lXeUlSUzJHUVJ4bE1UTkhYN21va0VseEVJSTNxckxCMGp6TzBLTm1xUUpnZmFCbElxYmdvNjIwSERRUi1qLUJKSWdydWJlRjJHQ1VPMWdwX3RfRXZmLUNta003OEUzbXhVRUI1QnJ4cHdpbjhl?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTBqZTlsSnUwVkVSSm0zTEgwcUx0NG11dEs4UzJQV1lXeUlSUzJHUVJ4bE1UTkhYN21va0VseEVJSTNxckxCMGp6TzBLTm1xUUpnZmFCbElxYmdvNjIwSERRUi1qLUJKSWdydWJlRjJHQ1VPMWdwX3RfRXZmLUNta003OEUzbXhVRUI1QnJ4cHdpbjhl?oc=5",
-      "source": "European Environment Agency (EEA)",
-      "category": "Disaster",
-      "publishedAt": "2026-11-05T17:31:38Z"
     }
   ],
-  "lastUpdated": "2026-11-12T16:59:55Z",
-  "updatedAt": "2026-11-12T16:59:55Z"
+  "lastUpdated": "2026-11-12T22:41:12Z",
+  "updatedAt": "2026-11-12T22:41:12Z"
 }
