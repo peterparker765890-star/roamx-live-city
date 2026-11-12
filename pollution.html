@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b0c10">
+<meta name="description" content="ROAMX Eco Intelligence — Explore global air quality, pollution levels, environmental risks and forecasts.">
+<title>Eco Intelligence | ROAMX</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#0b0c10;
+  --panel:#14171d;
+  --panel2:#191d24;
+  --line:rgba(224,208,174,.14);
+  --gold:#d7bd86;
+  --gold2:#ead6a9;
+  --text:#f3f0e9;
+  --muted:#a7a49d;
+  --green:#8ec7a5;
+  --red:#e58d86;
+  --blue:#9db9d6;
+  --radius:20px;
+  --max:1220px;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+
+body{
+  background:
+  radial-gradient(ellipse at 10% 0%,rgba(190,160,104,.09),transparent 35%),
+  radial-gradient(ellipse at 90% 30%,rgba(107,130,151,.07),transparent 30%),
+  var(--bg);
+  color:var(--text);
+  font-family:"DM Sans",sans-serif;
+  line-height:1.65;
+  min-height:100vh;
+}
+
+button,input{font:inherit}
+button{cursor:pointer}
+a{color:inherit;text-decoration:none}
+button:focus-visible,a:focus-visible,input:focus-visible{
+  outline:2px solid var(--gold2);outline-offset:3px
+}
+
+.shell{width:min(var(--max),calc(100% - 44px));margin:auto}
+
+.topline{
+  height:3px;
+  background:linear-gradient(90deg,transparent,var(--gold),#f0e0bd,var(--gold),transparent)
+}
+
+header{
+  position:sticky;top:0;z-index:100;
+  background:rgba(11,12,16,.92);
+  backdrop-filter:blur(18px);
+  border-bottom:1px solid var(--line)
+}
+
+.nav{
+  min-height:78px;display:flex;align-items:center;
+  justify-content:space-between;gap:20px
+}
+
+.brand{display:flex;align-items:center;gap:12px}
+
+.brand-mark{
+  width:39px;height:39px;display:grid;place-items:center;
+  border:1px solid rgba(215,189,134,.6);
+  border-radius:12px;color:var(--gold2);
+  font:800 20px Manrope;background:rgba(215,189,134,.07)
+}
+
+.brand-name{font:800 23px Manrope;letter-spacing:.19em}
+.brand-name span{color:var(--gold)}
+.brand-caption{display:block;color:#777;font-size:8px;letter-spacing:.2em}
+
+.nav-links{display:flex;align-items:center;gap:25px}
+.nav-links a{
+  font-size:10px;font-weight:800;letter-spacing:.09em;
+  text-transform:uppercase;color:#b8b6b0
+}
+.nav-links a:hover,.nav-links .active{color:var(--gold2)}
+
+.menu{
+  display:none;background:var(--panel);color:white;
+  border:1px solid var(--line);border-radius:10px;padding:9px 13px
+}
+
+.hero{padding:49px 0 30px}
+
+.hero-box{
+  position:relative;overflow:hidden;
+  padding:clamp(28px,5vw,55px);
+  border:1px solid var(--line-strong,var(--line));
+  border-radius:27px;
+  background:
+  radial-gradient(circle at 85% 15%,rgba(215,189,134,.14),transparent 30%),
+  linear-gradient(110deg,#111318,#1a1b1c);
+}
+
+.hero-box:after{
+  content:"ECO";position:absolute;right:2%;bottom:-35px;
+  font:800 clamp(100px,20vw,240px) Manrope;
+  color:rgba(215,189,134,.035);pointer-events:none
+}
+
+.eyebrow{
+  color:var(--gold);font-size:9px;font-weight:800;
+  letter-spacing:.23em;text-transform:uppercase
+}
+
+.hero h1{
+  position:relative;z-index:1;margin-top:19px;
+  font:600 clamp(39px,6vw,68px)/1.08 "Playfair Display",serif;
+  max-width:800px
+}
+
+.hero h1 em{font-style:normal;color:var(--gold2)}
+
+.hero p{
+  max-width:650px;margin-top:18px;color:#b4b2ad;
+  font-size:13px;line-height:1.9
+}
+
+.hero-note{
+  margin-top:25px;display:flex;flex-wrap:wrap;
+  align-items:center;gap:12px;font-size:10px;color:var(--muted)
+}
+
+.live-dot{
+  display:inline-block;width:7px;height:7px;
+  border-radius:50%;background:var(--green);
+  box-shadow:0 0 12px var(--green)
+}
+
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  gap:8px;padding:11px 17px;border-radius:999px;
+  font-size:10px;font-weight:800;letter-spacing:.07em;
+  border:1px solid var(--line-strong,var(--line));
+  transition:.2s
+}
+
+.btn-gold{background:var(--gold2);color:#17150f;border-color:var(--gold2)}
+.btn-outline{background:transparent;color:var(--text)}
+.btn:hover{transform:translateY(-2px);border-color:var(--gold)}
+
+.section{padding:30px 0}
+
+.section-head{
+  display:flex;align-items:end;justify-content:space-between;
+  gap:18px;margin-bottom:22px
+}
+
+.section-head h2{
+  margin-top:7px;font:600 clamp(24px,3vw,32px) "Playfair Display",serif
+}
+
+.section-head p{color:var(--muted);font-size:11px;margin-top:6px}
+
+.panel{
+  padding:23px;border:1px solid var(--line);
+  border-radius:var(--radius);
+  background:linear-gradient(145deg,#191d24,#121419)
+}
+
+.search-layout{
+  display:grid;grid-template-columns:1fr auto;gap:12px
+}
+
+.search-box{
+  display:flex;align-items:center;gap:10px;
+  padding:5px 13px;border:1px solid var(--line);
+  background:#0f1116;border-radius:13px
+}
+
+.search-box input{
+  width:100%;padding:11px 0;background:none;
+  border:0;outline:none;color:white;font-size:12px
+}
+
+.search-box input::placeholder{color:#777}
+
+.search-results{
+  position:absolute;z-index:20;left:0;right:0;top:100%;
+  margin-top:5px;background:#1c2027;
+  border:1px solid var(--line);border-radius:12px;
+  overflow:hidden;box-shadow:0 15px 40px #0009
+}
+
+.search-wrap{position:relative}
+
+.search-result{
+  display:block;width:100%;text-align:left;
+  padding:12px 15px;border:0;border-bottom:1px solid var(--line);
+  background:transparent;color:white;font-size:11px
+}
+.search-result:hover{background:#292c32}
+.search-result small{display:block;color:var(--muted)}
+
+.location-status{
+  margin-top:12px;font-size:10px;color:var(--muted)
+}
+
+.location-status.error{color:var(--red)}
+
+.dashboard{
+  display:grid;grid-template-columns:1.05fr 1.95fr;
+  gap:15px
+}
+
+.aqi-panel{
+  min-height:315px;display:flex;flex-direction:column;
+  justify-content:space-between
+}
+
+.aqi-top{display:flex;justify-content:space-between;gap:10px}
+
+.aqi-number{
+  font:700 clamp(58px,8vw,85px)/1 Manrope;
+  letter-spacing:-.07em;margin-top:19px;
+  font-variant-numeric:tabular-nums
+}
+
+.aqi-label{font-size:12px;color:var(--muted);margin-top:10px}
+
+.aqi-category{
+  display:inline-block;margin-top:13px;padding:6px 11px;
+  border-radius:30px;font-size:9px;font-weight:800;
+  letter-spacing:.1em;text-transform:uppercase
+}
+
+.category-good{background:#254b35;color:#a3e2b7}
+.category-moderate{background:#62511d;color:#f4d77f}
+.category-sensitive{background:#64401f;color:#f2b47e}
+.category-unhealthy{background:#632b32;color:#ffabb1}
+.category-very{background:#59335e;color:#e8b9f0}
+.category-hazardous{background:#622820;color:#ffb1a2}
+
+.aqi-meter{
+  height:8px;border-radius:10px;margin-top:24px;
+  background:linear-gradient(90deg,#63b88b 0%,#d8d06e 25%,#e99a53 50%,#df6666 75%,#a75a91 90%,#792d2d 100%);
+  position:relative
+}
+
+.aqi-marker{
+  position:absolute;top:-5px;left:0;
+  width:4px;height:18px;background:white;
+  border:1px solid #111;border-radius:3px;
+  transition:left .5s
+}
+
+.aqi-scale{
+  display:flex;justify-content:space-between;
+  margin-top:9px;color:#777;font-size:8px
+}
+
+.aqi-foot{
+  margin-top:20px;color:var(--muted);font-size:10px;
+  display:flex;justify-content:space-between;gap:10px
+}
+
+.metrics{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px
+}
+
+.metric{
+  padding:19px;border:1px solid var(--line);
+  border-radius:15px;background:#111419;
+  min-height:145px
+}
+
+.metric-symbol{color:var(--gold);font:700 11px Manrope;letter-spacing:.1em}
+.metric h3{font-size:11px;margin-top:14px}
+.metric-value{font:700 25px Manrope;margin-top:5px}
+.metric-unit{font-size:9px;color:var(--muted)}
+.metric-desc{font-size:9px;color:#777;margin-top:6px}
+
+.chart-panel{margin-top:15px}
+
+.chart{
+  display:grid;grid-template-columns:repeat(12,minmax(0,1fr));
+  align-items:end;gap:8px;height:170px;margin-top:20px
+}
+
+.chart-column{
+  height:100%;display:flex;flex-direction:column;
+  justify-content:end;align-items:center;gap:8px
+}
+
+.chart-bar{
+  width:100%;max-width:34px;min-height:4px;
+  background:linear-gradient(180deg,#ead6a9,#a98c54);
+  border-radius:5px 5px 2px 2px;
+  transition:height .4s
+}
+
+.chart-time{font-size:8px;color:#888;white-space:nowrap}
+.chart-value{font-size:8px;color:var(--gold2)}
+
+.chart-legend{color:var(--muted);font-size:9px;margin-top:14px}
+
+.pollutant-grid{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px
+}
+
+.pollutant{
+  padding:18px;border:1px solid var(--line);
+  border-radius:15px;background:#15181e
+}
+
+.pollutant h3{font:700 12px Manrope}
+.pollutant strong{display:block;font:700 24px Manrope;margin-top:11px}
+.pollutant small{color:var(--muted);font-size:9px}
+.pollutant .bar{height:4px;background:#292d33;margin-top:14px;border-radius:10px;overflow:hidden}
+.pollutant .bar span{display:block;height:100%;background:var(--gold);border-radius:10px}
+
+.risk-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:12px
+}
+
+.risk-card{
+  padding:21px;border:1px solid var(--line);
+  border-radius:15px;background:#15181e
+}
+
+.risk-icon{font-size:21px}
+.risk-card h3{font:700 13px Manrope;margin-top:13px}
+.risk-card p{font-size:10px;color:var(--muted);margin-top:8px;line-height:1.8}
+
+.solution-list{display:grid;gap:11px}
+
+.solution{
+  display:flex;align-items:flex-start;gap:13px;
+  padding:15px;border:1px solid var(--line);
+  border-radius:13px;background:#15181e
+}
+
+.solution-number{
+  width:29px;height:29px;flex-shrink:0;
+  display:grid;place-items:center;border-radius:9px;
+  color:var(--gold2);background:rgba(215,189,134,.09);
+  font:700 11px Manrope
+}
+
+.solution h3{font-size:11px}
+.solution p{font-size:10px;color:var(--muted);margin-top:4px}
+
+.city-grid{
+  display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:11px
+}
+
+.city-card{
+  padding:16px;border:1px solid var(--line);
+  border-radius:14px;background:#15181e;min-width:0
+}
+
+.city-card h3{font:700 12px Manrope}
+.city-card strong{display:block;font:700 27px Manrope;margin-top:10px}
+.city-card small{color:var(--muted);font-size:9px}
+
+.compare-layout{
+  display:grid;grid-template-columns:1fr 1fr;gap:12px
+}
+
+.compare-box{
+  padding:17px;border:1px solid var(--line);
+  border-radius:14px;background:#15181e
+}
+
+.compare-box label{
+  display:block;font-size:9px;color:var(--muted);margin-bottom:8px
+}
+
+.compare-box input{
+  width:100%;padding:11px;background:#0d0f13;
+  color:white;border:1px solid var(--line);border-radius:9px;
+  font-size:11px
+}
+
+.compare-result{
+  margin-top:15px;color:var(--muted);font-size:11px;line-height:1.9
+}
+
+.green-score{
+  display:grid;grid-template-columns:auto 1fr;gap:25px;align-items:center
+}
+
+.score-circle{
+  width:135px;height:135px;border-radius:50%;
+  display:grid;place-items:center;
+  border:7px solid rgba(142,199,165,.45);
+  box-shadow:0 0 35px rgba(142,199,165,.08);
+  text-align:center
+}
+
+.score-circle strong{display:block;font:700 37px Manrope}
+.score-circle span{font-size:8px;color:var(--muted)}
+.green-score h3{font:600 20px "Playfair Display",serif}
+.green-score p{font-size:10px;color:var(--muted);margin-top:8px}
+
+.source-note{
+  margin-top:20px;padding:15px;
+  border:1px solid var(--line);border-radius:13px;
+  color:var(--muted);font-size:9px;line-height:1.9
+}
+
+.loading{opacity:.65}
+.hidden{display:none!important}
+
+.site-footer{
+  margin-top:55px;border-top:1px solid var(--line);
+  background:#090a0d
+}
+
+.footer-main{
+  padding:27px 0;display:flex;justify-content:space-between;
+  flex-wrap:wrap;gap:20px
+}
+
+.footer-main p{font-size:10px;color:var(--muted);max-width:420px}
+
+.developer-credit{
+  padding:16px;text-align:center;
+  border-top:1px solid var(--line);
+  color:#a49d8d;font-size:10px;letter-spacing:.08em
+}
+
+.toast{
+  position:fixed;bottom:20px;right:20px;z-index:200;
+  padding:13px 18px;border:1px solid var(--line);
+  border-radius:12px;background:#20242b;
+  color:white;font-size:11px;
+  box-shadow:0 10px 35px #0008
+}
+
+@media(max-width:950px){
+  .dashboard{grid-template-columns:1fr}
+  .city-grid{grid-template-columns:repeat(3,1fr)}
+  .nav-links{gap:14px}
+  .nav-links a{font-size:9px}
+}
+
+@media(max-width:700px){
+  .shell{width:calc(100% - 30px)}
+  .menu{display:block}
+  .nav{min-height:70px}
+  .nav-links{
+    display:none;position:absolute;top:70px;left:0;right:0;
+    background:#101217;padding:15px 20px;
+    flex-direction:column;align-items:stretch;
+    border-bottom:1px solid var(--line);gap:0
+  }
+  .nav-links.open{display:flex}
+  .nav-links a{padding:12px 0;font-size:10px}
+  .hero{padding-top:25px}
+  .search-layout{grid-template-columns:1fr}
+  .metrics,.pollutant-grid{grid-template-columns:repeat(2,1fr)}
+  .risk-grid{grid-template-columns:1fr}
+  .city-grid{grid-template-columns:repeat(2,1fr)}
+  .section-head{align-items:flex-start;flex-direction:column}
+  .green-score{grid-template-columns:1fr;justify-items:center;text-align:center}
+  .chart{gap:4px}
+}
+
+@media(max-width:400px){
+  .metrics,.pollutant-grid{grid-template-columns:1fr}
+  .compare-layout{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+<div class="topline"></div>
+
+<header>
+  <div class="shell nav">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">R</span>
+      <span>
+        <span class="brand-name">ROAM<span style="color:var(--gold)">X</span></span>
+        <span class="brand-caption">Eco Intelligence</span>
+      </span>
+    </a>
+
+    <button class="menu" id="menuBtn" aria-label="Toggle menu">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Overview</a>
+      <a href="map.html">Live Map</a>
+      <a href="environment.html">ROAMX AIR</a>
+      <a href="pollution.html" class="active">Eco Intelligence</a>
+      <a href="news.html">World Watch</a>
+      <a href="resilience.html">Safety Centre</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="shell">
+    <div class="hero-box">
+      <div class="eyebrow">ROAMX / Environmental intelligence</div>
+      <h1>Understand the air.<br><em>Protect the future.</em></h1>
+      <p>
+        Explore atmospheric conditions, monitor six major pollutants,
+        understand air-quality risks and discover how environmental
+        conditions affect everyday life.
+      </p>
+      <div class="hero-note">
+        <span class="live-dot"></span>
+        <span>GLOBAL AIR QUALITY MONITORING</span>
+        <span>•</span>
+        <span id="updateTime">Waiting for location data</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+<div class="shell">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">01 / Location intelligence</div>
+      <h2>Explore your atmosphere.</h2>
+      <p>Search any city worldwide or use your current location.</p>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="search-layout">
+      <div class="search-wrap">
+        <div class="search-box">
+          <span>⌕</span>
+          <input id="citySearch" type="search"
+            placeholder="Search city, country or location..."
+            autocomplete="off">
+        </div>
+        <div class="search-results hidden" id="searchResults"></div>
+      </div>
+      <button class="btn btn-gold" id="locateBtn">⌖ Detect my location</button>
+    </div>
+    <div class="location-status" id="locationStatus">
+      Select a city or allow location access to begin.
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section" id="dashboard">
+<div class="shell">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">02 / Live environmental conditions</div>
+      <h2 id="cityHeading">Air quality overview</h2>
+      <p id="citySubheading">Waiting for environmental data.</p>
+    </div>
+    <button class="btn btn-outline" id="refreshBtn">↻ Refresh</button>
+  </div>
+
+  <div class="dashboard">
+    <div class="panel aqi-panel">
+      <div>
+        <div class="aqi-top">
+          <span class="eyebrow">US Air Quality Index</span>
+          <span class="live-dot"></span>
+        </div>
+        <div class="aqi-number" id="aqiValue">--</div>
+        <div class="aqi-label">Air Quality Index</div>
+        <span class="aqi-category category-moderate" id="aqiCategory">Awaiting data</span>
+        <div class="aqi-meter">
+          <div class="aqi-marker" id="aqiMarker"></div>
+        </div>
+        <div class="aqi-scale">
+          <span>0</span><span>50</span><span>100</span>
+          <span>150</span><span>200</span><span>300+</span>
+        </div>
+      </div>
+      <div class="aqi-foot">
+        <span>Dominant pollutant</span>
+        <strong id="dominantPollutant">—</strong>
+      </div>
+    </div>
+
+    <div class="metrics" id="metrics">
+      <div class="metric"><span class="metric-symbol">PM 2.5</span><h3>Fine particles</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
+      <div class="metric"><span class="metric-symbol">PM 10</span><h3>Coarse particles</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
+      <div class="metric"><span class="metric-symbol">CO</span><h3>Carbon monoxide</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
+      <div class="metric"><span class="metric-symbol">NO₂</span><h3>Nitrogen dioxide</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
+      <div class="metric"><span class="metric-symbol">SO₂</span><h3>Sulphur dioxide</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
+      <div class="metric"><span class="metric-symbol">O₃</span><h3>Ground-level ozone</h3><div class="metric-value">--</div><span class="metric-unit">µg/m³</span></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="shell">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">03 / Atmospheric forecast</div>
+      <h2>Next 24 hours.</h2>
+      <p>Hourly modelled US AQI forecast for the selected location.</p>
+    </div>
+  </div>
+  <div class="panel chart-panel">
+    <div class="chart" id="forecastChart">
+      <p class="muted">Load a location to view the forecast.</p>
+    </div>
+    <div class="chart-legend">Hourly air quality index · Lower values generally indicate cleaner air.</div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="shell">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">04 / Pollutant intelligence</div>
+      <h2>What's in the air?</h2>
+      <p>Measurements of six important atmospheric pollutants.</p>
+    </div>
+  </div>
+  <div class="pollutant-grid" id="pollutants">
+    <div class="pollutant"><h3>PM2.5</h3><strong>--</strong><small>µg/m³</small></div>
+    <div class="pollutant"><h3>PM10</h3><strong>--</strong><small>µg/m³</small></div>
+    <div class="pollutant"><h3>CO</h3><strong>--</strong><small>µg/m³</small></div>
+    <div class="pollutant"><h3>NO₂</h3><strong>--</strong><small>µg/m³</small></div>
+    <div class="pollutant"><h3>SO₂</h3><strong>--</strong><small>µg/m³</small></div>
+    <div class="pollutant"><h3>O₃</h3><strong>--</strong><small>µg/m³</small></div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="shell">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">05 / Environmental diagnosis</div>
+      <h2>Understand the risks.</h2>
+      <p>Practical information based on the selected air-quality category.</p>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="eyebrow">CURRENT AIR QUALITY ASSESSMENT</div>
+    <h2 id="riskTitle" style="font:600 22px 'Playfair Display';margin-top:10px">Awaiting data</h2>
+    <p id="riskDescription" style="font-size:11px;color:var(--muted);margin-top:10px">
+      Select a location to receive an environmental assessment.
+    </p>
+    <div class="risk-grid" style="margin-top:20px" id="riskGrid">
+      <div class="risk-card"><div class="risk-icon">🫁</div><h3>Respiratory health</h3><p>Assessment will appear here.</p></div>
+      <div class="risk-card"><div class="risk-icon">❤️</div><h3>Heart health</h3><p>Assessment will appear here.</p></div>
+      <div class="risk-card"><div class="risk-icon">🌿</div><h3>Outdoor activity</h3><p>Assessment will appear here.</p></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="shell">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">06 / Environmental action</div>
+      <h2>Make informed decisions.</h2>
+      <p>Precautions and practical steps to reduce exposure.</p>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="solution-list" id="solutions">
+      <div class="solution"><div class="solution-number">01</div><div><h3>Check local air quality</h3><p>Review conditions before planning outdoor activities.</p></div></div>
+      <div class="solution"><div class="solution-number">02</div><div><h3>Reduce unnecessary exposure</h3><p>Limit prolonged outdoor exertion when pollution is elevated.</p></div></div>
+      <div class="solution"><div class="solution-number">03</div><div><h3>Protect indoor air</h3><p>Keep indoor spaces clean and ventilated when outdoor conditions permit.</p></div></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="shell">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">07 / Global hotspot radar</div>
+      <h2>Pollution across cities.</h2>
+      <p>Compare modelled air quality in selected world cities.</p>
+    </div>
+    <button class="btn btn-outline" id="hotspotRefresh">↻ Update radar</button>
+  </div>
+  <div class="city-grid" id="hotspotGrid">
+    <div class="city-card"><h3>Chennai</h3><strong>--</strong><small>Loading...</small></div>
+    <div class="city-card"><h3>Delhi</h3><strong>--</strong><small>Loading...</small></div>
+    <div class="city-card"><h3>Mumbai</h3><strong>--</strong><small>Loading...</small></div>
+    <div class="city-card"><h3>Bengaluru</h3><strong>--</strong><small>Loading...</small></div>
+    <div class="city-card"><h3>Kolkata</h3><strong>--</strong><small>Loading...</small></div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="shell">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">08 / City comparison</div>
+      <h2>Two cities. One comparison.</h2>
+      <p>Compare modelled air quality between any two locations.</p>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="compare-layout">
+      <div class="compare-box">
+        <label for="cityA">FIRST CITY</label>
+        <input id="cityA" value="Chennai" placeholder="Enter first city">
+      </div>
+      <div class="compare-box">
+        <label for="cityB">SECOND CITY</label>
+        <input id="cityB" value="Delhi" placeholder="Enter second city">
+      </div>
+    </div>
+    <button class="btn btn-gold" id="compareBtn" style="margin-top:17px">Compare cities →</button>
+    <div class="compare-result" id="compareResult">Choose two cities and start your comparison.</div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="shell">
+  <div class="section-head">
+    <div>
+      <div class="eyebrow">09 / Environmental score</div>
+      <h2>Green intelligence.</h2>
+      <p>A simplified environmental indicator derived from the modelled AQI.</p>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="green-score">
+      <div class="score-circle">
+        <div><strong id="greenScore">--</strong><span>GREEN SCORE</span></div>
+      </div>
+      <div>
+        <h3 id="greenTitle">Awaiting environmental data</h3>
+        <p id="greenDescription">Your environmental score will be calculated when a location is selected. This is an educational indicator, not an official sustainability certification.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+<div class="shell">
+  <div class="panel">
+    <div class="eyebrow">DATA TRANSPARENCY</div>
+    <h3 style="font:600 18px 'Playfair Display';margin-top:9px">Understanding the data.</h3>
+    <div class="source-note">
+      ROAMX Eco Intelligence retrieves modelled atmospheric information through the free Open-Meteo Air Quality API. Its forecast data is based on Copernicus Atmosphere Monitoring Service (CAMS) models.
+      <br><br>
+      <strong style="color:var(--gold2)">Important:</strong> These are model-based estimates, not direct measurements from a physical monitoring station. Data resolution, coverage and update frequency vary by region. Values may differ from local government monitoring stations.
+      <br><br>
+      US AQI is used for the main dashboard. It should not be confused with India's CPCB National AQI scale. This page is an educational awareness tool and does not provide medical advice.
+      <br><br>
+      Data attribution: <a href="https://open-meteo.com/" target="_blank" rel="noopener" style="color:var(--gold2)">Open-Meteo</a> · <a href="https://atmosphere.copernicus.eu/" target="_blank" rel="noopener" style="color:var(--gold2)">Copernicus CAMS</a>.
+    </div>
+  </div>
+</div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="shell footer-main">
+    <div>
+      <div class="brand-name">ROAM<span style="color:var(--gold)">X</span></div>
+      <p>Eco Intelligence · Understand the atmosphere. Protect the future.</p>
+    </div>
+    <p>Environmental information for awareness and education. Forecast availability depends on external data providers.</p>
+  </div>
+  <div class="developer-credit">
+    Designed &amp; Developed by Sabarish P | B.Tech IT
+  </div>
+</footer>
+
+<div class="toast hidden" id="toast" role="status"></div>
+
+<script>
+"use strict";
+
+const $ = id => document.getElementById(id);
+
+const AIR_API = "https://air-quality-api.open-meteo.com/v1/air-quality";
+const GEO_API = "https://geocoding-api.open-meteo.com/v1/search";
+
+const pollutantInfo = [
+  {key:"pm2_5",name:"PM2.5",symbol:"PM 2.5",desc:"Fine particulate matter",unit:"µg/m³",limit:75},
+  {key:"pm10",name:"PM10",symbol:"PM 10",desc:"Coarse particulate matter",unit:"µg/m³",limit:150},
+  {key:"carbon_monoxide",name:"Carbon monoxide",symbol:"CO",desc:"Combustion-related gas",unit:"µg/m³",limit:10000},
+  {key:"nitrogen_dioxide",name:"Nitrogen dioxide",symbol:"NO₂",desc:"Traffic and combustion emissions",unit:"µg/m³",limit:200},
+  {key:"sulphur_dioxide",name:"Sulphur dioxide",symbol:"SO₂",desc:"Industrial and fuel emissions",unit:"µg/m³",limit:350},
+  {key:"ozone",name:"Ozone",symbol:"O₃",desc:"Ground-level ozone",unit:"µg/m³",limit:180}
+];
+
+let currentLocation = {
+  name:"Chennai",
+  country:"India",
+  latitude:13.0827,
+  longitude:80.2707
+};
+
+let currentData = null;
+let searchTimer = null;
+let searchController = null;
+let toastTimer = null;
+
+function showToast(message){
+  const el=$("toast");
+  el.textContent=message;
+  el.classList.remove("hidden");
+  clearTimeout(toastTimer);
+  toastTimer=setTimeout(()=>el.classList.add("hidden"),3500);
+}
+
+function escapeHTML(value){
+  return String(value).replace(/[&<>"']/g,c=>({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[c]));
+}
+
+function getCategory(aqi){
+  if(aqi<=50)return {name:"Good",class:"category-good",title:"Air quality is good"};
+  if(aqi<=100)return {name:"Moderate",class:"category-moderate",title:"Moderate air quality"};
+  if(aqi<=150)return {name:"Unhealthy for sensitive groups",class:"category-sensitive",title:"Sensitive groups may be affected"};
+  if(aqi<=200)return {name:"Unhealthy",class:"category-unhealthy",title:"Air quality is unhealthy"};
+  if(aqi<=300)return {name:"Very unhealthy",class:"category-very",title:"Air quality is very unhealthy"};
+  return {name:"Hazardous",class:"category-hazardous",title:"Hazardous air quality"};
+}
+
+function getRisk(aqi){
+  if(aqi<=50)return {
+    title:"Favourable air-quality conditions",
+    description:"The modelled AQI indicates relatively clean air. Continue normal activities while remaining aware of local conditions.",
+    respiratory:"Generally favourable conditions. People with respiratory conditions should continue their usual care.",
+    heart:"No additional AQI-based precautions are generally indicated.",
+    outdoor:"Normal outdoor activities are generally suitable.",
+    solutions:[
+      ["Maintain good habits","Continue avoiding unnecessary emissions and keep indoor spaces clean."],
+      ["Protect green spaces","Support trees, parks and local environmental conservation."],
+      ["Stay informed","Check forecasts when weather or pollution conditions change."]
+    ]
+  };
+  if(aqi<=100)return {
+    title:"Moderate environmental conditions",
+    description:"Most people can continue normal activities. Unusually sensitive individuals may experience mild effects.",
+    respiratory:"People unusually sensitive to air pollution should monitor symptoms.",
+    heart:"People with existing heart conditions should follow their normal care plan.",
+    outdoor:"Most outdoor activities can continue. Sensitive individuals should consider reducing prolonged exertion if symptoms occur.",
+    solutions:[
+      ["Monitor symptoms","Pay attention to coughing, wheezing or breathing discomfort."],
+      ["Plan outdoor activity","Consider local conditions when exercising outdoors."],
+      ["Reduce emissions","Avoid unnecessary vehicle idling and open burning."]
+    ]
+  };
+  if(aqi<=150)return {
+    title:"Increased sensitivity risk",
+    description:"Sensitive groups may experience health effects. Children, older adults and people with respiratory or cardiovascular conditions should take additional care.",
+    respiratory:"People with asthma or other respiratory conditions should reduce prolonged heavy outdoor exertion.",
+    heart:"People with cardiovascular conditions should pay attention to symptoms and follow medical guidance.",
+    outdoor:"Consider shorter outdoor activities, especially strenuous exercise.",
+    solutions:[
+      ["Reduce prolonged exposure","Limit strenuous outdoor activity, especially for sensitive groups."],
+      ["Follow health guidance","Use prescribed medication as directed and follow professional advice."],
+      ["Improve indoor conditions","Keep indoor air clean and use suitable filtration where available."]
+    ]
+  };
+  if(aqi<=200)return {
+    title:"Unhealthy air-quality conditions",
+    description:"Everyone may begin to experience health effects. Sensitive groups may experience more serious effects.",
+    respiratory:"Reduce outdoor exertion. People with respiratory conditions should be especially cautious.",
+    heart:"People with heart disease should avoid strenuous outdoor activity and monitor symptoms.",
+    outdoor:"Move strenuous exercise indoors where indoor air is cleaner.",
+    solutions:[
+      ["Limit outdoor exertion","Reduce prolonged or intense physical activity outdoors."],
+      ["Use suitable protection","A well-fitted particulate respirator may reduce particle exposure, but does not protect against all gases."],
+      ["Keep indoor air cleaner","Close windows during high pollution episodes if outdoor air is worse; use appropriate filtration."]
+    ]
+  };
+  return {
+    title:"Very poor to hazardous conditions",
+    description:"The AQI indicates a high pollution risk. Everyone should reduce exposure and follow official local health advisories.",
+    respiratory:"Avoid outdoor exertion. Seek medical attention for severe breathing difficulty.",
+    heart:"People with cardiovascular conditions should follow medical advice and avoid unnecessary exposure.",
+    outdoor:"Avoid strenuous outdoor activity. Follow local emergency or public-health instructions.",
+    solutions:[
+      ["Avoid unnecessary exposure","Stay indoors in cleaner air where possible."],
+      ["Follow official alerts","Monitor government pollution and public-health advisories."],
+      ["Seek help when needed","Contact medical services if severe symptoms occur."]
+    ]
+  };
+}
+
+function renderMetrics(data){
+  const current=data.current||{};
+  $("metrics").innerHTML=pollutantInfo.map(p=>`
+    <div class="metric">
+      <span class="metric-symbol">${p.symbol}</span>
+      <h3>${p.name}</h3>
+      <div class="metric-value">${Number.isFinite(current[p.key])?current[p.key].toFixed(1):"—"}</div>
+      <span class="metric-unit">${p.unit}</span>
+      <div class="metric-desc">${p.desc}</div>
+    </div>
+  `).join("");
+
+  $("pollutants").innerHTML=pollutantInfo.map(p=>{
+    const value=current[p.key];
+    const valid=Number.isFinite(value);
+    const width=valid?Math.min(100,Math.max(0,value/p.limit*100)):0;
+    return `
+      <div class="pollutant">
+        <h3>${p.name}</h3>
+        <strong>${valid?value.toFixed(1):"—"}</strong>
+        <small>${p.unit} · ${p.desc}</small>
+        <div class="bar"><span style="width:${width}%"></span></div>
+      </div>
+    `;
+  }).join("");
+}
+
+function renderForecast(data){
+  const times=data.hourly?.time||[];
+  const values=data.hourly?.us_aqi||[];
+  const now=new Date();
+  const entries=[];
+
+  for(let i=0;i<times.length;i++){
+    const date=new Date(times[i]);
+    if(date>=new Date(now.getTime()-60*60*1000)&&entries.length<12){
+      entries.push({time:date,value:values[i]});
+    }
+  }
+
+  if(!entries.length){
+    $("forecastChart").textContent="Forecast unavailable for this location.";
+    return;
+  }
+
+  const max=Math.max(100,...entries.map(x=>Number(x.value)||0));
+
+  $("forecastChart").innerHTML=entries.map(item=>{
+    const value=Number(item.value);
+    const height=Number.isFinite(value)?Math.max(4,value/max*140):4;
+    const label=item.time.toLocaleTimeString([],{hour:"2-digit",hour12:true});
+    return `
+      <div class="chart-column" title="${label}: ${Number.isFinite(value)?value:"Unavailable"} AQI">
+        <span class="chart-value">${Number.isFinite(value)?Math.round(value):"—"}</span>
+        <div class="chart-bar" style="height:${height}px"></div>
+        <span class="chart-time">${label}</span>
+      </div>
+    `;
+  }).join("");
+}
+
+function renderAssessment(aqi){
+  const risk=getRisk(aqi);
+
+  $("riskTitle").textContent=risk.title;
+  $("riskDescription").textContent=risk.description;
+
+  $("riskGrid").innerHTML=[
+    ["🫁","Respiratory health",risk.respiratory],
+    ["❤️","Heart health",risk.heart],
+    ["🌿","Outdoor activity",risk.outdoor]
+  ].map(item=>`
+    <div class="risk-card">
+      <div class="risk-icon">${item[0]}</div>
+      <h3>${item[1]}</h3>
+      <p>${item[2]}</p>
+    </div>
+  `).join("");
+
+  $("solutions").innerHTML=risk.solutions.map((item,i)=>`
+    <div class="solution">
+      <div class="solution-number">${String(i+1).padStart(2,"0")}</div>
+      <div><h3>${item[0]}</h3><p>${item[1]}</p></div>
+    </div>
+  `).join("");
+}
+
+function renderGreenScore(aqi){
+  const score=Math.max(0,Math.min(100,Math.round(100-(aqi/500*100))));
+  $("greenScore").textContent=score;
+
+  let title="Environmental conditions need attention";
+  if(score>=80)title="Relatively cleaner atmospheric conditions";
+  else if(score>=60)title="Moderate environmental conditions";
+  else if(score>=40)title="Elevated pollution pressure";
+
+  $("greenTitle").textContent=title;
+  $("greenDescription").textContent=
+    `The educational Green Score is ${score}/100, calculated from the inverse of the modelled US AQI. It is not an official environmental or sustainability rating.`;
+}
+
+function renderData(data,location){
+  const current=data.current||{};
+  const aqi=Number(current.us_aqi);
+
+  if(!Number.isFinite(aqi)){
+    throw new Error("The air-quality provider did not return a valid US AQI value.");
+  }
+
+  currentData=data;
+  currentLocation=location;
+
+  const category=getCategory(aqi);
+  $("aqiValue").textContent=Math.round(aqi);
+  $("aqiCategory").textContent=category.name;
+  $("aqiCategory").className="aqi-category "+category.class;
+  $("aqiMarker").style.left=Math.min(100,aqi/400*100)+"%";
+
+  const dominant=pollutantInfo
+    .filter(p=>Number.isFinite(current[p.key]))
+    .sort((a,b)=>(current[b.key]/b.limit)-(current[a.key]/a.limit))[0];
+
+  $("dominantPollutant").textContent=dominant?dominant.name:"Unavailable";
+  $("cityHeading").textContent=location.name+" · Air quality";
+  $("citySubheading").textContent=
+    [location.country,data.timezone].filter(Boolean).join(" · ");
+
+  renderMetrics(data);
+  renderForecast(data);
+  renderAssessment(aqi);
+  renderGreenScore(aqi);
+
+  const timestamp=current.time?new Date(current.time):new Date();
+  $("updateTime").textContent="Model data time: "+timestamp.toLocaleString();
+  $("locationStatus").className="location-status";
+  $("locationStatus").textContent=
+    `Monitoring ${location.name}, ${location.country||""} · ${location.latitude.toFixed(3)}, ${location.longitude.toFixed(3)}`;
+
+  $("dashboard").classList.remove("loading");
+}
+
+async function fetchAirQuality(location){
+  $("dashboard").classList.add("loading");
+  $("locationStatus").textContent="Retrieving atmospheric information...";
+  $("locationStatus").className="location-status";
+
+  const params=new URLSearchParams({
+    latitude:location.latitude,
+    longitude:location.longitude,
+    current:"us_aqi,european_aqi,pm2_5,pm10,carbon_monoxide,nitrogen_dioxide,sulphur_dioxide,ozone",
+    hourly:"us_aqi,pm2_5,pm10",
+    forecast_hours:"24",
+    timezone:"auto",
+    domains:"auto"
+  });
+
+  const controller=new AbortController();
+  const timeout=setTimeout(()=>controller.abort(),18000);
+
+  try{
+    const response=await fetch(`${AIR_API}?${params}`,{signal:controller.signal});
+    if(!response.ok)throw new Error("Air-quality service returned HTTP "+response.status);
+    const data=await response.json();
+
+    if(data.error)throw new Error(data.reason||"Invalid data response");
+
+    renderData(data,location);
+  }catch(error){
+    $("dashboard").classList.remove("loading");
+    $("locationStatus").className="location-status error";
+    $("locationStatus").textContent=
+      error.name==="AbortError"
+      ?"Request timed out. Please try again."
+      :"Unable to retrieve air-quality data. "+error.message;
+    showToast("Could not load environmental data.");
+  }finally{
+    clearTimeout(timeout);
+  }
+}
+
+async function searchCities(query){
+  if(searchController)searchController.abort();
+  searchController=new AbortController();
+
+  const params=new URLSearchParams({
+    name:query,
+    count:"7",
+    language:"en",
+    format:"json"
+  });
+
+  const response=await fetch(`${GEO_API}?${params}`,{signal:searchController.signal});
+  if(!response.ok)throw new Error("City search unavailable");
+
+  const data=await response.json();
+  return data.results||[];
+}
+
+$("citySearch").addEventListener("input",event=>{
+  clearTimeout(searchTimer);
+  const query=event.target.value.trim();
+
+  if(query.length<2){
+    $("searchResults").classList.add("hidden");
+    return;
+  }
+
+  searchTimer=setTimeout(async()=>{
+    try{
+      const results=await searchCities(query);
+      const box=$("searchResults");
+
+      if(!results.length){
+        box.innerHTML='<div class="search-result">No matching locations found.</div>';
+      }else{
+        box.innerHTML=results.map((city,i)=>`
+          <button class="search-result" data-index="${i}">
+            ${escapeHTML(city.name)}
+            <small>${escapeHTML([city.admin1,city.country].filter(Boolean).join(", "))}</small>
+          </button>
+        `).join("");
+
+        box.querySelectorAll("button").forEach(button=>{
+          button.addEventListener("click",()=>{
+            const city=results[Number(button.dataset.index)];
+            const location={
+              name:city.name,
+              country:city.country||"",
+              latitude:city.latitude,
+              longitude:city.longitude
+            };
+            $("citySearch").value=city.name;
+            box.classList.add("hidden");
+            fetchAirQuality(location);
+          });
+        });
+      }
+
+      box.classList.remove("hidden");
+    }catch(error){
+      if(error.name!=="AbortError")showToast("City search failed.");
+    }
+  },350);
+});
+
+document.addEventListener("click",event=>{
+  if(!event.target.closest(".search-wrap")){
+    $("searchResults").classList.add("hidden");
+  }
+});
+
+$("locateBtn").addEventListener("click",()=>{
+  if(!navigator.geolocation){
+    showToast("Geolocation is not supported by this browser.");
+    return;
+  }
+
+  $("locationStatus").textContent="Requesting location permission...";
+
+  navigator.geolocation.getCurrentPosition(
+    async position=>{
+      const location={
+        name:"Your location",
+        country:"Detected coordinates",
+        latitude:position.coords.latitude,
+        longitude:position.coords.longitude
+      };
+      $("citySearch").value="";
+      await fetchAirQuality(location);
+    },
+    error=>{
+      const messages={
+        1:"Location permission was denied.",
+        2:"Your location could not be determined.",
+        3:"Location request timed out."
+      };
+      $("locationStatus").className="location-status error";
+      $("locationStatus").textContent=messages[error.code]||"Location unavailable.";
+    },
+    {enableHighAccuracy:false,timeout:12000,maximumAge:300000}
+  );
+});
+
+$("refreshBtn").addEventListener("click",()=>{
+  fetchAirQuality(currentLocation);
+});
+
+$("menuBtn").addEventListener("click",()=>{
+  $("navLinks").classList.toggle("open");
+});
+
+$("navLinks").querySelectorAll("a").forEach(link=>{
+  link.addEventListener("click",()=>$("navLinks").classList.remove("open"));
+});
+
+const hotspotCities=[
+  {name:"Chennai",country:"India",latitude:13.0827,longitude:80.2707},
+  {name:"Delhi",country:"India",latitude:28.6139,longitude:77.2090},
+  {name:"Mumbai",country:"India",latitude:19.0760,longitude:72.8777},
+  {name:"Bengaluru",country:"India",latitude:12.9716,longitude:77.5946},
+  {name:"Kolkata",country:"India",latitude:22.5726,longitude:88.3639}
+];
+
+async function getCityAQI(city){
+  const params=new URLSearchParams({
+    latitude:city.latitude,
+    longitude:city.longitude,
+    current:"us_aqi",
+    timezone:"auto"
+  });
+
+  const response=await fetch(`${AIR_API}?${params}`);
+  if(!response.ok)throw new Error("City data unavailable");
+  const data=await response.json();
+
+  return Number(data.current?.us_aqi);
+}
+
+async function loadHotspots(){
+  const grid=$("hotspotGrid");
+  grid.innerHTML=hotspotCities.map((city,i)=>`
+    <div class="city-card" id="hotspot-${i}">
+      <h3>${city.name}</h3>
+      <strong>--</strong>
+      <small>Loading...</small>
+    </div>
+  `).join("");
+
+  await Promise.all(hotspotCities.map(async(city,i)=>{
+    const card=$("hotspot-"+i);
+    try{
+      const aqi=await getCityAQI(city);
+      const category=getCategory(aqi);
+      card.innerHTML=`
+        <h3>${city.name}</h3>
+        <strong>${Math.round(aqi)}</strong>
+        <small>${category.name} · US AQI</small>
+      `;
+    }catch(error){
+      card.innerHTML=`<h3>${city.name}</h3><strong>--</strong><small>Unavailable</small>`;
+    }
+  }));
+}
+
+$("hotspotRefresh").addEventListener("click",loadHotspots);
+
+async function geocodeCity(name){
+  const results=await searchCities(name);
+  if(!results.length)throw new Error(`City "${name}" was not found.`);
+  const city=results[0];
+  return {
+    name:city.name,
+    country:city.country||"",
+    latitude:city.latitude,
+    longitude:city.longitude
+  };
+}
+
+$("compareBtn").addEventListener("click",async()=>{
+  const a=$("cityA").value.trim();
+  const b=$("cityB").value.trim();
+  const output=$("compareResult");
+
+  if(!a||!b){
+    output.textContent="Please enter both city names.";
+    return;
+  }
+
+  if(a.toLowerCase()===b.toLowerCase()){
+    output.textContent="Please enter two different cities.";
+    return;
+  }
+
+  $("compareBtn").disabled=true;
+  $("compareBtn").textContent="Comparing...";
+  output.textContent="Retrieving data for both locations...";
+
+  try{
+    const [locationA,locationB]=await Promise.all([
+      geocodeCity(a),geocodeCity(b)
+    ]);
+
+    const [aqiA,aqiB]=await Promise.all([
+      getCityAQI(locationA),getCityAQI(locationB)
+    ]);
+
+    if(!Number.isFinite(aqiA)||!Number.isFinite(aqiB)){
+      throw new Error("One or both AQI readings are unavailable.");
+    }
+
+    const difference=Math.abs(aqiA-aqiB);
+    const cleaner=aqiA<aqiB?locationA.name:
+      aqiB<aqiA?locationB.name:"Both cities have equal AQI values";
+
+    output.innerHTML=`
+      <div class="compare-layout">
+        <div class="compare-box">
+          <strong>${escapeHTML(locationA.name)}</strong>
+          <div style="font:700 32px Manrope;color:var(--gold2)">${Math.round(aqiA)}</div>
+          <small>${getCategory(aqiA).name} · US AQI</small>
+        </div>
+        <div class="compare-box">
+          <strong>${escapeHTML(locationB.name)}</strong>
+          <div style="font:700 32px Manrope;color:var(--gold2)">${Math.round(aqiB)}</div>
+          <small>${getCategory(aqiB).name} · US AQI</small>
+        </div>
+      </div>
+      <p style="margin-top:15px">
+        ${escapeHTML(cleaner)} has the lower modelled AQI by ${Math.round(difference)} points.
+      </p>
+      <small>Comparison is based on modelled data retrieved at approximately the same time, not permanent city rankings.</small>
+    `;
+  }catch(error){
+    output.textContent=error.message;
+  }finally{
+    $("compareBtn").disabled=false;
+    $("compareBtn").textContent="Compare cities →";
+  }
+});
+
+// INITIALISE
+fetchAirQuality(currentLocation);
+loadHotspots();
+</script>
+
+</body>
+</html>
