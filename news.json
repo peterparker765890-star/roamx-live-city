@@ -240,43 +240,245 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-13T11:25:47Z",
-    "lastSuccessfulRun": "2026-11-13T11:25:47Z",
-    "lastUpdated": "2026-11-13T11:25:47Z",
-    "articlesAdded": 11,
+    "lastRun": "2026-11-13T18:41:08Z",
+    "lastSuccessfulRun": "2026-11-13T18:41:08Z",
+    "lastUpdated": "2026-11-13T18:41:08Z",
+    "articlesAdded": 23,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 37,
+    "duplicatesRemoved": 30,
     "failedSources": [],
     "newArticleIds": [
-      "8f8fe4a40382863b2ac8",
-      "2a286df5a87002b64541",
-      "88460e3db185aedb39b5",
-      "4f8f7ab0d28bddaf6280",
-      "4474b8401c11361189c1",
-      "eedfb6ae872b16a1d688",
-      "b5fc8066be885ca41cc1",
-      "442bdb2edaf349cdeddc",
-      "ae7833c6fbe269b859a3",
-      "7a5b62812c4edd1a8ef7",
-      "10ccc51c2f3439fd842e"
+      "51ab35013ab7a4d462d8",
+      "bd8a35fa5bc1f80b38a1",
+      "974c2089852f3ff13a36",
+      "071996f285de319e2391",
+      "b0adecace8d8db31bb60",
+      "2b650cbaf02a2e622620",
+      "a6515252cc5e803c5b7c",
+      "e656ed47a3f2e02eb78f",
+      "fbe4322121143fab6fe7",
+      "f303dd4473946fc69566",
+      "000e06af2b80e5391b3e",
+      "c02a2cfd8ce346d52b31",
+      "290b2f8903f338aa3149",
+      "cc603db12dfe2cbf89e6",
+      "e8d6a4bdc8e7289937c8",
+      "f38041f5b9d172d3853b",
+      "dd9cc9c4f1bdccbfe52a",
+      "1d514a7ef9acb5291bce",
+      "3d3bbba546b3cb843e4f",
+      "c3bd1139887892deba02",
+      "089e9236c2a2ca531728",
+      "3681c6c6d49c0bed28e2",
+      "ec9afb9d9db84f7f9caf"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 0,
+    "articlesRemoved": 1,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 129,
+    "totalArticles": 151,
     "categories": {
-      "World": 60,
-      "India": 11,
-      "Technology": 7,
-      "Environment": 42,
+      "World": 70,
+      "India": 14,
+      "Technology": 9,
+      "Environment": 49,
       "Disaster": 9
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "51ab35013ab7a4d462d8",
+      "title": "Environmental advocates push to curb ship pollution in Hampton Roads - WHRO",
+      "description": "Environmental advocates push to curb ship pollution in Hampton Roads WHRO",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWVZOZzExVGs0aVg5cG1ydjRMT2NPaFpDZE9NS2hkX2E4SVVOa3JBRjZBM1pQcjU1aUxETWJUNWtwUEp6Uzg4WDF3X19JaXBKbzY2OU9PUmtfWTZnNERUMW10WXkxMTdWMEhxdlNXZkFza3JRMmdlR2t6TDdpZS00ZHZtWjlfS2dwTDRzbE0zRDlEbnZyVzVYaXUteEJVRWdMV1B0eUZveEFPQVROZkttaU9B?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWVZOZzExVGs0aVg5cG1ydjRMT2NPaFpDZE9NS2hkX2E4SVVOa3JBRjZBM1pQcjU1aUxETWJUNWtwUEp6Uzg4WDF3X19JaXBKbzY2OU9PUmtfWTZnNERUMW10WXkxMTdWMEhxdlNXZkFza3JRMmdlR2t6TDdpZS00ZHZtWjlfS2dwTDRzbE0zRDlEbnZyVzVYaXUteEJVRWdMV1B0eUZveEFPQVROZkttaU9B?oc=5",
+      "source": "WHRO",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T17:52:00Z"
+    },
+    {
+      "id": "bd8a35fa5bc1f80b38a1",
+      "title": "Jensen Huang was reckless with the environment, too - The Verge",
+      "description": "Jensen Huang was reckless with the environment, too The Verge",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ3J5TzFULXctLV9HVFB6cEVoWElGVmVmTHdGc1hUYkhWNjE2dHJJSC1iSU1oZHBVdW1EVzB2bGYwVnRHSEs4MEI3T2dESXp5LUR0NXFNTDdzMi1LY29wYnFMZGRsSFZaSFN4VmZ6Wmd5UkVmRl9wNVptaDdYdUxzQlYwZWxfNkpsYXhwSlVsTWdhZXp4bEhHTWJocE04V3M?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ3J5TzFULXctLV9HVFB6cEVoWElGVmVmTHdGc1hUYkhWNjE2dHJJSC1iSU1oZHBVdW1EVzB2bGYwVnRHSEs4MEI3T2dESXp5LUR0NXFNTDdzMi1LY29wYnFMZGRsSFZaSFN4VmZ6Wmd5UkVmRl9wNVptaDdYdUxzQlYwZWxfNkpsYXhwSlVsTWdhZXp4bEhHTWJocE04V3M?oc=5",
+      "source": "The Verge",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T17:44:22Z"
+    },
+    {
+      "id": "974c2089852f3ff13a36",
+      "title": "International Criminal Court limits Afghanistan investigation to Taliban crimes - chronicleonline.com",
+      "description": "International Criminal Court limits Afghanistan investigation to Taliban crimes chronicleonline.com",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPTVdqYkh3RDdCZW81TDNXN1VBbktNU1JyTmhXQzJkZ0s3SVpadG83MV9rMEVYTEs4RU94Z3Z6bW5Db3lvdDNuQXdGRDA2NVFWcGFSVXFZUkpZRmJMcWVzQVhJaU1vd1pmVUcxWmJnTlZHdWFTcVhBcEcxYlRBcVh6TFh2NC1oSk1sS1pxUEljbTRiVHRRQ0VZWDlfQVdxOTAwMks2ZlRHYUo2bU1KcnlzWGpGMkhndGF4ampHYWQ0MFNUdWVCeW5TTU9PNDFGaG93bVlNT2tlUGFFdEh3Vlk1OFBjOHAydjRjWlhIOHNoeEV0RUlWcEczYXkzMk9yNV9jNnc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPTVdqYkh3RDdCZW81TDNXN1VBbktNU1JyTmhXQzJkZ0s3SVpadG83MV9rMEVYTEs4RU94Z3Z6bW5Db3lvdDNuQXdGRDA2NVFWcGFSVXFZUkpZRmJMcWVzQVhJaU1vd1pmVUcxWmJnTlZHdWFTcVhBcEcxYlRBcVh6TFh2NC1oSk1sS1pxUEljbTRiVHRRQ0VZWDlfQVdxOTAwMks2ZlRHYUo2bU1KcnlzWGpGMkhndGF4ampHYWQ0MFNUdWVCeW5TTU9PNDFGaG93bVlNT2tlUGFFdEh3Vlk1OFBjOHAydjRjWlhIOHNoeEV0RUlWcEczYXkzMk9yNV9jNnc?oc=5",
+      "source": "chronicleonline.com",
+      "category": "World",
+      "publishedAt": "2026-11-13T17:36:27Z"
+    },
+    {
+      "id": "071996f285de319e2391",
+      "title": "International Criminal Court limits Afghanistan investigation to Taliban crimes - Audacy",
+      "description": "International Criminal Court limits Afghanistan investigation to Taliban crimes Audacy",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONk1HUHFJVFE0bTFWYnpIQjJlSEFoYlFIUzE3TG9aNlprc0lPNkYwNmExd0h2Y0RGUTY3U0JEbTdyRVhWLTE2MldvWE0xcXQyckQxak9HWElfbXdVd1N1Wm4zdmJDQkxnemRScG5Gd1RpNkgzSkFyUGhVYkZVYWFscXBRNWdua285bmNIWTdSdDk1ekNzNkhoN19wdFBRSEpCeTFrVW9ySm5SNGVaSnVmeGlpTzhmTDR0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONk1HUHFJVFE0bTFWYnpIQjJlSEFoYlFIUzE3TG9aNlprc0lPNkYwNmExd0h2Y0RGUTY3U0JEbTdyRVhWLTE2MldvWE0xcXQyckQxak9HWElfbXdVd1N1Wm4zdmJDQkxnemRScG5Gd1RpNkgzSkFyUGhVYkZVYWFscXBRNWdua285bmNIWTdSdDk1ekNzNkhoN19wdFBRSEpCeTFrVW9ySm5SNGVaSnVmeGlpTzhmTDR0?oc=5",
+      "source": "Audacy",
+      "category": "World",
+      "publishedAt": "2026-11-13T17:36:00Z"
+    },
+    {
+      "id": "b0adecace8d8db31bb60",
+      "title": "International Court-Afghanistan - Post Register",
+      "description": "International Court-Afghanistan Post Register",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc21KVzZidXZrQ2xBcWJHY0RPVHVCaGh5MWo5MGR5cTVxNTktbUMzMXVMME1DX3E4cjlXQWJHUlpKVjV3WXIxZTJSc2txTEJCeHlhX2ZyMENibU1WZk45U2hrV0hac01DcHl1X1NMUTJFWHBpcVFKcWVOeDd3SUxsd2NkdEx1dzJnN1g0Q1d4SmtZankxM0p3QmdJWHktdDYyY3pReW1ucWllLTFmWEVMTmJpVFliWkZpRU53?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc21KVzZidXZrQ2xBcWJHY0RPVHVCaGh5MWo5MGR5cTVxNTktbUMzMXVMME1DX3E4cjlXQWJHUlpKVjV3WXIxZTJSc2txTEJCeHlhX2ZyMENibU1WZk45U2hrV0hac01DcHl1X1NMUTJFWHBpcVFKcWVOeDd3SUxsd2NkdEx1dzJnN1g0Q1d4SmtZankxM0p3QmdJWHktdDYyY3pReW1ucWllLTFmWEVMTmJpVFliWkZpRU53?oc=5",
+      "source": "Post Register",
+      "category": "World",
+      "publishedAt": "2026-11-13T17:19:09Z"
+    },
+    {
+      "id": "2b650cbaf02a2e622620",
+      "title": "International Court-Afghanistan - WV News",
+      "description": "International Court-Afghanistan WV News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWjQzWVFsUGZVSGZEWi16QjNscGljYlZocV96Wm5EanJfdnNMb05aVDVjenBTbzR5YlJHanVPbWVMRjlaaUNOMXJ2VnFYVVZXdjhrdW8xNHJDdUFFWV9yMUhQSU9yMEJRQVpZNG1DX1V1NlpyMTBtUVYtNW1ZblRLeFVPVWVfMHgybHU1LTNTZkJFZWZIeER6ek9Mekc0aUhKMGtkSDlnc09XcEJmMjlSOVRPaTVqNVlS?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWjQzWVFsUGZVSGZEWi16QjNscGljYlZocV96Wm5EanJfdnNMb05aVDVjenBTbzR5YlJHanVPbWVMRjlaaUNOMXJ2VnFYVVZXdjhrdW8xNHJDdUFFWV9yMUhQSU9yMEJRQVpZNG1DX1V1NlpyMTBtUVYtNW1ZblRLeFVPVWVfMHgybHU1LTNTZkJFZWZIeER6ek9Mekc0aUhKMGtkSDlnc09XcEJmMjlSOVRPaTVqNVlS?oc=5",
+      "source": "WV News",
+      "category": "World",
+      "publishedAt": "2026-11-13T17:18:42Z"
+    },
+    {
+      "id": "a6515252cc5e803c5b7c",
+      "title": "After international retirement: official farewell for Real Madrid star in his birthplace - LiveScore",
+      "description": "After international retirement: official farewell for Real Madrid star in his birthplace LiveScore",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOW5ReTZsODZPUVJiaU9YMXIyUlozQkRna0g1RS1jN2RicGxMWmVfTGxmTWZ6YkZJQnZqcXBLSkFEeDNnMVJ0TGJqYkFOZnBhVnhJbWhYN2FCa01fWnlNNXd0X0RERjQyaWg2amFweDNFeThPN1BGR3Y3NlZpUXUtZ2tvZWptRUdQMXNaUUZ5aWdwc2FCMnhSOUZFNThHX3QtQXpub0FQOVhzaU5nMkNybEQzeUlpSDJnMjJlcGNTQzZlenhPOVJ4TUZKc1NYMl90RF9PUEk4X1Q1TjgwSzRGaUlkdzdrQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOW5ReTZsODZPUVJiaU9YMXIyUlozQkRna0g1RS1jN2RicGxMWmVfTGxmTWZ6YkZJQnZqcXBLSkFEeDNnMVJ0TGJqYkFOZnBhVnhJbWhYN2FCa01fWnlNNXd0X0RERjQyaWg2amFweDNFeThPN1BGR3Y3NlZpUXUtZ2tvZWptRUdQMXNaUUZ5aWdwc2FCMnhSOUZFNThHX3QtQXpub0FQOVhzaU5nMkNybEQzeUlpSDJnMjJlcGNTQzZlenhPOVJ4TUZKc1NYMl90RF9PUEk4X1Q1TjgwSzRGaUlkdzdrQQ?oc=5",
+      "source": "LiveScore",
+      "category": "World",
+      "publishedAt": "2026-11-13T16:52:56Z"
+    },
+    {
+      "id": "e656ed47a3f2e02eb78f",
+      "title": "Selective Cleanliness and Environmental Commitment: The Case of the Hindon River - Countercurrents",
+      "description": "Selective Cleanliness and Environmental Commitment: The Case of the Hindon River Countercurrents",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUpEcGk1X3JzQURaMUowVGlUOFo0NHAtM0w1WXp0WmV5TFk3UWR5cmtGc2JDbXN0Q0pKalpxLWVXc2RFNF8xUlh5S2I3TzdQZDl6dGJCekhBdnFEdlI3bDhWRGJfZmo3MEpaaDJHY2I3VXk4eXlSOG42OEtNdHlEZlVMa21nanN2YjhTaVNQV0xadjN0emNveTY5bmNSVGpBNldlUmdpSkN6SWoxTmZfS2hnSWp5djQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWUpEcGk1X3JzQURaMUowVGlUOFo0NHAtM0w1WXp0WmV5TFk3UWR5cmtGc2JDbXN0Q0pKalpxLWVXc2RFNF8xUlh5S2I3TzdQZDl6dGJCekhBdnFEdlI3bDhWRGJfZmo3MEpaaDJHY2I3VXk4eXlSOG42OEtNdHlEZlVMa21nanN2YjhTaVNQV0xadjN0emNveTY5bmNSVGpBNldlUmdpSkN6SWoxTmZfS2hnSWp5djQ?oc=5",
+      "source": "Countercurrents",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T16:22:24Z"
+    },
+    {
+      "id": "fbe4322121143fab6fe7",
+      "title": "Remains of World War II veteran arrive at Harrisburg International Airport [photos] - LancasterOnline",
+      "description": "Remains of World War II veteran arrive at Harrisburg International Airport [photos] LancasterOnline",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdDlFN0ZlTHgwUXM0bkdZa25Cc2VzR082NUdoTUhjQTdxZWlaa014NnRKRzBBWlZUR1BaeHkxQ3RxTmtFNWJydVpkSF84WkprWjlYc0wxbFF0N3IyYV9kMVZfSWlORjE1RE1YQWVURHItUm9qNXlwaV9ydzc4eE5Qd01WR1A1ZU1Id0h0Yko0YjRBbkVJRXBZU1BXNm5PQXAxM3JyblNNV1pSY1pQMWExUDBqV3VPcVowcFJ0Nm81bkZpT0pnbHpSblZjTHlRV3U0SU50cDBOR0ZpMlFPcFo0T2RpQkZkT09NMHU2STRPY0taX0h6WHB1SnNjV0ZUNjJZWUd3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPdDlFN0ZlTHgwUXM0bkdZa25Cc2VzR082NUdoTUhjQTdxZWlaa014NnRKRzBBWlZUR1BaeHkxQ3RxTmtFNWJydVpkSF84WkprWjlYc0wxbFF0N3IyYV9kMVZfSWlORjE1RE1YQWVURHItUm9qNXlwaV9ydzc4eE5Qd01WR1A1ZU1Id0h0Yko0YjRBbkVJRXBZU1BXNm5PQXAxM3JyblNNV1pSY1pQMWExUDBqV3VPcVowcFJ0Nm81bkZpT0pnbHpSblZjTHlRV3U0SU50cDBOR0ZpMlFPcFo0T2RpQkZkT09NMHU2STRPY0taX0h6WHB1SnNjV0ZUNjJZWUd3?oc=5",
+      "source": "LancasterOnline",
+      "category": "World",
+      "publishedAt": "2026-11-13T16:12:00Z"
+    },
+    {
+      "id": "f303dd4473946fc69566",
+      "title": "India Manufacturing Growth Needs Stronger Urban Infrastructure - Urban Acres",
+      "description": "India Manufacturing Growth Needs Stronger Urban Infrastructure Urban Acres",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ2JHUENNX05DNGplNVJweXpxQmFuczJwSjgxWVduVzhoUDdfV0hOcVdnQWROTjdGaUZlOGJKdFZSVXBkRG5vT3hDMDdpQUgyX1lQb1YwTGc3RkhHeW10V0lMakhlZFA3dnY0RE4waUdpOTgydWVnWUljb3F4Ullfanl6Z01pTHBHcmpF?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ2JHUENNX05DNGplNVJweXpxQmFuczJwSjgxWVduVzhoUDdfV0hOcVdnQWROTjdGaUZlOGJKdFZSVXBkRG5vT3hDMDdpQUgyX1lQb1YwTGc3RkhHeW10V0lMakhlZFA3dnY0RE4waUdpOTgydWVnWUljb3F4Ullfanl6Z01pTHBHcmpF?oc=5",
+      "source": "Urban Acres",
+      "category": "India",
+      "publishedAt": "2026-11-13T15:38:53Z"
+    },
+    {
+      "id": "000e06af2b80e5391b3e",
+      "title": "Argentina make major 2030 World Cup decision following Lionel Messi's international retirement - Lente Desportiva",
+      "description": "Argentina make major 2030 World Cup decision following Lionel Messi's international retirement Lente Desportiva",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVXkyb2JFbXZLc0sxdmtkN05HR3E5eWY2RklxUmlBRkZxWHFZZzhfNjJDZnQ4VDhNODF0R1VlWlNzaG9WZmphMm1ZaGFDUWxpLXA1dWdOVXBxYlVsVmpoaFNiaGl3clRiVG1waWZVOE5tOFU4bWpMMVVxclhaaXhSbC1QbzY0THZOZnQ0clB0RS1kdTV1Y1NGSjlkRjgxOGQzSl9rXzBvNm9tNUhDdFVQUU5CTU44M2liVkNqUmF6UQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVXkyb2JFbXZLc0sxdmtkN05HR3E5eWY2RklxUmlBRkZxWHFZZzhfNjJDZnQ4VDhNODF0R1VlWlNzaG9WZmphMm1ZaGFDUWxpLXA1dWdOVXBxYlVsVmpoaFNiaGl3clRiVG1waWZVOE5tOFU4bWpMMVVxclhaaXhSbC1QbzY0THZOZnQ0clB0RS1kdTV1Y1NGSjlkRjgxOGQzSl9rXzBvNm9tNUhDdFVQUU5CTU44M2liVkNqUmF6UQ?oc=5",
+      "source": "Lente Desportiva",
+      "category": "World",
+      "publishedAt": "2026-11-13T15:15:00Z"
+    },
+    {
+      "id": "c02a2cfd8ce346d52b31",
+      "title": "AOT Lagos 8.0 to Focus on AI, Ethics and Digital Governance - Condia",
+      "description": "AOT Lagos 8.0 to Focus on AI, Ethics and Digital Governance Condia",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XTDNZLWo2aGYwaFpMekNiTXJ2eExSTFpKNDV2RldHdlNTbUVRRHF4WURfbzJWWThycFpsU0d5X3JoMnVmQUlfVlRkX2hXdm5wUmplYVFlNTdMRm5CQ1Z4R0F4WXlkU1pxcVJHeE9tSFZPWTB5aE9CR3cwX3hwVWM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XTDNZLWo2aGYwaFpMekNiTXJ2eExSTFpKNDV2RldHdlNTbUVRRHF4WURfbzJWWThycFpsU0d5X3JoMnVmQUlfVlRkX2hXdm5wUmplYVFlNTdMRm5CQ1Z4R0F4WXlkU1pxcVJHeE9tSFZPWTB5aE9CR3cwX3hwVWM?oc=5",
+      "source": "Condia",
+      "category": "Technology",
+      "publishedAt": "2026-11-13T14:35:49Z"
+    },
+    {
+      "id": "290b2f8903f338aa3149",
+      "title": "After the war, land and water will be cleaned, and polluters will be forced to pay: what environmental changes Ukraine is preparing - Судово-юридична газета",
+      "description": "After the war, land and water will be cleaned, and polluters will be forced to pay: what environmental changes Ukraine is preparing Судово-юридична газета",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUFU0TnRiQmlSeUhHNEZSTE1OUjNnZ0dXcWVzSU9yY1YyMmV4M1NrYUxXTHFoMnc3V2FVbjQ0bFNrdmx0TXVzLTl1MHc4LWJDLUFaajNaNmFCREtoQkxQQ3pnQU4za1FaNUlqcm1KemdLTGJpUmJEMGNFN19IUTc4cmYtM1dtWDZNNm5MM19Pb1dfNmJXUmVwNEQ3dUpSTlFJNElVQmhWNnV1OC13ajV6STZsVFF6d1NySzhEUDhlVFZrakROSjhscWx6N1UxYkJNMlgxTGh4Z2k5OXNROF9YWHU1X1BUUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNUFU0TnRiQmlSeUhHNEZSTE1OUjNnZ0dXcWVzSU9yY1YyMmV4M1NrYUxXTHFoMnc3V2FVbjQ0bFNrdmx0TXVzLTl1MHc4LWJDLUFaajNaNmFCREtoQkxQQ3pnQU4za1FaNUlqcm1KemdLTGJpUmJEMGNFN19IUTc4cmYtM1dtWDZNNm5MM19Pb1dfNmJXUmVwNEQ3dUpSTlFJNElVQmhWNnV1OC13ajV6STZsVFF6d1NySzhEUDhlVFZrakROSjhscWx6N1UxYkJNMlgxTGh4Z2k5OXNROF9YWHU1X1BUUQ?oc=5",
+      "source": "Судово-юридична газета",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T14:23:00Z"
+    },
+    {
+      "id": "cc603db12dfe2cbf89e6",
+      "title": "Deputy Minister Le Trong Yen: Making environmental protection a way of life in schools. - Vietnam.vn",
+      "description": "Deputy Minister Le Trong Yen: Making environmental protection a way of life in schools. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdUN3Yjd5MDdSVzFRSk01X1B0ck1WLVlvSG9RU3FGdDk3VDF2YzlxNTBiWU5xVnd2ZGRHZ25ZSWstSzNoRUZTaUt2YVU3UkhORmFmaVh2S3NTYmVzR3R0dHMyMmNjVEFIR0VEWnc2Y2FkalRQTGVFekVRQjFRSGdhdWk3VFhKdWszWUpXcUtHT0hNc0dYVC1pSldZV3EtRnhpLWc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdUN3Yjd5MDdSVzFRSk01X1B0ck1WLVlvSG9RU3FGdDk3VDF2YzlxNTBiWU5xVnd2ZGRHZ25ZSWstSzNoRUZTaUt2YVU3UkhORmFmaVh2S3NTYmVzR3R0dHMyMmNjVEFIR0VEWnc2Y2FkalRQTGVFekVRQjFRSGdhdWk3VFhKdWszWUpXcUtHT0hNc0dYVC1pSldZV3EtRnhpLWc?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T14:19:16Z"
+    },
+    {
+      "id": "e8d6a4bdc8e7289937c8",
+      "title": "Future of Environmental Science and Engineering: Career Scope, Job Opportunities & Higher Studies - PW",
+      "description": "Future of Environmental Science and Engineering: Career Scope, Job Opportunities & Higher Studies PW",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMW5MLXlROXIyajlZYUwwUXhjQXVDWGllZXU2Q2t4aU1oWktLTjdtNllBR3hOWTR3bDZVSEUyVTRDM0pCZm5sQ1o0TldJN0hCMXRGX29adDBIS29KN04xN3MxX0dBUWRLMmZBMVBiNUxSX0hsNDNaaE1YUjNiZDY3SnNIRlg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMW5MLXlROXIyajlZYUwwUXhjQXVDWGllZXU2Q2t4aU1oWktLTjdtNllBR3hOWTR3bDZVSEUyVTRDM0pCZm5sQ1o0TldJN0hCMXRGX29adDBIS29KN04xN3MxX0dBUWRLMmZBMVBiNUxSX0hsNDNaaE1YUjNiZDY3SnNIRlg?oc=5",
+      "source": "PW",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T14:07:10Z"
+    },
+    {
+      "id": "f38041f5b9d172d3853b",
+      "title": "Surveying the planning of the High-Tech Park, promoting technology projects in Hue. - Vietnam.vn",
+      "description": "Surveying the planning of the High-Tech Park, promoting technology projects in Hue. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUloxRFQ1bWQ4dU96M3gyWlhrQ1J5UFMySUlxN0FSZmtjUnpKQWNiNWdvZk1yYnZCS3dWcVFZUHNwV0RWdFlVampyMHFyaTlDOGl3RFFoV015V2prblNfcFFzb0lPM2F0NEhmczBCVEU4QlM1X1NLN0tvRHpWOWotdmJraXdpcU5rUGo3Vi1hSm5FVWxFcVJfNF90SlNoYktU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUloxRFQ1bWQ4dU96M3gyWlhrQ1J5UFMySUlxN0FSZmtjUnpKQWNiNWdvZk1yYnZCS3dWcVFZUHNwV0RWdFlVampyMHFyaTlDOGl3RFFoV015V2prblNfcFFzb0lPM2F0NEhmczBCVEU4QlM1X1NLN0tvRHpWOWotdmJraXdpcU5rUGo3Vi1hSm5FVWxFcVJfNF90SlNoYktU?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-13T13:03:55Z"
+    },
+    {
+      "id": "dd9cc9c4f1bdccbfe52a",
+      "title": "Pakistan Urges International Community to Protect UNRWA and Sustain Its Operations - UrduPoint",
+      "description": "Pakistan Urges International Community to Protect UNRWA and Sustain Its Operations UrduPoint",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSllXTVl6a0lPYkMzZ0ZXamVLamRDQmwxM3l5dzlPQkUwcVBkc2s0V3cxQzJjQTcwT0t1cTZqNDV1cXZsemUxWDlGV2ZZSkFNZlhKVDhBbktLVk55Nm55OE5KQ1h0VUdQZFNaMFF1S3kySjd4bVUyTmsyUXBOVEpHSnUxRHBscjNPUC1CbE9IR1NCbGdxN2drRg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSllXTVl6a0lPYkMzZ0ZXamVLamRDQmwxM3l5dzlPQkUwcVBkc2s0V3cxQzJjQTcwT0t1cTZqNDV1cXZsemUxWDlGV2ZZSkFNZlhKVDhBbktLVk55Nm55OE5KQ1h0VUdQZFNaMFF1S3kySjd4bVUyTmsyUXBOVEpHSnUxRHBscjNPUC1CbE9IR1NCbGdxN2drRg?oc=5",
+      "source": "UrduPoint",
+      "category": "World",
+      "publishedAt": "2026-11-13T11:55:59Z"
+    },
+    {
+      "id": "1d514a7ef9acb5291bce",
+      "title": "Code Becomes A Weapon: Suspected Iran Cyber Campaign Reaches U.S Infrastructure And European Cities - The Times of India",
+      "description": "Code Becomes A Weapon: Suspected Iran Cyber Campaign Reaches U.S Infrastructure And European Cities The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ3JQOE1pcXpMR3VvZjE5YXcxMjVzQUpoOUxORUtFZjJYaTJZamV5VmVpbVgyMnFRVWVZVWw2bHk1ZnJFa2VVY25EdzQtcDA4cTNYbXpfaWRYYjVNbm14N3ZrUkRiQkk2TXUwZTdScTEwcDlwYWFGOVRaR19ORndMUzRtNThiSEZvT2hJcWpzc21uOVFPTHQ1TGxpQTdBQk5GQ3AyZ0Q4WklJVkgzUjM0OURVbnJoLUU3eWp1cVdINnNkWVF1WWpUQ2lQbjJYbkJrcU9SU1pPMnk5cnlyWTU0MW1OZHI1UFFxc2NqWHNQZU15N2xORVNVZHJqWnI4RlIyRmRCY1Fqa1NkcnfSAZACQVVfeXFMTmFaWEEtbnFRMkdnbDZXZ1AxVmcyN1hRZUl6U3F2Y3JWeTNIeEVINVBkeDBoZVloV0lvdGd6QTVhcmtURDBhbm52TlFmdWw3ckNTLWNISW1rZ2NUeV92UXowRXN5UlJ3SHNyU0hJN1VoZXRkN2Jxd0w1QVFZRExIS3RtN2VMdVZlWHAtbFN6YXlfdHktdEt1eVFnZl8xaXhSZVI4NlpkNlFBbzJBUWZ3LXpBUU5Pb3hpT2Z4T3FUdHM0RkVJR1hveVpYSmxLS3Zya3NQYV9HNG5FSHVSbjVTOTR1MVl1c1dwOWc5QkUxZWVnN1JjQ1JtN1RSNUFXYktsMHhlTXNpTG92THNSUk1iYUc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ3JQOE1pcXpMR3VvZjE5YXcxMjVzQUpoOUxORUtFZjJYaTJZamV5VmVpbVgyMnFRVWVZVWw2bHk1ZnJFa2VVY25EdzQtcDA4cTNYbXpfaWRYYjVNbm14N3ZrUkRiQkk2TXUwZTdScTEwcDlwYWFGOVRaR19ORndMUzRtNThiSEZvT2hJcWpzc21uOVFPTHQ1TGxpQTdBQk5GQ3AyZ0Q4WklJVkgzUjM0OURVbnJoLUU3eWp1cVdINnNkWVF1WWpUQ2lQbjJYbkJrcU9SU1pPMnk5cnlyWTU0MW1OZHI1UFFxc2NqWHNQZU15N2xORVNVZHJqWnI4RlIyRmRCY1Fqa1NkcnfSAZACQVVfeXFMTmFaWEEtbnFRMkdnbDZXZ1AxVmcyN1hRZUl6U3F2Y3JWeTNIeEVINVBkeDBoZVloV0lvdGd6QTVhcmtURDBhbm52TlFmdWw3ckNTLWNISW1rZ2NUeV92UXowRXN5UlJ3SHNyU0hJN1VoZXRkN2Jxd0w1QVFZRExIS3RtN2VMdVZlWHAtbFN6YXlfdHktdEt1eVFnZl8xaXhSZVI4NlpkNlFBbzJBUWZ3LXpBUU5Pb3hpT2Z4T3FUdHM0RkVJR1hveVpYSmxLS3Zya3NQYV9HNG5FSHVSbjVTOTR1MVl1c1dwOWc5QkUxZWVnN1JjQ1JtN1RSNUFXYktsMHhlTXNpTG92THNSUk1iYUc?oc=5",
+      "source": "The Times of India",
+      "category": "India",
+      "publishedAt": "2026-11-13T11:44:01Z"
+    },
+    {
+      "id": "3d3bbba546b3cb843e4f",
+      "title": "School assembly news headlines for 14th November 2026: Top Indian, International, Sports and Business News - Education Times",
+      "description": "School assembly news headlines for 14th November 2026: Top Indian, International, Sports and Business News Education Times",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQa3Q0bjZFeExfOWRLVjNrMkpFTElqcjNXOEZWeG9OWE9VYzJYbEhpU0tFY1dVMjJ4bmhWZ2xyWUw0cVdRTkFSZ2lBQ1NUZ0E1VTc3MTFiQlF3UTVmZlRZb3VoVXoxSmVNN3NRT1dRN3gyM2JaOExQeGMwTm9WZndFM1BLalhuRV9hcWhJb19RM2Fzd1lGZG9jTUswUkxwSUZXcm5FQ2QxMkwzeG4wdFFvc0R4MjNGaXJweTAwTXhwYlJnR3d5czAxZXJHd2c3XzBnd1dvdkVVV2l5MmpleW9uQVYyM0xYQWRXU1NoS2p6Q3BmNU9MaUJTbg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQa3Q0bjZFeExfOWRLVjNrMkpFTElqcjNXOEZWeG9OWE9VYzJYbEhpU0tFY1dVMjJ4bmhWZ2xyWUw0cVdRTkFSZ2lBQ1NUZ0E1VTc3MTFiQlF3UTVmZlRZb3VoVXoxSmVNN3NRT1dRN3gyM2JaOExQeGMwTm9WZndFM1BLalhuRV9hcWhJb19RM2Fzd1lGZG9jTUswUkxwSUZXcm5FQ2QxMkwzeG4wdFFvc0R4MjNGaXJweTAwTXhwYlJnR3d5czAxZXJHd2c3XzBnd1dvdkVVV2l5MmpleW9uQVYyM0xYQWRXU1NoS2p6Q3BmNU9MaUJTbg?oc=5",
+      "source": "Education Times",
+      "category": "World",
+      "publishedAt": "2026-11-13T11:26:00Z"
+    },
     {
       "id": "8f8fe4a40382863b2ac8",
       "title": "South Africa President urges renewed commitment to international rule of law - Tripura Chronicle",
@@ -286,6 +488,16 @@
       "source": "Tripura Chronicle",
       "category": "World",
       "publishedAt": "2026-11-13T11:12:49Z"
+    },
+    {
+      "id": "c3bd1139887892deba02",
+      "title": "Sustainable urban development in Ahmedabad - Elets eGov",
+      "description": "Sustainable urban development in Ahmedabad Elets eGov",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQjdnWElkMkVqX2w5WWlWamt5dzJGcmhMTTNjdnU1bm9OMGhsaFlVM1lQYmlrYTctT1NRcUR1VlBtTmZjRUl5b3Z1ak53X0dSOExWVGR5N3ZnLWdnbVB6VThsdnVRLUo4TnpwTm1TOFNiSDFHcFlNOW5zUzJKN3lwY3hSUTV1Wk1pRWpCdHJsd3NvTzYzZGptNG9nU1lkVnBpSWZTQk1UVmxLb18yNXp6STF3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQjdnWElkMkVqX2w5WWlWamt5dzJGcmhMTTNjdnU1bm9OMGhsaFlVM1lQYmlrYTctT1NRcUR1VlBtTmZjRUl5b3Z1ak53X0dSOExWVGR5N3ZnLWdnbVB6VThsdnVRLUo4TnpwTm1TOFNiSDFHcFlNOW5zUzJKN3lwY3hSUTV1Wk1pRWpCdHJsd3NvTzYzZGptNG9nU1lkVnBpSWZTQk1UVmxLb18yNXp6STF3?oc=5",
+      "source": "Elets eGov",
+      "category": "India",
+      "publishedAt": "2026-11-13T09:00:00Z"
     },
     {
       "id": "2a286df5a87002b64541",
@@ -448,6 +660,16 @@
       "publishedAt": "2026-11-12T19:25:08Z"
     },
     {
+      "id": "089e9236c2a2ca531728",
+      "title": "Climate Change Abolishes Ice - WIRED",
+      "description": "Climate Change Abolishes Ice WIRED",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54SzZsdEdCRFI1RUxUUzlCY3NtUzI1SHlOeWhULWZ0QjRHdURCYm5ZZFJrRHgyWWExQkF5OEg4TXgzSm5HdTctdmh0dGUwb0ZVT0huTXR5QlFYV2s3UlpwWlNXZGhYd3Ro?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54SzZsdEdCRFI1RUxUUzlCY3NtUzI1SHlOeWhULWZ0QjRHdURCYm5ZZFJrRHgyWWExQkF5OEg4TXgzSm5HdTctdmh0dGUwb0ZVT0huTXR5QlFYV2s3UlpwWlNXZGhYd3Ro?oc=5",
+      "source": "WIRED",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T19:00:00Z"
+    },
+    {
       "id": "d8384d2cc6c05480872e",
       "title": "Germany Hopes For Yet Another Surprise On The International Stage Against Finland - The Hockey News",
       "description": "Germany Hopes For Yet Another Surprise On The International Stage Against Finland The Hockey News",
@@ -466,6 +688,16 @@
       "source": "The Economic Times",
       "category": "World",
       "publishedAt": "2026-11-12T18:55:59Z"
+    },
+    {
+      "id": "3681c6c6d49c0bed28e2",
+      "title": "Hours-long Microsoft outage disrupts businesses, governments globally - Reuters",
+      "description": "Hours-long Microsoft outage disrupts businesses, governments globally Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWpWeUZnbllhcFk4WktZS0s3T1N6T3k3Vnhhd3pfSE9SWF9iRmRIQUljdHZXN0UtWS1uZS1rbUNZSlVPd1NXLXRtVUVtc3NQNTgxMVFMWjVnT3pPb09EX1g1YUx3WkF2VHk0bUMwWlhkRHdpT0JFRE5SQ3pQRkdmSnpUOHNXLUo1dXNSY3lFdkpSdU5laDdwSlhWRDVnNjBFcUh2Y0FwMXNldE8tSFpPaw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWpWeUZnbllhcFk4WktZS0s3T1N6T3k3Vnhhd3pfSE9SWF9iRmRIQUljdHZXN0UtWS1uZS1rbUNZSlVPd1NXLXRtVUVtc3NQNTgxMVFMWjVnT3pPb09EX1g1YUx3WkF2VHk0bUMwWlhkRHdpT0JFRE5SQ3pQRkdmSnpUOHNXLUo1dXNSY3lFdkpSdU5laDdwSlhWRDVnNjBFcUh2Y0FwMXNldE8tSFpPaw?oc=5",
+      "source": "Reuters",
+      "category": "World",
+      "publishedAt": "2026-11-12T18:32:00Z"
     },
     {
       "id": "72f0bda46c9e4634d050",
@@ -636,6 +868,16 @@
       "source": "Sail-World.com",
       "category": "World",
       "publishedAt": "2026-11-12T12:20:00Z"
+    },
+    {
+      "id": "ec9afb9d9db84f7f9caf",
+      "title": "Goal 10: Reduced Inequalities - UNEP - UN Environment Programme",
+      "description": "Goal 10: Reduced Inequalities UNEP - UN Environment Programme",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYXpfbG8xUEQ1ZHJnRE9kbkRqNU5GZmlkckk4YVlLVFU0Zm4tQ2QwbHJfZ2pvTmtSSWZ3akJrbVhYY0d6WENaQ1BuOWJ6VE9pd3JDQ2JFekpxWVlnUFJZWUczSktWYWJmX09CT0tVRklwblNNbTR6djQ5THpzRVVZRzE2ZmdaWUxsX0JnTGh1T3F4X05DdUdsOXZWYXhTZDJQRWV1Ym80NVJNUS05cUxNdjlsMjVUa0U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYXpfbG8xUEQ1ZHJnRE9kbkRqNU5GZmlkckk4YVlLVFU0Zm4tQ2QwbHJfZ2pvTmtSSWZ3akJrbVhYY0d6WENaQ1BuOWJ6VE9pd3JDQ2JFekpxWVlnUFJZWUczSktWYWJmX09CT0tVRklwblNNbTR6djQ5THpzRVVZRzE2ZmdaWUxsX0JnTGh1T3F4X05DdUdsOXZWYXhTZDJQRWV1Ym80NVJNUS05cUxNdjlsMjVUa0U?oc=5",
+      "source": "UNEP - UN Environment Programme",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T11:25:34Z"
     },
     {
       "id": "5f7886dc1c7d56b164c2",
@@ -1556,18 +1798,8 @@
       "source": "Britannica",
       "category": "Disaster",
       "publishedAt": "2026-11-08T08:00:00Z"
-    },
-    {
-      "id": "6ead3989448494c7a76c",
-      "title": "How climate change worsens heatwaves, droughts, wildfires and floods - BBC",
-      "description": "How climate change worsens heatwaves, droughts, wildfires and floods BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBha2hSMWluWVdKUHpEZUNyTVFmVC1idnd2cFY5eDNxckF6OFE2NGxzb2lSVnNMYlA5aklTVk5CdldkSXpzV3ptX1YxVEdEdG5vaXU2b2FkUHR3QQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBha2hSMWluWVdKUHpEZUNyTVFmVC1idnd2cFY5eDNxckF6OFE2NGxzb2lSVnNMYlA5aklTVk5CdldkSXpzV3ptX1YxVEdEdG5vaXU2b2FkUHR3QQ?oc=5",
-      "source": "BBC",
-      "category": "Environment",
-      "publishedAt": "2026-11-06T16:43:30Z"
     }
   ],
-  "lastUpdated": "2026-11-13T11:25:47Z",
-  "updatedAt": "2026-11-13T11:25:47Z"
+  "lastUpdated": "2026-11-13T18:41:08Z",
+  "updatedAt": "2026-11-13T18:41:08Z"
 }
