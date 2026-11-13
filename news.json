@@ -240,40 +240,99 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-12T22:41:12Z",
-    "lastSuccessfulRun": "2026-11-12T22:41:12Z",
-    "lastUpdated": "2026-11-12T22:41:12Z",
-    "articlesAdded": 8,
+    "lastRun": "2026-11-13T03:17:31Z",
+    "lastSuccessfulRun": "2026-11-13T03:17:31Z",
+    "lastUpdated": "2026-11-13T03:17:31Z",
+    "articlesAdded": 7,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 46,
+    "duplicatesRemoved": 47,
     "failedSources": [],
     "newArticleIds": [
-      "60c347e1f6f161318206",
-      "241d4999cf33f30c8fcc",
-      "d8384d2cc6c05480872e",
-      "0bb987a0593ae8299c86",
-      "72f0bda46c9e4634d050",
-      "6f90ec2e27df49bf89f7",
-      "2287a36bef14c6ee3ade",
-      "5c3b65a6d1b5c1e15351"
+      "7fb81871bf6802dd8e76",
+      "9229ac2a143ca768201d",
+      "978f2be363a1df6488c7",
+      "b6a3a3a3b5c736366e8d",
+      "603a7bf59ab736c56ed5",
+      "dfcf1572b9d555e3b7b4",
+      "8c0f971726f6979715c3"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 1,
+    "articlesRemoved": 0,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 111,
+    "totalArticles": 118,
     "categories": {
-      "World": 48,
+      "World": 54,
       "India": 10,
       "Technology": 7,
-      "Environment": 37,
+      "Environment": 38,
       "Disaster": 9
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "7fb81871bf6802dd8e76",
+      "title": "5th China Nuclear Energy High-Quality Development Conference & Shenzhen International Nuclear Energy Industry Innovation Expo (CINIE 2026) to Open in Shenzhen in December -- the World's Largest Specialised Nuclear Energy Event Sets a New Recor - The Manila Times",
+      "description": "5th China Nuclear Energy High-Quality Development Conference & Shenzhen International Nuclear Energy Industry Innovation Expo (CINIE 2026) to Open in Shenzhen in December -- the World's Largest Specialised Nuclear Energy Event Sets a New Recor The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMitwNBVV95cUxOQ1dPNzF4a2NQektJUF80Vm9MbkFsalAyaXRtWThsa2dwbWViRm1pRnZCTFlHcXk2WkVWY2R2R25NVlZKRUVQZXNaUTNjaDlEN0VjUnF5VDdHcVNBWGI1SmM1ZEgtYWJoS3BCMk9wQ1hVSVlYOUxRdXVocDVTcFZUa0xiRlFySk4tWDNyR3dxdTJ1UjRKU1pWUmxLZEJzVnNYWV9YUTdjaWlubWFvbFZteXR2bVVoRjVYOG12UXh2TFBGOFM5amlsSXhTZjhYWDRSOEIwR2dmVW04QV96MFBqVElqU0wtWXZZWkEwTHdsMXVyNXVQUExKTGJ5QkVDMGlLb2EtdWFOZnhTVHYtSnB5QjVxVElldVBDYVFMZUV4eng4Yy1lRno3a0x2TmhWQ1ROUjJwS29LQTVBTzczSE0yd081R0RBN0g4TDljbG02elNXSUFTVXBOMXhERXA3elBwVlU5THlOVndIbkZUZzExbzJNN3ZKQjRyTElBTUQ1ZXc1clk0cjl3aGlvQ2pURWMzWE5fYXZMQVVWRWxaVVF2S0g4SlBmeGpVQktIb0N3alQwY2ZNUl9n0gG8A0FVX3lxTE9BbVFMOFZQZUlkQ2VFa1JoYzBMV3VaNl92WFF1QjZZbVJrSHhFdDRLUHpPUXRFM1E5bVVabXdlZ3lFQXp2MTFaUXJUYTF2d1VfeXZXcnhmM0JoeU8zUDJ1VEw3QV83ZUl4YVVkTnJIWnF5aFQ4cTBjTlpNcEJWdUJEWDRZNEkxUG50TjZVOVM3MEU1SW9wOEpuRXlLUHRDX0xwcjFBOUpSUDY3ZlpObGpzMnE0UktMYzFMNjFIMXFLMXhKM2RxR2JsSFc5b0pGc2N0X2tLTWRCWWMxWmFBNGEtWFNtaUVJSlgzTkhiT29XeWlkcnFfelEtaXZvbWxWcWZGSFVRTDVGOGtIUE1BLUFzMmZsalZ5S0Y0Y0lPUjlUb0VDeHYwYl9McDNCbHVLd1lnLTRZQ21GVFFfNGNudEJSRENvZnlmQ294WURuSkY1Zm1WTTBsb3NZQXEzUktLQ0N3QW9Sbk9RLWdUQjR6UzJLN1JUVzM3WlZoQVBvQVNhX0h6bEtIem9xZDlrUnZ4STh3cy1nRmVPZGxyVl9LYy0wOVdKY1cxaDdDM0JlVTVfQmVST0E1RXZVQXhBZg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwNBVV95cUxOQ1dPNzF4a2NQektJUF80Vm9MbkFsalAyaXRtWThsa2dwbWViRm1pRnZCTFlHcXk2WkVWY2R2R25NVlZKRUVQZXNaUTNjaDlEN0VjUnF5VDdHcVNBWGI1SmM1ZEgtYWJoS3BCMk9wQ1hVSVlYOUxRdXVocDVTcFZUa0xiRlFySk4tWDNyR3dxdTJ1UjRKU1pWUmxLZEJzVnNYWV9YUTdjaWlubWFvbFZteXR2bVVoRjVYOG12UXh2TFBGOFM5amlsSXhTZjhYWDRSOEIwR2dmVW04QV96MFBqVElqU0wtWXZZWkEwTHdsMXVyNXVQUExKTGJ5QkVDMGlLb2EtdWFOZnhTVHYtSnB5QjVxVElldVBDYVFMZUV4eng4Yy1lRno3a0x2TmhWQ1ROUjJwS29LQTVBTzczSE0yd081R0RBN0g4TDljbG02elNXSUFTVXBOMXhERXA3elBwVlU5THlOVndIbkZUZzExbzJNN3ZKQjRyTElBTUQ1ZXc1clk0cjl3aGlvQ2pURWMzWE5fYXZMQVVWRWxaVVF2S0g4SlBmeGpVQktIb0N3alQwY2ZNUl9n0gG8A0FVX3lxTE9BbVFMOFZQZUlkQ2VFa1JoYzBMV3VaNl92WFF1QjZZbVJrSHhFdDRLUHpPUXRFM1E5bVVabXdlZ3lFQXp2MTFaUXJUYTF2d1VfeXZXcnhmM0JoeU8zUDJ1VEw3QV83ZUl4YVVkTnJIWnF5aFQ4cTBjTlpNcEJWdUJEWDRZNEkxUG50TjZVOVM3MEU1SW9wOEpuRXlLUHRDX0xwcjFBOUpSUDY3ZlpObGpzMnE0UktMYzFMNjFIMXFLMXhKM2RxR2JsSFc5b0pGc2N0X2tLTWRCWWMxWmFBNGEtWFNtaUVJSlgzTkhiT29XeWlkcnFfelEtaXZvbWxWcWZGSFVRTDVGOGtIUE1BLUFzMmZsalZ5S0Y0Y0lPUjlUb0VDeHYwYl9McDNCbHVLd1lnLTRZQ21GVFFfNGNudEJSRENvZnlmQ294WURuSkY1Zm1WTTBsb3NZQXEzUktLQ0N3QW9Sbk9RLWdUQjR6UzJLN1JUVzM3WlZoQVBvQVNhX0h6bEtIem9xZDlrUnZ4STh3cy1nRmVPZGxyVl9LYy0wOVdKY1cxaDdDM0JlVTVfQmVST0E1RXZVQXhBZg?oc=5",
+      "source": "The Manila Times",
+      "category": "World",
+      "publishedAt": "2026-11-13T01:32:13Z"
+    },
+    {
+      "id": "9229ac2a143ca768201d",
+      "title": "LOOK: Int’l Media Center for Asean Summit opens at World Trade Center - Inquirer.net",
+      "description": "LOOK: Int’l Media Center for Asean Summit opens at World Trade Center Inquirer.net",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT0hQVkhiX0hqY1dPRGpuc0xaWlhuZXpteUViYm56SHRGR0pKdzNhdGpZYjRXMTVRTHpqc0VCa25tTXA1dnR2VFB5UG52empZWEd5dXNrMWtGVjRleFMyOFYxRjNNTC1aclNIbFJiYy0yVllaWElrTnBPcnQ3QnJ5RC1LZFVJc1M1STZtZ3RrUF9JWHYwZEtERlVTZWREV2VnMVFaMDF3bkc3TXhQMF9LREdn0gG3AUFVX3lxTE5Nbld3YnMzdVFRTHIyWnRSU0NCdEJQcnlDQUNkbkZHMUpZY2s2OTA2bVNPenItQ0FXUFhQUXhVQjNQNWNKaVoxek9CTXVYZXBoQkVQM2psUHhRb0hSdl9mVHFmbmFNLUx6VTZRZnFiQ014bVJxUDBEZ09NMGR4MEZmbnItcGxCdzhwNWxyWkh2S0lya3h1bkxQZkR2akF5SVR5MFRzTDhCNURqWXBlRU13NHFVZXFHTQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT0hQVkhiX0hqY1dPRGpuc0xaWlhuZXpteUViYm56SHRGR0pKdzNhdGpZYjRXMTVRTHpqc0VCa25tTXA1dnR2VFB5UG52empZWEd5dXNrMWtGVjRleFMyOFYxRjNNTC1aclNIbFJiYy0yVllaWElrTnBPcnQ3QnJ5RC1LZFVJc1M1STZtZ3RrUF9JWHYwZEtERlVTZWREV2VnMVFaMDF3bkc3TXhQMF9LREdn0gG3AUFVX3lxTE5Nbld3YnMzdVFRTHIyWnRSU0NCdEJQcnlDQUNkbkZHMUpZY2s2OTA2bVNPenItQ0FXUFhQUXhVQjNQNWNKaVoxek9CTXVYZXBoQkVQM2psUHhRb0hSdl9mVHFmbmFNLUx6VTZRZnFiQ014bVJxUDBEZ09NMGR4MEZmbnItcGxCdzhwNWxyWkh2S0lya3h1bkxQZkR2akF5SVR5MFRzTDhCNURqWXBlRU13NHFVZXFHTQ?oc=5",
+      "source": "Inquirer.net",
+      "category": "World",
+      "publishedAt": "2026-11-13T01:32:00Z"
+    },
+    {
+      "id": "978f2be363a1df6488c7",
+      "title": "Chamber: Beyond $615M Impact, World Cup Gave Atlanta an International Brand ‘Refresh’ - Global Atlanta",
+      "description": "Chamber: Beyond $615M Impact, World Cup Gave Atlanta an International Brand ‘Refresh’ Global Atlanta",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbkJfU0xqN1RORGFIVUFaVnNfcDZSMl95RkR2ank0TUhJVU9icDRDWGhGbTJEd29XQ2JEMm5mYTgyaW4zZ3pVY2dGNl9CbnBwSkpxZGl0YmIzbk9uNlZYRWRmelAtSFdoYzRMR2FPRjl0dFlKbzBmck8xdmJmby1BWlZIanNVZHh4eGxsVnBQQnNzYV9NOFY0NmlBNmE2S3pNZ2k1RVhodmIwWWEzWVIycw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbkJfU0xqN1RORGFIVUFaVnNfcDZSMl95RkR2ank0TUhJVU9icDRDWGhGbTJEd29XQ2JEMm5mYTgyaW4zZ3pVY2dGNl9CbnBwSkpxZGl0YmIzbk9uNlZYRWRmelAtSFdoYzRMR2FPRjl0dFlKbzBmck8xdmJmby1BWlZIanNVZHh4eGxsVnBQQnNzYV9NOFY0NmlBNmE2S3pNZ2k1RVhodmIwWWEzWVIycw?oc=5",
+      "source": "Global Atlanta",
+      "category": "World",
+      "publishedAt": "2026-11-12T23:38:23Z"
+    },
+    {
+      "id": "b6a3a3a3b5c736366e8d",
+      "title": "LOOK: Blessing of the International Media Center at the World Trade Center in Pasay City ahead of its official opening on Friday morning, November 13. | via Harlene Delgado, ABS-CBN News - Facebook",
+      "description": "LOOK: Blessing of the International Media Center at the World Trade Center in Pasay City ahead of its official opening on Friday morning, November 13. | via Harlene Delgado, ABS-CBN News Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONTVKTy1UTlJlenVaRGxPUXVQTU01NjBQR1BBdXdYaTBuQ29SUEJONExOTzIzTGVVMGhGT1lQdGM0YXlSZTg1WkFLZC10TzlEX2xlQmUxdjBjdTFTWmFnT3NsV2RZVi1VMHZnX2pVdDczaTE4aUMxcWdjNkNwRktwUnNxMEFKeGtwbnR6dk9lYi1ZcVI3TXBSUEQ1eGEtbUMza3hNTjZFV3pGYlJ0TWh4VGFjYmNEQzdJbEgxek1KUENKbl82NXJtZnI2ckpKS1VsaWpNQUcxbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONTVKTy1UTlJlenVaRGxPUXVQTU01NjBQR1BBdXdYaTBuQ29SUEJONExOTzIzTGVVMGhGT1lQdGM0YXlSZTg1WkFLZC10TzlEX2xlQmUxdjBjdTFTWmFnT3NsV2RZVi1VMHZnX2pVdDczaTE4aUMxcWdjNkNwRktwUnNxMEFKeGtwbnR6dk9lYi1ZcVI3TXBSUEQ1eGEtbUMza3hNTjZFV3pGYlJ0TWh4VGFjYmNEQzdJbEgxek1KUENKbl82NXJtZnI2ckpKS1VsaWpNQUcxbw?oc=5",
+      "source": "Facebook",
+      "category": "World",
+      "publishedAt": "2026-11-12T23:23:40Z"
+    },
+    {
+      "id": "603a7bf59ab736c56ed5",
+      "title": "African Diaspora International Film Festival Opens with World Premiere of John Johnson Reporting - Visit New York State",
+      "description": "African Diaspora International Film Festival Opens with World Premiere of John Johnson Reporting Visit New York State",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYjV0ZTN1ZXA2b0QyVjNDYk93YjdDTkpUUkE5bC1kdnBwMTVUY0h5OVpxZEs4REVnNmsteVpNX3BRS1dzVkFBSWNQUEYycUtqWlNHLVdRZm9TYzlrcFlndnk5a0hzaWMzdVlZT3JHV0p0XzlkQ25SWFZycEdaV3VCNzNQT2ZCQ0hFNWhmbFBsa21iUkpMWllLa2hyTlJycXVzMFM5QXczbTRVN0dXZV9xZEpqOW5zVUY2ajlZX1N0WHduc0RpS1VzMGRjaktsMmc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYjV0ZTN1ZXA2b0QyVjNDYk93YjdDTkpUUkE5bC1kdnBwMTVUY0h5OVpxZEs4REVnNmsteVpNX3BRS1dzVkFBSWNQUEYycUtqWlNHLVdRZm9TYzlrcFlndnk5a0hzaWMzdVlZT3JHV0p0XzlkQ25SWFZycEdaV3VCNzNQT2ZCQ0hFNWhmbFBsa21iUkpMWllLa2hyTlJycXVzMFM5QXczbTRVN0dXZV9xZEpqOW5zVUY2ajlZX1N0WHduc0RpS1VzMGRjaktsMmc?oc=5",
+      "source": "Visit New York State",
+      "category": "World",
+      "publishedAt": "2026-11-12T23:03:12Z"
+    },
+    {
+      "id": "dfcf1572b9d555e3b7b4",
+      "title": "Morocco Honors 37 Former Internationals Ahead of Niger Match - Morocco World News",
+      "description": "Morocco Honors 37 Former Internationals Ahead of Niger Match Morocco World News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa29tWGNnczg3V1RCQ0ozdTItV2E3SW5JMWFHYTgwb2x2WGVvUlkzdE9oa3VOS0gtcmYyQUdRS05mUjV3QXZiRTB0MTJ6emdIMnpqclIyenVuRlpsZ21Ic0U5YXBJMWJXeUNxVnVTOWRtcTRVNS1NR2V4M0IzQW8yTUtoNTlMRjFBOEttc0lBX3VWSC04RGFraUZqcTNFZkpzMzlZY1hjZDBaQWRoYUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOa29tWGNnczg3V1RCQ0ozdTItV2E3SW5JMWFHYTgwb2x2WGVvUlkzdE9oa3VOS0gtcmYyQUdRS05mUjV3QXZiRTB0MTJ6emdIMnpqclIyenVuRlpsZ21Ic0U5YXBJMWJXeUNxVnVTOWRtcTRVNS1NR2V4M0IzQW8yTUtoNTlMRjFBOEttc0lBX3VWSC04RGFraUZqcTNFZkpzMzlZY1hjZDBaQWRoYUE?oc=5",
+      "source": "Morocco World News",
+      "category": "World",
+      "publishedAt": "2026-11-12T22:31:29Z"
+    },
     {
       "id": "60c347e1f6f161318206",
       "title": "Leyla Aliyeva participates in discussions on improving air quality in cities at COP31 - Azərtac",
@@ -283,6 +342,16 @@
       "source": "Azərtac",
       "category": "Environment",
       "publishedAt": "2026-11-12T20:23:00Z"
+    },
+    {
+      "id": "8c0f971726f6979715c3",
+      "title": "Governor Newsom announces California’s first Environmental Youth Advisory Council, empowering the next generation of climate leaders - California State Portal | CA.gov",
+      "description": "Governor Newsom announces California’s first Environmental Youth Advisory Council, empowering the next generation of climate leaders California State Portal | CA.gov",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQby03UFIyVEZFenJBeGxPaDZVcFRjS25OS0hWUGVDUkZ5cW4xMTM0OFhJbERaWlFVSGpWTlVabGFLWjVLX1NoLVdkSEttV0ZrZkFZcXBKbHhjc0kwZ0prV1Frd2RGR3g2WV9MYndzY1djNUktdk1UQnlJbkNvNXhOMERBR0FlU29STUZ0dFpjOXRxdjlQNnlPbUJvUzZPM2daRjZlZVg2TDBSTEZ6OXNEdUthMnBVc1Q3VlpqUDhDaXpwbUkweHhZblY3T1JTMTROaHhZMEVHUDcxZThXWWRnVVpRTmpfUktxdmFoYlhCZ1ZxMXlLeDhZWQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQby03UFIyVEZFenJBeGxPaDZVcFRjS25OS0hWUGVDUkZ5cW4xMTM0OFhJbERaWlFVSGpWTlVabGFLWjVLX1NoLVdkSEttV0ZrZkFZcXBKbHhjc0kwZ0prV1Frd2RGR3g2WV9MYndzY1djNUktdk1UQnlJbkNvNXhOMERBR0FlU29STUZ0dFpjOXRxdjlQNnlPbUJvUzZPM2daRjZlZVg2TDBSTEZ6OXNEdUthMnBVc1Q3VlpqUDhDaXpwbUkweHhZblY3T1JTMTROaHhZMEVHUDcxZThXWWRnVVpRTmpfUktxdmFoYlhCZ1ZxMXlLeDhZWQ?oc=5",
+      "source": "California State Portal | CA.gov",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T19:58:11Z"
     },
     {
       "id": "241d4999cf33f30c8fcc",
@@ -912,7 +981,7 @@
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVEJsRzBsdFFyOU43d2dyWWQwSURkSjh5VnMwaWlGbWFMUnBSdDN1LWduVnRNT2pBRDQ1cG1MNG5nSUg1RFpHNmd0cWhoNXk1YlRKZXUyN0xKZGl0eEhtWkFKeko3eW9MVnZIV3paaGQ4MlFRc1JJTzlRN3JZODNsREV5Vm1zeFJDRHZCanM0Q0NHNFk?oc=5",
       "source": "Daily News",
       "category": "Environment",
-      "publishedAt": "2026-11-11T08:05:19Z"
+      "publishedAt": "2026-11-11T08:08:05Z"
     },
     {
       "id": "53e19ad621064d177258",
@@ -1385,6 +1454,6 @@
       "publishedAt": "2026-11-06T16:43:30Z"
     }
   ],
-  "lastUpdated": "2026-11-12T22:41:12Z",
-  "updatedAt": "2026-11-12T22:41:12Z"
+  "lastUpdated": "2026-11-13T03:17:31Z",
+  "updatedAt": "2026-11-13T03:17:31Z"
 }
