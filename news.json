@@ -240,39 +240,73 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-13T03:17:31Z",
-    "lastSuccessfulRun": "2026-11-13T03:17:31Z",
-    "lastUpdated": "2026-11-13T03:17:31Z",
-    "articlesAdded": 7,
+    "lastRun": "2026-11-13T11:25:47Z",
+    "lastSuccessfulRun": "2026-11-13T11:25:47Z",
+    "lastUpdated": "2026-11-13T11:25:47Z",
+    "articlesAdded": 11,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 47,
+    "duplicatesRemoved": 37,
     "failedSources": [],
     "newArticleIds": [
-      "7fb81871bf6802dd8e76",
-      "9229ac2a143ca768201d",
-      "978f2be363a1df6488c7",
-      "b6a3a3a3b5c736366e8d",
-      "603a7bf59ab736c56ed5",
-      "dfcf1572b9d555e3b7b4",
-      "8c0f971726f6979715c3"
+      "8f8fe4a40382863b2ac8",
+      "2a286df5a87002b64541",
+      "88460e3db185aedb39b5",
+      "4f8f7ab0d28bddaf6280",
+      "4474b8401c11361189c1",
+      "eedfb6ae872b16a1d688",
+      "b5fc8066be885ca41cc1",
+      "442bdb2edaf349cdeddc",
+      "ae7833c6fbe269b859a3",
+      "7a5b62812c4edd1a8ef7",
+      "10ccc51c2f3439fd842e"
     ],
     "updatedArticleIds": [],
     "articlesRemoved": 0,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 118,
+    "totalArticles": 129,
     "categories": {
-      "World": 54,
-      "India": 10,
+      "World": 60,
+      "India": 11,
       "Technology": 7,
-      "Environment": 38,
+      "Environment": 42,
       "Disaster": 9
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "8f8fe4a40382863b2ac8",
+      "title": "South Africa President urges renewed commitment to international rule of law - Tripura Chronicle",
+      "description": "South Africa President urges renewed commitment to international rule of law Tripura Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ3lybWtSRXpyNU9PLUZ3b3pOZ2tEemI3TV80WXV0cGZ1Uk9ERkptOGtzbURVenkzWjZsMkhacXZIWEphWHNjWk16UFI5U0pCejg3T19QYVowZ2xtZHFGQkxCbjlzRmFxd1F6S012dGMzWUlyMHFMS1B3T2plTHJQVm1uNzRhbFJWSGRpZElJSUFhMWMyWmNLSjl1N253WkNiWTV2VXlxRVJ2dE0tQjI1b0tRVnd5YVk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ3lybWtSRXpyNU9PLUZ3b3pOZ2tEemI3TV80WXV0cGZ1Uk9ERkptOGtzbURVenkzWjZsMkhacXZIWEphWHNjWk16UFI5U0pCejg3T19QYVowZ2xtZHFGQkxCbjlzRmFxd1F6S012dGMzWUlyMHFMS1B3T2plTHJQVm1uNzRhbFJWSGRpZElJSUFhMWMyWmNLSjl1N253WkNiWTV2VXlxRVJ2dE0tQjI1b0tRVnd5YVk?oc=5",
+      "source": "Tripura Chronicle",
+      "category": "World",
+      "publishedAt": "2026-11-13T11:12:49Z"
+    },
+    {
+      "id": "2a286df5a87002b64541",
+      "title": "Croatia’s new environmental law raises questions over citizens’ rights - Croatia Week",
+      "description": "Croatia’s new environmental law raises questions over citizens’ rights Croatia Week",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaTdPbVBTUG8yMUpzU3ZrQi1xM1VDUm56R0gweVVPQmo5Y0V1TWR1ejl6ck9xN0RqTzhXZkI3Wi1zQUFudWFxV3FMT1I5ZHV4Nmo4NUhLYXFKOElHNElaZnhSdWRQSGFNLXNqb3VicGVaMmxnRkdWeUlGWlBVNVpSWjM5b3Z5OHNYdngybmJlalZqdVEzdGNvVXlrVkJ5dw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaTdPbVBTUG8yMUpzU3ZrQi1xM1VDUm56R0gweVVPQmo5Y0V1TWR1ejl6ck9xN0RqTzhXZkI3Wi1zQUFudWFxV3FMT1I5ZHV4Nmo4NUhLYXFKOElHNElaZnhSdWRQSGFNLXNqb3VicGVaMmxnRkdWeUlGWlBVNVpSWjM5b3Z5OHNYdngybmJlalZqdVEzdGNvVXlrVkJ5dw?oc=5",
+      "source": "Croatia Week",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T08:32:49Z"
+    },
+    {
+      "id": "88460e3db185aedb39b5",
+      "title": "Bangkok Welcomes Global Creative Communities for THE WORLD ENDS 2026, Organised by TCEB, as International Design Gathering Invites Visitors to Discover New Perspectives Through Exhibitions, Dialogue, and Immersive Experiences - The Sun Malaysia",
+      "description": "Bangkok Welcomes Global Creative Communities for THE WORLD ENDS 2026, Organised by TCEB, as International Design Gathering Invites Visitors to Discover New Perspectives Through Exhibitions, Dialogue, and Immersive Experiences The Sun Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxOY19QMDNIMmpwVk5HYkFZWmIxYTZSNUZOdmVIRWlDOHloSHVlNjRoTVNZeThRRHpfOEVvMHJ0anV1N0VsYTdUdUhHcTRpc1lIVGxPZEUzRWNOc2FBZ0M1ZjJ6NXByMDIwclMtNFJobEVvelRLaHBKcnNiMElHNzFfRDRTblg2YzNnM0ZCalhnLWRaNERoNUNlb3RLem1TLWRSWHYxM0xhVE1pSmV5ZktXbFF2X0VHTVNkYm1TOE5kbXZCVkpCS2lrVXNSbDB0ekVxcWJqTDNadFJ2X3UxLURSQkRXZk1oTlVJZ1d0QUtUelJiclc0TFdFSG1ZYlBJQzVCTVNONGRjckY0dHRrWmt6UzZrNFBkX0VtbFRjQzJjTzBVS09QalAxTlVxVE1laFNEQTVCamRlMUIzSzJDYWd2MlRyYWE4cWI3Vk9iN085bUpGbWZBcnZ6RklR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxOY19QMDNIMmpwVk5HYkFZWmIxYTZSNUZOdmVIRWlDOHloSHVlNjRoTVNZeThRRHpfOEVvMHJ0anV1N0VsYTdUdUhHcTRpc1lIVGxPZEUzRWNOc2FBZ0M1ZjJ6NXByMDIwclMtNFJobEVvelRLaHBKcnNiMElHNzFfRDRTblg2YzNnM0ZCalhnLWRaNERoNUNlb3RLem1TLWRSWHYxM0xhVE1pSmV5ZktXbFF2X0VHTVNkYm1TOE5kbXZCVkpCS2lrVXNSbDB0ekVxcWJqTDNadFJ2X3UxLURSQkRXZk1oTlVJZ1d0QUtUelJiclc0TFdFSG1ZYlBJQzVCTVNONGRjckY0dHRrWmt6UzZrNFBkX0VtbFRjQzJjTzBVS09QalAxTlVxVE1laFNEQTVCamRlMUIzSzJDYWd2MlRyYWE4cWI3Vk9iN085bUpGbWZBcnZ6RklR?oc=5",
+      "source": "The Sun Malaysia",
+      "category": "World",
+      "publishedAt": "2026-11-13T01:50:47Z"
+    },
     {
       "id": "7fb81871bf6802dd8e76",
       "title": "5th China Nuclear Energy High-Quality Development Conference & Shenzhen International Nuclear Energy Industry Innovation Expo (CINIE 2026) to Open in Shenzhen in December -- the World's Largest Specialised Nuclear Energy Event Sets a New Recor - The Manila Times",
@@ -292,6 +326,16 @@
       "source": "Inquirer.net",
       "category": "World",
       "publishedAt": "2026-11-13T01:32:00Z"
+    },
+    {
+      "id": "4f8f7ab0d28bddaf6280",
+      "title": "5th China Nuclear Energy High-Quality Development Conference & Shenzhen International Nuclear Energy Industry Innovation Expo (CINIE 2026) to Open in Shenzhen in December -- the World's Largest Specialised Nuclear Energy Event Sets a New Recor - PR Newswire",
+      "description": "5th China Nuclear Energy High-Quality Development Conference & Shenzhen International Nuclear Energy Industry Innovation Expo (CINIE 2026) to Open in Shenzhen in December -- the World's Largest Specialised Nuclear Energy Event Sets a New Recor PR Newswire",
+      "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxORERSc3NBem1weGh6T2F6V05nRlpEdjMweW5MMXlQQ0R4ZWRRckY3aXBnWlY3c0JoWERuaFA4TTRDX1BLb3pKSXpPelp3SVBYMXBpODlJNjJIWVZXWjJNYnBrRFc2ZXF4dXdqMVIwRHRQeDA5REdHZkJhSDY4bEJEdFRWUFgzZ2dxUGtOcE5ieWxIRktodFgybjNGMTZramhvbmlnQXVJd0RDNjJ6em9lNEZLQmlTSFVGWFNMSGdQZFppX2VvT0tyRVZubm5HdkpISFRiMTE1d2lRc3p5cDF4Q185WHo3ZDV2dmU2MUZ2Y1I1bmZOLVh0TFdFem16Uzd1dldxUmsyUHJFQkk2ZVl6djlEbkRwWElqdWVtcG5FUUJHQXpncC0wR2k4Z0NNLXBBbTVnMlppSDlsam1iU1dxLW1uX21ZaWwyV0dOSERFdEpmZFkxNVF5Tks5U3hpWGN5RTRRaUtPN2F3OGRiTjl0R0I4X2xmWWNvQ0o3a09Qcy1XeVZBMUVQaGF4eHUxMEthc3JF?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikwNBVV95cUxORERSc3NBem1weGh6T2F6V05nRlpEdjMweW5MMXlQQ0R4ZWRRckY3aXBnWlY3c0JoWERuaFA4TTRDX1BLb3pKSXpPelp3SVBYMXBpODlJNjJIWVZXWjJNYnBrRFc2ZXF4dXdqMVIwRHRQeDA5REdHZkJhSDY4bEJEdFRWUFgzZ2dxUGtOcE5ieWxIRktodFgybjNGMTZramhvbmlnQXVJd0RDNjJ6em9lNEZLQmlTSFVGWFNMSGdQZFppX2VvT0tyRVZubm5HdkpISFRiMTE1d2lRc3p5cDF4Q185WHo3ZDV2dmU2MUZ2Y1I1bmZOLVh0TFdFem16Uzd1dldxUmsyUHJFQkk2ZVl6djlEbkRwWElqdWVtcG5FUUJHQXpncC0wR2k4Z0NNLXBBbTVnMlppSDlsam1iU1dxLW1uX21ZaWwyV0dOSERFdEpmZFkxNVF5Tks5U3hpWGN5RTRRaUtPN2F3OGRiTjl0R0I4X2xmWWNvQ0o3a09Qcy1XeVZBMUVQaGF4eHUxMEthc3JF?oc=5",
+      "source": "PR Newswire",
+      "category": "World",
+      "publishedAt": "2026-11-13T00:36:00Z"
     },
     {
       "id": "978f2be363a1df6488c7",
@@ -334,6 +378,26 @@
       "publishedAt": "2026-11-12T22:31:29Z"
     },
     {
+      "id": "4474b8401c11361189c1",
+      "title": "TAIPEI-BOUND! 🌸 P-pop group BINI departs from the Ninoy Aquino International Airport (NAIA) in Pasay City for Taipei, Taiwan, for the final leg of their \"Signals\" World Tour on November 15, 2026. The concert will be held at the New Taipei City Exhibition Hall. - Facebook",
+      "description": "TAIPEI-BOUND! 🌸 P-pop group BINI departs from the Ninoy Aquino International Airport (NAIA) in Pasay City for Taipei, Taiwan, for the final leg of their \"Signals\" World Tour on November 15, 2026. The concert will be held at the New Taipei City Exhibition Hall. Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNWxZdDFEbndQbnBIeWFhOWZ0OHE3dUtUNlFFY3RVbVZUZFJrbk9IaEI2YlhONFV6b0QweXNxdHplemtkR1NsLTZielRKWWlYNHBpTDgwQ0dOTlc1X2p1MndPS1VnZWFFYmZ5NllWdTJ4ejNodF93V2x3djZmUko2SjRlLVJ5NmQwS1RzOENfWnRDYmkwRThIZkh1ZjBiVlZOMVFUNVh3RzFxT1AzV2swcjgyMzVTdXkyZTcxM21BbnBKU0NEWHNiNmMtVHpqRVZiWFViUHdzSQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNWxZdDFEbndQbnBIeWFhOWZ0OHE3dUtUNlFFY3RVbVZUZFJrbk9IaEI2YlhONFV6b0QweXNxdHplemtkR1NsLTZielRKWWlYNHBpTDgwQ0dOTlc1X2p1MndPS1VnZWFFYmZ5NllWdTJ4ejNodF93V2x3djZmUko2SjRlLVJ5NmQwS1RzOENfWnRDYmkwRThIZkh1ZjBiVlZOMVFUNVh3RzFxT1AzV2swcjgyMzVTdXkyZTcxM21BbnBKU0NEWHNiNmMtVHpqRVZiWFViUHdzSQ?oc=5",
+      "source": "Facebook",
+      "category": "World",
+      "publishedAt": "2026-11-12T22:25:27Z"
+    },
+    {
+      "id": "eedfb6ae872b16a1d688",
+      "title": "A sports court ordered Russia’s return to international hockey. Canada has other plans. - Meduza",
+      "description": "A sports court ordered Russia’s return to international hockey. Canada has other plans. Meduza",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGpUZUc4U2pFY0I5ZjgwbzBQV1JQeEwzam9VNk5ZbXF0NHg1N1JPcXo3OXhBWTNadi16U0JWakpidlZfMFI0aWlRRTdyZVBpOXFMT2tIUU1iSVg3NlVLZ1pYaVBIMXlUOEljaFlhWnZETjM3WklEY1gyNFFxdElPS0QtZDgwS3hUV0Vob2l4MlZjWmgyaTIxTC1NYU95ZTdnMUg5eUhXU0FLZExucjFONUJMa1ZKX1RWUjY1d2VJeE9sbDjSAcgBQVVfeXFMT0RSVlNmRU9YeTNqc2ptanN0ZlJKa0RxZjVNSi1sV21laHo5eUYyTkRWNXdBRU9tUWRLdkx0WnBjbm43Y0wtU2JPLXV1TGI1WEF2V1RWLTlfZklVM2VaanhLOExlUndxLWFyNnRDaG1qb0RqNFM3MlhDZUJITVpPdmF1LU5lMEFQZEhLa09wTDdsdnFZem96emRuRTFYeUhkVkhPb1pxeGRRYVEtRFhZbExwcUxEMDAyZ09EWmpPeGhWT0RMWEMwNzc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGpUZUc4U2pFY0I5ZjgwbzBQV1JQeEwzam9VNk5ZbXF0NHg1N1JPcXo3OXhBWTNadi16U0JWakpidlZfMFI0aWlRRTdyZVBpOXFMT2tIUU1iSVg3NlVLZ1pYaVBIMXlUOEljaFlhWnZETjM3WklEY1gyNFFxdElPS0QtZDgwS3hUV0Vob2l4MlZjWmgyaTIxTC1NYU95ZTdnMUg5eUhXU0FLZExucjFONUJMa1ZKX1RWUjY1d2VJeE9sbDjSAcgBQVVfeXFMT0RSVlNmRU9YeTNqc2ptanN0ZlJKa0RxZjVNSi1sV21laHo5eUYyTkRWNXdBRU9tUWRLdkx0WnBjbm43Y0wtU2JPLXV1TGI1WEF2V1RWLTlfZklVM2VaanhLOExlUndxLWFyNnRDaG1qb0RqNFM3MlhDZUJITVpPdmF1LU5lMEFQZEhLa09wTDdsdnFZem96emRuRTFYeUhkVkhPb1pxeGRRYVEtRFhZbExwcUxEMDAyZ09EWmpPeGhWT0RMWEMwNzc?oc=5",
+      "source": "Meduza",
+      "category": "World",
+      "publishedAt": "2026-11-12T20:39:00Z"
+    },
+    {
       "id": "60c347e1f6f161318206",
       "title": "Leyla Aliyeva participates in discussions on improving air quality in cities at COP31 - Azərtac",
       "description": "Leyla Aliyeva participates in discussions on improving air quality in cities at COP31 Azərtac",
@@ -352,6 +416,26 @@
       "source": "California State Portal | CA.gov",
       "category": "Environment",
       "publishedAt": "2026-11-12T19:58:11Z"
+    },
+    {
+      "id": "b5fc8066be885ca41cc1",
+      "title": "Office of Public Affairs | Gootloader Malware Disrupted in International Cyber Operation - Department of Justice (.gov)",
+      "description": "Office of Public Affairs | Gootloader Malware Disrupted in International Cyber Operation Department of Justice (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRjB1aDdjVlhvdVBVMEFnT2F3eHAtR0xWLXlOOE5aSUt2MDVnSUZRenlSV1prd0p4dEZRNFZjbmNqaGVVY0doaWhyempIdEN2Y1hKXzBRR0FIVVJqcDlJcnh1WU1oWllES1hvVXVhdWcybE9KTVJFUVZVVFl1dnBzUGI1eDZGMFg3TnBhbDgwbW90YU0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRjB1aDdjVlhvdVBVMEFnT2F3eHAtR0xWLXlOOE5aSUt2MDVnSUZRenlSV1prd0p4dEZRNFZjbmNqaGVVY0doaWhyempIdEN2Y1hKXzBRR0FIVVJqcDlJcnh1WU1oWllES1hvVXVhdWcybE9KTVJFUVZVVFl1dnBzUGI1eDZGMFg3TnBhbDgwbW90YU0?oc=5",
+      "source": "Department of Justice (.gov)",
+      "category": "World",
+      "publishedAt": "2026-11-12T19:30:54Z"
+    },
+    {
+      "id": "442bdb2edaf349cdeddc",
+      "title": "Global Warming Remains Unchecked, Experts Warn at UN’s COP31 Climate Summit - Inside Climate News",
+      "description": "Global Warming Remains Unchecked, Experts Warn at UN’s COP31 Climate Summit Inside Climate News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JbWNxMDh4bWtaY0NTaEc3V3JXcGVmYVIyTVRiZkJVMGIzSmdHQUxkWkVVZlNiRlM1cjdodWg5MnBzSXE2R2NuWHNBVUdkR2ZXQlp3QVhhLVVka0gyQzU0Ykx6YjQxbkZ1NkhXOTQ0NV9LYUZ3TVFGWmJ3MGpMdTg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JbWNxMDh4bWtaY0NTaEc3V3JXcGVmYVIyTVRiZkJVMGIzSmdHQUxkWkVVZlNiRlM1cjdodWg5MnBzSXE2R2NuWHNBVUdkR2ZXQlp3QVhhLVVka0gyQzU0Ykx6YjQxbkZ1NkhXOTQ0NV9LYUZ3TVFGWmJ3MGpMdTg?oc=5",
+      "source": "Inside Climate News",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T19:29:50Z"
     },
     {
       "id": "241d4999cf33f30c8fcc",
@@ -422,6 +506,16 @@
       "source": "Morocco World News",
       "category": "World",
       "publishedAt": "2026-11-12T16:27:58Z"
+    },
+    {
+      "id": "ae7833c6fbe269b859a3",
+      "title": "31st CII Partnership Summit 2026 Brings Global Policymakers, Business Leaders and Investors to Visakhapatnam - DD India",
+      "description": "31st CII Partnership Summit 2026 Brings Global Policymakers, Business Leaders and Investors to Visakhapatnam DD India",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdWhjb1dsQ3JrQXlBNE9Sd3ZMeTd5TEduNlRSaG1HWGFjZWZ3V1RHaXZIeERJalEtRVV3T3ZjcVk5NlNqQ2VURUJfN0U0cV92LW9zRXd2aFlWanR5NHpXc2RvVG9KcjZPOV92ekUwUEpKRTBxSlAweDV3V2NOcGZkeng0MVZyR0RoeC1UbTk3NUpPczRHb1ozNG81cElPdllOamphM2xUYi1SdkVKUWpIaDkyNWt1d1dRMm9vbE4xbHhJbS11cVpFZFAxUFdCdDl6ZElMbg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdWhjb1dsQ3JrQXlBNE9Sd3ZMeTd5TEduNlRSaG1HWGFjZWZ3V1RHaXZIeERJalEtRVV3T3ZjcVk5NlNqQ2VURUJfN0U0cV92LW9zRXd2aFlWanR5NHpXc2RvVG9KcjZPOV92ekUwUEpKRTBxSlAweDV3V2NOcGZkeng0MVZyR0RoeC1UbTk3NUpPczRHb1ozNG81cElPdllOamphM2xUYi1SdkVKUWpIaDkyNWt1d1dRMm9vbE4xbHhJbS11cVpFZFAxUFdCdDl6ZElMbg?oc=5",
+      "source": "DD India",
+      "category": "India",
+      "publishedAt": "2026-11-12T16:14:00Z"
     },
     {
       "id": "8b093e6abb660fe8ac41",
@@ -744,6 +838,16 @@
       "publishedAt": "2026-11-12T00:10:50Z"
     },
     {
+      "id": "7a5b62812c4edd1a8ef7",
+      "title": "Cost-effective climate change mitigation through land sector contributions - Nature",
+      "description": "Cost-effective climate change mitigation through land sector contributions Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVZUswelB1VXpvcUxXWjBHY2VWMU42bV9OdkZ2SmtidTlGVDA3Yll1N0hRVGZDdWl4V0o5b0RqWExDcG5VTDZSUG5WSnRSeHNQZEkyTGp2TUdJWnBLcFp3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVZUswelB1VXpvcUxXWjBHY2VWMU42bV9OdkZ2SmtidTlGVDA3Yll1N0hRVGZDdWl4V0o5b0RqWExDcG5VTDZSUG5WSnRSeHNQZEkyTGp2TUdJWnBLcFp3?oc=5",
+      "source": "Nature",
+      "category": "Environment",
+      "publishedAt": "2026-11-11T23:59:38Z"
+    },
+    {
       "id": "526f8db8c798f35ca5d4",
       "title": "LIVE | End of an era! SS United States sinks as the world's largest artificial reef takes shape - The Economic Times",
       "description": "LIVE | End of an era! SS United States sinks as the world's largest artificial reef takes shape The Economic Times",
@@ -822,6 +926,16 @@
       "source": "Ahram Online",
       "category": "World",
       "publishedAt": "2026-11-11T14:03:52Z"
+    },
+    {
+      "id": "10ccc51c2f3439fd842e",
+      "title": "Bill Gates Reassess Climate Change - Forbes",
+      "description": "Bill Gates Reassess Climate Change Forbes",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM2g4aENoam1ZekpRZHkzb2hwYkR4S0FuZENNWG5aRk5mRG8xQVBwLVI4WUV6U2FjOU5jU1cxSEcyT0RaeDhLRmRlaUE0a3MyaWtRMkd0d0lDLXZsODFyREdKVXF1SEJDTVV1VEpmZmlmekY3TVZzWUh1OEdxQlpZWWp2aWQ3X0ktUkRIckZOZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM2g4aENoam1ZekpRZHkzb2hwYkR4S0FuZENNWG5aRk5mRG8xQVBwLVI4WUV6U2FjOU5jU1cxSEcyT0RaeDhLRmRlaUE0a3MyaWtRMkd0d0lDLXZsODFyREdKVXF1SEJDTVV1VEpmZmlmekY3TVZzWUh1OEdxQlpZWWp2aWQ3X0ktUkRIckZOZw?oc=5",
+      "source": "Forbes",
+      "category": "Environment",
+      "publishedAt": "2026-11-11T14:00:00Z"
     },
     {
       "id": "409fbc1327c207cf001f",
@@ -1454,6 +1568,6 @@
       "publishedAt": "2026-11-06T16:43:30Z"
     }
   ],
-  "lastUpdated": "2026-11-13T03:17:31Z",
-  "updatedAt": "2026-11-13T03:17:31Z"
+  "lastUpdated": "2026-11-13T11:25:47Z",
+  "updatedAt": "2026-11-13T11:25:47Z"
 }
