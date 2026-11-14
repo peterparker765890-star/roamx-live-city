@@ -240,44 +240,158 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-14T06:55:02Z",
-    "lastSuccessfulRun": "2026-11-14T06:55:02Z",
-    "lastUpdated": "2026-11-14T06:55:02Z",
-    "articlesAdded": 12,
+    "lastRun": "2026-11-14T13:59:41Z",
+    "lastSuccessfulRun": "2026-11-14T13:59:41Z",
+    "lastUpdated": "2026-11-14T13:59:41Z",
+    "articlesAdded": 16,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 41,
+    "duplicatesRemoved": 50,
     "failedSources": [],
     "newArticleIds": [
-      "234e5dcefb74db6f857b",
-      "ac7604a7f7d986089fcd",
-      "eab9de97dc3f93861f59",
-      "a31e7c4daffece221c07",
-      "fad24446a5fe58cef832",
-      "346631b5811088a272d3",
-      "b3fb4e40c429db7fa962",
-      "b5364c5128c2ecd2673a",
-      "c961906f76de85509c4a",
-      "d263b2d3b2e0e4652ac5",
-      "a9d559162daca5ae108e",
-      "9a26cc6da1a7f73ddeae"
+      "6a481e6d7410326d4709",
+      "61e7baa8078f4e294f79",
+      "4ecb5016bbf30879a4ec",
+      "a326de96b55445931027",
+      "8cf38606d8ac26c536d5",
+      "576e2e3d1a0abcbc184d",
+      "aeed8098d444ee941363",
+      "958b9d49425ea8ec1a18",
+      "89b673c3032eee32a80f",
+      "a98116aef16e62fb0e4c",
+      "ad6c6bde5597ab621720",
+      "4fc2c3bbb6498e5b84d6",
+      "2e38366e707083f842a8",
+      "547c5cf4db4badd75e8a",
+      "90509d25cc63f69a74d4",
+      "e06f598bf145d6f15ff8"
     ],
     "updatedArticleIds": [],
     "articlesRemoved": 0,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 170,
+    "totalArticles": 186,
     "categories": {
-      "World": 83,
-      "India": 16,
+      "World": 94,
+      "India": 17,
       "Technology": 9,
-      "Environment": 53,
-      "Disaster": 9
+      "Environment": 56,
+      "Disaster": 10
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "6a481e6d7410326d4709",
+      "title": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience - ET Government",
+      "description": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience ET Government",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
+      "source": "ET Government",
+      "category": "India",
+      "publishedAt": "2026-11-14T13:20:23Z"
+    },
+    {
+      "id": "61e7baa8078f4e294f79",
+      "title": "Morocco Contributes to Arrest of International Drug Trafficking Fugitive - Morocco World News",
+      "description": "Morocco Contributes to Arrest of International Drug Trafficking Fugitive Morocco World News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPXzlUZEtCLWVTT0NiT3l4QUZ6cTlWNDZyalI5Q1d0SlVjTGNON0dhbXQtcUc3aDRKSFBtSVhrREZFSExPOEd4b29mUFY0RUFHcmlxWW5FeWt3REEwUEJJd1VqTUdFdHpKUlVCd3FQWDJNZEd0YXF0cjFiVnFocEgxYzQ0NVFFODQwWlJsNG44OUdmeXVPdkpYak8wTDNUczBtcHlWQ2hqRDAxX095Q0M2NGlrRlRSc1JadGpGMlB3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPXzlUZEtCLWVTT0NiT3l4QUZ6cTlWNDZyalI5Q1d0SlVjTGNON0dhbXQtcUc3aDRKSFBtSVhrREZFSExPOEd4b29mUFY0RUFHcmlxWW5FeWt3REEwUEJJd1VqTUdFdHpKUlVCd3FQWDJNZEd0YXF0cjFiVnFocEgxYzQ0NVFFODQwWlJsNG44OUdmeXVPdkpYak8wTDNUczBtcHlWQ2hqRDAxX095Q0M2NGlrRlRSc1JadGpGMlB3?oc=5",
+      "source": "Morocco World News",
+      "category": "World",
+      "publishedAt": "2026-11-14T11:34:09Z"
+    },
+    {
+      "id": "4ecb5016bbf30879a4ec",
+      "title": "Brazil and Philippines unite in defence of international law amid “a polarised world” – Global South Institute - Brasil 247",
+      "description": "Brazil and Philippines unite in defence of international law amid “a polarised world” – Global South Institute Brasil 247",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQzVQdDBrTjlSQjRfM25GRHZYNE9US2V5UzBDZEw5ZUhxdC1WWkdjRnpicEZUWi1MWUh1UVBZMW50dDRnV2pfdHEyQU9JTkRjZTRoLWExcGJvVWlyUWxlODRtMWpIMW55aEI2Vm1yZ0QwdnVvSnhGeU00VThKWWE5cXdmdXY5ZlpHcXdtaUh6ZXE5V01BeGd1MkRYWmFDMDZ5ZEZ0VGYwd1ZKeS1wdTNUQ1JEazVfWnJCYjI1eTBQeS1HZGZFaGJsVjdiX042dThzS0p4aHFzeXFkTUNFN3Y2RUU2UVZLMkJhT0RiM2JuTnFLOVU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQzVQdDBrTjlSQjRfM25GRHZYNE9US2V5UzBDZEw5ZUhxdC1WWkdjRnpicEZUWi1MWUh1UVBZMW50dDRnV2pfdHEyQU9JTkRjZTRoLWExcGJvVWlyUWxlODRtMWpIMW55aEI2Vm1yZ0QwdnVvSnhGeU00VThKWWE5cXdmdXY5ZlpHcXdtaUh6ZXE5V01BeGd1MkRYWmFDMDZ5ZEZ0VGYwd1ZKeS1wdTNUQ1JEazVfWnJCYjI1eTBQeS1HZGZFaGJsVjdiX042dThzS0p4aHFzeXFkTUNFN3Y2RUU2UVZLMkJhT0RiM2JuTnFLOVU?oc=5",
+      "source": "Brasil 247",
+      "category": "World",
+      "publishedAt": "2026-11-14T11:34:02Z"
+    },
+    {
+      "id": "a326de96b55445931027",
+      "title": "Environmental action no longer optional in addressing AMR - Modern Ghana",
+      "description": "Environmental action no longer optional in addressing AMR Modern Ghana",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ0VLTnBZMFJCeUlMOFc0MEVOUFBWdDV1dzhWVHJFYVpYUXVGMUFlT3hwblZLWTE0a051NjN6dElQRUtqNnZRdjl1ekhwSnlZUHdkd3lYS21zOFJCaF8zcGZDRFUydlphZ1VXb1JKZUNWSzFURThwdlJwSm90eGdFaGVpdUVhdS1lYjV6MGJYTEtINTUxMVZFc2JSQVbSAZsBQVVfeXFMTzhmR25DQVQzUkxOeV9EMlRnYW9acFlZd1FQOWtSYjhuc1VURjd0a09lWi1ZVUh3LTBTOUJISWVfZy1pbzNiTDNpMXFSQnhjekNyRVFtWXNTR0ZqOFVBRWdKdTAxZG5zQWlQN1Y0cGFBNmlnS1d4dWdYYzVxZVZocFFDaEc4NW0xdjhwbTdkT2dlYURZZDhWeEJONUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ0VLTnBZMFJCeUlMOFc0MEVOUFBWdDV1dzhWVHJFYVpYUXVGMUFlT3hwblZLWTE0a051NjN6dElQRUtqNnZRdjl1ekhwSnlZUHdkd3lYS21zOFJCaF8zcGZDRFUydlphZ1VXb1JKZUNWSzFURThwdlJwSm90eGdFaGVpdUVhdS1lYjV6MGJYTEtINTUxMVZFc2JSQVbSAZsBQVVfeXFMTzhmR25DQVQzUkxOeV9EMlRnYW9acFlZd1FQOWtSYjhuc1VURjd0a09lWi1ZVUh3LTBTOUJISWVfZy1pbzNiTDNpMXFSQnhjekNyRVFtWXNTR0ZqOFVBRWdKdTAxZG5zQWlQN1Y0cGFBNmlnS1d4dWdYYzVxZVZocFFDaEc4NW0xdjhwbTdkT2dlYURZZDhWeEJONUE?oc=5",
+      "source": "Modern Ghana",
+      "category": "Environment",
+      "publishedAt": "2026-11-14T10:39:00Z"
+    },
+    {
+      "id": "8cf38606d8ac26c536d5",
+      "title": "Chinas intensified pressure on Tibet draws global attention at international advocacy meet - The Tribune",
+      "description": "Chinas intensified pressure on Tibet draws global attention at international advocacy meet The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeTNDZ3JrTHVoQ2RieWV4ZHp0WDRhekpFLVhNcUF4SGJzZE1Hd0k4anotMVd5ZEw4eTdnTFJ4cnNQTUFVMWhmTE9iV1ZWUzVwVjNWcHJfeTNzc2M1WGFVS3BQdDEwdlRvZHRuTUdwX3ZfUTdncjF0S1d3V0lFbE1JZVYzcFc3R0pYN0ZyWTZJTVVjcFdDOXFteGdROWZIeFJmVk5RWXI0T0VyYW9zZUluRnEzMTBGNENvVEZYWnpCVnpJc2ZvVUtSTTdIc9IBzwFBVV95cUxNRHo2SU5aODRKMVNVWHY0N1cwajJwd0lmYVJoMUdBUERLeVg4WkxITUhvcWdUX054TWs4aFVyb0FyZ2tMNEJwLXdBc0pXZXNUd0M4b1hMdXE0a1JBWWlOYmxCQmVtZTFCTmExc05OSXoxNzFndy1qV1BEd2VTSjctZ1YwSkxOVFNLZVY4SXk3ekF5V0d5OGdSM2hMV09URDhsTFE5d0pycHZqN094SC1WOTBGZVh0RHpHWWxTd05KSm5SOWNQTUZ4Y1BEd3J1aGM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeTNDZ3JrTHVoQ2RieWV4ZHp0WDRhekpFLVhNcUF4SGJzZE1Hd0k4anotMVd5ZEw4eTdnTFJ4cnNQTUFVMWhmTE9iV1ZWUzVwVjNWcHJfeTNzc2M1WGFVS3BQdDEwdlRvZHRuTUdwX3ZfUTdncjF0S1d3V0lFbE1JZVYzcFc3R0pYN0ZyWTZJTVVjcFdDOXFteGdROWZIeFJmVk5RWXI0T0VyYW9zZUluRnEzMTBGNENvVEZYWnpCVnpJc2ZvVUtSTTdIc9IBzwFBVV95cUxNRHo2SU5aODRKMVNVWHY0N1cwajJwd0lmYVJoMUdBUERLeVg4WkxITUhvcWdUX054TWs4aFVyb0FyZ2tMNEJwLXdBc0pXZXNUd0M4b1hMdXE0a1JBWWlOYmxCQmVtZTFCTmExc05OSXoxNzFndy1qV1BEd2VTSjctZ1YwSkxOVFNLZVY4SXk3ekF5V0d5OGdSM2hMV09URDhsTFE5d0pycHZqN094SC1WOTBGZVh0RHpHWWxTd05KSm5SOWNQTUZ4Y1BEd3J1aGM?oc=5",
+      "source": "The Tribune",
+      "category": "World",
+      "publishedAt": "2026-11-14T10:27:14Z"
+    },
+    {
+      "id": "576e2e3d1a0abcbc184d",
+      "title": "Rubio labels international law a tool of elites and attacks ICC - The Japan Times",
+      "description": "Rubio labels international law a tool of elites and attacks ICC The Japan Times",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNM2FMWkM5Ri15cnBRV3czOVc0RVFaY2lyZ1h1UW0ycTBKZG1Ub2tSN0p1NmpGcUx0M1locFVCRWIyZGNPZkw4NHVXeWV4dFhnSWc0ak1ZemxFa0IxTHNvU1R4bjUxbEpUWEo2Rm9jajJwU0t1MEgybEVPNkZzVEVnVU1UZEItVGdGUVpHM011eDhhZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNM2FMWkM5Ri15cnBRV3czOVc0RVFaY2lyZ1h1UW0ycTBKZG1Ub2tSN0p1NmpGcUx0M1locFVCRWIyZGNPZkw4NHVXeWV4dFhnSWc0ak1ZemxFa0IxTHNvU1R4bjUxbEpUWEo2Rm9jajJwU0t1MEgybEVPNkZzVEVnVU1UZEItVGdGUVpHM011eDhhZw?oc=5",
+      "source": "The Japan Times",
+      "category": "World",
+      "publishedAt": "2026-11-14T09:32:50Z"
+    },
+    {
+      "id": "aeed8098d444ee941363",
+      "title": "Canadian judge decries U.S. sanctions of International Criminal Court as 'attack in favour of impunity' - CBC",
+      "description": "Canadian judge decries U.S. sanctions of International Criminal Court as 'attack in favour of impunity' CBC",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ1k5bk1pbjl4TVJHNjV0akVDcG43aXdURWVlS1NWUzlvZ2tfQkFuVC1ma0s5djNGSFpQNWV2WF9hMV8yb2lZbGpPMmxiS0ZvN2llTFEyaDU2dURwSFF3RFlFQ3RyMUtYLVU2REdfQWFINUU3SGIxSzYwU3VYMlFXSDQyRjNXbExRREdTaW05Zw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ1k5bk1pbjl4TVJHNjV0akVDcG43aXdURWVlS1NWUzlvZ2tfQkFuVC1ma0s5djNGSFpQNWV2WF9hMV8yb2lZbGpPMmxiS0ZvN2llTFEyaDU2dURwSFF3RFlFQ3RyMUtYLVU2REdfQWFINUU3SGIxSzYwU3VYMlFXSDQyRjNXbExRREdTaW05Zw?oc=5",
+      "source": "CBC",
+      "category": "World",
+      "publishedAt": "2026-11-14T09:00:00Z"
+    },
+    {
+      "id": "958b9d49425ea8ec1a18",
+      "title": "Canada sets annual target of 150,000 new international students through 2029 | Hindustan Times - Hindustan Times",
+      "description": "Canada sets annual target of 150,000 new international students through 2029 | Hindustan Times Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVHZzN3E5eWlRaVF2ZUc1MWR5YzJWdmZzbzZ4REV5UldRdS0tNmthS2VZam1UN2ZnVGxKY1JNWGhNNm5HemZ5d3lBM1V4NlZqV1hQanBNZFZZVkU1QkktcUxGMTJJMWk5OEFFU3NtOHFvdDhhemVYeWRoOThjZUpDcENtV2tkY0o2dGhMV2FzTlE5RU95WngyQUZuM0RlSHpQTkRkWXhDck54UEhXTHdTVHRIYzRnam5Pc282VUhHYVcwcTljY0c1dEQ5bnJTanRUSl9oWXI5OWJvVHV1eXpGS9IB5gFBVV95cUxQNG4weXJQeVdsVTQtR3hEYjlBenpDUmhfb2VlSVdPSjVfWVUtNEs3SWVEZ1lxcTEzSGM3dVQ1RG1xaVpUTDJBUDFZUFJYOXAwaGNNRUdnQUNuaFVpT2ZCWFpGZ2pGQ3A3ZGFTXzEtMlBqRHVhUURVVjBDS3dFZmhwdXJubEVrcTFIVWd2RDB3VWd2RUE0eXFOUnNTZGxsUGEteVExelN2Z1RYMk9pbDE1UXlFZ2JRZ2tlMklIRW9hR0F6Z0RmckREYnI4eWN5akpySjE0YlpUbWk0R09WOG9KUktxVDdWQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVHZzN3E5eWlRaVF2ZUc1MWR5YzJWdmZzbzZ4REV5UldRdS0tNmthS2VZam1UN2ZnVGxKY1JNWGhNNm5HemZ5d3lBM1V4NlZqV1hQanBNZFZZVkU1QkktcUxGMTJJMWk5OEFFU3NtOHFvdDhhemVYeWRoOThjZUpDcENtV2tkY0o2dGhMV2FzTlE5RU95WngyQUZuM0RlSHpQTkRkWXhDck54UEhXTHdTVHRIYzRnam5Pc282VUhHYVcwcTljY0c1dEQ5bnJTanRUSl9oWXI5OWJvVHV1eXpGS9IB5gFBVV95cUxQNG4weXJQeVdsVTQtR3hEYjlBenpDUmhfb2VlSVdPSjVfWVUtNEs3SWVEZ1lxcTEzSGM3dVQ1RG1xaVpUTDJBUDFZUFJYOXAwaGNNRUdnQUNuaFVpT2ZCWFpGZ2pGQ3A3ZGFTXzEtMlBqRHVhUURVVjBDS3dFZmhwdXJubEVrcTFIVWd2RDB3VWd2RUE0eXFOUnNTZGxsUGEteVExelN2Z1RYMk9pbDE1UXlFZ2JRZ2tlMklIRW9hR0F6Z0RmckREYnI4eWN5akpySjE0YlpUbWk0R09WOG9KUktxVDdWQQ?oc=5",
+      "source": "Hindustan Times",
+      "category": "World",
+      "publishedAt": "2026-11-14T08:49:12Z"
+    },
+    {
+      "id": "89b673c3032eee32a80f",
+      "title": "The World’s Best Japanese Whisky—According To The 2026 International Spirits Challenge - Forbes",
+      "description": "The World’s Best Japanese Whisky—According To The 2026 International Spirits Challenge Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc1hJVnc1d29hcXFTaEdsRThNLWFyY2hZVFRfZXR4Z1ljczJ3blp4ZmItMmZ2MGJ2YXRFd2xBQkRib05FTnM5bWJ2blFoZ2JxT0NTengtZGt3N3drR3FBcDJ1YVdFb2xKVUp3ejBIWjJnM0dsc1h4OU0ybUdTRWhMQmxUcHV1NkxOdkU4bXlTa1Jvc0oxYWZQdVZUbzdFMFlHMEl4UkxKVEhyQkIzNUN1Tktrb0k4STk5ejFFcnYybEg5QWFHSmFnZzZYa3VCNHNRWlE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc1hJVnc1d29hcXFTaEdsRThNLWFyY2hZVFRfZXR4Z1ljczJ3blp4ZmItMmZ2MGJ2YXRFd2xBQkRib05FTnM5bWJ2blFoZ2JxT0NTengtZGt3N3drR3FBcDJ1YVdFb2xKVUp3ejBIWjJnM0dsc1h4OU0ybUdTRWhMQmxUcHV1NkxOdkU4bXlTa1Jvc0oxYWZQdVZUbzdFMFlHMEl4UkxKVEhyQkIzNUN1Tktrb0k4STk5ejFFcnYybEg5QWFHSmFnZzZYa3VCNHNRWlE?oc=5",
+      "source": "Forbes",
+      "category": "World",
+      "publishedAt": "2026-11-14T08:30:00Z"
+    },
+    {
+      "id": "a98116aef16e62fb0e4c",
+      "title": "COP31: Türkiye, World Bank launch urban resilience platform - Myanmar International TV",
+      "description": "COP31: Türkiye, World Bank launch urban resilience platform Myanmar International TV",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRUVScTlYYWw3Y2hVeFdfVDFPZFNUOWszU21BVjBxLUVlajFDVVdjR3lIVEtZRjMxVk5FaEdmMGk0LXFfU2NDdE9rTUlVVnp4emV6c3p4ZU04YW1Xc0MzYTJSdVFlZWhLenIwcUJ2TlJudjN3QmxKQW5XdGM5UEkxVExhMWcxa1lDVG5qeDdrTk1JeUF4dWxOSHZR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRUVScTlYYWw3Y2hVeFdfVDFPZFNUOWszU21BVjBxLUVlajFDVVdjR3lIVEtZRjMxVk5FaEdmMGk0LXFfU2NDdE9rTUlVVnp4emV6c3p4ZU04YW1Xc0MzYTJSdVFlZWhLenIwcUJ2TlJudjN3QmxKQW5XdGM5UEkxVExhMWcxa1lDVG5qeDdrTk1JeUF4dWxOSHZR?oc=5",
+      "source": "Myanmar International TV",
+      "category": "World",
+      "publishedAt": "2026-11-14T07:32:09Z"
+    },
+    {
+      "id": "ad6c6bde5597ab621720",
+      "title": "Rubio takes swipe at international law, attacks ICC - Ammon News",
+      "description": "Rubio takes swipe at international law, attacks ICC Ammon News",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE55X2gxNXpZbk1Fbll5QmxMenBBejFvR1VqS21iU3FUOE1TakxZVGZvcVZDR0dXV1JzYUdrV3RBZ3Z1QjFfb2lKcUZNRVVudw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE55X2gxNXpZbk1Fbll5QmxMenBBejFvR1VqS21iU3FUOE1TakxZVGZvcVZDR0dXV1JzYUdrV3RBZ3Z1QjFfb2lKcUZNRVVudw?oc=5",
+      "source": "Ammon News",
+      "category": "World",
+      "publishedAt": "2026-11-14T07:13:58Z"
+    },
     {
       "id": "234e5dcefb74db6f857b",
       "title": "Marco Rubio Accuses Global Elites of Weaponizing International Laws - Asianet Newsable",
@@ -297,6 +411,26 @@
       "source": "Awaz The Voice",
       "category": "World",
       "publishedAt": "2026-11-14T06:27:15Z"
+    },
+    {
+      "id": "4fc2c3bbb6498e5b84d6",
+      "title": "\"International law is an instrument to advance their interests\": US State Secy Rubio slams global elite at Federalist Society convention - ANI News",
+      "description": "\"International law is an instrument to advance their interests\": US State Secy Rubio slams global elite at Federalist Society convention ANI News",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOY2tOdy1HY0c4dzVJaDh3TjJudDZLRlZFTHFMVGxCTG9tZUw0RUNfcVd3VFNLSEVQYmRGbFdhQ3lfSG9ZQTdMQTdudmhONEEwc0owQjNBTFRQd2JDaTQ1T3VqZTVvaW5RQXVPUVpYSXNFaGpPWmJ2TXNVdWpRcDNlTm8wODlxal80bThXN3FRVXAwWUxjSVFUM3g1SlZYdnFfYUFZOG9jcDFGeG4yX3lhcFlIeURQUWp3T21jcVVEQWJoZzNMZEl3NkZEUnVuNjlicWN0bHhzR3hHUnF0cGNSQ1ZlRVRyUmpLNFBuT1Q0WkE4UFBENDQzTW4tQXJRcGU1OFhDaVdqdEtTckNsMjcyamtn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOY2tOdy1HY0c4dzVJaDh3TjJudDZLRlZFTHFMVGxCTG9tZUw0RUNfcVd3VFNLSEVQYmRGbFdhQ3lfSG9ZQTdMQTdudmhONEEwc0owQjNBTFRQd2JDaTQ1T3VqZTVvaW5RQXVPUVpYSXNFaGpPWmJ2TXNVdWpRcDNlTm8wODlxal80bThXN3FRVXAwWUxjSVFUM3g1SlZYdnFfYUFZOG9jcDFGeG4yX3lhcFlIeURQUWp3T21jcVVEQWJoZzNMZEl3NkZEUnVuNjlicWN0bHhzR3hHUnF0cGNSQ1ZlRVRyUmpLNFBuT1Q0WkE4UFBENDQzTW4tQXJRcGU1OFhDaVdqdEtTckNsMjcyamtn?oc=5",
+      "source": "ANI News",
+      "category": "World",
+      "publishedAt": "2026-11-14T06:08:00Z"
+    },
+    {
+      "id": "2e38366e707083f842a8",
+      "title": "US' Rubio sharply criticizes International Criminal Court, draws applause from lawyers - Anadolu Ajansı",
+      "description": "US' Rubio sharply criticizes International Criminal Court, draws applause from lawyers Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNazZOcWlEdEJhaU1XUkMzMk13aGd0NVlwdVRzaVRCdzJEaXd2Ulh4ZXcyQzI1QjhVdEVRaDlZS21BQ1FXeUVCM1ZUS1FSZks3dmI5b1hLNFVzZ2tkXzBKUm83LXlQeHdZelpVTTdpelBEX3BNdWRlR3hYQ21aNk1NZUNkYUtBSGFWVFFVbmJrRnJTeWo2QjNDa0N1MU9lZ0J6YWZadVhNODlIVmlLUlVlYm5hdF9GalhkOHVTLVgta3U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNazZOcWlEdEJhaU1XUkMzMk13aGd0NVlwdVRzaVRCdzJEaXd2Ulh4ZXcyQzI1QjhVdEVRaDlZS21BQ1FXeUVCM1ZUS1FSZks3dmI5b1hLNFVzZ2tkXzBKUm83LXlQeHdZelpVTTdpelBEX3BNdWRlR3hYQ21aNk1NZUNkYUtBSGFWVFFVbmJrRnJTeWo2QjNDa0N1MU9lZ0J6YWZadVhNODlIVmlLUlVlYm5hdF9GalhkOHVTLVgta3U?oc=5",
+      "source": "Anadolu Ajansı",
+      "category": "World",
+      "publishedAt": "2026-11-14T05:56:37Z"
     },
     {
       "id": "eab9de97dc3f93861f59",
@@ -327,6 +461,16 @@
       "source": "Firstpost",
       "category": "World",
       "publishedAt": "2026-11-14T04:00:09Z"
+    },
+    {
+      "id": "547c5cf4db4badd75e8a",
+      "title": "Climate change is accelerating health threats worldwide - Environmental Health News",
+      "description": "Climate change is accelerating health threats worldwide Environmental Health News",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HcUd1WTFtaUhEMF9KQ055R3dUUGJ1SWlwbEZFNDZjWUtza3N5MVByVnNWODVjcEdkM2ZrcWQtZ0NUOFhWVjY2d1BublVBcHROWUhMdHN4RFl6bjJrYUV4dXQxaWtvR0ZV?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HcUd1WTFtaUhEMF9KQ055R3dUUGJ1SWlwbEZFNDZjWUtza3N5MVByVnNWODVjcEdkM2ZrcWQtZ0NUOFhWVjY2d1BublVBcHROWUhMdHN4RFl6bjJrYUV4dXQxaWtvR0ZV?oc=5",
+      "source": "Environmental Health News",
+      "category": "Environment",
+      "publishedAt": "2026-11-14T03:55:55Z"
     },
     {
       "id": "346631b5811088a272d3",
@@ -597,6 +741,16 @@
       "source": "Vietnam.vn",
       "category": "Technology",
       "publishedAt": "2026-11-13T13:03:55Z"
+    },
+    {
+      "id": "90509d25cc63f69a74d4",
+      "title": "Nanoplastics and climate change have an unexpected enemy: Fiber - Anthropocene Magazine",
+      "description": "Nanoplastics and climate change have an unexpected enemy: Fiber Anthropocene Magazine",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVWxVQzREbXFTUnJzelVHU2tTVkVNeV9GVFU5U05kdnZjenlLNXVEWHV5aE5CRlR5QWI1RXhhUUg1X2xYeFFYQnpkRXdsZmZEcWFvMWhCdENpSHlRWVllQlJuTHE3VGx4MmJyS0JLU01OeWQ0QXVMdnNDdjF0cGlpWnBfNGROTHZKMFotbjc4UVpOWUhSY0JTYXJELXBfWDBWd2ZES1NZV2o3UlVN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVWxVQzREbXFTUnJzelVHU2tTVkVNeV9GVFU5U05kdnZjenlLNXVEWHV5aE5CRlR5QWI1RXhhUUg1X2xYeFFYQnpkRXdsZmZEcWFvMWhCdENpSHlRWVllQlJuTHE3VGx4MmJyS0JLU01OeWQ0QXVMdnNDdjF0cGlpWnBfNGROTHZKMFotbjc4UVpOWUhSY0JTYXJELXBfWDBWd2ZES1NZV2o3UlVN?oc=5",
+      "source": "Anthropocene Magazine",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T13:01:05Z"
     },
     {
       "id": "dd9cc9c4f1bdccbfe52a",
@@ -1117,6 +1271,16 @@
       "source": "Sailweb",
       "category": "World",
       "publishedAt": "2026-11-12T08:19:54Z"
+    },
+    {
+      "id": "e06f598bf145d6f15ff8",
+      "title": "12 of the World’s Deadliest Natural Disasters - Britannica",
+      "description": "12 of the World’s Deadliest Natural Disasters Britannica",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTk01dXNobERxWUZhcV80MkVfZzhMTHhzNEpTbU53clV6a01NT3FJR244RnhpRlpoRi1TdzJsWXkyc0tjWUFmZHpLMnZJdDhxSml2YjJWS1pZLU9xV004U190d0FmdW5IV0V4eDA0bTJiLVA0a083ZzRSRHNFWktucA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTk01dXNobERxWUZhcV80MkVfZzhMTHhzNEpTbU53clV6a01NT3FJR244RnhpRlpoRi1TdzJsWXkyc0tjWUFmZHpLMnZJdDhxSml2YjJWS1pZLU9xV004U190d0FmdW5IV0V4eDA0bTJiLVA0a083ZzRSRHNFWktucA?oc=5",
+      "source": "Britannica",
+      "category": "Disaster",
+      "publishedAt": "2026-11-12T08:00:00Z"
     },
     {
       "id": "2192d9299f02264b196e",
@@ -1979,6 +2143,6 @@
       "publishedAt": "2026-11-08T08:00:00Z"
     }
   ],
-  "lastUpdated": "2026-11-14T06:55:02Z",
-  "updatedAt": "2026-11-14T06:55:02Z"
+  "lastUpdated": "2026-11-14T13:59:41Z",
+  "updatedAt": "2026-11-14T13:59:41Z"
 }
