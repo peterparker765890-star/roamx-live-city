@@ -240,55 +240,100 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-13T18:41:08Z",
-    "lastSuccessfulRun": "2026-11-13T18:41:08Z",
-    "lastUpdated": "2026-11-13T18:41:08Z",
-    "articlesAdded": 23,
+    "lastRun": "2026-11-14T00:15:26Z",
+    "lastSuccessfulRun": "2026-11-14T00:15:26Z",
+    "lastUpdated": "2026-11-14T00:15:26Z",
+    "articlesAdded": 8,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 30,
+    "duplicatesRemoved": 44,
     "failedSources": [],
     "newArticleIds": [
-      "51ab35013ab7a4d462d8",
-      "bd8a35fa5bc1f80b38a1",
-      "974c2089852f3ff13a36",
-      "071996f285de319e2391",
-      "b0adecace8d8db31bb60",
-      "2b650cbaf02a2e622620",
-      "a6515252cc5e803c5b7c",
-      "e656ed47a3f2e02eb78f",
-      "fbe4322121143fab6fe7",
-      "f303dd4473946fc69566",
-      "000e06af2b80e5391b3e",
-      "c02a2cfd8ce346d52b31",
-      "290b2f8903f338aa3149",
-      "cc603db12dfe2cbf89e6",
-      "e8d6a4bdc8e7289937c8",
-      "f38041f5b9d172d3853b",
-      "dd9cc9c4f1bdccbfe52a",
-      "1d514a7ef9acb5291bce",
-      "3d3bbba546b3cb843e4f",
-      "c3bd1139887892deba02",
-      "089e9236c2a2ca531728",
-      "3681c6c6d49c0bed28e2",
-      "ec9afb9d9db84f7f9caf"
+      "ac437ec82df32d5945f1",
+      "f732acb6a89c8d652c9c",
+      "2f28fdfbb739a8944257",
+      "288eed178bc2b32fec73",
+      "11e7b44a9023bbf5a8e2",
+      "9f7a26e451f78b34c864",
+      "0f97ecb3dc9bda4073c2",
+      "4bf85c9b5f2cca36efb5"
     ],
     "updatedArticleIds": [],
     "articlesRemoved": 1,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 151,
+    "totalArticles": 158,
     "categories": {
-      "World": 70,
+      "World": 76,
       "India": 14,
       "Technology": 9,
-      "Environment": 49,
+      "Environment": 50,
       "Disaster": 9
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "ac437ec82df32d5945f1",
+      "title": "OKC Will Rogers International Airport sees delays after FAA orders nationwide ground stop - KOCO",
+      "description": "OKC Will Rogers International Airport sees delays after FAA orders nationwide ground stop KOCO",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaHJISjR0cVg4VmxtSFhBX2hhU1RiczRLS2lVN2o4UlZfdmVrY08xZlpEZGhqWndUY0JIc0RCeWRMVThINkFBT29DTWdteGh2U3dBaXA4VWJHeHQyTldjdmE0UE90MW55UW4ySTNFLU5xc29xa1BuR1hIYmNQOXBRNlVUUWEwZVZNYzc5TG1IV0pQUUhZQ3JQNUxQQWlZVHVHUmpJd3o0N09TazM0SHlGMQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPaHJISjR0cVg4VmxtSFhBX2hhU1RiczRLS2lVN2o4UlZfdmVrY08xZlpEZGhqWndUY0JIc0RCeWRMVThINkFBT29DTWdteGh2U3dBaXA4VWJHeHQyTldjdmE0UE90MW55UW4ySTNFLU5xc29xa1BuR1hIYmNQOXBRNlVUUWEwZVZNYzc5TG1IV0pQUUhZQ3JQNUxQQWlZVHVHUmpJd3o0N09TazM0SHlGMQ?oc=5",
+      "source": "KOCO",
+      "category": "World",
+      "publishedAt": "2026-11-13T22:39:00Z"
+    },
+    {
+      "id": "f732acb6a89c8d652c9c",
+      "title": "Liverpool FC News: England international confirms the best in the world is coming to Reds - Anfield Watch",
+      "description": "Liverpool FC News: England international confirms the best in the world is coming to Reds Anfield Watch",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcFdaM044UnBkUXVoei1IeElPbFR0RUxzc0JDUllZMVI4dVhpUmhzWmgxcElWWTdRQW13ejRkdUpEWVU5UWRRTVJ6RXR1X2dNQmJiQzZBdXlsemNFZlhyMlVnVjlnTWtOV3JzeERSemM0dEp6RU5RakQzakx0M05nYWJFQ1RldExwTUtrcUpLaW9oZ00ybkgtcVdYUV9XaVlPZFlYdUd2bHJtTWhSYjg2R0N3TlJQYkg2YjlHTTJWUks3Mzg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcFdaM044UnBkUXVoei1IeElPbFR0RUxzc0JDUllZMVI4dVhpUmhzWmgxcElWWTdRQW13ejRkdUpEWVU5UWRRTVJ6RXR1X2dNQmJiQzZBdXlsemNFZlhyMlVnVjlnTWtOV3JzeERSemM0dEp6RU5RakQzakx0M05nYWJFQ1RldExwTUtrcUpLaW9oZ00ybkgtcVdYUV9XaVlPZFlYdUd2bHJtTWhSYjg2R0N3TlJQYkg2YjlHTTJWUks3Mzg?oc=5",
+      "source": "Anfield Watch",
+      "category": "World",
+      "publishedAt": "2026-11-13T21:00:00Z"
+    },
+    {
+      "id": "2f28fdfbb739a8944257",
+      "title": "Iran's foreign minister Abbas Araghchi accuses US and Israel of violating international law in attacks | World News - Hindustan Times",
+      "description": "Iran's foreign minister Abbas Araghchi accuses US and Israel of violating international law in attacks | World News Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRWVRQVZTLWRSOGsxZlVKalRXSUlpS25PWWFNcXNub0FlVlotXzJGRjRCSTZRLTJBUFVjdGpDOTZLR2V4MC1FekhzRXJSNm95alRKWWljUkRUU0pPQklYdkxyYmtLUnQwbjhiM0puVTlHd3RRdzE3ZlBkNWlrRFlNRzVOZHVqNVE3em5MYWFrTEE2bURwaVNsNHduOHJhajVYM0VvZnZOSUN5Nkl4Qml0VW5aR0NiV1h3dmJEMzA1ZndITS1TQTVHTWxuSE9udVpxcVhFUDZPX2pjWVdMLXJ4b2lOTW12TU1vRDBvWFY2SDdRUjIzcE1j0gH8AUFVX3lxTFBqMlpfejRoUWNEUzVIWUdhVWhVTTQ1Rl9yUGZWSkM2dGFyVllVY3k3U29WejBJX2tyMlBTTHFzd2EtOFBqdEJ3REtfNUtsdEhESzMxRV8wU3AyMjNyVm90OE5OOVRRc2NHcGV5UTBJQTRQQUY4NFktOFo0TmEyZURPZTFKWnhoSVNNNmItTFlsem5CcVpYbGVmR0JhMlZCSy04R3JoZm1kc1FUZ2tqLUppbnZIaDk4UU9qRldFUXdGWFZvVEJkTkUxZlBRLS1JU21UdTJoTTRoQ0JPZkw0Y29uMWpGNFluMFJIODBmUnhCdy1yWi1uVzVQTllEQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRWVRQVZTLWRSOGsxZlVKalRXSUlpS25PWWFNcXNub0FlVlotXzJGRjRCSTZRLTJBUFVjdGpDOTZLR2V4MC1FekhzRXJSNm95alRKWWljUkRUU0pPQklYdkxyYmtLUnQwbjhiM0puVTlHd3RRdzE3ZlBkNWlrRFlNRzVOZHVqNVE3em5MYWFrTEE2bURwaVNsNHduOHJhajVYM0VvZnZOSUN5Nkl4Qml0VW5aR0NiV1h3dmJEMzA1ZndITS1TQTVHTWxuSE9udVpxcVhFUDZPX2pjWVdMLXJ4b2lOTW12TU1vRDBvWFY2SDdRUjIzcE1j0gH8AUFVX3lxTFBqMlpfejRoUWNEUzVIWUdhVWhVTTQ1Rl9yUGZWSkM2dGFyVllVY3k3U29WejBJX2tyMlBTTHFzd2EtOFBqdEJ3REtfNUtsdEhESzMxRV8wU3AyMjNyVm90OE5OOVRRc2NHcGV5UTBJQTRQQUY4NFktOFo0TmEyZURPZTFKWnhoSVNNNmItTFlsem5CcVpYbGVmR0JhMlZCSy04R3JoZm1kc1FUZ2tqLUppbnZIaDk4UU9qRldFUXdGWFZvVEJkTkUxZlBRLS1JU21UdTJoTTRoQ0JPZkw0Y29uMWpGNFluMFJIODBmUnhCdy1yWi1uVzVQTllEQQ?oc=5",
+      "source": "Hindustan Times",
+      "category": "World",
+      "publishedAt": "2026-11-13T19:55:16Z"
+    },
+    {
+      "id": "288eed178bc2b32fec73",
+      "title": "UN chief says 'immediate and drastic' emissions cuts needed to avert climate change catastrophe - PBS",
+      "description": "UN chief says 'immediate and drastic' emissions cuts needed to avert climate change catastrophe PBS",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcVliNkhyTzlzU2hnbE05LVo5S0FLWW5SaVB6M18xT1dnM1RHTXpON0lveFVVMGR1emNQLVFkWW9KWUNQN012VVpab0JTVHBjenVPc2NmMnU4UHZtcUJ2V2dkT2JZMW1nSmx2UXNUWlV1TjR2ZEtjbmtqNm9RQ3NBSmRRblJReEFENEFMX0F5VFVQckttVE5KT1FkREVJak9nY1d3N1NxMFJJdUNnY3pRN2pvd2ZKUDIwZjIzZWNWbXBVeDNOMlpz0gHMAUFVX3lxTFAxTDlXRVpicTNlUkdBX3ByZ1JrXzdyZWtQNERMUDRoUnFMWTJ6MWVsTFpmaTVqa1VWVXg4czkweG11al9JeHBvLUJydDNpT09yMXJUYWtfcVNkeWh2WVpVWEh6c05lemlfQ1g0dDN3UG9qR1ZxSkcyZkZnTDVueWt6emM4X1hEeG9DYzNpMmZmUWp0bE0yV0N5allSN0UwZ2l0dG95TjBwUXNzY1N0eWRpWlR6RG42WGd4MFU5SUh3a1hmU2NrbF81NVRCUg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcVliNkhyTzlzU2hnbE05LVo5S0FLWW5SaVB6M18xT1dnM1RHTXpON0lveFVVMGR1emNQLVFkWW9KWUNQN012VVpab0JTVHBjenVPc2NmMnU4UHZtcUJ2V2dkT2JZMW1nSmx2UXNUWlV1TjR2ZEtjbmtqNm9RQ3NBSmRRblJReEFENEFMX0F5VFVQckttVE5KT1FkREVJak9nY1d3N1NxMFJJdUNnY3pRN2pvd2ZKUDIwZjIzZWNWbXBVeDNOMlpz0gHMAUFVX3lxTFAxTDlXRVpicTNlUkdBX3ByZ1JrXzdyZWtQNERMUDRoUnFMWTJ6MWVsTFpmaTVqa1VWVXg4czkweG11al9JeHBvLUJydDNpT09yMXJUYWtfcVNkeWh2WVpVWEh6c05lemlfQ1g0dDN3UG9qR1ZxSkcyZkZnTDVueWt6emM4X1hEeG9DYzNpMmZmUWp0bE0yV0N5allSN0UwZ2l0dG95TjBwUXNzY1N0eWRpWlR6RG42WGd4MFU5SUh3a1hmU2NrbF81NVRCUg?oc=5",
+      "source": "PBS",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T19:45:22Z"
+    },
+    {
+      "id": "11e7b44a9023bbf5a8e2",
+      "title": "Dubai International named world’s best airport in Worldworthy 100, as UAE cities and landmarks also rank - Emirates 24|7",
+      "description": "Dubai International named world’s best airport in Worldworthy 100, as UAE cities and landmarks also rank Emirates 24|7",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcjBuWUZoSVJwV2plaUU3Ykw0VmJaeGhfaFFPYi1fRWlraVVVVVB1eGxtRGFFOGJvdFg2TENyY3lMQ2JHbHNWR3hkZmxFSEpMTzBETml5bXhpU1c3M3BKYlhQZG1LdWpNNEtnX0d5NVJvSE9zbmNjaGNIS3RIRVhlS3VBdTBhSTZnZkhoVjRVX04tTEdPdTl1WmFqV1NnTGZXbWNNY0RXTUZ2SVpGa0VEQ2pLQzRqbWFmN0NsdmhZejhDVmYzMWVBMnlHeThNZVJaalNteEFn0gHwAUFVX3lxTE41SXF5U0dPam9QN09ZTFMwb3h2ZjFxcjlsLTBvUXhFMU9uQWNETE4wMkwwQU5iN25nSTM0RHQ0VU03b0toNDVYX2Q5cDVvanlkZUZPdW9EbldtNzFJbko4a3VBM3drQTRzT3E0M1hFdTZ2dTVNendqZGtBa1R4WnN5TXU3MVgwNl9DWXhOclg1bHByTF8zSmpraFh6ZlkwZG5CS3U5YWEtcFlWSXNfcjVXYkhSekZLZXpicUIweFVkMTVYV2cxN1Brei1VOWE1cHRYSUVGaC1ROVpJanNUTTNXRXFYSkl6OVVLbGNvOElBUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcjBuWUZoSVJwV2plaUU3Ykw0VmJaeGhfaFFPYi1fRWlraVVVVVB1eGxtRGFFOGJvdFg2TENyY3lMQ2JHbHNWR3hkZmxFSEpMTzBETml5bXhpU1c3M3BKYlhQZG1LdWpNNEtnX0d5NVJvSE9zbmNjaGNIS3RIRVhlS3VBdTBhSTZnZkhoVjRVX04tTEdPdTl1WmFqV1NnTGZXbWNNY0RXTUZ2SVpGa0VEQ2pLQzRqbWFmN0NsdmhZejhDVmYzMWVBMnlHeThNZVJaalNteEFn0gHwAUFVX3lxTE41SXF5U0dPam9QN09ZTFMwb3h2ZjFxcjlsLTBvUXhFMU9uQWNETE4wMkwwQU5iN25nSTM0RHQ0VU03b0toNDVYX2Q5cDVvanlkZUZPdW9EbldtNzFJbko4a3VBM3drQTRzT3E0M1hFdTZ2dTVNendqZGtBa1R4WnN5TXU3MVgwNl9DWXhOclg1bHByTF8zSmpraFh6ZlkwZG5CS3U5YWEtcFlWSXNfcjVXYkhSekZLZXpicUIweFVkMTVYV2cxN1Brei1VOWE1cHRYSUVGaC1ROVpJanNUTTNXRXFYSkl6OVVLbGNvOElBUQ?oc=5",
+      "source": "Emirates 24|7",
+      "category": "World",
+      "publishedAt": "2026-11-13T19:28:00Z"
+    },
+    {
+      "id": "9f7a26e451f78b34c864",
+      "title": "Google News: The World Organization Bullying Sin Fronteras in the international news agenda. - Organización Mundial Bullying Sin Fronteras",
+      "description": "Google News: The World Organization Bullying Sin Fronteras in the international news agenda. Organización Mundial Bullying Sin Fronteras",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN1ZCanlnMEZfZEd2aTJmbkIyYjRqRjhKUUdfN24ydS0zSDNFQi1na0Q4ZXdoTDFZenUzRTFaaHpPRzRkbUhKZENxNFJUNUlybFZPWmZGUkoxbGF0OGVuMlZ3djVQTDFTNGZZT2NtYzRaR1hoNkQwVWRJR1VKVmJmRVNKTDcyTE1KYzdDd0FoUnZzaHE3eWk5SzNR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN1ZCanlnMEZfZEd2aTJmbkIyYjRqRjhKUUdfN24ydS0zSDNFQi1na0Q4ZXdoTDFZenUzRTFaaHpPRzRkbUhKZENxNFJUNUlybFZPWmZGUkoxbGF0OGVuMlZ3djVQTDFTNGZZT2NtYzRaR1hoNkQwVWRJR1VKVmJmRVNKTDcyTE1KYzdDd0FoUnZzaHE3eWk5SzNR?oc=5",
+      "source": "Organización Mundial Bullying Sin Fronteras",
+      "category": "World",
+      "publishedAt": "2026-11-13T18:42:24Z"
+    },
     {
       "id": "51ab35013ab7a4d462d8",
       "title": "Environmental advocates push to curb ship pollution in Hampton Roads - WHRO",
@@ -440,6 +485,16 @@
       "publishedAt": "2026-11-13T14:07:10Z"
     },
     {
+      "id": "0f97ecb3dc9bda4073c2",
+      "title": "International Friendly: River Plate vs. Inter Miami CF at Estadio Monumental - Inter Miami CF",
+      "description": "International Friendly: River Plate vs. Inter Miami CF at Estadio Monumental Inter Miami CF",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcXp0TkxuclQ5X2tCQXIwTjgzU201MFF4OThYSTFYTV8tQXlxaHpESVdncEFwdXNfQUpwbFJqRW15SXRqdFBFaFlWdm9nZ0VQRHVtR0lWaS1lSklZODNLb29BRk1RZWZTMFdYOVBTTnZSQkVNd1BEUGtKTkZxWlkyRTdlTzlsdlBHMmNkRGZRZXNSbjdrZjRCXzJKOEREMi1KdzRxbmVKWTJ3ZGdJ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcXp0TkxuclQ5X2tCQXIwTjgzU201MFF4OThYSTFYTV8tQXlxaHpESVdncEFwdXNfQUpwbFJqRW15SXRqdFBFaFlWdm9nZ0VQRHVtR0lWaS1lSklZODNLb29BRk1RZWZTMFdYOVBTTnZSQkVNd1BEUGtKTkZxWlkyRTdlTzlsdlBHMmNkRGZRZXNSbjdrZjRCXzJKOEREMi1KdzRxbmVKWTJ3ZGdJ?oc=5",
+      "source": "Inter Miami CF",
+      "category": "World",
+      "publishedAt": "2026-11-13T14:01:31Z"
+    },
+    {
       "id": "f38041f5b9d172d3853b",
       "title": "Surveying the planning of the High-Tech Park, promoting technology projects in Hue. - Vietnam.vn",
       "description": "Surveying the planning of the High-Tech Park, promoting technology projects in Hue. Vietnam.vn",
@@ -500,14 +555,14 @@
       "publishedAt": "2026-11-13T09:00:00Z"
     },
     {
-      "id": "2a286df5a87002b64541",
+      "id": "4bf85c9b5f2cca36efb5",
       "title": "Croatia’s new environmental law raises questions over citizens’ rights - Croatia Week",
       "description": "Croatia’s new environmental law raises questions over citizens’ rights Croatia Week",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaTdPbVBTUG8yMUpzU3ZrQi1xM1VDUm56R0gweVVPQmo5Y0V1TWR1ejl6ck9xN0RqTzhXZkI3Wi1zQUFudWFxV3FMT1I5ZHV4Nmo4NUhLYXFKOElHNElaZnhSdWRQSGFNLXNqb3VicGVaMmxnRkdWeUlGWlBVNVpSWjM5b3Z5OHNYdngybmJlalZqdVEzdGNvVXlrVkJ5dw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaTdPbVBTUG8yMUpzU3ZrQi1xM1VDUm56R0gweVVPQmo5Y0V1TWR1ejl6ck9xN0RqTzhXZkI3Wi1zQUFudWFxV3FMT1I5ZHV4Nmo4NUhLYXFKOElHNElaZnhSdWRQSGFNLXNqb3VicGVaMmxnRkdWeUlGWlBVNVpSWjM5b3Z5OHNYdngybmJlalZqdVEzdGNvVXlrVkJ5dw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13Qk1JdkEwWS1NQzBoN1JIdDU1LTdabVY3bkNyWWt4eUI0d0pjVFFUd3hBaEQ0NlpJbllyMHY3aUp2cnVkNWhocDdNdmtra2hMRVpQUXFaZUpqZjMyNXRGQlFpckFlSi1YSHFMeFVXTnh1UTc0b0lzbmJUZHQ4Yms?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13Qk1JdkEwWS1NQzBoN1JIdDU1LTdabVY3bkNyWWt4eUI0d0pjVFFUd3hBaEQ0NlpJbllyMHY3aUp2cnVkNWhocDdNdmtra2hMRVpQUXFaZUpqZjMyNXRGQlFpckFlSi1YSHFMeFVXTnh1UTc0b0lzbmJUZHQ4Yms?oc=5",
       "source": "Croatia Week",
       "category": "Environment",
-      "publishedAt": "2026-11-13T08:32:49Z"
+      "publishedAt": "2026-11-13T08:42:06Z"
     },
     {
       "id": "88460e3db185aedb39b5",
@@ -1800,6 +1855,6 @@
       "publishedAt": "2026-11-08T08:00:00Z"
     }
   ],
-  "lastUpdated": "2026-11-13T18:41:08Z",
-  "updatedAt": "2026-11-13T18:41:08Z"
+  "lastUpdated": "2026-11-14T00:15:26Z",
+  "updatedAt": "2026-11-14T00:15:26Z"
 }
