@@ -240,43 +240,37 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-14T13:59:41Z",
-    "lastSuccessfulRun": "2026-11-14T13:59:41Z",
-    "lastUpdated": "2026-11-14T13:59:41Z",
-    "articlesAdded": 16,
+    "lastRun": "2026-11-14T19:03:32Z",
+    "lastSuccessfulRun": "2026-11-14T19:03:32Z",
+    "lastUpdated": "2026-11-14T19:03:32Z",
+    "articlesAdded": 10,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 50,
+    "duplicatesRemoved": 56,
     "failedSources": [],
     "newArticleIds": [
-      "6a481e6d7410326d4709",
-      "61e7baa8078f4e294f79",
-      "4ecb5016bbf30879a4ec",
-      "a326de96b55445931027",
-      "8cf38606d8ac26c536d5",
-      "576e2e3d1a0abcbc184d",
-      "aeed8098d444ee941363",
-      "958b9d49425ea8ec1a18",
-      "89b673c3032eee32a80f",
-      "a98116aef16e62fb0e4c",
-      "ad6c6bde5597ab621720",
-      "4fc2c3bbb6498e5b84d6",
-      "2e38366e707083f842a8",
-      "547c5cf4db4badd75e8a",
-      "90509d25cc63f69a74d4",
-      "e06f598bf145d6f15ff8"
+      "c78575e7d8a604a70018",
+      "6f683deb2d9a26b88c7c",
+      "a0da18da8a6c2fc2c1c6",
+      "d4f59d23f2d58c9d68ee",
+      "4cc34f253ef861a3833a",
+      "31897d53c758d76e0601",
+      "fa3fa888eaed5a8e71e7",
+      "5e060088d0a9e9b0c183",
+      "c83eafdcfaa36b8d24b3",
+      "2171c9672c2cd75f94f2"
     ],
     "updatedArticleIds": [],
     "articlesRemoved": 0,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 186,
+    "totalArticles": 196,
     "categories": {
-      "World": 94,
+      "World": 99,
       "India": 17,
       "Technology": 9,
-      "Environment": 56,
-      "Disaster": 10
+      "Environment": 59,
+      "Disaster": 12
     },
     "successfulSources": 9,
     "failedSources": 0
@@ -290,7 +284,67 @@
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
       "source": "ET Government",
       "category": "India",
-      "publishedAt": "2026-11-14T13:20:23Z"
+      "publishedAt": "2026-11-14T16:17:32Z"
+    },
+    {
+      "id": "c78575e7d8a604a70018",
+      "title": "Kenya seeks stronger environmental and social safeguards as development expands - KBC Digital",
+      "description": "Kenya seeks stronger environmental and social safeguards as development expands KBC Digital",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYWJKcWRtYmdmdlNkckZVb0FvUmVocDRMZGltb2ZkdmZEekhFakNYZU5KMWZMWlNxMW95LURIeFRjMHg0aWdCa1FaRnBSNVlMTlhwazlmVlRCd2NqNlpLcmZ6blZJZTRIekNBV2hhQ21QY0FjaXhEY1NySTB3MzR0XzBkVEZXOGdrVG1KekNYSnZFazFwVm5UZWFTWVdUTTIzeFUtdQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYWJKcWRtYmdmdlNkckZVb0FvUmVocDRMZGltb2ZkdmZEekhFakNYZU5KMWZMWlNxMW95LURIeFRjMHg0aWdCa1FaRnBSNVlMTlhwazlmVlRCd2NqNlpLcmZ6blZJZTRIekNBV2hhQ21QY0FjaXhEY1NySTB3MzR0XzBkVEZXOGdrVG1KekNYSnZFazFwVm5UZWFTWVdUTTIzeFUtdQ?oc=5",
+      "source": "KBC Digital",
+      "category": "Environment",
+      "publishedAt": "2026-11-14T16:01:14Z"
+    },
+    {
+      "id": "6f683deb2d9a26b88c7c",
+      "title": "Czechia and 8 EU countries call for stricter family reunification rules — Radio Prague International - UA.NEWS",
+      "description": "Czechia and 8 EU countries call for stricter family reunification rules — Radio Prague International UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ3VLYWdYcGM1dEJPTUpMd0hpdGUwX25Hb0lVVVpoTVlWYWRtM2Y1Nk5YQUE2dVVOdWRkV2YxWlVWdWVRczRDajNXR3A2aDF5anZicGo2VkRYaVJqYklOeEgzaElrQUh4YmFORzJTSnBpR1F3SEtyVEhlSnVwejFlWDNXaGlGejlPSHc1bHU1alR2RjIwUmFIWVkwZGxwdjdqZVd2VXpKVUFSaGtUZ21xT2M1MUdxNVo3eWxXeHRGOUlVMXJ0bHd1SWFR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ3VLYWdYcGM1dEJPTUpMd0hpdGUwX25Hb0lVVVpoTVlWYWRtM2Y1Nk5YQUE2dVVOdWRkV2YxWlVWdWVRczRDajNXR3A2aDF5anZicGo2VkRYaVJqYklOeEgzaElrQUh4YmFORzJTSnBpR1F3SEtyVEhlSnVwejFlWDNXaGlGejlPSHc1bHU1alR2RjIwUmFIWVkwZGxwdjdqZVd2VXpKVUFSaGtUZ21xT2M1MUdxNVo3eWxXeHRGOUlVMXJ0bHd1SWFR?oc=5",
+      "source": "UA.NEWS",
+      "category": "World",
+      "publishedAt": "2026-11-14T14:49:59Z"
+    },
+    {
+      "id": "a0da18da8a6c2fc2c1c6",
+      "title": "Global Safety Net: Major Jewish Organizations Launch International Crisis Response Unit - Jewish Post and News",
+      "description": "Global Safety Net: Major Jewish Organizations Launch International Crisis Response Unit Jewish Post and News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOFAxVVZ6UUlTSndsdnRYdGtua2hlMnVvZ1ZPbUFNXzNnME0xZ1JmNkVFa0doc3U1RzYwZVBJZjdZQWVUbi04Qy1uRWpFcG4zSXc4ZHg4cDAxc1RDWGZFZ1pzYUg4TUhNZHVPSHVETHJtb2JWbkJNZlY2cUVFTGN5d1ozeTk0Y3hWV0ZjZXpGaVVqaFk0cDEwOHpIVWZFNWJ6ajZpaU1JYw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOFAxVVZ6UUlTSndsdnRYdGtua2hlMnVvZ1ZPbUFNXzNnME0xZ1JmNkVFa0doc3U1RzYwZVBJZjdZQWVUbi04Qy1uRWpFcG4zSXc4ZHg4cDAxc1RDWGZFZ1pzYUg4TUhNZHVPSHVETHJtb2JWbkJNZlY2cUVFTGN5d1ozeTk0Y3hWV0ZjZXpGaVVqaFk0cDEwOHpIVWZFNWJ6ajZpaU1JYw?oc=5",
+      "source": "Jewish Post and News",
+      "category": "World",
+      "publishedAt": "2026-11-14T14:11:52Z"
+    },
+    {
+      "id": "d4f59d23f2d58c9d68ee",
+      "title": "From heatwave to thunderstorm: Heavy downpours expected in these areas - eNCA",
+      "description": "From heatwave to thunderstorm: Heavy downpours expected in these areas eNCA",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQXdEbWljWDFSdUV2SWRGbnJodmhKMkc2aXBZR0ZlZFF6SlhpanJiTjdCR3VRUFd0MmI2QlZlbUVMWU5PbjZkMVFIdXktTFJueWZwUGQxcUEwMXJldnhaNVZqTEZzWDR5Ql9kX2FpeUtuR3pVUHMwRHdGdU9kaUUyNTZGLUZLaUliTkxsRnVXSzQ1TFp0c3NpYjh2YjI?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQXdEbWljWDFSdUV2SWRGbnJodmhKMkc2aXBZR0ZlZFF6SlhpanJiTjdCR3VRUFd0MmI2QlZlbUVMWU5PbjZkMVFIdXktTFJueWZwUGQxcUEwMXJldnhaNVZqTEZzWDR5Ql9kX2FpeUtuR3pVUHMwRHdGdU9kaUUyNTZGLUZLaUliTkxsRnVXSzQ1TFp0c3NpYjh2YjI?oc=5",
+      "source": "eNCA",
+      "category": "Disaster",
+      "publishedAt": "2026-11-14T13:17:42Z"
+    },
+    {
+      "id": "4cc34f253ef861a3833a",
+      "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather - The Guardian",
+      "description": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd2Z4dnV2cGtEVVBGU25RVTk4VXVVdFpMbGtCNWtaZFU0WE1RRjVQSWtQR05KMjRxX2Y3cnN2ZWFNWHplRUdJYWNKTGpRYXJKazdjTjMtSk1ENFJlaXlCUVpPLVFNNHZvV0FsRFdpVU5tVUFNakExRTNCZV82aEM2Y1ZnVjdndUUtUzFNSA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd2Z4dnV2cGtEVVBGU25RVTk4VXVVdFpMbGtCNWtaZFU0WE1RRjVQSWtQR05KMjRxX2Y3cnN2ZWFNWHplRUdJYWNKTGpRYXJKazdjTjMtSk1ENFJlaXlCUVpPLVFNNHZvV0FsRFdpVU5tVUFNakExRTNCZV82aEM2Y1ZnVjdndUUtUzFNSA?oc=5",
+      "source": "The Guardian",
+      "category": "Disaster",
+      "publishedAt": "2026-11-14T13:02:00Z"
+    },
+    {
+      "id": "31897d53c758d76e0601",
+      "title": "International nonprofit One World One Family Mission establishes U.S. headquarters in Stafford - The Business Journals",
+      "description": "International nonprofit One World One Family Mission establishes U.S. headquarters in Stafford The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQlVDdXNDNDVDTWsyMEhKdHg1ZmFVM05fZWh2SFdhb3RidVlTZDJ4dVltUVpzUlZEZHNlNFhoNV9Ya1JPSkc2amhiNWw3aEV4UUt6WDZ4dmJaN2c5MzFoazJ2QWFQMXBnbWR0cFBWalh4MXRyOGk4YlpVbVNTc3I1YXdwQVVEM3NRaXlDOXEwTEZ6TnE0OHBxU0Nlck85Q2wyZklMYjJMZThfSDA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQlVDdXNDNDVDTWsyMEhKdHg1ZmFVM05fZWh2SFdhb3RidVlTZDJ4dVltUVpzUlZEZHNlNFhoNV9Ya1JPSkc2amhiNWw3aEV4UUt6WDZ4dmJaN2c5MzFoazJ2QWFQMXBnbWR0cFBWalh4MXRyOGk4YlpVbVNTc3I1YXdwQVVEM3NRaXlDOXEwTEZ6TnE0OHBxU0Nlck85Q2wyZklMYjJMZThfSDA?oc=5",
+      "source": "The Business Journals",
+      "category": "World",
+      "publishedAt": "2026-11-14T12:00:00Z"
     },
     {
       "id": "61e7baa8078f4e294f79",
@@ -300,7 +354,7 @@
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPXzlUZEtCLWVTT0NiT3l4QUZ6cTlWNDZyalI5Q1d0SlVjTGNON0dhbXQtcUc3aDRKSFBtSVhrREZFSExPOEd4b29mUFY0RUFHcmlxWW5FeWt3REEwUEJJd1VqTUdFdHpKUlVCd3FQWDJNZEd0YXF0cjFiVnFocEgxYzQ0NVFFODQwWlJsNG44OUdmeXVPdkpYak8wTDNUczBtcHlWQ2hqRDAxX095Q0M2NGlrRlRSc1JadGpGMlB3?oc=5",
       "source": "Morocco World News",
       "category": "World",
-      "publishedAt": "2026-11-14T11:34:09Z"
+      "publishedAt": "2026-11-14T11:35:54Z"
     },
     {
       "id": "4ecb5016bbf30879a4ec",
@@ -331,6 +385,16 @@
       "source": "The Tribune",
       "category": "World",
       "publishedAt": "2026-11-14T10:27:14Z"
+    },
+    {
+      "id": "fa3fa888eaed5a8e71e7",
+      "title": "China's intensified pressure on Tibet draws global attention at international advocacy meet - ANI News",
+      "description": "China's intensified pressure on Tibet draws global attention at international advocacy meet ANI News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUHdhUjF4dmt6WmJsQ0lIc0xOODV0NUxqYXhBSG9VWWl6a1lWREZCNnl0bXVPOVlfelJSRUJlNUs0cmFYTk0wSUFXODN5eE1kbE90c3Vob1RtYzJ5SE5pV0NfdnlvYjhELTRPQkpOd0c3UWg4ZHppd19udGFCa0lxMHdxVlRHUFhPS1RBSGQ1UFdRNTl1Q3U3VTN3Skl6UDJZejBid1pBT1Fyd19Ycm5xREpRdGdvandxUjNfTVB2bU1hbF9QdWNrYllMNmZBeVR4U0ttMVhsdHpScmFIZEE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUHdhUjF4dmt6WmJsQ0lIc0xOODV0NUxqYXhBSG9VWWl6a1lWREZCNnl0bXVPOVlfelJSRUJlNUs0cmFYTk0wSUFXODN5eE1kbE90c3Vob1RtYzJ5SE5pV0NfdnlvYjhELTRPQkpOd0c3UWg4ZHppd19udGFCa0lxMHdxVlRHUFhPS1RBSGQ1UFdRNTl1Q3U3VTN3Skl6UDJZejBid1pBT1Fyd19Ycm5xREpRdGdvandxUjNfTVB2bU1hbF9QdWNrYllMNmZBeVR4U0ttMVhsdHpScmFIZEE?oc=5",
+      "source": "ANI News",
+      "category": "World",
+      "publishedAt": "2026-11-14T10:23:00Z"
     },
     {
       "id": "576e2e3d1a0abcbc184d",
@@ -463,6 +527,16 @@
       "publishedAt": "2026-11-14T04:00:09Z"
     },
     {
+      "id": "5e060088d0a9e9b0c183",
+      "title": "Mintoo for mainstreaming waste management into climate action - Bangladesh Sangbad Sangstha (BSS)",
+      "description": "Mintoo for mainstreaming waste management into climate action Bangladesh Sangbad Sangstha (BSS)",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Rd3JUVUVJSm5HT2dFNFVjMFphc2I0TWgyd2xMVURNZE1ySVpqUmRIUlVlNGsyXzhHSFExWE9yczB0YXhYSUxDX2JyOFZLMFExeV9J?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Rd3JUVUVJSm5HT2dFNFVjMFphc2I0TWgyd2xMVURNZE1ySVpqUmRIUlVlNGsyXzhHSFExWE9yczB0YXhYSUxDX2JyOFZLMFExeV9J?oc=5",
+      "source": "Bangladesh Sangbad Sangstha (BSS)",
+      "category": "Environment",
+      "publishedAt": "2026-11-14T04:00:09Z"
+    },
+    {
       "id": "547c5cf4db4badd75e8a",
       "title": "Climate change is accelerating health threats worldwide - Environmental Health News",
       "description": "Climate change is accelerating health threats worldwide Environmental Health News",
@@ -481,6 +555,16 @@
       "source": "The Vibes",
       "category": "Environment",
       "publishedAt": "2026-11-14T03:42:00Z"
+    },
+    {
+      "id": "c83eafdcfaa36b8d24b3",
+      "title": "Rubio Breaks With Trump On Economy; Admits Americans Are Struggling, Defends Iran War And Lashes UN Over ‘Weaponization’ Of International Law - Republic World",
+      "description": "Rubio Breaks With Trump On Economy; Admits Americans Are Struggling, Defends Iran War And Lashes UN Over ‘Weaponization’ Of International Law Republic World",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPbVBpaWl2R1RFZElKRERJS1dSeE5zNkxOY0o1U0dYSTc5UkZHOEY4bjQ4MTN0SXVtcGVPY3cya0tUcUpLbTVQc21ZUVQ4aVR0ZjdDTFRWSHh5UjVPRVpiX3g3YWFOTXF4S1hVd09mZHdjLUU1Qi04WXlKZUJCamVidVl6bFBZMk1LbkRDOW1talZOcG9rWFpVakNSZ09kaHo4RVVScnduTHZLcnNrZzltOVhmd25oLUNFaml0M01MS0VYOXlVWG1EV29lb1ZYeFFnb3hJd0pPanNuNXRzTC0yVnl5OUVYSXB6a0VQaDRhUDhTSkJyQkFEZ1ktd05HQm1HcXRnVlhtZXd5T3hEYW10UG14a0xXYko0dDd2czJ4RER3aXfSAagCQVVfeXFMTS1zUFhEYlprSVRJLTJ2bHdsSDlmQzc3NERLNk11a2UtVUxrR1RBVHEya2kwUjFQaFNJS0s4bGdMZ041RUVQQmhXTDNfdnJwRlhvNU9EWnZXSFVhcWd4ZlRmaEc5QWtOdlM5NGhtdkhxMG1YVlZPRmNsVkJPNFBYR2xfZERfdTAtd0Q1UG9NLWpvdjhiQm54dHg4djI4T093WHJlYU9zV1V4NHhHSHdkX1pwX050ejRIaER2UGRlMU5NcXNNekFCTDB6WjhsTTVIeXoxSzBfM1V2WjNlbGhKazl2bWFBZldSRWUyM0JYLVZ3bTBINUhmUkJGcFc0eFd1SGR0YVdxVlM1eDJoamNpMlgyUDFCaUpGLWwzWm54cDYzcFV6amhJZEc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPbVBpaWl2R1RFZElKRERJS1dSeE5zNkxOY0o1U0dYSTc5UkZHOEY4bjQ4MTN0SXVtcGVPY3cya0tUcUpLbTVQc21ZUVQ4aVR0ZjdDTFRWSHh5UjVPRVpiX3g3YWFOTXF4S1hVd09mZHdjLUU1Qi04WXlKZUJCamVidVl6bFBZMk1LbkRDOW1talZOcG9rWFpVakNSZ09kaHo4RVVScnduTHZLcnNrZzltOVhmd25oLUNFaml0M01MS0VYOXlVWG1EV29lb1ZYeFFnb3hJd0pPanNuNXRzTC0yVnl5OUVYSXB6a0VQaDRhUDhTSkJyQkFEZ1ktd05HQm1HcXRnVlhtZXd5T3hEYW10UG14a0xXYko0dDd2czJ4RER3aXfSAagCQVVfeXFMTS1zUFhEYlprSVRJLTJ2bHdsSDlmQzc3NERLNk11a2UtVUxrR1RBVHEya2kwUjFQaFNJS0s4bGdMZ041RUVQQmhXTDNfdnJwRlhvNU9EWnZXSFVhcWd4ZlRmaEc5QWtOdlM5NGhtdkhxMG1YVlZPRmNsVkJPNFBYR2xfZERfdTAtd0Q1UG9NLWpvdjhiQm54dHg4djI4T093WHJlYU9zV1V4NHhHSHdkX1pwX050ejRIaER2UGRlMU5NcXNNekFCTDB6WjhsTTVIeXoxSzBfM1V2WjNlbGhKazl2bWFBZldSRWUyM0JYLVZ3bTBINUhmUkJGcFc0eFd1SGR0YVdxVlM1eDJoamNpMlgyUDFCaUpGLWwzWm54cDYzcFV6amhJZEc?oc=5",
+      "source": "Republic World",
+      "category": "World",
+      "publishedAt": "2026-11-14T01:44:34Z"
     },
     {
       "id": "b3fb4e40c429db7fa962",
@@ -591,6 +675,16 @@
       "source": "The Verge",
       "category": "Environment",
       "publishedAt": "2026-11-13T17:44:22Z"
+    },
+    {
+      "id": "2171c9672c2cd75f94f2",
+      "title": "Oceans and forests have absorbed roughly half our carbon emissions for decades, slowing climate change – but can they keep it up? - The Conversation",
+      "description": "Oceans and forests have absorbed roughly half our carbon emissions for decades, slowing climate change – but can they keep it up? The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQel82SkZxSHpzT3ViRWdPWjVTVHdtUTY3aXNwb3F3eUptV0V5bmdYRGpkVWhKSEE2QnBVN2JBeDRwQk5hTlYybDZDaW1reDFLXy0zNnZUQk5aWFhNMkxGVlphUllVOTB0ckY2cm9CVmVRdWp4cHlSMGUwa050cDFFWEdBQWRVNkZXQ3FzMHlmWEJxbWhoa3dMTmlNSWNjclo0czNkVmJJYU1kZ1VVY05SUFgxWjJ4UmxVN1VvVjlNOVRHcmFDMVVXcnh3UHFlbzBQS1QtV012eDd5WFRSM2dKdzBEb2tFRXF5b0NIUFhxc21BZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQel82SkZxSHpzT3ViRWdPWjVTVHdtUTY3aXNwb3F3eUptV0V5bmdYRGpkVWhKSEE2QnBVN2JBeDRwQk5hTlYybDZDaW1reDFLXy0zNnZUQk5aWFhNMkxGVlphUllVOTB0ckY2cm9CVmVRdWp4cHlSMGUwa050cDFFWEdBQWRVNkZXQ3FzMHlmWEJxbWhoa3dMTmlNSWNjclo0czNkVmJJYU1kZ1VVY05SUFgxWjJ4UmxVN1VvVjlNOVRHcmFDMVVXcnh3UHFlbzBQS1QtV012eDd5WFRSM2dKdzBEb2tFRXF5b0NIUFhxc21BZw?oc=5",
+      "source": "The Conversation",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T17:43:23Z"
     },
     {
       "id": "974c2089852f3ff13a36",
@@ -2143,6 +2237,6 @@
       "publishedAt": "2026-11-08T08:00:00Z"
     }
   ],
-  "lastUpdated": "2026-11-14T13:59:41Z",
-  "updatedAt": "2026-11-14T13:59:41Z"
+  "lastUpdated": "2026-11-14T19:03:32Z",
+  "updatedAt": "2026-11-14T19:03:32Z"
 }
