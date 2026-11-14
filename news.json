@@ -240,42 +240,67 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-14T19:03:32Z",
-    "lastSuccessfulRun": "2026-11-14T19:03:32Z",
-    "lastUpdated": "2026-11-14T19:03:32Z",
-    "articlesAdded": 10,
+    "lastRun": "2026-11-14T23:16:02Z",
+    "lastSuccessfulRun": "2026-11-14T23:16:02Z",
+    "lastUpdated": "2026-11-14T23:16:02Z",
+    "articlesAdded": 5,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 56,
+    "duplicatesRemoved": 57,
     "failedSources": [],
     "newArticleIds": [
-      "c78575e7d8a604a70018",
-      "6f683deb2d9a26b88c7c",
-      "a0da18da8a6c2fc2c1c6",
-      "d4f59d23f2d58c9d68ee",
-      "4cc34f253ef861a3833a",
-      "31897d53c758d76e0601",
-      "fa3fa888eaed5a8e71e7",
-      "5e060088d0a9e9b0c183",
-      "c83eafdcfaa36b8d24b3",
-      "2171c9672c2cd75f94f2"
+      "17d3a77ca52355441a84",
+      "99f53b68b64549100870",
+      "73ec054144f997f950d0",
+      "89f0b78567322b49cfce",
+      "46d8ac69d4a709fc496b"
     ],
     "updatedArticleIds": [],
     "articlesRemoved": 0,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 196,
+    "totalArticles": 201,
     "categories": {
-      "World": 99,
+      "World": 101,
       "India": 17,
       "Technology": 9,
-      "Environment": 59,
+      "Environment": 62,
       "Disaster": 12
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "17d3a77ca52355441a84",
+      "title": "Tunis Arab Novel Forum Calls For Stronger Green Literature And Environmental Criticism - Sada Elbalad English",
+      "description": "Tunis Arab Novel Forum Calls For Stronger Green Literature And Environmental Criticism Sada Elbalad English",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdlJqX1lDaDBaS0N5dXVSdmQ4b0I3V1VFUGpkOHBlSzZCQUxQZnB4RW91TUxpc2dJcVhpa0FJLS1LaGtwR2hWSW9kblNpYVpRc0F4dUZKZDltX2J4dDE1QUpkSXY1eHF0Z0E2NHU5czZEa0w3Y29ZMHZyRmNCQTBVX002MjUxLUFmcjBnOENBLWVNdGhPV2k3dklxMnlNTGlkbDBYYjNR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdlJqX1lDaDBaS0N5dXVSdmQ4b0I3V1VFUGpkOHBlSzZCQUxQZnB4RW91TUxpc2dJcVhpa0FJLS1LaGtwR2hWSW9kblNpYVpRc0F4dUZKZDltX2J4dDE1QUpkSXY1eHF0Z0E2NHU5czZEa0w3Y29ZMHZyRmNCQTBVX002MjUxLUFmcjBnOENBLWVNdGhPV2k3dklxMnlNTGlkbDBYYjNR?oc=5",
+      "source": "Sada Elbalad English",
+      "category": "Environment",
+      "publishedAt": "2026-11-14T20:45:46Z"
+    },
+    {
+      "id": "99f53b68b64549100870",
+      "title": "French protesters chant against inflation and police - International - World - Ahram Online",
+      "description": "French protesters chant against inflation and police - International - World Ahram Online",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcC1ZNGRsM1kyckdCV1M2V3VNWkJnT0NsMW16cnVYZ2lLeHFrWGdhbk1vMk0wbm1fT0M2UmxGaVVaMGt6VmpOdG5la09lbVBBR1pFZ0pDNGFaQTliWWVfWEN2aEVZSFVwTk9udXJxZXJnN0otV2htUEpUajdJVHU2OWxjUVE1cDgwUmhzd1JkcmRlUy1VWk92ejRDODRWNHhyUUVCZHRKUlEzYUVSbU9OWWpQalptRzVtcTk2WVRLMmVsbU5meFE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcC1ZNGRsM1kyckdCV1M2V3VNWkJnT0NsMW16cnVYZ2lLeHFrWGdhbk1vMk0wbm1fT0M2UmxGaVVaMGt6VmpOdG5la09lbVBBR1pFZ0pDNGFaQTliWWVfWEN2aEVZSFVwTk9udXJxZXJnN0otV2htUEpUajdJVHU2OWxjUVE1cDgwUmhzd1JkcmRlUy1VWk92ejRDODRWNHhyUUVCZHRKUlEzYUVSbU9OWWpQalptRzVtcTk2WVRLMmVsbU5meFE?oc=5",
+      "source": "Ahram Online",
+      "category": "World",
+      "publishedAt": "2026-11-14T20:19:41Z"
+    },
+    {
+      "id": "73ec054144f997f950d0",
+      "title": "November international break: How PSG players fared on the international stage - LiveScore",
+      "description": "November international break: How PSG players fared on the international stage LiveScore",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbUxYUTFpb3Q4TzNidjlIVHVNemo3MnNmX1NhZGtaSWJ3bEppbklHRnJJYUFhcFEtbXJrUF9La3R6aFRtQVJSUmJCTDFlOWNPTmhEZVZKTk1SbXRDc3JjLTJLdWlfTzR6azBuN1hyaFFkdU93N0U5LU91YUhhdnhCa0d4SkhCSUgwcTNGdWxNaUN4YnNhcEJncW9BTGotVTF4cFp1Qlg3M2U5VlI0blpnYkRPbklJLWtZeXFSQVVkeWlBUEZZcUQyV2lWMFN0QXpDNmE3c0JTeTVTdnBXNEE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbUxYUTFpb3Q4TzNidjlIVHVNemo3MnNmX1NhZGtaSWJ3bEppbklHRnJJYUFhcFEtbXJrUF9La3R6aFRtQVJSUmJCTDFlOWNPTmhEZVZKTk1SbXRDc3JjLTJLdWlfTzR6azBuN1hyaFFkdU93N0U5LU91YUhhdnhCa0d4SkhCSUgwcTNGdWxNaUN4YnNhcEJncW9BTGotVTF4cFp1Qlg3M2U5VlI0blpnYkRPbklJLWtZeXFSQVVkeWlBUEZZcUQyV2lWMFN0QXpDNmE3c0JTeTVTdnBXNEE?oc=5",
+      "source": "LiveScore",
+      "category": "World",
+      "publishedAt": "2026-11-14T19:24:13Z"
+    },
     {
       "id": "6a481e6d7410326d4709",
       "title": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience - ET Government",
@@ -284,7 +309,7 @@
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
       "source": "ET Government",
       "category": "India",
-      "publishedAt": "2026-11-14T16:17:32Z"
+      "publishedAt": "2026-11-14T19:17:34Z"
     },
     {
       "id": "c78575e7d8a604a70018",
@@ -503,6 +528,16 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQUNrRGpXYjIybWZWVndJc2dqZTlVTHJmeTg3TWRPYm9JNi0zZnVwdVZZZ2xNem9NM21NWkNUOUtyZnlQUHJGSU8td2QxWFhnUXlNbkJRZE5sWGxvTkdJeVBHU2o1Ymx0X2YzY2h1SEZJaDI4WEtqZjRlOHpnelBubEMtX0pqbzJXTnJxLUJHaElUVFdvM3JnRHZXU3h0SVBWLTVQM082N2ZfY0t2?oc=5",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQUNrRGpXYjIybWZWVndJc2dqZTlVTHJmeTg3TWRPYm9JNi0zZnVwdVZZZ2xNem9NM21NWkNUOUtyZnlQUHJGSU8td2QxWFhnUXlNbkJRZE5sWGxvTkdJeVBHU2o1Ymx0X2YzY2h1SEZJaDI4WEtqZjRlOHpnelBubEMtX0pqbzJXTnJxLUJHaElUVFdvM3JnRHZXU3h0SVBWLTVQM082N2ZfY0t2?oc=5",
       "source": "Daily Sun",
+      "category": "Environment",
+      "publishedAt": "2026-11-14T05:24:25Z"
+    },
+    {
+      "id": "89f0b78567322b49cfce",
+      "title": "Mintoo urges integration of waste management into climate action - www.daily-sun.com",
+      "description": "Mintoo urges integration of waste management into climate action www.daily-sun.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd3A1UUdSdmRBM3BWWVlaV3FJZVRDTHRGMGJfTkZkengxZHVUbjNWTi1aTDNNMUtIWVdLbkoxNVQ1SFdOQ2V1R25BX1RlTVVvdi14UjVjVjZoZTBvd3BiQ3Rqc1AtZWw2ZDFSZzJ0NGhPNllGbTZtbmgxZXJSVlFld0N6NVpyczRja1pvWmtQdmw0bC1vSUR3Zmc3R3FXT0dEaWNROG4xSmM2WXI5Y2U3MTVNcmFDVWp1M3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd3A1UUdSdmRBM3BWWVlaV3FJZVRDTHRGMGJfTkZkengxZHVUbjNWTi1aTDNNMUtIWVdLbkoxNVQ1SFdOQ2V1R25BX1RlTVVvdi14UjVjVjZoZTBvd3BiQ3Rqc1AtZWw2ZDFSZzJ0NGhPNllGbTZtbmgxZXJSVlFld0N6NVpyczRja1pvWmtQdmw0bC1vSUR3Zmc3R3FXT0dEaWNROG4xSmM2WXI5Y2U3MTVNcmFDVWp1M3c?oc=5",
+      "source": "www.daily-sun.com",
       "category": "Environment",
       "publishedAt": "2026-11-14T05:24:25Z"
     },
@@ -905,6 +940,16 @@
       "source": "Croatia Week",
       "category": "Environment",
       "publishedAt": "2026-11-13T08:42:06Z"
+    },
+    {
+      "id": "46d8ac69d4a709fc496b",
+      "title": "Science-Policy Day 2026 | Science is Not Negotiable: Strengthening Science-Policy Interfaces to Address the Triple Planetary Crisis - Geneva Environment Network",
+      "description": "Science-Policy Day 2026 | Science is Not Negotiable: Strengthening Science-Policy Interfaces to Address the Triple Planetary Crisis Geneva Environment Network",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1a014alVvcjJGdHZLdFpiSHMxRzZCV3VJaGhMYkFzRDFMNmFYLUFOSndBVEV5S0NKZWZVRWpkMlJKYVdGbzk4UUt4OG9XUlVxdnJNT3phaFJOTm8wUXNlYWJvdWtmaENUdEtWblhjR3dZNUduZ096ajZPZjU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1a014alVvcjJGdHZLdFpiSHMxRzZCV3VJaGhMYkFzRDFMNmFYLUFOSndBVEV5S0NKZWZVRWpkMlJKYVdGbzk4UUt4OG9XUlVxdnJNT3phaFJOTm8wUXNlYWJvdWtmaENUdEtWblhjR3dZNUduZ096ajZPZjU?oc=5",
+      "source": "Geneva Environment Network",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T08:37:09Z"
     },
     {
       "id": "d263b2d3b2e0e4652ac5",
@@ -2237,6 +2282,6 @@
       "publishedAt": "2026-11-08T08:00:00Z"
     }
   ],
-  "lastUpdated": "2026-11-14T19:03:32Z",
-  "updatedAt": "2026-11-14T19:03:32Z"
+  "lastUpdated": "2026-11-14T23:16:02Z",
+  "updatedAt": "2026-11-14T23:16:02Z"
 }
