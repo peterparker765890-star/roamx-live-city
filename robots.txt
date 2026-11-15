@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://peterparker765890-star.github.io/roamx-live-city/sitemap.xml
