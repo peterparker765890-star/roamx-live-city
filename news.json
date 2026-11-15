@@ -240,46 +240,61 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-15T17:37:04Z",
-    "lastSuccessfulRun": "2026-11-15T17:37:04Z",
-    "lastUpdated": "2026-11-15T17:37:04Z",
-    "articlesAdded": 12,
-    "articlesUpdated": 1,
-    "duplicatesRemoved": 42,
+    "lastRun": "2026-11-15T22:37:52Z",
+    "lastSuccessfulRun": "2026-11-15T22:37:52Z",
+    "lastUpdated": "2026-11-15T22:37:52Z",
+    "articlesAdded": 9,
+    "articlesUpdated": 0,
+    "duplicatesRemoved": 40,
     "failedSources": [],
     "newArticleIds": [
-      "0b4555d6b0d89f2ac567",
-      "4e8457cd77c99f77f656",
-      "3cfb13e0ba1e6a38e7f4",
-      "669c5038813020bece22",
-      "557c99490b7760e4d884",
-      "ff7b9b585431993fbbf0",
-      "013e1c09fc9f8aed0fa7",
-      "1d7822ae01ad3abf6369",
-      "7f636402248c3b1080f7",
-      "8955ae56ce4d347026cb",
-      "faee354dc974e181575d",
-      "4a0e1cb54ef4a11ad8f0"
+      "0579550acb08542c8171",
+      "8ae04b651d48173a29d1",
+      "3be354e1ada5b2701b09",
+      "1e53501807e153f35eb4",
+      "4177802f3d14fb8ec256",
+      "6c72516039f62270991b",
+      "034cb1677774d6c15279",
+      "b2d6f8aaf96869fe0a2b",
+      "8106167d7783273a6d4f"
     ],
-    "updatedArticleIds": [
-      "3681c6c6d49c0bed28e2"
-    ],
+    "updatedArticleIds": [],
     "articlesRemoved": 1,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 233,
+    "totalArticles": 241,
     "categories": {
-      "World": 126,
+      "World": 132,
       "India": 19,
-      "Technology": 11,
-      "Environment": 66,
-      "Disaster": 11
+      "Technology": 12,
+      "Environment": 68,
+      "Disaster": 10
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "0579550acb08542c8171",
+      "title": "New Zealanders find international karting success as Thomasen crowned world champion, Hart second - VelocityNews",
+      "description": "New Zealanders find international karting success as Thomasen crowned world champion, Hart second VelocityNews",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFdqZzdOUUlnRzd6MjFKanBDVG54dkhwNmtpVGY2M3Z2WmNqSzFRTWhuNFdhS3BtWVdiT2EzNkVtOXdrcjRpaG1xSVpmNmt2VFhpZ0xXV2ZKcGhuSDNQcXp5aXRYem5MVVhWaU8wbnhlbWZKRktwRDNpdnB2dGkwb1h3WVR1R1k5WTJobWExTlJVWGtTanNKakJiZHUtTnN3N0wyOGR0RU91MGlYdWZVN3Nsay1oTHkxbnlxN09sOEg5R3BldFRN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFdqZzdOUUlnRzd6MjFKanBDVG54dkhwNmtpVGY2M3Z2WmNqSzFRTWhuNFdhS3BtWVdiT2EzNkVtOXdrcjRpaG1xSVpmNmt2VFhpZ0xXV2ZKcGhuSDNQcXp5aXRYem5MVVhWaU8wbnhlbWZKRktwRDNpdnB2dGkwb1h3WVR1R1k5WTJobWExTlJVWGtTanNKakJiZHUtTnN3N0wyOGR0RU91MGlYdWZVN3Nsay1oTHkxbnlxN09sOEg5R3BldFRN?oc=5",
+      "source": "VelocityNews",
+      "category": "World",
+      "publishedAt": "2026-11-15T20:49:52Z"
+    },
+    {
+      "id": "8ae04b651d48173a29d1",
+      "title": "Luis Fernando Larrazabal quickest with Asconos Girl Z at Wellington International - World of Showjumping",
+      "description": "Luis Fernando Larrazabal quickest with Asconos Girl Z at Wellington International World of Showjumping",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWDU1RFFwWXJial9MSUdyYmd3Z1pFWDlQOGJEV2JoVkY2dUtZaVNhV1ZIakljS2UzbDhYeHVxQUZUZXpHOFdSa2loU2QzN005NHplUHJtV1I4WndCZHp1X2pIbkpVaEd2VUlwb0R6d0Q4QTJ3TEw3Mm5vR0tXVzlZeVNISnZnODNEYWdoN052TXhBRWdwMU40Yjd5eVRRUGx6dVFvekRzVkNEWGdBdHpjZzI2bUttN081SG9xY05kejk0Rlp5Qk1wU1BLUlhFRXE1UVlzNw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWDU1RFFwWXJial9MSUdyYmd3Z1pFWDlQOGJEV2JoVkY2dUtZaVNhV1ZIakljS2UzbDhYeHVxQUZUZXpHOFdSa2loU2QzN005NHplUHJtV1I4WndCZHp1X2pIbkpVaEd2VUlwb0R6d0Q4QTJ3TEw3Mm5vR0tXVzlZeVNISnZnODNEYWdoN052TXhBRWdwMU40Yjd5eVRRUGx6dVFvekRzVkNEWGdBdHpjZzI2bUttN081SG9xY05kejk0Rlp5Qk1wU1BLUlhFRXE1UVlzNw?oc=5",
+      "source": "World of Showjumping",
+      "category": "World",
+      "publishedAt": "2026-11-15T20:31:39Z"
+    },
     {
       "id": "6a481e6d7410326d4709",
       "title": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience - ET Government",
@@ -288,7 +303,47 @@
       "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
       "source": "ET Government",
       "category": "India",
-      "publishedAt": "2026-11-15T17:08:08Z"
+      "publishedAt": "2026-11-15T20:10:55Z"
+    },
+    {
+      "id": "3be354e1ada5b2701b09",
+      "title": "Hong Kong's development of an innovation ecosystem offers valuable lessons for Vietnam. - Vietnam.vn",
+      "description": "Hong Kong's development of an innovation ecosystem offers valuable lessons for Vietnam. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdDFwdzR0X1B1RkNjbVA0R0dmRGZYVFFMN2ZoSFM5NjBjNkhpWEFROEFPWGVPZkE1MTh5ell2SEpBT0dnTWt4VXB4MWFELUJ5M1hyWGFhWElYQWZpdm1CRHp5UFZDX19SOGdzUU1XODc4VUFST19WRTFXaVIxaUhSSFJMTGlsRzJLdTJld21rc1VLUl9zTGVXZkgweXA4ZDExQ1FiTUpxUTd3TEdQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdDFwdzR0X1B1RkNjbVA0R0dmRGZYVFFMN2ZoSFM5NjBjNkhpWEFROEFPWGVPZkE1MTh5ell2SEpBT0dnTWt4VXB4MWFELUJ5M1hyWGFhWElYQWZpdm1CRHp5UFZDX19SOGdzUU1XODc4VUFST19WRTFXaVIxaUhSSFJMTGlsRzJLdTJld21rc1VLUl9zTGVXZkgweXA4ZDExQ1FiTUpxUTd3TEdQ?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-15T18:34:21Z"
+    },
+    {
+      "id": "1e53501807e153f35eb4",
+      "title": "UPS plane, Copa Airlines flight collide at Miami International Airport - Central Oregon Daily",
+      "description": "UPS plane, Copa Airlines flight collide at Miami International Airport Central Oregon Daily",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNaWo0RWZXTE83MzlvbUlGbUFOekhNXzhTSUxpSlZrTWFORlpGOTI4RXlXdldXZlM3cHlYQkJJM2JEWExLWGVPZ2NpVGdvb1lKRmFDTjVHSVEtOVNBSVlRYXFyRUZtRmJuXzAwR2g3QjBGMWhIQnBpaEQ2TGdTMkxPelRQTlBwb2FreHk5eGMxUjJ2UTAxa2UwOXF6TG8zVlZlQUFCZUM3bUo0cDg0ZDJlcVVWWkpuSzNPcWxMOElCbmh3UEp3Zm4zM1NCN1J5S2h4TXRLLW1KMGVrRVhSMzBIWTJTc09HQ0hIa01aZ0pBV0hHQ0FDdHlVSnJiX3ZrUG8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNaWo0RWZXTE83MzlvbUlGbUFOekhNXzhTSUxpSlZrTWFORlpGOTI4RXlXdldXZlM3cHlYQkJJM2JEWExLWGVPZ2NpVGdvb1lKRmFDTjVHSVEtOVNBSVlRYXFyRUZtRmJuXzAwR2g3QjBGMWhIQnBpaEQ2TGdTMkxPelRQTlBwb2FreHk5eGMxUjJ2UTAxa2UwOXF6TG8zVlZlQUFCZUM3bUo0cDg0ZDJlcVVWWkpuSzNPcWxMOElCbmh3UEp3Zm4zM1NCN1J5S2h4TXRLLW1KMGVrRVhSMzBIWTJTc09HQ0hIa01aZ0pBV0hHQ0FDdHlVSnJiX3ZrUG8?oc=5",
+      "source": "Central Oregon Daily",
+      "category": "World",
+      "publishedAt": "2026-11-15T18:27:55Z"
+    },
+    {
+      "id": "4177802f3d14fb8ec256",
+      "title": "International Ice Hockey Federation bars Russia's U20 team from World Junior Championship in Canada - Українська правда",
+      "description": "International Ice Hockey Federation bars Russia's U20 team from World Junior Championship in Canada Українська правда",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IZHE1cjFRSXUyblFzd1JSVnpnR25DUFZ5U21TMEMzcGtYLTg1QjliNEdFbXJfSUxRMGpKaWZ1WmdyeXdPUkl3LURnQkNEM1Z6YUhxX0VpSEEzV2RnX1V5eV9QNlPSAXBBVV95cUxPZTZQMDlxZXdJbjBpeEZJdV9aTmxkVHZ6NW1aS0JVTEpEVkU5UDM2SjA5LVJyeU1lek9qYXoxNzB6VWRnMFJEdTBsTGZwRUs4LWJwUVZDclFhUzRBZFI2Sk9jRXdKczlPTEU5V3RlWDdh?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IZHE1cjFRSXUyblFzd1JSVnpnR25DUFZ5U21TMEMzcGtYLTg1QjliNEdFbXJfSUxRMGpKaWZ1WmdyeXdPUkl3LURnQkNEM1Z6YUhxX0VpSEEzV2RnX1V5eV9QNlPSAXBBVV95cUxPZTZQMDlxZXdJbjBpeEZJdV9aTmxkVHZ6NW1aS0JVTEpEVkU5UDM2SjA5LVJyeU1lek9qYXoxNzB6VWRnMFJEdTBsTGZwRUs4LWJwUVZDclFhUzRBZFI2Sk9jRXdKczlPTEU5V3RlWDdh?oc=5",
+      "source": "Українська правда",
+      "category": "World",
+      "publishedAt": "2026-11-15T18:08:00Z"
+    },
+    {
+      "id": "6c72516039f62270991b",
+      "title": "How a class on climate change leaves students feeling ‘energized’ - The Hechinger Report",
+      "description": "How a class on climate change leaves students feeling ‘energized’ The Hechinger Report",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSmJvZ0dvSjZzMUJXdkc3QkFINnlISV9nMWo0RWtOVTFxeVU2cmc3MXAzb3VVSGN1ZWQ0ZGVqT2MwR3dNeHN0enJMVmVlMkNVWThqOGhmWDZOUFIySm1LMlQwdGJrYk1VX3Y4eHFkN1FzNHhXMEg3R1dha0IzLURZZ09GVEk5OHJOaDFHS1dILTZneG9GX29Z?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSmJvZ0dvSjZzMUJXdkc3QkFINnlISV9nMWo0RWtOVTFxeVU2cmc3MXAzb3VVSGN1ZWQ0ZGVqT2MwR3dNeHN0enJMVmVlMkNVWThqOGhmWDZOUFIySm1LMlQwdGJrYk1VX3Y4eHFkN1FzNHhXMEg3R1dha0IzLURZZ09GVEk5OHJOaDFHS1dILTZneG9GX29Z?oc=5",
+      "source": "The Hechinger Report",
+      "category": "Environment",
+      "publishedAt": "2026-11-15T17:00:00Z"
     },
     {
       "id": "0b4555d6b0d89f2ac567",
@@ -321,6 +376,16 @@
       "publishedAt": "2026-11-15T14:44:07Z"
     },
     {
+      "id": "034cb1677774d6c15279",
+      "title": "James Tedesco joins historic octet after World Cup win and confirms international retirement - Serious About Rugby League",
+      "description": "James Tedesco joins historic octet after World Cup win and confirms international retirement Serious About Rugby League",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaHdwVDlJYTlBYy1zLTVVdDd2YXlDYnd6TFU3Tzg5bFByTHhhOURjUXMtd0FHd19jSjVyMUROUnIxVHdNZ2E1RlVqS2Y1QkJSbF9BNkNYekRzckhteXQyWWFFak0xWEJMQUZCMk56bTVWSVEzcUpQX2d3bjZZSHh5bzJyRkRQcXlFRmlqVVpLVmN5YlhzVkVNNHVDTGJMd0I5MER5NklpakdMM2lDaWZTZlB0Uk1WUjcybkpPOHNzWHR6TkIzQndLLXBpNNIB0AFBVV95cUxQeklMTHc0bG81SjJvNmNlY3UtRTRINHdVM2FBRGpqMDNhYTFxMWhSeE0wZ2dFU0RuNHdQYVNSNUhhMVNfTW9GbHhxWWduMldVU0pfb0pnQ0VwXzRVUDVFUHpTdDM1UTMydjhrOVJROGlOQjVKUXI3T2lINEYzMmJoZDZNeF93X3RTQk4ybnlSZThCeHZGbGlESUxKS01yLUI5cmxwTmhyRFpVNXYtNVhuMVpKdnFWQlN5eGppWl9tTTdxc1FyT2pjbkxkc2otZ0pq?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaHdwVDlJYTlBYy1zLTVVdDd2YXlDYnd6TFU3Tzg5bFByTHhhOURjUXMtd0FHd19jSjVyMUROUnIxVHdNZ2E1RlVqS2Y1QkJSbF9BNkNYekRzckhteXQyWWFFak0xWEJMQUZCMk56bTVWSVEzcUpQX2d3bjZZSHh5bzJyRkRQcXlFRmlqVVpLVmN5YlhzVkVNNHVDTGJMd0I5MER5NklpakdMM2lDaWZTZlB0Uk1WUjcybkpPOHNzWHR6TkIzQndLLXBpNNIB0AFBVV95cUxQeklMTHc0bG81SjJvNmNlY3UtRTRINHdVM2FBRGpqMDNhYTFxMWhSeE0wZ2dFU0RuNHdQYVNSNUhhMVNfTW9GbHhxWWduMldVU0pfb0pnQ0VwXzRVUDVFUHpTdDM1UTMydjhrOVJROGlOQjVKUXI3T2lINEYzMmJoZDZNeF93X3RTQk4ybnlSZThCeHZGbGlESUxKS01yLUI5cmxwTmhyRFpVNXYtNVhuMVpKdnFWQlN5eGppWl9tTTdxc1FyT2pjbkxkc2otZ0pq?oc=5",
+      "source": "Serious About Rugby League",
+      "category": "World",
+      "publishedAt": "2026-11-15T14:00:38Z"
+    },
+    {
       "id": "bfb0762223102f72d4da",
       "title": "'Tool of the global elite': Marco Rubio takes aim at ICC in warning over international law - The Economic Times",
       "description": "'Tool of the global elite': Marco Rubio takes aim at ICC in warning over international law The Economic Times",
@@ -349,6 +414,16 @@
       "source": "Portsmouth News",
       "category": "World",
       "publishedAt": "2026-11-15T13:00:00Z"
+    },
+    {
+      "id": "b2d6f8aaf96869fe0a2b",
+      "title": "Rugby League World Cup conclusion creates international void amid questions over 2027 Kiwi tour - Serious About Rugby League",
+      "description": "Rugby League World Cup conclusion creates international void amid questions over 2027 Kiwi tour Serious About Rugby League",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTkR1TkhnNDlpUzdObGhmV0xYeUR5Q011MHBsYXhJTWVaa1IzQlcxMWtfSnpndE9uejg2STdYX1hMeVJWMG5VanZDVDJmUDJIUm5ka2VCRXdzOWpOWGloT2lMX05RZF8yQ0paTDFLZDVRWnVFMDVmV1EwMEpQbTljVnVpX05rN05pUGFNS1ZhYlE4UTVuVGxBbHlaQkljbEFtRm9fVi05Rnd6RHpqMkhmMkVHZjNhbDF2OUtrNExNYl9IZXhfSS0wWkg4dnFiRGPSAdQBQVVfeXFMT0RfUEFibDYxM3RVcjU1aUdVMmNpRGZSQTNfbTZHbmp0X0JBQ2FKU2hYOS1HMThsN0g0OTg0UTlxZVhIZFVSZ0ZfaTJSb1YtY2VJRDg0MnVKQkpHMDhmdktNbHc5eF9weDJwaXNXZUxVZThXUjVrT1F1M3pXbTBZZmJseXV6ZG5oNWl0RHU0U2Ntc3l2d19EWVVLSmF5SlZvY2VMQXhrSmFCUnU4SXhTSng0VHdJdFpEU01BaGpHSUllb1h3V1dLaWFVQjBNRnA1VXFGUnE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTkR1TkhnNDlpUzdObGhmV0xYeUR5Q011MHBsYXhJTWVaa1IzQlcxMWtfSnpndE9uejg2STdYX1hMeVJWMG5VanZDVDJmUDJIUm5ka2VCRXdzOWpOWGloT2lMX05RZF8yQ0paTDFLZDVRWnVFMDVmV1EwMEpQbTljVnVpX05rN05pUGFNS1ZhYlE4UTVuVGxBbHlaQkljbEFtRm9fVi05Rnd6RHpqMkhmMkVHZjNhbDF2OUtrNExNYl9IZXhfSS0wWkg4dnFiRGPSAdQBQVVfeXFMT0RfUEFibDYxM3RVcjU1aUdVMmNpRGZSQTNfbTZHbmp0X0JBQ2FKU2hYOS1HMThsN0g0OTg0UTlxZVhIZFVSZ0ZfaTJSb1YtY2VJRDg0MnVKQkpHMDhmdktNbHc5eF9weDJwaXNXZUxVZThXUjVrT1F1M3pXbTBZZmJseXV6ZG5oNWl0RHU0U2Ntc3l2d19EWVVLSmF5SlZvY2VMQXhrSmFCUnU4SXhTSng0VHdJdFpEU01BaGpHSUllb1h3V1dLaWFVQjBNRnA1VXFGUnE?oc=5",
+      "source": "Serious About Rugby League",
+      "category": "World",
+      "publishedAt": "2026-11-15T12:24:56Z"
     },
     {
       "id": "ff7b9b585431993fbbf0",
@@ -1721,6 +1796,16 @@
       "publishedAt": "2026-11-12T10:45:40Z"
     },
     {
+      "id": "8106167d7783273a6d4f",
+      "title": "Environmental health impacts - European Environment Agency (EEA)",
+      "description": "Environmental health impacts European Environment Agency (EEA)",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1henIxYmJkYTJFRXQyTmdMS1pwRHl5bGNUSGxhNUlIbmFQbjhOekpINjJwYjhfSTFWR0kwZFZnMFZRUUZVSVpNQ0hqaEREcmQ5THhMNVVvcDYyUkZrel9TNmlLejZVRHFfM0VKdWFZOEVPZVJ0dlBsREdCWE1iZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1henIxYmJkYTJFRXQyTmdMS1pwRHl5bGNUSGxhNUlIbmFQbjhOekpINjJwYjhfSTFWR0kwZFZnMFZRUUZVSVpNQ0hqaEREcmQ5THhMNVVvcDYyUkZrel9TNmlLejZVRHFfM0VKdWFZOEVPZVJ0dlBsREdCWE1iZw?oc=5",
+      "source": "European Environment Agency (EEA)",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T10:29:48Z"
+    },
+    {
       "id": "7904662be63524777418",
       "title": "Energy, PFAS and Knowles-Nelson on the environmental agenda as Democrats take control - Wisconsin Examiner",
       "description": "Energy, PFAS and Knowles-Nelson on the environmental agenda as Democrats take control Wisconsin Examiner",
@@ -2599,18 +2684,8 @@
       "source": "매일경제",
       "category": "Technology",
       "publishedAt": "2026-11-09T07:54:01Z"
-    },
-    {
-      "id": "5dc0b34ef0346e837b89",
-      "title": "Storm snaps powerpoles in CQ while 'insufferable' heatwave lingers in Far North - ABC News & Headlines – Australian Broadcasting Corporation",
-      "description": "Storm snaps powerpoles in CQ while 'insufferable' heatwave lingers in Far North ABC News & Headlines – Australian Broadcasting Corporation",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObjAtTExPcDJHTFZUNWhFZTgtamVrVWtoQWhfclJYcWRFYnFyVDd0VjZqTW1BVzNMSk9UZEkwaUNtVkV0QTBwdWlMVDVrTVdNb0xJYWlNTDhUVGY1WXpRX3llUXBFbTBSTndFX0hHU2dOTDdWNkhYbEVpUXgtZ21NZWZybFRSVmxzckpTVTh2UVpqT2c5bVc4amRCbXp0Nmhfbk9j?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObjAtTExPcDJHTFZUNWhFZTgtamVrVWtoQWhfclJYcWRFYnFyVDd0VjZqTW1BVzNMSk9UZEkwaUNtVkV0QTBwdWlMVDVrTVdNb0xJYWlNTDhUVGY1WXpRX3llUXBFbTBSTndFX0hHU2dOTDdWNkhYbEVpUXgtZ21NZWZybFRSVmxzckpTVTh2UVpqT2c5bVc4amRCbXp0Nmhfbk9j?oc=5",
-      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
-      "category": "Disaster",
-      "publishedAt": "2026-11-08T20:31:58Z"
     }
   ],
-  "lastUpdated": "2026-11-15T17:37:04Z",
-  "updatedAt": "2026-11-15T17:37:04Z"
+  "lastUpdated": "2026-11-15T22:37:52Z",
+  "updatedAt": "2026-11-15T22:37:52Z"
 }
