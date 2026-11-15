@@ -240,42 +240,39 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-15T10:41:40Z",
-    "lastSuccessfulRun": "2026-11-15T10:41:40Z",
-    "lastUpdated": "2026-11-15T10:41:40Z",
-    "articlesAdded": 17,
-    "articlesUpdated": 0,
-    "duplicatesRemoved": 45,
+    "lastRun": "2026-11-15T17:37:04Z",
+    "lastSuccessfulRun": "2026-11-15T17:37:04Z",
+    "lastUpdated": "2026-11-15T17:37:04Z",
+    "articlesAdded": 12,
+    "articlesUpdated": 1,
+    "duplicatesRemoved": 42,
     "failedSources": [],
     "newArticleIds": [
-      "42220aaea23b15920d61",
-      "b36545027fdb2f9fb480",
-      "9eb1ce88a0fc05fddb0d",
-      "a76590522795764cf4df",
-      "a99ab6bff89f3f80cd97",
-      "ad6f44ac482077d17756",
-      "ee0d68830dc4aac7ae31",
-      "3b827c44c075870b1fc4",
-      "dabefe21e9c4698c0c56",
-      "628b2d974b06c5a584af",
-      "23a33227b3b23a1e7e1e",
-      "edb019b8c28a432321c7",
-      "d1dc9bd26ec9c71e08e6",
-      "ca928d83a5c0f52dc4c5",
-      "c7c81d286657726eb1b0",
-      "63307412f26303436db3",
-      "131e5f6a9e96a65f3ec1"
+      "0b4555d6b0d89f2ac567",
+      "4e8457cd77c99f77f656",
+      "3cfb13e0ba1e6a38e7f4",
+      "669c5038813020bece22",
+      "557c99490b7760e4d884",
+      "ff7b9b585431993fbbf0",
+      "013e1c09fc9f8aed0fa7",
+      "1d7822ae01ad3abf6369",
+      "7f636402248c3b1080f7",
+      "8955ae56ce4d347026cb",
+      "faee354dc974e181575d",
+      "4a0e1cb54ef4a11ad8f0"
     ],
-    "updatedArticleIds": [],
-    "articlesRemoved": 2,
+    "updatedArticleIds": [
+      "3681c6c6d49c0bed28e2"
+    ],
+    "articlesRemoved": 1,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 222,
+    "totalArticles": 233,
     "categories": {
-      "World": 117,
-      "India": 18,
-      "Technology": 10,
+      "World": 126,
+      "India": 19,
+      "Technology": 11,
       "Environment": 66,
       "Disaster": 11
     },
@@ -283,6 +280,96 @@
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "6a481e6d7410326d4709",
+      "title": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience - ET Government",
+      "description": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience ET Government",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
+      "source": "ET Government",
+      "category": "India",
+      "publishedAt": "2026-11-15T17:08:08Z"
+    },
+    {
+      "id": "0b4555d6b0d89f2ac567",
+      "title": "Arunachal: International adventure racing teams experience traditional bamboo rafting ahead of Mechukha Championship qualifier - India Today NE",
+      "description": "Arunachal: International adventure racing teams experience traditional bamboo rafting ahead of Mechukha Championship qualifier India Today NE",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb3pXb1g1SlJzTmtqS3djUGg3Ml9NSzhwMlAybTJva1FIQ2EwajZJMnhFOEl6ZXJlOUFoc0JwUE1NMF9NMmNsakY0SWUzalRYZG00UG5EM3pJbV9pTXFYeFRHbTFiNkFZRUpIT3c4Z3JydFRHMEJEZHo2ckl2WGVzNnpKVTZGNk5WMVd5cjNHamRfZWlnV1BETDd0QXktVFkzLWlVQkFidmthZnBZd2ZiRU5HSEdQSkJxbDlBNjNXRHF1RkRFdkVOMmdoLWU0elpESkRF0gHYAUFVX3lxTFAtTGJ2cnBPY01yUUZUcTZWRmlQWWRES2dsUE5qcE9NLXZsTjFiUTZwYmVWaUpyN3FHWDczaXo0SHkyalJMdEl6WDMyTkdzck90bVFSdXhBU3Q3a25GRWNkNWlRYUpyZVdKczh5a19Db3VMNHJIa2pHTWZWUGM5b2hmQV93X0VLVlUzLW5LY1lpekNXc1JIRnBERWdhVDBPZWdxcm9vdnFiZk9OUE1JaUpyMjFPX1Blb0N2blRXOWVBNTBEUy1sdHlWem9wOFBGNzRUYVh2MzlORQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb3pXb1g1SlJzTmtqS3djUGg3Ml9NSzhwMlAybTJva1FIQ2EwajZJMnhFOEl6ZXJlOUFoc0JwUE1NMF9NMmNsakY0SWUzalRYZG00UG5EM3pJbV9pTXFYeFRHbTFiNkFZRUpIT3c4Z3JydFRHMEJEZHo2ckl2WGVzNnpKVTZGNk5WMVd5cjNHamRfZWlnV1BETDd0QXktVFkzLWlVQkFidmthZnBZd2ZiRU5HSEdQSkJxbDlBNjNXRHF1RkRFdkVOMmdoLWU0elpESkRF0gHYAUFVX3lxTFAtTGJ2cnBPY01yUUZUcTZWRmlQWWRES2dsUE5qcE9NLXZsTjFiUTZwYmVWaUpyN3FHWDczaXo0SHkyalJMdEl6WDMyTkdzck90bVFSdXhBU3Q3a25GRWNkNWlRYUpyZVdKczh5a19Db3VMNHJIa2pHTWZWUGM5b2hmQV93X0VLVlUzLW5LY1lpekNXc1JIRnBERWdhVDBPZWdxcm9vdnFiZk9OUE1JaUpyMjFPX1Blb0N2blRXOWVBNTBEUy1sdHlWem9wOFBGNzRUYVh2MzlORQ?oc=5",
+      "source": "India Today NE",
+      "category": "World",
+      "publishedAt": "2026-11-15T15:23:14Z"
+    },
+    {
+      "id": "4e8457cd77c99f77f656",
+      "title": "Top 10 global developments this week: Trump-Xi-Putin meeting, Nvidia crisis, and more - The Financial Express",
+      "description": "Top 10 global developments this week: Trump-Xi-Putin meeting, Nvidia crisis, and more The Financial Express",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR19DVWtrbVJXdndrcVZycjRMN3pSTDBTNlpvSkFiakczNkwyRndCRTZ5ek5NbzZnZ28xSUpBbFcxZE1wVlJWZGtJaVB3LXVVdl9JWTF5eDVYMXhpUGhTRi0wS2ZtM3l1MnVmWEtBVnpSRXJoeEZCdVkxRXA1dkZ5NjRCQjF1WERWTXItTGwtMFRMVEgwLUhZU2FRZDQ4NkNidUdwN1o0OUwyRWRpTnhFeGswRXdCbmF5ZnNNSGplZ2lQMk00SWNobmVOOGpwOV940gHXAUFVX3lxTFB3MlloemIyWkZJQW1JYUg2Yk9fN0VnSlJiSXRaVTZOOHppcmNkZnpqdGVHQlNQUERLdHVZRmVBdHJJSGZDUUU2U250Y1ZXYWw4TTQ2M2pkRGJzZldBTy1WRWZBekJqSmtJOHVFRHNleU5BUzhUWUdpa2lTZ3dkaGFfY1ZsS0xzOVFodnVlYnluMFlJN245bFJHVUwtVGpKa0JBc3N1VlRjVTBNOVpqX1Vhb0ZSTC1heERXX0I3QWFPSjRrSjJ3SU5kYTIxN1hoOHNxQnZRNEpz?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR19DVWtrbVJXdndrcVZycjRMN3pSTDBTNlpvSkFiakczNkwyRndCRTZ5ek5NbzZnZ28xSUpBbFcxZE1wVlJWZGtJaVB3LXVVdl9JWTF5eDVYMXhpUGhTRi0wS2ZtM3l1MnVmWEtBVnpSRXJoeEZCdVkxRXA1dkZ5NjRCQjF1WERWTXItTGwtMFRMVEgwLUhZU2FRZDQ4NkNidUdwN1o0OUwyRWRpTnhFeGswRXdCbmF5ZnNNSGplZ2lQMk00SWNobmVOOGpwOV940gHXAUFVX3lxTFB3MlloemIyWkZJQW1JYUg2Yk9fN0VnSlJiSXRaVTZOOHppcmNkZnpqdGVHQlNQUERLdHVZRmVBdHJJSGZDUUU2U250Y1ZXYWw4TTQ2M2pkRGJzZldBTy1WRWZBekJqSmtJOHVFRHNleU5BUzhUWUdpa2lTZ3dkaGFfY1ZsS0xzOVFodnVlYnluMFlJN245bFJHVUwtVGpKa0JBc3N1VlRjVTBNOVpqX1Vhb0ZSTC1heERXX0I3QWFPSjRrSjJ3SU5kYTIxN1hoOHNxQnZRNEpz?oc=5",
+      "source": "The Financial Express",
+      "category": "World",
+      "publishedAt": "2026-11-15T14:47:20Z"
+    },
+    {
+      "id": "3cfb13e0ba1e6a38e7f4",
+      "title": "Hanoi is gradually putting policies to promote science and technology into practice. - Vietnam.vn",
+      "description": "Hanoi is gradually putting policies to promote science and technology into practice. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa05PZlp2aGJWQ1dDS1JmSUgxOUVHdnhqX1dIeEs5MFpEQmlaczl0RWkwTzB1VU5kb2hMel9JWGl5S0FtTnhpTTdzVE5aNl8xUzNVWU5UdS1kVndLZmd1S1ptaENxQXNSNnFnRl9JRjBPUTBHTG50MU9OQjQxVm1aT2tPR1RTMUxmdndTMXdhZU5zUmc5bjIxNVJFSmF1MnZVdVlBemRn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa05PZlp2aGJWQ1dDS1JmSUgxOUVHdnhqX1dIeEs5MFpEQmlaczl0RWkwTzB1VU5kb2hMel9JWGl5S0FtTnhpTTdzVE5aNl8xUzNVWU5UdS1kVndLZmd1S1ptaENxQXNSNnFnRl9JRjBPUTBHTG50MU9OQjQxVm1aT2tPR1RTMUxmdndTMXdhZU5zUmc5bjIxNVJFSmF1MnZVdVlBemRn?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-15T14:44:07Z"
+    },
+    {
+      "id": "bfb0762223102f72d4da",
+      "title": "'Tool of the global elite': Marco Rubio takes aim at ICC in warning over international law - The Economic Times",
+      "description": "'Tool of the global elite': Marco Rubio takes aim at ICC in warning over international law The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ1BWMEgwWTV1UFNlWFhidUlTVl9HbFgwVlJrdWN6Z0IzU0RCdXBLcGFLMDNfZlg0aTBzVFZwNnZaWU5GY2MyOC1PdUI5b2h1Ml90S2Nkc0ZYNkdBZnBIbGNNRngtUzh1ZXhDOUVaSGJBQi05cDVobDVESkxiZnZUbmVDTmZ0Y1VfRDhWNmFHUU53bkJFVW1VV0sxLXdDWlNGRi1xb2R0OUt4NmtGMmN0c3E4SFc3Rm1UaWJrakdGTG9uTUJFMWRLblgyWHpRa0VLcUJGcGpGYU9SOUxxTFM5T2JpdGloNEJFNmtVcnNtTTVmQjFIQURKRWNYS2xwNmtacktr0gGIAkFVX3lxTE9hdnZJZTRhbWFyZmUxcXVudHRuMlRkaHlWendiOENobko4cHZWeUFzLWVFTkJwS0VueXFpVGtLX25LakstcW0zcEQ2bjJqNDRSTGRoTzFlYmJQMkd5anVLWVQyRnlucUhjNElQdnhWR2UyNTdYcS1Xck5VRnVJMFNMOE04aWZJdVF2ZS1FTmd2ZktMMmd3Qktoa3JfZVFDR1IwSWtWMlBTYjM0NVpKUTk5c0V0NTg1MnFRX2hvWllQYXJUYkFrTTRRZTJuY2RYREhuNmZaNGt3d2l4c1QwdHp5eHcyQURlVWVlMjNaaFh5Q1lXSEg0SXo5WUhFRV9JblZxelFjaDY1ag?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ1BWMEgwWTV1UFNlWFhidUlTVl9HbFgwVlJrdWN6Z0IzU0RCdXBLcGFLMDNfZlg0aTBzVFZwNnZaWU5GY2MyOC1PdUI5b2h1Ml90S2Nkc0ZYNkdBZnBIbGNNRngtUzh1ZXhDOUVaSGJBQi05cDVobDVESkxiZnZUbmVDTmZ0Y1VfRDhWNmFHUU53bkJFVW1VV0sxLXdDWlNGRi1xb2R0OUt4NmtGMmN0c3E4SFc3Rm1UaWJrakdGTG9uTUJFMWRLblgyWHpRa0VLcUJGcGpGYU9SOUxxTFM5T2JpdGloNEJFNmtVcnNtTTVmQjFIQURKRWNYS2xwNmtacktr0gGIAkFVX3lxTE9hdnZJZTRhbWFyZmUxcXVudHRuMlRkaHlWendiOENobko4cHZWeUFzLWVFTkJwS0VueXFpVGtLX25LakstcW0zcEQ2bjJqNDRSTGRoTzFlYmJQMkd5anVLWVQyRnlucUhjNElQdnhWR2UyNTdYcS1Xck5VRnVJMFNMOE04aWZJdVF2ZS1FTmd2ZktMMmd3Qktoa3JfZVFDR1IwSWtWMlBTYjM0NVpKUTk5c0V0NTg1MnFRX2hvWllQYXJUYkFrTTRRZTJuY2RYREhuNmZaNGt3d2l4c1QwdHp5eHcyQURlVWVlMjNaaFh5Q1lXSEg0SXo5WUhFRV9JblZxelFjaDY1ag?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-15T13:54:23Z"
+    },
+    {
+      "id": "669c5038813020bece22",
+      "title": "‘My last time’: Tedesco announces international retirement - Nine.com.au",
+      "description": "‘My last time’: Tedesco announces international retirement Nine.com.au",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPbndFVFRDM0VrbEhGSlZIMUdoUFBxY3Q3UlhJaldHcGx3MUNmU19ZWXlJQVhwa3BVaGMzSm1yb3dkZVVUdFBKQU9JcE9BRGhOV0NuODk2dUZZUktpWkFBRDhoSVl0TDhmZGxVWUVFakNJLTdVNTVWSVpYeW01d3l1Y01KMm1UenFTYnBmUkRDYkxzeXVoNVJIeVVJWDJYeFJhdlN1d2U5VktSVEhDM0dSYV82bUZSOEJJRDIzRVhuWUJHaC1KSk8wMnlpTHM0YjFTY0NXdHdQQ2EzeFBmeFpxeHp2a3J4VXY4VzFkRE1nWnBNa3JHUk55eks4WThMUzc0bHM4ejVncS1yeDZHSWc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPbndFVFRDM0VrbEhGSlZIMUdoUFBxY3Q3UlhJaldHcGx3MUNmU19ZWXlJQVhwa3BVaGMzSm1yb3dkZVVUdFBKQU9JcE9BRGhOV0NuODk2dUZZUktpWkFBRDhoSVl0TDhmZGxVWUVFakNJLTdVNTVWSVpYeW01d3l1Y01KMm1UenFTYnBmUkRDYkxzeXVoNVJIeVVJWDJYeFJhdlN1d2U5VktSVEhDM0dSYV82bUZSOEJJRDIzRVhuWUJHaC1KSk8wMnlpTHM0YjFTY0NXdHdQQ2EzeFBmeFpxeHp2a3J4VXY4VzFkRE1nWnBNa3JHUk55eks4WThMUzc0bHM4ejVncS1yeDZHSWc?oc=5",
+      "source": "Nine.com.au",
+      "category": "World",
+      "publishedAt": "2026-11-15T13:44:04Z"
+    },
+    {
+      "id": "557c99490b7760e4d884",
+      "title": "£2.1m Pompey man shines on return to world stage after international controversy - Portsmouth News",
+      "description": "£2.1m Pompey man shines on return to world stage after international controversy Portsmouth News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdEpXb3h4cjBHcDM3cDF5X01nTWhqYnJCUjBHR3Q0eFlNSmU1eXRGSi0zcHFuOFFBeGJTWHMtYVFmUzdBRHpZOEJrY29DaXV1MkRsXzFONGwyTE1aS2xzMm9zSzgySmdnOVVsZk5CcjBKUXFOVnpWTVJVdE96NGZvREJacmJWbEF6TUxkaEdKMmdjdlpvYzNKVVVYVG15MkRsWHBIRWx0U0g5OTh2ZlNpb3N1ZGFvUWwxUUhsWnNXYzVjWTdsZzRsQ05Gbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdEpXb3h4cjBHcDM3cDF5X01nTWhqYnJCUjBHR3Q0eFlNSmU1eXRGSi0zcHFuOFFBeGJTWHMtYVFmUzdBRHpZOEJrY29DaXV1MkRsXzFONGwyTE1aS2xzMm9zSzgySmdnOVVsZk5CcjBKUXFOVnpWTVJVdE96NGZvREJacmJWbEF6TUxkaEdKMmdjdlpvYzNKVVVYVG15MkRsWHBIRWx0U0g5OTh2ZlNpb3N1ZGFvUWwxUUhsWnNXYzVjWTdsZzRsQ05Gbw?oc=5",
+      "source": "Portsmouth News",
+      "category": "World",
+      "publishedAt": "2026-11-15T13:00:00Z"
+    },
+    {
+      "id": "ff7b9b585431993fbbf0",
+      "title": "James Tedesco confirms international future after World Cup win - Zero Tackle",
+      "description": "James Tedesco confirms international future after World Cup win Zero Tackle",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVHpTNUpnLS1yLWNsZU1EanFzOEo4dW5wb25hSWlYNmdEeVRBdkFKRmtiSXg1V0pITlhQLW5sdmk4bmo4Y2xKUFhvaW9DNVNxanlkcDRhdjhqdGlFamJCLU1UT3NocjRlb0Y3dmE2UGJsUjlkWVNXQ3hmb2ZSTWdxdURKeS1Cd1hEc3B1VGpZUGpFb0tmNEI4ckFLdXFYeVU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVHpTNUpnLS1yLWNsZU1EanFzOEo4dW5wb25hSWlYNmdEeVRBdkFKRmtiSXg1V0pITlhQLW5sdmk4bmo4Y2xKUFhvaW9DNVNxanlkcDRhdjhqdGlFamJCLU1UT3NocjRlb0Y3dmE2UGJsUjlkWVNXQ3hmb2ZSTWdxdURKeS1Cd1hEc3B1VGpZUGpFb0tmNEI4ckFLdXFYeVU?oc=5",
+      "source": "Zero Tackle",
+      "category": "World",
+      "publishedAt": "2026-11-15T11:47:22Z"
+    },
+    {
+      "id": "013e1c09fc9f8aed0fa7",
+      "title": "International students turn to US again? Report says study interest jumps 40% after midterms - The Times of India",
+      "description": "International students turn to US again? Report says study interest jumps 40% after midterms The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSkRkRXpRNnFlRzdKYXh0MGNtbWhGcm9WSzNSN09zR3R5ZC1CaWdQSVhhRUozalFyNi1wSmpVaXlkQzhBXzZuUGZBR1Q0M1BhaDNhazRBTEo0NEg4bE0tSVlKaWxiUV9FLUlSbG91MEVyM1NPR0xFT3BLUzJKeXplVXQtd1R6c2ZQUTVKejM1NDF6VlozY21YMVdiT0dBbTEwRnJONEFRWFI1MlNZRVZaRFlEUTlLVnFFa0JGdFhQSE9YamkyQ3dRMnptNE9SUGZvS0ZrNmhxZnZ4V2tfMDlsZEZyUEhmTDM1VGZfcUNORWRneknSAfgBQVVfeXFMT2RLYlAzb3RqbTFZU3Jjd1pSNno5Y2p3Z1NvRWUzSWd4eHM0ZmFJd1pwMEtXNE4zLVRjWjhHRWxsR2pWTlNiY1pyQ0Q1WjhJNFY4TFNhY0tsbHZmTExQNGUtLWpETjZaM3BfRUdmUklZb25RaVBrZDFLQmhwNzM5STN0M0xKWWFvZDhQdDIyaGJxVTZSdFpHanpIWl8xdldPSWtDNWFvTkpoc1R6VU5OUDJJcGZZTXRwdHRCY2ZfOC1USkFoWWsxT1k1QVNLa3lNdjVoS3hieUlNcy01TGtIVS1SWmsxa0V5ZTZqWHVwWW01N0ViN1d2UTE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSkRkRXpRNnFlRzdKYXh0MGNtbWhGcm9WSzNSN09zR3R5ZC1CaWdQSVhhRUozalFyNi1wSmpVaXlkQzhBXzZuUGZBR1Q0M1BhaDNhazRBTEo0NEg4bE0tSVlKaWxiUV9FLUlSbG91MEVyM1NPR0xFT3BLUzJKeXplVXQtd1R6c2ZQUTVKejM1NDF6VlozY21YMVdiT0dBbTEwRnJONEFRWFI1MlNZRVZaRFlEUTlLVnFFa0JGdFhQSE9YamkyQ3dRMnptNE9SUGZvS0ZrNmhxZnZ4V2tfMDlsZEZyUEhmTDM1VGZfcUNORWRneknSAfgBQVVfeXFMT2RLYlAzb3RqbTFZU3Jjd1pSNno5Y2p3Z1NvRWUzSWd4eHM0ZmFJd1pwMEtXNE4zLVRjWjhHRWxsR2pWTlNiY1pyQ0Q1WjhJNFY4TFNhY0tsbHZmTExQNGUtLWpETjZaM3BfRUdmUklZb25RaVBrZDFLQmhwNzM5STN0M0xKWWFvZDhQdDIyaGJxVTZSdFpHanpIWl8xdldPSWtDNWFvTkpoc1R6VU5OUDJJcGZZTXRwdHRCY2ZfOC1USkFoWWsxT1k1QVNLa3lNdjVoS3hieUlNcy01TGtIVS1SWmsxa0V5ZTZqWHVwWW01N0ViN1d2UTE?oc=5",
+      "source": "The Times of India",
+      "category": "World",
+      "publishedAt": "2026-11-15T10:35:00Z"
+    },
     {
       "id": "42220aaea23b15920d61",
       "title": "US sees 40% surge in international student interest after midterm elections: Report - Hindustan Times",
@@ -294,14 +381,34 @@
       "publishedAt": "2026-11-15T09:22:57Z"
     },
     {
-      "id": "b36545027fdb2f9fb480",
+      "id": "1d7822ae01ad3abf6369",
+      "title": "US sees 40% surge in international student interest after midterm elections: Report | Hindustan Times - Hindustan Times",
+      "description": "US sees 40% surge in international student interest after midterm elections: Report | Hindustan Times Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTEROWU53YUZOd1RpaVpvUUdETmdXbzdSQnNwNlRybWRzVmRpXzl2UFVQRF9OaGNmLXhvT1dlSEUxMktrUVNNZEpMaVlzQmxZVlRjOTczWm9jVjZISU1yX1VVYy1wYm11aTVBUnhxaVF3VXkxQkF1OW9DenR2UDlnM1dSNWQxRUZVVXhzdG45UWFnNkdNcEIzcEdRWl80endHWDVSbzJ6ZEQ3MnhELXM0YWhlMkE3YzFLSXVOMElkblREcUowclpiRF93ZnNFdm5rV21JbW1MTjdQNmxrd2NtTnlnbVpTblnSAewBQVVfeXFMT05QelhqQy1BRlNuUXlzaGZEaE5tUUtYbXh6ZmkxUnZORnJMcWk3bEpDaWVHaTc2MlNCTTBWcmhabFJOSTM1U0x4OFl0Nms3YzVCaUxwdFByS2FhcEpuQVpMZ2lnSk1PWFNESGpNSXp2Y1NEWHFNMDN3Wm5ub0FvUTIwSkFMSFh3VGpYX0w1MG9lXy1WUlAxY2NmdFBCOXFpek1udjJ4NXRScE1OeDgycDZ5VldWS2VKSUl4TnliWkhpQjJscWVwbVhVVnhnWWx0YzVnb08zLW5GSDAya2g1SEFGdnJURWxnSGY2SzA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTEROWU53YUZOd1RpaVpvUUdETmdXbzdSQnNwNlRybWRzVmRpXzl2UFVQRF9OaGNmLXhvT1dlSEUxMktrUVNNZEpMaVlzQmxZVlRjOTczWm9jVjZISU1yX1VVYy1wYm11aTVBUnhxaVF3VXkxQkF1OW9DenR2UDlnM1dSNWQxRUZVVXhzdG45UWFnNkdNcEIzcEdRWl80endHWDVSbzJ6ZEQ3MnhELXM0YWhlMkE3YzFLSXVOMElkblREcUowclpiRF93ZnNFdm5rV21JbW1MTjdQNmxrd2NtTnlnbVpTblnSAewBQVVfeXFMT05QelhqQy1BRlNuUXlzaGZEaE5tUUtYbXh6ZmkxUnZORnJMcWk3bEpDaWVHaTc2MlNCTTBWcmhabFJOSTM1U0x4OFl0Nms3YzVCaUxwdFByS2FhcEpuQVpMZ2lnSk1PWFNESGpNSXp2Y1NEWHFNMDN3Wm5ub0FvUTIwSkFMSFh3VGpYX0w1MG9lXy1WUlAxY2NmdFBCOXFpek1udjJ4NXRScE1OeDgycDZ5VldWS2VKSUl4TnliWkhpQjJscWVwbVhVVnhnWWx0YzVnb08zLW5GSDAya2g1SEFGdnJURWxnSGY2SzA?oc=5",
+      "source": "Hindustan Times",
+      "category": "World",
+      "publishedAt": "2026-11-15T09:22:57Z"
+    },
+    {
+      "id": "7f636402248c3b1080f7",
       "title": "Two planes collide at Miami International Airport - Ammon News",
       "description": "Two planes collide at Miami International Airport Ammon News",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15X1VvbXBienlDOXQ2TVJET0N5RThyNWs2R0RtMnl1UEFRRk5zcGpZZzVhNlZwYVpUcGZDdEMybDFzRXdHUG9Gdm45M2wwdw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15X1VvbXBienlDOXQ2TVJET0N5RThyNWs2R0RtMnl1UEFRRk5zcGpZZzVhNlZwYVpUcGZDdEMybDFzRXdHUG9Gdm45M2wwdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16X2ZQN2V6ektuRmhLX0ZaRzVIOGM0QWQza3FoLVZ6VnlhR0s1Y29nMlpJWGJMVjZ0eXZZbkZwSHk5LWlZcTFyTEVWYkhYQ1k?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16X2ZQN2V6ektuRmhLX0ZaRzVIOGM0QWQza3FoLVZ6VnlhR0s1Y29nMlpJWGJMVjZ0eXZZbkZwSHk5LWlZcTFyTEVWYkhYQ1k?oc=5",
       "source": "Ammon News",
       "category": "World",
-      "publishedAt": "2026-11-15T08:56:38Z"
+      "publishedAt": "2026-11-15T08:58:47Z"
+    },
+    {
+      "id": "8955ae56ce4d347026cb",
+      "title": "Australia beats New Zealand in Women's Rugby League World Cup Final - The News International",
+      "description": "Australia beats New Zealand in Women's Rugby League World Cup Final The News International",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORFliV2xHSjFCd3pzd084WTFQcElmTWhlVmxTMmFYYWcyZ2g1UTFZS3VXNm83eTlVdk9tN0Ywbm9wT0JodHFkUl8xem9NVEd2d01ETmp1TFlpcldscTlWd0ViUS1CTkxfeDFWRmJaUXNfajB0UzJia1EycTZHTEVTNnRLSGtpb1oyVVlfR0UyTUtFYnYxUVB5V1p6Qkw4YkNEU2ljZ0p2Z3ZPZnFR0gGoAUFVX3lxTE01VDlpY0tWREVQZmllS0NZdC0wcXRQOTFmOUFTNkZ2SzUtNVJzX2QxX2N6S2xuSnNOeEt2cFZ0S0dmejZhemR0Mi13Mk5kdVMySU1vZjQyMlpRR2kxXzBtNFhhTTNiUVNjNk1pLUpRRXdGWHdTNXVQYWlTdTR0WUtmZFd2dEpFU01TenFYOTBmQ0JNd01HNTRtYVRYSHk0RXJnMlpyQ1Izbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORFliV2xHSjFCd3pzd084WTFQcElmTWhlVmxTMmFYYWcyZ2g1UTFZS3VXNm83eTlVdk9tN0Ywbm9wT0JodHFkUl8xem9NVEd2d01ETmp1TFlpcldscTlWd0ViUS1CTkxfeDFWRmJaUXNfajB0UzJia1EycTZHTEVTNnRLSGtpb1oyVVlfR0UyTUtFYnYxUVB5V1p6Qkw4YkNEU2ljZ0p2Z3ZPZnFR0gGoAUFVX3lxTE01VDlpY0tWREVQZmllS0NZdC0wcXRQOTFmOUFTNkZ2SzUtNVJzX2QxX2N6S2xuSnNOeEt2cFZ0S0dmejZhemR0Mi13Mk5kdVMySU1vZjQyMlpRR2kxXzBtNFhhTTNiUVNjNk1pLUpRRXdGWHdTNXVQYWlTdTR0WUtmZFd2dEpFU01TenFYOTBmQ0JNd01HNTRtYVRYSHk0RXJnMlpyQ1Izbw?oc=5",
+      "source": "The News International",
+      "category": "World",
+      "publishedAt": "2026-11-15T08:42:00Z"
     },
     {
       "id": "9eb1ce88a0fc05fddb0d",
@@ -314,16 +421,6 @@
       "publishedAt": "2026-11-15T08:26:46Z"
     },
     {
-      "id": "6a481e6d7410326d4709",
-      "title": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience - ET Government",
-      "description": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience ET Government",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
-      "source": "ET Government",
-      "category": "India",
-      "publishedAt": "2026-11-15T07:57:58Z"
-    },
-    {
       "id": "a76590522795764cf4df",
       "title": "APEC CEO Summit 2026: Xi Jinping and global leaders from Pacific economies to attend in Shenzhen - The Economic Times",
       "description": "APEC CEO Summit 2026: Xi Jinping and global leaders from Pacific economies to attend in Shenzhen The Economic Times",
@@ -332,6 +429,26 @@
       "source": "The Economic Times",
       "category": "World",
       "publishedAt": "2026-11-15T07:50:21Z"
+    },
+    {
+      "id": "faee354dc974e181575d",
+      "title": "AI detectors unfairly penalise international students - University World News",
+      "description": "AI detectors unfairly penalise international students University World News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PRExfSkh4a0xNbGo1amc5ZzJsNkJnNjZtdDc1aDZaVzFVaXR0RC1QS0l5Nzk3bFoxY18tWVlpc091aW02WGx1QThPdEZNVUZ3T3Zfa3BSWHQyQ0NCaEhsMkl1dktRRFBqaTg2RjQycmlqYzVhd3ZN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PRExfSkh4a0xNbGo1amc5ZzJsNkJnNjZtdDc1aDZaVzFVaXR0RC1QS0l5Nzk3bFoxY18tWVlpc091aW02WGx1QThPdEZNVUZ3T3Zfa3BSWHQyQ0NCaEhsMkl1dktRRFBqaTg2RjQycmlqYzVhd3ZN?oc=5",
+      "source": "University World News",
+      "category": "World",
+      "publishedAt": "2026-11-15T07:00:40Z"
+    },
+    {
+      "id": "4a0e1cb54ef4a11ad8f0",
+      "title": "Baguio eyes P1.69B in infrastructure, tourism projects for 2027 - Daily Tribune",
+      "description": "Baguio eyes P1.69B in infrastructure, tourism projects for 2027 Daily Tribune",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNzlHX21UdW1tWXVHdjN4QldpWVNVMnRsdHprWk1HWllHTVB6RW9TRURJdENpR0wtbi1pWFZxS19KTDh6TG45UzJwUWRDUV95dXZRUUQzcTNxS1RwSG94OE5jRk9GV0kwMlVucC1fZ3dqdEN6azdCMEpVa1dXWUtkRHFSOTNMdjhlRk56bVZqVlZnVU9ZUXM3RkIyYw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNzlHX21UdW1tWXVHdjN4QldpWVNVMnRsdHprWk1HWllHTVB6RW9TRURJdENpR0wtbi1pWFZxS19KTDh6TG45UzJwUWRDUV95dXZRUUQzcTNxS1RwSG94OE5jRk9GV0kwMlVucC1fZ3dqdEN6azdCMEpVa1dXWUtkRHFSOTNMdjhlRk56bVZqVlZnVU9ZUXM3RkIyYw?oc=5",
+      "source": "Daily Tribune",
+      "category": "India",
+      "publishedAt": "2026-11-15T05:13:12Z"
     },
     {
       "id": "a99ab6bff89f3f80cd97",
@@ -594,16 +711,6 @@
       "publishedAt": "2026-11-14T08:49:12Z"
     },
     {
-      "id": "bfb0762223102f72d4da",
-      "title": "'Tool of the global elite': Marco Rubio takes aim at ICC in warning over international law - The Economic Times",
-      "description": "'Tool of the global elite': Marco Rubio takes aim at ICC in warning over international law The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ1BWMEgwWTV1UFNlWFhidUlTVl9HbFgwVlJrdWN6Z0IzU0RCdXBLcGFLMDNfZlg0aTBzVFZwNnZaWU5GY2MyOC1PdUI5b2h1Ml90S2Nkc0ZYNkdBZnBIbGNNRngtUzh1ZXhDOUVaSGJBQi05cDVobDVESkxiZnZUbmVDTmZ0Y1VfRDhWNmFHUU53bkJFVW1VV0sxLXdDWlNGRi1xb2R0OUt4NmtGMmN0c3E4SFc3Rm1UaWJrakdGTG9uTUJFMWRLblgyWHpRa0VLcUJGcGpGYU9SOUxxTFM5T2JpdGloNEJFNmtVcnNtTTVmQjFIQURKRWNYS2xwNmtacktr0gGIAkFVX3lxTE9hdnZJZTRhbWFyZmUxcXVudHRuMlRkaHlWendiOENobko4cHZWeUFzLWVFTkJwS0VueXFpVGtLX25LakstcW0zcEQ2bjJqNDRSTGRoTzFlYmJQMkd5anVLWVQyRnlucUhjNElQdnhWR2UyNTdYcS1Xck5VRnVJMFNMOE04aWZJdVF2ZS1FTmd2ZktMMmd3Qktoa3JfZVFDR1IwSWtWMlBTYjM0NVpKUTk5c0V0NTg1MnFRX2hvWllQYXJUYkFrTTRRZTJuY2RYREhuNmZaNGt3d2l4c1QwdHp5eHcyQURlVWVlMjNaaFh5Q1lXSEg0SXo5WUhFRV9JblZxelFjaDY1ag?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ1BWMEgwWTV1UFNlWFhidUlTVl9HbFgwVlJrdWN6Z0IzU0RCdXBLcGFLMDNfZlg0aTBzVFZwNnZaWU5GY2MyOC1PdUI5b2h1Ml90S2Nkc0ZYNkdBZnBIbGNNRngtUzh1ZXhDOUVaSGJBQi05cDVobDVESkxiZnZUbmVDTmZ0Y1VfRDhWNmFHUU53bkJFVW1VV0sxLXdDWlNGRi1xb2R0OUt4NmtGMmN0c3E4SFc3Rm1UaWJrakdGTG9uTUJFMWRLblgyWHpRa0VLcUJGcGpGYU9SOUxxTFM5T2JpdGloNEJFNmtVcnNtTTVmQjFIQURKRWNYS2xwNmtacktr0gGIAkFVX3lxTE9hdnZJZTRhbWFyZmUxcXVudHRuMlRkaHlWendiOENobko4cHZWeUFzLWVFTkJwS0VueXFpVGtLX25LakstcW0zcEQ2bjJqNDRSTGRoTzFlYmJQMkd5anVLWVQyRnlucUhjNElQdnhWR2UyNTdYcS1Xck5VRnVJMFNMOE04aWZJdVF2ZS1FTmd2ZktMMmd3Qktoa3JfZVFDR1IwSWtWMlBTYjM0NVpKUTk5c0V0NTg1MnFRX2hvWllQYXJUYkFrTTRRZTJuY2RYREhuNmZaNGt3d2l4c1QwdHp5eHcyQURlVWVlMjNaaFh5Q1lXSEg0SXo5WUhFRV9JblZxelFjaDY1ag?oc=5",
-      "source": "The Economic Times",
-      "category": "World",
-      "publishedAt": "2026-11-14T08:38:46Z"
-    },
-    {
       "id": "89b673c3032eee32a80f",
       "title": "The World’s Best Japanese Whisky—According To The 2026 International Spirits Challenge - Forbes",
       "description": "The World’s Best Japanese Whisky—According To The 2026 International Spirits Challenge Forbes",
@@ -622,6 +729,16 @@
       "source": "Myanmar International TV",
       "category": "World",
       "publishedAt": "2026-11-14T07:32:09Z"
+    },
+    {
+      "id": "3681c6c6d49c0bed28e2",
+      "title": "Microsoft restores service to Outlook and Teams after global outage - Reuters",
+      "description": "Microsoft restores service to Outlook and Teams after global outage Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWpWeUZnbllhcFk4WktZS0s3T1N6T3k3Vnhhd3pfSE9SWF9iRmRIQUljdHZXN0UtWS1uZS1rbUNZSlVPd1NXLXRtVUVtc3NQNTgxMVFMWjVnT3pPb09EX1g1YUx3WkF2VHk0bUMwWlhkRHdpT0JFRE5SQ3pQRkdmSnpUOHNXLUo1dXNSY3lFdkpSdU5laDdwSlhWRDVnNjBFcUh2Y0FwMXNldE8tSFpPaw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWpWeUZnbllhcFk4WktZS0s3T1N6T3k3Vnhhd3pfSE9SWF9iRmRIQUljdHZXN0UtWS1uZS1rbUNZSlVPd1NXLXRtVUVtc3NQNTgxMVFMWjVnT3pPb09EX1g1YUx3WkF2VHk0bUMwWlhkRHdpT0JFRE5SQ3pQRkdmSnpUOHNXLUo1dXNSY3lFdkpSdU5laDdwSlhWRDVnNjBFcUh2Y0FwMXNldE8tSFpPaw?oc=5",
+      "source": "Reuters",
+      "category": "World",
+      "publishedAt": "2026-11-14T07:24:34Z"
     },
     {
       "id": "ad6c6bde5597ab621720",
@@ -1392,16 +1509,6 @@
       "source": "The Economic Times",
       "category": "World",
       "publishedAt": "2026-11-12T18:55:59Z"
-    },
-    {
-      "id": "3681c6c6d49c0bed28e2",
-      "title": "Hours-long Microsoft outage disrupts businesses, governments globally - Reuters",
-      "description": "Hours-long Microsoft outage disrupts businesses, governments globally Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWpWeUZnbllhcFk4WktZS0s3T1N6T3k3Vnhhd3pfSE9SWF9iRmRIQUljdHZXN0UtWS1uZS1rbUNZSlVPd1NXLXRtVUVtc3NQNTgxMVFMWjVnT3pPb09EX1g1YUx3WkF2VHk0bUMwWlhkRHdpT0JFRE5SQ3pQRkdmSnpUOHNXLUo1dXNSY3lFdkpSdU5laDdwSlhWRDVnNjBFcUh2Y0FwMXNldE8tSFpPaw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWpWeUZnbllhcFk4WktZS0s3T1N6T3k3Vnhhd3pfSE9SWF9iRmRIQUljdHZXN0UtWS1uZS1rbUNZSlVPd1NXLXRtVUVtc3NQNTgxMVFMWjVnT3pPb09EX1g1YUx3WkF2VHk0bUMwWlhkRHdpT0JFRE5SQ3pQRkdmSnpUOHNXLUo1dXNSY3lFdkpSdU5laDdwSlhWRDVnNjBFcUh2Y0FwMXNldE8tSFpPaw?oc=5",
-      "source": "Reuters",
-      "category": "World",
-      "publishedAt": "2026-11-12T18:32:00Z"
     },
     {
       "id": "72f0bda46c9e4634d050",
@@ -2504,6 +2611,6 @@
       "publishedAt": "2026-11-08T20:31:58Z"
     }
   ],
-  "lastUpdated": "2026-11-15T10:41:40Z",
-  "updatedAt": "2026-11-15T10:41:40Z"
+  "lastUpdated": "2026-11-15T17:37:04Z",
+  "updatedAt": "2026-11-15T17:37:04Z"
 }
