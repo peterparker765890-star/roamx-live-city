@@ -1,1944 +1,1328 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0b0c10">
-  <meta name="description" content="ROAMX — a daily awareness platform for world news, live navigation, weather, environmental conditions, pollution monitoring and disaster preparedness.">
-  <title>ROAMX — Daily Awareness, Elevated</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-
-  <style>
-    :root {
-      color-scheme: dark;
-      --bg: #0b0c10;
-      --bg-soft: #101217;
-      --panel: #14171d;
-      --panel-2: #191d24;
-      --panel-3: #20252d;
-      --line: rgba(224, 208, 174, .14);
-      --line-strong: rgba(224, 208, 174, .27);
-      --text: #f3f0e9;
-      --muted: #a7a49d;
-      --subtle: #777a80;
-      --gold: #d7bd86;
-      --gold-bright: #ead6a9;
-      --green: #8ec7a5;
-      --red: #e58d86;
-      --blue: #9db9d6;
-      --radius: 22px;
-      --shadow: 0 24px 70px rgba(0,0,0,.28);
-      --max: 1220px;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 100px;
-    }
-
-    body {
-      min-height: 100vh;
-      background:
-        radial-gradient(ellipse at 12% -10%, rgba(190,160,104,.10), transparent 34%),
-        radial-gradient(ellipse at 95% 18%, rgba(107,130,151,.08), transparent 29%),
-        var(--bg);
-      color: var(--text);
-      font-family: "DM Sans", sans-serif;
-      line-height: 1.65;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    button {
-      font: inherit;
-      cursor: pointer;
-    }
-
-    button:focus-visible,
-    a:focus-visible {
-      outline: 2px solid var(--gold-bright);
-      outline-offset: 4px;
-    }
-
-    .shell {
-      width: min(var(--max), calc(100% - 48px));
-      margin-inline: auto;
-    }
-
-    .topline {
-      height: 3px;
-      background: linear-gradient(90deg, transparent, var(--gold), #f0e0bd, var(--gold), transparent);
-      opacity: .8;
-    }
-
-    /* HEADER AND NAVIGATION */
-
-    .site-header {
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      background: rgba(11,12,16,.88);
-      backdrop-filter: blur(20px);
-      border-bottom: 1px solid var(--line);
-    }
-
-    .nav-wrap {
-      min-height: 82px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 28px;
-    }
-
-    .brand {
-      display: inline-flex;
-      align-items: center;
-      gap: 13px;
-      flex-shrink: 0;
-    }
-
-    .brand-mark {
-      width: 39px;
-      height: 39px;
-      display: grid;
-      place-items: center;
-      border: 1px solid rgba(215,189,134,.62);
-      border-radius: 12px;
-      color: var(--gold-bright);
-      font: 700 19px Manrope, sans-serif;
-      background: linear-gradient(145deg, rgba(215,189,134,.15), rgba(215,189,134,.025));
-      box-shadow: inset 0 0 18px rgba(215,189,134,.06);
-    }
-
-    .brand-name {
-      font: 800 23px Manrope, sans-serif;
-      letter-spacing: .19em;
-    }
-
-    .brand-name span {
-      color: var(--gold);
-    }
-
-    .brand-caption {
-      display: block;
-      margin-top: -3px;
-      color: var(--subtle);
-      font-size: 8px;
-      letter-spacing: .23em;
-      text-transform: uppercase;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: clamp(17px, 2.5vw, 34px);
-    }
-
-    .nav-links a {
-      color: #b8b6b0;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: .09em;
-      text-transform: uppercase;
-      transition: color .2s;
-    }
-
-    .nav-links a:hover,
-    .nav-links a[aria-current="page"] {
-      color: var(--gold-bright);
-    }
-
-    .nav-cta {
-      padding: 10px 15px;
-      border: 1px solid var(--line-strong);
-      border-radius: 999px;
-      color: var(--gold-bright) !important;
-    }
-
-    .menu-toggle {
-      display: none;
-      border: 1px solid var(--line);
-      border-radius: 11px;
-      padding: 9px 12px;
-      color: var(--text);
-      background: var(--panel);
-    }
-
-    /* SHARED TYPOGRAPHY */
-
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      color: var(--gold);
-      font-size: 9px;
-      font-weight: 800;
-      letter-spacing: .24em;
-      text-transform: uppercase;
-    }
-
-    .eyebrow::before {
-      content: "";
-      width: 24px;
-      height: 1px;
-      background: var(--gold);
-      opacity: .8;
-    }
-
-    .section-head {
-      display: flex;
-      justify-content: space-between;
-      align-items: end;
-      gap: 22px;
-      margin-bottom: 25px;
-    }
-
-    .section-head h2 {
-      margin-top: 8px;
-      font: 600 clamp(25px, 3vw, 34px)/1.2 "Playfair Display", serif;
-      letter-spacing: -.02em;
-    }
-
-    .section-head p {
-      margin-top: 7px;
-      color: var(--muted);
-      font-size: 12px;
-    }
-
-    .text-link {
-      color: var(--gold-bright);
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: .06em;
-      white-space: nowrap;
-    }
-
-    .text-link:hover {
-      color: #fff0ce;
-    }
-
-    .surface {
-      background: linear-gradient(145deg, rgba(25,29,36,.96), rgba(17,19,24,.98));
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-    }
-
-    .muted {
-      color: var(--muted);
-    }
-
-    /* HERO */
-
-    .hero {
-      padding: 54px 0 30px;
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: minmax(0,1.55fr) minmax(270px,.75fr);
-      gap: 18px;
-    }
-
-    .hero-main {
-      min-height: 365px;
-      position: relative;
-      overflow: hidden;
-      padding: clamp(28px,5vw,58px);
-      border: 1px solid var(--line-strong);
-      border-radius: 28px;
-      background:
-        linear-gradient(105deg, rgba(12,14,18,.98) 8%, rgba(20,22,27,.94) 62%, rgba(31,29,24,.88)),
-        radial-gradient(circle at 85% 22%, rgba(215,189,134,.2), transparent 34%);
-      box-shadow: var(--shadow);
-    }
-
-    .hero-main::before {
-      content: "X";
-      position: absolute;
-      right: 3%;
-      bottom: -27%;
-      font: 700 clamp(220px,34vw,430px)/1 Manrope,sans-serif;
-      color: rgba(215,189,134,.035);
-      pointer-events: none;
-      transform: rotate(-8deg);
-    }
-
-    .hero-main::after {
-      content: "";
-      position: absolute;
-      width: 330px;
-      height: 330px;
-      right: 3%;
-      top: -42%;
-      border: 1px solid rgba(215,189,134,.15);
-      border-radius: 50%;
-      box-shadow: 0 0 0 35px rgba(215,189,134,.018), 0 0 0 75px rgba(215,189,134,.014);
-      pointer-events: none;
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 1;
-      max-width: 670px;
-    }
-
-    .live-indicator {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: var(--green);
-      box-shadow: 0 0 12px rgba(142,199,165,.8);
-    }
-
-    .hero h1 {
-      margin-top: 23px;
-      font: 600 clamp(42px,6.2vw,72px)/1.04 "Playfair Display",serif;
-      letter-spacing: -.035em;
-    }
-
-    .hero h1 em {
-      color: var(--gold-bright);
-      font-style: normal;
-    }
-
-    .hero-copy {
-      max-width: 535px;
-      margin-top: 19px;
-      color: #b4b2ad;
-      font-size: 13px;
-      line-height: 1.9;
-    }
-
-    .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 11px;
-      margin-top: 29px;
-    }
-
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 9px;
-      min-height: 43px;
-      padding: 0 18px;
-      border-radius: 999px;
-      font-size: 10px;
-      font-weight: 800;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      transition: transform .2s, background .2s, border-color .2s;
-    }
-
-    .btn:hover {
-      transform: translateY(-2px);
-    }
-
-    .btn-gold {
-      background: linear-gradient(135deg,#e8d6ad,#c8ad75);
-      color: #191710;
-      border: 1px solid #e8d6ad;
-    }
-
-    .btn-outline {
-      border: 1px solid var(--line-strong);
-      color: var(--text);
-      background: rgba(255,255,255,.025);
-    }
-
-    .btn-outline:hover {
-      border-color: var(--gold);
-      color: var(--gold-bright);
-    }
-
-    .hero-side {
-      padding: 26px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      min-height: 365px;
-    }
-
-    .side-label {
-      color: var(--subtle);
-      font-size: 9px;
-      font-weight: 800;
-      letter-spacing: .2em;
-      text-transform: uppercase;
-    }
-
-    .clock {
-      margin-top: 10px;
-      font: 600 clamp(36px,4vw,49px)/1.1 Manrope,sans-serif;
-      letter-spacing: -.055em;
-      font-variant-numeric: tabular-nums;
-    }
-
-    .date {
-      margin-top: 7px;
-      color: var(--muted);
-      font-size: 11px;
-    }
-
-    .side-rule {
-      height: 1px;
-      margin: 21px 0;
-      background: var(--line);
-    }
-
-    .status-list {
-      display: grid;
-      gap: 13px;
-    }
-
-    .status-item {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      font-size: 10px;
-    }
-
-    .status-item span:first-child {
-      color: var(--muted);
-    }
-
-    .status-value {
-      color: var(--green);
-      font-weight: 800;
-      letter-spacing: .06em;
-    }
-
-    .status-value.neutral {
-      color: var(--gold);
-    }
-
-    .location-note {
-      margin-top: 17px;
-      padding: 12px 13px;
-      border: 1px solid var(--line);
-      border-radius: 13px;
-      color: var(--muted);
-      font-size: 10px;
-      line-height: 1.6;
-    }
-
-    /* FEATURE DIRECTORY */
-
-    .section {
-      padding: 35px 0;
-    }
-
-    .feature-grid {
-      display: grid;
-      grid-template-columns: repeat(5,minmax(0,1fr));
-      gap: 13px;
-    }
-
-    .feature-card {
-      min-height: 206px;
-      display: flex;
-      flex-direction: column;
-      padding: 21px;
-      border: 1px solid var(--line);
-      border-radius: 19px;
-      background: linear-gradient(150deg,rgba(25,29,36,.96),rgba(17,19,24,.98));
-      transition: transform .22s,border-color .22s,background .22s;
-    }
-
-    .feature-card:hover {
-      transform: translateY(-4px);
-      border-color: var(--line-strong);
-      background: linear-gradient(150deg,#20242b,#171a20);
-    }
-
-    .feature-top {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .feature-icon {
-      width: 43px;
-      height: 43px;
-      display: grid;
-      place-items: center;
-      border: 1px solid rgba(215,189,134,.2);
-      border-radius: 14px;
-      color: var(--gold-bright);
-      background: rgba(215,189,134,.07);
-      font-size: 19px;
-    }
-
-    .feature-index {
-      color: #77746d;
-      font: 600 10px Manrope,sans-serif;
-      letter-spacing: .13em;
-    }
-
-    .feature-card h3 {
-      margin-top: 21px;
-      font: 700 14px Manrope,sans-serif;
-      letter-spacing: -.01em;
-    }
-
-    .feature-card p {
-      margin-top: 7px;
-      color: var(--muted);
-      font-size: 10px;
-      line-height: 1.75;
-    }
-
-    .feature-foot {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: auto;
-      padding-top: 16px;
-      color: var(--gold);
-      font-size: 9px;
-      font-weight: 800;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-    }
-
-    /* NEWS AREA */
-
-    .news-section {
-      padding-top: 37px;
-    }
-
-    .news-panel {
-      padding: clamp(18px,3vw,28px);
-      border: 1px solid var(--line);
-      border-radius: 23px;
-      background: rgba(17,19,24,.78);
-    }
-
-    .news-toolbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 15px;
-      flex-wrap: wrap;
-      margin-bottom: 20px;
-    }
-
-    .filters {
-      display: flex;
-      gap: 7px;
-      flex-wrap: wrap;
-    }
-
-    .filter {
-      padding: 8px 12px;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      color: var(--muted);
-      background: #15181e;
-      font-size: 9px;
-      font-weight: 800;
-      letter-spacing: .06em;
-      transition: .2s;
-    }
-
-    .filter:hover,
-    .filter.active {
-      border-color: rgba(215,189,134,.5);
-      color: var(--gold-bright);
-      background: rgba(215,189,134,.08);
-    }
-
-    .refresh {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 9px 14px;
-      border: 1px solid var(--line-strong);
-      border-radius: 999px;
-      color: var(--gold-bright);
-      background: transparent;
-      font-size: 9px;
-      font-weight: 800;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-
-    .refresh:hover {
-      background: rgba(215,189,134,.08);
-    }
-
-    .refresh:disabled {
-      opacity: .55;
-      cursor: wait;
-    }
-
-    .news-grid {
-      display: grid;
-      grid-template-columns: repeat(3,minmax(0,1fr));
-      gap: 12px;
-    }
-
-    .news-card {
-      min-height: 205px;
-      display: flex;
-      flex-direction: column;
-      padding: 18px;
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      background: linear-gradient(145deg,#1a1e25,#14171c);
-      transition: border-color .2s,transform .2s;
-    }
-
-    .news-card:hover {
-      transform: translateY(-3px);
-      border-color: rgba(215,189,134,.35);
-    }
-
-    .news-meta {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 9px;
-      color: var(--subtle);
-      font-size: 8px;
-      font-weight: 800;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-    }
-
-    .news-source {
-      max-width: 65%;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      color: var(--gold);
-    }
-
-    .news-category {
-      color: #aeb8c4;
-    }
-
-    .news-card h3 {
-      margin-top: 14px;
-      font: 700 14px/1.5 Manrope,sans-serif;
-    }
-
-    .news-card h3 a:hover {
-      color: var(--gold-bright);
-    }
-
-    .news-description {
-      margin-top: 8px;
-      color: var(--muted);
-      font-size: 10px;
-      line-height: 1.65;
-    }
-
-    .news-bottom {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 10px;
-      margin-top: auto;
-      padding-top: 15px;
-    }
-
-    .news-time {
-      color: var(--subtle);
-      font-size: 9px;
-    }
-
-    .read-link {
-      color: var(--gold-bright);
-      font-size: 9px;
-      font-weight: 800;
-      letter-spacing: .06em;
-      white-space: nowrap;
-    }
-
-    .new-tag {
-      display: inline-flex;
-      align-items: center;
-      margin-left: 6px;
-      padding: 2px 6px;
-      border: 1px solid rgba(142,199,165,.35);
-      border-radius: 999px;
-      color: var(--green);
-      font-size: 7px;
-      letter-spacing: .08em;
-      vertical-align: middle;
-    }
-
-    .news-state {
-      grid-column: 1/-1;
-      padding: 35px 18px;
-      text-align: center;
-      border: 1px dashed var(--line-strong);
-      border-radius: 16px;
-      color: var(--muted);
-    }
-
-    .news-state strong {
-      display: block;
-      margin-bottom: 5px;
-      color: var(--text);
-      font: 600 16px "Playfair Display",serif;
-    }
-
-    .news-state p {
-      font-size: 10px;
-    }
-
-    .news-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 15px;
-      margin-top: 15px;
-      color: var(--subtle);
-      font-size: 9px;
-    }
-
-    .news-footer strong {
-      color: var(--muted);
-      font-weight: 600;
-    }
-
-    /* FOOTER */
-
-    .site-footer {
-      margin-top: 50px;
-      border-top: 1px solid var(--line);
-      background: rgba(8,9,12,.55);
-    }
-
-    .footer-main {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 20px;
-      padding: 27px 0;
-    }
-
-    .footer-motto {
-      margin-top: 4px;
-      color: var(--muted);
-      font-size: 10px;
-    }
-
-    .footer-note {
-      max-width: 420px;
-      color: var(--subtle);
-      font-size: 9px;
-      text-align: right;
-    }
-
-    .developer-credit {
-      padding: 15px 20px 20px;
-      border-top: 1px solid var(--line);
-      color: #a49d8d;
-      text-align: center;
-      font-size: 10px;
-      letter-spacing: .08em;
-    }
-
-    /* RESPONSIVE DESIGN */
-
-    @media (max-width: 980px) {
-      .feature-grid {
-        grid-template-columns: repeat(2,minmax(0,1fr));
-      }
-
-      .news-grid {
-        grid-template-columns: repeat(2,minmax(0,1fr));
-      }
-
-      .nav-links {
-        gap: 15px;
-      }
-
-      .nav-links a {
-        font-size: 9px;
-      }
-    }
-
-    @media (max-width: 720px) {
-      .shell {
-        width: min(100% - 32px,var(--max));
-      }
-
-      .nav-wrap {
-        min-height: 72px;
-      }
-
-      .menu-toggle {
-        display: block;
-      }
-
-      .nav-links {
-        display: none;
-        position: absolute;
-        top: 72px;
-        left: 0;
-        right: 0;
-        padding: 12px 18px 18px;
-        background: rgba(13,15,19,.98);
-        border-bottom: 1px solid var(--line);
-        flex-direction: column;
-        align-items: stretch;
-        gap: 0;
-      }
-
-      .nav-links.open {
-        display: flex;
-      }
-
-      .nav-links a {
-        padding: 13px 4px;
-        font-size: 10px;
-      }
-
-      .nav-cta {
-        margin-top: 7px;
-        text-align: center;
-      }
-
-      .hero {
-        padding-top: 28px;
-      }
-
-      .hero-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-main {
-        min-height: 340px;
-      }
-
-      .hero-side {
-        min-height: 255px;
-      }
-
-      .section {
-        padding: 27px 0;
-      }
-
-      .section-head {
-        align-items: start;
-      }
-
-      .news-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .news-card {
-        min-height: 175px;
-      }
-
-      .news-footer {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-
-      .footer-main {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-
-      .footer-note {
-        text-align: left;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .brand-name {
-        font-size: 20px;
-      }
-
-      .hero-main {
-        padding: 25px 22px;
-      }
-
-      .hero h1 {
-        font-size: 43px;
-      }
-
-      .feature-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .feature-card {
-        min-height: 175px;
-      }
-
-      .section-head {
-        flex-direction: column;
-        gap: 10px;
-      }
-
-      .news-toolbar {
-        align-items: flex-start;
-      }
-
-      .filters {
-        gap: 6px;
-      }
-
-      .filter {
-        padding: 7px 10px;
-      }
-
-      .refresh {
-        margin-left: auto;
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      *,
-      *::before,
-      *::after {
-        scroll-behavior: auto !important;
-        transition-duration: .01ms !important;
-        animation-duration: .01ms !important;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b0c10">
+<meta name="description" content="ROAMX — Explore smarter. Live safer. A global awareness and community resilience platform.">
+<title>ROAMX</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  color-scheme: dark;
+  --bg:#0b0c10;
+  --panel:#15181e;
+  --panel2:#1b1f26;
+  --gold:#d7bd86;
+  --gold2:#ead6a9;
+  --text:#f3f0e9;
+  --muted:#a7a49d;
+  --line:rgba(224,208,174,.15);
+  --green:#8ec7a5;
+  --max:1220px;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+
+body{
+  min-height:100vh;
+  background:
+    radial-gradient(ellipse at 12% -10%,rgba(190,160,104,.10),transparent 34%),
+    radial-gradient(ellipse at 95% 18%,rgba(107,130,151,.08),transparent 29%),
+    var(--bg);
+  color:var(--text);
+  font-family:"DM Sans",sans-serif;
+  line-height:1.65;
+}
+
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer}
+.shell{width:min(var(--max),calc(100% - 48px));margin:auto}
+
+.topline{
+  height:3px;
+  background:linear-gradient(90deg,transparent,var(--gold),#f0e0bd,var(--gold),transparent);
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:50;
+  background:rgba(11,12,16,.91);
+  backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--line);
+}
+
+.nav-wrap{
+  min-height:82px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:25px;
+}
+
+.brand{display:flex;align-items:center;gap:13px}
+
+.brand-mark{
+  width:40px;height:40px;
+  display:grid;place-items:center;
+  border:1px solid rgba(215,189,134,.6);
+  border-radius:12px;
+  color:var(--gold2);
+  font:700 20px Manrope;
+  background:rgba(215,189,134,.08);
+}
+
+.brand-name{
+  font:800 23px Manrope;
+  letter-spacing:.19em;
+}
+
+.brand-name span{color:var(--gold)}
+
+.brand-caption{
+  display:block;
+  margin-top:-3px;
+  color:#777a80;
+  font-size:8px;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+}
+
+.nav-links{
+  display:flex;
+  align-items:center;
+  gap:clamp(12px,2vw,27px);
+}
+
+.nav-links a{
+  color:#b8b6b0;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  transition:.2s;
+}
+
+.nav-links a:hover{color:var(--gold2)}
+
+.nav-cta{
+  padding:10px 14px;
+  border:1px solid rgba(215,189,134,.35);
+  border-radius:999px;
+  color:var(--gold2)!important;
+}
+
+.menu-toggle{
+  display:none;
+  padding:9px 12px;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:var(--panel);
+  color:var(--text);
+}
+
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  color:var(--gold);
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.23em;
+  text-transform:uppercase;
+}
+
+.eyebrow:before{
+  content:"";
+  width:23px;
+  height:1px;
+  background:var(--gold);
+}
+
+.hero{padding:54px 0 30px}
+
+.hero-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.55fr) minmax(270px,.75fr);
+  gap:18px;
+}
+
+.hero-main{
+  min-height:365px;
+  position:relative;
+  overflow:hidden;
+  padding:clamp(28px,5vw,58px);
+  border:1px solid rgba(224,208,174,.27);
+  border-radius:28px;
+  background:
+    linear-gradient(105deg,rgba(12,14,18,.98),rgba(20,22,27,.94),rgba(31,29,24,.88)),
+    radial-gradient(circle at 85% 22%,rgba(215,189,134,.2),transparent 34%);
+  box-shadow:0 24px 70px rgba(0,0,0,.28);
+}
+
+.hero-main:before{
+  content:"X";
+  position:absolute;
+  right:3%;
+  bottom:-27%;
+  font:700 clamp(220px,34vw,430px)/1 Manrope;
+  color:rgba(215,189,134,.035);
+  pointer-events:none;
+}
+
+.hero-content{position:relative;z-index:1;max-width:670px}
+
+.live-indicator{
+  width:6px;height:6px;
+  border-radius:50%;
+  background:var(--green);
+  box-shadow:0 0 12px rgba(142,199,165,.8);
+}
+
+.hero h1{
+  margin-top:23px;
+  font:600 clamp(42px,6.2vw,72px)/1.04 "Playfair Display",serif;
+  letter-spacing:-.035em;
+}
+
+.hero h1 em{color:var(--gold2);font-style:normal}
+
+.hero-copy{
+  max-width:535px;
+  margin-top:19px;
+  color:#b4b2ad;
+  font-size:13px;
+  line-height:1.9;
+}
+
+.hero-actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:29px}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  min-height:43px;
+  padding:0 18px;
+  border-radius:999px;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  transition:.2s;
+}
+
+.btn:hover{transform:translateY(-2px)}
+
+.btn-gold{
+  background:linear-gradient(135deg,#e8d6ad,#c8ad75);
+  color:#191710;
+  border:1px solid #e8d6ad;
+}
+
+.btn-outline{
+  border:1px solid rgba(224,208,174,.27);
+  color:var(--text);
+  background:rgba(255,255,255,.025);
+}
+
+.btn-outline:hover{border-color:var(--gold);color:var(--gold2)}
+
+.surface{
+  background:linear-gradient(145deg,rgba(25,29,36,.96),rgba(17,19,24,.98));
+  border:1px solid var(--line);
+  border-radius:22px;
+}
+
+.hero-side{
+  padding:26px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  min-height:365px;
+}
+
+.side-label{
+  color:#777a80;
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+}
+
+.clock{
+  margin-top:10px;
+  font:600 clamp(36px,4vw,49px)/1.1 Manrope;
+  letter-spacing:-.055em;
+  font-variant-numeric:tabular-nums;
+}
+
+.date{margin-top:7px;color:var(--muted);font-size:11px}
+
+.side-rule{height:1px;margin:21px 0;background:var(--line)}
+
+.status-list{display:grid;gap:13px}
+
+.status-item{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  font-size:10px;
+}
+
+.status-item span:first-child{color:var(--muted)}
+.status-value{color:var(--green);font-weight:800}
+.status-value.neutral{color:var(--gold)}
+
+.location-note{
+  margin-top:17px;
+  padding:12px 13px;
+  border:1px solid var(--line);
+  border-radius:13px;
+  color:var(--muted);
+  font-size:10px;
+  line-height:1.6;
+}
+
+.section{padding:35px 0}
+
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:22px;
+  margin-bottom:25px;
+}
+
+.section-head h2{
+  margin-top:8px;
+  font:600 clamp(25px,3vw,34px)/1.2 "Playfair Display",serif;
+}
+
+.section-head p{margin-top:7px;color:var(--muted);font-size:12px}
+
+.text-link{
+  color:var(--gold2);
+  font-size:11px;
+  font-weight:800;
+}
+
+.feature-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:13px;
+}
+
+.feature-card{
+  min-height:206px;
+  display:flex;
+  flex-direction:column;
+  padding:21px;
+  border:1px solid var(--line);
+  border-radius:19px;
+  background:linear-gradient(150deg,rgba(25,29,36,.96),rgba(17,19,24,.98));
+  transition:transform .22s,border-color .22s;
+}
+
+.feature-card:hover{
+  transform:translateY(-4px);
+  border-color:rgba(224,208,174,.35);
+}
+
+.feature-top{display:flex;align-items:center;justify-content:space-between}
+
+.feature-icon{
+  width:43px;height:43px;
+  display:grid;place-items:center;
+  border:1px solid rgba(215,189,134,.2);
+  border-radius:14px;
+  color:var(--gold2);
+  background:rgba(215,189,134,.07);
+  font-size:19px;
+}
+
+.feature-index{
+  color:#77746d;
+  font:600 10px Manrope;
+  letter-spacing:.13em;
+}
+
+.feature-card h3{
+  margin-top:21px;
+  font:700 14px Manrope;
+}
+
+.feature-card p{
+  margin-top:7px;
+  color:var(--muted);
+  font-size:10px;
+  line-height:1.75;
+}
+
+.feature-foot{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-top:auto;
+  padding-top:16px;
+  color:var(--gold);
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+}
+
+.news-section{padding-top:37px}
+
+.news-panel{
+  padding:clamp(18px,3vw,28px);
+  border:1px solid var(--line);
+  border-radius:23px;
+  background:rgba(17,19,24,.78);
+}
+
+.news-toolbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:15px;
+  flex-wrap:wrap;
+  margin-bottom:20px;
+}
+
+.filters{display:flex;gap:7px;flex-wrap:wrap}
+
+.filter{
+  padding:8px 12px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  color:var(--muted);
+  background:#15181e;
+  font-size:9px;
+  font-weight:800;
+}
+
+.filter:hover,.filter.active{
+  border-color:rgba(215,189,134,.5);
+  color:var(--gold2);
+  background:rgba(215,189,134,.08);
+}
+
+.refresh{
+  padding:9px 14px;
+  border:1px solid rgba(224,208,174,.27);
+  border-radius:999px;
+  color:var(--gold2);
+  background:transparent;
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+.refresh:disabled{opacity:.55;cursor:wait}
+
+.news-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+}
+
+.news-card{
+  min-height:205px;
+  display:flex;
+  flex-direction:column;
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:16px;
+  background:linear-gradient(145deg,#1a1e25,#14171c);
+  transition:.2s;
+}
+
+.news-card:hover{
+  transform:translateY(-3px);
+  border-color:rgba(215,189,134,.35);
+}
+
+.news-meta{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:9px;
+  color:#777a80;
+  font-size:8px;
+  font-weight:800;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+}
+
+.news-source{color:var(--gold)}
+
+.news-card h3{
+  margin-top:14px;
+  font:700 14px/1.5 Manrope;
+}
+
+.news-card h3 a:hover{color:var(--gold2)}
+
+.news-description{
+  margin-top:8px;
+  color:var(--muted);
+  font-size:10px;
+  line-height:1.65;
+}
+
+.news-bottom{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  margin-top:auto;
+  padding-top:15px;
+}
+
+.news-time{color:#777a80;font-size:9px}
+.read-link{color:var(--gold2);font-size:9px;font-weight:800}
+
+.news-state{
+  grid-column:1/-1;
+  padding:35px 18px;
+  text-align:center;
+  border:1px dashed var(--line);
+  border-radius:16px;
+  color:var(--muted);
+}
+
+.news-state strong{
+  display:block;
+  margin-bottom:5px;
+  color:var(--text);
+  font:600 16px "Playfair Display",serif;
+}
+
+.news-state p{font-size:10px}
+
+.news-footer{
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+  margin-top:15px;
+  color:#777a80;
+  font-size:9px;
+}
+
+footer{
+  margin-top:50px;
+  border-top:1px solid var(--line);
+  background:rgba(8,9,12,.55);
+}
+
+.footer-main{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:20px;
+  padding:27px 0;
+}
+
+.footer-motto{margin-top:4px;color:var(--muted);font-size:10px}
+
+.footer-note{
+  max-width:420px;
+  color:#777a80;
+  font-size:9px;
+  text-align:right;
+}
+
+.developer-credit{
+  padding:15px 20px 20px;
+  border-top:1px solid var(--line);
+  color:#a49d8d;
+  text-align:center;
+  font-size:10px;
+  letter-spacing:.08em;
+}
+
+@media(max-width:980px){
+  .nav-links{gap:12px}
+  .nav-links a{font-size:9px}
+  .feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .news-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+@media(max-width:720px){
+  .shell{width:calc(100% - 32px)}
+  .nav-wrap{min-height:72px}
+  .menu-toggle{display:block}
+  .nav-links{
+    display:none;
+    position:absolute;
+    top:72px;left:0;right:0;
+    padding:12px 18px 18px;
+    background:rgba(13,15,19,.98);
+    border-bottom:1px solid var(--line);
+    flex-direction:column;
+    align-items:stretch;
+    gap:0;
+  }
+  .nav-links.open{display:flex}
+  .nav-links a{padding:13px 4px;font-size:10px}
+  .nav-cta{margin-top:7px;text-align:center}
+  .hero{padding-top:28px}
+  .hero-grid{grid-template-columns:1fr}
+  .hero-main{min-height:340px}
+  .hero-side{min-height:255px}
+  .section{padding:27px 0}
+  .section-head{align-items:start}
+  .news-grid{grid-template-columns:1fr}
+  .news-card{min-height:175px}
+  .news-footer{flex-direction:column}
+  .footer-main{align-items:flex-start;flex-direction:column}
+  .footer-note{text-align:left}
+}
+
+@media(max-width:480px){
+  .brand-name{font-size:20px}
+  .hero-main{padding:25px 22px}
+  .hero h1{font-size:43px}
+  .feature-grid{grid-template-columns:1fr}
+  .feature-card{min-height:175px}
+  .section-head{flex-direction:column;gap:10px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    scroll-behavior:auto!important;
+    transition-duration:.01ms!important;
+  }
+}
+</style>
 </head>
 
 <body>
-  <div class="topline" aria-hidden="true"></div>
+<div class="topline"></div>
 
-  <header class="site-header">
-    <div class="shell nav-wrap">
+<header>
+  <div class="shell nav-wrap">
 
-      <a class="brand" href="index.html" aria-label="ROAMX home">
-        <span class="brand-mark">R</span>
-        <span>
-          <span class="brand-name">ROAM<span>X</span></span>
-          <span class="brand-caption">Awareness • Navigation • Preparedness</span>
-        </span>
-      </a>
+    <a class="brand" href="index.html" aria-label="ROAMX home">
+      <span class="brand-mark">R</span>
+      <span>
+        <span class="brand-name">ROAM<span>X</span></span>
+        <span class="brand-caption">Awareness • Navigation • Preparedness</span>
+      </span>
+    </a>
 
-      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
 
-      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
-        <a href="index.html" aria-current="page">Overview</a>
-        <a href="map.html">Live Map</a>
-        <a href="environment.html">ROAMX AIR</a>
-        <a href="pollution.html">Eco Intelligence</a>
-        <a href="news.html">World Watch</a>
-        <a href="resilience.html" class="nav-cta">Safety Centre ↗</a>
-      </nav>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="index.html">Overview</a>
+      <a href="map.html">Live Map</a>
+      <a href="environment.html">ROAMX AIR</a>
+      <a href="pollution.html">Eco Intelligence</a>
+      <a href="village-intelligence.html">Village Intelligence</a>
+      <a href="news.html">World Watch</a>
+      <a href="resilience.html" class="nav-cta">Safety Centre ↗</a>
+    </nav>
 
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="shell hero-grid">
+
+      <div class="hero-main">
+        <div class="hero-content">
+
+          <div class="eyebrow">
+            <span class="live-indicator"></span>
+            Your daily awareness platform
+          </div>
+
+          <h1>
+            See the bigger picture.<br>
+            <em>Move with awareness.</em>
+          </h1>
+
+          <p class="hero-copy">
+            A clearer view of the world around you. Explore important global developments,
+            understand changing conditions, navigate with confidence and learn how to prepare
+            for emergencies — all in one place.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="news.html">Explore World Watch ↗</a>
+            <a class="btn btn-outline" href="map.html">Open Live Map →</a>
+          </div>
+
+        </div>
+      </div>
+
+      <aside class="hero-side surface">
+
+        <div>
+          <div class="side-label">Your local time</div>
+          <div class="clock" id="liveClock">--:--:--</div>
+          <div class="date" id="liveDate">Loading local date…</div>
+        </div>
+
+        <div>
+          <div class="side-rule"></div>
+
+          <div class="status-list">
+            <div class="status-item">
+              <span>Homepage</span>
+              <span class="status-value">● READY</span>
+            </div>
+
+            <div class="status-item">
+              <span>News connection</span>
+              <span class="status-value neutral" id="connectionStatus">CHECKING</span>
+            </div>
+
+            <div class="status-item">
+              <span>Last news check</span>
+              <span id="statusChecked">—</span>
+            </div>
+          </div>
+
+          <div class="location-note">
+            Location-based tools request access only when you open the relevant feature.
+            Your location is not needed to browse World Watch.
+          </div>
+        </div>
+
+      </aside>
     </div>
-  </header>
+  </section>
 
-  <main>
+  <section class="section" aria-labelledby="essentials-title">
+    <div class="shell">
 
-    <!-- HERO SECTION -->
-
-    <section class="hero">
-      <div class="shell hero-grid">
-
-        <div class="hero-main">
-          <div class="hero-content">
-
-            <div class="eyebrow">
-              <span class="live-indicator"></span>
-              Your daily awareness platform
-            </div>
-
-            <h1>
-              See the bigger picture.<br>
-              <em>Move with awareness.</em>
-            </h1>
-
-            <p class="hero-copy">
-              A clearer view of the world around you. Explore important global developments,
-              understand changing conditions, navigate with confidence and learn how to prepare
-              for emergencies — all in one place.
-            </p>
-
-            <div class="hero-actions">
-              <a class="btn btn-gold" href="news.html">
-                Explore World Watch <span aria-hidden="true">↗</span>
-              </a>
-
-              <a class="btn btn-outline" href="map.html">
-                Open Live Map <span aria-hidden="true">→</span>
-              </a>
-            </div>
-
-          </div>
-        </div>
-
-        <aside class="hero-side surface" aria-label="Local time and platform status">
-
-          <div>
-            <div class="side-label">Your local time</div>
-            <div class="clock" id="liveClock">--:--:--</div>
-            <div class="date" id="liveDate">Loading local date…</div>
-          </div>
-
-          <div>
-            <div class="side-rule"></div>
-
-            <div class="status-list">
-              <div class="status-item">
-                <span>Homepage</span>
-                <span class="status-value">● READY</span>
-              </div>
-
-              <div class="status-item">
-                <span>News connection</span>
-                <span class="status-value neutral" id="connectionStatus">CHECKING</span>
-              </div>
-
-              <div class="status-item">
-                <span>Last news check</span>
-                <span id="statusChecked" class="muted">—</span>
-              </div>
-            </div>
-
-            <div class="location-note">
-              Location-based tools request access only when you open the relevant feature.
-              Your location is not needed to browse World Watch.
-            </div>
-          </div>
-
-        </aside>
-      </div>
-    </section>
-
-    <!-- FEATURE DIRECTORY -->
-
-    <section class="section" aria-labelledby="essentials-title">
-      <div class="shell">
-
-        <div class="section-head">
-          <div>
-            <div class="eyebrow">Explore ROAMX</div>
-            <h2 id="essentials-title">Everything you need. Clearly organised.</h2>
-            <p>Five dedicated spaces, each with one clear purpose.</p>
-          </div>
-        </div>
-
-        <div class="feature-grid">
-
-          <a class="feature-card" href="map.html">
-            <div class="feature-top">
-              <span class="feature-icon" aria-hidden="true">⌖</span>
-              <span class="feature-index">01 / MAP</span>
-            </div>
-            <h3>Live Map & Navigation</h3>
-            <p>Search for places, find essential nearby services, view routes and explore Navigation Simulation Mode.</p>
-            <div class="feature-foot">
-              <span>Explore the map</span>
-              <span>↗</span>
-            </div>
-          </a>
-
-          <a class="feature-card" href="environment.html">
-            <div class="feature-top">
-              <span class="feature-icon" aria-hidden="true">◒</span>
-              <span class="feature-index">02 / AIR</span>
-            </div>
-            <h3>ROAMX AIR</h3>
-            <p>Understand local weather, rainfall outlooks and air-quality conditions, with practical precautions.</p>
-            <div class="feature-foot">
-              <span>Check conditions</span>
-              <span>↗</span>
-            </div>
-          </a>
-
-          <a class="feature-card" href="news.html">
-            <div class="feature-top">
-              <span class="feature-icon" aria-hidden="true">◎</span>
-              <span class="feature-index">03 / WATCH</span>
-            </div>
-            <h3>World Watch</h3>
-            <p>Follow recent international and Indian headlines across technology, environment and major events.</p>
-            <div class="feature-foot">
-              <span>Read latest news</span>
-              <span>↗</span>
-            </div>
-          </a>
-
-          <a class="feature-card" href="resilience.html">
-            <div class="feature-top">
-              <span class="feature-icon" aria-hidden="true">◇</span>
-              <span class="feature-index">04 / SAFETY</span>
-            </div>
-            <h3>Resilience Centre</h3>
-            <p>Learn practical disaster precautions, emergency readiness steps and useful contact information.</p>
-            <div class="feature-foot">
-              <span>Be prepared</span>
-              <span>↗</span>
-            </div>
-          </a>
-
-          <!-- NEW ECO INTELLIGENCE SECTION -->
-
-          <a class="feature-card" href="pollution.html">
-            <div class="feature-top">
-              <span class="feature-icon" aria-hidden="true">🌍</span>
-              <span class="feature-index">05 / POLLUTION</span>
-            </div>
-            <h3>Eco Intelligence</h3>
-            <p>
-              Monitor worldwide air pollution, detect environmental risks,
-              compare cities and discover practical solutions.
-            </p>
-            <div class="feature-foot">
-              <span>Global pollution monitoring</span>
-              <span>↗</span>
-            </div>
-          </a>
-
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Explore ROAMX</div>
+          <h2 id="essentials-title">Everything you need. Clearly organised.</h2>
+          <p>Six dedicated spaces, each with one clear purpose.</p>
         </div>
       </div>
-    </section>
 
-    <!-- WORLD WATCH LIVE NEWS -->
+      <div class="feature-grid">
 
-    <section class="section news-section" id="world-updates" aria-labelledby="news-title">
-      <div class="shell">
-
-        <div class="section-head">
-          <div>
-            <div class="eyebrow">World Watch / Live headlines</div>
-            <h2 id="news-title">The latest, in perspective.</h2>
-            <p>Recent reports from monitored news sources, sorted newest first.</p>
+        <a class="feature-card" href="map.html">
+          <div class="feature-top">
+            <span class="feature-icon">⌖</span>
+            <span class="feature-index">01 / MAP</span>
           </div>
+          <h3>Live Map & Navigation</h3>
+          <p>Search for places, find essential nearby services, view routes and explore Navigation Simulation Mode.</p>
+          <div class="feature-foot"><span>Explore the map</span><span>↗</span></div>
+        </a>
 
-          <a class="text-link" href="news.html">Open full World Watch ↗</a>
+        <a class="feature-card" href="environment.html">
+          <div class="feature-top">
+            <span class="feature-icon">◒</span>
+            <span class="feature-index">02 / AIR</span>
+          </div>
+          <h3>ROAMX AIR</h3>
+          <p>Understand local weather, rainfall outlooks and air-quality conditions, with practical precautions.</p>
+          <div class="feature-foot"><span>Check conditions</span><span>↗</span></div>
+        </a>
+
+        <a class="feature-card" href="news.html">
+          <div class="feature-top">
+            <span class="feature-icon">◎</span>
+            <span class="feature-index">03 / WATCH</span>
+          </div>
+          <h3>World Watch</h3>
+          <p>Follow recent international and Indian headlines across environment, disasters and major developments.</p>
+          <div class="feature-foot"><span>Read latest news</span><span>↗</span></div>
+        </a>
+
+        <a class="feature-card" href="resilience.html">
+          <div class="feature-top">
+            <span class="feature-icon">◇</span>
+            <span class="feature-index">04 / SAFETY</span>
+          </div>
+          <h3>Resilience Centre</h3>
+          <p>Learn practical disaster precautions, emergency readiness steps and useful contact information.</p>
+          <div class="feature-foot"><span>Be prepared</span><span>↗</span></div>
+        </a>
+
+        <a class="feature-card" href="pollution.html">
+          <div class="feature-top">
+            <span class="feature-icon">🌍</span>
+            <span class="feature-index">05 / POLLUTION</span>
+          </div>
+          <h3>Eco Intelligence</h3>
+          <p>Monitor air pollution, explore environmental risks and discover practical solutions for cleaner surroundings.</p>
+          <div class="feature-foot"><span>Explore pollution</span><span>↗</span></div>
+        </a>
+
+        <a class="feature-card" href="village-intelligence.html">
+          <div class="feature-top">
+            <span class="feature-icon">🏡</span>
+            <span class="feature-index">06 / COMMUNITY</span>
+          </div>
+          <h3>Village Intelligence</h3>
+          <p>Explore location-based environmental risks, evidence-informed village needs and practical community solutions.</p>
+          <div class="feature-foot"><span>Explore community needs</span><span>↗</span></div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section news-section" id="world-updates" aria-labelledby="news-title">
+    <div class="shell">
+
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">World Watch / Live headlines</div>
+          <h2 id="news-title">The latest, in perspective.</h2>
+          <p>Recent reports from monitored news sources, sorted newest first.</p>
         </div>
 
-        <div class="news-panel">
+        <a class="text-link" href="news.html">Open full World Watch ↗</a>
+      </div>
 
-          <div class="news-toolbar">
+      <div class="news-panel">
 
-            <div class="filters" id="newsFilters" aria-label="Filter news by topic">
-              <button class="filter active" data-topic="all" aria-pressed="true">Top stories</button>
-              <button class="filter" data-topic="world" aria-pressed="false">World</button>
-              <button class="filter" data-topic="india" aria-pressed="false">India</button>
-              <button class="filter" data-topic="disaster" aria-pressed="false">Disaster</button>
-              <button class="filter" data-topic="environment" aria-pressed="false">Environment</button>
-              <button class="filter" data-topic="technology" aria-pressed="false">Technology</button>
-            </div>
-
-            <button class="refresh" id="refreshNews" type="button">
-              <span aria-hidden="true">↻</span> Refresh news
-            </button>
-
+        <div class="news-toolbar">
+          <div class="filters" id="newsFilters">
+            <button class="filter active" data-topic="all" aria-pressed="true">Top stories</button>
+            <button class="filter" data-topic="world" aria-pressed="false">World</button>
+            <button class="filter" data-topic="india" aria-pressed="false">India</button>
+            <button class="filter" data-topic="disaster" aria-pressed="false">Disaster</button>
+            <button class="filter" data-topic="environment" aria-pressed="false">Environment</button>
+            <button class="filter" data-topic="technology" aria-pressed="false">Technology</button>
           </div>
 
-          <div class="news-grid" id="newsGrid" aria-live="polite" aria-busy="true">
-            <div class="news-state">
-              <strong>Preparing your news briefing</strong>
-              <p>Connecting to the latest available reports…</p>
-            </div>
-          </div>
-
-          <div class="news-footer">
-            <span id="newsMessage">News is loading.</span>
-            <span>Headlines link to their original publishers.</span>
-          </div>
-
+          <button class="refresh" id="refreshNews" type="button">↻ Refresh news</button>
         </div>
+
+        <div class="news-grid" id="newsGrid" aria-live="polite" aria-busy="true">
+          <div class="news-state">
+            <strong>Preparing your news briefing</strong>
+            <p>Connecting to the latest available reports…</p>
+          </div>
+        </div>
+
+        <div class="news-footer">
+          <span id="newsMessage">News is loading.</span>
+          <span>Headlines link to their original publishers.</span>
+        </div>
+
       </div>
-    </section>
+    </div>
+  </section>
 
-  </main>
+</main>
 
-  <!-- FOOTER -->
-
-  <footer class="site-footer">
-
-    <div class="shell footer-main">
-      <div>
-        <div class="brand-name">ROAM<span>X</span></div>
-        <p class="footer-motto">Stay aware. Stay informed. Stay prepared.</p>
-      </div>
-
-      <p class="footer-note">
-        ROAMX brings together information from external services and publishers.
-        Availability and update frequency depend on those providers.
-      </p>
+<footer>
+  <div class="shell footer-main">
+    <div>
+      <div class="brand-name">ROAM<span>X</span></div>
+      <p class="footer-motto">Stay aware. Stay informed. Stay prepared.</p>
     </div>
 
-    <div class="developer-credit">
-      Designed &amp; Developed by Sabarish P | B.Tech IT
-    </div>
+    <p class="footer-note">
+      ROAMX brings together information from external services and publishers.
+      Availability and update frequency depend on those providers.
+    </p>
+  </div>
 
-  </footer>
+  <div class="developer-credit">
+    Designed &amp; Developed by Sabarish P | B.Tech IT
+  </div>
+</footer>
 
-  <script>
-  "use strict";
+<script>
+"use strict";
 
-  /* ROAMX HOME — clock, navigation, live news preview and refresh feedback */
+const $ = id => document.getElementById(id);
 
-  const $ = (id) => document.getElementById(id);
+/* LOCAL CLOCK */
 
-  // LOCAL CLOCK
+function updateClock(){
+  const now = new Date();
 
-  function updateClock() {
-    const now = new Date();
-
-    $("liveClock").textContent = now.toLocaleTimeString(undefined, {
-      hour: "2-digit",
-      minute: "2-digit",
-      second: "2-digit",
-      hour12: true
-    });
-
-    $("liveDate").textContent = now.toLocaleDateString(undefined, {
-      weekday: "long",
-      day: "numeric",
-      month: "long",
-      year: "numeric"
-    });
-  }
-
-  updateClock();
-  setInterval(updateClock, 1000);
-
-  // MOBILE NAVIGATION
-
-  const menuToggle = $("menuToggle");
-  const navLinks = $("navLinks");
-
-  menuToggle.addEventListener("click", () => {
-    const opened = navLinks.classList.toggle("open");
-
-    menuToggle.setAttribute("aria-expanded", String(opened));
-    menuToggle.setAttribute(
-      "aria-label",
-      opened ? "Close navigation" : "Open navigation"
-    );
-
-    menuToggle.textContent = opened ? "✕" : "☰";
+  $("liveClock").textContent = now.toLocaleTimeString(undefined,{
+    hour:"2-digit",
+    minute:"2-digit",
+    second:"2-digit",
+    hour12:true
   });
 
-  navLinks.querySelectorAll("a").forEach(link => {
-    link.addEventListener("click", () => {
-      navLinks.classList.remove("open");
-      menuToggle.setAttribute("aria-expanded", "false");
-      menuToggle.textContent = "☰";
-    });
+  $("liveDate").textContent = now.toLocaleDateString(undefined,{
+    weekday:"long",
+    day:"numeric",
+    month:"long",
+    year:"numeric"
   });
+}
 
-  // NEWS CONFIGURATION
-  // Prefer the generated news.json database when it has current articles.
-  // If the collector has not populated it yet, use GDELT's public document
-  // endpoint as a live fallback. No API key is required.
+updateClock();
+setInterval(updateClock,1000);
 
-  const NEWS_JSON = "news.json";
-  const GDELT_ENDPOINT = "https://api.gdeltproject.org/api/v2/doc/doc";
+/* MOBILE NAVIGATION */
 
-  const CACHE_KEY = "roamx_home_live_news_v4";
-  const SEEN_KEY = "roamx_home_seen_news_v4";
+const menuToggle = $("menuToggle");
+const navLinks = $("navLinks");
 
-  const CACHE_MAX_AGE = 18 * 60 * 60 * 1000;
-  const MAX_ARTICLES = 12;
-  const REQUEST_TIMEOUT = 16000;
+menuToggle.addEventListener("click",()=>{
+  const opened = navLinks.classList.toggle("open");
 
-  const topicQueries = {
-    all: '(climate OR environment OR disaster OR flood OR earthquake OR cyclone OR wildfire OR technology OR "world news" OR India) sourcelang:English',
+  menuToggle.setAttribute("aria-expanded",String(opened));
+  menuToggle.setAttribute("aria-label",opened ? "Close navigation" : "Open navigation");
+  menuToggle.textContent = opened ? "✕" : "☰";
+});
 
-    world: '(world OR global OR international) sourcelang:English',
+navLinks.querySelectorAll("a").forEach(link=>{
+  link.addEventListener("click",()=>{
+    navLinks.classList.remove("open");
+    menuToggle.setAttribute("aria-expanded","false");
+    menuToggle.textContent = "☰";
+  });
+});
 
-    india: 'India sourcelang:English',
+/* NEWS CONFIGURATION */
 
-    disaster: '(earthquake OR flood OR cyclone OR wildfire OR landslide OR drought OR tsunami OR "extreme weather" OR disaster) sourcelang:English',
+const NEWS_JSON = "news.json";
+const GDELT_ENDPOINT = "https://api.gdeltproject.org/api/v2/doc/doc";
+const CACHE_KEY = "roamx_home_news_cache_v1";
+const CACHE_MAX_AGE = 18 * 60 * 60 * 1000;
+const REQUEST_TIMEOUT = 16000;
 
-    environment: '(climate OR environment OR pollution OR biodiversity OR "clean energy" OR "air quality" OR water) sourcelang:English',
+const topicQueries = {
+  all:'(climate OR environment OR disaster OR flood OR earthquake OR cyclone OR wildfire OR technology OR "world news" OR India) sourcelang:English',
+  world:'(world OR global OR international) sourcelang:English',
+  india:'India sourcelang:English',
+  disaster:'(earthquake OR flood OR cyclone OR wildfire OR landslide OR drought OR tsunami OR "extreme weather" OR disaster) sourcelang:English',
+  environment:'(climate OR environment OR pollution OR biodiversity OR "clean energy" OR "air quality" OR water) sourcelang:English',
+  technology:'(technology OR science OR artificial intelligence OR cybersecurity OR semiconductor) sourcelang:English'
+};
 
-    technology: '(technology OR science OR artificial intelligence OR cybersecurity OR semiconductor) sourcelang:English'
+const topicAliases = {
+  world:["world","global","international"],
+  india:["india"],
+  disaster:["disaster","emergency","earthquake","flood","cyclone","wildfire","storm"],
+  environment:["environment","climate","pollution","biodiversity","energy","weather"],
+  technology:["technology","tech","science","artificial intelligence","cybersecurity"]
+};
+
+const newsGrid = $("newsGrid");
+const refreshButton = $("refreshNews");
+const connectionStatus = $("connectionStatus");
+const statusChecked = $("statusChecked");
+const newsMessage = $("newsMessage");
+const filters = $("newsFilters");
+
+let activeTopic = "all";
+let activeController = null;
+let requestSequence = 0;
+
+function setConnection(label,good=false){
+  connectionStatus.textContent = label;
+  connectionStatus.className = good ? "status-value" : "status-value neutral";
+}
+
+function setNewsState(title,message){
+  newsGrid.replaceChildren();
+
+  const state = document.createElement("div");
+  state.className = "news-state";
+
+  const heading = document.createElement("strong");
+  heading.textContent = title;
+
+  const paragraph = document.createElement("p");
+  paragraph.textContent = message;
+
+  state.append(heading,paragraph);
+  newsGrid.append(state);
+}
+
+function safeUrl(value){
+  try{
+    const parsed = new URL(value,location.href);
+    return ["https:","http:"].includes(parsed.protocol) ? parsed.href : null;
+  }catch(_){
+    return null;
+  }
+}
+
+function articleDate(article){
+  const value = String(
+    article.publishedAt ||
+    article.seendate ||
+    article.published ||
+    article.pubDate ||
+    article.date ||
+    ""
+  );
+
+  const gdelt = value.match(/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/);
+
+  const normalised = gdelt
+    ? `${gdelt[1]}-${gdelt[2]}-${gdelt[3]}T${gdelt[4]}:${gdelt[5]}:${gdelt[6]}Z`
+    : value;
+
+  const parsed = new Date(normalised);
+  return Number.isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function normaliseArticle(article){
+  if(!article || typeof article.title !== "string" || !article.title.trim()){
+    return null;
+  }
+
+  const url = safeUrl(article.url || article.link);
+  if(!url) return null;
+
+  const published = articleDate(article);
+
+  if(published && Date.now()-published.getTime() > 8*24*60*60*1000){
+    return null;
+  }
+
+  return {
+    id:String(article.id || article.guid || url),
+    title:article.title.trim().replace(/\s+/g," "),
+    url,
+    source:String(article.source || article.domain || article.publisher || "News publisher"),
+    category:String(article.category || article.topic || "World"),
+    description:String(article.description || article.summary || article.contentSnippet || "")
+      .replace(/<[^>]*>/g," ")
+      .replace(/\s+/g," ")
+      .trim(),
+    published
   };
+}
 
-  const topicAliases = {
-    world: ["world", "global", "international"],
+function normaliseArticles(items){
+  if(!Array.isArray(items)) return [];
 
-    india: ["india"],
+  const seen = new Set();
 
-    disaster: [
-      "disaster",
-      "emergency",
-      "earthquake",
-      "flood",
-      "cyclone",
-      "wildfire",
-      "storm"
-    ],
+  return items
+    .map(normaliseArticle)
+    .filter(Boolean)
+    .filter(article=>{
+      const key = article.url.split("#")[0].replace(/\/$/,"").toLowerCase();
 
-    environment: [
-      "environment",
-      "climate",
-      "pollution",
-      "biodiversity",
-      "energy",
-      "weather"
-    ],
-
-    technology: [
-      "technology",
-      "tech",
-      "science",
-      "artificial intelligence",
-      "cybersecurity"
-    ]
-  };
-
-  const newsGrid = $("newsGrid");
-  const refreshButton = $("refreshNews");
-  const connectionStatus = $("connectionStatus");
-  const statusChecked = $("statusChecked");
-  const newsMessage = $("newsMessage");
-  const filters = $("newsFilters");
-
-  let activeTopic = "all";
-  let activeController = null;
-  let requestSequence = 0;
-  let refreshTimer = null;
-  let hasEstablishedBaseline = false;
-  let visibleArticles = [];
-
-  function setConnection(label, tone = "neutral") {
-    connectionStatus.textContent = label;
-
-    connectionStatus.className =
-      "status-value" + (tone === "good" ? "" : " neutral");
-  }
-
-  function setNewsState(title, message) {
-    newsGrid.replaceChildren();
-
-    const state = document.createElement("div");
-    state.className = "news-state";
-
-    const heading = document.createElement("strong");
-    heading.textContent = title;
-
-    const paragraph = document.createElement("p");
-    paragraph.textContent = message;
-
-    state.append(heading, paragraph);
-    newsGrid.append(state);
-  }
-
-  function safeUrl(value) {
-    try {
-      const parsed = new URL(value, location.href);
-
-      return ["https:", "http:"].includes(parsed.protocol)
-        ? parsed.href
-        : null;
-
-    } catch (_) {
-      return null;
-    }
-  }
-
-  function articleDate(article) {
-    const value = String(
-      article.publishedAt ||
-      article.seendate ||
-      article.published ||
-      article.pubDate ||
-      article.date ||
-      ""
-    );
-
-    // GDELT timestamps use YYYYMMDDTHHmmssZ.
-    // Convert them to ISO before parsing.
-
-    const gdelt = value.match(
-      /^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})Z$/
-    );
-
-    const normalised = gdelt
-      ? `${gdelt[1]}-${gdelt[2]}-${gdelt[3]}T${gdelt[4]}:${gdelt[5]}:${gdelt[6]}Z`
-      : value;
-
-    const parsed = new Date(normalised);
-
-    return Number.isNaN(parsed.getTime()) ? null : parsed;
-  }
-
-  function normaliseArticle(article, index = 0) {
-    if (!article || typeof article.title !== "string" || !article.title.trim()) {
-      return null;
-    }
-
-    const url = safeUrl(article.url || article.link);
-
-    if (!url) {
-      return null;
-    }
-
-    const published = articleDate(article);
-
-    if (
-      published &&
-      Date.now() - published.getTime() > 8 * 24 * 60 * 60 * 1000
-    ) {
-      return null;
-    }
-
-    const title = article.title.trim().replace(/\s+/g, " ");
-
-    const source =
-      article.source ||
-      article.domain ||
-      article.publisher ||
-      "News publisher";
-
-    const category =
-      article.category ||
-      article.topic ||
-      "World";
-
-    const description =
-      article.description ||
-      article.summary ||
-      article.contentSnippet ||
-      "";
-
-    const id = String(article.id || article.guid || url);
-
-    return {
-      id,
-      title,
-      url,
-      source: String(source),
-      category: String(category),
-      description: String(description)
-        .replace(/<[^>]*>/g, " ")
-        .replace(/\s+/g, " ")
-        .trim(),
-      published,
-      index
-    };
-  }
-
-  function normaliseArticles(items) {
-    if (!Array.isArray(items)) {
-      return [];
-    }
-
-    const seen = new Set();
-
-    return items
-      .map(normaliseArticle)
-      .filter(Boolean)
-      .filter(article => {
-        const key = article.url
-          .split("#")[0]
-          .replace(/\/$/, "")
-          .toLowerCase();
-
-        if (seen.has(key)) {
-          return false;
-        }
-
-        seen.add(key);
-        return true;
-      })
-      .sort((a, b) =>
-        (b.published?.getTime() || 0) -
-        (a.published?.getTime() || 0)
-      )
-      .slice(0, 60);
-  }
-
-  function matchesTopic(article, topic) {
-    if (topic === "all") {
+      if(seen.has(key)) return false;
+      seen.add(key);
       return true;
-    }
+    })
+    .sort((a,b)=>(b.published?.getTime() || 0)-(a.published?.getTime() || 0))
+    .slice(0,60);
+}
 
-    const haystack =
-      `${article.category} ${article.title} ${article.description}`
-        .toLowerCase();
+function matchesTopic(article,topic){
+  if(topic === "all") return true;
 
-    return (topicAliases[topic] || []).some(word =>
-      haystack.includes(word)
+  const aliases = topicAliases[topic] || [];
+  const haystack = `${article.category} ${article.title} ${article.description}`.toLowerCase();
+
+  return aliases.some(word=>haystack.includes(word));
+}
+
+function formatDate(date){
+  if(!date) return "Date unavailable";
+
+  return date.toLocaleString(undefined,{
+    day:"numeric",
+    month:"short",
+    hour:"2-digit",
+    minute:"2-digit"
+  });
+}
+
+function createNewsCard(article){
+  const card = document.createElement("article");
+  card.className = "news-card";
+
+  const meta = document.createElement("div");
+  meta.className = "news-meta";
+
+  const source = document.createElement("span");
+  source.className = "news-source";
+  source.textContent = article.source;
+
+  const category = document.createElement("span");
+  category.textContent = article.category;
+
+  meta.append(source,category);
+
+  const heading = document.createElement("h3");
+  const link = document.createElement("a");
+
+  link.href = article.url;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = article.title;
+
+  heading.append(link);
+
+  const description = document.createElement("p");
+  description.className = "news-description";
+  description.textContent = article.description
+    ? article.description.slice(0,230)
+    : "Open the original publisher report for the full story.";
+
+  const bottom = document.createElement("div");
+  bottom.className = "news-bottom";
+
+  const time = document.createElement("span");
+  time.className = "news-time";
+  time.textContent = formatDate(article.published);
+
+  const read = document.createElement("a");
+  read.className = "read-link";
+  read.href = article.url;
+  read.target = "_blank";
+  read.rel = "noopener noreferrer";
+  read.textContent = "Read report ↗";
+
+  bottom.append(time,read);
+  card.append(meta,heading,description,bottom);
+
+  return card;
+}
+
+function renderArticles(articles){
+  const filtered = articles
+    .filter(article=>matchesTopic(article,activeTopic))
+    .slice(0,6);
+
+  newsGrid.replaceChildren();
+  newsGrid.setAttribute("aria-busy","false");
+
+  if(!filtered.length){
+    setNewsState(
+      "No recent reports in this topic",
+      "Try another category or check again shortly. ROAMX does not fill the page with invented headlines."
     );
+    return;
   }
 
-  function formatDate(date) {
-    if (!date) {
-      return "Date unavailable";
-    }
+  filtered.forEach(article=>newsGrid.append(createNewsCard(article)));
 
-    return date.toLocaleString(undefined, {
-      day: "numeric",
-      month: "short",
-      hour: "2-digit",
-      minute: "2-digit"
-    });
-  }
+  newsMessage.textContent =
+    `${filtered.length} recent report${filtered.length===1 ? "" : "s"} available.`;
+}
 
-  function safeText(value, limit = 230) {
-    const text = String(value || "").trim();
+function readCache(){
+  try{
+    const saved = JSON.parse(localStorage.getItem(CACHE_KEY) || "null");
 
-    return text.length > limit
-      ? text.slice(0, limit).trimEnd() + "…"
-      : text;
-  }
-
-  function createNewsCard(article, isNew) {
-    const card = document.createElement("article");
-    card.className = "news-card";
-
-    const meta = document.createElement("div");
-    meta.className = "news-meta";
-
-    const source = document.createElement("span");
-    source.className = "news-source";
-    source.textContent = article.source;
-
-    const category = document.createElement("span");
-    category.className = "news-category";
-    category.textContent = article.category;
-
-    meta.append(source, category);
-
-    const heading = document.createElement("h3");
-
-    const link = document.createElement("a");
-    link.href = article.url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.textContent = article.title;
-
-    heading.append(link);
-
-    if (isNew) {
-      const tag = document.createElement("span");
-      tag.className = "new-tag";
-      tag.textContent = "NEW";
-      heading.append(tag);
-    }
-
-    const description = document.createElement("p");
-    description.className = "news-description";
-
-    description.textContent = safeText(
-      article.description ||
-      "Open the original publisher report for the full story."
-    );
-
-    const bottom = document.createElement("div");
-    bottom.className = "news-bottom";
-
-    const time = document.createElement("span");
-    time.className = "news-time";
-    time.textContent = formatDate(article.published);
-
-    const read = document.createElement("a");
-    read.className = "read-link";
-    read.href = article.url;
-    read.target = "_blank";
-    read.rel = "noopener noreferrer";
-    read.textContent = "Read report ↗";
-
-    bottom.append(time, read);
-
-    card.append(meta, heading, description, bottom);
-
-    return card;
-  }
-
-  function getSeenIds() {
-    try {
-      const value = JSON.parse(localStorage.getItem(SEEN_KEY) || "[]");
-
-      return new Set(Array.isArray(value) ? value : []);
-
-    } catch (_) {
-      return new Set();
-    }
-  }
-
-  function rememberIds(articles) {
-    try {
-      localStorage.setItem(
-        SEEN_KEY,
-        JSON.stringify(articles.map(a => a.id).slice(0, 250))
-      );
-    } catch (_) {}
-  }
-
-  function renderArticles(
-    articles,
-    { compare = false, manual = false } = {}
-  ) {
-    const filtered = articles
-      .filter(article => matchesTopic(article, activeTopic))
-      .slice(0, 6);
-
-    visibleArticles = filtered;
-
-    newsGrid.replaceChildren();
-    newsGrid.setAttribute("aria-busy", "false");
-
-    if (!filtered.length) {
-      setNewsState(
-        "No recent reports in this topic",
-        "Try another category or check again shortly. ROAMX does not fill the page with invented headlines."
-      );
-
-      return 0;
-    }
-
-    const seen = getSeenIds();
-
-    const newOnes = compare
-      ? filtered.filter(article => !seen.has(article.id))
-      : [];
-
-    filtered.forEach(article => {
-      newsGrid.append(
-        createNewsCard(
-          article,
-          newOnes.some(item => item.id === article.id)
-        )
-      );
-    });
-
-    if (compare && newOnes.length) {
-      newsMessage.textContent =
-        `${newOnes.length} new headline${newOnes.length === 1 ? "" : "s"} found.`;
-
-    } else if (manual && compare) {
-      newsMessage.textContent =
-        "You're all caught up. No new headlines were found.";
-
-    } else {
-      newsMessage.textContent =
-        `${filtered.length} recent report${filtered.length === 1 ? "" : "s"} available.`;
-    }
-
-    rememberIds(articles);
-
-    return newOnes.length;
-  }
-
-  function readCache() {
-    try {
-      const saved = JSON.parse(localStorage.getItem(CACHE_KEY) || "null");
-
-      if (
-        !saved ||
-        !Array.isArray(saved.articles) ||
-        Date.now() - saved.savedAt > CACHE_MAX_AGE
-      ) {
-        return null;
-      }
-
-      return normaliseArticles(saved.articles);
-
-    } catch (_) {
+    if(!saved || !Array.isArray(saved.articles) ||
+       Date.now()-saved.savedAt > CACHE_MAX_AGE){
       return null;
     }
+
+    return normaliseArticles(saved.articles);
+  }catch(_){
+    return null;
+  }
+}
+
+function writeCache(articles){
+  try{
+    localStorage.setItem(CACHE_KEY,JSON.stringify({
+      articles,
+      savedAt:Date.now()
+    }));
+  }catch(_){}
+}
+
+async function fetchJsonDatabase(signal){
+  const response = await fetch(`${NEWS_JSON}?v=${Date.now()}`,{
+    cache:"no-store",
+    signal,
+    headers:{Accept:"application/json"}
+  });
+
+  if(!response.ok){
+    throw new Error(`news.json returned HTTP ${response.status}`);
   }
 
-  function writeCache(articles) {
-    try {
-      localStorage.setItem(
-        CACHE_KEY,
-        JSON.stringify({
-          articles,
-          savedAt: Date.now()
-        })
-      );
-    } catch (_) {}
+  const data = await response.json();
+  return normaliseArticles(data.articles || []);
+}
+
+async function fetchGdelt(topic,signal){
+  const params = new URLSearchParams({
+    query:topicQueries[topic] || topicQueries.all,
+    mode:"artlist",
+    maxrecords:"50",
+    format:"json",
+    sort:"DateDesc",
+    timespan:"7d"
+  });
+
+  const response = await fetch(`${GDELT_ENDPOINT}?${params}`,{
+    cache:"no-store",
+    signal,
+    headers:{Accept:"application/json"}
+  });
+
+  if(!response.ok){
+    throw new Error(`Live news returned HTTP ${response.status}`);
   }
 
-  async function fetchJsonDatabase(signal) {
-    const response = await fetch(
-      `${NEWS_JSON}?v=${Date.now()}`,
-      {
-        cache: "no-store",
-        signal,
-        headers: {
-          Accept: "application/json"
-        }
-      }
+  const data = await response.json();
+
+  if(!Array.isArray(data.articles)){
+    throw new Error("Unexpected response from the live news service.");
+  }
+
+  return normaliseArticles(data.articles.map(item=>({
+    id:item.url,
+    title:item.title,
+    url:item.url,
+    source:item.domain || "News publisher",
+    category:topic==="all" ? "World" : topic.charAt(0).toUpperCase()+topic.slice(1),
+    publishedAt:item.seendate,
+    description:"Recent report from the original publisher."
+  })));
+}
+
+async function loadNews(){
+  if(activeController) activeController.abort();
+
+  const controller = new AbortController();
+  activeController = controller;
+
+  const sequence = ++requestSequence;
+  const cached = readCache();
+
+  refreshButton.disabled = true;
+  refreshButton.textContent = "↻ Checking…";
+
+  newsGrid.setAttribute("aria-busy","true");
+  setConnection("CHECKING");
+
+  if(cached?.length){
+    renderArticles(cached);
+    newsMessage.textContent = "Checking for newer reports…";
+  }else{
+    setNewsState(
+      "Preparing your news briefing",
+      "Checking the generated news database and live news source…"
     );
+  }
 
-    if (!response.ok) {
-      throw new Error(`news.json returned HTTP ${response.status}`);
+  const timeout = setTimeout(()=>controller.abort(),16000);
+
+  try{
+    let articles = [];
+
+    try{
+      articles = await fetchJsonDatabase(controller.signal);
+    }catch(error){
+      console.info("ROAMX: news.json not ready; using live fallback.",error);
     }
 
-    const data = await response.json();
+    if(!articles.length){
+      articles = await fetchGdelt(activeTopic,controller.signal);
+    }else if(activeTopic !== "all"){
+      articles = articles.filter(article=>matchesTopic(article,activeTopic));
+    }
 
-    return normaliseArticles(data.articles || []);
-  }
+    if(sequence !== requestSequence) return;
 
-  async function fetchGdelt(topic, signal) {
-    const params = new URLSearchParams({
-      query: topicQueries[topic] || topicQueries.all,
-      mode: "artlist",
-      maxrecords: "50",
-      format: "json",
-      sort: "DateDesc",
-      timespan: "7d"
+    if(!articles.length){
+      throw new Error("No recent articles were returned.");
+    }
+
+    renderArticles(articles);
+    writeCache(articles);
+    setConnection("CONNECTED",true);
+
+    statusChecked.textContent = new Date().toLocaleTimeString(undefined,{
+      hour:"2-digit",
+      minute:"2-digit"
     });
 
-    const response = await fetch(
-      `${GDELT_ENDPOINT}?${params}`,
-      {
-        cache: "no-store",
-        signal,
-        headers: {
-          Accept: "application/json"
-        }
-      }
-    );
+    newsMessage.textContent =
+      `${articles.length} recent reports checked.`;
 
-    if (!response.ok) {
-      throw new Error(`Live news returned HTTP ${response.status}`);
-    }
+  }catch(error){
+    if(sequence !== requestSequence) return;
 
-    const data = await response.json();
+    console.warn("ROAMX news refresh failed:",error);
 
-    if (!Array.isArray(data.articles)) {
-      throw new Error("The live news service returned an unexpected response.");
-    }
-
-    return normaliseArticles(
-      data.articles.map(item => ({
-        id: item.url,
-        title: item.title,
-        url: item.url,
-        source: item.domain || "News publisher",
-        category: topic === "all"
-          ? "World"
-          : topic.charAt(0).toUpperCase() + topic.slice(1),
-        publishedAt: item.seendate,
-        description: item.socialimage
-          ? "Recent report from the original publisher."
-          : "Open the publisher's website for the full report."
-      }))
-    );
-  }
-
-  async function loadNews({ manual = false } = {}) {
-    if (activeController) {
-      activeController.abort();
-    }
-
-    const controller = new AbortController();
-
-    activeController = controller;
-
-    const sequence = ++requestSequence;
-    const cached = readCache();
-
-    refreshButton.disabled = true;
-    refreshButton.textContent = "↻ Checking…";
-
-    newsGrid.setAttribute("aria-busy", "true");
-
-    setConnection("CHECKING", "neutral");
-
-    if (cached?.length) {
+    if(cached?.length){
       renderArticles(cached);
-      newsMessage.textContent = "Checking for newer reports…";
-
-    } else {
+      setConnection("SAVED NEWS");
+      newsMessage.textContent = "Live refresh unavailable. Showing previously loaded reports.";
+      statusChecked.textContent = "Offline fallback";
+    }else{
       setNewsState(
-        "Preparing your news briefing",
-        "Checking the generated news database and live news source…"
+        "Live news is temporarily unavailable",
+        "ROAMX could not reach its news sources. Please try refreshing in a moment."
       );
+      setConnection("UNAVAILABLE");
+      newsMessage.textContent = "No placeholder headlines are being displayed.";
     }
 
-    const timeout = setTimeout(
-      () => controller.abort(),
-      REQUEST_TIMEOUT
-    );
+  }finally{
+    clearTimeout(timeout);
 
-    try {
-      let articles = [];
-      let sourceLabel = "news.json";
-
-      try {
-        articles = await fetchJsonDatabase(controller.signal);
-
-      } catch (error) {
-        console.info(
-          "ROAMX: news.json not ready; using live fallback.",
-          error
-        );
-      }
-
-      if (!articles.length) {
-        sourceLabel = "live news feed";
-        articles = await fetchGdelt(activeTopic, controller.signal);
-
-      } else if (activeTopic !== "all") {
-        articles = articles.filter(article =>
-          matchesTopic(article, activeTopic)
-        );
-      }
-
-      if (sequence !== requestSequence) {
-        return;
-      }
-
-      if (!articles.length) {
-        throw new Error(
-          "No recent articles were returned by the available news sources."
-        );
-      }
-
-      const priorSeen = hasEstablishedBaseline;
-
-      const newCount = renderArticles(
-        articles,
-        {
-          compare: priorSeen || manual,
-          manual
-        }
-      );
-
-      hasEstablishedBaseline = true;
-
-      writeCache(articles);
-
-      setConnection("CONNECTED", "good");
-
-      const checked = new Date();
-
-      statusChecked.textContent = checked.toLocaleTimeString(
-        undefined,
-        {
-          hour: "2-digit",
-          minute: "2-digit"
-        }
-      );
-
-      if (manual && newCount === 0) {
-        newsMessage.textContent =
-          "You're all caught up. No new headlines were found.";
-
-      } else if (manual && newCount > 0) {
-        newsMessage.textContent =
-          `${newCount} new headline${newCount === 1 ? "" : "s"} found and displayed.`;
-
-      } else if (!manual) {
-        newsMessage.textContent =
-          `${articles.length} recent reports checked · Source: ${sourceLabel}.`;
-      }
-
-    } catch (error) {
-      if (sequence !== requestSequence) {
-        return;
-      }
-
-      console.warn("ROAMX news refresh failed:", error);
-
-      if (cached?.length) {
-        renderArticles(cached);
-
-        setConnection("SAVED NEWS", "neutral");
-
-        newsMessage.textContent =
-          "Live refresh unavailable. Showing previously loaded reports.";
-
-        statusChecked.textContent = "Offline fallback";
-
-      } else {
-        setNewsState(
-          "Live news is temporarily unavailable",
-          "ROAMX could not reach its news sources. Please try refreshing in a moment."
-        );
-
-        setConnection("UNAVAILABLE", "neutral");
-
-        newsMessage.textContent =
-          "No placeholder headlines are being displayed.";
-      }
-
-    } finally {
-      clearTimeout(timeout);
-
-      if (sequence === requestSequence) {
-        refreshButton.disabled = false;
-
-        refreshButton.innerHTML =
-          "<span aria-hidden=\"true\">↻</span> Refresh news";
-
-        newsGrid.setAttribute("aria-busy", "false");
-
-        activeController = null;
-      }
+    if(sequence === requestSequence){
+      refreshButton.disabled = false;
+      refreshButton.textContent = "↻ Refresh news";
+      newsGrid.setAttribute("aria-busy","false");
+      activeController = null;
     }
   }
+}
 
-  // NEWS FILTERS
+/* NEWS FILTERS */
 
-  filters.querySelectorAll("button[data-topic]").forEach(button => {
-    button.addEventListener("click", () => {
+filters.querySelectorAll("button[data-topic]").forEach(button=>{
+  button.addEventListener("click",()=>{
+    activeTopic = button.dataset.topic;
 
-      activeTopic = button.dataset.topic;
-
-      filters.querySelectorAll("button[data-topic]").forEach(item => {
-        const selected = item === button;
-
-        item.classList.toggle("active", selected);
-
-        item.setAttribute(
-          "aria-pressed",
-          String(selected)
-        );
-      });
-
-      loadNews();
+    filters.querySelectorAll("button[data-topic]").forEach(item=>{
+      const selected = item === button;
+      item.classList.toggle("active",selected);
+      item.setAttribute("aria-pressed",String(selected));
     });
+
+    loadNews();
   });
+});
 
-  // MANUAL NEWS REFRESH
+/* MANUAL REFRESH */
 
-  refreshButton.addEventListener("click", () => {
-    loadNews({ manual: true });
-  });
+refreshButton.addEventListener("click",loadNews);
 
-  // INITIAL FETCH, THEN CHECK EVERY FIVE MINUTES.
-  // HIDDEN TABS ARE SKIPPED.
+/* INITIAL FETCH AND AUTOMATIC REFRESH */
 
-  loadNews();
+loadNews();
 
-  refreshTimer = setInterval(() => {
-    if (!document.hidden) {
-      loadNews();
-    }
-  }, 5 * 60 * 1000);
+setInterval(()=>{
+  if(!document.hidden) loadNews();
+},5*60*1000);
 
-  document.addEventListener("visibilitychange", () => {
-    if (!document.hidden) {
-      loadNews();
-    }
-  });
+document.addEventListener("visibilitychange",()=>{
+  if(!document.hidden) loadNews();
+});
+</script>
 
-  </script>
 </body>
 </html>
