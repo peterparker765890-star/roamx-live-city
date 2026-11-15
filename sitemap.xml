@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://peterparker765890-star.github.io/roamx-live-city/</loc>
   </url>
-
   <url>
     <loc>https://peterparker765890-star.github.io/roamx-live-city/map.html</loc>
   </url>
-
   <url>
     <loc>https://peterparker765890-star.github.io/roamx-live-city/environment.html</loc>
   </url>
-
   <url>
     <loc>https://peterparker765890-star.github.io/roamx-live-city/news.html</loc>
   </url>
-
-  <url>
-    <loc>https://peterparker765890-star.github.io/roamx-live-city/pollution.html</loc>
-  </url>
-
   <url>
     <loc>https://peterparker765890-star.github.io/roamx-live-city/resilience.html</loc>
   </url>
-
+  <url>
+    <loc>https://peterparker765890-star.github.io/roamx-live-city/village-intelligence.html</loc>
+  </url>
 </urlset>
