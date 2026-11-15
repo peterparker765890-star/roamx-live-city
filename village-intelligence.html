@@ -14,7 +14,10 @@
  --green:#8dbb91;--amber:#e3bd70;--red:#df8580;
 }
 *{box-sizing:border-box}
-body{margin:0;background:radial-gradient(ellipse at 80% 0%,#55401e35,transparent 35%),var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.6}
+body{
+ margin:0;background:radial-gradient(ellipse at 80% 0%,#55401e35,transparent 35%),var(--bg);
+ color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.6
+}
 button,input,select,textarea{font:inherit}
 button{cursor:pointer}
 .wrap{max-width:1250px;margin:auto;padding:25px 20px 50px}
@@ -56,7 +59,10 @@ button:hover:not(:disabled){filter:brightness(1.12)}
 .need{background:#11120f;padding:13px;border:1px solid var(--line);border-radius:12px}
 .need b{font-size:13px}.need p{font-size:11px;color:var(--muted);margin:5px 0}
 .need select{font-size:12px;padding:9px;margin-top:5px}
-.insight,.action,.news-item{padding:13px;margin:9px 0;background:#11120f;border-left:2px solid var(--gold);border-radius:0 10px 10px 0}
+.insight,.action,.news-item{
+ padding:13px;margin:9px 0;background:#11120f;
+ border-left:2px solid var(--gold);border-radius:0 10px 10px 0
+}
 .insight b,.action b,.news-item b{font-size:13px}
 .insight p,.action p,.news-item p{font-size:12px;color:var(--muted);margin:5px 0 0}
 .action{display:grid;grid-template-columns:30px 1fr;gap:8px}
@@ -74,9 +80,6 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
 .small-inputs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .section-note{font-size:11px;color:var(--muted);margin-top:10px}
 .spinner{display:inline-block;width:13px;height:13px;border:2px solid #ffffff30;border-top-color:var(--gold);border-radius:50%;animation:spin .8s linear infinite;vertical-align:middle}
-.news-group{margin-top:18px}
-.news-group-title{color:var(--gold);font-size:11px;letter-spacing:2px;border-bottom:1px solid var(--line);padding-bottom:8px}
-.news-empty{background:#11120f;padding:15px;border-radius:10px;color:var(--muted);font-size:12px}
 @keyframes spin{to{transform:rotate(360deg)}}
 @media(max-width:800px){.s7,.s6,.s5{grid-column:span 12}.metrics{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:520px){
@@ -98,7 +101,11 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
 <section class="hero">
  <div class="eyebrow">VILLAGE INTELLIGENCE CENTRE</div>
  <h1>Understand the place.<br><span>Improve everyday life.</span></h1>
- <p>Investigate community challenges, understand environmental conditions, discover recent local reports and generate practical solutions for villages, towns and cities worldwide.</p>
+ <p>
+ Investigate community challenges, understand environmental conditions,
+ discover recent local reports and generate practical solutions for villages,
+ towns and cities worldwide.
+ </p>
 </section>
 
 <section class="card">
@@ -177,22 +184,22 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
 <section class="card s12">
  <div class="sub">04 / LOCAL NEWS INVESTIGATION</div>
  <h2>Recent News & Reported Problems</h2>
- <p class="notice">Investigates current and recent reports for the selected settlement, then checks its wider district, state and country where necessary. Each article is labelled by search scope.</p>
+ <p class="notice">Searches recent online news for this location. Exact village results are preferred; broader district or regional results are labelled separately.</p>
  <div class="controls">
   <button id="newsBtn">FIND LOCAL NEWS</button>
-  <button class="secondary" id="clearNewsCacheBtn">REFRESH NEWS SEARCH</button>
   <span id="newsStatus" class="notice">Waiting for a selected location.</span>
  </div>
  <div id="newsResults">
   <p class="notice">Select a location and run the news investigation.</p>
  </div>
- <p class="notice">News search is based on article text and location names, not verified geographic boundaries. Always open the original report. Regional reports are not proof of a problem in the selected village.</p>
+ <p class="notice">News search is based on article text, not guaranteed geographic boundaries. Always open and verify the original report.</p>
 </section>
 
 <section class="card s6">
  <div class="sub">05 / COMMUNITY NEEDS INVESTIGATION</div>
  <h2>Assess Essential Services</h2>
  <p class="notice">Select conditions based on observations or reliable local information. GPS cannot automatically verify these services.</p>
+
  <div class="needs" id="needs">
   <div class="need"><b>Drinking Water</b><p>Availability, safety and quality.</p>
    <select data-key="water"><option value="unknown">Not assessed</option><option value="good">Adequate / verified</option><option value="concern">Limited supply</option><option value="urgent">Unsafe / unavailable</option></select>
@@ -269,7 +276,7 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
  <div class="sub">10 / DATA & LIMITATIONS</div>
  <h2>How ROAMX Investigates</h2>
  <div class="insight"><b>Environmental information</b><p>Weather and air-quality estimates are retrieved from Open-Meteo services. Model outputs are not local sensor measurements.</p></div>
- <div class="insight"><b>News information</b><p>Recent online articles are discovered through GDELT. Exact place-name searches are expanded to administrative areas when necessary. Coverage can be incomplete and does not prove a problem exists at the selected coordinates.</p></div>
+ <div class="insight"><b>News information</b><p>Recent online articles are discovered through GDELT. News coverage can be incomplete and does not prove that an issue exists at the exact selected coordinates.</p></div>
  <div class="insight"><b>Community information</b><p>Resident observations and needs assessments are user-provided evidence. ROAMX does not independently verify them.</p></div>
  <div class="insight"><b>Privacy</b><p>Observations and analysis history are stored in this browser's local storage. No account or central database is used by this page.</p></div>
 </section>
@@ -294,7 +301,6 @@ let currentMeta = {};
 let weather = null;
 let air = null;
 let analysisToken = 0;
-let newsToken = 0;
 
 const solutions = {
  water:{
@@ -399,8 +405,6 @@ function dedupePlaces(items){
   return true;
  });
 }
-
-/* LOCATION DISCOVERY — PRESERVED FROM YOUR ORIGINAL CODE */
 
 async function searchPlace(){
  const query = $("place").value.trim();
@@ -580,6 +584,7 @@ async function analyse(lat,lon,name,meta={}){
   $("humidity").textContent=formatNumber(w.relative_humidity_2m,0)+"%";
   $("wind").textContent=formatNumber(w.wind_speed_10m);
   $("rainfall").textContent=formatNumber(w.precipitation);
+
   const index=currentHourIndex(weather.hourly,w.time);
   const probability=weather.hourly?.precipitation_probability?.[index];
   $("rain").textContent=probability==null?"—":probability+"%";
@@ -628,15 +633,26 @@ function getSelectedNeeds(){
 function weatherWarnings(){
  if(!weather?.current)return [];
  const w=weather.current,result=[];
+
  if(Number(w.apparent_temperature)>=38){
-  result.push({title:"High heat exposure indicator",body:"The modelled feels-like temperature is high. Provide shade and safe drinking water, encourage rest breaks and follow local health guidance."});
+  result.push({
+   title:"High heat exposure indicator",
+   body:"The modelled feels-like temperature is high. Provide shade and safe drinking water, encourage rest breaks and follow local health guidance."
+  });
  }else if(Number(w.temperature_2m)>=35){
-  result.push({title:"Hot weather indicator",body:"Encourage hydration, shade and reduced strenuous outdoor activity during the hottest hours."});
+  result.push({
+   title:"Hot weather indicator",
+   body:"Encourage hydration, shade and reduced strenuous outdoor activity during the hottest hours."
+  });
  }
+
  const index=currentHourIndex(weather.hourly,w.time);
  const probability=weather.hourly?.precipitation_probability?.[index];
  if(Number(probability)>=70){
-  result.push({title:"High rain probability",body:"Check drainage, protect essential supplies and follow official rainfall and flood warnings. Rain probability alone does not confirm flooding."});
+  result.push({
+   title:"High rain probability",
+   body:"Check drainage, protect essential supplies and follow official rainfall and flood warnings. Rain probability alone does not confirm flooding."
+  });
  }
  return result;
 }
@@ -650,37 +666,61 @@ function generateReport(){
 
  if(air?.current){
   const value=air.current.european_aqi,level=aqiLevel(value);
-  insights.push({title:"Environmental indicator: Air quality "+level[0],body:level[1]+". Modelled air-quality estimate; not a local sensor measurement."});
+  insights.push({
+   title:"Environmental indicator: Air quality "+level[0],
+   body:level[1]+". Modelled air-quality estimate; not a local sensor measurement."
+  });
   if(value!=null&&value>60){
-   actions.push({title:"Reduce exposure to poor estimated air quality",body:"Reduce prolonged strenuous outdoor activity when conditions are poor. Avoid waste burning and follow official local air-quality advice. Report persistent pollution sources to the responsible authority."});
+   actions.push({
+    title:"Reduce exposure to poor estimated air quality",
+    body:"Reduce prolonged strenuous outdoor activity when conditions are poor. Avoid waste burning and follow official local air-quality advice. Report persistent pollution sources to the responsible authority."
+   });
   }
  }else{
-  insights.push({title:"Air-quality evidence unavailable",body:"No air-quality reading was returned. This does not prove the air is clean or polluted."});
+  insights.push({
+   title:"Air-quality evidence unavailable",
+   body:"No air-quality reading was returned. This does not prove the air is clean or polluted."
+  });
  }
 
  weatherWarnings().forEach(x=>insights.push(x));
 
  urgent.forEach(x=>{
-  insights.push({title:"Priority investigation: "+solutions[x.key].title,body:"The community assessment marked this issue urgent. This is a resident-selected assessment, not an independently verified finding."});
+  insights.push({
+   title:"Priority investigation: "+solutions[x.key].title,
+   body:"The community assessment marked this issue urgent. This is a resident-selected assessment, not an independently verified finding."
+  });
   actions.push({title:"Urgent action: "+solutions[x.key].title,body:solutions[x.key].urgent});
  });
 
  concern.forEach(x=>{
-  insights.push({title:"Improvement needed: "+solutions[x.key].title,body:"A community concern was selected. Confirm the affected area, duration and residents affected."});
+  insights.push({
+   title:"Improvement needed: "+solutions[x.key].title,
+   body:"A community concern was selected. Confirm the affected area, duration and residents affected."
+  });
   actions.push({title:"Improvement action: "+solutions[x.key].title,body:solutions[x.key].concern});
  });
 
  const observations=getObservations().filter(o=>!o.place||o.place===currentName);
  if(observations.length){
-  insights.push({title:"Resident observations recorded",body:observations.length+" locally saved observation(s) are associated with this selected place. They are resident reports and have not been independently verified."});
+  insights.push({
+   title:"Resident observations recorded",
+   body:observations.length+" locally saved observation(s) are associated with this selected place. They are resident reports and have not been independently verified."
+  });
  }
 
  if(!urgent.length&&!concern.length){
-  insights.push({title:"Community service status not established",body:"No urgent or improvement concerns were selected. "+unknown.length+" categories remain unassessed. This is not proof that all services are adequate."});
+  insights.push({
+   title:"Community service status not established",
+   body:"No urgent or improvement concerns were selected. "+unknown.length+" categories remain unassessed. This is not proof that all services are adequate."
+  });
  }
 
  if(!actions.length){
-  actions.push({title:"Start a community fact-finding visit",body:"Speak with residents, check essential services and record specific locations and dates. Confirm water safety, sanitation, waste collection, healthcare access and road conditions with responsible services."});
+  actions.push({
+   title:"Start a community fact-finding visit",
+   body:"Speak with residents, check essential services and record specific locations and dates. Confirm water safety, sanitation, waste collection, healthcare access and road conditions with responsible services."
+  });
  }
 
  weatherWarnings().forEach(x=>actions.push(x));
@@ -724,10 +764,12 @@ function saveHistory(){
 function renderHistory(){
  const old=getHistory(),p=old.previous,n=old.latest;
  if(!n)return;
+
  if(!p){
   $("history").innerHTML=`<p class="notice">First snapshot saved for ${esc(n.place)}. Analyse again later to compare.</p>`;
   return;
  }
+
  $("history").innerHTML=`
   <table>
    <tr><th>Indicator</th><th>Previous</th><th>Latest</th></tr>
@@ -747,10 +789,14 @@ function saveObservation(){
  const description=$("observation").value.trim();
  if(!description){setError("Describe the local problem before saving.");return;}
  const list=getObservations();
+
  list.push({
-  type:$("obsType").value,text:description,
-  time:Date.now(),place:currentName||"Location not selected"
+  type:$("obsType").value,
+  text:description,
+  time:Date.now(),
+  place:currentName||"Location not selected"
  });
+
  try{
   localStorage.setItem(OBS_STORAGE,JSON.stringify(list.slice(-60)));
   $("observation").value="";
@@ -780,16 +826,13 @@ function clearObservations(){
  generateReport();
 }
 
-/* =====================================================
-   ROAMX NEWS INVESTIGATION ENGINE
-   Location discovery above remains unchanged.
-   ===================================================== */
+/* LOCAL NEWS INVESTIGATION */
 
 function newsCacheRead(key){
  try{
   const all=JSON.parse(localStorage.getItem(NEWS_CACHE)||"{}");
   const entry=all[key];
-  if(entry&&Date.now()-entry.savedAt<20*60*1000)return entry.data;
+  if(entry&&Date.now()-entry.savedAt<30*60*1000)return entry.data;
  }catch{}
  return null;
 }
@@ -798,63 +841,30 @@ function newsCacheWrite(key,data){
  try{
   const all=JSON.parse(localStorage.getItem(NEWS_CACHE)||"{}");
   all[key]={savedAt:Date.now(),data};
-  const keys=Object.keys(all);
-  if(keys.length>50){
-   keys.sort((a,b)=>all[a].savedAt-all[b].savedAt);
-   keys.slice(0,keys.length-50).forEach(k=>delete all[k]);
-  }
   localStorage.setItem(NEWS_CACHE,JSON.stringify(all));
  }catch(e){console.warn("News cache unavailable",e);}
 }
 
-function newsTopicTerms(){
- return [
-  "pollution","air quality","water pollution","water shortage",
-  "waste management","sanitation","flood","flooding",
-  "drought","heatwave","extreme weather","cyclone",
-  "rainfall","landslide","environment","deforestation",
-  "public health","road damage","infrastructure",
-  "drinking water","sewage","climate change"
- ];
+function topicQuery(place){
+ const topics="(flood OR drought OR water shortage OR pollution OR waste OR sanitation OR heat OR storm OR cyclone OR landslide OR infrastructure OR public health)";
+ return '"'+place.replace(/"/g,"")+'" '+topics;
 }
 
-function buildNewsQuery(place,mode="all"){
- const clean=String(place||"")
-  .replace(/["<>]/g," ")
-  .replace(/\s+/g," ")
-  .trim();
-
- const terms=newsTopicTerms();
- let selected=terms;
-
- if(mode==="pollution"){
-  selected=["pollution","air quality","water pollution","waste management","sewage","industrial emissions"];
- }else if(mode==="disaster"){
-  selected=["flood","flooding","drought","cyclone","heatwave","landslide","extreme weather"];
- }else if(mode==="community"){
-  selected=["water shortage","sanitation","drinking water","healthcare","road damage","infrastructure","waste management"];
- }
-
- // GDELT query syntax: location phrase combined with topic alternatives.
- return '"'+clean+'" ('+selected.map(t=>'"'+t+'"').join(" OR ")+')';
-}
-
-async function gdeltSearch(place,mode="all",timespan="3m"){
- const cacheKey="v4|"+place.toLowerCase()+"|"+mode+"|"+timespan;
+async function gdeltSearch(place){
+ const cacheKey=place.toLowerCase();
  const cached=newsCacheRead(cacheKey);
  if(cached)return cached;
 
  const params=new URLSearchParams({
-  query:buildNewsQuery(place,mode),
+  query:topicQuery(place),
   mode:"ArtList",
   format:"json",
-  maxrecords:"25",
-  timespan:timespan,
+  maxrecords:"12",
+  timespan:"3m",
   sort:"DateDesc"
  });
 
- const url="https://api.gdeltproject.org/api/v2/doc/doc?"+params.toString();
- const data=await fetchJSON(url,25000);
+ const data=await fetchJSON("https://api.gdeltproject.org/api/v2/doc/doc?"+params.toString(),20000);
  const articles=Array.isArray(data.articles)?data.articles:[];
  newsCacheWrite(cacheKey,articles);
  return articles;
@@ -869,205 +879,83 @@ function cleanNewsDate(value){
 }
 
 function articleIsRelevant(article){
- const title=String(article.title||"").trim();
- const url=String(article.url||"").trim();
+ const title=(article.title||"").toLowerCase();
+ const url=(article.url||"").toLowerCase();
  return title.length>10 && /^https?:\/\//i.test(url);
 }
 
-function articleDateValue(article){
- const raw=String(article.seendate||"");
- const match=raw.match(/^(\d{4})(\d{2})(\d{2})T/);
- if(match){
-  return Date.UTC(Number(match[1]),Number(match[2])-1,Number(match[3]));
- }
- const parsed=Date.parse(raw);
- return Number.isFinite(parsed)?parsed:0;
-}
+function renderNews(articles,scope,place){
+ const valid=articles.filter(articleIsRelevant).slice(0,10);
 
-function renderNewsGroups(groups,place){
- const sections=Object.entries(groups).filter(([,items])=>items.length);
-
- if(!sections.length){
+ if(!valid.length){
   $("newsResults").innerHTML=`
-   <div class="news-empty">
-    <b>No matching recent reports were retrieved for ${esc(place)}.</b>
-    <p>This does not establish that the community has no problems. News coverage of small settlements can be limited. Check local authority announcements and resident observations as well.</p>
+   <div class="insight">
+    <b>No matching recent reports found for ${esc(place)}</b>
+    <p>This does not prove that the community has no problems. Local news coverage may be limited or absent. Use resident observations and local authority information as additional evidence.</p>
    </div>`;
   return;
  }
 
- $("newsResults").innerHTML=sections.map(([scope,items])=>`
-  <div class="news-group">
-   <div class="news-group-title">
-    ${esc(scope.toUpperCase())} · ${items.length} REPORT(S)
-   </div>
-   ${items.map(article=>`
-    <article class="news-item">
-     <b>${esc(article.title)}</b>
-     <div class="news-meta">
-      ${esc(article.domain||"Publisher not supplied")}
-      · ${esc(cleanNewsDate(article.seendate))}
-      ${article.sourcecountry?" · "+esc(article.sourcecountry):""}
-     </div>
-     <p>
-      ${esc(article.roamxDescription)}
-     </p>
-     <a href="${esc(article.url)}" target="_blank" rel="noopener noreferrer">
-      OPEN ORIGINAL REPORT ↗
-     </a>
-    </article>
-   `).join("")}
-  </div>
- `).join("");
+ $("newsResults").innerHTML=`
+  <div class="news-meta">${esc(scope)} · ${valid.length} report(s) returned · Recent search window: up to 3 months</div>
+  ${valid.map(article=>`
+   <article class="news-item">
+    <b>${esc(article.title)}</b>
+    <div class="news-meta">${esc(article.domain||"Publisher not supplied")} · ${esc(cleanNewsDate(article.seendate))} · ${esc(article.sourcecountry||"Country not supplied")}</div>
+    <p>Reported online coverage. Open the original article to confirm the location, details and whether the issue is still current.</p>
+    <a href="${esc(article.url)}" target="_blank" rel="noopener noreferrer">OPEN ORIGINAL REPORT ↗</a>
+   </article>`).join("")}`;
 }
 
 async function investigateNews(){
- if(!current){
-  setError("Select a location before searching local news.");
-  return;
- }
+ if(!current){setError("Select a location before searching local news.");return;}
 
- const myToken=++newsToken;
+ const name=currentName;
  const meta=currentMeta||{};
- const exactName=String(meta.name||currentName.split(",")[0]).trim();
-
- // Use actual administrative metadata when available.
- const district=String(meta.admin2||"").trim();
- const state=String(meta.admin1||"").trim();
- const country=String(meta.country||"").trim();
-
- // Coordinates are included as supporting context in the report,
- // but GDELT article search itself is based on place names.
- const scopes=[
-  {name:exactName,label:"Selected settlement",priority:1}
- ];
-
- function addScope(name,label){
-  if(!name)return;
-  if(scopes.some(s=>s.name.toLowerCase()===name.toLowerCase()))return;
-  if(name.toLowerCase()===exactName.toLowerCase())return;
-  scopes.push({name,label,priority:2});
- }
-
- addScope(district,"District / wider local area");
- addScope(state,"State / regional coverage");
- addScope(country,"Country-level coverage");
+ const exactName=meta.name||name.split(",")[0].trim();
+ const broader=meta.admin2||meta.admin1||"";
+ const country=meta.country||"";
 
  $("newsBtn").disabled=true;
- $("newsStatus").innerHTML=
-  '<span class="spinner"></span> Investigating recent reports...';
- $("newsResults").innerHTML=`
-  <div class="news-empty">
-   <span class="spinner"></span>
-   Searching for reports related to ${esc(exactName)}...
-  </div>`;
-
- const allArticles=[];
- const seen=new Set();
- const scopeResults={};
- let failedCount=0;
+ $("newsStatus").innerHTML='<span class="spinner"></span> Searching recent reports...';
+ $("newsResults").innerHTML='<p class="notice">Checking reports for the selected location...</p>';
 
  try{
-  for(let i=0;i<scopes.length;i++){
-   if(myToken!==newsToken)return;
+  let articles=await gdeltSearch(exactName);
+  let scope="Location-name search: "+exactName;
 
-   const scope=scopes[i];
-   $("newsStatus").textContent=
-    "Investigating "+scope.label+": "+scope.name;
-
-   try{
-    let articles=await gdeltSearch(scope.name,"all","3m");
-
-    // If the exact settlement query has no results, retry a shorter
-    // recent time window with a broader set of community topics.
-    if(!articles.length && i===0){
-     try{
-      articles=await gdeltSearch(scope.name,"community","1y");
-     }catch(e){
-      console.warn("Extended settlement search failed",e);
-     }
-    }
-
-    const accepted=[];
-
-    articles.filter(articleIsRelevant).forEach(article=>{
-     const key=String(article.url).toLowerCase();
-     if(seen.has(key))return;
-     seen.add(key);
-
-     const tagged={
-      ...article,
-      roamxScope:scope.label,
-      roamxQuery:scope.name,
-      roamxDescription:
-       "Found through a "+scope.label.toLowerCase()+
-       " search for "+scope.name+
-       ". Confirm the article's actual location and date before treating it as local evidence."
-     };
-
-     accepted.push(tagged);
-     allArticles.push(tagged);
-    });
-
-    scopeResults[scope.label]=accepted;
-
-   }catch(e){
-    failedCount++;
-    console.warn("GDELT search failed for "+scope.name,e);
-    scopeResults[scope.label]=[];
-   }
+  if(!articles.length&&broader&&broader.toLowerCase()!==exactName.toLowerCase()){
+   $("newsStatus").textContent="No exact-name reports. Checking broader administrative area...";
+   await new Promise(resolve=>setTimeout(resolve,5500));
+   articles=await gdeltSearch(broader);
+   scope="Broader area results: "+broader+(country?", "+country:"");
   }
 
-  if(myToken!==newsToken)return;
-
-  // Sort articles newest first inside each geographic scope.
-  Object.keys(scopeResults).forEach(scope=>{
-   scopeResults[scope].sort((a,b)=>articleDateValue(b)-articleDateValue(a));
-   scopeResults[scope]=scopeResults[scope].slice(0,8);
-  });
-
-  renderNewsGroups(scopeResults,exactName);
-
-  const total=Object.values(scopeResults).reduce((sum,arr)=>sum+arr.length,0);
-
-  if(total){
-   $("newsStatus").textContent=
-    total+" unique reports retrieved. Check each article's original location.";
-  }else if(failedCount===scopes.length){
-   $("newsStatus").textContent="All news searches failed.";
-   $("newsResults").innerHTML=`
-    <div class="news-empty">
-     <b>News service could not be reached.</b>
-     <p>GDELT may be unavailable, rate-limited or blocked by the browser connection. Try again later or use the original HTTPS-hosted page. No invented news is displayed.</p>
-    </div>`;
-  }else{
-   $("newsStatus").textContent="No matching reports found in the available searches.";
+  if(!articles.length&&country&&country.toLowerCase()!==exactName.toLowerCase()){
+   $("newsStatus").textContent="Checking wider regional coverage...";
+   await new Promise(resolve=>setTimeout(resolve,5500));
+   articles=await gdeltSearch(country);
+   scope="Country-level results: "+country;
   }
 
+  renderNews(articles,scope,exactName);
+  $("newsStatus").textContent=articles.length?"News search completed. Verify each article.":"No matching reports returned.";
  }catch(e){
-  console.error("News investigation error:",e);
-  $("newsStatus").textContent="News investigation failed.";
+  console.error(e);
+  $("newsStatus").textContent="News service unavailable.";
   $("newsResults").innerHTML=`
-   <div class="news-empty">
-    <b>Unable to complete the news investigation.</b>
-    <p>Check your connection and retry. No fabricated headlines or reports are displayed.</p>
+   <div class="insight">
+    <b>Could not retrieve recent news</b>
+    <p>The news service may be temporarily unavailable or rate-limited. Try again later. No sample or invented headlines are displayed.</p>
    </div>`;
  }finally{
-  if(myToken===newsToken)$("newsBtn").disabled=false;
+  $("newsBtn").disabled=false;
  }
-}
-
-function clearNewsCache(){
- if(!confirm("Clear saved news search results and search the news provider again?"))return;
- localStorage.removeItem(NEWS_CACHE);
- $("newsResults").innerHTML='<p class="notice">News cache cleared. You can run a fresh investigation.</p>';
- $("newsStatus").textContent="Ready for a fresh search.";
 }
 
 /* DEMONSTRATION MODE */
 
 function demo(){
- ++newsToken;
  current=null;
  weather={
   current:{
@@ -1113,7 +1001,6 @@ $("coordinateBtn").addEventListener("click",manualCoordinates);
 $("manualBtn").addEventListener("click",analyseManual);
 $("demoBtn").addEventListener("click",demo);
 $("newsBtn").addEventListener("click",investigateNews);
-$("clearNewsCacheBtn").addEventListener("click",clearNewsCache);
 $("reportBtn").addEventListener("click",generateReport);
 $("resetNeedsBtn").addEventListener("click",resetNeeds);
 $("saveObservationBtn").addEventListener("click",saveObservation);
