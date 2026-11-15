@@ -3,778 +3,800 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#10100e">
-<meta name="description" content="ROAMX Village Intelligence - Community needs, location analysis and practical solutions.">
+<meta name="theme-color" content="#10110f">
 <title>ROAMX | Village Intelligence</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
-:root{
---bg:#10100e;--panel:#191916;--line:rgba(218,184,105,.18);
---gold:#d9b66b;--gold2:#f2d99a;--text:#f3f0e8;
---muted:#aaa597;--green:#8bc6a0;--blue:#91b9d4;
---amber:#e8bd72;--radius:18px;
+:root {
+ --bg:#10110f;
+ --panel:#1b1c18;
+ --panel2:#22231e;
+ --gold:#d8b56d;
+ --gold2:#f0d99f;
+ --text:#f4f0e6;
+ --muted:#a6a397;
+ --line:#ffffff18;
+ --green:#8dbb91;
+ --amber:#e3bd70;
+ --red:#df8580;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
 body{
-margin:0;background:radial-gradient(ellipse at 80% 0%,rgba(217,182,107,.09),transparent 34%),var(--bg);
-color:var(--text);font-family:'DM Sans',sans-serif;line-height:1.65
+ margin:0;
+ background:radial-gradient(ellipse at 80% 0%,#55401e35,transparent 35%),var(--bg);
+ color:var(--text);
+ font-family:Inter,Arial,sans-serif;
+ line-height:1.6;
 }
-a{color:inherit;text-decoration:none}
-button,input,select{font:inherit}
-.container{width:min(1160px,92%);margin:auto}
-.topbar{position:sticky;top:0;z-index:20;background:rgba(16,16,14,.94);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
-.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.brand{font:700 23px 'Space Grotesk';letter-spacing:2px;display:flex;align-items:center;gap:11px}
-.brand-mark{width:36px;height:36px;display:grid;place-items:center;border-radius:11px;color:#17140d;background:linear-gradient(135deg,var(--gold2),#a9823f);font-weight:900}
-.navlinks{display:flex;gap:20px;align-items:center}
-.navlinks a{font-size:12px;color:var(--muted);font-weight:700}
-.navlinks a:hover{color:var(--gold2)}
-.menu{display:none;border:1px solid var(--line);background:var(--panel);color:var(--text);padding:8px 12px;border-radius:10px}
-.hero{padding:76px 0 42px}
-.eyebrow,.kicker{font-size:10px;letter-spacing:2.2px;font-weight:800;color:var(--gold);text-transform:uppercase}
-.eyebrow{display:flex;align-items:center;gap:10px}
-.pulse{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green)}
-h1,h2,h3,p{margin-top:0}
-h1{font:700 clamp(42px,7vw,76px)/1.02 'Space Grotesk';letter-spacing:-3px;max-width:850px;margin:22px 0}
-.gold{background:linear-gradient(100deg,var(--gold2),var(--gold),#a98143);background-clip:text;-webkit-background-clip:text;color:transparent}
-.lead{max-width:720px;color:var(--muted);font-size:15px}
-.hero-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:26px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--line);border-radius:11px;padding:11px 16px;font-size:12px;font-weight:800;cursor:pointer;transition:.2s}
-.btn:hover{transform:translateY(-2px);border-color:var(--gold)}
-.btn-primary{background:linear-gradient(110deg,var(--gold2),var(--gold));color:#1b170e;border:0}
-.btn-quiet{background:var(--panel);color:var(--text)}
-.notice{margin:14px 0 0;padding:13px 15px;border:1px solid rgba(145,185,212,.24);background:rgba(145,185,212,.07);border-radius:12px;color:#c4d8e5;font-size:11px;max-width:850px}
-.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin:22px 0 54px}
-.metric,.card,.issue,.source-card,.survey-box{background:linear-gradient(145deg,#22221c,#171714);border:1px solid var(--line);border-radius:var(--radius)}
-.metric{padding:18px}
-.metric-label{font-size:9px;letter-spacing:1.5px;color:var(--muted);font-weight:800;text-transform:uppercase}
-.metric-value{font:700 clamp(25px,3vw,35px) 'Space Grotesk';color:var(--gold2);margin:8px 0 2px}
-.metric-note{font-size:10px;color:var(--muted)}
-.section{padding:22px 0 54px}
-.section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:20px}
-.section-head h2{font:700 clamp(25px,4vw,34px) 'Space Grotesk';margin:4px 0}
-.section-desc{color:var(--muted);font-size:12px;margin:5px 0 0;max-width:700px}
-.tag{display:inline-flex;align-items:center;gap:6px;border-radius:30px;padding:5px 9px;font-size:9px;letter-spacing:.7px;font-weight:800;text-transform:uppercase;border:1px solid var(--line);color:var(--gold2);background:rgba(217,182,107,.07)}
-.tag.green{color:var(--green)}
-.tag.blue{color:var(--blue)}
-.tag.amber{color:var(--amber)}
-.toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:18px 0}
-.search{flex:1;min-width:220px;max-width:390px;background:var(--panel);border:1px solid var(--line);border-radius:11px;color:var(--text);padding:11px 13px}
-.filters{display:flex;gap:7px;flex-wrap:wrap}
-.filter{border:1px solid var(--line);background:var(--panel);color:var(--muted);border-radius:30px;padding:8px 12px;font-size:10px;font-weight:800;cursor:pointer}
-.filter.active,.filter:hover{background:var(--gold);color:#1b170e}
-.issue-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-.issue{padding:20px;transition:.2s}
-.issue:hover{transform:translateY(-3px);border-color:rgba(217,182,107,.48)}
-.issue-icon{font-size:24px}
-.issue h3{font:600 18px 'Space Grotesk';margin:13px 0 7px}
-.issue p,.card p{font-size:11px;color:var(--muted)}
-.issue-meta{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:13px}
-.mini{font-size:9px;color:var(--muted);border:1px solid var(--line);border-radius:7px;padding:4px 7px}
-.issue button{border:0;background:none;color:var(--gold2);font-size:10px;font-weight:800;cursor:pointer;padding:0}
-.analysis-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:15px}
-.card{padding:22px}
-.card h3{font:600 19px 'Space Grotesk'}
-.select{width:100%;background:#151512;color:var(--text);border:1px solid var(--line);padding:11px;border-radius:10px;margin:6px 0 14px}
-.solution-list{display:grid;gap:10px}
-.solution-item{display:flex;gap:11px;padding:12px;border-radius:12px;background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.06)}
-.solution-num{width:25px;height:25px;display:grid;place-items:center;border-radius:8px;background:rgba(217,182,107,.12);color:var(--gold2);font-size:10px;font-weight:900;flex-shrink:0}
-.solution-item strong{display:block;font-size:11px}
-.solution-item span{display:block;color:var(--muted);font-size:10px;margin-top:2px}
-.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:14px}
-.level{padding:12px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.02)}
-.level b{display:block;color:var(--gold2);font-size:10px;margin-bottom:4px}
-.level span{display:block;color:var(--muted);font-size:9px}
-.evidence-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}
-.source-card{padding:18px}
-.source-card h3{font:600 15px 'Space Grotesk';margin:12px 0 7px}
-.source-card p{color:var(--muted);font-size:10px}
-.source-link{color:var(--gold2);font-weight:800}
-.survey-layout{display:grid;grid-template-columns:1fr 1fr;gap:15px}
-.survey-box{padding:22px}
-.questions{display:grid;gap:9px;margin:15px 0}
-.question{display:flex;gap:9px;align-items:start;font-size:11px;color:#d6d1c5}
-.question input{accent-color:var(--gold);margin-top:3px}
-.survey-output{background:#11110f;border:1px solid var(--line);border-radius:12px;padding:14px;color:var(--muted);font-size:10px;white-space:pre-wrap;min-height:112px}
-.footnote{color:var(--muted);font-size:10px;margin-top:12px}
-.footer{border-top:1px solid var(--line);padding:27px 0;margin-top:20px;color:var(--muted);font-size:10px}
-.footer-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.credit{color:var(--gold2);font-weight:800}
-
-.location-panel{padding:24px;border:1px solid rgba(217,182,107,.3);border-radius:20px;background:linear-gradient(135deg,#262218,#161613)}
-.location-controls{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}
-.location-input{flex:1;min-width:220px;background:#11110f;border:1px solid var(--line);color:var(--text);border-radius:11px;padding:12px 14px}
-.location-status{font-size:11px;color:var(--muted);margin:10px 0}
-.location-results{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:17px}
-.loc-metric{padding:15px;border:1px solid var(--line);border-radius:13px;background:rgba(0,0,0,.18)}
-.loc-metric b{display:block;color:var(--gold2);font:700 25px 'Space Grotesk'}
-.loc-metric span{font-size:10px;color:var(--muted)}
-.detected-list{display:grid;gap:11px;margin-top:16px}
-.detected-item{padding:15px;border:1px solid var(--line);border-radius:13px;background:rgba(255,255,255,.025)}
-.detected-item h4{font:600 14px 'Space Grotesk';margin:0 0 5px}
-.detected-item p{font-size:11px;color:var(--muted);margin:0 0 8px}
-.detected-item .action{font-size:11px;color:#e9d7a8}
-.source-small{font-size:9px;color:var(--muted);margin-top:12px}
-
-@media(max-width:850px){
-.issue-grid{grid-template-columns:repeat(2,1fr)}
-.metrics{grid-template-columns:repeat(2,1fr)}
-.analysis-grid,.survey-layout{grid-template-columns:1fr}
+button,input,select,textarea{font:inherit}
+.wrap{max-width:1200px;margin:auto;padding:25px 20px 50px}
+header{
+ display:flex;justify-content:space-between;align-items:center;
+ border-bottom:1px solid #d8b56d35;padding-bottom:20px;
 }
-@media(max-width:620px){
-.menu{display:block}
-.navlinks{display:none;position:absolute;top:72px;left:0;right:0;padding:18px 4%;background:#151512;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}
-.navlinks.open{display:flex}
-.hero{padding-top:53px}
-h1{letter-spacing:-2px}
-.issue-grid,.evidence-grid{grid-template-columns:1fr}
-.section-head{align-items:flex-start;flex-direction:column}
-.levels{grid-template-columns:1fr}
-.metrics{gap:9px}
-.metric{padding:14px}
-.metric-value{font-size:25px}
-.toolbar{align-items:stretch}
-.search{max-width:none}
-.location-results{grid-template-columns:1fr}
+.brand{font-size:21px;letter-spacing:5px;font-weight:800;color:var(--gold)}
+.brand small{display:block;font-size:9px;letter-spacing:3px;color:var(--muted)}
+.pill{border:1px solid #d8b56d66;border-radius:30px;padding:7px 12px;color:var(--gold);font-size:11px}
+.hero{padding:45px 0 25px}
+.eyebrow{color:var(--gold);font-size:11px;letter-spacing:3px;font-weight:bold}
+h1{font-size:clamp(35px,6vw,60px);line-height:1.08;margin:12px 0;letter-spacing:-2px}
+h1 span{color:var(--gold)}
+.hero p{color:var(--muted);max-width:700px}
+.card{
+ background:linear-gradient(145deg,#20211c,#171813);
+ border:1px solid #d8b56d30;border-radius:17px;
+ padding:20px;margin-bottom:15px;
+}
+.card h2{font-size:16px;margin:0 0 15px}
+.sub{font-size:10px;letter-spacing:2px;color:var(--gold);margin-bottom:5px}
+.search{display:flex;gap:10px;margin:20px 0 10px}
+input,select,textarea{
+ background:#11120f;color:var(--text);
+ border:1px solid #514a37;border-radius:10px;padding:13px;width:100%;
+ outline:none;
+}
+input:focus,select:focus,textarea:focus{border-color:var(--gold)}
+button{
+ background:var(--gold);color:#17150f;border:0;
+ padding:12px 17px;border-radius:10px;font-weight:bold;
+ cursor:pointer;
+}
+button.secondary{background:transparent;color:var(--gold2);border:1px solid #8b7040}
+button:hover{filter:brightness(1.12)}
+.controls{display:flex;gap:9px;flex-wrap:wrap;margin:10px 0}
+.hint,.notice{font-size:11px;color:var(--muted)}
+#error{color:var(--red);font-size:12px}
+.statusline{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:12px;margin:20px 0}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.s12{grid-column:span 12}.s7{grid-column:span 7}.s6{grid-column:span 6}.s5{grid-column:span 5}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.metric{background:#11120f;border:1px solid var(--line);border-radius:12px;padding:13px}
+.metric small{display:block;color:var(--muted);font-size:11px}
+.metric strong{font-size:25px;display:block;margin-top:5px}
+.badge{font-size:10px;border:1px solid var(--line);padding:5px 9px;border-radius:30px;color:var(--muted)}
+.good{color:var(--green)}.warn{color:var(--amber)}.bad{color:var(--red)}
+.big{font-size:43px;font-weight:bold;letter-spacing:-2px}
+.bar{height:6px;background:#ffffff15;border-radius:20px;margin:12px 0;overflow:hidden}
+.bar span{display:block;height:100%;background:var(--gold);width:0}
+.needs{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.need{background:#11120f;padding:13px;border:1px solid var(--line);border-radius:12px}
+.need b{font-size:13px}
+.need p{font-size:11px;color:var(--muted);margin:5px 0}
+.need select{font-size:12px;padding:9px;margin-top:5px}
+.insight,.action{
+ padding:13px;margin:9px 0;background:#11120f;
+ border-left:2px solid var(--gold);border-radius:0 10px 10px 0;
+}
+.insight b,.action b{font-size:13px}
+.insight p,.action p{font-size:12px;color:var(--muted);margin:5px 0 0}
+.action{display:grid;grid-template-columns:30px 1fr;gap:8px}
+.num{color:var(--gold);font-weight:bold}
+textarea{min-height:90px;resize:vertical}
+table{width:100%;border-collapse:collapse;font-size:12px}
+td,th{text-align:left;padding:10px;border-bottom:1px solid var(--line)}
+th{color:var(--gold)}
+footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding:25px}
+.hidden{display:none}
+@media(max-width:800px){
+ .s7,.s6,.s5{grid-column:span 12}
+ .metrics{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:520px){
+ .wrap{padding:15px 12px}
+ .search{flex-direction:column}
+ .needs{grid-template-columns:1fr}
+ header{align-items:flex-start}
+ .pill{font-size:9px}
 }
 </style>
 </head>
 
 <body>
-<header class="topbar">
-<div class="container nav">
-<a class="brand" href="index.html"><span class="brand-mark">R</span> ROAMX</a>
-<button class="menu" id="menuBtn">☰</button>
-<nav class="navlinks" id="navLinks">
-<a href="index.html">Overview</a>
-<a href="map.html">Live Map</a>
-<a href="environment.html">ROAMX AIR</a>
-<a href="news.html">World Watch</a>
-<a href="resilience.html">Resilience</a>
-<a href="village-intelligence.html">Village Intelligence</a>
-</nav>
-</div>
+<div class="wrap">
+
+<header>
+ <div class="brand">ROAMX<small>COMMUNITY INTELLIGENCE</small></div>
+ <div class="pill">SDG 11 · SUSTAINABLE COMMUNITIES</div>
 </header>
 
-<main>
-<section class="container hero">
-<div class="eyebrow"><span class="pulse"></span> ROAMX / COMMUNITY INTELLIGENCE NETWORK</div>
-<h1>Understand the need.<br><span class="gold">Design the change.</span></h1>
-<p class="lead">An evidence-led rural needs observatory that connects documented community challenges with practical, affordable and locally actionable solutions. From water security to waste management, turn information into a pathway for better communities.</p>
-<div class="hero-actions">
-<a class="btn btn-primary" href="#needs">Explore community needs ↘</a>
-<a class="btn btn-quiet" href="#fieldkit">Open field survey toolkit</a>
-</div>
-<div class="notice"><strong>Research transparency:</strong> This page uses published reports, government information and environmental model data. It does not claim that ROAMX has personally interviewed villagers. Local problems must be verified before being treated as confirmed findings.</div>
+<section class="hero">
+ <div class="eyebrow">VILLAGE INTELLIGENCE CENTRE</div>
+ <h1>Understand the place.<br><span>Improve everyday life.</span></h1>
+ <p>
+ Location-based environmental intelligence, essential community-needs
+ assessment and affordable solutions for villages, towns and cities.
+ </p>
 </section>
 
-<section class="container metrics">
-<article class="metric"><div class="metric-label">Working rural tap connections</div><div class="metric-value">86.5%</div><div class="metric-note">Reported in the 2024 rural tap functionality assessment.</div></article>
-<article class="metric"><div class="metric-label">Households reporting waste segregation</div><div class="metric-value">39.9%</div><div class="metric-note">Swachh Survekshan Grameen 2023–24.</div></article>
-<article class="metric"><div class="metric-label">Rural households with tap supply</div><div class="metric-value">81.71%</div><div class="metric-note">Government-reported coverage, March 2026.</div></article>
-<article class="metric"><div class="metric-label">Villages in rural survey</div><div class="metric-value">17,304</div><div class="metric-note">Swachh Survekshan Grameen 2023–24.</div></article>
+<section>
+ <div class="search">
+  <input id="place" placeholder="Search any village, town, district or city worldwide">
+  <button onclick="searchPlace()">ANALYSE LOCATION</button>
+ </div>
+ <div class="controls">
+  <button class="secondary" onclick="useLocation()">◎ USE MY LOCATION</button>
+  <button class="secondary" onclick="refreshData()">↻ ANALYSE AGAIN</button>
+  <button class="secondary" onclick="demo()">VIEW DEMO</button>
+ </div>
+ <p class="hint">Location permission is optional. Search works worldwide.</p>
+ <div id="results"></div>
+ <div id="error"></div>
 </section>
 
-<!-- LOCATION INTELLIGENCE -->
-<section class="container section" id="location-intelligence">
-<div class="section-head">
-<div>
-<div class="kicker">LIVE LOCATION / ENVIRONMENTAL CHECK</div>
-<h2>Detect local conditions. <span class="gold">Find practical actions.</span></h2>
-<p class="section-desc">Use your device location or search for a town, village or district anywhere. ROAMX checks available weather and air-quality indicators, then recommends relevant next steps.</p>
-</div>
-<span class="tag green">Location-enabled</span>
+<div class="statusline">
+ <span id="connection">Waiting for location</span>
+ <span id="updated">No analysis yet</span>
 </div>
 
-<div class="location-panel">
-<div class="kicker">ROAMX LOCALITY SCAN</div>
-<h3 style="font:600 21px 'Space Grotesk';margin:8px 0">Where should we investigate?</h3>
+<main class="grid">
 
-<div class="location-controls">
-<input class="location-input" id="locationSearch" type="search" placeholder="Enter village, town, district or city…" aria-label="Search a location">
-<button class="btn btn-primary" id="searchLocation">Analyse location ↗</button>
-<button class="btn btn-quiet" id="useMyLocation">◎ Use my location</button>
-</div>
-
-<div class="location-status" id="locationStatus" role="status" aria-live="polite">Search for a location or allow browser location access. Your location is used only for this scan and is not saved by this page.</div>
-
-<div id="locationReport" hidden>
-<div class="tag" id="locationName">Location report</div>
-<div class="location-results" id="locationMetrics"></div>
-<div class="kicker" style="margin-top:22px">DETECTED INDICATORS & RECOMMENDED RESPONSES</div>
-<div class="detected-list" id="detectedIssues"></div>
-<p class="source-small">Data source: Open-Meteo weather and air-quality services. Values may be modelled or forecast estimates, not measurements from a sensor in the selected village. These indicators cannot detect drinking-water contamination, waste dumping, sewage leaks or healthcare access. Verify locally before taking action.</p>
-</div>
-</div>
+<section class="card s12">
+ <div class="sub">01 / LOCATION PROFILE</div>
+ <h2 id="placeName">Your community in focus</h2>
+ <div class="metrics">
+  <div class="metric"><small>Latitude</small><strong id="lat">—</strong></div>
+  <div class="metric"><small>Longitude</small><strong id="lon">—</strong></div>
+  <div class="metric"><small>Temperature</small><strong id="temp">—</strong></div>
+  <div class="metric"><small>Rain probability</small><strong id="rain">—</strong></div>
+ </div>
 </section>
 
-<!-- COMMUNITY NEEDS -->
-<section class="container section" id="needs">
-<div class="section-head">
-<div>
-<div class="kicker">01 / COMMUNITY NEEDS OBSERVATORY</div>
-<h2>What communities may need</h2>
-<p class="section-desc">Explore recurring rural development themes supported by published evidence. These are research priorities, not claims that every village faces every issue.</p>
-</div>
-<span class="tag">Evidence-led themes</span>
-</div>
-
-<div class="toolbar">
-<input class="search" id="issueSearch" type="search" placeholder="Search water, waste, drainage, climate…" aria-label="Search community needs">
-<div class="filters" id="issueFilters">
-<button class="filter active" data-filter="all">All needs</button>
-<button class="filter" data-filter="water">Water</button>
-<button class="filter" data-filter="sanitation">Sanitation</button>
-<button class="filter" data-filter="environment">Environment</button>
-<button class="filter" data-filter="resilience">Resilience</button>
-<button class="filter" data-filter="access">Access</button>
-</div>
-</div>
-
-<div class="issue-grid" id="issueGrid">
-<article class="issue" data-category="water" data-search="drinking water quality reliability groundwater maintenance">
-<div class="issue-icon">💧</div><span class="tag green">High priority theme</span>
-<h3>Safe water, every day</h3>
-<p>Tap coverage alone does not guarantee reliable, sufficient and safe water. Communities need dependable sources, water-quality checks and repair systems.</p>
-<div class="issue-meta"><span class="mini">Water quality</span><span class="mini">Supply reliability</span><span class="mini">Groundwater</span></div>
-<button data-solve="water">Explore practical solutions ↗</button>
-</article>
-
-<article class="issue" data-category="sanitation" data-search="waste segregation plastic compost collection recycling">
-<div class="issue-icon">♻️</div><span class="tag amber">Service gap to assess</span>
-<h3>Waste without dumping</h3>
-<p>Waste segregation, collection, safe disposal and plastic recovery need to work as one local system.</p>
-<div class="issue-meta"><span class="mini">Segregation</span><span class="mini">Collection</span><span class="mini">Composting</span></div>
-<button data-solve="waste">Explore practical solutions ↗</button>
-</article>
-
-<article class="issue" data-category="sanitation" data-search="greywater wastewater stagnant water drainage">
-<div class="issue-icon">🚰</div><span class="tag amber">Needs local inspection</span>
-<h3>Greywater & drainage</h3>
-<p>Household wastewater needs safe pathways. Poorly maintained drains and stagnant water can create environmental and public-health concerns.</p>
-<div class="issue-meta"><span class="mini">Greywater</span><span class="mini">Drainage</span><span class="mini">Maintenance</span></div>
-<button data-solve="greywater">Explore practical solutions ↗</button>
-</article>
-
-<article class="issue" data-category="environment" data-search="air pollution smoke burning indoor cooking dust">
-<div class="issue-icon">🌫️</div><span class="tag blue">Measure before action</span>
-<h3>Cleaner air & surroundings</h3>
-<p>Open burning, dust, household smoke and local emission sources should be identified before choosing interventions.</p>
-<div class="issue-meta"><span class="mini">Air quality</span><span class="mini">Clean cooking</span><span class="mini">AQI awareness</span></div>
-<button data-solve="air">Explore practical solutions ↗</button>
-</article>
-
-<article class="issue" data-category="resilience" data-search="flood drought heat cyclone climate preparedness">
-<div class="issue-icon">🌦️</div><span class="tag green">Preparedness focus</span>
-<h3>Climate & disaster readiness</h3>
-<p>Water stress, extreme rainfall, heat and local hazards call for practical early-warning awareness and community preparedness.</p>
-<div class="issue-meta"><span class="mini">Flood readiness</span><span class="mini">Heat safety</span><span class="mini">Drought planning</span></div>
-<button data-solve="climate">Explore practical solutions ↗</button>
-</article>
-
-<article class="issue" data-category="access" data-search="healthcare access transport school public services">
-<div class="issue-icon">🏥</div><span class="tag blue">Community mapping</span>
-<h3>Access to essential services</h3>
-<p>Travel time to healthcare, schools, public transport and government services can shape daily life.</p>
-<div class="issue-meta"><span class="mini">Healthcare</span><span class="mini">Transport</span><span class="mini">Public services</span></div>
-<button data-solve="access">Explore practical solutions ↗</button>
-</article>
-</div>
+<section class="card s7">
+ <div class="sub">02 / ENVIRONMENTAL INTELLIGENCE</div>
+ <h2>Air Quality Analysis</h2>
+ <div class="big" id="aqi">—</div>
+ <div id="aqText" class="muted">Waiting for environmental data</div>
+ <div class="bar"><span id="aqBar"></span></div>
+ <div class="metrics" style="grid-template-columns:repeat(3,1fr)">
+  <div class="metric"><small>PM2.5</small><strong id="pm25">—</strong></div>
+  <div class="metric"><small>PM10</small><strong id="pm10">—</strong></div>
+  <div class="metric"><small>NO₂</small><strong id="no2">—</strong></div>
+ </div>
+ <p class="notice">Air quality readings are modelled estimates from Open-Meteo, not physical local sensor measurements.</p>
 </section>
 
-<!-- SOLUTION ENGINE -->
-<section class="container section" id="solutions">
-<div class="section-head">
-<div>
-<div class="kicker">02 / PROBLEM-TO-SOLUTION ENGINE</div>
-<h2>From evidence to action</h2>
-<p class="section-desc">Choose a challenge to see practical options. Technical assessment and local feasibility checks may be required.</p>
-</div>
-<span class="tag">Action framework</span>
-</div>
-
-<div class="analysis-grid">
-<article class="card">
-<div class="kicker">SELECT A COMMUNITY CHALLENGE</div>
-<h3>Build a practical response plan</h3>
-<p>Pick a topic. ROAMX will organise possible actions by who can help deliver them.</p>
-<label for="problemSelect" class="metric-label">Problem category</label>
-<select class="select" id="problemSelect">
-<option value="water">Drinking water reliability / quality</option>
-<option value="waste">Solid waste and plastic</option>
-<option value="greywater">Greywater and drainage</option>
-<option value="air">Local air pollution</option>
-<option value="climate">Flood, drought and heat risks</option>
-<option value="access">Access to essential services</option>
-</select>
-<div id="solutionOutput" class="solution-list" aria-live="polite"></div>
-</article>
-
-<article class="card">
-<div class="kicker">IMPLEMENTATION MODEL</div>
-<h3>Three levels of change</h3>
-<p>Good solutions connect household action with community organisation and responsible public services.</p>
-<div class="levels">
-<div class="level"><b>01 / HOUSEHOLD</b><span>Safe daily practices, reporting issues, reducing waste and protecting water.</span></div>
-<div class="level"><b>02 / COMMUNITY</b><span>Shared maintenance, local committees, awareness and collective monitoring.</span></div>
-<div class="level"><b>03 / INSTITUTIONAL</b><span>Gram Panchayat, line departments, technical experts and eligible public schemes.</span></div>
-</div>
-<p class="footnote">ROAMX recommends coordination; it does not certify water safety or replace local authorities.</p>
-</article>
-</div>
+<section class="card s5">
+ <div class="sub">03 / WEATHER INTELLIGENCE</div>
+ <h2>Local Conditions</h2>
+ <div class="metrics" style="grid-template-columns:repeat(2,1fr)">
+  <div class="metric"><small>Feels like</small><strong id="feels">—</strong></div>
+  <div class="metric"><small>Humidity</small><strong id="humidity">—</strong></div>
+  <div class="metric"><small>Wind km/h</small><strong id="wind">—</strong></div>
+  <div class="metric"><small>Rainfall mm</small><strong id="rainfall">—</strong></div>
+ </div>
+ <p class="notice">Follow official weather warnings for emergencies.</p>
 </section>
 
-<!-- RESEARCH -->
-<section class="container section" id="evidence">
-<div class="section-head">
-<div>
-<div class="kicker">03 / RESEARCH & EVIDENCE DESK</div>
-<h2>What the sources actually say</h2>
-<p class="section-desc">National statistics must not be presented as measurements of a specific village.</p>
-</div>
-<span class="tag green">Source-linked</span>
-</div>
+<section class="card s6">
+ <div class="sub">04 / BASIC HUMAN NEEDS</div>
+ <h2>Community Needs Assessment</h2>
+ <p class="notice">Select the situation based on local observations. These answers are not automatically detected by GPS.</p>
 
-<div class="evidence-grid">
-<article class="source-card">
-<span class="tag green">Government assessment</span>
-<h3>Rural tap water: functionality matters</h3>
-<p>The rural tap functionality assessment reported 86.5% working tap connections among surveyed households with connections.</p>
-<a class="source-link" href="https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2220145&lang=2&reg=48" target="_blank" rel="noopener">Ministry of Jal Shakti / PIB ↗</a>
-</article>
+ <div class="needs" id="needs">
 
-<article class="source-card">
-<span class="tag amber">National survey</span>
-<h3>Waste segregation remains a practical focus</h3>
-<p>Swachh Survekshan Grameen covered 17,304 villages and reported 39.9% household waste segregation.</p>
-<a class="source-link" href="https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2147695&lang=2&reg=48" target="_blank" rel="noopener">Read government report ↗</a>
-</article>
+  <div class="need">
+   <b>Drinking Water</b>
+   <p>Availability, safety and quality testing.</p>
+   <select data-key="water">
+    <option value="unknown">Not assessed</option>
+    <option value="good">Adequate / verified</option>
+    <option value="concern">Limited supply</option>
+    <option value="urgent">Unsafe / unavailable</option>
+   </select>
+  </div>
 
-<article class="source-card">
-<span class="tag blue">Peer-reviewed research</span>
-<h3>Climate resilience of rural water systems</h3>
-<p>Research on rural Indian communities highlights the importance of governance and supply-chain resilience.</p>
-<a class="source-link" href="https://www.nature.com/articles/s41598-026-73944-3" target="_blank" rel="noopener">Scientific Reports / Nature ↗</a>
-</article>
+  <div class="need">
+   <b>Sanitation</b>
+   <p>Toilets, hygiene and wastewater.</p>
+   <select data-key="sanitation">
+    <option value="unknown">Not assessed</option>
+    <option value="good">Adequate</option>
+    <option value="concern">Needs improvement</option>
+    <option value="urgent">Unsafe / unavailable</option>
+   </select>
+  </div>
 
-<article class="source-card">
-<span class="tag green">Public health guidance</span>
-<h3>Sanitation is more than toilet access</h3>
-<p>Safe sanitation includes management of excreta and wastewater throughout the service chain.</p>
-<a class="source-link" href="https://www.who.int/news-room/fact-sheets/detail/sanitation" target="_blank" rel="noopener">World Health Organization ↗</a>
-</article>
+  <div class="need">
+   <b>Waste Management</b>
+   <p>Collection, segregation and disposal.</p>
+   <select data-key="waste">
+    <option value="unknown">Not assessed</option>
+    <option value="good">Regular collection</option>
+    <option value="concern">Irregular collection</option>
+    <option value="urgent">Open dumping / burning</option>
+   </select>
+  </div>
 
-<article class="source-card">
-<span class="tag amber">Government programme</span>
-<h3>Village greywater management</h3>
-<p>Household and community wastewater approaches require appropriate site assessment and maintenance.</p>
-<a class="source-link" href="https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=293448" target="_blank" rel="noopener">Government guidance ↗</a>
-</article>
-</div>
-<p class="footnote">Always check the original publication and its reporting period before using statistics in formal presentations.</p>
+  <div class="need">
+   <b>Drainage & Flooding</b>
+   <p>Blocked drains and stagnant water.</p>
+   <select data-key="drainage">
+    <option value="unknown">Not assessed</option>
+    <option value="good">No known issue</option>
+    <option value="concern">Local blockage</option>
+    <option value="urgent">Frequent flooding</option>
+   </select>
+  </div>
+
+  <div class="need">
+   <b>Healthcare Access</b>
+   <p>Clinics, medicines and emergency support.</p>
+   <select data-key="health">
+    <option value="unknown">Not assessed</option>
+    <option value="good">Accessible</option>
+    <option value="concern">Limited access</option>
+    <option value="urgent">No practical access</option>
+   </select>
+  </div>
+
+  <div class="need">
+   <b>Roads & Transport</b>
+   <p>Safe roads and essential transport.</p>
+   <select data-key="transport">
+    <option value="unknown">Not assessed</option>
+    <option value="good">Accessible</option>
+    <option value="concern">Poor road conditions</option>
+    <option value="urgent">Dangerous / cut off</option>
+   </select>
+  </div>
+
+  <div class="need">
+   <b>Electricity</b>
+   <p>Reliable household power and lighting.</p>
+   <select data-key="power">
+    <option value="unknown">Not assessed</option>
+    <option value="good">Reliable</option>
+    <option value="concern">Frequent interruptions</option>
+    <option value="urgent">No reliable access</option>
+   </select>
+  </div>
+
+  <div class="need">
+   <b>Public Spaces & Shade</b>
+   <p>Trees, shade and safe gathering areas.</p>
+   <select data-key="public">
+    <option value="unknown">Not assessed</option>
+    <option value="good">Adequate</option>
+    <option value="concern">Limited shade</option>
+    <option value="urgent">No safe space</option>
+   </select>
+  </div>
+
+ </div>
+
+ <div class="controls">
+  <button onclick="generateReport()">GENERATE ACTION PLAN</button>
+  <button class="secondary" onclick="resetNeeds()">RESET</button>
+ </div>
 </section>
 
-<!-- FIELD SURVEY -->
-<section class="container section" id="fieldkit">
-<div class="section-head">
-<div>
-<div class="kicker">04 / FIELD VALIDATION TOOLKIT</div>
-<h2>Prepare for a real village survey</h2>
-<p class="section-desc">Use a short, respectful questionnaire when you get an opportunity to interact with a community.</p>
-</div>
-<span class="tag amber">Fieldwork preparation</span>
-</div>
-
-<div class="survey-layout">
-<article class="survey-box">
-<h3>Community interview prompts</h3>
-<p>Choose questions for a future visit.</p>
-<div class="questions" id="surveyQuestions">
-<label class="question"><input type="checkbox" value="What is the main source of drinking water, and is it available every day?"> What is the main drinking-water source, and is it available every day?</label>
-<label class="question"><input type="checkbox" value="Has the water been tested recently?"> Has the water been tested recently?</label>
-<label class="question"><input type="checkbox" value="How is household waste collected, separated or disposed of?"> How is household waste collected or disposed of?</label>
-<label class="question"><input type="checkbox" value="Where does used household water flow?"> Where does used household water flow?</label>
-<label class="question"><input type="checkbox" value="What happens during heavy rain, drought or extreme heat?"> What happens during heavy rain, drought or extreme heat?</label>
-<label class="question"><input type="checkbox" value="How far is the nearest primary health facility?"> How far is the nearest primary health facility?</label>
-<label class="question"><input type="checkbox" value="Which improvement would residents prioritise first, and why?"> Which improvement would residents prioritise first?</label>
-</div>
-<button class="btn btn-primary" id="makeSurvey">Create question sheet ↗</button>
-</article>
-
-<article class="survey-box">
-<h3>Your fieldwork question sheet</h3>
-<div class="survey-output" id="surveyOutput">Your selected questions will appear here.</div>
-<div class="hero-actions">
-<button class="btn btn-quiet" id="copySurvey">Copy questions</button>
-<button class="btn btn-quiet" id="printSurvey">Print / Save PDF</button>
-</div>
-<p class="footnote">Ask for consent. Avoid collecting unnecessary personal information. Record sample size and research limitations.</p>
-</article>
-</div>
+<section class="card s6">
+ <div class="sub">05 / SMART ANALYSIS ENGINE</div>
+ <h2>Community Intelligence Report</h2>
+ <div id="insights">
+  <div class="insight">
+   <b>Waiting for analysis</b>
+   <p>Select a location and assess the community's needs.</p>
+  </div>
+ </div>
 </section>
 
-<section class="container section">
-<div class="card">
-<div class="kicker">05 / ROAMX RESEARCH PRINCIPLE</div>
-<h2 style="font:700 clamp(25px,4vw,34px) 'Space Grotesk';margin:8px 0 12px">No assumptions. No invented surveys. <span class="gold">Evidence before impact.</span></h2>
-<p>ROAMX Village Intelligence starts with published evidence, translates findings into practical options, and identifies what still needs to be checked with residents. The next stage is local validation with community members, Gram Panchayat representatives and relevant technical staff.</p>
-<div class="levels">
-<div class="level"><b>RESEARCH</b><span>Use dated, traceable reports and explain what each dataset measures.</span></div>
-<div class="level"><b>VALIDATE</b><span>Ask residents, inspect local conditions and document limitations.</span></div>
-<div class="level"><b>ACT</b><span>Prioritise affordable, maintainable interventions.</span></div>
-</div>
-</div>
+<section class="card s6">
+ <div class="sub">06 / SOLUTION GENERATOR</div>
+ <h2>Recommended Community Actions</h2>
+ <div id="actions">
+  <div class="action">
+   <div class="num">01</div>
+   <div><b>Assess essential needs</b>
+   <p>Collect reliable information from residents and local services.</p></div>
+  </div>
+ </div>
+ <p class="notice">For emergencies or suspected contamination, contact qualified professionals and relevant local authorities.</p>
 </section>
+
+<section class="card s12">
+ <div class="sub">07 / COMMUNITY EVIDENCE</div>
+ <h2>Report a Local Problem</h2>
+ <p class="notice">Record issues noticed by residents. Reports are saved only in this browser; they are not automatically sent to authorities.</p>
+ <textarea id="observation" placeholder="Describe the issue, approximate area and when it was observed..."></textarea>
+ <div class="controls">
+  <select id="obsType" style="max-width:240px">
+   <option>Water</option>
+   <option>Air Pollution</option>
+   <option>Waste</option>
+   <option>Drainage</option>
+   <option>Healthcare</option>
+   <option>Roads</option>
+   <option>Other</option>
+  </select>
+  <button onclick="saveObservation()">SAVE OBSERVATION</button>
+  <button class="secondary" onclick="clearObservations()">CLEAR LOG</button>
+ </div>
+ <div id="observationList"></div>
+</section>
+
+<section class="card s12">
+ <div class="sub">08 / CONTINUOUS MONITORING</div>
+ <h2>Previous Analysis Comparison</h2>
+ <div id="history"><p class="notice">Analyse a location to save the first snapshot. Analyse again later to compare readings.</p></div>
+</section>
+
 </main>
 
-<footer class="footer">
-<div class="container footer-inner">
-<span>© <span id="year"></span> ROAMX · Community intelligence for resilient places.</span>
-<span class="credit">Designed &amp; Developed by Sabarish P | B.Tech IT</span>
-</div>
+<footer>
+ ROAMX · DESIGNED & DEVELOPED BY SABARISH P · B.TECH IT · 2026
 </footer>
+</div>
 
 <script>
-'use strict';
+const $ = id => document.getElementById(id);
 
-const locationSearch=document.getElementById('locationSearch');
-const locationStatus=document.getElementById('locationStatus');
-const locationReport=document.getElementById('locationReport');
-const locationMetrics=document.getElementById('locationMetrics');
-const detectedIssues=document.getElementById('detectedIssues');
-const locationName=document.getElementById('locationName');
+let current = null;
+let currentName = "";
+let weather = null;
+let air = null;
 
-const escHTML=value=>String(value).replace(/[&<>"']/g,c=>({
-'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-}[c]));
+const STORAGE = "roamx_village_intelligence_v1";
 
-function setLocationStatus(message){
-locationStatus.textContent=message;
-}
-
-async function geocodeLocation(query){
-const url='https://geocoding-api.open-meteo.com/v1/search?name='+encodeURIComponent(query)+'&count=1&language=en&format=json';
-const res=await fetch(url);
-if(!res.ok)throw new Error('Location search is temporarily unavailable.');
-const data=await res.json();
-if(!data.results?.length)throw new Error('No matching location found. Try adding its district, state or country.');
-return data.results[0];
-}
-
-async function reverseLocation(lat,lon){
-try{
-const u=`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}`;
-const r=await fetch(u);
-if(r.ok){
-const d=await r.json();
-return d.name||d.address?.village||d.address?.town||d.address?.city||d.address?.county||'Your selected coordinates';
-}
-}catch(e){}
-return 'Your current coordinates';
-}
-
-function addDetected(list,title,detail,action,level='Review'){
-list.push({title,detail,action,level});
-}
-
-function assessConditions(weather,air){
-const found=[];
-const temp=weather?.current?.temperature_2m;
-const rain=weather?.daily?.precipitation_probability_max?.[0];
-const precip=weather?.daily?.precipitation_sum?.[0];
-const aqi=air?.current?.us_aqi;
-const pm25=air?.current?.pm2_5;
-const pm10=air?.current?.pm10;
-
-if(Number.isFinite(aqi)){
-if(aqi>150){
-addDetected(found,'Elevated air-quality concern',
-`The available model reports US AQI ${Math.round(aqi)}. This is a regional model estimate, not a local monitor reading.`,
-'Reduce strenuous outdoor activity when pollution is high. Check the nearest official pollution monitor.','Priority');
-}else if(aqi>100){
-addDetected(found,'Air quality needs attention',
-`The available model reports US AQI ${Math.round(aqi)}. Confirm against a nearby official monitor.`,
-'Limit prolonged heavy outdoor exertion if sensitive. Avoid waste burning and identify local smoke or dust sources.','Monitor');
-}
-}
-
-if(Number.isFinite(pm25)&&pm25>25){
-addDetected(found,'Fine particulate matter (PM2.5)',
-`Modelled PM2.5 is ${pm25.toFixed(1)} µg/m³. This is an indicator, not proof of a specific source.`,
-'Avoid burning household waste. Reduce indoor smoke with safer cooking practices and ventilation. Report persistent emissions to the State Pollution Control Board.','Monitor');
-}
-
-if(Number.isFinite(pm10)&&pm10>50){
-addDetected(found,'Dust / coarse particles indicator',
-`Modelled PM10 is ${pm10.toFixed(1)} µg/m³. Local dust sources need on-site checking.`,
-'Identify unpaved high-traffic areas, construction dust or open burning. Use suitable dust-control measures where feasible.','Review');
-}
-
-if(Number.isFinite(temp)&&temp>=38){
-addDetected(found,'High-heat conditions',
-`Current modelled temperature is ${temp.toFixed(1)}°C.`,
-'Schedule strenuous work for cooler hours, drink water regularly, provide shade and follow official heat-health advisories. Check on older people, outdoor workers and children.','Priority');
-}
-
-if(Number.isFinite(rain)&&rain>=60){
-addDetected(found,'Potential heavy-rain period',
-`Forecast precipitation probability for today is ${Math.round(rain)}%. Probability is not a flood prediction.`,
-'Check district warnings, keep drainage paths maintained where safe, protect drinking-water sources and avoid floodwater.','Prepare');
-}
-
-if(Number.isFinite(precip)&&precip>=30){
-addDetected(found,'High forecast rainfall amount',
-`Forecast precipitation is ${precip.toFixed(1)} mm for today.`,
-'Check local flood alerts and drainage blockages. Do not enter flowing water or attempt unsafe drain clearing.','Prepare');
-}
-
-if(!found.length){
-addDetected(found,'No threshold-triggered alert from available indicators',
-'The returned weather and air-quality values did not cross this page’s screening thresholds. This does not mean the locality has no problems.',
-'Ask residents about drinking water, waste collection, drainage, sanitation, road access and health-service gaps. Check official local records and nearby monitoring stations.','Continue assessment');
-}
-
-return {found,temp,aqi,pm25,pm10,rain};
-}
-
-async function analyseCoordinates(lat,lon,label){
-setLocationStatus('Scanning weather and air-quality indicators for '+label+'…');
-locationReport.hidden=true;
-
-const weatherURL=`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,precipitation,wind_speed_10m&daily=precipitation_sum,precipitation_probability_max&forecast_days=1&timezone=auto`;
-
-const airURL=`https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${lat}&longitude=${lon}&current=us_aqi,pm2_5,pm10,ozone,nitrogen_dioxide,sulphur_dioxide,carbon_monoxide&timezone=auto`;
-
-const [wr,ar]=await Promise.all([fetch(weatherURL),fetch(airURL)]);
-
-if(!wr.ok)throw new Error('Weather data could not be retrieved. Please try again later.');
-
-const weather=await wr.json();
-let air=null;
-if(ar.ok)air=await ar.json();
-
-const result=assessConditions(weather,air);
-const cur=weather.current||{};
-
-locationName.textContent=label+' · '+Number(lat).toFixed(3)+', '+Number(lon).toFixed(3);
-
-const metric=(value,unit,name)=>
-`<div class="loc-metric"><b>${value}</b><span>${name}${unit?' · '+unit:''}</span></div>`;
-
-locationMetrics.innerHTML=
-metric(Number.isFinite(cur.temperature_2m)?cur.temperature_2m.toFixed(1):'—','°C','Current temperature')+
-metric(Number.isFinite(result.aqi)?Math.round(result.aqi):'—','US AQI','Modelled air-quality index')+
-metric(Number.isFinite(result.pm25)?result.pm25.toFixed(1):'—','µg/m³','PM2.5 estimate');
-
-detectedIssues.innerHTML=result.found.map(item=>
-`<article class="detected-item">
-<div class="tag ${item.level==='Priority'?'amber':'blue'}">${escHTML(item.level)}</div>
-<h4>${escHTML(item.title)}</h4>
-<p>${escHTML(item.detail)}</p>
-<div class="action"><strong>ROAMX suggested action:</strong> ${escHTML(item.action)}</div>
-</article>`).join('');
-
-locationReport.hidden=false;
-setLocationStatus('Scan complete. Treat these as screening indicators; verify conditions with residents and official local sources.');
-}
-
-async function runLocationSearch(){
-const query=locationSearch.value.trim();
-if(!query){
-setLocationStatus('Enter a village, town, district or city first.');
-return;
-}
-try{
-const place=await geocodeLocation(query);
-await analyseCoordinates(place.latitude,place.longitude,
-[place.name,place.admin1,place.country].filter(Boolean).join(', '));
-}catch(err){
-setLocationStatus(err.message||'Could not analyse this location.');
-}
-}
-
-document.getElementById('searchLocation').addEventListener('click',runLocationSearch);
-
-locationSearch.addEventListener('keydown',e=>{
-if(e.key==='Enter')runLocationSearch();
-});
-
-document.getElementById('useMyLocation').addEventListener('click',()=>{
-if(!navigator.geolocation){
-setLocationStatus('This browser does not support location access. Search for your location instead.');
-return;
-}
-
-setLocationStatus('Requesting location permission…');
-
-navigator.geolocation.getCurrentPosition(async pos=>{
-try{
-const {latitude,longitude}=pos.coords;
-const label=await reverseLocation(latitude,longitude);
-await analyseCoordinates(latitude,longitude,label);
-}catch(err){
-setLocationStatus(err.message||'Unable to complete the location scan.');
-}
-},err=>{
-setLocationStatus(err.code===1?
-'Location permission was denied. You can still search for any location manually.':
-'Could not obtain your location. Check device location settings or search manually.');
-},{enableHighAccuracy:false,timeout:12000,maximumAge:300000});
-});
-
-/* SOLUTION ENGINE */
-
-const solutions={
-water:[
-['Household','Use a verified safe source for drinking and cooking. If safety is uncertain, follow local public-health guidance and use an appropriate tested treatment method.'],
-['Community','Create a fault-reporting and maintenance register; support trained village water committees and periodic source checks.'],
-['Institutional','Request water-quality testing from a competent public laboratory. Coordinate repairs and source-sustainability planning with the Gram Panchayat and water department.']
-],
-waste:[
-['Household','Separate wet biodegradable waste from dry recyclables where collection or safe processing exists. Avoid burning mixed waste.'],
-['Community','Pilot a managed collection point, composting for suitable organic waste and a safe route for plastic and recyclables. Assign maintenance responsibility.'],
-['Institutional','Coordinate with the Gram Panchayat and authorised waste handlers. Check available Swachh Bharat Mission (Grameen) support and local rules.']
-],
-greywater:[
-['Household','Keep wastewater away from drinking-water sources and prevent standing pools near living areas. Do not build a soak pit without checking soil, groundwater and site suitability.'],
-['Community','Map wastewater flow paths and blocked drains. Consider shared treatment options only after technical assessment and a maintenance plan.'],
-['Institutional','Ask the Panchayat or technical department to assess drainage gradients, discharge points and suitable greywater-management options.']
-],
-air:[
-['Household','Avoid burning household waste. Reduce indoor smoke through safe, properly installed clean-cooking options and ventilation.'],
-['Community','Identify the actual source and time of smoke or dust before acting. Organise safe waste collection and reduce dust from public areas where feasible.'],
-['Institutional','Use nearby official monitoring only when its location is representative. Report persistent emissions to the relevant pollution-control authority.']
-],
-climate:[
-['Household','Follow official heat, flood and cyclone advisories. Keep drinking water, essential medicines and emergency contacts ready.'],
-['Community','Map safe shelters, vulnerable routes, water points and local warning channels with residents. Maintain drains before heavy rainfall.'],
-['Institutional','Coordinate hazard mapping and preparedness with the Panchayat, district disaster-management authority and relevant departments.']
-],
-access:[
-['Household','Record actual travel time, transport availability and service hours for essential facilities without publishing personal details.'],
-['Community','Create a shared service-access map and identify recurring transport or connectivity gaps with residents.'],
-['Institutional','Present verified access gaps to the relevant Panchayat, health, education or transport department and track responses.']
-]
+const solutions = {
+ water:{
+  urgent:"Prioritise safe alternative drinking water. Request water testing through an authorised laboratory or public-health service. Report suspected contamination to the local water authority.",
+  concern:"Identify reliable public water points, check supply schedules and organise periodic water-quality testing."
+ },
+ sanitation:{
+  urgent:"Request urgent sanitation support through the panchayat or local body. Promote safe toilet access and hygienic wastewater management.",
+  concern:"Identify households needing facilities and request repairs, accessible toilets and hygiene support."
+ },
+ waste:{
+  urgent:"Avoid open waste burning. Separate wet and dry waste, keep waste away from water sources and request safe collection from the local body.",
+  concern:"Introduce household waste segregation and organise community collection with the responsible authority."
+ },
+ drainage:{
+  urgent:"Stay away from floodwater and electrical hazards. Report blocked drains or flooding. Do not enter unsafe flooded areas.",
+  concern:"Identify blocked sections and request scheduled drain cleaning before heavy rainfall."
+ },
+ health:{
+  urgent:"Identify the nearest functioning primary health centre and emergency transport contact. Seek emergency help for urgent illness.",
+  concern:"Prepare a verified list of local clinics, opening hours and available transport."
+ },
+ transport:{
+  urgent:"Report dangerous roads and identify safe alternative access for essential travel and emergency services.",
+  concern:"Document damaged roads and missing lighting and request repairs."
+ },
+ power:{
+  urgent:"Report power outages or exposed electrical hazards to the electricity provider. Never approach fallen wires.",
+  concern:"Record outage patterns and request maintenance and lighting for essential routes."
+ },
+ public:{
+  urgent:"Identify a shaded cool space for vulnerable residents during heat. Encourage drinking water and follow official heat-health guidance.",
+  concern:"Protect existing trees and plan low-cost shade, water points and safe shared spaces."
+ }
 };
 
-const problemSelect=document.getElementById('problemSelect');
-const solutionOutput=document.getElementById('solutionOutput');
-
-function renderSolutions(){
-const list=solutions[problemSelect.value]||[];
-solutionOutput.innerHTML=list.map((x,i)=>
-`<div class="solution-item">
-<div class="solution-num">0${i+1}</div>
-<div><strong>${x[0]}</strong><span>${x[1]}</span></div>
-</div>`).join('');
+function esc(value){
+ return String(value).replace(/[&<>"']/g,c=>({
+  "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+ })[c]);
 }
 
-problemSelect.addEventListener('change',renderSolutions);
-renderSolutions();
-
-document.querySelectorAll('[data-solve]').forEach(b=>{
-b.addEventListener('click',()=>{
-problemSelect.value=b.dataset.solve;
-renderSolutions();
-document.getElementById('solutions').scrollIntoView({behavior:'smooth'});
-});
-});
-
-/* SEARCH AND FILTER */
-
-let activeFilter='all';
-const search=document.getElementById('issueSearch');
-
-function filterIssues(){
-const term=search.value.trim().toLowerCase();
-let shown=0;
-
-document.querySelectorAll('.issue').forEach(card=>{
-const okCat=activeFilter==='all'||card.dataset.category===activeFilter;
-const okText=(card.dataset.search+' '+card.innerText).toLowerCase().includes(term);
-card.hidden=!(okCat&&okText);
-if(!card.hidden)shown++;
-});
-
-let empty=document.getElementById('noIssues');
-
-if(!shown){
-if(!empty){
-empty=document.createElement('div');
-empty.id='noIssues';
-empty.className='issue';
-empty.textContent='No matching community needs. Try another search or category.';
-document.getElementById('issueGrid').appendChild(empty);
-}
-}else if(empty)empty.remove();
+function error(message){
+ $("error").textContent = message || "";
 }
 
-document.querySelectorAll('#issueFilters .filter').forEach(btn=>{
-btn.addEventListener('click',()=>{
-document.querySelectorAll('#issueFilters .filter').forEach(b=>b.classList.remove('active'));
-btn.classList.add('active');
-activeFilter=btn.dataset.filter;
-filterIssues();
-});
-});
-
-search.addEventListener('input',filterIssues);
-
-/* FIELD SURVEY */
-
-function selectedQuestions(){
-return [...document.querySelectorAll('#surveyQuestions input:checked')]
-.map((el,i)=>`${i+1}. ${el.value}`);
+function aqiLevel(value){
+ if(value==null) return ["Unavailable","No reading returned","warn"];
+ if(value<=20) return ["Good","Low estimated air pollution","good"];
+ if(value<=40) return ["Fair","Generally acceptable conditions","good"];
+ if(value<=60) return ["Moderate","Some sensitive people may be affected","warn"];
+ if(value<=80) return ["Poor","Reduce prolonged outdoor exertion if affected","warn"];
+ if(value<=100) return ["Very poor","Limit strenuous outdoor activity","bad"];
+ return ["Extremely poor","Avoid prolonged outdoor exertion and follow official advice","bad"];
 }
 
-function surveyText(){
-const q=selectedQuestions();
-return q.length?
-'ROAMX — COMMUNITY FIELD QUESTION SHEET\nPurpose: Understand local needs; do not collect unnecessary personal data.\n\n'+q.join('\n')+'\n\nRecord separately: date, broad location, respondent consent, sample size and limitations.':
-'Select at least one question to prepare a sheet.';
+async function searchPlace(){
+ const query=$("place").value.trim();
+ if(!query){error("Enter a location first.");return;}
+
+ error("");
+ $("connection").textContent="Searching worldwide locations...";
+
+ try{
+  const url="https://geocoding-api.open-meteo.com/v1/search?name="+
+   encodeURIComponent(query)+"&count=8&language=en&format=json";
+
+  const response=await fetch(url);
+  if(!response.ok)throw Error("Location search unavailable.");
+
+  const data=await response.json();
+  const places=data.results||[];
+
+  if(!places.length){
+   $("results").innerHTML="<p class='notice'>No matching locations found. Try adding the district or country.</p>";
+   return;
+  }
+
+  $("results").innerHTML=`
+   <div class="card">
+   <div class="sub">SELECT YOUR LOCATION</div>
+   ${places.map((p,i)=>`
+    <button class="secondary" style="display:block;width:100%;margin:7px 0;text-align:left"
+    onclick="selectPlace(${p.latitude},${p.longitude},'${esc(p.name+", "+(p.admin1||"")+", "+(p.country||""))}')">
+    ${esc([p.name,p.admin1,p.country].filter(Boolean).join(", "))}
+    </button>`).join("")}
+   </div>`;
+ }catch(e){error(e.message);}
 }
 
-document.getElementById('makeSurvey').addEventListener('click',()=>{
-document.getElementById('surveyOutput').textContent=surveyText();
-});
-
-document.getElementById('copySurvey').addEventListener('click',async()=>{
-const value=surveyText();
-if(value.startsWith('Select at least')){
-document.getElementById('surveyOutput').textContent=value;
-return;
+function selectPlace(lat,lon,name){
+ $("results").innerHTML="";
+ analyse(lat,lon,name);
 }
-try{
-await navigator.clipboard.writeText(value);
-document.getElementById('copySurvey').textContent='Copied ✓';
-}catch{
-document.getElementById('surveyOutput').textContent=value+'\n\nClipboard access unavailable. Select and copy manually.';
+
+function useLocation(){
+ if(!navigator.geolocation){
+  error("Location is not supported. Search for a place instead.");
+  return;
+ }
+
+ $("connection").textContent="Requesting location permission...";
+
+ navigator.geolocation.getCurrentPosition(
+  pos=>analyse(pos.coords.latitude,pos.coords.longitude,"Current GPS Location"),
+  ()=>error("Location unavailable or permission denied. You can search manually."),
+  {enableHighAccuracy:false,timeout:12000,maximumAge:300000}
+ );
 }
-});
 
-document.getElementById('printSurvey').addEventListener('click',()=>{
-const value=surveyText();
-if(value.startsWith('Select at least')){
-document.getElementById('surveyOutput').textContent=value;
-return;
+async function analyse(lat,lon,name){
+ current={lat,lon};
+ currentName=name;
+
+ $("placeName").textContent=name;
+ $("lat").textContent=lat.toFixed(4);
+ $("lon").textContent=lon.toFixed(4);
+ $("connection").textContent="Refreshing environmental data...";
+ error("");
+
+ const weatherURL=`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,wind_speed_10m&hourly=precipitation_probability,precipitation&forecast_days=1&timezone=auto`;
+
+ const airURL=`https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${lat}&longitude=${lon}&current=european_aqi,pm2_5,pm10,nitrogen_dioxide&timezone=auto`;
+
+ const results=await Promise.allSettled([
+  fetch(weatherURL).then(r=>{if(!r.ok)throw Error();return r.json()}),
+  fetch(airURL).then(r=>{if(!r.ok)throw Error();return r.json()})
+ ]);
+
+ weather=results[0].status==="fulfilled"?results[0].value:null;
+ air=results[1].status==="fulfilled"?results[1].value:null;
+
+ if(weather){
+  const w=weather.current;
+  $("temp").textContent=w.temperature_2m+"°C";
+  $("feels").textContent=w.apparent_temperature+"°C";
+  $("humidity").textContent=w.relative_humidity_2m+"%";
+  $("wind").textContent=w.wind_speed_10m;
+  $("rainfall").textContent=w.precipitation;
+
+  const h=weather.hourly;
+  $("rain").textContent=h.precipitation_probability?.[0]??"—";
+ }else{
+  $("temp").textContent="—";
+  $("feels").textContent="—";
+  $("humidity").textContent="—";
+  $("wind").textContent="—";
+  $("rainfall").textContent="—";
+  $("rain").textContent="—";
+ }
+
+ if(air){
+  const a=air.current;
+  const level=aqiLevel(a.european_aqi);
+
+  $("aqi").textContent=a.european_aqi??"—";
+  $("aqText").textContent=level[0]+" · "+level[1];
+  $("aqText").className=level[2];
+  $("aqBar").style.width=Math.min(100,a.european_aqi||0)+"%";
+  $("pm25").textContent=a.pm2_5??"—";
+  $("pm10").textContent=a.pm10??"—";
+  $("no2").textContent=a.nitrogen_dioxide??"—";
+ }else{
+  $("aqi").textContent="—";
+  $("aqText").textContent="No air-quality reading returned";
+  $("aqBar").style.width="0";
+  $("pm25").textContent="—";
+  $("pm10").textContent="—";
+  $("no2").textContent="—";
+ }
+
+ const success=!!weather||!!air;
+ $("connection").textContent=success?"Environmental data retrieved":"Environmental data unavailable";
+ $("updated").textContent="Last analysed: "+new Date().toLocaleString();
+
+ generateReport();
+ saveHistory();
+ renderHistory();
+
+ if(!success){
+  error("Environmental services could not return data. Check your internet connection and try again.");
+ }
 }
-const w=window.open('','_blank');
-if(!w){alert('Allow pop-ups to print the question sheet.');return;}
-w.document.write('<!doctype html><html><head><title>ROAMX Field Question Sheet</title><style>body{font:16px Arial;max-width:760px;margin:40px auto;line-height:1.6}pre{white-space:pre-wrap;font:15px Arial}</style></head><body><h1>ROAMX — Community Field Question Sheet</h1><pre>'+value.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))+'</pre></body></html>');
-w.document.close();
-w.focus();
-w.print();
+
+function refreshData(){
+ if(!current){
+  error("Select a location first.");
+  return;
+ }
+ analyse(current.lat,current.lon,currentName);
+}
+
+function getSelectedNeeds(){
+ return [...document.querySelectorAll("[data-key]")].map(s=>({
+  key:s.dataset.key,
+  value:s.value
+ }));
+}
+
+function weatherWarnings(){
+ if(!weather)return [];
+ const w=weather.current;
+ const result=[];
+
+ if(w.apparent_temperature>=38){
+  result.push({
+   title:"High heat exposure",
+   body:"Provide shade and drinking water. Encourage outdoor workers to take rest breaks and avoid strenuous work during peak heat."
+  });
+ }
+
+ if(w.temperature_2m>=35){
+  result.push({
+   title:"Hot weather",
+   body:"Encourage hydration, shade and reduced strenuous outdoor activity during the hottest hours."
+  });
+ }
+
+ const probability=weather.hourly?.precipitation_probability?.[0];
+ if(probability>=70){
+  result.push({
+   title:"Rain preparedness",
+   body:"Check drainage, protect essential supplies and follow official rainfall and flood warnings."
+  });
+ }
+
+ return result;
+}
+
+function generateReport(){
+ const selected=getSelectedNeeds();
+ const urgent=selected.filter(x=>x.value==="urgent");
+ const concern=selected.filter(x=>x.value==="concern");
+
+ let insights=[];
+ let actions=[];
+
+ if(air){
+  const value=air.current.european_aqi;
+  const level=aqiLevel(value);
+
+  insights.push({
+   title:"Air quality: "+level[0],
+   body:level[1]+". This is a modelled estimate, not a local sensor measurement."
+  });
+
+  if(value>60){
+   actions.push({
+    title:"Reduce exposure to poor air quality",
+    body:"Limit prolonged strenuous outdoor activity when air quality is poor. Avoid waste burning and follow official local air-quality guidance."
+   });
+  }
+ }else{
+  insights.push({
+   title:"Air-quality data unavailable",
+   body:"No reading was returned. This does not prove that the air is clean."
+  });
+ }
+
+ weatherWarnings().forEach(x=>insights.push(x));
+
+ urgent.forEach(x=>{
+  insights.push({
+   title:"URGENT: "+x.key.toUpperCase(),
+   body:"The community assessment marked this essential need as urgent. Confirm with affected residents and local service providers."
+  });
+  actions.push({
+   title:"Priority: "+x.key,
+   body:solutions[x.key].urgent
+  });
+ });
+
+ concern.forEach(x=>{
+  insights.push({
+   title:"Improvement needed: "+x.key,
+   body:"A community concern was reported. Confirm the affected area and households."
+  });
+  actions.push({
+   title:"Improve: "+x.key,
+   body:solutions[x.key].concern
+  });
+ });
+
+ if(!urgent.length&&!concern.length){
+  insights.push({
+   title:"Community services not verified",
+   body:"Complete the needs assessment to identify water, sanitation, waste, healthcare and infrastructure gaps."
+  });
+ }
+
+ if(!actions.length){
+  actions.push({
+   title:"Verify essential community services",
+   body:"Consult residents and local service providers to confirm drinking-water access, sanitation, waste collection, healthcare and road safety."
+  });
+ }
+
+ const warnings=weatherWarnings();
+ warnings.forEach(x=>actions.push(x));
+
+ $("insights").innerHTML=insights.map(x=>`
+  <div class="insight">
+   <b>${esc(x.title)}</b>
+   <p>${esc(x.body)}</p>
+  </div>`).join("");
+
+ $("actions").innerHTML=actions.slice(0,8).map((x,i)=>`
+  <div class="action">
+   <div class="num">${String(i+1).padStart(2,"0")}</div>
+   <div><b>${esc(x.title)}</b><p>${esc(x.body)}</p></div>
+  </div>`).join("");
+}
+
+function resetNeeds(){
+ document.querySelectorAll("[data-key]").forEach(s=>s.value="unknown");
+ generateReport();
+}
+
+function saveHistory(){
+ if(!current)return;
+
+ const snapshot={
+  time:Date.now(),
+  place:currentName,
+  aqi:air?.current?.european_aqi??null,
+  pm25:air?.current?.pm2_5??null,
+  temp:weather?.current?.temperature_2m??null
+ };
+
+ const old=JSON.parse(localStorage.getItem(STORAGE)||"{}");
+ old.previous=old.latest||null;
+ old.latest=snapshot;
+ localStorage.setItem(STORAGE,JSON.stringify(old));
+}
+
+function renderHistory(){
+ const old=JSON.parse(localStorage.getItem(STORAGE)||"{}");
+ const p=old.previous,n=old.latest;
+
+ if(!n)return;
+
+ if(!p){
+  $("history").innerHTML=`<p class="notice">First snapshot saved for ${esc(n.place)}. Analyse again later to compare.</p>`;
+  return;
+ }
+
+ $("history").innerHTML=`
+ <table>
+ <tr><th>Indicator</th><th>Previous</th><th>Latest</th></tr>
+ <tr><td>European AQI</td><td>${p.aqi??"—"}</td><td>${n.aqi??"—"}</td></tr>
+ <tr><td>PM2.5</td><td>${p.pm25??"—"}</td><td>${n.pm25??"—"}</td></tr>
+ <tr><td>Temperature</td><td>${p.temp??"—"}</td><td>${n.temp??"—"}</td></tr>
+ </table>
+ <p class="notice">Previous: ${new Date(p.time).toLocaleString()} · Latest: ${new Date(n.time).toLocaleString()}. Only two browser snapshots are compared.</p>`;
+}
+
+function saveObservation(){
+ const text=$("observation").value.trim();
+ if(!text){error("Enter an observation first.");return;}
+
+ const key=STORAGE+"_observations";
+ const list=JSON.parse(localStorage.getItem(key)||"[]");
+
+ list.push({
+  type:$("obsType").value,
+  text,
+  time:Date.now(),
+  place:currentName
+ });
+
+ localStorage.setItem(key,JSON.stringify(list.slice(-40)));
+ $("observation").value="";
+ error("Observation saved locally.");
+ renderObservations();
+}
+
+function renderObservations(){
+ const list=JSON.parse(localStorage.getItem(STORAGE+"_observations")||"[]");
+
+ $("observationList").innerHTML=list.length?
+ list.slice().reverse().map(o=>`
+  <div class="insight">
+   <b>${esc(o.type)} · ${new Date(o.time).toLocaleString()}</b>
+   <p>${esc(o.place||"Location not specified")} · ${esc(o.text)}</p>
+  </div>`).join("")
+ :"<p class='notice'>No observations saved yet.</p>";
+}
+
+function clearObservations(){
+ if(confirm("Delete all locally saved observations?")){
+  localStorage.removeItem(STORAGE+"_observations");
+  renderObservations();
+ }
+}
+
+function demo(){
+ $("placeName").textContent="Illustrative Village Report";
+ $("lat").textContent="11.0168";
+ $("lon").textContent="76.9558";
+ $("temp").textContent="34°C";
+ $("feels").textContent="38°C";
+ $("humidity").textContent="62%";
+ $("wind").textContent="12";
+ $("rain").textContent="—";
+ $("rainfall").textContent="0";
+ $("aqi").textContent="68";
+ $("aqText").textContent="Poor · illustrative sample only";
+ $("pm25").textContent="24";
+ $("pm10").textContent="51";
+ $("no2").textContent="18";
+ $("aqBar").style.width="68%";
+
+ current=null;
+ weather={current:{
+  temperature_2m:34,
+  apparent_temperature:38,
+  relative_humidity_2m:62,
+  wind_speed_10m:12
+ }};
+ air={current:{
+  european_aqi:68,
+  pm2_5:24,
+  pm10:51,
+  nitrogen_dioxide:18
+ }};
+ $("connection").textContent="Demonstration only · not live data";
+ $("updated").textContent="Illustrative sample";
+ generateReport();
+}
+
+document.querySelectorAll("[data-key]").forEach(s=>{
+ s.addEventListener("change",generateReport);
 });
 
-document.getElementById('menuBtn').addEventListener('click',()=>{
-document.getElementById('navLinks').classList.toggle('open');
+$("place").addEventListener("keydown",e=>{
+ if(e.key==="Enter")searchPlace();
 });
 
-document.getElementById('year').textContent=new Date().getFullYear();
+renderObservations();
+renderHistory();
 </script>
 </body>
 </html>
