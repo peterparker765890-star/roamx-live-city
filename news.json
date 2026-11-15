@@ -240,38 +240,139 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-15T02:58:33Z",
-    "lastSuccessfulRun": "2026-11-15T02:58:33Z",
-    "lastUpdated": "2026-11-15T02:58:33Z",
-    "articlesAdded": 6,
+    "lastRun": "2026-11-15T10:41:40Z",
+    "lastSuccessfulRun": "2026-11-15T10:41:40Z",
+    "lastUpdated": "2026-11-15T10:41:40Z",
+    "articlesAdded": 17,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 58,
+    "duplicatesRemoved": 45,
     "failedSources": [],
     "newArticleIds": [
-      "e9abe62396537b5903c4",
-      "fe111e484d80378b9565",
-      "5430cd83dcf082ede729",
-      "bfb0762223102f72d4da",
-      "8d19e011ad9a7cc7d161",
-      "943343e1e0cdef483a0b"
+      "42220aaea23b15920d61",
+      "b36545027fdb2f9fb480",
+      "9eb1ce88a0fc05fddb0d",
+      "a76590522795764cf4df",
+      "a99ab6bff89f3f80cd97",
+      "ad6f44ac482077d17756",
+      "ee0d68830dc4aac7ae31",
+      "3b827c44c075870b1fc4",
+      "dabefe21e9c4698c0c56",
+      "628b2d974b06c5a584af",
+      "23a33227b3b23a1e7e1e",
+      "edb019b8c28a432321c7",
+      "d1dc9bd26ec9c71e08e6",
+      "ca928d83a5c0f52dc4c5",
+      "c7c81d286657726eb1b0",
+      "63307412f26303436db3",
+      "131e5f6a9e96a65f3ec1"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 0,
+    "articlesRemoved": 2,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 207,
+    "totalArticles": 222,
     "categories": {
-      "World": 104,
+      "World": 117,
       "India": 18,
-      "Technology": 9,
-      "Environment": 64,
-      "Disaster": 12
+      "Technology": 10,
+      "Environment": 66,
+      "Disaster": 11
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "42220aaea23b15920d61",
+      "title": "US sees 40% surge in international student interest after midterm elections: Report - Hindustan Times",
+      "description": "US sees 40% surge in international student interest after midterm elections: Report Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTEROWU53YUZOd1RpaVpvUUdETmdXbzdSQnNwNlRybWRzVmRpXzl2UFVQRF9OaGNmLXhvT1dlSEUxMktrUVNNZEpMaVlzQmxZVlRjOTczWm9jVjZISU1yX1VVYy1wYm11aTVBUnhxaVF3VXkxQkF1OW9DenR2UDlnM1dSNWQxRUZVVXhzdG45UWFnNkdNcEIzcEdRWl80endHWDVSbzJ6ZEQ3MnhELXM0YWhlMkE3YzFLSXVOMElkblREcUowclpiRF93ZnNFdm5rV21JbW1MTjdQNmxrd2NtTnlnbVpTblk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTEROWU53YUZOd1RpaVpvUUdETmdXbzdSQnNwNlRybWRzVmRpXzl2UFVQRF9OaGNmLXhvT1dlSEUxMktrUVNNZEpMaVlzQmxZVlRjOTczWm9jVjZISU1yX1VVYy1wYm11aTVBUnhxaVF3VXkxQkF1OW9DenR2UDlnM1dSNWQxRUZVVXhzdG45UWFnNkdNcEIzcEdRWl80endHWDVSbzJ6ZEQ3MnhELXM0YWhlMkE3YzFLSXVOMElkblREcUowclpiRF93ZnNFdm5rV21JbW1MTjdQNmxrd2NtTnlnbVpTblk?oc=5",
+      "source": "Hindustan Times",
+      "category": "World",
+      "publishedAt": "2026-11-15T09:22:57Z"
+    },
+    {
+      "id": "b36545027fdb2f9fb480",
+      "title": "Two planes collide at Miami International Airport - Ammon News",
+      "description": "Two planes collide at Miami International Airport Ammon News",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15X1VvbXBienlDOXQ2TVJET0N5RThyNWs2R0RtMnl1UEFRRk5zcGpZZzVhNlZwYVpUcGZDdEMybDFzRXdHUG9Gdm45M2wwdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15X1VvbXBienlDOXQ2TVJET0N5RThyNWs2R0RtMnl1UEFRRk5zcGpZZzVhNlZwYVpUcGZDdEMybDFzRXdHUG9Gdm45M2wwdw?oc=5",
+      "source": "Ammon News",
+      "category": "World",
+      "publishedAt": "2026-11-15T08:56:38Z"
+    },
+    {
+      "id": "9eb1ce88a0fc05fddb0d",
+      "title": "Ahmed Ibrahim calls for stronger government-academia partnership to tackle environmental challenges - MyJoyOnline",
+      "description": "Ahmed Ibrahim calls for stronger government-academia partnership to tackle environmental challenges MyJoyOnline",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWTVZUzR5X3ZwSUhDYV9zLWRyS0NiRGs5OEFMYUVOVXdXQTFPZ05MQ3pfS2E5NGt5bHdGS0l1eU1SbnFGQWxkRF9wSU5pbXByLUxkaEtJcHJyUU1LZEo2ZlFGTGJCelNGUjlKSG4wZEdxQlIwR0lEWnhSZF9qaU9XRDhHZDRtU1MtTmw3M3J0cVlmX0tMTklsZFRWQlBfcmZEd0kxWEJjd0lWYXBqLTBfWmhMM3c2ek5DSkNxSnN3VU1ycFlfeEpR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWTVZUzR5X3ZwSUhDYV9zLWRyS0NiRGs5OEFMYUVOVXdXQTFPZ05MQ3pfS2E5NGt5bHdGS0l1eU1SbnFGQWxkRF9wSU5pbXByLUxkaEtJcHJyUU1LZEo2ZlFGTGJCelNGUjlKSG4wZEdxQlIwR0lEWnhSZF9qaU9XRDhHZDRtU1MtTmw3M3J0cVlmX0tMTklsZFRWQlBfcmZEd0kxWEJjd0lWYXBqLTBfWmhMM3c2ek5DSkNxSnN3VU1ycFlfeEpR?oc=5",
+      "source": "MyJoyOnline",
+      "category": "Environment",
+      "publishedAt": "2026-11-15T08:26:46Z"
+    },
+    {
+      "id": "6a481e6d7410326d4709",
+      "title": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience - ET Government",
+      "description": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience ET Government",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
+      "source": "ET Government",
+      "category": "India",
+      "publishedAt": "2026-11-15T07:57:58Z"
+    },
+    {
+      "id": "a76590522795764cf4df",
+      "title": "APEC CEO Summit 2026: Xi Jinping and global leaders from Pacific economies to attend in Shenzhen - The Economic Times",
+      "description": "APEC CEO Summit 2026: Xi Jinping and global leaders from Pacific economies to attend in Shenzhen The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZnFhUmxnekZVT0pWRkhObFJkcmtzNTM0a0M3RVlha0NKakFMZm1fQ2htYURsLWwtTXdjMktUeHhLdFpaUjRIczNRQ3BmQVNxcmhEb1NYbURBSmxEVVMxLWNwWTk0NVk1UGpES2tPNmdoUTV2a3VNazJzWmxsUFpJNmNyQkVRbEc2UDJFZWhBa2ZJRWRZci1LUVNJdTNXZlF2OGNsZTN5S1o4T09JSnVfVV9XU0wzT0xxTGRXUVBCdzBxc0VubG1tdU56dWxYaUtOQ184ZWluQ3RDYXhabWVONnR0WUVDM2Z4ZF92WXBBNC1tYmF0NWloa0xYU2cwUFpPZHd5YjdQUTlOVFnSAZACQVVfeXFMT0pnSjg1MEJ6RlhSelVTLXdtV1pIM040NFNhdUp5VGpLa2x0VkFERzllZEpYU19SMTZ1dTZ5bHowZDhEaUd4Umt6ZFdvYU9vTXhudVFqNVZrSlNpMl9xUmt6cG5CelM5d3A0c0NWdGhXajQ4RDJxQmdGVUYwLWRpUmNzbkJNQXZId2EzUWdoTklxLUo1OFVkbE43NEJyR2NvMVBwMUw4a0hBdXEzTHFGaG1pTTV0b1E4aFNiY0p3NHFpS21UWTF1YWpZcXE3YlotYkhhZXhEUTE0Vy0yMTVjVmpvTnY0eUs0YVBxUDRDV0FncGFMZ3FqRC1aZ2hSdmZtNlZCMmphQUx4Z09La3FiM0U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZnFhUmxnekZVT0pWRkhObFJkcmtzNTM0a0M3RVlha0NKakFMZm1fQ2htYURsLWwtTXdjMktUeHhLdFpaUjRIczNRQ3BmQVNxcmhEb1NYbURBSmxEVVMxLWNwWTk0NVk1UGpES2tPNmdoUTV2a3VNazJzWmxsUFpJNmNyQkVRbEc2UDJFZWhBa2ZJRWRZci1LUVNJdTNXZlF2OGNsZTN5S1o4T09JSnVfVV9XU0wzT0xxTGRXUVBCdzBxc0VubG1tdU56dWxYaUtOQ184ZWluQ3RDYXhabWVONnR0WUVDM2Z4ZF92WXBBNC1tYmF0NWloa0xYU2cwUFpPZHd5YjdQUTlOVFnSAZACQVVfeXFMT0pnSjg1MEJ6RlhSelVTLXdtV1pIM040NFNhdUp5VGpLa2x0VkFERzllZEpYU19SMTZ1dTZ5bHowZDhEaUd4Umt6ZFdvYU9vTXhudVFqNVZrSlNpMl9xUmt6cG5CelM5d3A0c0NWdGhXajQ4RDJxQmdGVUYwLWRpUmNzbkJNQXZId2EzUWdoTklxLUo1OFVkbE43NEJyR2NvMVBwMUw4a0hBdXEzTHFGaG1pTTV0b1E4aFNiY0p3NHFpS21UWTF1YWpZcXE3YlotYkhhZXhEUTE0Vy0yMTVjVmpvTnY0eUs0YVBxUDRDV0FncGFMZ3FqRC1aZ2hSdmZtNlZCMmphQUx4Z09La3FiM0U?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-15T07:50:21Z"
+    },
+    {
+      "id": "a99ab6bff89f3f80cd97",
+      "title": "International & World News – 15 November 2026 - Saachi Baat",
+      "description": "International & World News – 15 November 2026 Saachi Baat",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY0hRYmFOS0otYzZVT0JMX2hmZWNlQzkybU9JUHA4bmpJNkpJd1NxUFBESzByOWU4RWtPT2w5bVNmSnJIZS1YMzQ5SjNjeXJjZ0plSHF3LUpVSnJueGlpV0RMMzdLNjgtTnN1M1g2M0NMWUNYT1FVV0RQV1BqSUZZcE9WQXFqaHBpaVZWVg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY0hRYmFOS0otYzZVT0JMX2hmZWNlQzkybU9JUHA4bmpJNkpJd1NxUFBESzByOWU4RWtPT2w5bVNmSnJIZS1YMzQ5SjNjeXJjZ0plSHF3LUpVSnJueGlpV0RMMzdLNjgtTnN1M1g2M0NMWUNYT1FVV0RQV1BqSUZZcE9WQXFqaHBpaVZWVg?oc=5",
+      "source": "Saachi Baat",
+      "category": "World",
+      "publishedAt": "2026-11-15T04:57:37Z"
+    },
+    {
+      "id": "ad6f44ac482077d17756",
+      "title": "Local and foreign media at the International Media Center inside the World Trade Center in Pasay City on Sunday (Nov. 15, 2026). The 49th #ASEANSummit and Related Summits opened at nearby Philippine International Convention Center. (PNA photos by - Facebook",
+      "description": "Local and foreign media at the International Media Center inside the World Trade Center in Pasay City on Sunday (Nov. 15, 2026). The 49th #ASEANSummit and Related Summits opened at nearby Philippine International Convention Center. (PNA photos by Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc3U5ME5ienE3TW5lc3pwMDZrY09acHJiM1N5aU5KNnhwbHkwWWFTdkdoSWlSVWtOeUUyWlBaTHpVamNNUW04dGlSTEpubEFPVmpCc2wtek5YOWlwR1EyYXdJRkxISEc5Si0xRlVOYUYwZE1ZZVVoQWt1aVhLUHkzNlB5MS16aDFQVm8wQlF1LVFmMnpwdGM2end5NmhldUxHenkyRWhnVWZiOU8zSGhqUkphQjVVRnhqOU5JTUNwcnpmS3ZDQVBFaHNBcjVScmNhTHAzbA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc3U5ME5ienE3TW5lc3pwMDZrY09acHJiM1N5aU5KNnhwbHkwWWFTdkdoSWlSVWtOeUUyWlBaTHpVamNNUW04dGlSTEpubEFPVmpCc2wtek5YOWlwR1EyYXdJRkxISEc5Si0xRlVOYUYwZE1ZZVVoQWt1aVhLUHkzNlB5MS16aDFQVm8wQlF1LVFmMnpwdGM2end5NmhldUxHenkyRWhnVWZiOU8zSGhqUkphQjVVRnhqOU5JTUNwcnpmS3ZDQVBFaHNBcjVScmNhTHAzbA?oc=5",
+      "source": "Facebook",
+      "category": "World",
+      "publishedAt": "2026-11-15T04:12:30Z"
+    },
+    {
+      "id": "ee0d68830dc4aac7ae31",
+      "title": "ASEAN must advance effective South China Sea Code of Conduct under international law: Philippine President - The Economic Times",
+      "description": "ASEAN must advance effective South China Sea Code of Conduct under international law: Philippine President The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPWHhIUm93ZTBQZHlUYUFjd1ViVERkU1RENnVqVzdSRkNnOTdmMW8xYXpqQUxfSDBKQ3U0dDRaTG5lQXZqM0dLWGVaZGdBa2R4SGVSX2dqNDhvVndtcUtjWVh3X01id2oyODNLd0RNeDlZc3dRM3NBUFRvYWoxWWtwY0pPVl94djhaV0Z2S2dXc0RNaUZYSWVuTmJNZGVuUE5xd2hHUEotdVdLdnRCM2FVb2lmWjEySFVDaFNYR2JvOXMxWUYxVmt2U0dCV2RrWHg3cE4wMXJibUlMckZDNFdFTjdNVUpBazFkX0ZXb3dZUThJU0ZwMWdISzNMTGx6UE5IWUFZUUNHZ1otQkNqcnloWmR3bUotaGF5dGRhQnpHaEVmUdIBpwJBVV95cUxQUU5yQUFoamdRTmNvLU9vT1Z5WC1YYVBnVG1wVFpnRVluRVdhaG15TTVpMUhGNm9LM2poWUhtczFqeHhQYmdldFFVUk1kQ1RpOVoyRVBvaTgyalNlT29uQXI0SkJ6R1lxaS0zV0ZidVZncmhPcTJRU21ERWRUNnZiaXE5SE9wYzc0YUw0ajU1X3VqVnlQSGdhN0R5N0ZoVnduSUx2RmNfa0sxSEVMNHRkSmdvY2dMNGctVUEyRkgxX3FMRE5QdFZra2wxVGNtcElwXzIzVXdGYkhlSWZmZ2hWQVdLRllaSVdBa2JUdlEzZEd1a2U0V0UzOEZJMTVVM0FKOGdCRnF5ZmI5bzVueWk1SEMteGhCc1JSX0pkWWJCMk5vQzhkVUxr?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPWHhIUm93ZTBQZHlUYUFjd1ViVERkU1RENnVqVzdSRkNnOTdmMW8xYXpqQUxfSDBKQ3U0dDRaTG5lQXZqM0dLWGVaZGdBa2R4SGVSX2dqNDhvVndtcUtjWVh3X01id2oyODNLd0RNeDlZc3dRM3NBUFRvYWoxWWtwY0pPVl94djhaV0Z2S2dXc0RNaUZYSWVuTmJNZGVuUE5xd2hHUEotdVdLdnRCM2FVb2lmWjEySFVDaFNYR2JvOXMxWUYxVmt2U0dCV2RrWHg3cE4wMXJibUlMckZDNFdFTjdNVUpBazFkX0ZXb3dZUThJU0ZwMWdISzNMTGx6UE5IWUFZUUNHZ1otQkNqcnloWmR3bUotaGF5dGRhQnpHaEVmUdIBpwJBVV95cUxQUU5yQUFoamdRTmNvLU9vT1Z5WC1YYVBnVG1wVFpnRVluRVdhaG15TTVpMUhGNm9LM2poWUhtczFqeHhQYmdldFFVUk1kQ1RpOVoyRVBvaTgyalNlT29uQXI0SkJ6R1lxaS0zV0ZidVZncmhPcTJRU21ERWRUNnZiaXE5SE9wYzc0YUw0ajU1X3VqVnlQSGdhN0R5N0ZoVnduSUx2RmNfa0sxSEVMNHRkSmdvY2dMNGctVUEyRkgxX3FMRE5QdFZra2wxVGNtcElwXzIzVXdGYkhlSWZmZ2hWQVdLRllaSVdBa2JUdlEzZEd1a2U0V0UzOEZJMTVVM0FKOGdCRnF5ZmI5bzVueWk1SEMteGhCc1JSX0pkWWJCMk5vQzhkVUxr?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-15T03:53:48Z"
+    },
+    {
+      "id": "3b827c44c075870b1fc4",
+      "title": "UPS plane and Copa Airlines aircraft collide at Miami International Airport; no injuries reported - Hindustan Times",
+      "description": "UPS plane and Copa Airlines aircraft collide at Miami International Airport; no injuries reported Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPQndyRFJNOVpnTXdjSU1FV2tlQ1JKSVZEdEFMd0pYdTNqaUQyUF9obzhJVHh3Wm05MDNmNDlkYmI3ZEphVlRaYldISExqUWFIVkdWTi1mYUEyTTRMeGFhNThBbkJGd3pxQTJqUG95NC1VbFpNSndmVzJrOGFkSWJCNTVzdHpROF9nQU03aUR1RU1CbVlHSEh0ZTBqWmJVaXNjbmpBZGJfM09YSDRSdjBTWkRFeGRDdUdPRVJCbkJ2aWxuUTA4UVBUQ1M0cEFPY2luN0xRQlU2N0lfaW92QjdMTUl1QUNoQ0xJSW4xRmNlRWEyVEphVmRBWWRNTQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPQndyRFJNOVpnTXdjSU1FV2tlQ1JKSVZEdEFMd0pYdTNqaUQyUF9obzhJVHh3Wm05MDNmNDlkYmI3ZEphVlRaYldISExqUWFIVkdWTi1mYUEyTTRMeGFhNThBbkJGd3pxQTJqUG95NC1VbFpNSndmVzJrOGFkSWJCNTVzdHpROF9nQU03aUR1RU1CbVlHSEh0ZTBqWmJVaXNjbmpBZGJfM09YSDRSdjBTWkRFeGRDdUdPRVJCbkJ2aWxuUTA4UVBUQ1M0cEFPY2luN0xRQlU2N0lfaW92QjdMTUl1QUNoQ0xJSW4xRmNlRWEyVEphVmRBWWRNTQ?oc=5",
+      "source": "Hindustan Times",
+      "category": "World",
+      "publishedAt": "2026-11-15T03:41:36Z"
+    },
     {
       "id": "e9abe62396537b5903c4",
       "title": "Real estate push: Three townships, new infrastructure on southern Lucknow’s horizon | Hindustan Times - Hindustan Times",
@@ -293,14 +394,14 @@
       "publishedAt": "2026-11-15T01:22:36Z"
     },
     {
-      "id": "6a481e6d7410326d4709",
-      "title": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience - ET Government",
-      "description": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience ET Government",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
-      "source": "ET Government",
-      "category": "India",
-      "publishedAt": "2026-11-14T23:48:51Z"
+      "id": "dabefe21e9c4698c0c56",
+      "title": "World Senior Chess Champions 2026 crowned in Vrnjačka Banja, Serbia – International Chess Federation - FIDE",
+      "description": "World Senior Chess Champions 2026 crowned in Vrnjačka Banja, Serbia – International Chess Federation FIDE",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNUN2c0VGYlhBSmdLTUQ3MEkzZmxOUUxfRHo5TjZMYzlfZlNhSHRoX0hNQkZjV0VWRTZQMDhxazVLMnJYeElpb1JvZ3RyTnlXanc2dFl6RnJ6akRDY2lOcEtxTDdVSWF5QzJlNllOUER3cEVNc2JVUDZ6TmhIOTZldlZOem5ETzJ4Y0Fsd0dZbUI4Zw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNUN2c0VGYlhBSmdLTUQ3MEkzZmxOUUxfRHo5TjZMYzlfZlNhSHRoX0hNQkZjV0VWRTZQMDhxazVLMnJYeElpb1JvZ3RyTnlXanc2dFl6RnJ6akRDY2lOcEtxTDdVSWF5QzJlNllOUER3cEVNc2JVUDZ6TmhIOTZldlZOem5ETzJ4Y0Fsd0dZbUI4Zw?oc=5",
+      "source": "FIDE",
+      "category": "World",
+      "publishedAt": "2026-11-15T00:20:49Z"
     },
     {
       "id": "5430cd83dcf082ede729",
@@ -311,6 +412,16 @@
       "source": "Eurasia Review",
       "category": "Environment",
       "publishedAt": "2026-11-14T23:42:41Z"
+    },
+    {
+      "id": "628b2d974b06c5a584af",
+      "title": "Darren Haywood: Australian Researcher Receives International Recognition at IPOS World Congress - Oncodaily",
+      "description": "Darren Haywood: Australian Researcher Receives International Recognition at IPOS World Congress Oncodaily",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvYzV0RzFnU3o2NnBMOXN5VW1kMk1pU2ZlYTJRdWo2V053cjdRM1Q2RUJVSW9rNDg2cFhCcUltNG1jWmxyLW5BSHlRWlhsbW56MGVEak1DNTNTYUNGSDVBR0d3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvYzV0RzFnU3o2NnBMOXN5VW1kMk1pU2ZlYTJRdWo2V053cjdRM1Q2RUJVSW9rNDg2cFhCcUltNG1jWmxyLW5BSHlRWlhsbW56MGVEak1DNTNTYUNGSDVBR0d3?oc=5",
+      "source": "Oncodaily",
+      "category": "World",
+      "publishedAt": "2026-11-14T21:32:35Z"
     },
     {
       "id": "17d3a77ca52355441a84",
@@ -523,6 +634,16 @@
       "publishedAt": "2026-11-14T07:13:58Z"
     },
     {
+      "id": "23a33227b3b23a1e7e1e",
+      "title": "Analysis • Could Israel face the same international fate as apartheid South Africa? - Haaretz",
+      "description": "Analysis • Could Israel face the same international fate as apartheid South Africa? Haaretz",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQRkE3VVE1RWgtUDZWZmp3ajQyZGM1MkJ1TVk3XzBsdzdZSmxNWDJnUzZURGdTckVsMWtpZUM0cnBZSnJ5ZHdsX3dPalhKQm5mUkIzMTE2dk9RSzlYWWVscjdsZ1lCdXV1V1dvWUEwMkdPSk5qRlg4NUdReElLVy1fV19fNkVPZEh6M3B6ZVVqb2xOc2NndWlCRzFacll1TUdfeUtwc3VLOF9fQ3FfZFYtN3lSMVVhbGk2ektkaTJDUkpoQkxMRmxEUWRTNHhzSWNZNHl4VXBEdzV4czU0ZGJzTkNDanVmM1JaYmFhaWtuOFBxV2FndVl3ZFZVTldjb3Z0dF9oVFd5aVdjVDZGaEQ1V2JxZ05peGtRbjlNRlVGR21VMWRsY0FHLWZR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQRkE3VVE1RWgtUDZWZmp3ajQyZGM1MkJ1TVk3XzBsdzdZSmxNWDJnUzZURGdTckVsMWtpZUM0cnBZSnJ5ZHdsX3dPalhKQm5mUkIzMTE2dk9RSzlYWWVscjdsZ1lCdXV1V1dvWUEwMkdPSk5qRlg4NUdReElLVy1fV19fNkVPZEh6M3B6ZVVqb2xOc2NndWlCRzFacll1TUdfeUtwc3VLOF9fQ3FfZFYtN3lSMVVhbGk2ektkaTJDUkpoQkxMRmxEUWRTNHhzSWNZNHl4VXBEdzV4czU0ZGJzTkNDanVmM1JaYmFhaWtuOFBxV2FndVl3ZFZVTldjb3Z0dF9oVFd5aVdjVDZGaEQ1V2JxZ05peGtRbjlNRlVGR21VMWRsY0FHLWZR?oc=5",
+      "source": "Haaretz",
+      "category": "World",
+      "publishedAt": "2026-11-14T07:08:00Z"
+    },
+    {
       "id": "234e5dcefb74db6f857b",
       "title": "Marco Rubio Accuses Global Elites of Weaponizing International Laws - Asianet Newsable",
       "description": "Marco Rubio Accuses Global Elites of Weaponizing International Laws Asianet Newsable",
@@ -723,6 +844,16 @@
       "publishedAt": "2026-11-13T18:42:24Z"
     },
     {
+      "id": "edb019b8c28a432321c7",
+      "title": "UN Leader Says People Power Is the Secret Weapon Against Global Warming - Inside Climate News",
+      "description": "UN Leader Says People Power Is the Secret Weapon Against Global Warming Inside Climate News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTF5TVA0NHVqSWhhdjUyT2g1UENqV2swTHVtVkFVVlo1RXJrRVNkazAtZ2dMSHRZVElIeG5TVlpKWDVPYkNyWUVMSVNIUTUzZDRZcjZvOWpmUERPajBZd1lRX0E3U3RMRTlWR3FhOVZ4SHZCWGNNak5QaWNyYkQ2X0RQbmJfNzQyYW11dXpKLUlTMzNTYTdHczdveC1kUWRYaXR0cThfcE1TREdVQXVZeWFYTnJOZXlx?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTF5TVA0NHVqSWhhdjUyT2g1UENqV2swTHVtVkFVVlo1RXJrRVNkazAtZ2dMSHRZVElIeG5TVlpKWDVPYkNyWUVMSVNIUTUzZDRZcjZvOWpmUERPajBZd1lRX0E3U3RMRTlWR3FhOVZ4SHZCWGNNak5QaWNyYkQ2X0RQbmJfNzQyYW11dXpKLUlTMzNTYTdHczdveC1kUWRYaXR0cThfcE1TREdVQXVZeWFYTnJOZXlx?oc=5",
+      "source": "Inside Climate News",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T18:37:15Z"
+    },
+    {
       "id": "c961906f76de85509c4a",
       "title": "What in the World? - Foreign Policy",
       "description": "What in the World? Foreign Policy",
@@ -853,6 +984,16 @@
       "publishedAt": "2026-11-13T15:38:53Z"
     },
     {
+      "id": "d1dc9bd26ec9c71e08e6",
+      "title": "Weekend weather: SA braces for severe thunderstorms, flooding and damaging winds as Orange Level 5 warning issued - IOL",
+      "description": "Weekend weather: SA braces for severe thunderstorms, flooding and damaging winds as Orange Level 5 warning issued IOL",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNnJoTE9jS1FsSHlObEdLMlBFZGlLOXczQU93T2ZqMWxWMEM3cGdHS1BXMkZRdGtDRHBzMlFRR3JMRk5uSWNkNG0tRkw3SkVOMjdVdW5rcl8zUUhZUWJWVXZ2aVg5bVhCTHctbTBDb2t4cHU3bG5abUhtdjN6Ymx6Sk9oWnRFS3E2Z1RDcHJOcWNkT213d0czcERTOTBMTFhKcXJJck5kbVBfaENtekxHSGlMOTliaDVDU1prUXNRWDJFMHBuMDZsRm10YzNjUE1VcDZFdFFiMUJoRk1XUnRZNUgtdFlqamczZGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNnJoTE9jS1FsSHlObEdLMlBFZGlLOXczQU93T2ZqMWxWMEM3cGdHS1BXMkZRdGtDRHBzMlFRR3JMRk5uSWNkNG0tRkw3SkVOMjdVdW5rcl8zUUhZUWJWVXZ2aVg5bVhCTHctbTBDb2t4cHU3bG5abUhtdjN6Ymx6Sk9oWnRFS3E2Z1RDcHJOcWNkT213d0czcERTOTBMTFhKcXJJck5kbVBfaENtekxHSGlMOTliaDVDU1prUXNRWDJFMHBuMDZsRm10YzNjUE1VcDZFdFFiMUJoRk1XUnRZNUgtdFlqamczZGc?oc=5",
+      "source": "IOL",
+      "category": "Disaster",
+      "publishedAt": "2026-11-13T15:34:37Z"
+    },
+    {
       "id": "000e06af2b80e5391b3e",
       "title": "Argentina make major 2030 World Cup decision following Lionel Messi's international retirement - Lente Desportiva",
       "description": "Argentina make major 2030 World Cup decision following Lionel Messi's international retirement Lente Desportiva",
@@ -903,6 +1044,16 @@
       "publishedAt": "2026-11-13T14:07:10Z"
     },
     {
+      "id": "ca928d83a5c0f52dc4c5",
+      "title": "BU Celebrates International Education Week 2026 | BU Today - Boston University",
+      "description": "BU Celebrates International Education Week 2026 | BU Today Boston University",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvTmQ0QkhXSDFWRU8yQ2dGajFyMlhwNU1GSUFrVzI2b2RVcktxNFNkVldwcGQzaGdGbXdDYllCMnhYRkJKbnFOMXRMT3NfZ3Uwb291UEZVaGdYWEUwSHRzbmhLd2k3SFZTb2JNaDdFZ2Z0aUk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvTmQ0QkhXSDFWRU8yQ2dGajFyMlhwNU1GSUFrVzI2b2RVcktxNFNkVldwcGQzaGdGbXdDYllCMnhYRkJKbnFOMXRMT3NfZ3Uwb291UEZVaGdYWEUwSHRzbmhLd2k3SFZTb2JNaDdFZ2Z0aUk?oc=5",
+      "source": "Boston University",
+      "category": "World",
+      "publishedAt": "2026-11-13T14:04:00Z"
+    },
+    {
       "id": "0f97ecb3dc9bda4073c2",
       "title": "International Friendly: River Plate vs. Inter Miami CF at Estadio Monumental - Inter Miami CF",
       "description": "International Friendly: River Plate vs. Inter Miami CF at Estadio Monumental Inter Miami CF",
@@ -911,6 +1062,16 @@
       "source": "Inter Miami CF",
       "category": "World",
       "publishedAt": "2026-11-13T14:01:31Z"
+    },
+    {
+      "id": "c7c81d286657726eb1b0",
+      "title": "VCU to highlight International Education Week with wide range of programs - VCU News",
+      "description": "VCU to highlight International Education Week with wide range of programs VCU News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa1FHMC15NmctbUpJSUNNMkhzRzE2bUtXZHdyLWN1dENGMHJfNHR3QU9nbzRfMExFXy1XcUtQVVZuLThmMDBrRkxRTE1CckF2Ri1zaU4xVTFnOWFIeXplcWNxREUyQ0J2LWRkOXp5Z2tHZzhmVjhMM0hGb1pCMkdnenI1RTdmOTRlZ1N5TW1RVFdmVFpYWmQtTmJhemtMdjlBQ1ZiYg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa1FHMC15NmctbUpJSUNNMkhzRzE2bUtXZHdyLWN1dENGMHJfNHR3QU9nbzRfMExFXy1XcUtQVVZuLThmMDBrRkxRTE1CckF2Ri1zaU4xVTFnOWFIeXplcWNxREUyQ0J2LWRkOXp5Z2tHZzhmVjhMM0hGb1pCMkdnenI1RTdmOTRlZ1N5TW1RVFdmVFpYWmQtTmJhemtMdjlBQ1ZiYg?oc=5",
+      "source": "VCU News",
+      "category": "World",
+      "publishedAt": "2026-11-13T13:19:05Z"
     },
     {
       "id": "f38041f5b9d172d3853b",
@@ -973,6 +1134,16 @@
       "publishedAt": "2026-11-13T11:12:49Z"
     },
     {
+      "id": "63307412f26303436db3",
+      "title": "Global Oil Market Set to Return to Surplus as Gulf Exports Recover, IEA Says - WSJ",
+      "description": "Global Oil Market Set to Return to Surplus as Gulf Exports Recover, IEA Says WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQVljaDkwUzhILVlYVTR6aFdubUJxUV9xMURUOWpaVkpmejFYcXZCOGUyYUlKZDhMVzJkNF9idTIyOVI4OGtMdWJiMlhVN1VKUV9qX181SUs0azJ6S2wyR2hBY3Q0cU5NaXlXaUZodFJBTFlXRjdtRkVmVGFBWFBhTTlFNWRWaUxtSF9RREF2YUluNkZyVFlybW14RlBPRFFJcFFiN3R6em84MXdKT0w0amJpSDlRbnEyYmExQ3VDVGljdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQVljaDkwUzhILVlYVTR6aFdubUJxUV9xMURUOWpaVkpmejFYcXZCOGUyYUlKZDhMVzJkNF9idTIyOVI4OGtMdWJiMlhVN1VKUV9qX181SUs0azJ6S2wyR2hBY3Q0cU5NaXlXaUZodFJBTFlXRjdtRkVmVGFBWFBhTTlFNWRWaUxtSF9RREF2YUluNkZyVFlybW14RlBPRFFJcFFiN3R6em84MXdKT0w0amJpSDlRbnEyYmExQ3VDVGljdw?oc=5",
+      "source": "WSJ",
+      "category": "World",
+      "publishedAt": "2026-11-13T09:40:00Z"
+    },
+    {
       "id": "c3bd1139887892deba02",
       "title": "Sustainable urban development in Ahmedabad - Elets eGov",
       "description": "Sustainable urban development in Ahmedabad Elets eGov",
@@ -980,6 +1151,16 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQjdnWElkMkVqX2w5WWlWamt5dzJGcmhMTTNjdnU1bm9OMGhsaFlVM1lQYmlrYTctT1NRcUR1VlBtTmZjRUl5b3Z1ak53X0dSOExWVGR5N3ZnLWdnbVB6VThsdnVRLUo4TnpwTm1TOFNiSDFHcFlNOW5zUzJKN3lwY3hSUTV1Wk1pRWpCdHJsd3NvTzYzZGptNG9nU1lkVnBpSWZTQk1UVmxLb18yNXp6STF3?oc=5",
       "source": "Elets eGov",
       "category": "India",
+      "publishedAt": "2026-11-13T09:00:00Z"
+    },
+    {
+      "id": "131e5f6a9e96a65f3ec1",
+      "title": "Hanoi, Keidanren and CMC deepen Vietnam-Japan technology cooperation - Báo VietNamNet",
+      "description": "Hanoi, Keidanren and CMC deepen Vietnam-Japan technology cooperation Báo VietNamNet",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQald6cjJQWVhpaDhhVkZGTUlNQWNXMWluUkNudmxjdGJhUHNnbm5qbUdMTk50Wm1oaXJ2MEpfRWRlVlZ5LVRLeWtmSk4wcEtZVGdIWWtvZDkwd2p4dDV1Sno3cThzTzI4a0VKcWtGNzBlb1NYal9wSnRUMll1Z0J6dXVScVJBbEFXeGVRZWZYMFBkRVljNzJKWFJuSFVHT2hQU0pQYlBJcl8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQald6cjJQWVhpaDhhVkZGTUlNQWNXMWluUkNudmxjdGJhUHNnbm5qbUdMTk50Wm1oaXJ2MEpfRWRlVlZ5LVRLeWtmSk4wcEtZVGdIWWtvZDkwd2p4dDV1Sno3cThzTzI4a0VKcWtGNzBlb1NYal9wSnRUMll1Z0J6dXVScVJBbEFXeGVRZWZYMFBkRVljNzJKWFJuSFVHT2hQU0pQYlBJcl8?oc=5",
+      "source": "Báo VietNamNet",
+      "category": "Technology",
       "publishedAt": "2026-11-13T09:00:00Z"
     },
     {
@@ -2321,28 +2502,8 @@
       "source": "ABC News & Headlines – Australian Broadcasting Corporation",
       "category": "Disaster",
       "publishedAt": "2026-11-08T20:31:58Z"
-    },
-    {
-      "id": "e4b6f3ed3dbb0177615d",
-      "title": "Natural disaster | Causes, Types, & Facts - Britannica",
-      "description": "Natural disaster | Causes, Types, & Facts Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vMDE1X2pVcjlrYzMzY3QzQ2hXdHdYbkZ1WkFkUGNmLXU3NnNPaXEyMEhSQ2FPY3E1R0VneWhvaDJIbXdFejFNUWRQczdnZl9aTHhUbG1ZVHhwNF9xVlRmOQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vMDE1X2pVcjlrYzMzY3QzQ2hXdHdYbkZ1WkFkUGNmLXU3NnNPaXEyMEhSQ2FPY3E1R0VneWhvaDJIbXdFejFNUWRQczdnZl9aTHhUbG1ZVHhwNF9xVlRmOQ?oc=5",
-      "source": "Britannica",
-      "category": "Disaster",
-      "publishedAt": "2026-11-08T08:00:00Z"
-    },
-    {
-      "id": "76b8ab6e61aab78670b1",
-      "title": "Earthquakes, Tornadoes, and Wildfires | All About Natural Disasters - Britannica",
-      "description": "Earthquakes, Tornadoes, and Wildfires | All About Natural Disasters Britannica",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wUHFYY0N5Z2lqd1FjLVpmRzhvM1FKNGhXbGc0Wm41bjE1bnI1YmdtVmtDS3IwQVJGb1E2eGh6bllWM0hDVU9BbHB1RzBFclZRVXNZbGpjYzl3QWJPMVczSTMyLXdsMVJqTDZMNWtVTTRnMmM?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wUHFYY0N5Z2lqd1FjLVpmRzhvM1FKNGhXbGc0Wm41bjE1bnI1YmdtVmtDS3IwQVJGb1E2eGh6bllWM0hDVU9BbHB1RzBFclZRVXNZbGpjYzl3QWJPMVczSTMyLXdsMVJqTDZMNWtVTTRnMmM?oc=5",
-      "source": "Britannica",
-      "category": "Disaster",
-      "publishedAt": "2026-11-08T08:00:00Z"
     }
   ],
-  "lastUpdated": "2026-11-15T02:58:33Z",
-  "updatedAt": "2026-11-15T02:58:33Z"
+  "lastUpdated": "2026-11-15T10:41:40Z",
+  "updatedAt": "2026-11-15T10:41:40Z"
 }
