@@ -240,37 +240,78 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-14T23:16:02Z",
-    "lastSuccessfulRun": "2026-11-14T23:16:02Z",
-    "lastUpdated": "2026-11-14T23:16:02Z",
-    "articlesAdded": 5,
+    "lastRun": "2026-11-15T02:58:33Z",
+    "lastSuccessfulRun": "2026-11-15T02:58:33Z",
+    "lastUpdated": "2026-11-15T02:58:33Z",
+    "articlesAdded": 6,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 57,
+    "duplicatesRemoved": 58,
     "failedSources": [],
     "newArticleIds": [
-      "17d3a77ca52355441a84",
-      "99f53b68b64549100870",
-      "73ec054144f997f950d0",
-      "89f0b78567322b49cfce",
-      "46d8ac69d4a709fc496b"
+      "e9abe62396537b5903c4",
+      "fe111e484d80378b9565",
+      "5430cd83dcf082ede729",
+      "bfb0762223102f72d4da",
+      "8d19e011ad9a7cc7d161",
+      "943343e1e0cdef483a0b"
     ],
     "updatedArticleIds": [],
     "articlesRemoved": 0,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 201,
+    "totalArticles": 207,
     "categories": {
-      "World": 101,
-      "India": 17,
+      "World": 104,
+      "India": 18,
       "Technology": 9,
-      "Environment": 62,
+      "Environment": 64,
       "Disaster": 12
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "e9abe62396537b5903c4",
+      "title": "Real estate push: Three townships, new infrastructure on southern Lucknow’s horizon | Hindustan Times - Hindustan Times",
+      "description": "Real estate push: Three townships, new infrastructure on southern Lucknow’s horizon | Hindustan Times Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRXpNM3I5OUV3RzZCOFVZLVR5OEFFWTI0MWFxQVl4Vkx2U3RPNTJlSExQOFBNUmxTRlItekZmX3dSWFhlN2ZYd0tNTWFEYjRJZnZvV3YzYUFKNlJySVNpMmlyZWNOWEtsaEpQandrVkV3akRlX2V6cER6VWJTVU85UlN3TmgtUXJ2VG1UUFNRelBkRDZfOGtSVFVoWXB6b1NRdHo5a0djY2wxOFIyNDM4MHVkVkpqbGZEMmpYUTcwNGVFUms0MVB5UW05Y0RicVBqM2hyeGlRQWpEZEdydjRta3gxLWdBSFBEQ1NuRFpB0gHuAUFVX3lxTFBFek0zcjk5RXdHNkI4VVktVHk4QUVZMjQxYXFBWXhWTHZTdE81MmVITFA4UE1SbFNGUi16RmZfd1JYWGU3Zlh3S01NYURiNElmdm9XdjNhQUo2UnJJU2kyaXJlY05YS2xoSlBqd2tWRXdqRGVfZXpwRHpVYlNVTzlSU3dOaC1RcnZUbVRQU1F6UGRENl84a1JUVWhZcHpvU1F0ejlrR2NjbDE4UjI0MzgwdWRWSmpsZkQyalhRNzA0ZUVSazQxUHlRbTljRGJxUGozaHJ4aVFBakRkR3J2NG1reDEtZ0FIUERDU25EWkE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRXpNM3I5OUV3RzZCOFVZLVR5OEFFWTI0MWFxQVl4Vkx2U3RPNTJlSExQOFBNUmxTRlItekZmX3dSWFhlN2ZYd0tNTWFEYjRJZnZvV3YzYUFKNlJySVNpMmlyZWNOWEtsaEpQandrVkV3akRlX2V6cER6VWJTVU85UlN3TmgtUXJ2VG1UUFNRelBkRDZfOGtSVFVoWXB6b1NRdHo5a0djY2wxOFIyNDM4MHVkVkpqbGZEMmpYUTcwNGVFUms0MVB5UW05Y0RicVBqM2hyeGlRQWpEZEdydjRta3gxLWdBSFBEQ1NuRFpB0gHuAUFVX3lxTFBFek0zcjk5RXdHNkI4VVktVHk4QUVZMjQxYXFBWXhWTHZTdE81MmVITFA4UE1SbFNGUi16RmZfd1JYWGU3Zlh3S01NYURiNElmdm9XdjNhQUo2UnJJU2kyaXJlY05YS2xoSlBqd2tWRXdqRGVfZXpwRHpVYlNVTzlSU3dOaC1RcnZUbVRQU1F6UGRENl84a1JUVWhZcHpvU1F0ejlrR2NjbDE4UjI0MzgwdWRWSmpsZkQyalhRNzA0ZUVSazQxUHlRbTljRGJxUGozaHJ4aVFBakRkR3J2NG1reDEtZ0FIUERDU25EWkE?oc=5",
+      "source": "Hindustan Times",
+      "category": "India",
+      "publishedAt": "2026-11-15T02:17:20Z"
+    },
+    {
+      "id": "fe111e484d80378b9565",
+      "title": "LOOK: World leaders and delegates arrived at the Philippine International Convention Center for the #ASEAN2026 Summit and Related Summits on Sunday, Nov. 15. Screengrab from ASEAN Philippines 2026 Visit www.gmanetwork.com/news for updates. - Facebook",
+      "description": "LOOK: World leaders and delegates arrived at the Philippine International Convention Center for the #ASEAN2026 Summit and Related Summits on Sunday, Nov. 15. Screengrab from ASEAN Philippines 2026 Visit www.gmanetwork.com/news for updates. Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMDVIRXc1eGN2MnpLLTJqd2k3UFBqUHNadS1hU1ItRGU5Z1gtX2o5Zjc0LUNNNmZyQ0JqeGFXLVZRaDM5UHY5M3lfNEI2WkdaclRHMzhPVXU3LU5qMHhUZmRnei1qWmVNQlRDNE43TWd0dVA3UWJOcVZXRE04V2tWMV80Zlp6MkNHUEZURTZ3VVAxRC1BaE4wMThxRXh5dlZvVkE0YlpUSGRiZEpzUGtfSWVKS0lneUlvSzNxMlE1M1lLTFFRRFVBam9uRnFxbmh1WWlN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMDVIRXc1eGN2MnpLLTJqd2k3UFBqUHNadS1hU1ItRGU5Z1gtX2o5Zjc0LUNNNmZyQ0JqeGFXLVZRaDM5UHY5M3lfNEI2WkdaclRHMzhPVXU3LU5qMHhUZmRnei1qWmVNQlRDNE43TWd0dVA3UWJOcVZXRE04V2tWMV80Zlp6MkNHUEZURTZ3VVAxRC1BaE4wMThxRXh5dlZvVkE0YlpUSGRiZEpzUGtfSWVKS0lneUlvSzNxMlE1M1lLTFFRRFVBam9uRnFxbmh1WWlN?oc=5",
+      "source": "Facebook",
+      "category": "World",
+      "publishedAt": "2026-11-15T01:22:36Z"
+    },
+    {
+      "id": "6a481e6d7410326d4709",
+      "title": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience - ET Government",
+      "description": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience ET Government",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
+      "source": "ET Government",
+      "category": "India",
+      "publishedAt": "2026-11-14T23:48:51Z"
+    },
+    {
+      "id": "5430cd83dcf082ede729",
+      "title": "Environmental Action No Longer Optional In Addressing AMR – OpEd - Eurasia Review",
+      "description": "Environmental Action No Longer Optional In Addressing AMR – OpEd Eurasia Review",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZVFscDBfVTBoLWFwV1ZXTWx1a1d2cjJ4SExUYnZhSjU0TEdSVm1rX3I5bm95Q0UyWS13ZmFKSGNsZGpxc2ZrLWdnZ29ZT0d5UWVTN0tpNEZxRmdSWnVpeUJJcTN5MFhyY2JuMjlWVkZxUVJWalBVM0RMZVoxMmFxR0hMX2NGZXRJSTI2V3pLXzhnVVRyOGVXLTg0MFhSYkttREZ2RA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZVFscDBfVTBoLWFwV1ZXTWx1a1d2cjJ4SExUYnZhSjU0TEdSVm1rX3I5bm95Q0UyWS13ZmFKSGNsZGpxc2ZrLWdnZ29ZT0d5UWVTN0tpNEZxRmdSWnVpeUJJcTN5MFhyY2JuMjlWVkZxUVJWalBVM0RMZVoxMmFxR0hMX2NGZXRJSTI2V3pLXzhnVVRyOGVXLTg0MFhSYkttREZ2RA?oc=5",
+      "source": "Eurasia Review",
+      "category": "Environment",
+      "publishedAt": "2026-11-14T23:42:41Z"
+    },
     {
       "id": "17d3a77ca52355441a84",
       "title": "Tunis Arab Novel Forum Calls For Stronger Green Literature And Environmental Criticism - Sada Elbalad English",
@@ -300,16 +341,6 @@
       "source": "LiveScore",
       "category": "World",
       "publishedAt": "2026-11-14T19:24:13Z"
-    },
-    {
-      "id": "6a481e6d7410326d4709",
-      "title": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience - ET Government",
-      "description": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience ET Government",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
-      "source": "ET Government",
-      "category": "India",
-      "publishedAt": "2026-11-14T19:17:34Z"
     },
     {
       "id": "c78575e7d8a604a70018",
@@ -450,6 +481,16 @@
       "source": "Hindustan Times",
       "category": "World",
       "publishedAt": "2026-11-14T08:49:12Z"
+    },
+    {
+      "id": "bfb0762223102f72d4da",
+      "title": "'Tool of the global elite': Marco Rubio takes aim at ICC in warning over international law - The Economic Times",
+      "description": "'Tool of the global elite': Marco Rubio takes aim at ICC in warning over international law The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ1BWMEgwWTV1UFNlWFhidUlTVl9HbFgwVlJrdWN6Z0IzU0RCdXBLcGFLMDNfZlg0aTBzVFZwNnZaWU5GY2MyOC1PdUI5b2h1Ml90S2Nkc0ZYNkdBZnBIbGNNRngtUzh1ZXhDOUVaSGJBQi05cDVobDVESkxiZnZUbmVDTmZ0Y1VfRDhWNmFHUU53bkJFVW1VV0sxLXdDWlNGRi1xb2R0OUt4NmtGMmN0c3E4SFc3Rm1UaWJrakdGTG9uTUJFMWRLblgyWHpRa0VLcUJGcGpGYU9SOUxxTFM5T2JpdGloNEJFNmtVcnNtTTVmQjFIQURKRWNYS2xwNmtacktr0gGIAkFVX3lxTE9hdnZJZTRhbWFyZmUxcXVudHRuMlRkaHlWendiOENobko4cHZWeUFzLWVFTkJwS0VueXFpVGtLX25LakstcW0zcEQ2bjJqNDRSTGRoTzFlYmJQMkd5anVLWVQyRnlucUhjNElQdnhWR2UyNTdYcS1Xck5VRnVJMFNMOE04aWZJdVF2ZS1FTmd2ZktMMmd3Qktoa3JfZVFDR1IwSWtWMlBTYjM0NVpKUTk5c0V0NTg1MnFRX2hvWllQYXJUYkFrTTRRZTJuY2RYREhuNmZaNGt3d2l4c1QwdHp5eHcyQURlVWVlMjNaaFh5Q1lXSEg0SXo5WUhFRV9JblZxelFjaDY1ag?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ1BWMEgwWTV1UFNlWFhidUlTVl9HbFgwVlJrdWN6Z0IzU0RCdXBLcGFLMDNfZlg0aTBzVFZwNnZaWU5GY2MyOC1PdUI5b2h1Ml90S2Nkc0ZYNkdBZnBIbGNNRngtUzh1ZXhDOUVaSGJBQi05cDVobDVESkxiZnZUbmVDTmZ0Y1VfRDhWNmFHUU53bkJFVW1VV0sxLXdDWlNGRi1xb2R0OUt4NmtGMmN0c3E4SFc3Rm1UaWJrakdGTG9uTUJFMWRLblgyWHpRa0VLcUJGcGpGYU9SOUxxTFM5T2JpdGloNEJFNmtVcnNtTTVmQjFIQURKRWNYS2xwNmtacktr0gGIAkFVX3lxTE9hdnZJZTRhbWFyZmUxcXVudHRuMlRkaHlWendiOENobko4cHZWeUFzLWVFTkJwS0VueXFpVGtLX25LakstcW0zcEQ2bjJqNDRSTGRoTzFlYmJQMkd5anVLWVQyRnlucUhjNElQdnhWR2UyNTdYcS1Xck5VRnVJMFNMOE04aWZJdVF2ZS1FTmd2ZktMMmd3Qktoa3JfZVFDR1IwSWtWMlBTYjM0NVpKUTk5c0V0NTg1MnFRX2hvWllQYXJUYkFrTTRRZTJuY2RYREhuNmZaNGt3d2l4c1QwdHp5eHcyQURlVWVlMjNaaFh5Q1lXSEg0SXo5WUhFRV9JblZxelFjaDY1ag?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-14T08:38:46Z"
     },
     {
       "id": "89b673c3032eee32a80f",
@@ -782,6 +823,16 @@
       "publishedAt": "2026-11-13T16:22:24Z"
     },
     {
+      "id": "8d19e011ad9a7cc7d161",
+      "title": "Ottawa International Animation Festival 2027 - Animation World Network",
+      "description": "Ottawa International Animation Festival 2027 Animation World Network",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zVDhUVjVXZ1d5SzNqOGJ1bThXV0dPcUlCQjJ3WXBlaU9qZ0xwWVJUWktycGY5QTZGak1Lam9VZ2F2anNXR1BOVXdKaDB1ZGZITkh5WHBTaGpmbDA1YXR0TEdZZTJ0Y0Q0RzBmMU1OMlZlQ1BoUjM0U2h3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zVDhUVjVXZ1d5SzNqOGJ1bThXV0dPcUlCQjJ3WXBlaU9qZ0xwWVJUWktycGY5QTZGak1Lam9VZ2F2anNXR1BOVXdKaDB1ZGZITkh5WHBTaGpmbDA1YXR0TEdZZTJ0Y0Q0RzBmMU1OMlZlQ1BoUjM0U2h3?oc=5",
+      "source": "Animation World Network",
+      "category": "World",
+      "publishedAt": "2026-11-13T16:22:00Z"
+    },
+    {
       "id": "fbe4322121143fab6fe7",
       "title": "Remains of World War II veteran arrive at Harrisburg International Airport [photos] - LancasterOnline",
       "description": "Remains of World War II veteran arrive at Harrisburg International Airport [photos] LancasterOnline",
@@ -1050,6 +1101,16 @@
       "source": "Morocco World News",
       "category": "World",
       "publishedAt": "2026-11-12T22:31:29Z"
+    },
+    {
+      "id": "943343e1e0cdef483a0b",
+      "title": "Climate change made Indonesian fires more severe, scientists say - Reuters",
+      "description": "Climate change made Indonesian fires more severe, scientists say Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVWtjQnFpNGJYMkQ2TUh2cWV5cFBBTl80ZjNlOU40S014RmhBdjlxUl9VcVJaSnhPQ0JiVmVad2FWU05fQWtsLVZsdDJuQlVqc0xHR3RZLV9UVVl0czQwcTRNNWdwSjlKWER0RG9LdjhRNGhabW8xQmowaXR2SEZTdF9QWEI1RmM5dENuakdjLTJPWmV5Q1JBdmNsYUlUTDhpQVJ1WGx4VVhneWg0QnlLb3NXdFJVRDIwSDJxNQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVWtjQnFpNGJYMkQ2TUh2cWV5cFBBTl80ZjNlOU40S014RmhBdjlxUl9VcVJaSnhPQ0JiVmVad2FWU05fQWtsLVZsdDJuQlVqc0xHR3RZLV9UVVl0czQwcTRNNWdwSjlKWER0RG9LdjhRNGhabW8xQmowaXR2SEZTdF9QWEI1RmM5dENuakdjLTJPWmV5Q1JBdmNsYUlUTDhpQVJ1WGx4VVhneWg0QnlLb3NXdFJVRDIwSDJxNQ?oc=5",
+      "source": "Reuters",
+      "category": "Environment",
+      "publishedAt": "2026-11-12T22:29:03Z"
     },
     {
       "id": "4474b8401c11361189c1",
@@ -1369,7 +1430,7 @@
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeTVSMC1yWjB3alpibTRrMG1GWUEtQUZYMXNXdU5uLUQzYnRERU5WbjdES2JiMEsxRmZjWUZZNEx3V0pHZmJvYWNSQ2J1aEJwNWNfalJOWllpYllmY2ZQZUlMNFhpMG1TRk9WZU43UFAzY3BwWTlQWGM5ODVNcFJSY2RRX3BNQ0wyVmRTdW9CZEN5TzA0eHpsSkpzV0FqTWJQWlNCOUF4Rlh0Q1dEZUxqWnZ2NXdZLUtiS0MyYjZJRVg5NHA5Y3hrZk1YWlR0dw?oc=5",
       "source": "Doha News",
       "category": "Technology",
-      "publishedAt": "2026-11-12T10:45:27Z"
+      "publishedAt": "2026-11-12T10:45:40Z"
     },
     {
       "id": "7904662be63524777418",
@@ -2282,6 +2343,6 @@
       "publishedAt": "2026-11-08T08:00:00Z"
     }
   ],
-  "lastUpdated": "2026-11-14T23:16:02Z",
-  "updatedAt": "2026-11-14T23:16:02Z"
+  "lastUpdated": "2026-11-15T02:58:33Z",
+  "updatedAt": "2026-11-15T02:58:33Z"
 }
