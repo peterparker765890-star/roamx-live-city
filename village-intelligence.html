@@ -5,19 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#10110f">
 <title>ROAMX</title>
-
 <style>
-:root{
- --bg:#10110f;--panel:#1b1c18;--panel2:#22231e;
- --gold:#d8b56d;--gold2:#f0d99f;--text:#f4f0e6;
- --muted:#a6a397;--line:#ffffff18;
- --green:#8dbb91;--amber:#e3bd70;--red:#df8580;
-}
+:root{--bg:#10110f;--panel:#1b1c18;--panel2:#22231e;--gold:#d8b56d;--gold2:#f0d99f;--text:#f4f0e6;--muted:#a6a397;--line:#ffffff18;--green:#8dbb91;--amber:#e3bd70;--red:#df8580}
 *{box-sizing:border-box}
-body{
- margin:0;background:radial-gradient(ellipse at 80% 0%,#55401e35,transparent 35%),var(--bg);
- color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.6
-}
+body{margin:0;background:radial-gradient(ellipse at 80% 0%,#55401e35,transparent 35%),var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.6}
 button,input,select,textarea{font:inherit}
 button{cursor:pointer}
 .wrap{max-width:1250px;margin:auto;padding:25px 20px 50px}
@@ -59,10 +50,7 @@ button:hover:not(:disabled){filter:brightness(1.12)}
 .need{background:#11120f;padding:13px;border:1px solid var(--line);border-radius:12px}
 .need b{font-size:13px}.need p{font-size:11px;color:var(--muted);margin:5px 0}
 .need select{font-size:12px;padding:9px;margin-top:5px}
-.insight,.action,.news-item{
- padding:13px;margin:9px 0;background:#11120f;
- border-left:2px solid var(--gold);border-radius:0 10px 10px 0
-}
+.insight,.action,.news-item{padding:13px;margin:9px 0;background:#11120f;border-left:2px solid var(--gold);border-radius:0 10px 10px 0}
 .insight b,.action b,.news-item b{font-size:13px}
 .insight p,.action p,.news-item p{font-size:12px;color:var(--muted);margin:5px 0 0}
 .action{display:grid;grid-template-columns:30px 1fr;gap:8px}
@@ -75,6 +63,7 @@ th{color:var(--gold)}
 .news-meta{font-size:10px;color:var(--gold);margin-top:7px}
 .news-item a{color:var(--gold2);font-size:11px;text-decoration:none}
 .news-item a:hover{text-decoration:underline}
+.news-scope{margin:16px 0 8px;padding-bottom:7px;border-bottom:1px solid #d8b56d35;color:var(--gold2);font-size:12px;font-weight:bold}
 footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding:25px}
 .hidden{display:none!important}
 .small-inputs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
@@ -82,14 +71,9 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
 .spinner{display:inline-block;width:13px;height:13px;border:2px solid #ffffff30;border-top-color:var(--gold);border-radius:50%;animation:spin .8s linear infinite;vertical-align:middle}
 @keyframes spin{to{transform:rotate(360deg)}}
 @media(max-width:800px){.s7,.s6,.s5{grid-column:span 12}.metrics{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:520px){
- .wrap{padding:15px 12px}.search{flex-direction:column}
- .needs{grid-template-columns:1fr}header{align-items:flex-start;flex-direction:column}
- .pill{font-size:9px}.small-inputs{grid-template-columns:1fr}
-}
+@media(max-width:520px){.wrap{padding:15px 12px}.search{flex-direction:column}.needs{grid-template-columns:1fr}header{align-items:flex-start;flex-direction:column}.pill{font-size:9px}.small-inputs{grid-template-columns:1fr}}
 </style>
 </head>
-
 <body>
 <div class="wrap">
 
@@ -101,11 +85,7 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
 <section class="hero">
  <div class="eyebrow">VILLAGE INTELLIGENCE CENTRE</div>
  <h1>Understand the place.<br><span>Improve everyday life.</span></h1>
- <p>
- Investigate community challenges, understand environmental conditions,
- discover recent local reports and generate practical solutions for villages,
- towns and cities worldwide.
- </p>
+ <p>Investigate community challenges, understand environmental conditions, discover recent local reports and generate practical solutions for villages, towns and cities worldwide.</p>
 </section>
 
 <section class="card">
@@ -122,7 +102,6 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
   <button class="secondary" id="demoBtn">VIEW DEMO</button>
  </div>
  <p class="hint">Search uses two public geocoding sources. If a small settlement is not indexed, use its coordinates or GPS.</p>
-
  <div id="coordinatePanel" class="hidden">
   <div class="small-inputs">
    <input id="manualLat" type="number" step="any" placeholder="Latitude">
@@ -131,7 +110,6 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
   <input id="manualName" placeholder="Location name (optional)" style="margin-top:9px">
   <div class="controls"><button id="manualBtn">ANALYSE COORDINATES</button></div>
  </div>
-
  <div id="results"></div>
  <div id="error" role="status" aria-live="polite"></div>
 </section>
@@ -142,7 +120,6 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
 </div>
 
 <main class="grid">
-
 <section class="card s12">
  <div class="sub">01 / LOCATION PROFILE</div>
  <h2 id="placeName">Your community in focus</h2>
@@ -184,47 +161,28 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
 <section class="card s12">
  <div class="sub">04 / LOCAL NEWS INVESTIGATION</div>
  <h2>Recent News & Reported Problems</h2>
- <p class="notice">Searches recent online news for this location. Exact village results are preferred; broader district or regional results are labelled separately.</p>
+ <p class="notice">Searches recent online news for the selected location. Exact place reports are separated from district, state and country-level coverage.</p>
  <div class="controls">
-  <button id="newsBtn">FIND LOCAL NEWS</button>
+  <button id="newsBtn">INVESTIGATE LOCAL NEWS</button>
   <span id="newsStatus" class="notice">Waiting for a selected location.</span>
  </div>
- <div id="newsResults">
-  <p class="notice">Select a location and run the news investigation.</p>
- </div>
- <p class="notice">News search is based on article text, not guaranteed geographic boundaries. Always open and verify the original report.</p>
+ <div id="newsResults"><p class="notice">Select a location and run the news investigation.</p></div>
+ <p class="notice">News coverage is not guaranteed for every village. Wider-area reports are labelled clearly and should not be treated as proof of a problem at the exact location.</p>
 </section>
 
 <section class="card s6">
  <div class="sub">05 / COMMUNITY NEEDS INVESTIGATION</div>
  <h2>Assess Essential Services</h2>
  <p class="notice">Select conditions based on observations or reliable local information. GPS cannot automatically verify these services.</p>
-
  <div class="needs" id="needs">
-  <div class="need"><b>Drinking Water</b><p>Availability, safety and quality.</p>
-   <select data-key="water"><option value="unknown">Not assessed</option><option value="good">Adequate / verified</option><option value="concern">Limited supply</option><option value="urgent">Unsafe / unavailable</option></select>
-  </div>
-  <div class="need"><b>Sanitation</b><p>Toilets, hygiene and wastewater.</p>
-   <select data-key="sanitation"><option value="unknown">Not assessed</option><option value="good">Adequate</option><option value="concern">Needs improvement</option><option value="urgent">Unsafe / unavailable</option></select>
-  </div>
-  <div class="need"><b>Waste Management</b><p>Collection, segregation and disposal.</p>
-   <select data-key="waste"><option value="unknown">Not assessed</option><option value="good">Regular collection</option><option value="concern">Irregular collection</option><option value="urgent">Open dumping / burning</option></select>
-  </div>
-  <div class="need"><b>Drainage & Flooding</b><p>Blocked drains and stagnant water.</p>
-   <select data-key="drainage"><option value="unknown">Not assessed</option><option value="good">No known issue</option><option value="concern">Local blockage</option><option value="urgent">Frequent flooding</option></select>
-  </div>
-  <div class="need"><b>Healthcare Access</b><p>Clinics, medicines and emergency support.</p>
-   <select data-key="health"><option value="unknown">Not assessed</option><option value="good">Accessible</option><option value="concern">Limited access</option><option value="urgent">No practical access</option></select>
-  </div>
-  <div class="need"><b>Roads & Transport</b><p>Safe roads and essential transport.</p>
-   <select data-key="transport"><option value="unknown">Not assessed</option><option value="good">Accessible</option><option value="concern">Poor road conditions</option><option value="urgent">Dangerous / cut off</option></select>
-  </div>
-  <div class="need"><b>Electricity</b><p>Reliable household power and lighting.</p>
-   <select data-key="power"><option value="unknown">Not assessed</option><option value="good">Reliable</option><option value="concern">Frequent interruptions</option><option value="urgent">No reliable access</option></select>
-  </div>
-  <div class="need"><b>Public Spaces & Shade</b><p>Trees, shade and safe gathering areas.</p>
-   <select data-key="public"><option value="unknown">Not assessed</option><option value="good">Adequate</option><option value="concern">Limited shade</option><option value="urgent">No safe space</option></select>
-  </div>
+  <div class="need"><b>Drinking Water</b><p>Availability, safety and quality.</p><select data-key="water"><option value="unknown">Not assessed</option><option value="good">Adequate / verified</option><option value="concern">Limited supply</option><option value="urgent">Unsafe / unavailable</option></select></div>
+  <div class="need"><b>Sanitation</b><p>Toilets, hygiene and wastewater.</p><select data-key="sanitation"><option value="unknown">Not assessed</option><option value="good">Adequate</option><option value="concern">Needs improvement</option><option value="urgent">Unsafe / unavailable</option></select></div>
+  <div class="need"><b>Waste Management</b><p>Collection, segregation and disposal.</p><select data-key="waste"><option value="unknown">Not assessed</option><option value="good">Regular collection</option><option value="concern">Irregular collection</option><option value="urgent">Open dumping / burning</option></select></div>
+  <div class="need"><b>Drainage & Flooding</b><p>Blocked drains and stagnant water.</p><select data-key="drainage"><option value="unknown">Not assessed</option><option value="good">No known issue</option><option value="concern">Local blockage</option><option value="urgent">Frequent flooding</option></select></div>
+  <div class="need"><b>Healthcare Access</b><p>Clinics, medicines and emergency support.</p><select data-key="health"><option value="unknown">Not assessed</option><option value="good">Accessible</option><option value="concern">Limited access</option><option value="urgent">No practical access</option></select></div>
+  <div class="need"><b>Roads & Transport</b><p>Safe roads and essential transport.</p><select data-key="transport"><option value="unknown">Not assessed</option><option value="good">Accessible</option><option value="concern">Poor road conditions</option><option value="urgent">Dangerous / cut off</option></select></div>
+  <div class="need"><b>Electricity</b><p>Reliable household power and lighting.</p><select data-key="power"><option value="unknown">Not assessed</option><option value="good">Reliable</option><option value="concern">Frequent interruptions</option><option value="urgent">No reliable access</option></select></div>
+  <div class="need"><b>Public Spaces & Shade</b><p>Trees, shade and safe gathering areas.</p><select data-key="public"><option value="unknown">Not assessed</option><option value="good">Adequate</option><option value="concern">Limited shade</option><option value="urgent">No safe space</option></select></div>
  </div>
  <div class="controls">
   <button id="reportBtn">INVESTIGATE COMMUNITY</button>
@@ -235,34 +193,23 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
 <section class="card s6">
  <div class="sub">06 / PROBLEM DETECTION</div>
  <h2>Investigation Findings</h2>
- <div id="investigation">
-  <div class="insight"><b>Waiting for community evidence</b><p>Choose a location and complete the needs assessment.</p></div>
- </div>
+ <div id="investigation"><div class="insight"><b>Waiting for community evidence</b><p>Choose a location and complete the needs assessment.</p></div></div>
 </section>
 
 <section class="card s12">
  <div class="sub">07 / REAL-WORLD SOLUTION ENGINE</div>
  <h2>Practical Community Action Plan</h2>
  <p class="notice">Solutions are general guidance. Local residents, qualified professionals and authorities should verify the problem and choose safe actions.</p>
- <div id="actions">
-  <div class="action"><div class="num">01</div><div><b>Start with local evidence</b><p>Talk with residents and identify the affected area before deciding on an intervention.</p></div></div>
- </div>
+ <div id="actions"><div class="action"><div class="num">01</div><div><b>Start with local evidence</b><p>Talk with residents and identify the affected area before deciding on an intervention.</p></div></div></div>
 </section>
 
 <section class="card s12">
  <div class="sub">08 / COMMUNITY EVIDENCE</div>
  <h2>Report a Local Problem</h2>
  <p class="notice">Add a resident observation to the local investigation. It stays in this browser and is not automatically sent to authorities.</p>
- <select id="obsType" style="max-width:300px">
-  <option>Water</option><option>Air Pollution</option><option>Waste</option>
-  <option>Drainage</option><option>Healthcare</option><option>Roads</option>
-  <option>Electricity</option><option>Heat</option><option>Other</option>
- </select>
+ <select id="obsType" style="max-width:300px"><option>Water</option><option>Air Pollution</option><option>Waste</option><option>Drainage</option><option>Healthcare</option><option>Roads</option><option>Electricity</option><option>Heat</option><option>Other</option></select>
  <textarea id="observation" placeholder="Describe the problem, approximate area, when it happened and how residents are affected..." style="margin-top:10px"></textarea>
- <div class="controls">
-  <button id="saveObservationBtn">SAVE OBSERVATION</button>
-  <button class="secondary" id="clearObservationsBtn">CLEAR LOCAL LOG</button>
- </div>
+ <div class="controls"><button id="saveObservationBtn">SAVE OBSERVATION</button><button class="secondary" id="clearObservationsBtn">CLEAR LOCAL LOG</button></div>
  <div id="observationList"></div>
 </section>
 
@@ -280,720 +227,337 @@ footer{text-align:center;color:#888477;font-size:10px;letter-spacing:2px;padding
  <div class="insight"><b>Community information</b><p>Resident observations and needs assessments are user-provided evidence. ROAMX does not independently verify them.</p></div>
  <div class="insight"><b>Privacy</b><p>Observations and analysis history are stored in this browser's local storage. No account or central database is used by this page.</p></div>
 </section>
-
 </main>
-
 <footer>ROAMX · DESIGNED & DEVELOPED BY SABARISH P · B.TECH IT · 2026</footer>
 </div>
 
 <script>
 "use strict";
+const $=id=>document.getElementById(id);
+const STORAGE="roamx_village_intelligence_v2";
+const OBS_STORAGE=STORAGE+"_observations";
+const NEWS_CACHE=STORAGE+"_news_cache";
+let current=null,currentName="",currentMeta={},weather=null,air=null,analysisToken=0;
 
-const $ = id => document.getElementById(id);
-
-const STORAGE = "roamx_village_intelligence_v2";
-const OBS_STORAGE = STORAGE + "_observations";
-const NEWS_CACHE = STORAGE + "_news_cache";
-
-let current = null;
-let currentName = "";
-let currentMeta = {};
-let weather = null;
-let air = null;
-let analysisToken = 0;
-
-const solutions = {
- water:{
-  title:"Drinking water shortage or safety",
-  urgent:"Prioritise safe alternative drinking water. Do not drink water suspected of contamination until it has been assessed. Request testing through an authorised laboratory or public-health service. Report suspected contamination or supply failure to the local water authority.",
-  concern:"Map reliable public water points, check supply schedules, identify households with limited access and request periodic water-quality testing. Share official water-safety guidance with residents."
- },
- sanitation:{
-  title:"Sanitation and wastewater",
-  urgent:"Request urgent sanitation support through the panchayat or local body. Avoid direct contact with sewage. Keep children away from contaminated water and seek qualified help for unsafe wastewater conditions.",
-  concern:"Identify facilities needing repair, request accessible toilets and promote safe wastewater management and hygiene awareness."
- },
- waste:{
-  title:"Waste collection and disposal",
-  urgent:"Avoid open waste burning and contact with hazardous waste. Keep waste away from wells, streams and food areas. Request safe collection and disposal through the local body.",
-  concern:"Introduce household wet/dry waste separation, compost suitable organic waste safely and organise collection with the responsible local authority."
- },
- drainage:{
-  title:"Drainage blockage and flooding",
-  urgent:"Stay away from floodwater, open drains and electrical hazards. Do not walk or drive through moving floodwater. Report dangerous flooding and follow official evacuation instructions.",
-  concern:"Record blocked drain locations, request scheduled cleaning before heavy rainfall and keep waste out of drainage channels."
- },
- health:{
-  title:"Healthcare access",
-  urgent:"Identify the nearest functioning primary health centre and verified emergency transport contact. Seek emergency medical care when needed; do not delay urgent treatment while using this website.",
-  concern:"Prepare a verified list of nearby clinics, public health centres, operating hours and transport options. Raise gaps with the local health department."
- },
- transport:{
-  title:"Road and transport access",
-  urgent:"Report dangerous roads and identify safe alternative access for essential travel and emergency services. Avoid unstable bridges, flooded roads and damaged structures.",
-  concern:"Document damaged road sections, unsafe crossings and missing streetlights. Request inspection and repairs from the responsible road authority."
- },
- power:{
-  title:"Electricity access and safety",
-  urgent:"Report outages or exposed electrical hazards to the electricity provider. Never touch fallen wires, damaged poles or flooded electrical equipment.",
-  concern:"Record recurring outage patterns and request maintenance and lighting for essential public routes."
- },
- public:{
-  title:"Public spaces and shade",
-  urgent:"Identify a safe shaded or cool place for vulnerable residents during extreme heat. Encourage hydration and follow official heat-health guidance.",
-  concern:"Protect existing trees and plan low-cost shade, drinking-water points and accessible shared spaces."
- }
+const solutions={
+ water:{title:"Drinking water shortage or safety",urgent:"Prioritise safe alternative drinking water. Do not drink water suspected of contamination until it has been assessed. Request testing through an authorised laboratory or public-health service. Report suspected contamination or supply failure to the local water authority.",concern:"Map reliable public water points, check supply schedules, identify households with limited access and request periodic water-quality testing. Share official water-safety guidance with residents."},
+ sanitation:{title:"Sanitation and wastewater",urgent:"Request urgent sanitation support through the panchayat or local body. Avoid direct contact with sewage. Keep children away from contaminated water and seek qualified help for unsafe wastewater conditions.",concern:"Identify facilities needing repair, request accessible toilets and promote safe wastewater management and hygiene awareness."},
+ waste:{title:"Waste collection and disposal",urgent:"Avoid open waste burning and contact with hazardous waste. Keep waste away from wells, streams and food areas. Request safe collection and disposal through the local body.",concern:"Introduce household wet/dry waste separation, compost suitable organic waste safely and organise collection with the responsible local authority."},
+ drainage:{title:"Drainage blockage and flooding",urgent:"Stay away from floodwater, open drains and electrical hazards. Do not walk or drive through moving floodwater. Report dangerous flooding and follow official evacuation instructions.",concern:"Record blocked drain locations, request scheduled cleaning before heavy rainfall and keep waste out of drainage channels."},
+ health:{title:"Healthcare access",urgent:"Identify the nearest functioning primary health centre and verified emergency transport contact. Seek emergency medical care when needed; do not delay urgent treatment while using this website.",concern:"Prepare a verified list of nearby clinics, public health centres, operating hours and transport options. Raise gaps with the local health department."},
+ transport:{title:"Road and transport access",urgent:"Report dangerous roads and identify safe alternative access for essential travel and emergency services. Avoid unstable bridges, flooded roads and damaged structures.",concern:"Document damaged road sections, unsafe crossings and missing streetlights. Request inspection and repairs from the responsible road authority."},
+ power:{title:"Electricity access and safety",urgent:"Report outages or exposed electrical hazards to the electricity provider. Never touch fallen wires, damaged poles or flooded electrical equipment.",concern:"Record recurring outage patterns and request maintenance and lighting for essential public routes."},
+ public:{title:"Public spaces and shade",urgent:"Identify a safe shaded or cool place for vulnerable residents during extreme heat. Encourage hydration and follow official heat-health guidance.",concern:"Protect existing trees and plan low-cost shade, drinking-water points and accessible shared spaces."}
 };
 
-function esc(value){
- return String(value ?? "").replace(/[&<>"']/g,c=>({
-  "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
- })[c]);
-}
-
-function setError(message=""){
- $("error").textContent = message;
-}
-
-function setStatus(message){
- $("connection").textContent = message;
-}
-
-function validCoordinates(lat,lon){
- return Number.isFinite(lat) && Number.isFinite(lon) &&
-  lat >= -90 && lat <= 90 && lon >= -180 && lon <= 180;
-}
-
-function formatNumber(value,digits=1){
- return value == null || !Number.isFinite(Number(value))
-  ? "—" : Number(value).toFixed(digits);
-}
-
+function esc(value){return String(value??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function setError(message=""){$("error").textContent=message;}
+function setStatus(message){$("connection").textContent=message;}
+function validCoordinates(lat,lon){return Number.isFinite(lat)&&Number.isFinite(lon)&&lat>=-90&&lat<=90&&lon>=-180&&lon<=180;}
+function formatNumber(value,digits=1){return value==null||!Number.isFinite(Number(value))?"—":Number(value).toFixed(digits);}
 function aqiLevel(value){
- if(value == null) return ["Unavailable","No reading returned","warn"];
- if(value<=20) return ["Good","Low estimated air pollution","good"];
- if(value<=40) return ["Fair","Generally acceptable conditions","good"];
- if(value<=60) return ["Moderate","Some sensitive people may be affected","warn"];
- if(value<=80) return ["Poor","Reduce prolonged outdoor exertion if affected","warn"];
- if(value<=100) return ["Very poor","Limit strenuous outdoor activity","bad"];
- return ["Extremely poor","Avoid prolonged outdoor exertion and follow official advice","bad"];
+ if(value==null)return["Unavailable","No reading returned","warn"];
+ if(value<=20)return["Good","Low estimated air pollution","good"];
+ if(value<=40)return["Fair","Generally acceptable conditions","good"];
+ if(value<=60)return["Moderate","Some sensitive people may be affected","warn"];
+ if(value<=80)return["Poor","Reduce prolonged outdoor exertion if affected","warn"];
+ if(value<=100)return["Very poor","Limit strenuous outdoor activity","bad"];
+ return["Extremely poor","Avoid prolonged outdoor exertion and follow official advice","bad"];
 }
-
 async function fetchJSON(url,timeout=16000){
- const controller = new AbortController();
- const timer = setTimeout(()=>controller.abort(),timeout);
- try{
-  const response = await fetch(url,{signal:controller.signal});
-  if(!response.ok) throw new Error("Service returned HTTP "+response.status);
-  return await response.json();
- }finally{
-  clearTimeout(timer);
- }
+ const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),timeout);
+ try{const response=await fetch(url,{signal:controller.signal});if(!response.ok)throw new Error("Service returned HTTP "+response.status);return await response.json();}
+ finally{clearTimeout(timer);}
 }
-
-function placeLabel(p){
- return [p.name,p.admin2,p.admin1,p.country].filter(Boolean).join(", ");
-}
-
+function placeLabel(p){return[p.name,p.admin2,p.admin1,p.country].filter(Boolean).join(", ");}
 function dedupePlaces(items){
- const seen = new Set();
+ const seen=new Set();
  return items.filter(p=>{
-  if(!Number.isFinite(Number(p.latitude)) || !Number.isFinite(Number(p.longitude))) return false;
-  const key = Number(p.latitude).toFixed(3)+","+Number(p.longitude).toFixed(3);
-  if(seen.has(key)) return false;
-  seen.add(key);
-  return true;
+  if(!Number.isFinite(Number(p.latitude))||!Number.isFinite(Number(p.longitude)))return false;
+  const key=Number(p.latitude).toFixed(3)+","+Number(p.longitude).toFixed(3);
+  if(seen.has(key))return false;seen.add(key);return true;
  });
 }
 
+/* LOCATION DISCOVERY — PRESERVED */
 async function searchPlace(){
- const query = $("place").value.trim();
+ const query=$("place").value.trim();
  if(!query){setError("Enter a village, town, district or city.");return;}
-
  setError("");
- $("results").innerHTML = '<p class="notice"><span class="spinner"></span> Searching two global location sources...</p>';
- $("searchBtn").disabled = true;
-
- const requests = await Promise.allSettled([
+ $("results").innerHTML='<p class="notice"><span class="spinner"></span> Searching two global location sources...</p>';
+ $("searchBtn").disabled=true;
+ const requests=await Promise.allSettled([
   fetchJSON("https://geocoding-api.open-meteo.com/v1/search?name="+encodeURIComponent(query)+"&count=30&language=en&format=json"),
   fetchJSON("https://photon.komoot.io/api/?q="+encodeURIComponent(query)+"&limit=15&lang=en")
  ]);
-
- let places = [];
-
+ let places=[];
  if(requests[0].status==="fulfilled"){
-  (requests[0].value.results||[]).forEach(p=>{
-   places.push({
-    name:p.name,latitude:p.latitude,longitude:p.longitude,
-    country:p.country,admin1:p.admin1,admin2:p.admin2,
-    source:"Open-Meteo"
-   });
-  });
+  (requests[0].value.results||[]).forEach(p=>places.push({name:p.name,latitude:p.latitude,longitude:p.longitude,country:p.country,admin1:p.admin1,admin2:p.admin2,source:"Open-Meteo"}));
  }
-
  if(requests[1].status==="fulfilled"){
   (requests[1].value.features||[]).forEach(f=>{
-   const p=f.properties||{}, c=f.geometry?.coordinates||[];
-   if(c.length<2)return;
-   places.push({
-    name:p.name||p.locality||p.district||p.city||query,
-    latitude:c[1],longitude:c[0],
-    country:p.country,admin1:p.state||p.region,
-    admin2:p.county||p.district,
-    source:"OpenStreetMap / Photon"
-   });
+   const p=f.properties||{},c=f.geometry?.coordinates||[];if(c.length<2)return;
+   places.push({name:p.name||p.locality||p.district||p.city||query,latitude:c[1],longitude:c[0],country:p.country,admin1:p.state||p.region,admin2:p.county||p.district,source:"OpenStreetMap / Photon"});
   });
  }
-
- places = dedupePlaces(places).slice(0,30);
-
- $("searchBtn").disabled = false;
-
+ places=dedupePlaces(places).slice(0,30);
+ $("searchBtn").disabled=false;
  if(!places.length){
-  $("results").innerHTML = `
-   <div class="insight">
-    <b>No indexed match was returned</b>
-    <p>Try adding the district, state or country. If the settlement is not indexed, use GPS or enter its coordinates manually.</p>
-   </div>`;
-  if(requests.every(r=>r.status==="rejected")){
-   setError("Both search services were unavailable. Try again or use coordinates.");
-  }
+  $("results").innerHTML='<div class="insight"><b>No indexed match was returned</b><p>Try adding the district, state or country. If the settlement is not indexed, use GPS or enter its coordinates manually.</p></div>';
+  if(requests.every(r=>r.status==="rejected"))setError("Both search services were unavailable. Try again or use coordinates.");
   return;
  }
-
- $("results").innerHTML = `
-  <div class="card" style="margin-top:12px">
-   <div class="sub">LOCATION MATCHES · SELECT ONE</div>
-   ${places.map((p,i)=>`
-    <button class="secondary result-button" data-place-index="${i}">
-     ${esc(placeLabel(p))}
-     <span class="notice" style="display:block">${esc(p.source)} · ${Number(p.latitude).toFixed(4)}, ${Number(p.longitude).toFixed(4)}</span>
-    </button>`).join("")}
-  </div>`;
-
- $("results").querySelectorAll("[data-place-index]").forEach(button=>{
-  button.addEventListener("click",()=>{
-   const p=places[Number(button.dataset.placeIndex)];
-   selectPlace(p.latitude,p.longitude,placeLabel(p),p);
-  });
- });
+ $("results").innerHTML='<div class="card" style="margin-top:12px"><div class="sub">LOCATION MATCHES · SELECT ONE</div>'+places.map((p,i)=>'<button class="secondary result-button" data-place-index="'+i+'">'+esc(placeLabel(p))+'<span class="notice" style="display:block">'+esc(p.source)+' · '+Number(p.latitude).toFixed(4)+', '+Number(p.longitude).toFixed(4)+'</span></button>').join("")+'</div>';
+ $("results").querySelectorAll("[data-place-index]").forEach(button=>button.addEventListener("click",()=>{const p=places[Number(button.dataset.placeIndex)];selectPlace(p.latitude,p.longitude,placeLabel(p),p);}));
 }
-
-function selectPlace(lat,lon,name,meta={}){
- $("results").innerHTML="";
- $("coordinatePanel").classList.add("hidden");
- analyse(lat,lon,name,meta);
-}
-
+function selectPlace(lat,lon,name,meta={}){$("results").innerHTML="";$("coordinatePanel").classList.add("hidden");analyse(lat,lon,name,meta);}
 function useLocation(){
- if(!navigator.geolocation){
-  setError("GPS is not supported by this browser. Search or enter coordinates.");
-  return;
- }
- setError("");
- setStatus("Requesting location permission...");
- navigator.geolocation.getCurrentPosition(
-  pos=>selectPlace(pos.coords.latitude,pos.coords.longitude,"Current GPS Location",{source:"Device GPS"}),
-  ()=>setError("Location permission was denied or GPS was unavailable. You can search or enter coordinates."),
-  {enableHighAccuracy:false,timeout:15000,maximumAge:300000}
- );
+ if(!navigator.geolocation){setError("GPS is not supported by this browser. Search or enter coordinates.");return;}
+ setError("");setStatus("Requesting location permission...");
+ navigator.geolocation.getCurrentPosition(pos=>selectPlace(pos.coords.latitude,pos.coords.longitude,"Current GPS Location",{source:"Device GPS"}),()=>setError("Location permission was denied or GPS was unavailable. You can search or enter coordinates."),{enableHighAccuracy:false,timeout:15000,maximumAge:300000});
 }
-
-function manualCoordinates(){
- $("coordinatePanel").classList.toggle("hidden");
-}
-
+function manualCoordinates(){$("coordinatePanel").classList.toggle("hidden");}
 function analyseManual(){
- const lat=Number($("manualLat").value);
- const lon=Number($("manualLon").value);
- const name=$("manualName").value.trim()||"Selected coordinates";
- if(!validCoordinates(lat,lon)){
-  setError("Enter valid latitude (-90 to 90) and longitude (-180 to 180).");
-  return;
- }
+ const lat=Number($("manualLat").value),lon=Number($("manualLon").value),name=$("manualName").value.trim()||"Selected coordinates";
+ if(!validCoordinates(lat,lon)){setError("Enter valid latitude (-90 to 90) and longitude (-180 to 180).");return;}
  selectPlace(lat,lon,name,{source:"Manually entered coordinates"});
 }
-
 function currentHourIndex(hourly,currentTime){
  if(!hourly?.time?.length)return 0;
- const target=Date.parse(currentTime||"");
- if(!Number.isFinite(target))return 0;
+ const target=Date.parse(currentTime||"");if(!Number.isFinite(target))return 0;
  let best=0,bestDiff=Infinity;
- hourly.time.forEach((t,i)=>{
-  const diff=Math.abs(Date.parse(t)-target);
-  if(Number.isFinite(diff)&&diff<bestDiff){best=i;bestDiff=diff;}
- });
+ hourly.time.forEach((t,i)=>{const diff=Math.abs(Date.parse(t)-target);if(Number.isFinite(diff)&&diff<bestDiff){best=i;bestDiff=diff;}});
  return best;
 }
-
 function clearEnvironmentalDisplay(){
  ["temp","rain","feels","humidity","wind","rainfall","aqi","pm25","pm10","no2"].forEach(id=>$(id).textContent="—");
- $("aqText").textContent="Environmental data unavailable";
- $("aqText").className="notice";
- $("aqBar").style.width="0";
- $("weatherTime").textContent="No weather reading returned.";
+ $("aqText").textContent="Environmental data unavailable";$("aqText").className="notice";$("aqBar").style.width="0";$("weatherTime").textContent="No weather reading returned.";
 }
-
 async function analyse(lat,lon,name,meta={}){
- if(!validCoordinates(Number(lat),Number(lon))){
-  setError("Invalid coordinates. Please select the location again.");
-  return;
- }
-
+ if(!validCoordinates(Number(lat),Number(lon))){setError("Invalid coordinates. Please select the location again.");return;}
  const token=++analysisToken;
- current={lat:Number(lat),lon:Number(lon)};
- currentName=name;
- currentMeta=meta;
- weather=null;air=null;
-
- $("placeName").textContent=name;
- $("placeDetails").textContent=(meta.source||"Selected location")+" · Community conditions require local verification.";
- $("lat").textContent=Number(lat).toFixed(5);
- $("lon").textContent=Number(lon).toFixed(5);
- $("newsResults").innerHTML='<p class="notice">Run the local news investigation for this location.</p>';
- $("newsStatus").textContent="Waiting for news search.";
- clearEnvironmentalDisplay();
- setError("");
- setStatus("Retrieving environmental information...");
- $("updated").textContent="Analysis in progress...";
-
- const weatherURL=
-  "https://api.open-meteo.com/v1/forecast?latitude="+lat+
-  "&longitude="+lon+
-  "&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,wind_speed_10m"+
-  "&hourly=precipitation_probability,precipitation&forecast_days=1&timezone=auto";
-
- const airURL=
-  "https://air-quality-api.open-meteo.com/v1/air-quality?latitude="+lat+
-  "&longitude="+lon+
-  "&current=european_aqi,pm2_5,pm10,nitrogen_dioxide&timezone=auto";
-
- const responses=await Promise.allSettled([
-  fetchJSON(weatherURL),fetchJSON(airURL)
- ]);
-
+ current={lat:Number(lat),lon:Number(lon)};currentName=name;currentMeta=meta;weather=null;air=null;
+ $("placeName").textContent=name;$("placeDetails").textContent=(meta.source||"Selected location")+" · Community conditions require local verification.";
+ $("lat").textContent=Number(lat).toFixed(5);$("lon").textContent=Number(lon).toFixed(5);
+ $("newsResults").innerHTML='<p class="notice">Run the news investigation for this location.</p>';$("newsStatus").textContent="Waiting for news search.";
+ clearEnvironmentalDisplay();setError("");setStatus("Retrieving environmental information...");$("updated").textContent="Analysis in progress...";
+ const weatherURL="https://api.open-meteo.com/v1/forecast?latitude="+lat+"&longitude="+lon+"&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,wind_speed_10m&hourly=precipitation_probability,precipitation&forecast_days=1&timezone=auto";
+ const airURL="https://air-quality-api.open-meteo.com/v1/air-quality?latitude="+lat+"&longitude="+lon+"&current=european_aqi,pm2_5,pm10,nitrogen_dioxide&timezone=auto";
+ const responses=await Promise.allSettled([fetchJSON(weatherURL),fetchJSON(airURL)]);
  if(token!==analysisToken)return;
-
- weather=responses[0].status==="fulfilled"?responses[0].value:null;
- air=responses[1].status==="fulfilled"?responses[1].value:null;
-
+ weather=responses[0].status==="fulfilled"?responses[0].value:null;air=responses[1].status==="fulfilled"?responses[1].value:null;
  if(weather?.current){
-  const w=weather.current;
-  $("temp").textContent=formatNumber(w.temperature_2m)+"°C";
-  $("feels").textContent=formatNumber(w.apparent_temperature)+"°C";
-  $("humidity").textContent=formatNumber(w.relative_humidity_2m,0)+"%";
-  $("wind").textContent=formatNumber(w.wind_speed_10m);
-  $("rainfall").textContent=formatNumber(w.precipitation);
-
-  const index=currentHourIndex(weather.hourly,w.time);
-  const probability=weather.hourly?.precipitation_probability?.[index];
-  $("rain").textContent=probability==null?"—":probability+"%";
-  $("weatherTime").textContent="Weather model time: "+(w.time||"not supplied")+" · "+(weather.timezone||"local time");
+  const w=weather.current;$("temp").textContent=formatNumber(w.temperature_2m)+"°C";$("feels").textContent=formatNumber(w.apparent_temperature)+"°C";
+  $("humidity").textContent=formatNumber(w.relative_humidity_2m,0)+"%";$("wind").textContent=formatNumber(w.wind_speed_10m);$("rainfall").textContent=formatNumber(w.precipitation);
+  const index=currentHourIndex(weather.hourly,w.time),probability=weather.hourly?.precipitation_probability?.[index];
+  $("rain").textContent=probability==null?"—":probability+"%";$("weatherTime").textContent="Weather model time: "+(w.time||"not supplied")+" · "+(weather.timezone||"local time");
  }
-
  if(air?.current){
-  const a=air.current,level=aqiLevel(a.european_aqi);
-  $("aqi").textContent=a.european_aqi??"—";
-  $("aqText").textContent=level[0]+" · "+level[1];
-  $("aqText").className=level[2];
-  $("aqBar").style.width=Math.min(100,Number(a.european_aqi)||0)+"%";
-  $("pm25").textContent=formatNumber(a.pm2_5);
-  $("pm10").textContent=formatNumber(a.pm10);
-  $("no2").textContent=formatNumber(a.nitrogen_dioxide);
+  const a=air.current,level=aqiLevel(a.european_aqi);$("aqi").textContent=a.european_aqi??"—";$("aqText").textContent=level[0]+" · "+level[1];$("aqText").className=level[2];
+  $("aqBar").style.width=Math.min(100,Number(a.european_aqi)||0)+"%";$("pm25").textContent=formatNumber(a.pm2_5);$("pm10").textContent=formatNumber(a.pm10);$("no2").textContent=formatNumber(a.nitrogen_dioxide);
  }
-
- const success=!!weather||!!air;
- setStatus(success?"Environmental information retrieved":"Environmental services unavailable");
- $("updated").textContent="Last analysed: "+new Date().toLocaleString();
-
- generateReport();
- saveHistory();
- renderHistory();
-
- if(!success){
-  setError("Weather and air-quality services did not return data. Check your connection and try again.");
- }else if(!weather||!air){
-  setError("Some environmental data is unavailable. Available readings are still shown.");
- }
-
- $("newsStatus").textContent="Location selected. Ready to search recent reports.";
+ const success=!!weather||!!air;setStatus(success?"Environmental information retrieved":"Environmental services unavailable");
+ $("updated").textContent="Last analysed: "+new Date().toLocaleString();generateReport();saveHistory();renderHistory();
+ if(!success)setError("Weather and air-quality services did not return data. Check your connection and try again.");
+ else if(!weather||!air)setError("Some environmental data is unavailable. Available readings are still shown.");
+ $("newsStatus").textContent="Location selected. Ready to investigate recent reports.";
 }
-
-function refreshData(){
- if(!current){setError("Select a location first.");return;}
- analyse(current.lat,current.lon,currentName,currentMeta);
-}
-
-function getSelectedNeeds(){
- return [...document.querySelectorAll("[data-key]")].map(s=>({
-  key:s.dataset.key,value:s.value
- }));
-}
-
+function refreshData(){if(!current){setError("Select a location first.");return;}analyse(current.lat,current.lon,currentName,currentMeta);}
+function getSelectedNeeds(){return[...document.querySelectorAll("[data-key]")].map(s=>({key:s.dataset.key,value:s.value}));}
 function weatherWarnings(){
- if(!weather?.current)return [];
- const w=weather.current,result=[];
-
- if(Number(w.apparent_temperature)>=38){
-  result.push({
-   title:"High heat exposure indicator",
-   body:"The modelled feels-like temperature is high. Provide shade and safe drinking water, encourage rest breaks and follow local health guidance."
-  });
- }else if(Number(w.temperature_2m)>=35){
-  result.push({
-   title:"Hot weather indicator",
-   body:"Encourage hydration, shade and reduced strenuous outdoor activity during the hottest hours."
-  });
- }
-
- const index=currentHourIndex(weather.hourly,w.time);
- const probability=weather.hourly?.precipitation_probability?.[index];
- if(Number(probability)>=70){
-  result.push({
-   title:"High rain probability",
-   body:"Check drainage, protect essential supplies and follow official rainfall and flood warnings. Rain probability alone does not confirm flooding."
-  });
- }
+ if(!weather?.current)return[];const w=weather.current,result=[];
+ if(Number(w.apparent_temperature)>=38)result.push({title:"High heat exposure indicator",body:"The modelled feels-like temperature is high. Provide shade and safe drinking water, encourage rest breaks and follow local health guidance."});
+ else if(Number(w.temperature_2m)>=35)result.push({title:"Hot weather indicator",body:"Encourage hydration, shade and reduced strenuous outdoor activity during the hottest hours."});
+ const index=currentHourIndex(weather.hourly,w.time),probability=weather.hourly?.precipitation_probability?.[index];
+ if(Number(probability)>=70)result.push({title:"High rain probability",body:"Check drainage, protect essential supplies and follow official rainfall and flood warnings. Rain probability alone does not confirm flooding."});
  return result;
 }
-
 function generateReport(){
- const selected=getSelectedNeeds();
- const urgent=selected.filter(x=>x.value==="urgent");
- const concern=selected.filter(x=>x.value==="concern");
- const unknown=selected.filter(x=>x.value==="unknown");
- const insights=[],actions=[];
-
+ const selected=getSelectedNeeds(),urgent=selected.filter(x=>x.value==="urgent"),concern=selected.filter(x=>x.value==="concern"),unknown=selected.filter(x=>x.value==="unknown"),insights=[],actions=[];
  if(air?.current){
   const value=air.current.european_aqi,level=aqiLevel(value);
-  insights.push({
-   title:"Environmental indicator: Air quality "+level[0],
-   body:level[1]+". Modelled air-quality estimate; not a local sensor measurement."
-  });
-  if(value!=null&&value>60){
-   actions.push({
-    title:"Reduce exposure to poor estimated air quality",
-    body:"Reduce prolonged strenuous outdoor activity when conditions are poor. Avoid waste burning and follow official local air-quality advice. Report persistent pollution sources to the responsible authority."
-   });
-  }
- }else{
-  insights.push({
-   title:"Air-quality evidence unavailable",
-   body:"No air-quality reading was returned. This does not prove the air is clean or polluted."
-  });
- }
-
+  insights.push({title:"Environmental indicator: Air quality "+level[0],body:level[1]+". Modelled air-quality estimate; not a local sensor measurement."});
+  if(value!=null&&value>60)actions.push({title:"Reduce exposure to poor estimated air quality",body:"Reduce prolonged strenuous outdoor activity when conditions are poor. Avoid waste burning and follow official local air-quality advice. Report persistent pollution sources to the responsible authority."});
+ }else insights.push({title:"Air-quality evidence unavailable",body:"No air-quality reading was returned. This does not prove the air is clean or polluted."});
  weatherWarnings().forEach(x=>insights.push(x));
-
- urgent.forEach(x=>{
-  insights.push({
-   title:"Priority investigation: "+solutions[x.key].title,
-   body:"The community assessment marked this issue urgent. This is a resident-selected assessment, not an independently verified finding."
-  });
-  actions.push({title:"Urgent action: "+solutions[x.key].title,body:solutions[x.key].urgent});
- });
-
- concern.forEach(x=>{
-  insights.push({
-   title:"Improvement needed: "+solutions[x.key].title,
-   body:"A community concern was selected. Confirm the affected area, duration and residents affected."
-  });
-  actions.push({title:"Improvement action: "+solutions[x.key].title,body:solutions[x.key].concern});
- });
-
+ urgent.forEach(x=>{insights.push({title:"Priority investigation: "+solutions[x.key].title,body:"The community assessment marked this issue urgent. This is a resident-selected assessment, not an independently verified finding."});actions.push({title:"Urgent action: "+solutions[x.key].title,body:solutions[x.key].urgent});});
+ concern.forEach(x=>{insights.push({title:"Improvement needed: "+solutions[x.key].title,body:"A community concern was selected. Confirm the affected area, duration and residents affected."});actions.push({title:"Improvement action: "+solutions[x.key].title,body:solutions[x.key].concern});});
  const observations=getObservations().filter(o=>!o.place||o.place===currentName);
- if(observations.length){
-  insights.push({
-   title:"Resident observations recorded",
-   body:observations.length+" locally saved observation(s) are associated with this selected place. They are resident reports and have not been independently verified."
-  });
- }
-
- if(!urgent.length&&!concern.length){
-  insights.push({
-   title:"Community service status not established",
-   body:"No urgent or improvement concerns were selected. "+unknown.length+" categories remain unassessed. This is not proof that all services are adequate."
-  });
- }
-
- if(!actions.length){
-  actions.push({
-   title:"Start a community fact-finding visit",
-   body:"Speak with residents, check essential services and record specific locations and dates. Confirm water safety, sanitation, waste collection, healthcare access and road conditions with responsible services."
-  });
- }
-
+ if(observations.length)insights.push({title:"Resident observations recorded",body:observations.length+" locally saved observation(s) are associated with this selected place. They are resident reports and have not been independently verified."});
+ if(!urgent.length&&!concern.length)insights.push({title:"Community service status not established",body:"No urgent or improvement concerns were selected. "+unknown.length+" categories remain unassessed. This is not proof that all services are adequate."});
+ if(!actions.length)actions.push({title:"Start a community fact-finding visit",body:"Speak with residents, check essential services and record specific locations and dates. Confirm water safety, sanitation, waste collection, healthcare access and road conditions with responsible services."});
  weatherWarnings().forEach(x=>actions.push(x));
-
- $("investigation").innerHTML=insights.map(x=>`
-  <div class="insight"><b>${esc(x.title)}</b><p>${esc(x.body)}</p></div>
- `).join("");
-
- $("actions").innerHTML=actions.slice(0,12).map((x,i)=>`
-  <div class="action"><div class="num">${String(i+1).padStart(2,"0")}</div>
-   <div><b>${esc(x.title)}</b><p>${esc(x.body)}</p></div>
-  </div>
- `).join("");
+ $("investigation").innerHTML=insights.map(x=>'<div class="insight"><b>'+esc(x.title)+'</b><p>'+esc(x.body)+'</p></div>').join("");
+ $("actions").innerHTML=actions.slice(0,12).map((x,i)=>'<div class="action"><div class="num">'+String(i+1).padStart(2,"0")+'</div><div><b>'+esc(x.title)+'</b><p>'+esc(x.body)+'</p></div></div>').join("");
 }
-
-function resetNeeds(){
- document.querySelectorAll("[data-key]").forEach(s=>s.value="unknown");
- generateReport();
-}
-
-function getHistory(){
- try{return JSON.parse(localStorage.getItem(STORAGE)||"{}");}
- catch{return {};}
-}
-
+function resetNeeds(){document.querySelectorAll("[data-key]").forEach(s=>s.value="unknown");generateReport();}
+function getHistory(){try{return JSON.parse(localStorage.getItem(STORAGE)||"{}");}catch{return{};}}
 function saveHistory(){
  if(!current)return;
- const snapshot={
-  time:Date.now(),place:currentName,
-  aqi:air?.current?.european_aqi??null,
-  pm25:air?.current?.pm2_5??null,
-  temp:weather?.current?.temperature_2m??null
- };
- const old=getHistory();
- old.previous=old.latest||null;
- old.latest=snapshot;
- try{localStorage.setItem(STORAGE,JSON.stringify(old));}
- catch(e){console.warn("History storage unavailable",e);}
+ const snapshot={time:Date.now(),place:currentName,aqi:air?.current?.european_aqi??null,pm25:air?.current?.pm2_5??null,temp:weather?.current?.temperature_2m??null};
+ const old=getHistory();old.previous=old.latest||null;old.latest=snapshot;
+ try{localStorage.setItem(STORAGE,JSON.stringify(old));}catch(e){console.warn("History storage unavailable",e);}
 }
-
 function renderHistory(){
- const old=getHistory(),p=old.previous,n=old.latest;
- if(!n)return;
-
- if(!p){
-  $("history").innerHTML=`<p class="notice">First snapshot saved for ${esc(n.place)}. Analyse again later to compare.</p>`;
-  return;
- }
-
- $("history").innerHTML=`
-  <table>
-   <tr><th>Indicator</th><th>Previous</th><th>Latest</th></tr>
-   <tr><td>European AQI</td><td>${p.aqi??"—"}</td><td>${n.aqi??"—"}</td></tr>
-   <tr><td>PM2.5</td><td>${p.pm25??"—"}</td><td>${n.pm25??"—"}</td></tr>
-   <tr><td>Temperature</td><td>${p.temp??"—"}</td><td>${n.temp??"—"}</td></tr>
-  </table>
-  <p class="notice">Previous: ${new Date(p.time).toLocaleString()} · Latest: ${new Date(n.time).toLocaleString()}. Browser-only snapshots.</p>`;
+ const old=getHistory(),p=old.previous,n=old.latest;if(!n)return;
+ if(!p){$("history").innerHTML='<p class="notice">First snapshot saved for '+esc(n.place)+'. Analyse again later to compare.</p>';return;}
+ $("history").innerHTML='<table><tr><th>Indicator</th><th>Previous</th><th>Latest</th></tr><tr><td>European AQI</td><td>'+ (p.aqi??"—")+'</td><td>'+(n.aqi??"—")+'</td></tr><tr><td>PM2.5</td><td>'+(p.pm25??"—")+'</td><td>'+(n.pm25??"—")+'</td></tr><tr><td>Temperature</td><td>'+(p.temp??"—")+'</td><td>'+(n.temp??"—")+'</td></tr></table><p class="notice">Previous: '+new Date(p.time).toLocaleString()+' · Latest: '+new Date(n.time).toLocaleString()+'. Browser-only snapshots.</p>';
 }
-
-function getObservations(){
- try{return JSON.parse(localStorage.getItem(OBS_STORAGE)||"[]");}
- catch{return [];}
-}
-
+function getObservations(){try{return JSON.parse(localStorage.getItem(OBS_STORAGE)||"[]");}catch{return[];}}
 function saveObservation(){
- const description=$("observation").value.trim();
- if(!description){setError("Describe the local problem before saving.");return;}
- const list=getObservations();
-
- list.push({
-  type:$("obsType").value,
-  text:description,
-  time:Date.now(),
-  place:currentName||"Location not selected"
- });
-
- try{
-  localStorage.setItem(OBS_STORAGE,JSON.stringify(list.slice(-60)));
-  $("observation").value="";
-  setError("Observation saved in this browser only.");
-  renderObservations();
-  generateReport();
- }catch(e){
-  setError("Could not save observation. Browser storage may be full or disabled.");
- }
+ const description=$("observation").value.trim();if(!description){setError("Describe the local problem before saving.");return;}
+ const list=getObservations();list.push({type:$("obsType").value,text:description,time:Date.now(),place:currentName||"Location not selected"});
+ try{localStorage.setItem(OBS_STORAGE,JSON.stringify(list.slice(-60)));$("observation").value="";setError("Observation saved in this browser only.");renderObservations();generateReport();}
+ catch(e){setError("Could not save observation. Browser storage may be full or disabled.");}
 }
-
 function renderObservations(){
  const list=getObservations();
- $("observationList").innerHTML=list.length
-  ?list.slice().reverse().map(o=>`
-   <div class="insight">
-    <b>${esc(o.type)} · ${new Date(o.time).toLocaleString()}</b>
-    <p>${esc(o.place)} · ${esc(o.text)}</p>
-   </div>`).join("")
-  :'<p class="notice">No observations saved yet.</p>';
+ $("observationList").innerHTML=list.length?list.slice().reverse().map(o=>'<div class="insight"><b>'+esc(o.type)+' · '+new Date(o.time).toLocaleString()+'</b><p>'+esc(o.place)+' · '+esc(o.text)+'</p></div>').join(""):'<p class="notice">No observations saved yet.</p>';
 }
+function clearObservations(){if(!confirm("Delete all locally saved observations?"))return;localStorage.removeItem(OBS_STORAGE);renderObservations();generateReport();}
 
-function clearObservations(){
- if(!confirm("Delete all locally saved observations?"))return;
- localStorage.removeItem(OBS_STORAGE);
- renderObservations();
- generateReport();
-}
-
-/* LOCAL NEWS INVESTIGATION */
+/* IMPROVED LOCATION-BASED NEWS INVESTIGATION */
 
 function newsCacheRead(key){
- try{
-  const all=JSON.parse(localStorage.getItem(NEWS_CACHE)||"{}");
-  const entry=all[key];
-  if(entry&&Date.now()-entry.savedAt<30*60*1000)return entry.data;
- }catch{}
+ try{const all=JSON.parse(localStorage.getItem(NEWS_CACHE)||"{}"),entry=all[key];if(entry&&Date.now()-entry.savedAt<10*60*1000)return entry.data;}catch{}
  return null;
 }
-
 function newsCacheWrite(key,data){
  try{
   const all=JSON.parse(localStorage.getItem(NEWS_CACHE)||"{}");
   all[key]={savedAt:Date.now(),data};
+  const keys=Object.keys(all);
+  if(keys.length>60)keys.sort((a,b)=>all[a].savedAt-all[b].savedAt).slice(0,keys.length-60).forEach(k=>delete all[k]);
   localStorage.setItem(NEWS_CACHE,JSON.stringify(all));
  }catch(e){console.warn("News cache unavailable",e);}
 }
-
-function topicQuery(place){
- const topics="(flood OR drought OR water shortage OR pollution OR waste OR sanitation OR heat OR storm OR cyclone OR landslide OR infrastructure OR public health)";
- return '"'+place.replace(/"/g,"")+'" '+topics;
+function newsQueries(place){
+ const safe=String(place||"").replace(/["']/g," ").replace(/\s+/g," ").trim();
+ return ['"'+safe+'"',safe];
 }
-
-async function gdeltSearch(place){
- const cacheKey=place.toLowerCase();
- const cached=newsCacheRead(cacheKey);
- if(cached)return cached;
-
- const params=new URLSearchParams({
-  query:topicQuery(place),
-  mode:"ArtList",
-  format:"json",
-  maxrecords:"12",
-  timespan:"3m",
-  sort:"DateDesc"
- });
-
- const data=await fetchJSON("https://api.gdeltproject.org/api/v2/doc/doc?"+params.toString(),20000);
- const articles=Array.isArray(data.articles)?data.articles:[];
- newsCacheWrite(cacheKey,articles);
- return articles;
+function articleIsRelevant(article){
+ const title=String(article?.title||"").trim(),url=String(article?.url||"").trim();
+ return title.length>10&&/^https?:\/\//i.test(url);
 }
-
+function articleKey(article){return String(article.url||"").toLowerCase().split("?")[0].replace(/\/$/,"");}
 function cleanNewsDate(value){
- if(!value)return "Date not supplied";
+ if(!value)return"Date not supplied";
  const match=String(value).match(/^(\d{4})(\d{2})(\d{2})T/);
  if(match)return match[3]+"-"+match[2]+"-"+match[1];
- const d=new Date(value);
- return Number.isNaN(d.getTime())?"Date not supplied":d.toLocaleDateString();
+ const d=new Date(value);return Number.isNaN(d.getTime())?"Date not supplied":d.toLocaleDateString();
 }
-
-function articleIsRelevant(article){
- const title=(article.title||"").toLowerCase();
- const url=(article.url||"").toLowerCase();
- return title.length>10 && /^https?:\/\//i.test(url);
+function newsDateValue(value){
+ if(!value)return 0;
+ const match=String(value).match(/^(\d{4})(\d{2})(\d{2})T/);
+ if(match)return Date.UTC(Number(match[1]),Number(match[2])-1,Number(match[3]));
+ const d=Date.parse(value);return Number.isFinite(d)?d:0;
 }
-
-function renderNews(articles,scope,place){
- const valid=articles.filter(articleIsRelevant).slice(0,10);
-
- if(!valid.length){
-  $("newsResults").innerHTML=`
-   <div class="insight">
-    <b>No matching recent reports found for ${esc(place)}</b>
-    <p>This does not prove that the community has no problems. Local news coverage may be limited or absent. Use resident observations and local authority information as additional evidence.</p>
-   </div>`;
+async function gdeltSearch(place){
+ const cacheKey="gdelt_v2_"+place.toLowerCase();
+ const cached=newsCacheRead(cacheKey);if(cached)return cached;
+ let lastError=null;
+ for(const query of newsQueries(place)){
+  const params=new URLSearchParams({query,mode:"ArtList",format:"json",maxrecords:"20",timespan:"3m",sort:"DateDesc"});
+  const url="https://api.gdeltproject.org/api/v2/doc/doc?"+params.toString();
+  try{
+   const data=await fetchJSON(url,22000);
+   if(data&&Array.isArray(data.articles)){
+    const articles=data.articles.filter(articleIsRelevant);
+    newsCacheWrite(cacheKey,articles);return articles;
+   }
+   if(data?.error)throw new Error(String(data.error));
+   throw new Error("News provider returned an unexpected response.");
+  }catch(error){lastError=error;}
+ }
+ throw lastError||new Error("News search failed.");
+}
+function makeNewsScopes(){
+ const meta=currentMeta||{};
+ const exact=String(meta.name||currentName.split(",")[0]||currentName).trim();
+ const candidates=[
+  {name:exact,label:"Exact selected place",level:"exact"},
+  {name:meta.admin2||"",label:"District / local administrative area",level:"district"},
+  {name:meta.admin1||"",label:"State / province",level:"state"},
+  {name:meta.country||"",label:"Country-wide coverage",level:"country"}
+ ];
+ const seen=new Set();
+ return candidates.filter(item=>{
+  const name=item.name.trim(),key=name.toLowerCase();
+  if(!name||seen.has(key))return false;
+  seen.add(key);return true;
+ });
+}
+function renderNewsGroups(groups,place){
+ const html=[];
+ let total=0;
+ groups.forEach(group=>{
+  const articles=group.articles.filter(articleIsRelevant).sort((a,b)=>newsDateValue(b.seendate)-newsDateValue(a.seendate)).slice(0,8);
+  if(!articles.length)return;
+  total+=articles.length;
+  html.push('<div class="news-scope">'+esc(group.label)+' · '+esc(group.name)+' · '+articles.length+' report(s)</div>');
+  html.push(articles.map(article=>'<article class="news-item"><b>'+esc(article.title)+'</b><div class="news-meta">'+esc(article.domain||"Publisher not supplied")+' · '+esc(cleanNewsDate(article.seendate))+' · '+esc(article.sourcecountry||"Country not supplied")+'</div><p>Online report found through the selected search area. Open the original source and verify whether the report refers to this community.</p><a href="'+esc(article.url)+'" target="_blank" rel="noopener noreferrer">OPEN ORIGINAL REPORT ↗</a></article>').join(""));
+ });
+ if(!total){
+  $("newsResults").innerHTML='<div class="insight"><b>No matching recent reports were returned for '+esc(place)+'</b><p>This does not mean the community has no problems. Small villages may have limited online news coverage. Try searching the district or a nearby larger town, and use resident observations and official local information as additional evidence.</p></div>';
   return;
  }
-
- $("newsResults").innerHTML=`
-  <div class="news-meta">${esc(scope)} · ${valid.length} report(s) returned · Recent search window: up to 3 months</div>
-  ${valid.map(article=>`
-   <article class="news-item">
-    <b>${esc(article.title)}</b>
-    <div class="news-meta">${esc(article.domain||"Publisher not supplied")} · ${esc(cleanNewsDate(article.seendate))} · ${esc(article.sourcecountry||"Country not supplied")}</div>
-    <p>Reported online coverage. Open the original article to confirm the location, details and whether the issue is still current.</p>
-    <a href="${esc(article.url)}" target="_blank" rel="noopener noreferrer">OPEN ORIGINAL REPORT ↗</a>
-   </article>`).join("")}`;
+ $("newsResults").innerHTML='<div class="news-meta">'+total+' real article link(s) found · Search window: last 3 months · Sorted by reported date where available</div>'+html.join("")+'<p class="notice">Wider-area results are not confirmed reports about the exact selected village. Open the original article to check its location and publication details.</p>';
 }
-
 async function investigateNews(){
  if(!current){setError("Select a location before searching local news.");return;}
-
- const name=currentName;
- const meta=currentMeta||{};
- const exactName=meta.name||name.split(",")[0].trim();
- const broader=meta.admin2||meta.admin1||"";
- const country=meta.country||"";
-
+ const selectedName=currentName;
+ const scopes=makeNewsScopes();
  $("newsBtn").disabled=true;
- $("newsStatus").innerHTML='<span class="spinner"></span> Searching recent reports...';
- $("newsResults").innerHTML='<p class="notice">Checking reports for the selected location...</p>';
-
+ $("newsStatus").innerHTML='<span class="spinner"></span> Searching exact location and nearby administrative areas...';
+ $("newsResults").innerHTML='<p class="notice">Searching for recent real-world reports. Please wait...</p>';
+ const groups=[],seenArticles=new Set();
+ let errors=0,attempted=0;
  try{
-  let articles=await gdeltSearch(exactName);
-  let scope="Location-name search: "+exactName;
-
-  if(!articles.length&&broader&&broader.toLowerCase()!==exactName.toLowerCase()){
-   $("newsStatus").textContent="No exact-name reports. Checking broader administrative area...";
-   await new Promise(resolve=>setTimeout(resolve,5500));
-   articles=await gdeltSearch(broader);
-   scope="Broader area results: "+broader+(country?", "+country:"");
+  for(let i=0;i<scopes.length;i++){
+   const scope=scopes[i];
+   if(groups.reduce((n,g)=>n+g.articles.length,0)>=18)break;
+   $("newsStatus").textContent="Checking "+scope.label.toLowerCase()+": "+scope.name+" ("+(i+1)+"/"+scopes.length+")";
+   try{
+    attempted++;
+    const articles=await gdeltSearch(scope.name);
+    const fresh=[];
+    articles.forEach(article=>{
+     const key=articleKey(article);
+     if(key&&!seenArticles.has(key)){seenArticles.add(key);fresh.push(article);}
+    });
+    if(fresh.length)groups.push({...scope,articles:fresh});
+   }catch(error){
+    errors++;
+    console.warn("News search failed for "+scope.name,error);
+   }
+   if(i<scopes.length-1)await new Promise(resolve=>setTimeout(resolve,900));
   }
-
-  if(!articles.length&&country&&country.toLowerCase()!==exactName.toLowerCase()){
-   $("newsStatus").textContent="Checking wider regional coverage...";
-   await new Promise(resolve=>setTimeout(resolve,5500));
-   articles=await gdeltSearch(country);
-   scope="Country-level results: "+country;
+  renderNewsGroups(groups,selectedName);
+  const count=groups.reduce((n,g)=>n+g.articles.length,0);
+  if(count)$("newsStatus").textContent=count+" report(s) found. Check the geographic label of each result.";
+  else if(errors===attempted&&attempted>0)$("newsStatus").textContent="News provider unavailable. Please try again later.";
+  else $("newsStatus").textContent="Investigation completed. No matching reports found.";
+  if(!count&&errors===attempted&&attempted>0){
+   $("newsResults").innerHTML='<div class="insight"><b>The news provider could not be reached</b><p>The public news service may be temporarily unavailable, rate-limited or blocked by the browser. Try again later or test the page from its GitHub Pages HTTPS address. No sample headlines are shown.</p></div>';
   }
-
-  renderNews(articles,scope,exactName);
-  $("newsStatus").textContent=articles.length?"News search completed. Verify each article.":"No matching reports returned.";
- }catch(e){
-  console.error(e);
-  $("newsStatus").textContent="News service unavailable.";
-  $("newsResults").innerHTML=`
-   <div class="insight">
-    <b>Could not retrieve recent news</b>
-    <p>The news service may be temporarily unavailable or rate-limited. Try again later. No sample or invented headlines are displayed.</p>
-   </div>`;
  }finally{
   $("newsBtn").disabled=false;
  }
 }
 
 /* DEMONSTRATION MODE */
-
 function demo(){
  current=null;
- weather={
-  current:{
-   temperature_2m:34,apparent_temperature:38,
-   relative_humidity_2m:62,wind_speed_10m:12,
-   precipitation:0,time:"Illustrative sample"
-  },
-  hourly:{time:[],precipitation_probability:[]}
- };
+ weather={current:{temperature_2m:34,apparent_temperature:38,relative_humidity_2m:62,wind_speed_10m:12,precipitation:0,time:"Illustrative sample"},hourly:{time:[],precipitation_probability:[]}};
  air={current:{european_aqi:68,pm2_5:24,pm10:51,nitrogen_dioxide:18}};
-
- $("placeName").textContent="Illustrative Village Report";
- $("placeDetails").textContent="DEMO ONLY · Not a real location investigation or live measurement.";
- $("lat").textContent="11.0168";
- $("lon").textContent="76.9558";
- $("temp").textContent="34°C";
- $("feels").textContent="38°C";
- $("humidity").textContent="62%";
- $("wind").textContent="12";
- $("rain").textContent="—";
- $("rainfall").textContent="0";
- $("aqi").textContent="68";
- $("aqText").textContent="Poor · illustrative sample only";
- $("aqText").className="warn";
- $("pm25").textContent="24";
- $("pm10").textContent="51";
- $("no2").textContent="18";
- $("aqBar").style.width="68%";
- $("weatherTime").textContent="Illustrative sample only.";
- setStatus("Demonstration only · not live data");
- $("updated").textContent="Illustrative sample";
- generateReport();
- $("newsResults").innerHTML='<p class="notice">Demo mode does not display fabricated news. Select a real location to search recent reports.</p>';
- $("newsStatus").textContent="Demo mode";
+ $("placeName").textContent="Illustrative Village Report";$("placeDetails").textContent="DEMO ONLY · Not a real location investigation or live measurement.";
+ $("lat").textContent="11.0168";$("lon").textContent="76.9558";$("temp").textContent="34°C";$("feels").textContent="38°C";$("humidity").textContent="62%";$("wind").textContent="12";$("rain").textContent="—";$("rainfall").textContent="0";
+ $("aqi").textContent="68";$("aqText").textContent="Poor · illustrative sample only";$("aqText").className="warn";$("pm25").textContent="24";$("pm10").textContent="51";$("no2").textContent="18";$("aqBar").style.width="68%";
+ $("weatherTime").textContent="Illustrative sample only.";setStatus("Demonstration only · not live data");$("updated").textContent="Illustrative sample";
+ generateReport();$("newsResults").innerHTML='<p class="notice">Demo mode does not display fabricated news. Select a real location to search recent reports.</p>';$("newsStatus").textContent="Demo mode";
 }
 
 /* EVENT LISTENERS */
-
 $("searchBtn").addEventListener("click",searchPlace);
 $("gpsBtn").addEventListener("click",useLocation);
 $("refreshBtn").addEventListener("click",refreshData);
@@ -1005,15 +569,8 @@ $("reportBtn").addEventListener("click",generateReport);
 $("resetNeedsBtn").addEventListener("click",resetNeeds);
 $("saveObservationBtn").addEventListener("click",saveObservation);
 $("clearObservationsBtn").addEventListener("click",clearObservations);
-
-$("place").addEventListener("keydown",event=>{
- if(event.key==="Enter")searchPlace();
-});
-
-document.querySelectorAll("[data-key]").forEach(select=>{
- select.addEventListener("change",generateReport);
-});
-
+$("place").addEventListener("keydown",event=>{if(event.key==="Enter")searchPlace();});
+document.querySelectorAll("[data-key]").forEach(select=>select.addEventListener("change",generateReport));
 renderObservations();
 renderHistory();
 </script>
