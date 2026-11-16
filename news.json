@@ -240,42 +240,165 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-16T02:38:01Z",
-    "lastSuccessfulRun": "2026-11-16T02:38:01Z",
-    "lastUpdated": "2026-11-16T02:38:01Z",
-    "articlesAdded": 10,
+    "lastRun": "2026-11-16T10:48:31Z",
+    "lastSuccessfulRun": "2026-11-16T10:48:31Z",
+    "lastUpdated": "2026-11-16T10:48:31Z",
+    "articlesAdded": 13,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 43,
+    "duplicatesRemoved": 31,
     "failedSources": [],
     "newArticleIds": [
-      "c9c72d315c9cabc98bf2",
-      "a487ff4bfe50a89c36c4",
-      "a86b940ff1b3ef15ab70",
-      "048594510ce542f19db0",
-      "0a8782d65fa7e3089266",
-      "f5d1f775cd8b6effa5f8",
-      "51e09054be4adfce1ef3",
-      "6a05e76f7a49bf71840e",
-      "3941e1bb48ba2606edfd",
-      "af9b212a771c7ef0f01c"
+      "da7fe30267a70d039e13",
+      "50b2520f5e4949cc300b",
+      "90b394c09d801fbaac33",
+      "df4be5438561472b29d2",
+      "b22b95bb25d9cdfe790b",
+      "2cb0f2cfd78fbe7093ff",
+      "446974e99b514e6f12d3",
+      "c2b32fc381fde485f86f",
+      "38de2460288896371029",
+      "0dfe531aad2b78a104e0",
+      "61efe291c67664b32a69",
+      "041d0498dbd5df91a3dc",
+      "ac82f5f36ccebe038a0d"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 0,
+    "articlesRemoved": 4,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 251,
+    "totalArticles": 260,
     "categories": {
-      "World": 138,
-      "India": 19,
-      "Technology": 13,
-      "Environment": 71,
+      "World": 147,
+      "India": 17,
+      "Technology": 14,
+      "Environment": 72,
       "Disaster": 10
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "da7fe30267a70d039e13",
+      "title": "Science, technology, and innovation must become the main driving force in the development of the construction industry. - Vietnam.vn",
+      "description": "Science, technology, and innovation must become the main driving force in the development of the construction industry. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWUF4MUxJQ3pZb0gxOEZKQlhWZmZGbVNmeW1palZhRWllS29STVlHWTZXS2JiMEpvYjdXMEQtQUNNejM4SmtZY1NDaHJsam1XZUFGc1VCWElJUUhuaWtWeGgySGNrSjI5czBfVnB0ZGM5Y2dVSGJYTHlUTjczZkRpemJKWWhqUWtMaEtyWExYdjllaUpLSFRUQzh6QjZHRmRrNGxLYWcyYTRWNzk5ZEtvTGstRVhqZmNBbHdKSFRfN1diV00?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWUF4MUxJQ3pZb0gxOEZKQlhWZmZGbVNmeW1palZhRWllS29STVlHWTZXS2JiMEpvYjdXMEQtQUNNejM4SmtZY1NDaHJsam1XZUFGc1VCWElJUUhuaWtWeGgySGNrSjI5czBfVnB0ZGM5Y2dVSGJYTHlUTjczZkRpemJKWWhqUWtMaEtyWExYdjllaUpLSFRUQzh6QjZHRmRrNGxLYWcyYTRWNzk5ZEtvTGstRVhqZmNBbHdKSFRfN1diV00?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-16T10:35:29Z"
+    },
+    {
+      "id": "50b2520f5e4949cc300b",
+      "title": "China says Xi, Trump, Putin to discuss 'world peace' - The Economic Times",
+      "description": "China says Xi, Trump, Putin to discuss 'world peace' The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQUdrUWpESWh1N0xZMjA3eGdadGpWOS1uSGlhTTB3Z0FMeWVUYjNkamJsSDhIVGswVnVNUGFHV3FlQldtYmlCY0JXRnpic2hwc1FLVW1lUl9CYXU1RTlmOVNjX0xKbjJMWFZqcmlyTlJ5eFpQYnBXOHVmakVjM2JzNmtNR0xBQ2MyWHZUMHZ0QWdSMkFDVUhGS004QzJYWnBEbjcxNHNzM1NiVlNEWXhRSmpvYW45S1dZdndOWVlEVHd0ZU9wTHVqYkxCejjSAdIBQVVfeXFMTTY1OTFEczhJWkpkbUFwVmgtWWlrZEliRUpvSzZYbm03ZGExZ3ZmdHFHRXdwNlJhbGlCd19tSzlXOEhXOGhaTnlOY3U5eUFKbVEzV1JkbGUxQTFoLXBHUFduVkRXQm84cGd3dFlEWXRtbW1rS2JkeEU0R0dsOHd6Y0xwSkVzbHJUbUE2ejhXSUNjWl96M09HRk85SFZSV2lfZ3pMazFpckNSeXpjYWZvUFdXano5dnRUbl9qclBESlNMV1BkUW1lbmxfWEh3ZGlLcTln?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQUdrUWpESWh1N0xZMjA3eGdadGpWOS1uSGlhTTB3Z0FMeWVUYjNkamJsSDhIVGswVnVNUGFHV3FlQldtYmlCY0JXRnpic2hwc1FLVW1lUl9CYXU1RTlmOVNjX0xKbjJMWFZqcmlyTlJ5eFpQYnBXOHVmakVjM2JzNmtNR0xBQ2MyWHZUMHZ0QWdSMkFDVUhGS004QzJYWnBEbjcxNHNzM1NiVlNEWXhRSmpvYW45S1dZdndOWVlEVHd0ZU9wTHVqYkxCejjSAdIBQVVfeXFMTTY1OTFEczhJWkpkbUFwVmgtWWlrZEliRUpvSzZYbm03ZGExZ3ZmdHFHRXdwNlJhbGlCd19tSzlXOEhXOGhaTnlOY3U5eUFKbVEzV1JkbGUxQTFoLXBHUFduVkRXQm84cGd3dFlEWXRtbW1rS2JkeEU0R0dsOHd6Y0xwSkVzbHJUbUE2ejhXSUNjWl96M09HRk85SFZSV2lfZ3pMazFpckNSeXpjYWZvUFdXano5dnRUbl9qclBESlNMV1BkUW1lbmxfWEh3ZGlLcTln?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-16T10:22:04Z"
+    },
+    {
+      "id": "90b394c09d801fbaac33",
+      "title": "Austria International Pharmacy Program - Post Register",
+      "description": "Austria International Pharmacy Program Post Register",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUE9kSm4xdEJzWUN0VnE5MldrSFBmWUhBSzR3M1YxU0NwenZ2UkZ1eEVmLV9CbGJBaGlzX3hoYS1vdVd0UkVROFM2LVl1bnRzMGpCMFdKUWFuUE40SHV5V2dSRGdtc0ZGa05pNmE0dHFHc2J0RDViNUx3V0MySUV1a3o1djRYdkFITGRnbjVvek1XNDJPSFdhbGVyLTBOMEFqSnVSUkptTkE2MlAwVzBTZnBCTUVjUEt2YVZWQlBOOEpzNDc2?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUE9kSm4xdEJzWUN0VnE5MldrSFBmWUhBSzR3M1YxU0NwenZ2UkZ1eEVmLV9CbGJBaGlzX3hoYS1vdVd0UkVROFM2LVl1bnRzMGpCMFdKUWFuUE40SHV5V2dSRGdtc0ZGa05pNmE0dHFHc2J0RDViNUx3V0MySUV1a3o1djRYdkFITGRnbjVvek1XNDJPSFdhbGVyLTBOMEFqSnVSUkptTkE2MlAwVzBTZnBCTUVjUEt2YVZWQlBOOEpzNDc2?oc=5",
+      "source": "Post Register",
+      "category": "World",
+      "publishedAt": "2026-11-16T10:08:13Z"
+    },
+    {
+      "id": "df4be5438561472b29d2",
+      "title": "Baku hosts international Turkic World 2026 DanceSport competition [PHOTOS] - AzerNews",
+      "description": "Baku hosts international Turkic World 2026 DanceSport competition [PHOTOS] AzerNews",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MZEx0THlvS2VWeWZGNUtOR1c4aGpwOWN6RVVuTmFWNlhFVTZGQVphSktILXVhM2h3ZVRmODFyLXEwWlVISTVBT2VYZEQ2UjBULTBBSA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MZEx0THlvS2VWeWZGNUtOR1c4aGpwOWN6RVVuTmFWNlhFVTZGQVphSktILXVhM2h3ZVRmODFyLXEwWlVISTVBT2VYZEQ2UjBULTBBSA?oc=5",
+      "source": "AzerNews",
+      "category": "World",
+      "publishedAt": "2026-11-16T09:13:00Z"
+    },
+    {
+      "id": "b22b95bb25d9cdfe790b",
+      "title": "Tomy International to become TakaraTomy International - Toy World Magazine",
+      "description": "Tomy International to become TakaraTomy International Toy World Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ2RuQUF4ejJ6Smo3a2V6U1BzVW9kLXUzV0I1UlZteTJ1ZnJYMjBKejhEbi1TZjZCcGhyNHZORF8yeGVORUEtSFVna09lMjFCZkpZMGlwM3YyT1dfNE1ZNEZna1liX19jZWdDS3VvX2EzUEtlclJKbEozXzV1WEh2bE0xWDk3SFE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ2RuQUF4ejJ6Smo3a2V6U1BzVW9kLXUzV0I1UlZteTJ1ZnJYMjBKejhEbi1TZjZCcGhyNHZORF8yeGVORUEtSFVna09lMjFCZkpZMGlwM3YyT1dfNE1ZNEZna1liX19jZWdDS3VvX2EzUEtlclJKbEozXzV1WEh2bE0xWDk3SFE?oc=5",
+      "source": "Toy World Magazine",
+      "category": "World",
+      "publishedAt": "2026-11-16T08:43:30Z"
+    },
+    {
+      "id": "2cb0f2cfd78fbe7093ff",
+      "title": "Turkic World 2026 international dancesport competition held in Baku - Latest news from Azerbaijan",
+      "description": "Turkic World 2026 international dancesport competition held in Baku Latest news from Azerbaijan",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPblg1VVF3SDJISTZPYW9GdmR3dWZyY1BPUUtnWlFhNnpoeENxOU9MWjhTeUoxYTNUNEZfdUR6Qm1STEFOMWZBdTYtOUhvN0o4SmV1SHYyajMyN3pyTnhNTTR5Y3NYdDFSWl9MLTl3bndzdWJ0RmhTcHhTRmUyS29meUpGNWhrRVBqY2hVVWdsTzZJQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPblg1VVF3SDJISTZPYW9GdmR3dWZyY1BPUUtnWlFhNnpoeENxOU9MWjhTeUoxYTNUNEZfdUR6Qm1STEFOMWZBdTYtOUhvN0o4SmV1SHYyajMyN3pyTnhNTTR5Y3NYdDFSWl9MLTl3bndzdWJ0RmhTcHhTRmUyS29meUpGNWhrRVBqY2hVVWdsTzZJQQ?oc=5",
+      "source": "Latest news from Azerbaijan",
+      "category": "World",
+      "publishedAt": "2026-11-16T08:19:58Z"
+    },
+    {
+      "id": "446974e99b514e6f12d3",
+      "title": "Climate change and pollution increasingly affect respiratory health in Romania, say 97% of surveyed doctors - Business Review",
+      "description": "Climate change and pollution increasingly affect respiratory health in Romania, say 97% of surveyed doctors Business Review",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcVpfYjhZdG5Gb0UxUUhhTFZqdjRDZnJnZUxENmhGSE5TbFl2M0RXX1piZFhMSU94N0NjazJ3OU8tR1NaT1dIRHNoOEtwM3JNV2pUeUxTM0hFTVJVakw5VUN1UjdaRHQ5NHlpUTdSSlhIMHhpbmhXUDRRdi1sVllBT09GRWhIbG5oaVRZYjlwa0g1UEF1V1N4YXA2UXNBUlgybEdtX2dPcjZwdkN0RGxfYno4NGpwbGY2aXlwb3Y5THZXNTdtQzNGd0tsWEZnb2NWOTAtdzZ3RHN6RUtLUU5Pd1FQei1qdm1KNm1xcjFiUGs?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcVpfYjhZdG5Gb0UxUUhhTFZqdjRDZnJnZUxENmhGSE5TbFl2M0RXX1piZFhMSU94N0NjazJ3OU8tR1NaT1dIRHNoOEtwM3JNV2pUeUxTM0hFTVJVakw5VUN1UjdaRHQ5NHlpUTdSSlhIMHhpbmhXUDRRdi1sVllBT09GRWhIbG5oaVRZYjlwa0g1UEF1V1N4YXA2UXNBUlgybEdtX2dPcjZwdkN0RGxfYno4NGpwbGY2aXlwb3Y5THZXNTdtQzNGd0tsWEZnb2NWOTAtdzZ3RHN6RUtLUU5Pd1FQei1qdm1KNm1xcjFiUGs?oc=5",
+      "source": "Business Review",
+      "category": "Environment",
+      "publishedAt": "2026-11-16T08:11:45Z"
+    },
+    {
+      "id": "c2b32fc381fde485f86f",
+      "title": "China says Xi, Trump, Putin to discuss 'world peace' in trilateral - International - World - Ahram Online",
+      "description": "China says Xi, Trump, Putin to discuss 'world peace' in trilateral - International - World Ahram Online",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2tYVFIxb2lVbXJReGtTaGc1LXN0SDdzQ3BwZ01Od244MjlET0JoYk5SQXdBcXRWOVdnWUtqTFFxb3VmaEhqUTdaREl6ak03cUxWOWxqczI4NmxqeE9aMTJ5YVRTb2JoSFNHamFjRlhSMnMwYklKeDhnVTZwalE0RWpCNHh5aVJhZUt3NF9OVFhLYnZYSDFSYThVYUlSaFo2NXJkeE1lNFJoSnBiUXdYeFlEaHNxR2ZNeC1vS1BJY3dBNWp5QVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2tYVFIxb2lVbXJReGtTaGc1LXN0SDdzQ3BwZ01Od244MjlET0JoYk5SQXdBcXRWOVdnWUtqTFFxb3VmaEhqUTdaREl6ak03cUxWOWxqczI4NmxqeE9aMTJ5YVRTb2JoSFNHamFjRlhSMnMwYklKeDhnVTZwalE0RWpCNHh5aVJhZUt3NF9OVFhLYnZYSDFSYThVYUlSaFo2NXJkeE1lNFJoSnBiUXdYeFlEaHNxR2ZNeC1vS1BJY3dBNWp5QVE?oc=5",
+      "source": "Ahram Online",
+      "category": "World",
+      "publishedAt": "2026-11-16T08:00:56Z"
+    },
+    {
+      "id": "38de2460288896371029",
+      "title": "AirTrunk signs MoU with Andhra Pradesh government for two data centre campuses having combined capacity of 1.8 GW - Indian Infrastructure Magazine",
+      "description": "AirTrunk signs MoU with Andhra Pradesh government for two data centre campuses having combined capacity of 1.8 GW Indian Infrastructure Magazine",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZGs5a2x0YWZtUFNNVmZhdnBLQjBvQU9wRloxQUpZZE9zOG95LUxGUl9sUU5WY09TY1ZCMk1OSFFnTUtpNlhPMnFWb01EMGdoY2VZSkxKUGRqU1JQVFRhRXB6TGIwM2VBcG55WGNoZVpYS0Q4bHJSb0hWR2F2SlQ1eTZmRk1FY1pUOGVSamdYRmcwTTk1TnJmNmxtNXFINUhWSTBsV25jTVRrSHRvTkdtRVlHR2JiN0NHQkJZNWNZZ2hobDlQRDBiZ1UyMnJPSFp4V1FKRGtoR0RqaFhPTUo0LUtsZVJ3aWE1Rk9IdjA0TjU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZGs5a2x0YWZtUFNNVmZhdnBLQjBvQU9wRloxQUpZZE9zOG95LUxGUl9sUU5WY09TY1ZCMk1OSFFnTUtpNlhPMnFWb01EMGdoY2VZSkxKUGRqU1JQVFRhRXB6TGIwM2VBcG55WGNoZVpYS0Q4bHJSb0hWR2F2SlQ1eTZmRk1FY1pUOGVSamdYRmcwTTk1TnJmNmxtNXFINUhWSTBsV25jTVRrSHRvTkdtRVlHR2JiN0NHQkJZNWNZZ2hobDlQRDBiZ1UyMnJPSFp4V1FKRGtoR0RqaFhPTUo0LUtsZVJ3aWE1Rk9IdjA0TjU?oc=5",
+      "source": "Indian Infrastructure Magazine",
+      "category": "India",
+      "publishedAt": "2026-11-16T06:31:16Z"
+    },
+    {
+      "id": "0dfe531aad2b78a104e0",
+      "title": "KIIT Organises International Law Conference on ICJ’s Contribution to World Peace - KIIT",
+      "description": "KIIT Organises International Law Conference on ICJ’s Contribution to World Peace KIIT",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSG9uaFpxLXJxdFFuQ2QyZ1RiemNlb2dwRnY3STJLQUxtN1hqclZtNWNTdFBib1dYR2RvbS1QV0R6VDVZbXZGUG1qZjN2eVpsXzdVX0h4NGpjQ1hTUjh2RF9XTGxMV055M3VCaFUtMTJLTGt4WXN5NE9fbXB1a3FLdVhjZUpsazNVRVVLcURQa2FWTEYxbk5tSnJyaVlZLTJOWHUtMG5GdGZjWnRMTlVTc0JXMGhJQ00?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSG9uaFpxLXJxdFFuQ2QyZ1RiemNlb2dwRnY3STJLQUxtN1hqclZtNWNTdFBib1dYR2RvbS1QV0R6VDVZbXZGUG1qZjN2eVpsXzdVX0h4NGpjQ1hTUjh2RF9XTGxMV055M3VCaFUtMTJLTGt4WXN5NE9fbXB1a3FLdVhjZUpsazNVRVVLcURQa2FWTEYxbk5tSnJyaVlZLTJOWHUtMG5GdGZjWnRMTlVTc0JXMGhJQ00?oc=5",
+      "source": "KIIT",
+      "category": "World",
+      "publishedAt": "2026-11-16T04:51:08Z"
+    },
+    {
+      "id": "61efe291c67664b32a69",
+      "title": "International & World News – 16 November 2026 - Saachi Baat",
+      "description": "International & World News – 16 November 2026 Saachi Baat",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcVpJbmt5V19QRm9DaFhWRENRS1ZNbGV4NUhsdFpvWlpzdHdVWldwckFwbzNFYnJXWFFGNldIX2pmTlZXTjI4NzhfaHVtWVlLNmxkVmNFS1NZU3ZxcE9QemlpLVIzc3M4TE40ck1VaTM3REtIcXVmdGd0Ni1Cdl94NGlzellGUU14RlV5Xw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcVpJbmt5V19QRm9DaFhWRENRS1ZNbGV4NUhsdFpvWlpzdHdVWldwckFwbzNFYnJXWFFGNldIX2pmTlZXTjI4NzhfaHVtWVlLNmxkVmNFS1NZU3ZxcE9QemlpLVIzc3M4TE40ck1VaTM3REtIcXVmdGd0Ni1Cdl94NGlzellGUU14RlV5Xw?oc=5",
+      "source": "Saachi Baat",
+      "category": "World",
+      "publishedAt": "2026-11-16T04:05:06Z"
+    },
+    {
+      "id": "041d0498dbd5df91a3dc",
+      "title": "Construction industry accelerates research, technology application and digital transformation - Laodong.vn",
+      "description": "Construction industry accelerates research, technology application and digital transformation Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRVZ1UE9kbXBSSlR1Y1JRLWxIU2RYdVhrb1BTUVFxeXFtSkt1d0RnQnpPYUlkMEJqa3d1WGZvUDYtbWJ3UFZjTEdXZm9LZlZXQXlSeVJlZF9vdHFIUmpDWTV3WGtCQ0NpeXZpci1KNFFXdlRkZEhLZ3FPckRBUEhiMzdZaFJ4NzgyY1Jray02Yld2Mko1ZGUtZEFuNm5rMTVHVFk2RGR2TGVnWjhKSEt1V0xEdzVPOTFXNTg0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRVZ1UE9kbXBSSlR1Y1JRLWxIU2RYdVhrb1BTUVFxeXFtSkt1d0RnQnpPYUlkMEJqa3d1WGZvUDYtbWJ3UFZjTEdXZm9LZlZXQXlSeVJlZF9vdHFIUmpDWTV3WGtCQ0NpeXZpci1KNFFXdlRkZEhLZ3FPckRBUEhiMzdZaFJ4NzgyY1Jray02Yld2Mko1ZGUtZEFuNm5rMTVHVFk2RGR2TGVnWjhKSEt1V0xEdzVPOTFXNTg0?oc=5",
+      "source": "Laodong.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-16T04:05:01Z"
+    },
     {
       "id": "c9c72d315c9cabc98bf2",
       "title": "US universities face international student enrollment decline as Trump tightens visa and work rules | Hindustan Times - Hindustan Times",
@@ -405,6 +528,16 @@
       "source": "India Today NE",
       "category": "World",
       "publishedAt": "2026-11-15T15:23:14Z"
+    },
+    {
+      "id": "ac82f5f36ccebe038a0d",
+      "title": "Ajman expands international partnerships at IBTM World 2026 in Barcelona - www.wam.ae",
+      "description": "Ajman expands international partnerships at IBTM World 2026 in Barcelona www.wam.ae",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVjRvZGJWSUIzeG9WSVI3aElVbE05eHpiT0FzV2JwSWc0WVAtVWNoUk9PVHJqbnVFeHhkRG1NTG1ESHBQSkxXVVY5V05OUzlMUjdfY2FmWHh2MFhLcEVBQ2VxM3hBRGRjMW5fOE1lZFVEM0JwcWNQMVNvaUs0QkN4MUVRLUVXZHhhcEVj?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVjRvZGJWSUIzeG9WSVI3aElVbE05eHpiT0FzV2JwSWc0WVAtVWNoUk9PVHJqbnVFeHhkRG1NTG1ESHBQSkxXVVY5V05OUzlMUjdfY2FmWHh2MFhLcEVBQ2VxM3hBRGRjMW5fOE1lZFVEM0JwcWNQMVNvaUs0QkN4MUVRLUVXZHhhcEVj?oc=5",
+      "source": "www.wam.ae",
+      "category": "World",
+      "publishedAt": "2026-11-15T15:12:32Z"
     },
     {
       "id": "4e8457cd77c99f77f656",
@@ -2745,48 +2878,8 @@
       "source": "Joburg ETC",
       "category": "Disaster",
       "publishedAt": "2026-11-09T12:30:57Z"
-    },
-    {
-      "id": "59d6a40414c108ff8c9a",
-      "title": "How the smart cities mission is reshaping Uttar Pradesh's urban landscape - India Today",
-      "description": "How the smart cities mission is reshaping Uttar Pradesh's urban landscape India Today",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdjRjM1dZQ1RSV1A3OW1NeDVScVd2YWVwMUdId21uRldyTkNFT3RMYlNSQmkyYURueFFaLV9DdGZ0OFhQSnYxemJNb2ozbkMtUVNjSVotbUF4NlhuQkVvYXR6aFRiYUhXaEZQdWpqUjliYUlHRFJrNEFqcktjcjlRbVNBb20tTl92dkpjQUctMllsbDl1LUk0WGIwcWdfSmw0S2JNeWdWazZSVDctZzBLVTZEZmZ4QzJHOE5obl9RQlhfNzdFLXNUZTltWkhRMmZmTF9rTXRLOTZyWWhOUk5yVTN30gHnAUFVX3lxTE81VUVqLS1QcktDc2lTVG5IdVZrWXZMVFF4MWF1SHlJbDBTVm1zSDByeEotOUc5dGloVm5EMzJmMHdfMl9ydFJ2TmQ3bWU5a1J0NTdhSEJUZHN3bzVkY3lyRUkyNll5VUdPd2dsdzNfNXMtUTZMWWZLakpUbWRpTGw0T0VnNzUwSWpncE5KQzR2RlNLcDQ2MUtEOFdhV3RpdkJfdTRzWV9XUlNlb3Uydy1GV2pwVTdFeE1XZ255TTN6bGlZV2NxNVU4Njc2TVg4bXZ3MzFjZGdlYTI4ZnM2VjNoRHJxdVJKSQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdjRjM1dZQ1RSV1A3OW1NeDVScVd2YWVwMUdId21uRldyTkNFT3RMYlNSQmkyYURueFFaLV9DdGZ0OFhQSnYxemJNb2ozbkMtUVNjSVotbUF4NlhuQkVvYXR6aFRiYUhXaEZQdWpqUjliYUlHRFJrNEFqcktjcjlRbVNBb20tTl92dkpjQUctMllsbDl1LUk0WGIwcWdfSmw0S2JNeWdWazZSVDctZzBLVTZEZmZ4QzJHOE5obl9RQlhfNzdFLXNUZTltWkhRMmZmTF9rTXRLOTZyWWhOUk5yVTN30gHnAUFVX3lxTE81VUVqLS1QcktDc2lTVG5IdVZrWXZMVFF4MWF1SHlJbDBTVm1zSDByeEotOUc5dGloVm5EMzJmMHdfMl9ydFJ2TmQ3bWU5a1J0NTdhSEJUZHN3bzVkY3lyRUkyNll5VUdPd2dsdzNfNXMtUTZMWWZLakpUbWRpTGw0T0VnNzUwSWpncE5KQzR2RlNLcDQ2MUtEOFdhV3RpdkJfdTRzWV9XUlNlb3Uydy1GV2pwVTdFeE1XZ255TTN6bGlZV2NxNVU4Njc2TVg4bXZ3MzFjZGdlYTI4ZnM2VjNoRHJxdVJKSQ?oc=5",
-      "source": "India Today",
-      "category": "India",
-      "publishedAt": "2026-11-09T10:41:55Z"
-    },
-    {
-      "id": "05e6bf42cc67a702267f",
-      "title": "Tamil Nadu approves new PSU for infrastructure projects worth over Rs 200 crore - PSU Watch",
-      "description": "Tamil Nadu approves new PSU for infrastructure projects worth over Rs 200 crore PSU Watch",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRFo2dlk0cldrSVh4YmkyTlFYaU5mQnBiTUc0RzdMYmFvQ1JKbjktUVJQZjU2SmkxQ2ctYjYtNVpqU25HV3ZWU2x2LWw0Skc3YU14cUxXNzBjd0hxUTFMVkRsenIwLXY4ajZzZThaN2dzSXpraW5VS2lPYUpIWlV1WHY3YjdNZkFKNmVtem5WMGRnVjAwcWtJOGJFVmtuUUtTbGRGOWZZVHJrSk9ZVkVwWVpn0gG_AUFVX3lxTE9VNjFjN1oyZUNTODZlZHpCaXQ1aXdaYW1uUFpwYnN3UTdpNkxrdUlTdHl0cWlxa2pmRXdEYW51a3JQZnJ2SFFCT0xHTGZ2S0hGbFJnaElXWGZDbWozQlJFOGlPWWpRQlVDYzdCdEdPbjJpdWlQZ0V5dzBfcERTT2VUbHl3eUpaNE9QY2NvenQxbFJRYXJEM0ZLYnV6ZGpDN19nNHVzSkZuSzcwN05QeWFDek1EQ3BwSTg2RjQ3WkNJ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRFo2dlk0cldrSVh4YmkyTlFYaU5mQnBiTUc0RzdMYmFvQ1JKbjktUVJQZjU2SmkxQ2ctYjYtNVpqU25HV3ZWU2x2LWw0Skc3YU14cUxXNzBjd0hxUTFMVkRsenIwLXY4ajZzZThaN2dzSXpraW5VS2lPYUpIWlV1WHY3YjdNZkFKNmVtem5WMGRnVjAwcWtJOGJFVmtuUUtTbGRGOWZZVHJrSk9ZVkVwWVpn0gG_AUFVX3lxTE9VNjFjN1oyZUNTODZlZHpCaXQ1aXdaYW1uUFpwYnN3UTdpNkxrdUlTdHl0cWlxa2pmRXdEYW51a3JQZnJ2SFFCT0xHTGZ2S0hGbFJnaElXWGZDbWozQlJFOGlPWWpRQlVDYzdCdEdPbjJpdWlQZ0V5dzBfcERTT2VUbHl3eUpaNE9QY2NvenQxbFJRYXJEM0ZLYnV6ZGpDN19nNHVzSkZuSzcwN05QeWFDek1EQ3BwSTg2RjQ3WkNJ?oc=5",
-      "source": "PSU Watch",
-      "category": "India",
-      "publishedAt": "2026-11-09T09:50:14Z"
-    },
-    {
-      "id": "aa4a6f60ae939970c759",
-      "title": "Master Plan Meets Land: Planning Amaravati, India’s New State Capital - ArchDaily",
-      "description": "Master Plan Meets Land: Planning Amaravati, India’s New State Capital ArchDaily",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaHpIMUhJZU5BeDdNM1NYZGJhN0dROFpQd2lIcDNiSXFSazloMktvaFp5Mm5CZ1FEVDFGZllQYklwVEF1OWlLMTZSc2I3cWNsTjd3czllQURocEk5S3QtdmtRb2J6bjhYcjdkOHFLSzMxQV95NVAxajJ1YlJLWTdSQTVGZDJ1czVwV3RDSmZ3YUx2aE1hc1RuSEE1cGVQZkZXNnc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaHpIMUhJZU5BeDdNM1NYZGJhN0dROFpQd2lIcDNiSXFSazloMktvaFp5Mm5CZ1FEVDFGZllQYklwVEF1OWlLMTZSc2I3cWNsTjd3czllQURocEk5S3QtdmtRb2J6bjhYcjdkOHFLSzMxQV95NVAxajJ1YlJLWTdSQTVGZDJ1czVwV3RDSmZ3YUx2aE1hc1RuSEE1cGVQZkZXNnc?oc=5",
-      "source": "ArchDaily",
-      "category": "India",
-      "publishedAt": "2026-11-09T09:00:00Z"
-    },
-    {
-      "id": "c4e62401208fde62eef7",
-      "title": "Last week, he participated in the \"2026 Smart City Expo World Congress\" in Barcelona, Spain. Various.. - 매일경제",
-      "description": "Last week, he participated in the \"2026 Smart City Expo World Congress\" in Barcelona, Spain. Various.. 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0za0hxMUx3dF9sYTNJYTVIYVJGeFJuTFloT2N6WFFZUE1YQUxEX0doaEMxYTloRXVjZHpSSFdJLS01V1RKM3RpNzFkcjdNcHNHcGpfd25mM0U?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0za0hxMUx3dF9sYTNJYTVIYVJGeFJuTFloT2N6WFFZUE1YQUxEX0doaEMxYTloRXVjZHpSSFdJLS01V1RKM3RpNzFkcjdNcHNHcGpfd25mM0U?oc=5",
-      "source": "매일경제",
-      "category": "Technology",
-      "publishedAt": "2026-11-09T07:54:01Z"
     }
   ],
-  "lastUpdated": "2026-11-16T02:38:01Z",
-  "updatedAt": "2026-11-16T02:38:01Z"
+  "lastUpdated": "2026-11-16T10:48:31Z",
+  "updatedAt": "2026-11-16T10:48:31Z"
 }
