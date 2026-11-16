@@ -240,35 +240,36 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-15T22:37:52Z",
-    "lastSuccessfulRun": "2026-11-15T22:37:52Z",
-    "lastUpdated": "2026-11-15T22:37:52Z",
-    "articlesAdded": 9,
+    "lastRun": "2026-11-16T02:38:01Z",
+    "lastSuccessfulRun": "2026-11-16T02:38:01Z",
+    "lastUpdated": "2026-11-16T02:38:01Z",
+    "articlesAdded": 10,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 40,
+    "duplicatesRemoved": 43,
     "failedSources": [],
     "newArticleIds": [
-      "0579550acb08542c8171",
-      "8ae04b651d48173a29d1",
-      "3be354e1ada5b2701b09",
-      "1e53501807e153f35eb4",
-      "4177802f3d14fb8ec256",
-      "6c72516039f62270991b",
-      "034cb1677774d6c15279",
-      "b2d6f8aaf96869fe0a2b",
-      "8106167d7783273a6d4f"
+      "c9c72d315c9cabc98bf2",
+      "a487ff4bfe50a89c36c4",
+      "a86b940ff1b3ef15ab70",
+      "048594510ce542f19db0",
+      "0a8782d65fa7e3089266",
+      "f5d1f775cd8b6effa5f8",
+      "51e09054be4adfce1ef3",
+      "6a05e76f7a49bf71840e",
+      "3941e1bb48ba2606edfd",
+      "af9b212a771c7ef0f01c"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 1,
+    "articlesRemoved": 0,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 241,
+    "totalArticles": 251,
     "categories": {
-      "World": 132,
+      "World": 138,
       "India": 19,
-      "Technology": 12,
-      "Environment": 68,
+      "Technology": 13,
+      "Environment": 71,
       "Disaster": 10
     },
     "successfulSources": 9,
@@ -276,14 +277,44 @@
   },
   "articles": [
     {
-      "id": "0579550acb08542c8171",
-      "title": "New Zealanders find international karting success as Thomasen crowned world champion, Hart second - VelocityNews",
-      "description": "New Zealanders find international karting success as Thomasen crowned world champion, Hart second VelocityNews",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFdqZzdOUUlnRzd6MjFKanBDVG54dkhwNmtpVGY2M3Z2WmNqSzFRTWhuNFdhS3BtWVdiT2EzNkVtOXdrcjRpaG1xSVpmNmt2VFhpZ0xXV2ZKcGhuSDNQcXp5aXRYem5MVVhWaU8wbnhlbWZKRktwRDNpdnB2dGkwb1h3WVR1R1k5WTJobWExTlJVWGtTanNKakJiZHUtTnN3N0wyOGR0RU91MGlYdWZVN3Nsay1oTHkxbnlxN09sOEg5R3BldFRN?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFdqZzdOUUlnRzd6MjFKanBDVG54dkhwNmtpVGY2M3Z2WmNqSzFRTWhuNFdhS3BtWVdiT2EzNkVtOXdrcjRpaG1xSVpmNmt2VFhpZ0xXV2ZKcGhuSDNQcXp5aXRYem5MVVhWaU8wbnhlbWZKRktwRDNpdnB2dGkwb1h3WVR1R1k5WTJobWExTlJVWGtTanNKakJiZHUtTnN3N0wyOGR0RU91MGlYdWZVN3Nsay1oTHkxbnlxN09sOEg5R3BldFRN?oc=5",
-      "source": "VelocityNews",
+      "id": "c9c72d315c9cabc98bf2",
+      "title": "US universities face international student enrollment decline as Trump tightens visa and work rules | Hindustan Times - Hindustan Times",
+      "description": "US universities face international student enrollment decline as Trump tightens visa and work rules | Hindustan Times Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOT0h4NzhGS3htZnRVN0kxZ0plaUxCSENhWHlZeldQQ2dDOWFzV3haMGxRSTNDcFk3N2NJTUV0SUJtMkRaRmV2ajlDeGVJMGl1VUdBbDVEOVBzdF9NaFl1Q0JSMDFiMnRBdzRYLWYxZTgxWTY5eXBhbFdtMXJqNkJtUDF3WVJsR0JtTTRHT21PazNxbXFTVzJfX243dTdrR1NhMmZ3cDlBY1dINGk3cmFzSHhGQmpRZXlHSnFiWGY2clBIaGZDR3VYSTZEOWVaeWJOeWxINUQwemFybUFjdVptRW9mREZZT2NRRzFSbVl1WUstRU9wc1hraFI3QS1ZOUHSAYQCQVVfeXFMTmJHcDJKT185ZlFkbm9jdDY4RzJiR1ozTDZCNXFacVZXSFUyOFJGT2pmMVBobS0wOHlfTTUzRktlenVHaXZkd3ZqNThuT0hBZ1dEdUtDMHhmcEFoZWhOWVhISnNOLXl6SUxUUkZaT1dYS2ZVRWhWeTRuMHdrZVVIamtfbUczMVVuaV9kdlk3LWl5dXIzNFUzVzJNdEdYd194QkxVTjNXck5NMXRDSWxreFNyUjZqdjJBWHFIRjZ5WldtQVhmdHlPRnRpTzROTHFtQ0hGMDlRMGlzbjJFYkk3TkpHXzg1eVlzY3oxUDRaWXEzZXRJWmRNWlFsNkhTN0E2X2lKbFQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOT0h4NzhGS3htZnRVN0kxZ0plaUxCSENhWHlZeldQQ2dDOWFzV3haMGxRSTNDcFk3N2NJTUV0SUJtMkRaRmV2ajlDeGVJMGl1VUdBbDVEOVBzdF9NaFl1Q0JSMDFiMnRBdzRYLWYxZTgxWTY5eXBhbFdtMXJqNkJtUDF3WVJsR0JtTTRHT21PazNxbXFTVzJfX243dTdrR1NhMmZ3cDlBY1dINGk3cmFzSHhGQmpRZXlHSnFiWGY2clBIaGZDR3VYSTZEOWVaeWJOeWxINUQwemFybUFjdVptRW9mREZZT2NRRzFSbVl1WUstRU9wc1hraFI3QS1ZOUHSAYQCQVVfeXFMTmJHcDJKT185ZlFkbm9jdDY4RzJiR1ozTDZCNXFacVZXSFUyOFJGT2pmMVBobS0wOHlfTTUzRktlenVHaXZkd3ZqNThuT0hBZ1dEdUtDMHhmcEFoZWhOWVhISnNOLXl6SUxUUkZaT1dYS2ZVRWhWeTRuMHdrZVVIamtfbUczMVVuaV9kdlk3LWl5dXIzNFUzVzJNdEdYd194QkxVTjNXck5NMXRDSWxreFNyUjZqdjJBWHFIRjZ5WldtQVhmdHlPRnRpTzROTHFtQ0hGMDlRMGlzbjJFYkk3TkpHXzg1eVlzY3oxUDRaWXEzZXRJWmRNWlFsNkhTN0E2X2lKbFQ?oc=5",
+      "source": "Hindustan Times",
       "category": "World",
-      "publishedAt": "2026-11-15T20:49:52Z"
+      "publishedAt": "2026-11-16T01:11:37Z"
+    },
+    {
+      "id": "a487ff4bfe50a89c36c4",
+      "title": "Busan Promotes Its Smart City Technology Competitiveness in Spain - 파이낸셜뉴스",
+      "description": "Busan Promotes Its Smart City Technology Competitiveness in Spain 파이낸셜뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54dzhBS2FzSGJnbXV4RTZqemswNUpNQTFoYmpoUlBMZ1lCSjdIb0NxdDlHelpGOUo3WDRVbWFiVHRSQzFMLWg4bmpNT3FtVllYYUlseGZsc00?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54dzhBS2FzSGJnbXV4RTZqemswNUpNQTFoYmpoUlBMZ1lCSjdIb0NxdDlHelpGOUo3WDRVbWFiVHRSQzFMLWg4bmpNT3FtVllYYUlseGZsc00?oc=5",
+      "source": "파이낸셜뉴스",
+      "category": "Technology",
+      "publishedAt": "2026-11-16T00:47:22Z"
+    },
+    {
+      "id": "a86b940ff1b3ef15ab70",
+      "title": "FAA issues brief ground stop at Orlando International Airport after aircraft experiences blown tire - Hindustan Times",
+      "description": "FAA issues brief ground stop at Orlando International Airport after aircraft experiences blown tire Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPYktBU0pIcXlBR2J4eVYxd21VT3lUTkhhemQxSXBWYUY5YnVnc3BlZHZpUHo4UHZxQ0kxLWFpRFJaMEhDN01rWVY2bG44YmM2WF94djJ3Z215UldHLTZWb01nTGxvQmFZd0pMVUhoZ1BjbXkxQlNZME1COGZRbUl3RnAxOHpWaWpzNnlpbDFuNzA4ZnZDd0xnNW16enN3M1NtM3gxa3hkZHZEaHl0a1paZ3M5YVNGNEJUc3ZlVTNDVDMxLXprX3NuUk44bk85NEE3OWNkX2t4a0xZTWd4VkNTS0ZuZk9wU3otTi05RUREMDM0c0drXzR3MXlnMnA1ZzA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPYktBU0pIcXlBR2J4eVYxd21VT3lUTkhhemQxSXBWYUY5YnVnc3BlZHZpUHo4UHZxQ0kxLWFpRFJaMEhDN01rWVY2bG44YmM2WF94djJ3Z215UldHLTZWb01nTGxvQmFZd0pMVUhoZ1BjbXkxQlNZME1COGZRbUl3RnAxOHpWaWpzNnlpbDFuNzA4ZnZDd0xnNW16enN3M1NtM3gxa3hkZHZEaHl0a1paZ3M5YVNGNEJUc3ZlVTNDVDMxLXprX3NuUk44bk85NEE3OWNkX2t4a0xZTWd4VkNTS0ZuZk9wU3otTi05RUREMDM0c0drXzR3MXlnMnA1ZzA?oc=5",
+      "source": "Hindustan Times",
+      "category": "World",
+      "publishedAt": "2026-11-16T00:11:00Z"
+    },
+    {
+      "id": "048594510ce542f19db0",
+      "title": "Shaping the Future Together: Voices from Around the World at the III International Symposium 'Creating the Future' in Russia - TradingView",
+      "description": "Shaping the Future Together: Voices from Around the World at the III International Symposium 'Creating the Future' in Russia TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPZW1mSGZIVUZIYVIzYUwweHE2WHdNeFl6RklYNG1faEVhWDg4MDhGOGl1M2pEbU9QY1hBaGQyZFlnZDl3RzVJWTdsSlU2aUVPTlc4b3ZWeG82VE5xZVYyaXY2bnR2X3AzMVRLTzNXRkYxQlhsN1F4ZkQ2Yy11c1I5RmtTc3JLdGZrTkl5bDNLNnR0cGlxQzNobVdyUFk2a29jTGF6YV9oQThObFpIdEk3dkhuTlIwWW9OMS1scE9EUEpfRWllVVNNcFVyZDhHOFJwcGhieFhaZzc1d2YzRlBLTDIza3JTM2ZpU2ZjT2FJa2dseHd5QUpPS1p3Wk9Wd1NYbHBTWEZIWG5QRS1BYVlQdXJSQ2ZwRUpOVTk5bVBoQ3NENlk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPZW1mSGZIVUZIYVIzYUwweHE2WHdNeFl6RklYNG1faEVhWDg4MDhGOGl1M2pEbU9QY1hBaGQyZFlnZDl3RzVJWTdsSlU2aUVPTlc4b3ZWeG82VE5xZVYyaXY2bnR2X3AzMVRLTzNXRkYxQlhsN1F4ZkQ2Yy11c1I5RmtTc3JLdGZrTkl5bDNLNnR0cGlxQzNobVdyUFk2a29jTGF6YV9oQThObFpIdEk3dkhuTlIwWW9OMS1scE9EUEpfRWllVVNNcFVyZDhHOFJwcGhieFhaZzc1d2YzRlBLTDIza3JTM2ZpU2ZjT2FJa2dseHd5QUpPS1p3Wk9Wd1NYbHBTWEZIWG5QRS1BYVlQdXJSQ2ZwRUpOVTk5bVBoQ3NENlk?oc=5",
+      "source": "TradingView",
+      "category": "World",
+      "publishedAt": "2026-11-15T23:29:29Z"
     },
     {
       "id": "8ae04b651d48173a29d1",
@@ -293,7 +324,17 @@
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWDU1RFFwWXJial9MSUdyYmd3Z1pFWDlQOGJEV2JoVkY2dUtZaVNhV1ZIakljS2UzbDhYeHVxQUZUZXpHOFdSa2loU2QzN005NHplUHJtV1I4WndCZHp1X2pIbkpVaEd2VUlwb0R6d0Q4QTJ3TEw3Mm5vR0tXVzlZeVNISnZnODNEYWdoN052TXhBRWdwMU40Yjd5eVRRUGx6dVFvekRzVkNEWGdBdHpjZzI2bUttN081SG9xY05kejk0Rlp5Qk1wU1BLUlhFRXE1UVlzNw?oc=5",
       "source": "World of Showjumping",
       "category": "World",
-      "publishedAt": "2026-11-15T20:31:39Z"
+      "publishedAt": "2026-11-15T23:12:29Z"
+    },
+    {
+      "id": "0579550acb08542c8171",
+      "title": "New Zealanders find international karting success as Thomasen crowned world champion, Hart second - VelocityNews",
+      "description": "New Zealanders find international karting success as Thomasen crowned world champion, Hart second VelocityNews",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFdqZzdOUUlnRzd6MjFKanBDVG54dkhwNmtpVGY2M3Z2WmNqSzFRTWhuNFdhS3BtWVdiT2EzNkVtOXdrcjRpaG1xSVpmNmt2VFhpZ0xXV2ZKcGhuSDNQcXp5aXRYem5MVVhWaU8wbnhlbWZKRktwRDNpdnB2dGkwb1h3WVR1R1k5WTJobWExTlJVWGtTanNKakJiZHUtTnN3N0wyOGR0RU91MGlYdWZVN3Nsay1oTHkxbnlxN09sOEg5R3BldFRN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFdqZzdOUUlnRzd6MjFKanBDVG54dkhwNmtpVGY2M3Z2WmNqSzFRTWhuNFdhS3BtWVdiT2EzNkVtOXdrcjRpaG1xSVpmNmt2VFhpZ0xXV2ZKcGhuSDNQcXp5aXRYem5MVVhWaU8wbnhlbWZKRktwRDNpdnB2dGkwb1h3WVR1R1k5WTJobWExTlJVWGtTanNKakJiZHUtTnN3N0wyOGR0RU91MGlYdWZVN3Nsay1oTHkxbnlxN09sOEg5R3BldFRN?oc=5",
+      "source": "VelocityNews",
+      "category": "World",
+      "publishedAt": "2026-11-15T20:49:52Z"
     },
     {
       "id": "6a481e6d7410326d4709",
@@ -346,6 +387,16 @@
       "publishedAt": "2026-11-15T17:00:00Z"
     },
     {
+      "id": "0a8782d65fa7e3089266",
+      "title": "UN chief says 'immediate and drastic' emissions cuts needed to avert climate change catastrophe - WBRZ",
+      "description": "UN chief says 'immediate and drastic' emissions cuts needed to avert climate change catastrophe WBRZ",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk9QZ1VTTXA1dkQ4ZF85TDVIa0hCdXpRYWI0NUpVQWR4UVBPNWROOVVrYWJpQzRWNzI2ZWc2bndueWNxZzBzREFwb09uUEFiV3N0X0JnVWYtNEMtanpOVllYWGdwLTJvejBveEpZeVI4d1RJemxyNERIU1hxcTQxa1Z3TE9BODQtN1VELWZJNi1oWDdXbnc5cjluZDVRblpEdm5udmFiVWZtZmtaaGdzQThYZ05Ja1dnYXl4SQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk9QZ1VTTXA1dkQ4ZF85TDVIa0hCdXpRYWI0NUpVQWR4UVBPNWROOVVrYWJpQzRWNzI2ZWc2bndueWNxZzBzREFwb09uUEFiV3N0X0JnVWYtNEMtanpOVllYWGdwLTJvejBveEpZeVI4d1RJemxyNERIU1hxcTQxa1Z3TE9BODQtN1VELWZJNi1oWDdXbnc5cjluZDVRblpEdm5udmFiVWZtZmtaaGdzQThYZ05Ja1dnYXl4SQ?oc=5",
+      "source": "WBRZ",
+      "category": "Environment",
+      "publishedAt": "2026-11-15T16:38:03Z"
+    },
+    {
       "id": "0b4555d6b0d89f2ac567",
       "title": "Arunachal: International adventure racing teams experience traditional bamboo rafting ahead of Mechukha Championship qualifier - India Today NE",
       "description": "Arunachal: International adventure racing teams experience traditional bamboo rafting ahead of Mechukha Championship qualifier India Today NE",
@@ -374,6 +425,16 @@
       "source": "Vietnam.vn",
       "category": "Technology",
       "publishedAt": "2026-11-15T14:44:07Z"
+    },
+    {
+      "id": "f5d1f775cd8b6effa5f8",
+      "title": "Prague metro services limited due to pro-media protest — Radio Prague International - UA.NEWS",
+      "description": "Prague metro services limited due to pro-media protest — Radio Prague International UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVEw2bm9lZ21vdUM5a2luRVdMbUxJek5qREFERng4Q0xCUEZDVTA3OUhsVnljOXdQeVd0Tjg0UjZ0WHFuVnhVSmdINGVWczI5d204Sk5rc000YVlmQi1YY21LV1RPZ0EtUE92WHNHXzhDemVRbVNPZ1Zxd2h4djFJaVVOSHZqbDF6QmVMUDNIZmpSLUZwbU92SGlTZEViLUx3RUlZNnpjQ1E5alpMZjZNWjRBZ2NFR3BiVlUyUko3TUxWUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVEw2bm9lZ21vdUM5a2luRVdMbUxJek5qREFERng4Q0xCUEZDVTA3OUhsVnljOXdQeVd0Tjg0UjZ0WHFuVnhVSmdINGVWczI5d204Sk5rc000YVlmQi1YY21LV1RPZ0EtUE92WHNHXzhDemVRbVNPZ1Zxd2h4djFJaVVOSHZqbDF6QmVMUDNIZmpSLUZwbU92SGlTZEViLUx3RUlZNnpjQ1E5alpMZjZNWjRBZ2NFR3BiVlUyUko3TUxWUQ?oc=5",
+      "source": "UA.NEWS",
+      "category": "World",
+      "publishedAt": "2026-11-15T14:15:58Z"
     },
     {
       "id": "034cb1677774d6c15279",
@@ -476,6 +537,16 @@
       "publishedAt": "2026-11-15T08:58:47Z"
     },
     {
+      "id": "51e09054be4adfce1ef3",
+      "title": "COP31: Thousands in Antalya protest environmental damage: 'We no longer believe in those who lead us' - Le Monde.fr",
+      "description": "COP31: Thousands in Antalya protest environmental damage: 'We no longer believe in those who lead us' Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUVgzT2ZKanJhWURWOFdzU3ZsaV91ckJjcW5OdHpKUFNzcGJRQVdwQ2YtTTFobVZqQ0tucDZRVzBXZDJJVlNYMXBETjREMXF0SVMwWUNLZlZGT1dNQ0UzRVZnSWlnejZuZVFJX3RIck1hNUxObXE5OHlnNERkczVSM2NEbWc1OWNKelBWckVWTnVWcmoyWkVIM2d0Vnk1QkJuVjJRWnc4d3FMbzZ2UE5leWwxdHNJcjRXWkJnQ25xblMycnh2bDNMTDFnenhyblFFNWNfeFY0ajFCLUZISEhsdVNuM2VVNEFrSDlDOVZGMll4b2ZOX05WOFhuVkdZOXlU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUVgzT2ZKanJhWURWOFdzU3ZsaV91ckJjcW5OdHpKUFNzcGJRQVdwQ2YtTTFobVZqQ0tucDZRVzBXZDJJVlNYMXBETjREMXF0SVMwWUNLZlZGT1dNQ0UzRVZnSWlnejZuZVFJX3RIck1hNUxObXE5OHlnNERkczVSM2NEbWc1OWNKelBWckVWTnVWcmoyWkVIM2d0Vnk1QkJuVjJRWnc4d3FMbzZ2UE5leWwxdHNJcjRXWkJnQ25xblMycnh2bDNMTDFnenhyblFFNWNfeFY0ajFCLUZISEhsdVNuM2VVNEFrSDlDOVZGMll4b2ZOX05WOFhuVkdZOXlU?oc=5",
+      "source": "Le Monde.fr",
+      "category": "Environment",
+      "publishedAt": "2026-11-15T08:52:38Z"
+    },
+    {
       "id": "8955ae56ce4d347026cb",
       "title": "Australia beats New Zealand in Women's Rugby League World Cup Final - The News International",
       "description": "Australia beats New Zealand in Women's Rugby League World Cup Final The News International",
@@ -514,6 +585,16 @@
       "source": "University World News",
       "category": "World",
       "publishedAt": "2026-11-15T07:00:40Z"
+    },
+    {
+      "id": "6a05e76f7a49bf71840e",
+      "title": "Japan Beat Brazil 3-2 to Avenge World Cup Defeat [Summary: International Friendly Japan vs Brazil] - Ｊリーグ公式サイト",
+      "description": "Japan Beat Brazil 3-2 to Avenge World Cup Defeat [Summary: International Friendly Japan vs Brazil] Ｊリーグ公式サイト",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rQVlQYUxEQmJSbnVnY3NIbFVIc2dfX05Ta2FpZXRvNkVnanRFY1d6VlVpTnZ0NllWMXBoYzVKb1JzM1NRS0ktQ1dYR0lhcGdwRm51bHpBRndiNVp1SFlwZ0NQRDM5aG80?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rQVlQYUxEQmJSbnVnY3NIbFVIc2dfX05Ta2FpZXRvNkVnanRFY1d6VlVpTnZ0NllWMXBoYzVKb1JzM1NRS0ktQ1dYR0lhcGdwRm51bHpBRndiNVp1SFlwZ0NQRDM5aG80?oc=5",
+      "source": "Ｊリーグ公式サイト",
+      "category": "World",
+      "publishedAt": "2026-11-15T07:00:00Z"
     },
     {
       "id": "4a0e1cb54ef4a11ad8f0",
@@ -1046,6 +1127,16 @@
       "publishedAt": "2026-11-13T18:37:15Z"
     },
     {
+      "id": "3941e1bb48ba2606edfd",
+      "title": "Survey finds near-universal belief in global warming in India, but weak grasp of causes - Yale School of the Environment",
+      "description": "Survey finds near-universal belief in global warming in India, but weak grasp of causes Yale School of the Environment",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdDVLNG40M3ByNzBjbC1qcTk4QzNid3VBcmNRMDRFN3NDUjRVSjE0aEJUMnZHa3ozRmhLRFNyeThwVjlpRWFyaGRxQmkzaGdNZy0zMkt6dHNZeW1jd3BvUnl1NmdXMm1sUzV4VHNHbmduWEtPeWVGT1hxSHc4UEludU5MMVN2QlZGZEdZTm9jb1N1Q3VydlpESDUwandKVWxoQkk1TjRna2JSa29BaHFFZzBtNUoyZVU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdDVLNG40M3ByNzBjbC1qcTk4QzNid3VBcmNRMDRFN3NDUjRVSjE0aEJUMnZHa3ozRmhLRFNyeThwVjlpRWFyaGRxQmkzaGdNZy0zMkt6dHNZeW1jd3BvUnl1NmdXMm1sUzV4VHNHbmduWEtPeWVGT1hxSHc4UEludU5MMVN2QlZGZEdZTm9jb1N1Q3VydlpESDUwandKVWxoQkk1TjRna2JSa29BaHFFZzBtNUoyZVU?oc=5",
+      "source": "Yale School of the Environment",
+      "category": "Environment",
+      "publishedAt": "2026-11-13T18:09:38Z"
+    },
+    {
       "id": "c961906f76de85509c4a",
       "title": "What in the World? - Foreign Policy",
       "description": "What in the World? Foreign Policy",
@@ -1102,6 +1193,16 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONk1HUHFJVFE0bTFWYnpIQjJlSEFoYlFIUzE3TG9aNlprc0lPNkYwNmExd0h2Y0RGUTY3U0JEbTdyRVhWLTE2MldvWE0xcXQyckQxak9HWElfbXdVd1N1Wm4zdmJDQkxnemRScG5Gd1RpNkgzSkFyUGhVYkZVYWFscXBRNWdua285bmNIWTdSdDk1ekNzNkhoN19wdFBRSEpCeTFrVW9ySm5SNGVaSnVmeGlpTzhmTDR0?oc=5",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONk1HUHFJVFE0bTFWYnpIQjJlSEFoYlFIUzE3TG9aNlprc0lPNkYwNmExd0h2Y0RGUTY3U0JEbTdyRVhWLTE2MldvWE0xcXQyckQxak9HWElfbXdVd1N1Wm4zdmJDQkxnemRScG5Gd1RpNkgzSkFyUGhVYkZVYWFscXBRNWdua285bmNIWTdSdDk1ekNzNkhoN19wdFBRSEpCeTFrVW9ySm5SNGVaSnVmeGlpTzhmTDR0?oc=5",
       "source": "Audacy",
+      "category": "World",
+      "publishedAt": "2026-11-13T17:36:00Z"
+    },
+    {
+      "id": "af9b212a771c7ef0f01c",
+      "title": "International Criminal Court Limits Afghanistan Investigation to Taliban Crimes - U.S. News & World Report",
+      "description": "International Criminal Court Limits Afghanistan Investigation to Taliban Crimes U.S. News & World Report",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVUpOLTJoQ2lFUEZHb0VrRklWZHdUTVhROWdGRWhDQ3laNHJEUEo0UW8zUFBiSjZaUWxxcmZMY0R4endpNTBGMUd3ZHppY1lyWUZldGtCcWg3eDVXYTUya0VOTHBnWmtjRjU5dXdScTRUQUpiT0pVSG5JdGQ1S2JHbEZVLVF1YTVSdXdGR0NRdlpobUN0RjBGejJjalFWdjA0UjJFdXpxU0phODVaRmF6eXNFQU5uY1V1SkxxSGdFT0I4TVRGMExUQTBGVlgtQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVUpOLTJoQ2lFUEZHb0VrRklWZHdUTVhROWdGRWhDQ3laNHJEUEo0UW8zUFBiSjZaUWxxcmZMY0R4endpNTBGMUd3ZHppY1lyWUZldGtCcWg3eDVXYTUya0VOTHBnWmtjRjU5dXdScTRUQUpiT0pVSG5JdGQ1S2JHbEZVLVF1YTVSdXdGR0NRdlpobUN0RjBGejJjalFWdjA0UjJFdXpxU0phODVaRmF6eXNFQU5uY1V1SkxxSGdFT0I4TVRGMExUQTBGVlgtQQ?oc=5",
+      "source": "U.S. News & World Report",
       "category": "World",
       "publishedAt": "2026-11-13T17:36:00Z"
     },
@@ -2686,6 +2787,6 @@
       "publishedAt": "2026-11-09T07:54:01Z"
     }
   ],
-  "lastUpdated": "2026-11-15T22:37:52Z",
-  "updatedAt": "2026-11-15T22:37:52Z"
+  "lastUpdated": "2026-11-16T02:38:01Z",
+  "updatedAt": "2026-11-16T02:38:01Z"
 }
