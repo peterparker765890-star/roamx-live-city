@@ -240,63 +240,158 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-16T20:51:37Z",
-    "lastSuccessfulRun": "2026-11-16T20:51:37Z",
-    "lastUpdated": "2026-11-16T20:51:37Z",
-    "articlesAdded": 22,
+    "lastRun": "2026-11-17T03:31:35Z",
+    "lastSuccessfulRun": "2026-11-17T03:31:35Z",
+    "lastUpdated": "2026-11-17T03:31:35Z",
+    "articlesAdded": 16,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 14,
-    "failedSources": [
-      {
-        "source": "environment_news",
-        "error": "HTTP Error 429: Too Many Requests"
-      },
-      {
-        "source": "disaster_global",
-        "error": "HTTP Error 429: Too Many Requests"
-      }
-    ],
+    "duplicatesRemoved": 34,
+    "failedSources": [],
     "newArticleIds": [
-      "6cf1a1165288df9b0fdb",
-      "12b031e7eeacd2098624",
-      "8564f5fa039c43e02137",
-      "c645dfacc2c9a26e1cd6",
-      "017066b230dc7c7e26c3",
-      "6c37da2965d9c2caf6e6",
-      "f54804fefe5449fa568e",
-      "eaaadabfeac914c6b48a",
-      "420e4b3e744ce2a27f2f",
-      "85687b28d653abf6553c",
-      "e57fe0df4ba6dbd0a56f",
-      "1375638f63f2af1f52b3",
-      "80469dafd7341af9d1cf",
-      "b6257c3876a747b7220d",
-      "5c49a01e44ccb8a52f16",
-      "96c0378125db351a1133",
-      "d6ae4cad2b3434bf1c58",
-      "e718f2bcf79bf7b6fbcc",
-      "7ea31e56dcdcff12c599",
-      "09b992f14d7bdc11adac",
-      "d05d2929aa56f2437cf6",
-      "820600ca41000b9ae3a4"
+      "eb0207be636f2795053b",
+      "f44b2e334cd23d71e158",
+      "3fac009d773d444e6e35",
+      "01601ca95d676f69aacc",
+      "4fdf4462fa7a239eed12",
+      "42865bed28aff81966b5",
+      "5571a104c2c1868bf4a4",
+      "aafdfc3b9a3cdbba858d",
+      "1e3050ced000d9e2cd77",
+      "25100fce8fe78eda9cb1",
+      "129aacbd27e1473ca401",
+      "e00fe9ee7ed0a74ad20f",
+      "ad133f16595ee1b5b567",
+      "d8f352bd324f1a689bac",
+      "a56de6b52553c82a6ab9",
+      "06311224c8630632c79e"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 8,
-    "successfulSources": 7
+    "articlesRemoved": 2,
+    "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 274,
+    "totalArticles": 288,
     "categories": {
-      "World": 162,
-      "India": 20,
-      "Technology": 16,
-      "Environment": 69,
-      "Disaster": 7
+      "World": 170,
+      "India": 19,
+      "Technology": 17,
+      "Environment": 74,
+      "Disaster": 8
     },
-    "successfulSources": 7,
-    "failedSources": 2
+    "successfulSources": 9,
+    "failedSources": 0
   },
   "articles": [
+    {
+      "id": "eb0207be636f2795053b",
+      "title": "Pakistan urges sustained international support for Syria’s reconstruction at UN - UrduPoint",
+      "description": "Pakistan urges sustained international support for Syria’s reconstruction at UN UrduPoint",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2V6UkZGSDRCYkZITVNrWktMdXZGZDdCRnhiZGl4NzJuVzd5VXVXNVdlZjNELVVFRmctaC1qeTZybXkzQ29qTEFSNWxoZjFodHNXVGZiQlpSbExoVHBzVVdWb1lBUUtCbnRjM2xjTFN3dEV2Y1RVN2hrUEdpVmdSbnRXWGZyaDZ2Z0F1M0tyLUJSY2I3dVR3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS2V6UkZGSDRCYkZITVNrWktMdXZGZDdCRnhiZGl4NzJuVzd5VXVXNVdlZjNELVVFRmctaC1qeTZybXkzQ29qTEFSNWxoZjFodHNXVGZiQlpSbExoVHBzVVdWb1lBUUtCbnRjM2xjTFN3dEV2Y1RVN2hrUEdpVmdSbnRXWGZyaDZ2Z0F1M0tyLUJSY2I3dVR3?oc=5",
+      "source": "UrduPoint",
+      "category": "World",
+      "publishedAt": "2026-11-17T03:10:06Z"
+    },
+    {
+      "id": "f44b2e334cd23d71e158",
+      "title": "US Court Strikes Down Fixed Stay Rule For International Students, Exchange Visitors - Ommcom News",
+      "description": "US Court Strikes Down Fixed Stay Rule For International Students, Exchange Visitors Ommcom News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSHJBMFNIOS0zWThlUmFLZ3BLTDN4OWFIZWxKODB3Tjlmc2I4MWN1WWZ0VXdMSWo2SlVLazZvdU9DdzBtWEdOYzNxNk1KNjB2eFV1b29mcnNPY282eGF3emhiNjJNZnJYWXBKekRVRUloUnNrNllJZk9HRTRCVWxobVZNX3c1aGYxa2J4Z2NXdFZaUU1oclhXb2tGaU9BQ1ZYU21MTFNRX05uR2lXZmtmbGt1cjlWb2VD?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSHJBMFNIOS0zWThlUmFLZ3BLTDN4OWFIZWxKODB3Tjlmc2I4MWN1WWZ0VXdMSWo2SlVLazZvdU9DdzBtWEdOYzNxNk1KNjB2eFV1b29mcnNPY282eGF3emhiNjJNZnJYWXBKekRVRUloUnNrNllJZk9HRTRCVWxobVZNX3c1aGYxa2J4Z2NXdFZaUU1oclhXb2tGaU9BQ1ZYU21MTFNRX05uR2lXZmtmbGt1cjlWb2VD?oc=5",
+      "source": "Ommcom News",
+      "category": "World",
+      "publishedAt": "2026-11-17T02:52:31Z"
+    },
+    {
+      "id": "3fac009d773d444e6e35",
+      "title": "Megan Young joins Miss Grand International All-Stars judging panel - The Manila Times",
+      "description": "Megan Young joins Miss Grand International All-Stars judging panel The Manila Times",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWFlEb25odGVaQVhkNjhydTRkbzN0dDVPWEVoSElabjRWZ21rY3Q4VExHeThlVS1PTVh5Y1VIS0ljTElTQlNvaWlkUFhSQ2pnVkp3NkhwcTJhTEJsVExtQ2V0RDczOEdBdkFxWEZXenRfUEUwcGZQTjVrTktCd2JJbm1YRGlHTFk1cS00dVd2OFZ0NEpGVzZkYWUyeXFzNmY2aUx3UU02cV81a2NZeldZc2Mwbng2czRoeUZHM1F6RWplVERVTG5GTndCd2tKblNCQjZhd0tjaE9Wa0FQU2JiUWR30gHnAUFVX3lxTFBTcXVqaUJfYjQxMEYxbzB6WlJuOXA5Nm9aZTg2aVBJaG9Qa2VmcG9MWkFQVC1rQ0F1S1AwcTBKbm1kN0x3anllekEtekg1SmVqTHFJMW9aQ3hGbVh5bzBOcUo0ZEJLZ2Q5T08tTFVpeDZPUmdIWmlhSExfUFhoM1hqZzBaRGhwaTZvZ3l0cGZlb2l5SGhHU0ZRaUhHRUlHZEd1bElEcTljSjVIcHlFcFl3eHdncmRieVZHUGhIYW9IbGpaNFhWanNPbmxlM0dmUmc4aHd1WTFiQzV2NnRLOHJqNFhDaEY2NA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWFlEb25odGVaQVhkNjhydTRkbzN0dDVPWEVoSElabjRWZ21rY3Q4VExHeThlVS1PTVh5Y1VIS0ljTElTQlNvaWlkUFhSQ2pnVkp3NkhwcTJhTEJsVExtQ2V0RDczOEdBdkFxWEZXenRfUEUwcGZQTjVrTktCd2JJbm1YRGlHTFk1cS00dVd2OFZ0NEpGVzZkYWUyeXFzNmY2aUx3UU02cV81a2NZeldZc2Mwbng2czRoeUZHM1F6RWplVERVTG5GTndCd2tKblNCQjZhd0tjaE9Wa0FQU2JiUWR30gHnAUFVX3lxTFBTcXVqaUJfYjQxMEYxbzB6WlJuOXA5Nm9aZTg2aVBJaG9Qa2VmcG9MWkFQVC1rQ0F1S1AwcTBKbm1kN0x3anllekEtekg1SmVqTHFJMW9aQ3hGbVh5bzBOcUo0ZEJLZ2Q5T08tTFVpeDZPUmdIWmlhSExfUFhoM1hqZzBaRGhwaTZvZ3l0cGZlb2l5SGhHU0ZRaUhHRUlHZEd1bElEcTljSjVIcHlFcFl3eHdncmRieVZHUGhIYW9IbGpaNFhWanNPbmxlM0dmUmc4aHd1WTFiQzV2NnRLOHJqNFhDaEY2NA?oc=5",
+      "source": "The Manila Times",
+      "category": "World",
+      "publishedAt": "2026-11-17T02:49:00Z"
+    },
+    {
+      "id": "01601ca95d676f69aacc",
+      "title": "Environmental security – the foundation for sustainable development. - Vietnam.vn",
+      "description": "Environmental security – the foundation for sustainable development. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcklhNWdaQkVFQ3ZxUFNoX1FPTXJFalY3bVROZE4wY2ZGS2pHdlFDRzNzTzk5VVA4bjNlVVhxOHdpLURPMEpwSXBpVEtHd1dldWFxRjBVdlNwakpfMmFLQTVWTUF3VmFXYWlWZUZwM2lDNXRjY1ViZmtyVmhUWkY1WkFn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcklhNWdaQkVFQ3ZxUFNoX1FPTXJFalY3bVROZE4wY2ZGS2pHdlFDRzNzTzk5VVA4bjNlVVhxOHdpLURPMEpwSXBpVEtHd1dldWFxRjBVdlNwakpfMmFLQTVWTUF3VmFXYWlWZUZwM2lDNXRjY1ViZmtyVmhUWkY1WkFn?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Environment",
+      "publishedAt": "2026-11-17T02:35:22Z"
+    },
+    {
+      "id": "4fdf4462fa7a239eed12",
+      "title": "Crazy Taxi: World Tour Reveals India as Its Final International Map - MonsterVine",
+      "description": "Crazy Taxi: World Tour Reveals India as Its Final International Map MonsterVine",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hQm5KRy13TTRlREFGV0FpbEJhMGxHQWxZQ1A2SHZubkdvenVDZjBObUlGT19mSzYxeVRtTlpoeHVKMHFIT25jbTRYQ1hvX1d2MS1RdU1VclB3Vy1MUy1CTm9mallESHNVTDBNaUtLLTNnZV90UnhiYkM2Yw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hQm5KRy13TTRlREFGV0FpbEJhMGxHQWxZQ1A2SHZubkdvenVDZjBObUlGT19mSzYxeVRtTlpoeHVKMHFIT25jbTRYQ1hvX1d2MS1RdU1VclB3Vy1MUy1CTm9mallESHNVTDBNaUtLLTNnZV90UnhiYkM2Yw?oc=5",
+      "source": "MonsterVine",
+      "category": "World",
+      "publishedAt": "2026-11-17T00:09:25Z"
+    },
+    {
+      "id": "42865bed28aff81966b5",
+      "title": "International student enrollments at US universities plunge this fall, data shows - The Guardian",
+      "description": "International student enrollments at US universities plunge this fall, data shows The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWGhoZjFfNWtlY1pOZzN6bzN3WjFhckk1MjFGYklaZk44elVCMEdwY1NPX2RleHhKM1BpYzRDcFIzNEJaWGtYYXo1dzUzSEtlYjN0dUx2dFJBVjljMnR0aEp6eF8zUkVaUnlhdXdyQk9MWmJQeW5uMlFaMXc2XzBXU2FWUUJwSUptVXpDSzBOR0Y2UmM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWGhoZjFfNWtlY1pOZzN6bzN3WjFhckk1MjFGYklaZk44elVCMEdwY1NPX2RleHhKM1BpYzRDcFIzNEJaWGtYYXo1dzUzSEtlYjN0dUx2dFJBVjljMnR0aEp6eF8zUkVaUnlhdXdyQk9MWmJQeW5uMlFaMXc2XzBXU2FWUUJwSUptVXpDSzBOR0Y2UmM?oc=5",
+      "source": "The Guardian",
+      "category": "World",
+      "publishedAt": "2026-11-16T23:54:00Z"
+    },
+    {
+      "id": "5571a104c2c1868bf4a4",
+      "title": "Ho Chi Minh City proposes 200-hectare science and technology urban area - Vietnam Economic Times",
+      "description": "Ho Chi Minh City proposes 200-hectare science and technology urban area Vietnam Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa2FjdXhjbi1wOE4xTFE1QzVsZGpkMnRobUlfM0JwYmVLZWVway1iYXE3emozcVZiRWptMVJXNFl5WDNhM2RxT2hVQ1EzMEhhNmhxYWl6N2owZERyNmhnYmNLaC1oY3FEQ3NBQTBZeUhqM1JSazZXUGl6N0hFZTFFQ0NUTmk1U19tOTRHbmpPUjIxU3d0Q3FlXzRzZ09UNzFZ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPa2FjdXhjbi1wOE4xTFE1QzVsZGpkMnRobUlfM0JwYmVLZWVway1iYXE3emozcVZiRWptMVJXNFl5WDNhM2RxT2hVQ1EzMEhhNmhxYWl6N2owZERyNmhnYmNLaC1oY3FEQ3NBQTBZeUhqM1JSazZXUGl6N0hFZTFFQ0NUTmk1U19tOTRHbmpPUjIxU3d0Q3FlXzRzZ09UNzFZ?oc=5",
+      "source": "Vietnam Economic Times",
+      "category": "Technology",
+      "publishedAt": "2026-11-16T23:10:00Z"
+    },
+    {
+      "id": "eaaadabfeac914c6b48a",
+      "title": "H.E. Metropolitan Konstantinos represents WCC at the 6th International Daoist Forum - World Council of Churches",
+      "description": "H.E. Metropolitan Konstantinos represents WCC at the 6th International Daoist Forum World Council of Churches",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQblc2TFh2MHhsV1dIS2QwbzhGbDlBQmZ5QW5JYnZuZVdYbzY5eUwwR1p4YnFNSGh5VjdKMFJwM2JxYTNZUWFrVFJjX21oN1dDT2xVMU90ZkloZFpPZkJTOGdfYmdNQWszd0F6VkVuai1pVnhPNEtta3dFTXkyWUhXMVVqNG1DN1dscks5eG5DNnZPeVVVWXFTbnhUTDA3OXhHRGNubnZyZjV2bS0wVkVWNjhR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQblc2TFh2MHhsV1dIS2QwbzhGbDlBQmZ5QW5JYnZuZVdYbzY5eUwwR1p4YnFNSGh5VjdKMFJwM2JxYTNZUWFrVFJjX21oN1dDT2xVMU90ZkloZFpPZkJTOGdfYmdNQWszd0F6VkVuai1pVnhPNEtta3dFTXkyWUhXMVVqNG1DN1dscks5eG5DNnZPeVVVWXFTbnhUTDA3OXhHRGNubnZyZjV2bS0wVkVWNjhR?oc=5",
+      "source": "World Council of Churches",
+      "category": "World",
+      "publishedAt": "2026-11-16T23:01:46Z"
+    },
+    {
+      "id": "aafdfc3b9a3cdbba858d",
+      "title": "New Orleans-based Skyborne Joins World Fuel Network - Aviation International News",
+      "description": "New Orleans-based Skyborne Joins World Fuel Network Aviation International News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQamh2TjBvVF9KQ0JjMHJCQXItb3JPY3dXTFUwdkdvWENGZ2o3aVpNemx6QTZmMmFUUHd3QXlDdnJQb0drWHdYLWt3bWpUc1p1cEExYmtraHhrekczeDE1ZjZTTmFGVktnVHVkRzlLTFB5S1doYU5zdXozXzB0M3ROeWlSSVV2M3FjUVdXSWZORzRqZVUtUzUtQk5yYXJNSXlFMndQQU1TR2ZqZjJMNjlPTkp5Q1hrdzkyZ0pRUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQamh2TjBvVF9KQ0JjMHJCQXItb3JPY3dXTFUwdkdvWENGZ2o3aVpNemx6QTZmMmFUUHd3QXlDdnJQb0drWHdYLWt3bWpUc1p1cEExYmtraHhrekczeDE1ZjZTTmFGVktnVHVkRzlLTFB5S1doYU5zdXozXzB0M3ROeWlSSVV2M3FjUVdXSWZORzRqZVUtUzUtQk5yYXJNSXlFMndQQU1TR2ZqZjJMNjlPTkp5Q1hrdzkyZ0pRUQ?oc=5",
+      "source": "Aviation International News",
+      "category": "World",
+      "publishedAt": "2026-11-16T22:31:26Z"
+    },
+    {
+      "id": "1e3050ced000d9e2cd77",
+      "title": "How Climate Change Is Reshaping India’s Demographic Dividend - Carnegie Endowment for International Peace",
+      "description": "How Climate Change Is Reshaping India’s Demographic Dividend Carnegie Endowment for International Peace",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM2RUWFJabTBrdXFvXzd4dU5DckZWQnJVNVNUajNHOEl3Y2syYWFwaHJ2NG1rcThyZzU4RFZlSS1iRzladlpvUnNmbVR2STV1czNPYWp4ckRDbkMzY3g5cFhzejBXSE45MzRNZGxlLVdISGtQalltVkZUNG5nbWFjWWdicExNUHVyOEVnXzU5TXdGMDYwQ3VJblRYMVhNZ3lGbXRKeWZWRzcwZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM2RUWFJabTBrdXFvXzd4dU5DckZWQnJVNVNUajNHOEl3Y2syYWFwaHJ2NG1rcThyZzU4RFZlSS1iRzladlpvUnNmbVR2STV1czNPYWp4ckRDbkMzY3g5cFhzejBXSE45MzRNZGxlLVdISGtQalltVkZUNG5nbWFjWWdicExNUHVyOEVnXzU5TXdGMDYwQ3VJblRYMVhNZ3lGbXRKeWZWRzcwZw?oc=5",
+      "source": "Carnegie Endowment for International Peace",
+      "category": "Environment",
+      "publishedAt": "2026-11-16T22:26:57Z"
+    },
+    {
+      "id": "25100fce8fe78eda9cb1",
+      "title": "Belgium’s All-Time Top Scorer Lukaku Announces International Retirement - Morocco World News",
+      "description": "Belgium’s All-Time Top Scorer Lukaku Announces International Retirement Morocco World News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVUlUSlZpVDFrTDUtRm5xRHVTQktQZmgyRUxhNXJ2MUFLVi04am9lbzJQRkNBZEtvZmFpRUMxUEJWVFNMbE1HNmlXUE9Ud1dRN1F2QTdwdmgzT2dMQ3FidVpuTFRpa0ZZX0k1Y0d5TWQ2LXhROUVEdXlaUWF5QUZfWmpFcHkxV1pLd3NaQUFMNk1zUkRNS3lvQm9UbDNlcHVQSWRGa2psWVJMX2hzbDMxalJwRmEzdW10b1NR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVUlUSlZpVDFrTDUtRm5xRHVTQktQZmgyRUxhNXJ2MUFLVi04am9lbzJQRkNBZEtvZmFpRUMxUEJWVFNMbE1HNmlXUE9Ud1dRN1F2QTdwdmgzT2dMQ3FidVpuTFRpa0ZZX0k1Y0d5TWQ2LXhROUVEdXlaUWF5QUZfWmpFcHkxV1pLd3NaQUFMNk1zUkRNS3lvQm9UbDNlcHVQSWRGa2psWVJMX2hzbDMxalJwRmEzdW10b1NR?oc=5",
+      "source": "Morocco World News",
+      "category": "World",
+      "publishedAt": "2026-11-16T21:06:20Z"
+    },
     {
       "id": "6cf1a1165288df9b0fdb",
       "title": "U.S. routs Canada for women's hockey world title; Hilary Knight nears international goals record - NBC Sports",
@@ -305,7 +400,17 @@
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjFDSmt0YVRITUVGOE9ydm5RU0tlWkNjdGJGdVpSQm00eXZDNmYzMzZ6YXZ3X3AyTHJQUzRmN1VuQVAxVHJVNVFIeW1WOFJmeE43Q09FV0w3emJ5eW14QkJEZTc0bVBMX0E3RlV0WFFNVV9vOWgtTkFHN0dtbFE3aU1LSXdVQ2FpVjMweXdqWjZSdGtrbk1DYm5QYzZ3bUc5YUo0cg?oc=5",
       "source": "NBC Sports",
       "category": "World",
-      "publishedAt": "2026-11-16T20:37:30Z"
+      "publishedAt": "2026-11-16T20:37:41Z"
+    },
+    {
+      "id": "129aacbd27e1473ca401",
+      "title": "Somalia welcomes US reversal on funding international military support - Al Arabiya English",
+      "description": "Somalia welcomes US reversal on funding international military support Al Arabiya English",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQd0Zkem03ZGZUSlhCc3BQRWpVVkMtQnlHeXdIZzNHSzk2SUhWaURzQ0VRWklSelJheFc0NTBEbkpZOWhNMWJmQmpkRmc0UnVzbUNadm9aSzBvZkh3RndxVGFxaXM1aGFENUNBQklLOVA0cUh1VHl6YUgzVzFQN0dyRUxLZXQ2N3hmZ1VWa0hBWmxySV9hMHlsV091dzRPanhKZlgwM1A0eVBnNm9sZjZuSXpNUkxiOGV3MEVNcnhVWdIBxAFBVV95cUxOVlUzb3ktQ1RGU1ktQUNmcHVEY0h6WnVPZnRzRDVKbTNlcTJMUnVIQnNNbVZiQ3JyeHVJd1BMZHFGMnBRRXV3S21jNzJaLUp0UnVfbENTQmUtMG0zeURReUFWRDJEbzFKRllxOGpmZGR4ZXRGaVc1VTNYaHZYVXZoWHJ3MG9VVFMzUEpyb1lQWjRzWWx4NzM0alhTcHJJMXlTQU1GYjRhemxheXBXLWhQM0xoUmp3cDNCMGMtd2pKUi1KOFh4?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQd0Zkem03ZGZUSlhCc3BQRWpVVkMtQnlHeXdIZzNHSzk2SUhWaURzQ0VRWklSelJheFc0NTBEbkpZOWhNMWJmQmpkRmc0UnVzbUNadm9aSzBvZkh3RndxVGFxaXM1aGFENUNBQklLOVA0cUh1VHl6YUgzVzFQN0dyRUxLZXQ2N3hmZ1VWa0hBWmxySV9hMHlsV091dzRPanhKZlgwM1A0eVBnNm9sZjZuSXpNUkxiOGV3MEVNcnhVWdIBxAFBVV95cUxOVlUzb3ktQ1RGU1ktQUNmcHVEY0h6WnVPZnRzRDVKbTNlcTJMUnVIQnNNbVZiQ3JyeHVJd1BMZHFGMnBRRXV3S21jNzJaLUp0UnVfbENTQmUtMG0zeURReUFWRDJEbzFKRllxOGpmZGR4ZXRGaVc1VTNYaHZYVXZoWHJ3MG9VVFMzUEpyb1lQWjRzWWx4NzM0alhTcHJJMXlTQU1GYjRhemxheXBXLWhQM0xoUmp3cDNCMGMtd2pKUi1KOFh4?oc=5",
+      "source": "Al Arabiya English",
+      "category": "World",
+      "publishedAt": "2026-11-16T20:29:00Z"
     },
     {
       "id": "12b031e7eeacd2098624",
@@ -368,16 +473,6 @@
       "publishedAt": "2026-11-16T18:42:58Z"
     },
     {
-      "id": "eaaadabfeac914c6b48a",
-      "title": "H.E. Metropolitan Konstantinos represents WCC at the 6th International Daoist Forum - World Council of Churches",
-      "description": "H.E. Metropolitan Konstantinos represents WCC at the 6th International Daoist Forum World Council of Churches",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQblc2TFh2MHhsV1dIS2QwbzhGbDlBQmZ5QW5JYnZuZVdYbzY5eUwwR1p4YnFNSGh5VjdKMFJwM2JxYTNZUWFrVFJjX21oN1dDT2xVMU90ZkloZFpPZkJTOGdfYmdNQWszd0F6VkVuai1pVnhPNEtta3dFTXkyWUhXMVVqNG1DN1dscks5eG5DNnZPeVVVWXFTbnhUTDA3OXhHRGNubnZyZjV2bS0wVkVWNjhR?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQblc2TFh2MHhsV1dIS2QwbzhGbDlBQmZ5QW5JYnZuZVdYbzY5eUwwR1p4YnFNSGh5VjdKMFJwM2JxYTNZUWFrVFJjX21oN1dDT2xVMU90ZkloZFpPZkJTOGdfYmdNQWszd0F6VkVuai1pVnhPNEtta3dFTXkyWUhXMVVqNG1DN1dscks5eG5DNnZPeVVVWXFTbnhUTDA3OXhHRGNubnZyZjV2bS0wVkVWNjhR?oc=5",
-      "source": "World Council of Churches",
-      "category": "World",
-      "publishedAt": "2026-11-16T18:41:09Z"
-    },
-    {
       "id": "420e4b3e744ce2a27f2f",
       "title": "World-Renowned Chef Massimo Bottura to Headline Inaugural Palm Beach International Wine Experience Alongside the World’s Most Prestigious Vintners - Wine Industry Advisor",
       "description": "World-Renowned Chef Massimo Bottura to Headline Inaugural Palm Beach International Wine Experience Alongside the World’s Most Prestigious Vintners Wine Industry Advisor",
@@ -406,6 +501,26 @@
       "source": "Судово-юридична газета",
       "category": "World",
       "publishedAt": "2026-11-16T16:20:00Z"
+    },
+    {
+      "id": "e00fe9ee7ed0a74ad20f",
+      "title": "Carbon Emissions of Biggest U.S. Data Centers Already Rival Entire Countries, Study Reveals - The New York Times",
+      "description": "Carbon Emissions of Biggest U.S. Data Centers Already Rival Entire Countries, Study Reveals The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDd0S0d2cHBIYVB2cEdqWnJPY1RsNUtYRERsS2FMbHliakxRQ0dObzVJUlg2aFJIM25EY2dKT1FoRlBVLXZ5REpod3hJQ2t5RVRaTTBjbEdPT1ZKd2U5QnlVTzJ5aWhxVHNmbU52cjNXQ2QzaUZjU0V5UUU3dzRmbHpNVGNYbENfelNFVkY3RVZPaDJWMlFLa0pSenJrR2E2QXR3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDd0S0d2cHBIYVB2cEdqWnJPY1RsNUtYRERsS2FMbHliakxRQ0dObzVJUlg2aFJIM25EY2dKT1FoRlBVLXZ5REpod3hJQ2t5RVRaTTBjbEdPT1ZKd2U5QnlVTzJ5aWhxVHNmbU52cjNXQ2QzaUZjU0V5UUU3dzRmbHpNVGNYbENfelNFVkY3RVZPaDJWMlFLa0pSenJrR2E2QXR3?oc=5",
+      "source": "The New York Times",
+      "category": "Environment",
+      "publishedAt": "2026-11-16T15:56:26Z"
+    },
+    {
+      "id": "ad133f16595ee1b5b567",
+      "title": "Earthshot Prize 2026: Meet the 15 finalists working on solutions to global environmental challenges - CNBC TV18",
+      "description": "Earthshot Prize 2026: Meet the 15 finalists working on solutions to global environmental challenges CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNV1F2blkyQnFtVms5Q3RxZ0hFSWlsWHAweEVLdVF0QVNIaHV2czdac3BuaEM4U1ljRVRheHVPMHJTUTNJVERHYnhDVnJhbUJmd0VmdDVWS3pDcmhWV3JiQzR3bl8zYWFXLWE3cHVVQlFOejBqa2pUY2dEblFUYXZXbTh6eUxuM0RxS1ViMy1mRGRRT1JhXzBFNTNvVDM5STdBd25LdkVOUHk5eF94c1k3R2xLbGk0NEFRQlBWSVN0U0pETjJESkZiQ01JWWNFS1dnNlNDLWVlMnpiNjVneGpPWHhHWURick5aN2fSAe8BQVVfeXFMUEFHak5TT25ldVZ1SDJPVmxTNXJLclUtUng0OUNNQmI3RVpjZzB4bTl1OXRBa2FWLWMtejg5R1JucHJkUXM5Qjg3akFuQjUyZTFDTXJQcXdzNlRQeUZ4MHUybEJnMjFiVlBSclNsTVhkcm50T2NRQmRZbXpLVlhfMHJmcFJTVG13N1dLc1Utb0R2VUNoSVE1aXdKaDcyeVE1YkRra0p5RnVPbWxjMzc2SEI5cnRWQVRjNnRWWnJTVUhJNkpWY2JrUHo3MmR5LWRUUHhkMVhTRWczZHo3d29qNjFTYUttN1BBLXU4QVB0S1U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNV1F2blkyQnFtVms5Q3RxZ0hFSWlsWHAweEVLdVF0QVNIaHV2czdac3BuaEM4U1ljRVRheHVPMHJTUTNJVERHYnhDVnJhbUJmd0VmdDVWS3pDcmhWV3JiQzR3bl8zYWFXLWE3cHVVQlFOejBqa2pUY2dEblFUYXZXbTh6eUxuM0RxS1ViMy1mRGRRT1JhXzBFNTNvVDM5STdBd25LdkVOUHk5eF94c1k3R2xLbGk0NEFRQlBWSVN0U0pETjJESkZiQ01JWWNFS1dnNlNDLWVlMnpiNjVneGpPWHhHWURick5aN2fSAe8BQVVfeXFMUEFHak5TT25ldVZ1SDJPVmxTNXJLclUtUng0OUNNQmI3RVpjZzB4bTl1OXRBa2FWLWMtejg5R1JucHJkUXM5Qjg3akFuQjUyZTFDTXJQcXdzNlRQeUZ4MHUybEJnMjFiVlBSclNsTVhkcm50T2NRQmRZbXpLVlhfMHJmcFJTVG13N1dLc1Utb0R2VUNoSVE1aXdKaDcyeVE1YkRra0p5RnVPbWxjMzc2SEI5cnRWQVRjNnRWWnJTVUhJNkpWY2JrUHo3MmR5LWRUUHhkMVhTRWczZHo3d29qNjFTYUttN1BBLXU4QVB0S1U?oc=5",
+      "source": "CNBC TV18",
+      "category": "Environment",
+      "publishedAt": "2026-11-16T15:44:44Z"
     },
     {
       "id": "1375638f63f2af1f52b3",
@@ -458,6 +573,26 @@
       "publishedAt": "2026-11-16T13:14:45Z"
     },
     {
+      "id": "d8f352bd324f1a689bac",
+      "title": "Ukraine plans to amend its State Environmental Policy Strategy in view of the realities of war - ЭкоПолитика",
+      "description": "Ukraine plans to amend its State Environmental Policy Strategy in view of the realities of war ЭкоПолитика",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOGtsdFhqWWF1OHZMc2ZBVGdxMFRlV3ZubXBkWmNGRW41TlIzQVV5cTNULWFQMlZFcThwWVVGa0dxMmYyRko2ckhqM3pTUnFfQ3pZNmxTd19jblFZaE1ZV1p6Ty1hQnI5V1lZcWNsVnUxcGRTY2U2OUtrUUVsekc2ajhZZHhhemxWRS1FWHBHRXMxSDdtTExJbVNWT2xYT1Z6eWJNVGE4TlFWd1dwM3BDOWU4MWxBLWFfNFpUTE5LemVhQmUzcmNOcQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOGtsdFhqWWF1OHZMc2ZBVGdxMFRlV3ZubXBkWmNGRW41TlIzQVV5cTNULWFQMlZFcThwWVVGa0dxMmYyRko2ckhqM3pTUnFfQ3pZNmxTd19jblFZaE1ZV1p6Ty1hQnI5V1lZcWNsVnUxcGRTY2U2OUtrUUVsekc2ajhZZHhhemxWRS1FWHBHRXMxSDdtTExJbVNWT2xYT1Z6eWJNVGE4TlFWd1dwM3BDOWU4MWxBLWFfNFpUTE5LemVhQmUzcmNOcQ?oc=5",
+      "source": "ЭкоПолитика",
+      "category": "Environment",
+      "publishedAt": "2026-11-16T13:04:21Z"
+    },
+    {
+      "id": "a56de6b52553c82a6ab9",
+      "title": "How does California prepare for foods, fires and earthquakes? See disaster plans - Sacramento Bee",
+      "description": "How does California prepare for foods, fires and earthquakes? See disaster plans Sacramento Bee",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MZjA5LXlRRWFzSE5BVjVrSkY3cFFXcmIySFNJRlhFalkwTFkyajg3aWNfTzNFMlZQRGJTY2VLZ1BHX2JMMmJSVTFZZUxWSThmNW1GU3Q5UjZsUVpmZzVlVlg0MVlBRWt6RkpVWdIBbEFVX3lxTE9UR3k0b1p1WEJhNXVwbFB2OV9lNWFHTmZrZnFYZUg1cUNuSDh0ZkFpLU1ENjhMUUd3NHB5ckNHMzZQMjFRQXRGU3Y5NkdtTEFDYjRUQ1Jodllid3BuR215SW0zaGdMRXZBczZ2ZA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MZjA5LXlRRWFzSE5BVjVrSkY3cFFXcmIySFNJRlhFalkwTFkyajg3aWNfTzNFMlZQRGJTY2VLZ1BHX2JMMmJSVTFZZUxWSThmNW1GU3Q5UjZsUVpmZzVlVlg0MVlBRWt6RkpVWdIBbEFVX3lxTE9UR3k0b1p1WEJhNXVwbFB2OV9lNWFHTmZrZnFYZUg1cUNuSDh0ZkFpLU1ENjhMUUd3NHB5ckNHMzZQMjFRQXRGU3Y5NkdtTEFDYjRUQ1Jodllid3BuR215SW0zaGdMRXZBczZ2ZA?oc=5",
+      "source": "Sacramento Bee",
+      "category": "Disaster",
+      "publishedAt": "2026-11-16T13:00:00Z"
+    },
+    {
       "id": "d6ae4cad2b3434bf1c58",
       "title": "The construction industry is promoting the application of science and technology, creating new drivers of growth. - Vietnam.vn",
       "description": "The construction industry is promoting the application of science and technology, creating new drivers of growth. Vietnam.vn",
@@ -486,6 +621,16 @@
       "source": "Substack",
       "category": "Technology",
       "publishedAt": "2026-11-16T11:14:59Z"
+    },
+    {
+      "id": "06311224c8630632c79e",
+      "title": "Big Oil, Climate Change, and a ‘Smoking Gun’ - Rolling Stone",
+      "description": "Big Oil, Climate Change, and a ‘Smoking Gun’ Rolling Stone",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY1hxckhBbHJUeEVlVjlrQjl0YjZPbGxaRmlvLVpCdTU5YzVLcEFELWpSVDk4cjJFd3c3VXdtU1U4c19EVVhvbEh1SHZybTQ1Z3FCc1d1bDBrWnNCQ1M5VXFqSDZqOTVab2hFZVdPYXpyLTF3eXpuRlB6UllUaFp2Zk9jVVhvVnZ6U0pJWnNhVXJLYWRiZnlKVUJFU0NBdWNmYVltRDdhQUpwMmtxenZ3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY1hxckhBbHJUeEVlVjlrQjl0YjZPbGxaRmlvLVpCdTU5YzVLcEFELWpSVDk4cjJFd3c3VXdtU1U4c19EVVhvbEh1SHZybTQ1Z3FCc1d1bDBrWnNCQ1M5VXFqSDZqOTVab2hFZVdPYXpyLTF3eXpuRlB6UllUaFp2Zk9jVVhvVnZ6U0pJWnNhVXJLYWRiZnlKVUJFU0NBdWNmYVltRDdhQUpwMmtxenZ3?oc=5",
+      "source": "Rolling Stone",
+      "category": "Environment",
+      "publishedAt": "2026-11-16T11:00:00Z"
     },
     {
       "id": "da7fe30267a70d039e13",
@@ -745,7 +890,7 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk9QZ1VTTXA1dkQ4ZF85TDVIa0hCdXpRYWI0NUpVQWR4UVBPNWROOVVrYWJpQzRWNzI2ZWc2bndueWNxZzBzREFwb09uUEFiV3N0X0JnVWYtNEMtanpOVllYWGdwLTJvejBveEpZeVI4d1RJemxyNERIU1hxcTQxa1Z3TE9BODQtN1VELWZJNi1oWDdXbnc5cjluZDVRblpEdm5udmFiVWZtZmtaaGdzQThYZ05Ja1dnYXl4SQ?oc=5",
       "source": "WBRZ",
       "category": "Environment",
-      "publishedAt": "2026-11-15T16:38:03Z"
+      "publishedAt": "2026-11-15T16:38:33Z"
     },
     {
       "id": "0b4555d6b0d89f2ac567",
@@ -3016,28 +3161,8 @@
       "source": "Techsauce",
       "category": "Environment",
       "publishedAt": "2026-11-10T04:14:29Z"
-    },
-    {
-      "id": "b436f28faf0c77621b48",
-      "title": "A further acceleration of clean energy is needed for global CO2 emissions to peak and decline | Nature Climate Change - Nature",
-      "description": "A further acceleration of clean energy is needed for global CO2 emissions to peak and decline | Nature Climate Change Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5ajRLRzZmTUg2bXJKc0EwRHQ4UElCZ2h4REZzamJxSk9HRENjbGRfcEluOUw1Si1NNk94Tm05blg1N1lKMWowalZHUlVwVnlhZGE3TnlFUWd6R1ZhMS00?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5ajRLRzZmTUg2bXJKc0EwRHQ4UElCZ2h4REZzamJxSk9HRENjbGRfcEluOUw1Si1NNk94Tm05blg1N1lKMWowalZHUlVwVnlhZGE3TnlFUWd6R1ZhMS00?oc=5",
-      "source": "Nature",
-      "category": "Environment",
-      "publishedAt": "2026-11-10T02:10:16Z"
-    },
-    {
-      "id": "7b36421a409a3e12b0f4",
-      "title": "TN to set up new PSU to execute mega infra projects worth over Rs 200 crore - The New Indian Express",
-      "description": "TN to set up new PSU to execute mega infra projects worth over Rs 200 crore The New Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaTNFb3pLeXJDN1k4U3FISjkxcmtPRnhyck16WFF1Zm9tX19WUUZlWHNjX1k0VVpnOWZjU1R3QlBKeWZDbU1qTWViMWlnMlNuczJRU211WGFBdGZodVQweDZaM096eF9pNHNHbkUzMmo0RUFRU0VSU0R1NFJ3OG00OTZ0R29DbHVhZWtRODVPb0xUOEZ4RGsxUWFkWnBGSHVONnpyOGxMVE1uSTZMYnBKNGxJanBSbTE2eC0zOF9hNEEzY1RjYXZ1ZUpYcGJXcmpfbDN1RdIB4gFBVV95cUxOX1VtMHpzWUhtOFVhUm5XRjB6MDZHNTBFa1JHa09UeWd4UjdpUEVaNjVWNWFGdDlTRjZGWmRTRm0zOWdIbHV1TE5QLUxLbks5RmNnT040YXpEX3lhNllvTGVsVFZaU0t2b1BzMXRXUHhWV0ExV1VBOEZEMTZxNlk1ZnU0N1dzRUJzWTlGRDQ4X1hJWWMxR055a1ltNjliOVhHX2VLQVV2UnVlX3BCSGRFLTd3M3M0SURoZU5hTl9McTExRGxCZWpFQnhEa2t4S3BkM2xNanZxOGRDSFZuRHY5b2JR?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaTNFb3pLeXJDN1k4U3FISjkxcmtPRnhyck16WFF1Zm9tX19WUUZlWHNjX1k0VVpnOWZjU1R3QlBKeWZDbU1qTWViMWlnMlNuczJRU211WGFBdGZodVQweDZaM096eF9pNHNHbkUzMmo0RUFRU0VSU0R1NFJ3OG00OTZ0R29DbHVhZWtRODVPb0xUOEZ4RGsxUWFkWnBGSHVONnpyOGxMVE1uSTZMYnBKNGxJanBSbTE2eC0zOF9hNEEzY1RjYXZ1ZUpYcGJXcmpfbDN1RdIB4gFBVV95cUxOX1VtMHpzWUhtOFVhUm5XRjB6MDZHNTBFa1JHa09UeWd4UjdpUEVaNjVWNWFGdDlTRjZGWmRTRm0zOWdIbHV1TE5QLUxLbks5RmNnT040YXpEX3lhNllvTGVsVFZaU0t2b1BzMXRXUHhWV0ExV1VBOEZEMTZxNlk1ZnU0N1dzRUJzWTlGRDQ4X1hJWWMxR055a1ltNjliOVhHX2VLQVV2UnVlX3BCSGRFLTd3M3M0SURoZU5hTl9McTExRGxCZWpFQnhEa2t4S3BkM2xNanZxOGRDSFZuRHY5b2JR?oc=5",
-      "source": "The New Indian Express",
-      "category": "India",
-      "publishedAt": "2026-11-10T01:07:39Z"
     }
   ],
-  "lastUpdated": "2026-11-16T20:51:37Z",
-  "updatedAt": "2026-11-16T20:51:37Z"
+  "lastUpdated": "2026-11-17T03:31:35Z",
+  "updatedAt": "2026-11-17T03:31:35Z"
 }
