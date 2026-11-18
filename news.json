@@ -240,26 +240,26 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-18T03:26:21Z",
-    "lastSuccessfulRun": "2026-11-18T03:26:21Z",
-    "lastUpdated": "2026-11-18T03:26:21Z",
+    "lastRun": "2026-11-18T12:08:28Z",
+    "lastSuccessfulRun": "2026-11-18T12:08:28Z",
+    "lastUpdated": "2026-11-18T12:08:28Z",
     "articlesAdded": 12,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 34,
+    "duplicatesRemoved": 31,
     "failedSources": [],
     "newArticleIds": [
-      "78672ec30e017717c9ff",
-      "23e0127062542416dfb3",
-      "4d0e40ae0d8c011ccc3f",
-      "c75bc638530416fed892",
-      "b53c375b4e1b7ae2551c",
-      "d0043b6cbfd288df636b",
-      "2c4e011e8448f7d463c5",
-      "437b358b1319ac88cbe8",
-      "c7f6145454df33f65fdf",
-      "5877ec7077feff107271",
-      "7079a7d92a0055593104",
-      "a118ab839b2fc265c997"
+      "f493ab0ec11c657abf34",
+      "d2d28cc69a6f6c3f95f5",
+      "5a69028ad12691ba1d31",
+      "9e8357c78a4e1a49d996",
+      "2f3100a4f8893a37672f",
+      "616d21665ca17835ba6e",
+      "29ff11c5cb4c5f62827c",
+      "a8213f8348caab92fa8b",
+      "2adfb13cff066beff7d6",
+      "fef0b4a4a57d590701fc",
+      "c383d74dbf40335bc7fd",
+      "9a6095c3990d63dca3b8"
     ],
     "updatedArticleIds": [],
     "articlesRemoved": 12,
@@ -268,16 +268,136 @@
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 189,
-      "India": 21,
-      "Technology": 16,
-      "Environment": 66,
+      "World": 192,
+      "India": 22,
+      "Technology": 18,
+      "Environment": 60,
       "Disaster": 8
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "f493ab0ec11c657abf34",
+      "title": "Ho Chi Minh City assigns new duties to chairman and seven vice chairmen - Báo VietNamNet",
+      "description": "Ho Chi Minh City assigns new duties to chairman and seven vice chairmen Báo VietNamNet",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUFmSUF4U2FYcU1VeHRlRUJiWlNuU29UdHl0bTRaSEFhUkxHSTd3czdIYmJ3VWlZbUJRaDRsNHZKUEtQeXpURWNBT1RUMEs3SmdRWWluZ1UyM1ZHLUlIWnR4azJkcWhPR3E2RlhIZXd3TXVmTGdaVnpVZThuT0YwUmJiblFPMFl2TEVPMnR2SVREVU5MM3B2cXlSSmZXbk11X0p1dHhIU2trY0VDOUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUFmSUF4U2FYcU1VeHRlRUJiWlNuU29UdHl0bTRaSEFhUkxHSTd3czdIYmJ3VWlZbUJRaDRsNHZKUEtQeXpURWNBT1RUMEs3SmdRWWluZ1UyM1ZHLUlIWnR4azJkcWhPR3E2RlhIZXd3TXVmTGdaVnpVZThuT0YwUmJiblFPMFl2TEVPMnR2SVREVU5MM3B2cXlSSmZXbk11X0p1dHhIU2trY0VDOUE?oc=5",
+      "source": "Báo VietNamNet",
+      "category": "Technology",
+      "publishedAt": "2026-11-18T11:01:00Z"
+    },
+    {
+      "id": "d2d28cc69a6f6c3f95f5",
+      "title": "Countdown to World Bowls Junior Indoor Championship - Bowls international",
+      "description": "Countdown to World Bowls Junior Indoor Championship Bowls international",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTC1IV0FZUkt6QkNDRVV4LWRjTUdMQUg3cnhKZ3o0TVhMbnBOMkszMHV1a19aa0hwVVZyRDBUUlVRNVM3RDlsNmg2WWxsMERrMWhoVXdTai1kMFl6YlV0WkhlejFET242NGlQTHFvSEotYzFkZG9TVU5wWndlNWxjZEFPT3BndF9kTDA4?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTC1IV0FZUkt6QkNDRVV4LWRjTUdMQUg3cnhKZ3o0TVhMbnBOMkszMHV1a19aa0hwVVZyRDBUUlVRNVM3RDlsNmg2WWxsMERrMWhoVXdTai1kMFl6YlV0WkhlejFET242NGlQTHFvSEotYzFkZG9TVU5wWndlNWxjZEFPT3BndF9kTDA4?oc=5",
+      "source": "Bowls international",
+      "category": "World",
+      "publishedAt": "2026-11-18T10:22:03Z"
+    },
+    {
+      "id": "5a69028ad12691ba1d31",
+      "title": "Los Angeles weather: Storm expected to bring heavy rain, flood risk to Southern California. Here's the timeline - ABC7 Los Angeles",
+      "description": "Los Angeles weather: Storm expected to bring heavy rain, flood risk to Southern California. Here's the timeline ABC7 Los Angeles",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHBveFJoaFppc1F5bWJYdDNscnYtM1BEb1l3UHI0UDFkUkdZdWpLcHo2UGNtLXVMbFl6cTRFYW96UjBScDJFbHJCelZLaE5oSnZJeFhUWmFfVGZtS1Znd3RHWnpEVnFWVXlQWFBtX2VJZGtSWTFYMnJuTFprdzdsWDJsY1ZqaEFJ0gGOAUFVX3lxTE53M1lpY0dkY2g2RXVsR1hYcUlVeThwUWdHS29WUVhuMDg1dXkzWlFFTVBxTFNZOXIwQXIxY2dJemRDdjQ1THFXa0EtWERDZ1VMcE5RblZuOWRqOHdJOXpEVG5yVUd5STFUYU5aNHdvbFZ6d0dSZFFQMG9SakhPY3pZZHNDQ05EdXBsdGVES1E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHBveFJoaFppc1F5bWJYdDNscnYtM1BEb1l3UHI0UDFkUkdZdWpLcHo2UGNtLXVMbFl6cTRFYW96UjBScDJFbHJCelZLaE5oSnZJeFhUWmFfVGZtS1Znd3RHWnpEVnFWVXlQWFBtX2VJZGtSWTFYMnJuTFprdzdsWDJsY1ZqaEFJ0gGOAUFVX3lxTE53M1lpY0dkY2g2RXVsR1hYcUlVeThwUWdHS29WUVhuMDg1dXkzWlFFTVBxTFNZOXIwQXIxY2dJemRDdjQ1THFXa0EtWERDZ1VMcE5RblZuOWRqOHdJOXpEVG5yVUd5STFUYU5aNHdvbFZ6d0dSZFFQMG9SakhPY3pZZHNDQ05EdXBsdGVES1E?oc=5",
+      "source": "ABC7 Los Angeles",
+      "category": "Disaster",
+      "publishedAt": "2026-11-18T10:12:56Z"
+    },
+    {
+      "id": "9e8357c78a4e1a49d996",
+      "title": "Magna International Inc. $MGA Stock Sold by Cibc World Market Inc. - MarketBeat",
+      "description": "Magna International Inc. $MGA Stock Sold by Cibc World Market Inc. MarketBeat",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONGZLZ1FxaEdVdG5Ja2ZDYU16UzRRTTdEbWI0bHZwSEM0ZG9xVnVJY0xtcFB4NTN2QVM0ZDhBcU96WEt4SDg0ZnFnNFRCRjZoQXUtQVJwWTdBUmxnZTEtV3p3SVJ4R204TGRNSTVCbG5WNkhEYTV4SjdULUFWa0hYdkN5QnR1c08tbWNtcmdHQmZNMm5HUnUweEpQSXJhTTJrT3NYMWlHTzdvLWZ2dy1yeVBPU1JwbTJsSE9BblQ3N0xTUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONGZLZ1FxaEdVdG5Ja2ZDYU16UzRRTTdEbWI0bHZwSEM0ZG9xVnVJY0xtcFB4NTN2QVM0ZDhBcU96WEt4SDg0ZnFnNFRCRjZoQXUtQVJwWTdBUmxnZTEtV3p3SVJ4R204TGRNSTVCbG5WNkhEYTV4SjdULUFWa0hYdkN5QnR1c08tbWNtcmdHQmZNMm5HUnUweEpQSXJhTTJrT3NYMWlHTzdvLWZ2dy1yeVBPU1JwbTJsSE9BblQ3N0xTUQ?oc=5",
+      "source": "MarketBeat",
+      "category": "World",
+      "publishedAt": "2026-11-18T09:27:37Z"
+    },
+    {
+      "id": "2f3100a4f8893a37672f",
+      "title": "7 Asian retail streets rank among world's 20 most expensive - VnExpress International",
+      "description": "7 Asian retail streets rank among world's 20 most expensive VnExpress International",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUFdDQ2FiaUhTQXlJSzlmejNkUGtqcHFDM2tyQnFFVWhiWTRtQVhXd0Jub0tXdGhPOTdSdHhxaks1c1BSNF9SUnpqeXBtd1UwMHdZS25pTWNzSzhkRUh4dWItc2Z5Tmo2b2tDTEt4WmNnNXkwY0ZnWURlVmVnRGk0U3M2R1pfVWI1Nk5YUHJkTzVnUk5QODFuZTVvTk5QX09VMjR0bjhjV21RU01NNXBmSGNaOVA3bGhPNjQ0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUFdDQ2FiaUhTQXlJSzlmejNkUGtqcHFDM2tyQnFFVWhiWTRtQVhXd0Jub0tXdGhPOTdSdHhxaks1c1BSNF9SUnpqeXBtd1UwMHdZS25pTWNzSzhkRUh4dWItc2Z5Tmo2b2tDTEt4WmNnNXkwY0ZnWURlVmVnRGk0U3M2R1pfVWI1Nk5YUHJkTzVnUk5QODFuZTVvTk5QX09VMjR0bjhjV21RU01NNXBmSGNaOVA3bGhPNjQ0?oc=5",
+      "source": "VnExpress International",
+      "category": "World",
+      "publishedAt": "2026-11-18T08:15:00Z"
+    },
+    {
+      "id": "616d21665ca17835ba6e",
+      "title": "World marks International Day recognising LGBT+ people in STEM - Rayo",
+      "description": "World marks International Day recognising LGBT+ people in STEM Rayo",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUkJHVk5HMXN1SE9BX3JTSUtzeFd5OHI1dHhYdGgzUzZvZGVNWG95VHh3Y0d4dnFVRUJNbjVuTmk0b0M2ZWkzdEtKUUlfWjlCR0R4N1lEdG9TRmtyTWpYdl91MnFKcWVVZXViYWJhTU9lRVByMXpuczBLVTBqcDJxZEVURVN5LTZUN0ZpNHlsUF9fcGNaRENDMHpHeldfbnhjUzVPZ1lYUndBUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUkJHVk5HMXN1SE9BX3JTSUtzeFd5OHI1dHhYdGgzUzZvZGVNWG95VHh3Y0d4dnFVRUJNbjVuTmk0b0M2ZWkzdEtKUUlfWjlCR0R4N1lEdG9TRmtyTWpYdl91MnFKcWVVZXViYWJhTU9lRVByMXpuczBLVTBqcDJxZEVURVN5LTZUN0ZpNHlsUF9fcGNaRENDMHpHeldfbnhjUzVPZ1lYUndBUQ?oc=5",
+      "source": "Rayo",
+      "category": "World",
+      "publishedAt": "2026-11-18T08:03:33Z"
+    },
+    {
+      "id": "29ff11c5cb4c5f62827c",
+      "title": "Quiz! Can you name the top international goalscorers to have played at the World Cup? - FourFourTwo",
+      "description": "Quiz! Can you name the top international goalscorers to have played at the World Cup? FourFourTwo",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFRUWS1EaWlybzM5MzB5TWRQTkh5SVdFUWwwcmFHcU8tdjZvMHlTUGtaaE8xNm9OekZJa1RWY21nLW1RdThGR3h2VjBzaHktT3VHVklvN3dkemZnZHFrT2J2WjNzY2RnMldoWEFGLWdZd3RHd2c3SnpzRFJxNzYwb2Jxb3d6RThQTFZpd1pjNVFUcXp3Rk5QOURva2luZEVmT0xHOEp2N2hpRkdxeHpwa0t6bUwybUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFRUWS1EaWlybzM5MzB5TWRQTkh5SVdFUWwwcmFHcU8tdjZvMHlTUGtaaE8xNm9OekZJa1RWY21nLW1RdThGR3h2VjBzaHktT3VHVklvN3dkemZnZHFrT2J2WjNzY2RnMldoWEFGLWdZd3RHd2c3SnpzRFJxNzYwb2Jxb3d6RThQTFZpd1pjNVFUcXp3Rk5QOURva2luZEVmT0xHOEp2N2hpRkdxeHpwa0t6bUwybUE?oc=5",
+      "source": "FourFourTwo",
+      "category": "World",
+      "publishedAt": "2026-11-18T08:00:00Z"
+    },
+    {
+      "id": "a8213f8348caab92fa8b",
+      "title": "Xi, Putin meet ahead of historic Trump trilateral summit - International - World - Ahram Online",
+      "description": "Xi, Putin meet ahead of historic Trump trilateral summit - International - World Ahram Online",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcURHYVhVVFFYdXk1aGlvazJNQXRLV1llWDBfRUFBSUVoYmNwZTByZWJqa1k0S2xjeGQyU1BTV3hqQmQ4b1JGQVBFeGdjSHNKMDdlOFFhbFRLMk9iaXo0bHNNYWxUUG5TNS03MldwVzNTUWNqNlVGUkZEQ1RrejZMdzhwR1gtVF9XRk5OdUowbXl0SzB4QnB2bkgySlBQa2k2U1JVVjZHZ21MSUl1WGVJd3E1TGUtUm1YVEdJZmJyU3hhWkV5bnc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcURHYVhVVFFYdXk1aGlvazJNQXRLV1llWDBfRUFBSUVoYmNwZTByZWJqa1k0S2xjeGQyU1BTV3hqQmQ4b1JGQVBFeGdjSHNKMDdlOFFhbFRLMk9iaXo0bHNNYWxUUG5TNS03MldwVzNTUWNqNlVGUkZEQ1RrejZMdzhwR1gtVF9XRk5OdUowbXl0SzB4QnB2bkgySlBQa2k2U1JVVjZHZ21MSUl1WGVJd3E1TGUtUm1YVEdJZmJyU3hhWkV5bnc?oc=5",
+      "source": "Ahram Online",
+      "category": "World",
+      "publishedAt": "2026-11-18T07:54:17Z"
+    },
+    {
+      "id": "2adfb13cff066beff7d6",
+      "title": "International Men's Day 2026: Date, history, theme, significance and more - Business Standard",
+      "description": "International Men's Day 2026: Date, history, theme, significance and more Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZkJUYXd0VmFtOTNOYm90S3hKVmwwejI5cmZ3Q0diTWhXYWcxUTBOX1diY2NXZVVkQkpqWVp3RjRzUS1SUWRoTzg4SjdacFdjdDZMWmdNUjJsMlJ3bkNrckwwdEdMbmQ3QlRWajBaWWlzODVicHhySUEzLXBlVTN1ZmZCaTFLMkZWMFF3RUg1UU83TTVsN2c5RGtzM0hTSkQ3V25vS090UVVwWFRaY010bkRZMG5YZG9IcVZQQ01iN095bG02OWphV0R0RThPNkNLSEhv0gHYAUFVX3lxTE1wTHBIdUtrdGJoejVNbHNGY3RwY2R5czhBVVZpUmNnQ3M4SFd3QkZKbWh0c2pOb2xZaXg2MkZlM0loTHVDMkthTERfZkZ1UTJiZERWWFN6UlBrY3hJWktUN29uZDc5M0FzM2RPU2xUZ2VsZU92Z0Q2cHREOWNhNldWNGZNUHE2Y2htVWdFSlBVUzVKMV96ajRzcGJac29wekVXODV0QWhWMzVUWVRqTEVoLW90d3pNNGVFSDhzYlJCdm5YeVhTWlpFclIwOVVVMWllRmhveWlJTA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZkJUYXd0VmFtOTNOYm90S3hKVmwwejI5cmZ3Q0diTWhXYWcxUTBOX1diY2NXZVVkQkpqWVp3RjRzUS1SUWRoTzg4SjdacFdjdDZMWmdNUjJsMlJ3bkNrckwwdEdMbmQ3QlRWajBaWWlzODVicHhySUEzLXBlVTN1ZmZCaTFLMkZWMFF3RUg1UU83TTVsN2c5RGtzM0hTSkQ3V25vS090UVVwWFRaY010bkRZMG5YZG9IcVZQQ01iN095bG02OWphV0R0RThPNkNLSEhv0gHYAUFVX3lxTE1wTHBIdUtrdGJoejVNbHNGY3RwY2R5czhBVVZpUmNnQ3M4SFd3QkZKbWh0c2pOb2xZaXg2MkZlM0loTHVDMkthTERfZkZ1UTJiZERWWFN6UlBrY3hJWktUN29uZDc5M0FzM2RPU2xUZ2VsZU92Z0Q2cHREOWNhNldWNGZNUHE2Y2htVWdFSlBVUzVKMV96ajRzcGJac29wekVXODV0QWhWMzVUWVRqTEVoLW90d3pNNGVFSDhzYlJCdm5YeVhTWlpFclIwOVVVMWllRmhveWlJTA?oc=5",
+      "source": "Business Standard",
+      "category": "World",
+      "publishedAt": "2026-11-18T07:09:42Z"
+    },
+    {
+      "id": "fef0b4a4a57d590701fc",
+      "title": "Beyond infrastructure to gender-responsive sanitation in India | Hindustan Times - Hindustan Times",
+      "description": "Beyond infrastructure to gender-responsive sanitation in India | Hindustan Times Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQajdTSlZXT0FyTG5iSzQtV2xJbE1xam5VNUdOUzFJZ25tMDdXU0Q2a0pHX2ZkMExVdTlHcUptbkk0ekNfWlhpZ0xOcTJvMHBHUFNHWkNRblVkMGh2WjZjMzZ0NEtwb0tiQk9aaUJYeHVSUHNNS0VTR0VYV1EtRDRwdVY0TzBUV01GOTB3MmZkNGdfbThRQUtZYVFXaUgyWWZqYk92SjhRZmo4ZldKQUFzMUgtUGJRbmFtNFNIci1DbmZtZlFFWGhnT3ozMmxlS3o5bXZ3VFFkV2YxZjZ6T1HSAd4BQVVfeXFMUGo3U0pWV09BckxuYks0LVdsSWxNcWpuVTVHTlMxSWdubTA3V1NENmtKR19mZDBMVXU5R3FKbW5JNHpDX1pYaWdMTnEybzBwR1BTR1pDUW5VZDBodlo2YzM2dDRLcG9LYkJPWmlCWHh1UlBzTUtFU0dFWFdRLUQ0cHVWNE8wVFdNRjkwdzJmZDRnX204UUFLWWFRV2lIMllmamJPdko4UWZqOGZXSkFBczFILVBiUW5hbTRTSHItQ25mbWZRRVhoZ096MzJsZUt6OW12d1RRZFdmMWY2ek9R?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQajdTSlZXT0FyTG5iSzQtV2xJbE1xam5VNUdOUzFJZ25tMDdXU0Q2a0pHX2ZkMExVdTlHcUptbkk0ekNfWlhpZ0xOcTJvMHBHUFNHWkNRblVkMGh2WjZjMzZ0NEtwb0tiQk9aaUJYeHVSUHNNS0VTR0VYV1EtRDRwdVY0TzBUV01GOTB3MmZkNGdfbThRQUtZYVFXaUgyWWZqYk92SjhRZmo4ZldKQUFzMUgtUGJRbmFtNFNIci1DbmZtZlFFWGhnT3ozMmxlS3o5bXZ3VFFkV2YxZjZ6T1HSAd4BQVVfeXFMUGo3U0pWV09BckxuYks0LVdsSWxNcWpuVTVHTlMxSWdubTA3V1NENmtKR19mZDBMVXU5R3FKbW5JNHpDX1pYaWdMTnEybzBwR1BTR1pDUW5VZDBodlo2YzM2dDRLcG9LYkJPWmlCWHh1UlBzTUtFU0dFWFdRLUQ0cHVWNE8wVFdNRjkwdzJmZDRnX204UUFLWWFRV2lIMllmamJPdko4UWZqOGZXSkFBczFILVBiUW5hbTRTSHItQ25mbWZRRVhoZ096MzJsZUt6OW12d1RRZFdmMWY2ek9R?oc=5",
+      "source": "Hindustan Times",
+      "category": "India",
+      "publishedAt": "2026-11-18T04:52:58Z"
+    },
+    {
+      "id": "c383d74dbf40335bc7fd",
+      "title": "Reassigning duties to the Chairman and 7 Vice-Chairmen of the Ho Chi Minh City People's Committee. - Vietnam.vn",
+      "description": "Reassigning duties to the Chairman and 7 Vice-Chairmen of the Ho Chi Minh City People's Committee. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOU9PUlpCQXNRXzRtQ0ZRXzlITlFaUjlxMEQ4UG5yV3ZqWFlBZ3dTM2VnSmFEWDhnX19RMlZkTUpQMDNTTlpOdHJzcENSZlRzcktMdkdFd1BQOVR2TE9KdGNZSlJ3cVhuc3dabE1WMWtxWEN3b0MyeUVoWm5FLVNJa19Rb18xTVdUU0IxdFp1VQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOU9PUlpCQXNRXzRtQ0ZRXzlITlFaUjlxMEQ4UG5yV3ZqWFlBZ3dTM2VnSmFEWDhnX19RMlZkTUpQMDNTTlpOdHJzcENSZlRzcktMdkdFd1BQOVR2TE9KdGNZSlJ3cVhuc3dabE1WMWtxWEN3b0MyeUVoWm5FLVNJa19Rb18xTVdUU0IxdFp1VQ?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-18T03:55:47Z"
+    },
+    {
+      "id": "9a6095c3990d63dca3b8",
+      "title": "International & World News – 18 November 2026 - Saachi Baat",
+      "description": "International & World News – 18 November 2026 Saachi Baat",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ1pQeUNpQ21FSzQtZXV3VVRWV1VJek1md09IUHl2bVVLb3RMNmFIZ0d3dkdlcENoazdkeFBCOUV4NEdQM0xQOUd2TDdtU0FwWjAzNHlZcE01WXVlS1VvMUxNUkt4RXk3SEt6MkV3RjhvdWpzY1BsOHNkWndFOF9CSHdQV21pUjRtNUotOQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ1pQeUNpQ21FSzQtZXV3VVRWV1VJek1md09IUHl2bVVLb3RMNmFIZ0d3dkdlcENoazdkeFBCOUV4NEdQM0xQOUd2TDdtU0FwWjAzNHlZcE01WXVlS1VvMUxNUkt4RXk3SEt6MkV3RjhvdWpzY1BsOHNkWndFOF9CSHdQV21pUjRtNUotOQ?oc=5",
+      "source": "Saachi Baat",
+      "category": "World",
+      "publishedAt": "2026-11-18T03:45:06Z"
+    },
     {
       "id": "78672ec30e017717c9ff",
       "title": "China's Xi calls for tearing down trade, investment barriers at APEC summit - The Economic Times",
@@ -3157,128 +3277,8 @@
       "source": "ABC News - Breaking News, Latest News and Videos",
       "category": "Environment",
       "publishedAt": "2026-11-11T15:20:37Z"
-    },
-    {
-      "id": "8d60871660fa6f1d64a1",
-      "title": "At COP31, Turkey pushes zero-waste plan to curb climate change - News4JAX",
-      "description": "At COP31, Turkey pushes zero-waste plan to curb climate change News4JAX",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORU5iS2lRc0t6YXlSZjB0MElHSEVvc21OS2h5djc5NkZZRjZTdUIydC1XVTl2bVQzTHctWWVMc2hORnhBQlRVWWNmNzBIRy1ZbFFUZlhSeW92TnMwdTc3bURJbkE1WGM3UzVSc056OEUwOVlwSkNaMkRwZm9aakhoT0lqQTgxMUR2TVhmYmd2eVIzZDFYS3l1YjYyMWgwMUU0NktwZ2M2Ti1nTG5uTXc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORU5iS2lRc0t6YXlSZjB0MElHSEVvc21OS2h5djc5NkZZRjZTdUIydC1XVTl2bVQzTHctWWVMc2hORnhBQlRVWWNmNzBIRy1ZbFFUZlhSeW92TnMwdTc3bURJbkE1WGM3UzVSc056OEUwOVlwSkNaMkRwZm9aakhoT0lqQTgxMUR2TVhmYmd2eVIzZDFYS3l1YjYyMWgwMUU0NktwZ2M2Ti1nTG5uTXc?oc=5",
-      "source": "News4JAX",
-      "category": "Environment",
-      "publishedAt": "2026-11-11T15:12:43Z"
-    },
-    {
-      "id": "5610d020d1f6944ed1db",
-      "title": "UN chief urges world leaders to tackle fossil fuels at COP31 - International - World - Ahram Online",
-      "description": "UN chief urges world leaders to tackle fossil fuels at COP31 - International - World Ahram Online",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSWZuMUhQVV9iWmtLYmxNOERpN3M4VFEzMXQ3c1FtNXotdmVpeThWekhUd3JwelRrVXVMRHFIdDFRZzZ0VF92M2xCQy01WWZUSjU3clRuSUNVSm1nVjRuMFRNdGVTNGhKVHBtNEp5MXlfQzNWeGl3Zk5PR0tNSHZqTkZ1eFEyZ1VUQXJVT2FwdkFINnM1aXJkbFpnZ01xRlNoMnU0ZFpqNEJDakdWOWEwR1lCQnhQd011azJpaS1rempNUHBLcmc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSWZuMUhQVV9iWmtLYmxNOERpN3M4VFEzMXQ3c1FtNXotdmVpeThWekhUd3JwelRrVXVMRHFIdDFRZzZ0VF92M2xCQy01WWZUSjU3clRuSUNVSm1nVjRuMFRNdGVTNGhKVHBtNEp5MXlfQzNWeGl3Zk5PR0tNSHZqTkZ1eFEyZ1VUQXJVT2FwdkFINnM1aXJkbFpnZ01xRlNoMnU0ZFpqNEJDakdWOWEwR1lCQnhQd011azJpaS1rempNUHBLcmc?oc=5",
-      "source": "Ahram Online",
-      "category": "World",
-      "publishedAt": "2026-11-11T14:03:52Z"
-    },
-    {
-      "id": "10ccc51c2f3439fd842e",
-      "title": "Bill Gates Reassess Climate Change - Forbes",
-      "description": "Bill Gates Reassess Climate Change Forbes",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM2g4aENoam1ZekpRZHkzb2hwYkR4S0FuZENNWG5aRk5mRG8xQVBwLVI4WUV6U2FjOU5jU1cxSEcyT0RaeDhLRmRlaUE0a3MyaWtRMkd0d0lDLXZsODFyREdKVXF1SEJDTVV1VEpmZmlmekY3TVZzWUh1OEdxQlpZWWp2aWQ3X0ktUkRIckZOZw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM2g4aENoam1ZekpRZHkzb2hwYkR4S0FuZENNWG5aRk5mRG8xQVBwLVI4WUV6U2FjOU5jU1cxSEcyT0RaeDhLRmRlaUE0a3MyaWtRMkd0d0lDLXZsODFyREdKVXF1SEJDTVV1VEpmZmlmekY3TVZzWUh1OEdxQlpZWWp2aWQ3X0ktUkRIckZOZw?oc=5",
-      "source": "Forbes",
-      "category": "Environment",
-      "publishedAt": "2026-11-11T14:00:00Z"
-    },
-    {
-      "id": "409fbc1327c207cf001f",
-      "title": "Cyprus and Israel move towards bilateral memorandum on environmental cooperation - Cyprus Inform",
-      "description": "Cyprus and Israel move towards bilateral memorandum on environmental cooperation Cyprus Inform",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN1JIMm82M21iNXdkRklsUDE0bTdQbFFacjJSNHRCVHV3R1pNUXhQM3VRM000OUZ6TE40bEF1ZkRFOE9jemgzUkd2SkpCdl9mMnBFTVdSWkZHdlFXUlptSVc4aTNfQkgzMG1tTEV2b2ZZa3FLSWp3MVBYaU9qZGlGUTRGY1dPSnpFR1g4UHU3bHBhdkswajd3bUFxMzNxVzlBdC16bE1YbWdKa0tScVdwdjRzMTEyZW8?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN1JIMm82M21iNXdkRklsUDE0bTdQbFFacjJSNHRCVHV3R1pNUXhQM3VRM000OUZ6TE40bEF1ZkRFOE9jemgzUkd2SkpCdl9mMnBFTVdSWkZHdlFXUlptSVc4aTNfQkgzMG1tTEV2b2ZZa3FLSWp3MVBYaU9qZGlGUTRGY1dPSnpFR1g4UHU3bHBhdkswajd3bUFxMzNxVzlBdC16bE1YbWdKa0tScVdwdjRzMTEyZW8?oc=5",
-      "source": "Cyprus Inform",
-      "category": "Environment",
-      "publishedAt": "2026-11-11T13:30:06Z"
-    },
-    {
-      "id": "45b1d0f68a0136c361a1",
-      "title": "Severe Thunderstorm Warnings Hit Australia's Queensland, NSW - Tempo.co English",
-      "description": "Severe Thunderstorm Warnings Hit Australia's Queensland, NSW Tempo.co English",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLVliNTZhTlp5alBEVXhXaGNqRWpqWFMwMzNMQTV2OVVBS3lPVVFsejM5ZWI4cDdWSkZWTkkwLTBUb2pVWTJTUHVkM1pqNXc0cko5bzdmNDYtMFcwdTFjUno5QWFaMGhPdGtLd0JkX1h5U092dDdkTEloZm5YWmRGUDhFNTF0LXJZZFUzNW1oaENkVGNoaXc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLVliNTZhTlp5alBEVXhXaGNqRWpqWFMwMzNMQTV2OVVBS3lPVVFsejM5ZWI4cDdWSkZWTkkwLTBUb2pVWTJTUHVkM1pqNXc0cko5bzdmNDYtMFcwdTFjUno5QWFaMGhPdGtLd0JkX1h5U092dDdkTEloZm5YWmRGUDhFNTF0LXJZZFUzNW1oaENkVGNoaXc?oc=5",
-      "source": "Tempo.co English",
-      "category": "Disaster",
-      "publishedAt": "2026-11-11T13:28:43Z"
-    },
-    {
-      "id": "10109e1a76d22885d829",
-      "title": "Austria tightens laws against spying to protect the international organizations it hosts - Stuff",
-      "description": "Austria tightens laws against spying to protect the international organizations it hosts Stuff",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLXhwNHpwQ0JDV1UtYnFoVHZCTmhnTk9oYVNYZUlSa2RNS3Q3eWxLNVA5YzItQjlGa29kbkc1emxkMmp4ZHRHeFVCOFBLWk56QVNiNWMxWElRckNYbEpJMmI0TUh2c2VJWXVaV2p0VVpPNWctaHVueVN5Zkd2NG16NURTS3FpVHhLYkJiWWRTd04ydFJoNnc2RFJkTVhvaVU?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLXhwNHpwQ0JDV1UtYnFoVHZCTmhnTk9oYVNYZUlSa2RNS3Q3eWxLNVA5YzItQjlGa29kbkc1emxkMmp4ZHRHeFVCOFBLWk56QVNiNWMxWElRckNYbEpJMmI0TUh2c2VJWXVaV2p0VVpPNWctaHVueVN5Zkd2NG16NURTS3FpVHhLYkJiWWRTd04ydFJoNnc2RFJkTVhvaVU?oc=5",
-      "source": "Stuff",
-      "category": "World",
-      "publishedAt": "2026-11-11T13:25:14Z"
-    },
-    {
-      "id": "b87adbdf16328b1e79dc",
-      "title": "World leaders urge stronger and faster action at UN climate talks over inadequate response - The Economic Times",
-      "description": "World leaders urge stronger and faster action at UN climate talks over inadequate response The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNSHdVUmZXYkFqaTFOZjgxQzFIT2Nna0NPczJjMGNPX2JidFFmdWpUTFRfN1UzREVMa25VaWc2bFQ3eVlZZGl1dWM3ajNkSk5wbnFVdnNJOXNOcjd1cy0zRXY3WExSenl0QkZNNXEwN1g3X1Yxa2RqUkhkQVk0a2Y4NDlqbl9Fc3ExOEtpTDBoX2Y4aV9tOFROODgxTnd0d1pRNEFWX2hfc2YyS3NPMmJ5X3UwOXlGeWliNUxieEQ5S0M5UUpNQzhJZk1mN09aTHpBaUZzdFE4RFQ4OVNFaDlKV25OSVJwVC1oeVJiQkxWZzJ1YTZVY1lGdl9UamFjMnhid09XTtIBigJBVV95cUxQcFMyNDMzV1V4ZTQ3dkc0c01zV1RpbVVjOVpBX0QxXzlfcTlkZFNLNlN0bDJCVEVGUnF1bm5mbEVoVmlLNnAtaDRqSFBObEx2UEdUWTRJSnRKcHlmZldHSEpFeTVJQjZoajFHS1VzV0xKeVRsMkdKem5LVmp2SHlHSTNHVnR6Z3dGOS00N1M2RTVDN3E2cmZQSWxzWE1NZHhLcTNYNFdaSjJqWkZhU1VVdy1kZ3FGOFBCMkRSSXVCZHNkMllRWFE1aFRFdDhLY2t1Wi1sUkk1UEdxN2RrQ1dXRWJmTW5YVlNGOFFOTUFsS25hQzRKWEdPS2xNU3c2dFEyOERpUzVNcUd5UQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNSHdVUmZXYkFqaTFOZjgxQzFIT2Nna0NPczJjMGNPX2JidFFmdWpUTFRfN1UzREVMa25VaWc2bFQ3eVlZZGl1dWM3ajNkSk5wbnFVdnNJOXNOcjd1cy0zRXY3WExSenl0QkZNNXEwN1g3X1Yxa2RqUkhkQVk0a2Y4NDlqbl9Fc3ExOEtpTDBoX2Y4aV9tOFROODgxTnd0d1pRNEFWX2hfc2YyS3NPMmJ5X3UwOXlGeWliNUxieEQ5S0M5UUpNQzhJZk1mN09aTHpBaUZzdFE4RFQ4OVNFaDlKV25OSVJwVC1oeVJiQkxWZzJ1YTZVY1lGdl9UamFjMnhid09XTtIBigJBVV95cUxQcFMyNDMzV1V4ZTQ3dkc0c01zV1RpbVVjOVpBX0QxXzlfcTlkZFNLNlN0bDJCVEVGUnF1bm5mbEVoVmlLNnAtaDRqSFBObEx2UEdUWTRJSnRKcHlmZldHSEpFeTVJQjZoajFHS1VzV0xKeVRsMkdKem5LVmp2SHlHSTNHVnR6Z3dGOS00N1M2RTVDN3E2cmZQSWxzWE1NZHhLcTNYNFdaSjJqWkZhU1VVdy1kZ3FGOFBCMkRSSXVCZHNkMllRWFE1aFRFdDhLY2t1Wi1sUkk1UEdxN2RrQ1dXRWJmTW5YVlNGOFFOTUFsS25hQzRKWEdPS2xNU3c2dFEyOERpUzVNcUd5UQ?oc=5",
-      "source": "The Economic Times",
-      "category": "World",
-      "publishedAt": "2026-11-11T13:23:38Z"
-    },
-    {
-      "id": "7e48178d9b6ad6d3350f",
-      "title": "Cyprus, Israel move towards new environmental cooperation agreement - Cyprus Mail",
-      "description": "Cyprus, Israel move towards new environmental cooperation agreement Cyprus Mail",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc21mQ2xkV0U3ZU1Jd3VsUERBMEJQbHJzQjBkRkFBcmt4QXNqZkpNRUpHaFduWlhoOVhmZy1UbXdyd1VleHdFSXhVUXNzNzhBLTdzRGVpdjdSYWtKcDVtbGRsdkpFQnlhWTVhb1JUZ05NY3N3X0ZhcHNjcVNiNnVnMG4xZU52YXNLdF9sbHpZdFNJMzRWQ2k0RDlXRUZ5LVpDVU13?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc21mQ2xkV0U3ZU1Jd3VsUERBMEJQbHJzQjBkRkFBcmt4QXNqZkpNRUpHaFduWlhoOVhmZy1UbXdyd1VleHdFSXhVUXNzNzhBLTdzRGVpdjdSYWtKcDVtbGRsdkpFQnlhWTVhb1JUZ05NY3N3X0ZhcHNjcVNiNnVnMG4xZU52YXNLdF9sbHpZdFNJMzRWQ2k0RDlXRUZ5LVpDVU13?oc=5",
-      "source": "Cyprus Mail",
-      "category": "Environment",
-      "publishedAt": "2026-11-11T13:23:12Z"
-    },
-    {
-      "id": "b33f530620fa81feede2",
-      "title": "Austria tightens laws against spying to protect the international organizations it hosts - Idaho Press",
-      "description": "Austria tightens laws against spying to protect the international organizations it hosts Idaho Press",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNWGktRGNHdU9mOW5EbHlmX01SaDVGSEtrb3o4YmJkQWdpUno2bExDZHYtVW1aWFN3QXRPWWRoTkZIVVh5Ml9xRmRMdkdjT2h1eXlOeEhDWnVBNzlQQWhVczFDUk9sQXhTYXhBQWhibWY4WkNqRlJ5dzBHUS0yWm9qQ0xaSDZwSHpzb01HQXlIbGt5TEcwcFRCTVpLZWlqZEliLVd2VHVsYlBrblcwSGlMdk91QTNXZzJ5dUk2UFZCZllGdWJWSVVZMWhWUEo2TEZxZ0tjRzd5WGNvZXZnNVJtNlV1RjlLdHYtMndjbHpQN3RSbVpHWjlpSFR1VWpYYkplWjZtTXkxbw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNWGktRGNHdU9mOW5EbHlmX01SaDVGSEtrb3o4YmJkQWdpUno2bExDZHYtVW1aWFN3QXRPWWRoTkZIVVh5Ml9xRmRMdkdjT2h1eXlOeEhDWnVBNzlQQWhVczFDUk9sQXhTYXhBQWhibWY4WkNqRlJ5dzBHUS0yWm9qQ0xaSDZwSHpzb01HQXlIbGt5TEcwcFRCTVpLZWlqZEliLVd2VHVsYlBrblcwSGlMdk91QTNXZzJ5dUk2UFZCZllGdWJWSVVZMWhWUEo2TEZxZ0tjRzd5WGNvZXZnNVJtNlV1RjlLdHYtMndjbHpQN3RSbVpHWjlpSFR1VWpYYkplWjZtTXkxbw?oc=5",
-      "source": "Idaho Press",
-      "category": "World",
-      "publishedAt": "2026-11-11T13:04:10Z"
-    },
-    {
-      "id": "bdde93bd0e429cce442b",
-      "title": "12 free reports about climate change for COP31 - Yale Climate Connections",
-      "description": "12 free reports about climate change for COP31 Yale Climate Connections",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWkJKRkVRWTlMRW9ibnRhc2phWTAyWjJhcjRoamtjcnM1TURhSFQ2cmIwaHNaQWFyaG5VeTRRSWtnMTVObGw4LURTVzZUbWVVN2ZJV3QxczlSdWdCaFVzai01QmRkbi1QbjdiQUpBRUNyaGU3YkpEU1doY2pZdHZ0ZkhvLS1oVzJiV1dWLU9FdGFoRDZP?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWkJKRkVRWTlMRW9ibnRhc2phWTAyWjJhcjRoamtjcnM1TURhSFQ2cmIwaHNaQWFyaG5VeTRRSWtnMTVObGw4LURTVzZUbWVVN2ZJV3QxczlSdWdCaFVzai01QmRkbi1QbjdiQUpBRUNyaGU3YkpEU1doY2pZdHZ0ZkhvLS1oVzJiV1dWLU9FdGFoRDZP?oc=5",
-      "source": "Yale Climate Connections",
-      "category": "Environment",
-      "publishedAt": "2026-11-11T11:59:00Z"
-    },
-    {
-      "id": "da7b371c5cba365cd011",
-      "title": "COP31 POLICY AND INVESTMENT BRIEF BY THE WORLD FOOD PROGRAMME (WFP) AND INTERNATIONAL CENTER FOR INTEGRATED MOUNTAIN DEVELOPMENT (ICIMOD) - ReliefWeb",
-      "description": "COP31 POLICY AND INVESTMENT BRIEF BY THE WORLD FOOD PROGRAMME (WFP) AND INTERNATIONAL CENTER FOR INTEGRATED MOUNTAIN DEVELOPMENT (ICIMOD) ReliefWeb",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOa3FlVnczYzFSNnRrVW9ib0pubHpTYktCa1N0ZEhpRWpuY0JpNGdleGFKNXd5aHc5TU5NS1YzemlpM2c4eUZ3c095UnZSMUVJbXZ2N05yT2J3bVpIV0lHNFZFWWZ4a21tWnl2bHdzYlpvZ281TWY3d2w2cDZoSzlTeVA0VFdNNWliXzY2UHVScU5aMDh0bnlQd0ZkcW5rMFY1Q19YLUdZUWdscDJpZTJCdmJ3bXVaNGpfX2JWTFBMRG9OM3Rkak0xemFzclVpNl94Z1VraWhBMWdYc2lfQUlMNjNSZFBib1F5S0lDV04wR2dpdw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOa3FlVnczYzFSNnRrVW9ib0pubHpTYktCa1N0ZEhpRWpuY0JpNGdleGFKNXd5aHc5TU5NS1YzemlpM2c4eUZ3c095UnZSMUVJbXZ2N05yT2J3bVpIV0lHNFZFWWZ4a21tWnl2bHdzYlpvZ281TWY3d2w2cDZoSzlTeVA0VFdNNWliXzY2UHVScU5aMDh0bnlQd0ZkcW5rMFY1Q19YLUdZUWdscDJpZTJCdmJ3bXVaNGpfX2JWTFBMRG9OM3Rkak0xemFzclVpNl94Z1VraWhBMWdYc2lfQUlMNjNSZFBib1F5S0lDV04wR2dpdw?oc=5",
-      "source": "ReliefWeb",
-      "category": "World",
-      "publishedAt": "2026-11-11T11:31:21Z"
-    },
-    {
-      "id": "b9a04de87f82c10452d4",
-      "title": "What Plaid Cymru’s Plan for government tells us about its environmental ambitions - ENDS Report",
-      "description": "What Plaid Cymru’s Plan for government tells us about its environmental ambitions ENDS Report",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOEhNVGUzelVsbWdvQzVPZGgxbXZCX0ZZbmhBSTh0ZnJzLWUybmcxZWNBSXo1ejQ4NHF4b0dxRjJZWjQ0dThRcWVKUHkyQU9pSm5rRWc3eVBMQVh2WUc4ejJubHNVNWFSV1Y5VEZJVXM4S3F1LXM2dG5hRW5wV1lZOUlWQktmSUxUWDBFSHlzdEIzRWN4WjdWOUl6VEkyRUJ1cHVuLW5WRV9NTms4?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOEhNVGUzelVsbWdvQzVPZGgxbXZCX0ZZbmhBSTh0ZnJzLWUybmcxZWNBSXo1ejQ4NHF4b0dxRjJZWjQ0dThRcWVKUHkyQU9pSm5rRWc3eVBMQVh2WUc4ejJubHNVNWFSV1Y5VEZJVXM4S3F1LXM2dG5hRW5wV1lZOUlWQktmSUxUWDBFSHlzdEIzRWN4WjdWOUl6VEkyRUJ1cHVuLW5WRV9NTms4?oc=5",
-      "source": "ENDS Report",
-      "category": "Environment",
-      "publishedAt": "2026-11-11T11:14:09Z"
     }
   ],
-  "lastUpdated": "2026-11-18T03:26:21Z",
-  "updatedAt": "2026-11-18T03:26:21Z"
+  "lastUpdated": "2026-11-18T12:08:28Z",
+  "updatedAt": "2026-11-18T12:08:28Z"
 }
