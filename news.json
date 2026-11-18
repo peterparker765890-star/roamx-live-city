@@ -240,51 +240,104 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-17T21:36:13Z",
-    "lastSuccessfulRun": "2026-11-17T21:36:13Z",
-    "lastUpdated": "2026-11-17T21:36:13Z",
-    "articlesAdded": 19,
+    "lastRun": "2026-11-18T03:26:21Z",
+    "lastSuccessfulRun": "2026-11-18T03:26:21Z",
+    "lastUpdated": "2026-11-18T03:26:21Z",
+    "articlesAdded": 12,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 29,
+    "duplicatesRemoved": 34,
     "failedSources": [],
     "newArticleIds": [
-      "7bfe4fcabf7b32f12c45",
-      "7268651f1b874997d58a",
-      "149711f94c41c9f509eb",
-      "75f0f15d5b992e6f87fa",
-      "450b2c22c048936c406a",
-      "f6205581cad6fb38bec4",
-      "dd93e4ff2a237fdcb186",
-      "dcc6b721efc1bd3451f8",
-      "4f5be0a6db0d9a04e2b3",
-      "7564b15577fed2c6a063",
-      "af863da93c9f728acec7",
-      "b871f23f246948494689",
-      "5cd2e9871408b30217d4",
-      "5a826b91e8483fce4097",
-      "7396bd9e79ef90adb7bd",
-      "b9c8fd0dddd8f34540a6",
-      "e7b2884ad5d86ecc3735",
-      "319d7cb3f97f1ac856d0",
-      "3ff6ab3cfd0dc0cbdd39"
+      "78672ec30e017717c9ff",
+      "23e0127062542416dfb3",
+      "4d0e40ae0d8c011ccc3f",
+      "c75bc638530416fed892",
+      "b53c375b4e1b7ae2551c",
+      "d0043b6cbfd288df636b",
+      "2c4e011e8448f7d463c5",
+      "437b358b1319ac88cbe8",
+      "c7f6145454df33f65fdf",
+      "5877ec7077feff107271",
+      "7079a7d92a0055593104",
+      "a118ab839b2fc265c997"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 13,
+    "articlesRemoved": 12,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 190,
-      "India": 19,
+      "World": 189,
+      "India": 21,
       "Technology": 16,
-      "Environment": 67,
+      "Environment": 66,
       "Disaster": 8
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "78672ec30e017717c9ff",
+      "title": "China's Xi calls for tearing down trade, investment barriers at APEC summit - The Economic Times",
+      "description": "China's Xi calls for tearing down trade, investment barriers at APEC summit The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVElhWVpoM3ROOXhfTVREQlFPQ3hVWlJ3M1FfQlZyb0Qwemlmd21jU0NNOExKVl9YS1VzZGc5VVVFSnM2bGlQRm9lZlBGb0N5NUZRZkFRU01DVXVNdWtNWC1kbnZleXZaSW1Na2kwYThUN1ZOVVRiN0RTaHVwWXNJOUg4a3NVVC1ieVIxa3RiWWhJX0pWamlsTGJsLWZ1eVg1X1dFOVRoNjhmTEk5SUltTDRWdzZpTHBXT0hRQWh4b0pWRGlZYjE5VEdnMVdaSWdYS1lrTUl4ZGhZWUYyMGZ1QjhYdko5bG5zYXlIYVRR0gHzAUFVX3lxTFB5blpRNWVTY0FEOW1UUmFMbXdadUJGYzF1UmlTN3hMRFpUdEJ3LTRKQ2lCNU9zV1NPbXJRMFd3aWVmc0didS1mYzVwSHA5ZFdiMFozZzlWTDBLQUhFLXRKc1dUdzE4RkVfbjVFdEI3X0dCbVhNZHM3cmRmN1JZQzJ0anMtYzEyYmlLWlFBTmlCY3RJb3d3U241dUVYRWNiWVRQc1ExVGhtekRBbXI3aXcwU0ZQOWdOYWs3MUhqMzNSdkFHWWM0RTA4Q0pVY2JlYk9iSkpVMTFPN1RkM0l5S2VaempOU1ZBN1h5SVBoLTUxOTFsNA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVElhWVpoM3ROOXhfTVREQlFPQ3hVWlJ3M1FfQlZyb0Qwemlmd21jU0NNOExKVl9YS1VzZGc5VVVFSnM2bGlQRm9lZlBGb0N5NUZRZkFRU01DVXVNdWtNWC1kbnZleXZaSW1Na2kwYThUN1ZOVVRiN0RTaHVwWXNJOUg4a3NVVC1ieVIxa3RiWWhJX0pWamlsTGJsLWZ1eVg1X1dFOVRoNjhmTEk5SUltTDRWdzZpTHBXT0hRQWh4b0pWRGlZYjE5VEdnMVdaSWdYS1lrTUl4ZGhZWUYyMGZ1QjhYdko5bG5zYXlIYVRR0gHzAUFVX3lxTFB5blpRNWVTY0FEOW1UUmFMbXdadUJGYzF1UmlTN3hMRFpUdEJ3LTRKQ2lCNU9zV1NPbXJRMFd3aWVmc0didS1mYzVwSHA5ZFdiMFozZzlWTDBLQUhFLXRKc1dUdzE4RkVfbjVFdEI3X0dCbVhNZHM3cmRmN1JZQzJ0anMtYzEyYmlLWlFBTmlCY3RJb3d3U241dUVYRWNiWVRQc1ExVGhtekRBbXI3aXcwU0ZQOWdOYWs3MUhqMzNSdkFHWWM0RTA4Q0pVY2JlYk9iSkpVMTFPN1RkM0l5S2VaempOU1ZBN1h5SVBoLTUxOTFsNA?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-18T02:55:20Z"
+    },
+    {
+      "id": "23e0127062542416dfb3",
+      "title": "International hockey federation hit by cyberattack after Russia barred from World Juniors - The Kyiv Independent",
+      "description": "International hockey federation hit by cyberattack after Russia barred from World Juniors The Kyiv Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV0xiVE1lNUowNWZYaU8zcWZfQkxpRk9IenRsSHltdmdQaG51RWp5YUd1R3pCa0NJTG1sV0ViUzhkeEh0UHZXYTYyYTRTdlRob0NBNG53UjRHODRDeUhLRzZkYmtmZ1hRUGxGajAyNnhWVGNhZnVaOHlCdlZEdE01WW03c1ExYUE0MlhtdENIMUp5MDV6NzdiaEpNejVCNjg1dmNPZW9yMG9hQ1A2ekhRdUlzN3o1MTNZd0E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV0xiVE1lNUowNWZYaU8zcWZfQkxpRk9IenRsSHltdmdQaG51RWp5YUd1R3pCa0NJTG1sV0ViUzhkeEh0UHZXYTYyYTRTdlRob0NBNG53UjRHODRDeUhLRzZkYmtmZ1hRUGxGajAyNnhWVGNhZnVaOHlCdlZEdE01WW03c1ExYUE0MlhtdENIMUp5MDV6NzdiaEpNejVCNjg1dmNPZW9yMG9hQ1A2ekhRdUlzN3o1MTNZd0E?oc=5",
+      "source": "The Kyiv Independent",
+      "category": "World",
+      "publishedAt": "2026-11-18T02:31:23Z"
+    },
+    {
+      "id": "4d0e40ae0d8c011ccc3f",
+      "title": "Breakthrough through knowledge, technology, and innovation. - Vietnam.vn",
+      "description": "Breakthrough through knowledge, technology, and innovation. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZHBxRTdfN2dRckx3R085MjNsSmRIVGdrSXBXQnA0ZjJMWFZCTVFIbXVzcXZidlptN1ZwbHJYNUp1MXRUMUlGeld5b3pOcDRRd1Q4UGloOEdNU1B6LV9rLTExeEJPUE55ME1GYzVkOVN4bERGV0dpWnZBZHJmekJta2h2MA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZHBxRTdfN2dRckx3R085MjNsSmRIVGdrSXBXQnA0ZjJMWFZCTVFIbXVzcXZidlptN1ZwbHJYNUp1MXRUMUlGeld5b3pOcDRRd1Q4UGloOEdNU1B6LV9rLTExeEJPUE55ME1GYzVkOVN4bERGV0dpWnZBZHJmekJta2h2MA?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-18T00:55:10Z"
+    },
+    {
+      "id": "c75bc638530416fed892",
+      "title": "2 Vietnamese rice dishes named among world top 100 - VnExpress International",
+      "description": "2 Vietnamese rice dishes named among world top 100 VnExpress International",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQWQ3TGdSS3c3LVhFS1BaY19pLWhXUmZveDdMRjloY29iQl95eklfOC1QZmR0Ni1SRjB6b3YtakVoVFR2UlpEQTQtNmVzZDNiQ0R5ZmVZdHpxUHV3TGs3Zkp4SXRFbm92ZkEyTzYzZ1NKT0NGcXhLaE84SVRINGJ4Y0VxMGhEbG5tZ2wzTWpDeEc2SUdrR3dBbDJZUmlXRld0ZGtTMTlLMjZSM05jYTZJVFJ3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQWQ3TGdSS3c3LVhFS1BaY19pLWhXUmZveDdMRjloY29iQl95eklfOC1QZmR0Ni1SRjB6b3YtakVoVFR2UlpEQTQtNmVzZDNiQ0R5ZmVZdHpxUHV3TGs3Zkp4SXRFbm92ZkEyTzYzZ1NKT0NGcXhLaE84SVRINGJ4Y0VxMGhEbG5tZ2wzTWpDeEc2SUdrR3dBbDJZUmlXRld0ZGtTMTlLMjZSM05jYTZJVFJ3?oc=5",
+      "source": "VnExpress International",
+      "category": "World",
+      "publishedAt": "2026-11-18T00:53:35Z"
+    },
+    {
+      "id": "b53c375b4e1b7ae2551c",
+      "title": "City approves $1 million in federal funding for new shelter infrastructure - CTV News",
+      "description": "City approves $1 million in federal funding for new shelter infrastructure CTV News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWncxa1I1TVJIeHJPcHlYVm9qZTE4Z294bVpBVUpOY0Z5VHV5VjdZem5EaUtLeUVobHJ2UzdLMy1hRVBpamNDRTlJT1o4TUQ1M3NnQy04YmVpUDZNeTJQM0diVzZIWGhaYzFWOTVnU3U4VFBkWEZYZDZ0WDJCOWh2ZGo4MVhhVUdZYThQR0FRVFdOVmZjWXVnaWxUOHV6NS1PcVI3dWhFd2YzMWNJckNBbXhhZHkyZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWncxa1I1TVJIeHJPcHlYVm9qZTE4Z294bVpBVUpOY0Z5VHV5VjdZem5EaUtLeUVobHJ2UzdLMy1hRVBpamNDRTlJT1o4TUQ1M3NnQy04YmVpUDZNeTJQM0diVzZIWGhaYzFWOTVnU3U4VFBkWEZYZDZ0WDJCOWh2ZGo4MVhhVUdZYThQR0FRVFdOVmZjWXVnaWxUOHV6NS1PcVI3dWhFd2YzMWNJckNBbXhhZHkyZw?oc=5",
+      "source": "CTV News",
+      "category": "India",
+      "publishedAt": "2026-11-17T23:34:06Z"
+    },
+    {
+      "id": "d0043b6cbfd288df636b",
+      "title": "Downtown Tech Summit 2026 in Doha Highlights Qatar's Innovation Ecosystem - News and Statistics - IndexBox",
+      "description": "Downtown Tech Summit 2026 in Doha Highlights Qatar's Innovation Ecosystem - News and Statistics IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS1JzdGVRakNxcU5DU1JzaXo1dWxRMlR0TEVYQmxSRFZkdmh3M2tFVU1kZWt0cE1zU2V0UGVUaThYVFRNczBwNy11SFJJM3I2TF8taFRLWVdaMjlUTzNFTHFUbGNTQTFhdTJCTmN6N19sclFyQnJLblhETDg5VjEyQjFva2VfS2xfV25pS0ZsMWMwQUVpQ19vVUY1T0RPdG9ISFE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS1JzdGVRakNxcU5DU1JzaXo1dWxRMlR0TEVYQmxSRFZkdmh3M2tFVU1kZWt0cE1zU2V0UGVUaThYVFRNczBwNy11SFJJM3I2TF8taFRLWVdaMjlUTzNFTHFUbGNTQTFhdTJCTmN6N19sclFyQnJLblhETDg5VjEyQjFva2VfS2xfV25pS0ZsMWMwQUVpQ19vVUY1T0RPdG9ISFE?oc=5",
+      "source": "IndexBox",
+      "category": "Technology",
+      "publishedAt": "2026-11-17T21:00:57Z"
+    },
     {
       "id": "7bfe4fcabf7b32f12c45",
       "title": "Abu Dhabi International Boat Show opens this week with world premieres and record participation - Big News Network.com",
@@ -406,6 +459,16 @@
       "publishedAt": "2026-11-17T15:18:20Z"
     },
     {
+      "id": "2c4e011e8448f7d463c5",
+      "title": "Patrick Mahomes’ latest praise for Brittany reveals the growing business empire behind Kansas City Curren - The Times of India",
+      "description": "Patrick Mahomes’ latest praise for Brittany reveals the growing business empire behind Kansas City Curren The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQV3hCMlBfa3JCdlV1UjRTYm1Yc3hxZjVCS1M1eTFpcXZXOVRJUHVueDlIYUFRMFA5YlRJUm8zRVRPSTFzZmZqUnh0N3pCRTZCTE9kTzVVZmExYllvN3Zua19LNE55bkF2NDFmS1NGZGx0S1o3ZVg5NEtCWGQ2M0pQcTVwNkhKa3JMOGZnU0gyV0ItandMWUNCMWdXcGQ3aFI0NFRuU3MwbW1TclV3SnZ0d0d1dFZKM09ZUC1DLTlwck5vdDljMWJ5ZGZwb2Fic3lheE9zbXd1WFBjQ1JfNTFBbkNSdW9yOTA0N2RMcVpwcmhlUjM1UVdxREhhQl8wVnhncmJFT293QmlsTXdPYzg5X3d6VWtaTVBiNGxPcDQ2V3NfRlhNTUo2NtIBrgJBVV95cUxPVGJSejhuRzRXb3ZHbVJkLU45alJHdE43cjVWLTQyOHRsQWxnM2pHZlR0cEs3eDg1NTZPSFJCTDZjdVZWWkFETDQyVkU3dWRhM2xuNXJsQU1yX2RoLXJoT1Awc3pBMUJqQWlSZThXQ3VGV3dLTGZMWWlnNEluMXc2NnE0UG1wbjVHSmt3Y0QxSW41MU96UU93M3RTWGhLTFRMSFU1RTU2c09iSU91UXM3bm5YaWZWeWtldHhJVUQ4cFZXUzhXWC0yNU1DQmV1TndJYUtIRDFKZjB3bC1MZFdUUUJoS0ZBLVJkSFkzRkl3eHBBODFaamFtX2h6NHpoejYxdHVHQU9QRDVVaWQzZU1tc2lRZERBNFdnVmNtVHZUOUdvMW1Wd29QdFpCZ0NTQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQV3hCMlBfa3JCdlV1UjRTYm1Yc3hxZjVCS1M1eTFpcXZXOVRJUHVueDlIYUFRMFA5YlRJUm8zRVRPSTFzZmZqUnh0N3pCRTZCTE9kTzVVZmExYllvN3Zua19LNE55bkF2NDFmS1NGZGx0S1o3ZVg5NEtCWGQ2M0pQcTVwNkhKa3JMOGZnU0gyV0ItandMWUNCMWdXcGQ3aFI0NFRuU3MwbW1TclV3SnZ0d0d1dFZKM09ZUC1DLTlwck5vdDljMWJ5ZGZwb2Fic3lheE9zbXd1WFBjQ1JfNTFBbkNSdW9yOTA0N2RMcVpwcmhlUjM1UVdxREhhQl8wVnhncmJFT293QmlsTXdPYzg5X3d6VWtaTVBiNGxPcDQ2V3NfRlhNTUo2NtIBrgJBVV95cUxPVGJSejhuRzRXb3ZHbVJkLU45alJHdE43cjVWLTQyOHRsQWxnM2pHZlR0cEs3eDg1NTZPSFJCTDZjdVZWWkFETDQyVkU3dWRhM2xuNXJsQU1yX2RoLXJoT1Awc3pBMUJqQWlSZThXQ3VGV3dLTGZMWWlnNEluMXc2NnE0UG1wbjVHSmt3Y0QxSW41MU96UU93M3RTWGhLTFRMSFU1RTU2c09iSU91UXM3bm5YaWZWeWtldHhJVUQ4cFZXUzhXWC0yNU1DQmV1TndJYUtIRDFKZjB3bC1MZFdUUUJoS0ZBLVJkSFkzRkl3eHBBODFaamFtX2h6NHpoejYxdHVHQU9QRDVVaWQzZU1tc2lRZERBNFdnVmNtVHZUOUdvMW1Wd29QdFpCZ0NTQQ?oc=5",
+      "source": "The Times of India",
+      "category": "India",
+      "publishedAt": "2026-11-17T14:18:00Z"
+    },
+    {
       "id": "5cd2e9871408b30217d4",
       "title": "Trump's two top officials are at war over China and Nvidia. Why the growing feud is becoming a White House - The Economic Times",
       "description": "Trump's two top officials are at war over China and Nvidia. Why the growing feud is becoming a White House The Economic Times",
@@ -436,6 +499,16 @@
       "publishedAt": "2026-11-17T14:02:57Z"
     },
     {
+      "id": "437b358b1319ac88cbe8",
+      "title": "Himalayan cities need climate-resilient infrastructure, integrated water management: Union minister Tokhan Sahu - Prashant News",
+      "description": "Himalayan cities need climate-resilient infrastructure, integrated water management: Union minister Tokhan Sahu Prashant News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRHNSMEdPRzhIekpMOXZNc3EtaVlxWlZlNnY5dEt4dzYxU1FMenhDbzE0NExhX0dWLUtKR3BROE5VWkZlMW1NMlNjakRhSFJLVGFDWldITlgzX2hhaHpxUDI0Rm1DRURaNnU3M3hlYXB2ck1pdk1kRkF6RnZHVy1YZERIYXJtU3BhbzNyNlg1TFd4YXZ5VWx4WXFHZ0JreDAwcVkwbnN5cl9wcC1CT2RNZnQwVk9LWlBXMUhvOEtobDFyOEZSM1E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRHNSMEdPRzhIekpMOXZNc3EtaVlxWlZlNnY5dEt4dzYxU1FMenhDbzE0NExhX0dWLUtKR3BROE5VWkZlMW1NMlNjakRhSFJLVGFDWldITlgzX2hhaHpxUDI0Rm1DRURaNnU3M3hlYXB2ck1pdk1kRkF6RnZHVy1YZERIYXJtU3BhbzNyNlg1TFd4YXZ5VWx4WXFHZ0JreDAwcVkwbnN5cl9wcC1CT2RNZnQwVk9LWlBXMUhvOEtobDFyOEZSM1E?oc=5",
+      "source": "Prashant News",
+      "category": "India",
+      "publishedAt": "2026-11-17T13:01:59Z"
+    },
+    {
       "id": "b9c8fd0dddd8f34540a6",
       "title": "India and ASEAN agree to enhance cooperation on early warning systems for earthquakes, tsunamis - Social News XYZ",
       "description": "India and ASEAN agree to enhance cooperation on early warning systems for earthquakes, tsunamis Social News XYZ",
@@ -444,6 +517,16 @@
       "source": "Social News XYZ",
       "category": "Disaster",
       "publishedAt": "2026-11-17T11:50:04Z"
+    },
+    {
+      "id": "c7f6145454df33f65fdf",
+      "title": "ASTM International Explores Formation Of New Industrial Hemp Committee - Textile World",
+      "description": "ASTM International Explores Formation Of New Industrial Hemp Committee Textile World",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQ21wNTRqSnViYTlPbXFVNnNRcGxIVFFFeEJWQVdockpSMENNZG5tU2Jlend2cm80XzlNNzk0WjFRblNtaVFDQkh6cnY3LTBId1VKdDBuRnYzR3hHemctc1R4N2hfTTEtUWRxOTg3Z0thblFJYTRyS2pBcEpxMzZ4VEFaNGZoalBwaW5yODk2bF9qYlZJbU5DNGlpUUZid1NZdDc2TTJ1TXhEcnN4b1JFSEUxU1ZWV2E5LXdaVDhvaEJfa184Z1JaOEpIWTNUb1E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQ21wNTRqSnViYTlPbXFVNnNRcGxIVFFFeEJWQVdockpSMENNZG5tU2Jlend2cm80XzlNNzk0WjFRblNtaVFDQkh6cnY3LTBId1VKdDBuRnYzR3hHemctc1R4N2hfTTEtUWRxOTg3Z0thblFJYTRyS2pBcEpxMzZ4VEFaNGZoalBwaW5yODk2bF9qYlZJbU5DNGlpUUZid1NZdDc2TTJ1TXhEcnN4b1JFSEUxU1ZWV2E5LXdaVDhvaEJfa184Z1JaOEpIWTNUb1E?oc=5",
+      "source": "Textile World",
+      "category": "World",
+      "publishedAt": "2026-11-17T11:48:09Z"
     },
     {
       "id": "aff80ae84f0f862c193d",
@@ -504,6 +587,16 @@
       "source": "thecanadianpressnews.ca",
       "category": "World",
       "publishedAt": "2026-11-17T08:27:16Z"
+    },
+    {
+      "id": "5877ec7077feff107271",
+      "title": "Abu Dhabi International Boat Show Opens This Week With World Premieres and Record Participation - Business Wire",
+      "description": "Abu Dhabi International Boat Show Opens This Week With World Premieres and Record Participation Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYks5Z2pyM0pPTHFMMHJRM2gwbUROYUtrdWt0bWhyWFlicjBIa1hKOW1CTE13bXoxWUlvak1UdnJndWxyd050MnExOFlERTJIc1ZDUlRGSUpJM2d3QzdXNWthWXpaSWVBVHVDUTlvUExsbEVzR0txa2hyRFpDMC1GTjh0eTMtNHV3Z1RHd3NHTlZINFktZFE4TTdtV2pTYlR6SDhoVzF4UzFRODJ3MEhLS0JSSk1RdjBsa1hLQ3NzRS1XZGd5ejRJQUhvTS1iR2JnVTVvbWI3bTVrbk10eW5Jb0dHQW1PM1U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYks5Z2pyM0pPTHFMMHJRM2gwbUROYUtrdWt0bWhyWFlicjBIa1hKOW1CTE13bXoxWUlvak1UdnJndWxyd050MnExOFlERTJIc1ZDUlRGSUpJM2d3QzdXNWthWXpaSWVBVHVDUTlvUExsbEVzR0txa2hyRFpDMC1GTjh0eTMtNHV3Z1RHd3NHTlZINFktZFE4TTdtV2pTYlR6SDhoVzF4UzFRODJ3MEhLS0JSSk1RdjBsa1hLQ3NzRS1XZGd5ejRJQUhvTS1iR2JnVTVvbWI3bTVrbk10eW5Jb0dHQW1PM1U?oc=5",
+      "source": "Business Wire",
+      "category": "World",
+      "publishedAt": "2026-11-17T08:27:00Z"
     },
     {
       "id": "93b3bcbb4a8277cecf69",
@@ -584,6 +677,16 @@
       "source": "India Shipping News",
       "category": "India",
       "publishedAt": "2026-11-17T03:54:10Z"
+    },
+    {
+      "id": "7079a7d92a0055593104",
+      "title": "Dubai airport traffic falls amid regional war, but shows signs of recovery - Reuters",
+      "description": "Dubai airport traffic falls amid regional war, but shows signs of recovery Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOekZJUTFpZ2ZuZnFqNHlMNnprM1JhVks4ekRSWUExSW9RS2FXb2RrT0IxV2c2Z2E4NFFiQ3hHQm5QWEtyaDlQajZsWW5hMS0tUmdCa0ViWm1uWVp3QkV5SE04QnZPTlJTOExTQjhLQlR2dkRIdjAtWVFVdC1aTnIwRU5qTElIMnV6ZTM3akphYldsODIzYkprd1Njb2Q1MlM5Skhydk5JU0RSZ2p0eU03M1hzYWZTT0RMdUp3cUxoeVJxdXc2?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOekZJUTFpZ2ZuZnFqNHlMNnprM1JhVks4ekRSWUExSW9RS2FXb2RrT0IxV2c2Z2E4NFFiQ3hHQm5QWEtyaDlQajZsWW5hMS0tUmdCa0ViWm1uWVp3QkV5SE04QnZPTlJTOExTQjhLQlR2dkRIdjAtWVFVdC1aTnIwRU5qTElIMnV6ZTM3akphYldsODIzYkprd1Njb2Q1MlM5Skhydk5JU0RSZ2p0eU03M1hzYWZTT0RMdUp3cUxoeVJxdXc2?oc=5",
+      "source": "Reuters",
+      "category": "World",
+      "publishedAt": "2026-11-17T03:42:00Z"
     },
     {
       "id": "e7b2884ad5d86ecc3735",
@@ -694,6 +797,16 @@
       "source": "Carnegie Endowment for International Peace",
       "category": "Environment",
       "publishedAt": "2026-11-16T22:26:57Z"
+    },
+    {
+      "id": "a118ab839b2fc265c997",
+      "title": "United Airlines says technology outage that delayed departures has been resolved - Reuters",
+      "description": "United Airlines says technology outage that delayed departures has been resolved Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV0JVRTluN1llSzlnQ3d2ZDRDSFYxYkU4OGhkRUwxWFEwWGNJWlIxaUxSNHVSU1Q2bXJjRkRCbnJZV3U4cHY4WXJvZWJGMG5wdTFkck5Pck9PRVl2TGpoQkZPTDVKS2g5T3kzQ0dCSmdrWm1LaWZaa3RKcFNtekRmdmhpNTBaUWVtMkxvdUhFQ2VET3p2Y2lKdFdRZloyS2p4ZnZQTnZJNVE1OTlpc2dn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV0JVRTluN1llSzlnQ3d2ZDRDSFYxYkU4OGhkRUwxWFEwWGNJWlIxaUxSNHVSU1Q2bXJjRkRCbnJZV3U4cHY4WXJvZWJGMG5wdTFkck5Pck9PRVl2TGpoQkZPTDVKS2g5T3kzQ0dCSmdrWm1LaWZaa3RKcFNtekRmdmhpNTBaUWVtMkxvdUhFQ2VET3p2Y2lKdFdRZloyS2p4ZnZQTnZJNVE1OTlpc2dn?oc=5",
+      "source": "Reuters",
+      "category": "World",
+      "publishedAt": "2026-11-16T22:18:00Z"
     },
     {
       "id": "25100fce8fe78eda9cb1",
@@ -3164,128 +3277,8 @@
       "source": "ENDS Report",
       "category": "Environment",
       "publishedAt": "2026-11-11T11:14:09Z"
-    },
-    {
-      "id": "3c6737887bd7a8183deb",
-      "title": "Bangladesh Seeks International Pressure for Safe Rohingya Repatriation to Myanmar - UrduPoint",
-      "description": "Bangladesh Seeks International Pressure for Safe Rohingya Repatriation to Myanmar UrduPoint",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMXdZR2toelRIRUk3czA1N2toWHdRYWZrS2VHcnB3bzU1N0U0LVVBTnRIWEd4RTc4MHNfNHhJaVR2YmdDS3U2WFRDSHJyMWxYeDZpSkhELVdPbG9WRmlNREZVNDBRTzBZSUNraVFPT252bjgyOFBXamlCbkp0bXRjeE1Vd2M4dURaS3Zadk1QbzFfTWR6SlF4cg?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMXdZR2toelRIRUk3czA1N2toWHdRYWZrS2VHcnB3bzU1N0U0LVVBTnRIWEd4RTc4MHNfNHhJaVR2YmdDS3U2WFRDSHJyMWxYeDZpSkhELVdPbG9WRmlNREZVNDBRTzBZSUNraVFPT252bjgyOFBXamlCbkp0bXRjeE1Vd2M4dURaS3Zadk1QbzFfTWR6SlF4cg?oc=5",
-      "source": "UrduPoint",
-      "category": "World",
-      "publishedAt": "2026-11-11T10:45:15Z"
-    },
-    {
-      "id": "2a09b1b997b6a3b0a737",
-      "title": "Cabinet Approves extension of Aqua Line Metro Rail Corridor from Noida Sector-51 to Greater Noida Sector-04 of route length of 8.449 Km with 5 stations - PM India",
-      "description": "Cabinet Approves extension of Aqua Line Metro Rail Corridor from Noida Sector-51 to Greater Noida Sector-04 of route length of 8.449 Km with 5 stations PM India",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxONjVyWjZYSGw4QVFLdXp6ak9MQV8xdFR6TjdZWEJLXzl3NHF6UVpqMDdXSHVaSExNZnE0dl9zb3ZJU3NnWjdmcHdtOW5CZHRWODZpMjJncU12OG9Sd1NlSVhQcEtrWTZyNmVLUjNYNUVCVDY4dkJaai01S2R6QlBwcUVvTFd4Nm1rN0hRc3V5ZXQ5Y3otRHRwWkpCOTJYeTdhZVdCc21VSnc4YlFTNFV0d3BuSTdyVUp2azlvOWdIQ0M3VU1RRnctY0RTUlVBMkVWMk1Ma1I5WklLYTlXZEh1dm0wb2phYXBoaWRDWHgtd3o0V2d4XzcteTg5UW9lQzhvLXZ2ZnpBOWVJa1JtQkJZdjZEV0Zya01tTmpfSllfTC1BTzNEU2tZS296S2Q4Z0RHcEJ2WjVR?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxONjVyWjZYSGw4QVFLdXp6ak9MQV8xdFR6TjdZWEJLXzl3NHF6UVpqMDdXSHVaSExNZnE0dl9zb3ZJU3NnWjdmcHdtOW5CZHRWODZpMjJncU12OG9Sd1NlSVhQcEtrWTZyNmVLUjNYNUVCVDY4dkJaai01S2R6QlBwcUVvTFd4Nm1rN0hRc3V5ZXQ5Y3otRHRwWkpCOTJYeTdhZVdCc21VSnc4YlFTNFV0d3BuSTdyVUp2azlvOWdIQ0M3VU1RRnctY0RTUlVBMkVWMk1Ma1I5WklLYTlXZEh1dm0wb2phYXBoaWRDWHgtd3o0V2d4XzcteTg5UW9lQzhvLXZ2ZnpBOWVJa1JtQkJZdjZEV0Zya01tTmpfSllfTC1BTzNEU2tZS296S2Q4Z0RHcEJ2WjVR?oc=5",
-      "source": "PM India",
-      "category": "India",
-      "publishedAt": "2026-11-11T10:34:47Z"
-    },
-    {
-      "id": "38d5dd3b2297befe647b",
-      "title": "Climate crisis is outrunning world, UN chief Antonio Guterres warns leaders at COP31 - The Economic Times",
-      "description": "Climate crisis is outrunning world, UN chief Antonio Guterres warns leaders at COP31 The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNXN3UXlvemkwMjMyMEhWM0F6MXYzeUh3Y1VUMUF5SnpTY1NtS3B2N1kwaklpamItdGg2OWVqNGFYY2NsQjNHcE9aLWtLVk9xTTZONEI1WjUtcWhXWFVod0hoYk1mSFVQNmFlNHhUcE1oVDNPNEhzcEFlMER3NklpVGd5X2w5NlY2RnlUY2JkZWItZ2NKX0xOT1h3SDRoTUplcE9iWFlVbjRUVnNjRXp3Y0RsWTd0QlE3anZBOU10bEhWMWtRQmJ1XzlNajVISzJ0NEY5UGZyUFdVR3QwWEg5VG1VU3Q0cWdmVEk2NUpGYUNLZnBkMGc2TmxTWdIBgAJBVV95cUxOZGRtbmV6V0hEOGh0MEhEUGFEeG9MWkVhSE5FM3d1ODd4ZXNrYmQyTUF1Q1Nld1U0VFRzMzRmM0VzR3R2dFVGbXY2YjRTSUU0Sm1PR3dEb29FTVcwZDlzV1hmeDllMGlBeEpIQ1ZCTmYtS3YzbHZSQlBoLVpUT0JiWFVqMVRaN0JVejlNcGxtd0RDdjMzSF9VaGcxYlluUVBhbG03WFJhVU1NekIwUWVhdG5LREkxNktsMEJEbTJ6WnJxWXNYUjU4RE12Nmlyd0E5d292Z09HcXY2UFpUczN5NWE2MThxWXczd2dlNHVOa2UwNHd6MW1iZGdsOUQ1QTV3?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPNXN3UXlvemkwMjMyMEhWM0F6MXYzeUh3Y1VUMUF5SnpTY1NtS3B2N1kwaklpamItdGg2OWVqNGFYY2NsQjNHcE9aLWtLVk9xTTZONEI1WjUtcWhXWFVod0hoYk1mSFVQNmFlNHhUcE1oVDNPNEhzcEFlMER3NklpVGd5X2w5NlY2RnlUY2JkZWItZ2NKX0xOT1h3SDRoTUplcE9iWFlVbjRUVnNjRXp3Y0RsWTd0QlE3anZBOU10bEhWMWtRQmJ1XzlNajVISzJ0NEY5UGZyUFdVR3QwWEg5VG1VU3Q0cWdmVEk2NUpGYUNLZnBkMGc2TmxTWdIBgAJBVV95cUxOZGRtbmV6V0hEOGh0MEhEUGFEeG9MWkVhSE5FM3d1ODd4ZXNrYmQyTUF1Q1Nld1U0VFRzMzRmM0VzR3R2dFVGbXY2YjRTSUU0Sm1PR3dEb29FTVcwZDlzV1hmeDllMGlBeEpIQ1ZCTmYtS3YzbHZSQlBoLVpUT0JiWFVqMVRaN0JVejlNcGxtd0RDdjMzSF9VaGcxYlluUVBhbG03WFJhVU1NekIwUWVhdG5LREkxNktsMEJEbTJ6WnJxWXNYUjU4RE12Nmlyd0E5d292Z09HcXY2UFpUczN5NWE2MThxWXczd2dlNHVOa2UwNHd6MW1iZGdsOUQ1QTV3?oc=5",
-      "source": "The Economic Times",
-      "category": "World",
-      "publishedAt": "2026-11-11T09:56:38Z"
-    },
-    {
-      "id": "aeacf9e2a9c2ff3facae",
-      "title": "$70,000 OPT fee could drive international students away from US, universities warn - The Times of India",
-      "description": "$70,000 OPT fee could drive international students away from US, universities warn The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNHZjOVlyUlp1eG5mNVQwSS1nRndFejFXSzRueElYTXE1d0VHN09xMWtZblZnQlNtZEdfVTRsak80RWNXSHBqbkFJOURpd3VhQ1hVeVk5UHRrX25yZ2JMZkFLRXZUNVIxU05IM21KWlZ5dE5fWC1DSW5hVEtfWFNMTVk1bGt6T1l4XzBlUks3cXVLQ0MyQkd5YTR5TElEdzhnUDJIRWx2U1ppdl9Kbmx2eFlVX3J3NXVLQ2l6NzdVbGQ3ek1uZnoyaEJXU1RJQTY3R2VuYXVBWVA4YkVVTUFNSzlmN0HSAeoBQVVfeXFMTlZwRXBiWGNraWpoTXdYdTd5by1zOW9Wa3RqTHFpeS1sUVdiVzNOd3NaNktvaDVkSG5ZenpBTGNXYXNwZDRxMXByWHNRT08tTUxlY0d6ZUxIZ281aUV2bjJVOU9kdFc3U1RsSkc0Ql85TXAzTXNycXp1TkFuLWJSNnllZDJCWWtSZDJGT1U5d1hwczRoeWVHalFHZ09WWFZ4OUR4Q2laTWUzcWRxdnZkMWZ5a2F0VW0xWTVtQTFQRmpoTTBkaU5aWWNzdlViZG1wQ2dmbGdSODM5ek5kc3hKYS1DY1cwMzJXZk13?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNHZjOVlyUlp1eG5mNVQwSS1nRndFejFXSzRueElYTXE1d0VHN09xMWtZblZnQlNtZEdfVTRsak80RWNXSHBqbkFJOURpd3VhQ1hVeVk5UHRrX25yZ2JMZkFLRXZUNVIxU05IM21KWlZ5dE5fWC1DSW5hVEtfWFNMTVk1bGt6T1l4XzBlUks3cXVLQ0MyQkd5YTR5TElEdzhnUDJIRWx2U1ppdl9Kbmx2eFlVX3J3NXVLQ2l6NzdVbGQ3ek1uZnoyaEJXU1RJQTY3R2VuYXVBWVA4YkVVTUFNSzlmN0HSAeoBQVVfeXFMTlZwRXBiWGNraWpoTXdYdTd5by1zOW9Wa3RqTHFpeS1sUVdiVzNOd3NaNktvaDVkSG5ZenpBTGNXYXNwZDRxMXByWHNRT08tTUxlY0d6ZUxIZ281aUV2bjJVOU9kdFc3U1RsSkc0Ql85TXAzTXNycXp1TkFuLWJSNnllZDJCWWtSZDJGT1U5d1hwczRoeWVHalFHZ09WWFZ4OUR4Q2laTWUzcWRxdnZkMWZ5a2F0VW0xWTVtQTFQRmpoTTBkaU5aWWNzdlViZG1wQ2dmbGdSODM5ek5kc3hKYS1DY1cwMzJXZk13?oc=5",
-      "source": "The Times of India",
-      "category": "World",
-      "publishedAt": "2026-11-11T09:51:00Z"
-    },
-    {
-      "id": "4a4b937a482d8312e0d8",
-      "title": "Acton Belle Property International Moth Worlds 2026 at Mounts Bay Sailing Club - Day 5 - Sail-World.com",
-      "description": "Acton Belle Property International Moth Worlds 2026 at Mounts Bay Sailing Club - Day 5 Sail-World.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdXVEc0ZEbmpyay1EVXg0SFo5S0N4YU1PQm9fUXNFQzJBLTg3NzhzbnlzQ1ptRmZaUnJIeElOVFk1cDZkY0lCTDlPc2o2eGU0bC0yd1lDVE00N2lsNlJzLWRZaUVZdWdQNm82c2g3YWU3b3dLZGNWTGVHQ2lVd1NoUQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdXVEc0ZEbmpyay1EVXg0SFo5S0N4YU1PQm9fUXNFQzJBLTg3NzhzbnlzQ1ptRmZaUnJIeElOVFk1cDZkY0lCTDlPc2o2eGU0bC0yd1lDVE00N2lsNlJzLWRZaUVZdWdQNm82c2g3YWU3b3dLZGNWTGVHQ2lVd1NoUQ?oc=5",
-      "source": "Sail-World.com",
-      "category": "World",
-      "publishedAt": "2026-11-11T09:48:00Z"
-    },
-    {
-      "id": "51ab86416af8b481ff26",
-      "title": "HKSTP brings 10 tech ventures to Singapore to showcase smart mobility innovations - The Standard (HK)",
-      "description": "HKSTP brings 10 tech ventures to Singapore to showcase smart mobility innovations The Standard (HK)",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNHdxUEFFSkdkSm5EcjBfVHNJS1d6bFN2QkdWNjB4OUI1MnI3eGNhYmxLUGRhdTJER0pLYklQeFVMaVR4Q1BJSzNRb3M4WTM3TU1VX1lMdm5IYlEzNWZJb0lwTEd0Q05tT0M3TWFRam9lclJzZDRrV0tnS3VFUUVkSFQ1cHFmWmstLVNEVV9nSlhZMnVtcU00Yk16ZXVQdzhrTXVZNmpWVHM2eVhaWE9tdzZCSW51TGQtQ0pHUV9WSlVsX1JuQUpZZlB0Z1A?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNHdxUEFFSkdkSm5EcjBfVHNJS1d6bFN2QkdWNjB4OUI1MnI3eGNhYmxLUGRhdTJER0pLYklQeFVMaVR4Q1BJSzNRb3M4WTM3TU1VX1lMdm5IYlEzNWZJb0lwTEd0Q05tT0M3TWFRam9lclJzZDRrV0tnS3VFUUVkSFQ1cHFmWmstLVNEVV9nSlhZMnVtcU00Yk16ZXVQdzhrTXVZNmpWVHM2eVhaWE9tdzZCSW51TGQtQ0pHUV9WSlVsX1JuQUpZZlB0Z1A?oc=5",
-      "source": "The Standard (HK)",
-      "category": "Technology",
-      "publishedAt": "2026-11-11T09:37:30Z"
-    },
-    {
-      "id": "b5a89d2c7647d14fdf7f",
-      "title": "TZ balances coastal infrastructure with environmental protection - Daily News",
-      "description": "TZ balances coastal infrastructure with environmental protection Daily News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVEJsRzBsdFFyOU43d2dyWWQwSURkSjh5VnMwaWlGbWFMUnBSdDN1LWduVnRNT2pBRDQ1cG1MNG5nSUg1RFpHNmd0cWhoNXk1YlRKZXUyN0xKZGl0eEhtWkFKeko3eW9MVnZIV3paaGQ4MlFRc1JJTzlRN3JZODNsREV5Vm1zeFJDRHZCanM0Q0NHNFk?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVEJsRzBsdFFyOU43d2dyWWQwSURkSjh5VnMwaWlGbWFMUnBSdDN1LWduVnRNT2pBRDQ1cG1MNG5nSUg1RFpHNmd0cWhoNXk1YlRKZXUyN0xKZGl0eEhtWkFKeko3eW9MVnZIV3paaGQ4MlFRc1JJTzlRN3JZODNsREV5Vm1zeFJDRHZCanM0Q0NHNFk?oc=5",
-      "source": "Daily News",
-      "category": "Environment",
-      "publishedAt": "2026-11-11T08:08:05Z"
-    },
-    {
-      "id": "53e19ad621064d177258",
-      "title": "Meet the Teams - 32nd Harken International Youth Match Racing Championship - Sail-World.com",
-      "description": "Meet the Teams - 32nd Harken International Youth Match Racing Championship Sail-World.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMG91dWE3clVGOG00UTJSVks0d0JKR0hpRXhLV080M3dFTjBXWUNoWTgzeHVPMjVXaWR5YW91TjBHVGVlMEJaek9rcW5fcUROTmxJTW04QlZ5dERtQndHZ2tfZ0FJeU5ZdmpTcUlWeld1TzQyQ0lJZ25lcW5WUlFCSXkzNEZ0M0tMMGRyWmpDRQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMG91dWE3clVGOG00UTJSVks0d0JKR0hpRXhLV080M3dFTjBXWUNoWTgzeHVPMjVXaWR5YW91TjBHVGVlMEJaek9rcW5fcUROTmxJTW04QlZ5dERtQndHZ2tfZ0FJeU5ZdmpTcUlWeld1TzQyQ0lJZ25lcW5WUlFCSXkzNEZ0M0tMMGRyWmpDRQ?oc=5",
-      "source": "Sail-World.com",
-      "category": "World",
-      "publishedAt": "2026-11-11T07:42:00Z"
-    },
-    {
-      "id": "15e46846ea118c4411b8",
-      "title": "The International Media Center, located at the World Trade Center in Pasay City, is being prepared to host members of the press from different member states for the 49th ASEAN Summit and Related Summits on November 14–18, 2026, under the theme “Navi - Facebook",
-      "description": "The International Media Center, located at the World Trade Center in Pasay City, is being prepared to host members of the press from different member states for the 49th ASEAN Summit and Related Summits on November 14–18, 2026, under the theme “Navi Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWjVQaVVGaWhhTEtJV2xBMkhrcVM5V0xTZ0xNOFBYV1lOTHRUVW5lQjRvRks0WlBWVy1MWjJkeHdCRElLVWJ0ajg4NHhhSnRSN3JFVTM1SWFUOGoyNGQ3YzlFODNaeGR5dU9TVWtNclZFcVE0OXVsZUh3MGlySEZhenc5azVTTl83a19oc1RqMFh2azFSTFJ4a01Zb0x1ZXFPRG1VWWtqNWhFUGhaazZRT3M0eHVIYlJSMEU0Z0VVQWJJdHgteGxURmxKQTVWdkRfM2tTRFJ2RQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWjVQaVVGaWhhTEtJV2xBMkhrcVM5V0xTZ0xNOFBYV1lOTHRUVW5lQjRvRks0WlBWVy1MWjJkeHdCRElLVWJ0ajg4NHhhSnRSN3JFVTM1SWFUOGoyNGQ3YzlFODNaeGR5dU9TVWtNclZFcVE0OXVsZUh3MGlySEZhenc5azVTTl83a19oc1RqMFh2azFSTFJ4a01Zb0x1ZXFPRG1VWWtqNWhFUGhaazZRT3M0eHVIYlJSMEU0Z0VVQWJJdHgteGxURmxKQTVWdkRfM2tTRFJ2RQ?oc=5",
-      "source": "Facebook",
-      "category": "World",
-      "publishedAt": "2026-11-11T07:28:31Z"
-    },
-    {
-      "id": "6cb2625b21b844f0c2bf",
-      "title": "Hanoi prioritizes attracting investment in strategic infrastructure and high technology. - Vietnam.vn",
-      "description": "Hanoi prioritizes attracting investment in strategic infrastructure and high technology. Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOREpIbE5sRlpYZzVDSV85Y2ZFemszcHk1UnhkVmJJZEdBSjBjT2ljYUhNT3V5a180dUFSYzRVZldFS2VVd1ZZbEs0S3lnLUYzNlBHM3B3WE1vSWFfcUhkeHBrNlpnQ2MtM0g0cFJjSmlydkVBZHB2NkpnVGlGQThIZVE4VWUzZlpFME9RQXEzRGxGZw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOREpIbE5sRlpYZzVDSV85Y2ZFemszcHk1UnhkVmJJZEdBSjBjT2ljYUhNT3V5a180dUFSYzRVZldFS2VVd1ZZbEs0S3lnLUYzNlBHM3B3WE1vSWFfcUhkeHBrNlpnQ2MtM0g0cFJjSmlydkVBZHB2NkpnVGlGQThIZVE4VWUzZlpFME9RQXEzRGxGZw?oc=5",
-      "source": "Vietnam.vn",
-      "category": "Technology",
-      "publishedAt": "2026-11-11T07:10:00Z"
-    },
-    {
-      "id": "f02ba54b33a047b9e68b",
-      "title": "LOOK: ASEAN Sari-sari Store features Pinoy goodies here at the International Media Center at the World Trade Center. | via Jervis Manahan, ABS-CBN News - Facebook",
-      "description": "LOOK: ASEAN Sari-sari Store features Pinoy goodies here at the International Media Center at the World Trade Center. | via Jervis Manahan, ABS-CBN News Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVWlRVC1MY01MR1doX0FHNmxneERVOXpZTmxyN05TRThoenNLTFJmUDIzMkNlOXlCMVRTeEtvNWFXRmNSVnFKRThMUkk4TDlnWUpub2NIZ3VUY0lKOHhRUm4wbW5pQzhWWDNycm9EVGYwNC03S2dLZHRXaHRFR3dxdlhEblBMSkVCc251SVZKOWFybUt5VjVXT1Z0OWM0eFdQbUtQbVpSY0lUSXlvbWM4NHdodFBkV3YtNWVBdFVBcmJJOW5SNHVXQ0hGcG15U0RwdVFRazhtbw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVWlRVC1MY01MR1doX0FHNmxneERVOXpZTmxyN05TRThoenNLTFJmUDIzMkNlOXlCMVRTeEtvNWFXRmNSVnFKRThMUkk4TDlnWUpub2NIZ3VUY0lKOHhRUm4wbW5pQzhWWDNycm9EVGYwNC03S2dLZHRXaHRFR3dxdlhEblBMSkVCc251SVZKOWFybUt5VjVXT1Z0OWM0eFdQbUtQbVpSY0lUSXlvbWM4NHdodFBkV3YtNWVBdFVBcmJJOW5SNHVXQ0hGcG15U0RwdVFRazhtbw?oc=5",
-      "source": "Facebook",
-      "category": "World",
-      "publishedAt": "2026-11-11T07:09:19Z"
-    },
-    {
-      "id": "4fa30114936ec1dcf50f",
-      "title": "World leaders begin talks as COP31 faces pressure to turn climate promises into action amid rising global - The Economic Times",
-      "description": "World leaders begin talks as COP31 faces pressure to turn climate promises into action amid rising global The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNTDVOQUxJbXFkN2Q5NUgzcDZiLXJaUWFsWk9SeXNFQkVVVF9PekV3VDVzdnA3NHpoZEZWejVjOWVrb29tVkg5eEs4YWhrcTY5MDJGY3UxWk9HWmU5bUNjMElTQktWbThkak9ITHVLcFA4ZEdmQ0ljYTlGQjJpTGU1bHRKS1dDUk8tUWVlV3pKZXg3bUphcERGb0M1RFpyeGQ0X3YyV1h5ZmVfekxBcHFyRDdmMjJFZ0E4UHNIRy1FM3lHQXRidHhPM3hfZ3gzZzhjcDNvRFFWVDdXVkoySTBOalVKbm5wN2xxQWgyRXFtYjBYYXlGN252SVRMbGNiMlQwU3d3a3BBMFVjc3prOFBJSndCSzNDMHM3Rkh4bDh4RlR4U0HSAagCQVVfeXFMTi05WXYwd040S2FxWFVkVS0wbU0yM09JSGRsNzdwN1Q3UEl0ekE4WlFnT0J3RXlRX1BWQVhTdWJ4MENDNTBWLVVnMEVhR1hTTE1zSUluekY2NmZsSFJMLUtvdUVIR3FXMy02eUNIRV82ZHdIMWJVMWl0WW5XbTRVeldCODRleUx4YTRhWjQzTEpRbGZobDh2N3UxUTUzTFRfdTlXcTZ5aFJ0YzVBZnN3eW5ydDl6UEhjVV9RR25xTWRSMGxYeGR2SzRUbW95ZU1UczRwZnR2T3BUYVM5SEhMSDRWWmU5SWxQZEEzQWU2ZHJmLVVhSU5pZDF0OWszVGcwY2Y2TFRrck0wZ1M3THdUZ0NnYW9IY2g1T3VRdmpGdHdDZlJHZk9HX0Y?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNTDVOQUxJbXFkN2Q5NUgzcDZiLXJaUWFsWk9SeXNFQkVVVF9PekV3VDVzdnA3NHpoZEZWejVjOWVrb29tVkg5eEs4YWhrcTY5MDJGY3UxWk9HWmU5bUNjMElTQktWbThkak9ITHVLcFA4ZEdmQ0ljYTlGQjJpTGU1bHRKS1dDUk8tUWVlV3pKZXg3bUphcERGb0M1RFpyeGQ0X3YyV1h5ZmVfekxBcHFyRDdmMjJFZ0E4UHNIRy1FM3lHQXRidHhPM3hfZ3gzZzhjcDNvRFFWVDdXVkoySTBOalVKbm5wN2xxQWgyRXFtYjBYYXlGN252SVRMbGNiMlQwU3d3a3BBMFVjc3prOFBJSndCSzNDMHM3Rkh4bDh4RlR4U0HSAagCQVVfeXFMTi05WXYwd040S2FxWFVkVS0wbU0yM09JSGRsNzdwN1Q3UEl0ekE4WlFnT0J3RXlRX1BWQVhTdWJ4MENDNTBWLVVnMEVhR1hTTE1zSUluekY2NmZsSFJMLUtvdUVIR3FXMy02eUNIRV82ZHdIMWJVMWl0WW5XbTRVeldCODRleUx4YTRhWjQzTEpRbGZobDh2N3UxUTUzTFRfdTlXcTZ5aFJ0YzVBZnN3eW5ydDl6UEhjVV9RR25xTWRSMGxYeGR2SzRUbW95ZU1UczRwZnR2T3BUYVM5SEhMSDRWWmU5SWxQZEEzQWU2ZHJmLVVhSU5pZDF0OWszVGcwY2Y2TFRrck0wZ1M3THdUZ0NnYW9IY2g1T3VRdmpGdHdDZlJHZk9HX0Y?oc=5",
-      "source": "The Economic Times",
-      "category": "World",
-      "publishedAt": "2026-11-11T06:38:16Z"
     }
   ],
-  "lastUpdated": "2026-11-17T21:36:13Z",
-  "updatedAt": "2026-11-17T21:36:13Z"
+  "lastUpdated": "2026-11-18T03:26:21Z",
+  "updatedAt": "2026-11-18T03:26:21Z"
 }
