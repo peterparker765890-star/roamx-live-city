@@ -240,44 +240,224 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-18T12:08:28Z",
-    "lastSuccessfulRun": "2026-11-18T12:08:28Z",
-    "lastUpdated": "2026-11-18T12:08:28Z",
-    "articlesAdded": 12,
+    "lastRun": "2026-11-18T20:49:04Z",
+    "lastSuccessfulRun": "2026-11-18T20:49:04Z",
+    "lastUpdated": "2026-11-18T20:49:04Z",
+    "articlesAdded": 22,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 31,
+    "duplicatesRemoved": 19,
     "failedSources": [],
     "newArticleIds": [
-      "f493ab0ec11c657abf34",
-      "d2d28cc69a6f6c3f95f5",
-      "5a69028ad12691ba1d31",
-      "9e8357c78a4e1a49d996",
-      "2f3100a4f8893a37672f",
-      "616d21665ca17835ba6e",
-      "29ff11c5cb4c5f62827c",
-      "a8213f8348caab92fa8b",
-      "2adfb13cff066beff7d6",
-      "fef0b4a4a57d590701fc",
-      "c383d74dbf40335bc7fd",
-      "9a6095c3990d63dca3b8"
+      "db8492fd4b7553ef4fb0",
+      "b3624810b0d9b229b39a",
+      "14e1fdea68f7f04b0c86",
+      "7a0b6d7d89c53db1374a",
+      "2314a68fc36b9709d411",
+      "7d1913cd1af5f58d868e",
+      "9fa052db31ede51300ce",
+      "de27cd6b79b31258f8eb",
+      "3e05f66e5acd72ba08de",
+      "833e7e801b4adca32c36",
+      "67cfdd76a8a4e60020b7",
+      "96473a730df97dc57579",
+      "e339832c9c936d366ce0",
+      "1165f2e38297de5a586b",
+      "56229b2a8c390525224c",
+      "03d65007ecbd0f3d66bd",
+      "095b2f491b2ef3cf03a4",
+      "35f3ab3592de8782bb67",
+      "1334e6a5cf32dbc66c78",
+      "0fd341dd08ff9c908ea7",
+      "a76b5febd5918ebd8416",
+      "d6652663747a2998fccc"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 12,
+    "articlesRemoved": 22,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 192,
-      "India": 22,
-      "Technology": 18,
-      "Environment": 60,
-      "Disaster": 8
+      "World": 193,
+      "India": 25,
+      "Technology": 19,
+      "Environment": 56,
+      "Disaster": 7
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "db8492fd4b7553ef4fb0",
+      "title": "Morocco Inaugurates Mohammed VI International University Hospital Complex in Dakhla - Morocco World News",
+      "description": "Morocco Inaugurates Mohammed VI International University Hospital Complex in Dakhla Morocco World News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUUtWazlLakp6LXVCeDBSS1RESzR4S1g1QmhrTE1sSmRrOGdPa1MzNHJKTGlweEEyS25XakFoSDBxaktEM202NzlfZElKcEFYcEw3QmtDbVNWWE5kQjZ6bERTaUo3bkJsTURka3N6ZnV5VnRKUjNoU0plNC1LOWxVS3dkWmNSeTFjSnExOEpubjBmN1BPNE5tcnpxc1BmMVhIR0ZsME9OSW5fdXVLejFEMkRUYm9jLS1ySG5DZzZtZ0VNNlZMQzF2UGN6T0Q?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUUtWazlLakp6LXVCeDBSS1RESzR4S1g1QmhrTE1sSmRrOGdPa1MzNHJKTGlweEEyS25XakFoSDBxaktEM202NzlfZElKcEFYcEw3QmtDbVNWWE5kQjZ6bERTaUo3bkJsTURka3N6ZnV5VnRKUjNoU0plNC1LOWxVS3dkWmNSeTFjSnExOEpubjBmN1BPNE5tcnpxc1BmMVhIR0ZsME9OSW5fdXVLejFEMkRUYm9jLS1ySG5DZzZtZ0VNNlZMQzF2UGN6T0Q?oc=5",
+      "source": "Morocco World News",
+      "category": "World",
+      "publishedAt": "2026-11-18T20:09:13Z"
+    },
+    {
+      "id": "b3624810b0d9b229b39a",
+      "title": "The Permitting Bill Is Splitting the Environmental Movement - The New York Times",
+      "description": "The Permitting Bill Is Splitting the Environmental Movement The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOG1Zbnl2Y1BNTjg4dWF4MGxFT3dxS0J0cWhualUzdEhjNHZ2blA0ZUZXMHluaFgxdjJNZVVpczhpdmtOc2lBWW41SEx5UEcxTVczTnFuaWhlNEgxUWxmalVYUnllWDk1Ymd1Y2NRdXJQUmtqYkFQcmV2UmVpQ0twRHZPX3F1OExuY0R4OXNxM0FlZ1N2bmlxNDF5TmVpYS1Y?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOG1Zbnl2Y1BNTjg4dWF4MGxFT3dxS0J0cWhualUzdEhjNHZ2blA0ZUZXMHluaFgxdjJNZVVpczhpdmtOc2lBWW41SEx5UEcxTVczTnFuaWhlNEgxUWxmalVYUnllWDk1Ymd1Y2NRdXJQUmtqYkFQcmV2UmVpQ0twRHZPX3F1OExuY0R4OXNxM0FlZ1N2bmlxNDF5TmVpYS1Y?oc=5",
+      "source": "The New York Times",
+      "category": "Environment",
+      "publishedAt": "2026-11-18T20:07:46Z"
+    },
+    {
+      "id": "5a69028ad12691ba1d31",
+      "title": "Los Angeles weather: Storm expected to bring heavy rain, flood risk to Southern California. Here's the timeline - ABC7 Los Angeles",
+      "description": "Los Angeles weather: Storm expected to bring heavy rain, flood risk to Southern California. Here's the timeline ABC7 Los Angeles",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHBveFJoaFppc1F5bWJYdDNscnYtM1BEb1l3UHI0UDFkUkdZdWpLcHo2UGNtLXVMbFl6cTRFYW96UjBScDJFbHJCelZLaE5oSnZJeFhUWmFfVGZtS1Znd3RHWnpEVnFWVXlQWFBtX2VJZGtSWTFYMnJuTFprdzdsWDJsY1ZqaEFJ0gGOAUFVX3lxTE53M1lpY0dkY2g2RXVsR1hYcUlVeThwUWdHS29WUVhuMDg1dXkzWlFFTVBxTFNZOXIwQXIxY2dJemRDdjQ1THFXa0EtWERDZ1VMcE5RblZuOWRqOHdJOXpEVG5yVUd5STFUYU5aNHdvbFZ6d0dSZFFQMG9SakhPY3pZZHNDQ05EdXBsdGVES1E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHBveFJoaFppc1F5bWJYdDNscnYtM1BEb1l3UHI0UDFkUkdZdWpLcHo2UGNtLXVMbFl6cTRFYW96UjBScDJFbHJCelZLaE5oSnZJeFhUWmFfVGZtS1Znd3RHWnpEVnFWVXlQWFBtX2VJZGtSWTFYMnJuTFprdzdsWDJsY1ZqaEFJ0gGOAUFVX3lxTE53M1lpY0dkY2g2RXVsR1hYcUlVeThwUWdHS29WUVhuMDg1dXkzWlFFTVBxTFNZOXIwQXIxY2dJemRDdjQ1THFXa0EtWERDZ1VMcE5RblZuOWRqOHdJOXpEVG5yVUd5STFUYU5aNHdvbFZ6d0dSZFFQMG9SakhPY3pZZHNDQ05EdXBsdGVES1E?oc=5",
+      "source": "ABC7 Los Angeles",
+      "category": "Disaster",
+      "publishedAt": "2026-11-18T19:27:05Z"
+    },
+    {
+      "id": "14e1fdea68f7f04b0c86",
+      "title": "Guyanese universities shine on the world stage in international STEM showcase - Dominica News Online",
+      "description": "Guyanese universities shine on the world stage in international STEM showcase Dominica News Online",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORzZOdGtMWkRtczFDUENmNGtjeU1Iek04bllmLWh2N1R1dHFQWTVCY0lRY2x1anhLaUZvMllKX3RmOTFNeWtnREJjc2h6TGY2TkZXYU5DbzVvYmxiTHpRSEtpTTZYNFMzSy1vb1ZKR05UcnF0MWZVdm1feWRnUW9FOWVocW9pYkhkRHFOTlVJZVp4cXNuS1RMT2psdjRKalltdFVUS3FBYWFKTWNBWG1xSTJhdkg5aVlTTk1PNU10bWE5XzF1VWlqZmFBMGoyd1RKakF0Zk90U04?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORzZOdGtMWkRtczFDUENmNGtjeU1Iek04bllmLWh2N1R1dHFQWTVCY0lRY2x1anhLaUZvMllKX3RmOTFNeWtnREJjc2h6TGY2TkZXYU5DbzVvYmxiTHpRSEtpTTZYNFMzSy1vb1ZKR05UcnF0MWZVdm1feWRnUW9FOWVocW9pYkhkRHFOTlVJZVp4cXNuS1RMT2psdjRKalltdFVUS3FBYWFKTWNBWG1xSTJhdkg5aVlTTk1PNU10bWE5XzF1VWlqZmFBMGoyd1RKakF0Zk90U04?oc=5",
+      "source": "Dominica News Online",
+      "category": "World",
+      "publishedAt": "2026-11-18T19:14:00Z"
+    },
+    {
+      "id": "7a0b6d7d89c53db1374a",
+      "title": "Where Italy stand in FIFA World Rankings after latest international fixtures - Football Italia",
+      "description": "Where Italy stand in FIFA World Rankings after latest international fixtures Football Italia",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoZTAzOUtZTUVIMWVuNkdsakgwRzlBSlhfbXlfQkY5dmhieTlYLWl4Uk9WcExRQUlpbG14cjAwOE83SFA0U3NWb0NQb1BhUHh1Y3h2QU14eGRuVWNXV0FUaXNVQjdCZDI3Ym9VUW02ZVBQbDlJTFlodmdWWE5Td9IBgwFBVV95cUxNVWxDRzlrX3RWNGFSdmpuaW82aXpSbUIwczhPb19iRndIMTM3cnNpLWROT3pITGI5ZF96eWJWMlY2TzhBS2ZFMFVuYWo3WFFJSUxSSGdqLUdvaW9uQ2c2M3NueHNYdV82SXRzVFB6R1R6dGlyOHBHbmFZS3laZ2xxMG9Vdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoZTAzOUtZTUVIMWVuNkdsakgwRzlBSlhfbXlfQkY5dmhieTlYLWl4Uk9WcExRQUlpbG14cjAwOE83SFA0U3NWb0NQb1BhUHh1Y3h2QU14eGRuVWNXV0FUaXNVQjdCZDI3Ym9VUW02ZVBQbDlJTFlodmdWWE5Td9IBgwFBVV95cUxNVWxDRzlrX3RWNGFSdmpuaW82aXpSbUIwczhPb19iRndIMTM3cnNpLWROT3pITGI5ZF96eWJWMlY2TzhBS2ZFMFVuYWo3WFFJSUxSSGdqLUdvaW9uQ2c2M3NueHNYdV82SXRzVFB6R1R6dGlyOHBHbmFZS3laZ2xxMG9Vdw?oc=5",
+      "source": "Football Italia",
+      "category": "World",
+      "publishedAt": "2026-11-18T18:52:19Z"
+    },
+    {
+      "id": "2314a68fc36b9709d411",
+      "title": "Where Italy stand in FIFA World Rankings after latest international fixtures - Yahoo Sports",
+      "description": "Where Italy stand in FIFA World Rankings after latest international fixtures Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRkFtSmt4bG1OZXVwbFdXNmdzZFVwTUFIV0pjT3ltSjVOMmotMGNmb2V4S00weU5lTWpPT0hvbWRxTTZqUjRtZ1d5Qmt5eFQ3Vm1mbVcyOVlGWHhSblZOY0Zhc0ZZZWVoZXN5STBkZ2VoZU5aVFlRektxSEJiR3I3bXFxWQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRkFtSmt4bG1OZXVwbFdXNmdzZFVwTUFIV0pjT3ltSjVOMmotMGNmb2V4S00weU5lTWpPT0hvbWRxTTZqUjRtZ1d5Qmt5eFQ3Vm1mbVcyOVlGWHhSblZOY0Zhc0ZZZWVoZXN5STBkZ2VoZU5aVFlRektxSEJiR3I3bXFxWQ?oc=5",
+      "source": "Yahoo Sports",
+      "category": "World",
+      "publishedAt": "2026-11-18T18:18:00Z"
+    },
+    {
+      "id": "7d1913cd1af5f58d868e",
+      "title": "International Court of Justice to rule on whether Myanmar committed genocide of Rohingya - Sky News",
+      "description": "International Court of Justice to rule on whether Myanmar committed genocide of Rohingya Sky News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMHdEZ09xdzczMVNtR005eDVGNjBSOGtsZEY4VDE5N0JqRGE2VWpWNjFLRUVkUks2UXBLcXB1WTlrbXFtYzhFWDdCZXpfOEFqREJhOXlqRkdhWHl2OUtLVlVGWEV4bzMwUW5ENWUxbDBicllVbmlsM0FYT2ZLaG1aYVhrWHhkWGhJd1RrZG5iVVgxT2VvbXJQVzduYS1McnRnMWViM1F3T2ZocUpTMlZ5VUZBS2gxaERmWWhuLUh1YUlZUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMHdEZ09xdzczMVNtR005eDVGNjBSOGtsZEY4VDE5N0JqRGE2VWpWNjFLRUVkUks2UXBLcXB1WTlrbXFtYzhFWDdCZXpfOEFqREJhOXlqRkdhWHl2OUtLVlVGWEV4bzMwUW5ENWUxbDBicllVbmlsM0FYT2ZLaG1aYVhrWHhkWGhJd1RrZG5iVVgxT2VvbXJQVzduYS1McnRnMWViM1F3T2ZocUpTMlZ5VUZBS2gxaERmWWhuLUh1YUlZUQ?oc=5",
+      "source": "Sky News",
+      "category": "World",
+      "publishedAt": "2026-11-18T17:48:34Z"
+    },
+    {
+      "id": "9fa052db31ede51300ce",
+      "title": "Minister Agnimitra Paul outlines plan for 4 new cities in North Bengal, Kolkata development vision to 2047 - ET Government",
+      "description": "Minister Agnimitra Paul outlines plan for 4 new cities in North Bengal, Kolkata development vision to 2047 ET Government",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQOHZqN1VwQXhQQ2JmOThDMUVwZlN5WGZEMEZBemF5TU5ZeEdBMEl4bG12QW9BRFYwWnkwNzRhTTQ3c092cURtam5uN1oxa0RnSW5GTTQ5TmNGTnRQc1ZhbWJGTDZiU3ZwRG9KV0JsX2pyeUxtbHJBQ1RCdzJ5WUxTMEQ0MEI1T2gxN3ZOei1uYWlhZUkwNEhDVTBvX2tUWl8zTnFDMTMzOTNxWW9GdGFoZ25kTW5PRWRTUURwSjZwWkFnTVhYb1Y2aC05bEFxRl9KbW4yMnJ0THJsNEV5dklNcWdSS3dJYXg2U1dET0JjZGJTUWp2U2tmLVpSWGpvYnhZN0k2cnBJbTE2NTdp0gGQAkFVX3lxTFBiYTRyVlJDS2NUeXZtaEQ4US02ZXVWbVQ3ZGc0YnhGcWROamlpempPY2tVNHRlVkEtaW1VcGVpeVlRc1NIRmJBR0swSDNoVnBWbGxMOEZXLUN4LVgzQ2Z6UWJ1QmluSzdnMlFBYWFlNnVUYnJzbWJTYzNCM3J1U3dMNUZjUW5KZzhWT1daLXpuVjFZNDJRRGl0WDM0VmpTemZfUHZfMmx6b09RbjFWV1p0QkVTemVmdV9ZRmktanh4VW9BWGVCNjdQa2lEdFE5OWxLZ0h5TjZsSVBxNEs3cVV6T3QwY2JpdXhPQnJwSTFSU0R2M0ZBYnF2ME1hTmtkdDlrcGNhQ25YWGs3TjJ2Vk5E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQOHZqN1VwQXhQQ2JmOThDMUVwZlN5WGZEMEZBemF5TU5ZeEdBMEl4bG12QW9BRFYwWnkwNzRhTTQ3c092cURtam5uN1oxa0RnSW5GTTQ5TmNGTnRQc1ZhbWJGTDZiU3ZwRG9KV0JsX2pyeUxtbHJBQ1RCdzJ5WUxTMEQ0MEI1T2gxN3ZOei1uYWlhZUkwNEhDVTBvX2tUWl8zTnFDMTMzOTNxWW9GdGFoZ25kTW5PRWRTUURwSjZwWkFnTVhYb1Y2aC05bEFxRl9KbW4yMnJ0THJsNEV5dklNcWdSS3dJYXg2U1dET0JjZGJTUWp2U2tmLVpSWGpvYnhZN0k2cnBJbTE2NTdp0gGQAkFVX3lxTFBiYTRyVlJDS2NUeXZtaEQ4US02ZXVWbVQ3ZGc0YnhGcWROamlpempPY2tVNHRlVkEtaW1VcGVpeVlRc1NIRmJBR0swSDNoVnBWbGxMOEZXLUN4LVgzQ2Z6UWJ1QmluSzdnMlFBYWFlNnVUYnJzbWJTYzNCM3J1U3dMNUZjUW5KZzhWT1daLXpuVjFZNDJRRGl0WDM0VmpTemZfUHZfMmx6b09RbjFWV1p0QkVTemVmdV9ZRmktanh4VW9BWGVCNjdQa2lEdFE5OWxLZ0h5TjZsSVBxNEs3cVV6T3QwY2JpdXhPQnJwSTFSU0R2M0ZBYnF2ME1hTmtkdDlrcGNhQ25YWGs3TjJ2Vk5E?oc=5",
+      "source": "ET Government",
+      "category": "India",
+      "publishedAt": "2026-11-18T17:14:22Z"
+    },
+    {
+      "id": "de27cd6b79b31258f8eb",
+      "title": "Reliable, secure digital infrastructure key to West Bengal’s economic growth: NIXI CEO - ET Government",
+      "description": "Reliable, secure digital infrastructure key to West Bengal’s economic growth: NIXI CEO ET Government",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPYUdWalRwSEhUQ3FGdWw3RVpmVS04aTJOcC1aa3Jvdk9DRWJacGk0STdXNWU5LUhONnluclJfTGNtOGhka2pLdWtsT2xfTTdHRFVtTXdabzcwS0wzc21hYkRVMGYtUUpYb1p3bnFibjFSVEpncGxUSDN1UERmRUJEY0tfWGpVOVEyS2FDaGtNT3Q5S3dnZ1hHRnVjUWZmRldQREE1X0xQRDRRMDdic1d4U1djYy0tX1VzSVd5Yzl5UkpIMVBfM25qaG1kRms0cVMwenNNLUw0SnNjcUVaaWt0VGt1Z3VkSERya2FWZHdIelBZR3ZRU0t3Q0x1NHJyN0NWMlR0ZkxGY3gxQ0lhTlppNHlmVm1lSjNHSV9EMUFtQTVySUlweTRR0gHyAUFVX3lxTE14Q2hsUDFTdlJQYUk4aU5UYmFoeEFrUkVPVjdwSUkyaXZkTDdwU2ViaWZLc2VnWlJ4VWJzVWI3OGdFYnFqaHRuLUtybDdCX2ZqMGR4OEp4em5UN0otN1NOb1pPckplSlR3eTVMR19BVmRxMlBzT3BPY2pMV2VXSW9kVldKd3JxdWhRdDE1M1RXNElncFF3aFJuS3Q3TW41S2huVGRrNHA0c2xQc2s5WjlrNWFnTlczR0VJeFZLdEpuSXNlX0xSRUZMcjhyWmgzSFFxdXBUR19UOWRqSVFKZndNVHp0TWk2ZXRlaUplXzZUdjVB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPYUdWalRwSEhUQ3FGdWw3RVpmVS04aTJOcC1aa3Jvdk9DRWJacGk0STdXNWU5LUhONnluclJfTGNtOGhka2pLdWtsT2xfTTdHRFVtTXdabzcwS0wzc21hYkRVMGYtUUpYb1p3bnFibjFSVEpncGxUSDN1UERmRUJEY0tfWGpVOVEyS2FDaGtNT3Q5S3dnZ1hHRnVjUWZmRldQREE1X0xQRDRRMDdic1d4U1djYy0tX1VzSVd5Yzl5UkpIMVBfM25qaG1kRms0cVMwenNNLUw0SnNjcUVaaWt0VGt1Z3VkSERya2FWZHdIelBZR3ZRU0t3Q0x1NHJyN0NWMlR0ZkxGY3gxQ0lhTlppNHlmVm1lSjNHSV9EMUFtQTVySUlweTRR0gHyAUFVX3lxTE14Q2hsUDFTdlJQYUk4aU5UYmFoeEFrUkVPVjdwSUkyaXZkTDdwU2ViaWZLc2VnWlJ4VWJzVWI3OGdFYnFqaHRuLUtybDdCX2ZqMGR4OEp4em5UN0otN1NOb1pPckplSlR3eTVMR19BVmRxMlBzT3BPY2pMV2VXSW9kVldKd3JxdWhRdDE1M1RXNElncFF3aFJuS3Q3TW41S2huVGRrNHA0c2xQc2s5WjlrNWFnTlczR0VJeFZLdEpuSXNlX0xSRUZMcjhyWmgzSFFxdXBUR19UOWRqSVFKZndNVHp0TWk2ZXRlaUplXzZUdjVB?oc=5",
+      "source": "ET Government",
+      "category": "India",
+      "publishedAt": "2026-11-18T17:01:39Z"
+    },
+    {
+      "id": "3e05f66e5acd72ba08de",
+      "title": "Training local officials to meet the requirements of smart and sustainable urban development. - Vietnam.vn",
+      "description": "Training local officials to meet the requirements of smart and sustainable urban development. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRnRFbFBGckZfNEtXbGxidFdsQ3JkVE51YVh1OW5IU19wYTFlUmNuT2pMUlZOa05xSldSZVZ0UlpncnZDbVM2NVRnZVdqRExJdURWbkJ0WTV4anVwWEhlM0NwMl9BRlB6Nmw4Q25zWThRWFFHa2tBZ2dMa2FXOHlTT2xxVEtaaVJ6R3g3b1hkWjh6dmVHclJabGpjQUpPMHNBU2ZhRmVURFVacUU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRnRFbFBGckZfNEtXbGxidFdsQ3JkVE51YVh1OW5IU19wYTFlUmNuT2pMUlZOa05xSldSZVZ0UlpncnZDbVM2NVRnZVdqRExJdURWbkJ0WTV4anVwWEhlM0NwMl9BRlB6Nmw4Q25zWThRWFFHa2tBZ2dMa2FXOHlTT2xxVEtaaVJ6R3g3b1hkWjh6dmVHclJabGpjQUpPMHNBU2ZhRmVURFVacUU?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-18T16:56:16Z"
+    },
+    {
+      "id": "833e7e801b4adca32c36",
+      "title": "Israeli Doctor’s Expertise Saves Life During Mid-Air Medical Crisis on International Flight - Jewish Post and News",
+      "description": "Israeli Doctor’s Expertise Saves Life During Mid-Air Medical Crisis on International Flight Jewish Post and News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWU9uVUVHYVQ4THdicGN5bEZZNWhWSmM4bkZwNk9NME9KV2JzcWxnSk9qdmwzRF8taS1ieGd1VFkyOFVCS1B3TC0zcFBEdG9mN09GSjdYX2lDTjlzM011RTJiY1FlSjRNc1NpM1k1bGlQOVIwbE82T1ZrVDI3M1lFZkg1aDFkdkFoUHJPOWczV09raFBs?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWU9uVUVHYVQ4THdicGN5bEZZNWhWSmM4bkZwNk9NME9KV2JzcWxnSk9qdmwzRF8taS1ieGd1VFkyOFVCS1B3TC0zcFBEdG9mN09GSjdYX2lDTjlzM011RTJiY1FlSjRNc1NpM1k1bGlQOVIwbE82T1ZrVDI3M1lFZkg1aDFkdkFoUHJPOWczV09raFBs?oc=5",
+      "source": "Jewish Post and News",
+      "category": "World",
+      "publishedAt": "2026-11-18T16:01:52Z"
+    },
+    {
+      "id": "67cfdd76a8a4e60020b7",
+      "title": "Number of new international students in the US falls by 18% — Fortune - UA.NEWS",
+      "description": "Number of new international students in the US falls by 18% — Fortune UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeHFfaVdibjhLUFNPUml6WW9YbFhTYUZINm5iT1VVSUxvSEdrempmSzNIY2RGTjZ6cXVOMnpjZG9HMmlnUnFNVEZyR3Y4UEtuaUo2WmtFZHd2bng1SGZ5NEphdHJXdFpzLU5ZNkVkRDZnVGx6V0drTXVpd2h4WkFINzU0aHZKX2FxTHhjWUtNTGphMTFScEhsYm50NA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeHFfaVdibjhLUFNPUml6WW9YbFhTYUZINm5iT1VVSUxvSEdrempmSzNIY2RGTjZ6cXVOMnpjZG9HMmlnUnFNVEZyR3Y4UEtuaUo2WmtFZHd2bng1SGZ5NEphdHJXdFpzLU5ZNkVkRDZnVGx6V0drTXVpd2h4WkFINzU0aHZKX2FxTHhjWUtNTGphMTFScEhsYm50NA?oc=5",
+      "source": "UA.NEWS",
+      "category": "World",
+      "publishedAt": "2026-11-18T15:07:00Z"
+    },
+    {
+      "id": "96473a730df97dc57579",
+      "title": "'Days for Girls International' Participates in 'Light the World Giving Machine Initiative' - KPVI",
+      "description": "'Days for Girls International' Participates in 'Light the World Giving Machine Initiative' KPVI",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQQVZXNkFUNjliUWVNSEVHRkdnVjFka1d1NXh2eFlzaWNqMzREeWRZT1BBYTYwR0NlejAwOE5wdm1YaGI1LUxuelVBZHh1V3NXcEdKZktjMjJMbjV5cWJ4RTdLTzl0TkVlYVRuSzlEYzBTd1Z3S3EwaTlnVUFRUDFKRDctYXNjbHN4MHh4aTl6SW0xLUtKbXVMbTRORGdHTC1uUU1VWXV5MXNkVUdIMHg4UXQ0NGFoZWxtNlNzc1NraGxEbk5uWnRlNTNmVmFVNUVSdmhHUk9ZdF8xMEpvZ3JwVWhPb1I4S1JxZEkyaDRVVnRzWEhUWHVHMF9vRS1FMFFGcWNZ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQQVZXNkFUNjliUWVNSEVHRkdnVjFka1d1NXh2eFlzaWNqMzREeWRZT1BBYTYwR0NlejAwOE5wdm1YaGI1LUxuelVBZHh1V3NXcEdKZktjMjJMbjV5cWJ4RTdLTzl0TkVlYVRuSzlEYzBTd1Z3S3EwaTlnVUFRUDFKRDctYXNjbHN4MHh4aTl6SW0xLUtKbXVMbTRORGdHTC1uUU1VWXV5MXNkVUdIMHg4UXQ0NGFoZWxtNlNzc1NraGxEbk5uWnRlNTNmVmFVNUVSdmhHUk9ZdF8xMEpvZ3JwVWhPb1I4S1JxZEkyaDRVVnRzWEhUWHVHMF9vRS1FMFFGcWNZ?oc=5",
+      "source": "KPVI",
+      "category": "World",
+      "publishedAt": "2026-11-18T14:47:00Z"
+    },
+    {
+      "id": "e339832c9c936d366ce0",
+      "title": "Where the Best Pensions in the World Are in 2026: Which Countries Topped the International Ranking - Судово-юридична газета",
+      "description": "Where the Best Pensions in the World Are in 2026: Which Countries Topped the International Ranking Судово-юридична газета",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdnplVmZfRTh5Z0dwTU51SFVodWNfYTJlYWY4S2RVNnR3SVJBaG1XSnVVNks2aHd0a0xPT2duLVB4ckstaWRtVU9WZ3JpaDF6SXZIanNMT2tNRmR2ekF0YkpOTlR2SlVTbjJVcGp1VV9Xc3o4Z3ZjckJEY0NISy1pQ2V5dTd1ZlVLT1N5ZFRGM3c5QlFUN1VIVlVLSTJHVUVGVnhkV1pfX3ZLWDJmSmszZFF5eUdDLWpqV1Q0N2tn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdnplVmZfRTh5Z0dwTU51SFVodWNfYTJlYWY4S2RVNnR3SVJBaG1XSnVVNks2aHd0a0xPT2duLVB4ckstaWRtVU9WZ3JpaDF6SXZIanNMT2tNRmR2ekF0YkpOTlR2SlVTbjJVcGp1VV9Xc3o4Z3ZjckJEY0NISy1pQ2V5dTd1ZlVLT1N5ZFRGM3c5QlFUN1VIVlVLSTJHVUVGVnhkV1pfX3ZLWDJmSmszZFF5eUdDLWpqV1Q0N2tn?oc=5",
+      "source": "Судово-юридична газета",
+      "category": "World",
+      "publishedAt": "2026-11-18T14:46:00Z"
+    },
+    {
+      "id": "1165f2e38297de5a586b",
+      "title": "Donald Trump, Xi, Vladimir Putin summit could reshape world order - The Jerusalem Post",
+      "description": "Donald Trump, Xi, Vladimir Putin summit could reshape world order The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB2RDU5Y2gwVDVnSHJuZjM1d3NIYVhqY2syWGpMcU84NWhUV0g0dm5YVE1CSS1XRExIWnU4eWEyOUJDZmN4eFgwV0xLVEVGdHctN1Nvc1F2enliU3VKM2xB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB2RDU5Y2gwVDVnSHJuZjM1d3NIYVhqY2syWGpMcU84NWhUV0g0dm5YVE1CSS1XRExIWnU4eWEyOUJDZmN4eFgwV0xLVEVGdHctN1Nvc1F2enliU3VKM2xB?oc=5",
+      "source": "The Jerusalem Post",
+      "category": "World",
+      "publishedAt": "2026-11-18T14:36:05Z"
+    },
+    {
+      "id": "56229b2a8c390525224c",
+      "title": "A global carve-up? Fears of Trump, Xi, Putin striking a grand bargain - The Economic Times",
+      "description": "A global carve-up? Fears of Trump, Xi, Putin striking a grand bargain The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNd3JZMUdvbUNaMGIzQkVVMnFuTEZKWWdmOFliOTNwbVpUMmVHa3NRUWRaV1I4UnpNRTFpQXBWV255YVd4TWRUSEptcjdNWlpSRUtoMUQyQnBmaE1fcWZydzFrcl9QV1Bucnh3WGRzeUMtQ3RFb05EaWFoc1FHeGx1THpZSWpFeGEwa3pvS1ViNVExcjM5aEJNNTJFb0RkZWJMZVZZQ3RZR3lwYVJ3eFlwS0pIV2JXSVk5NkZIV2hsN3ZicnVBNHpDSXZMRi1vNW5icDR3cEpEMXZSRXNwTGpHQ3FLbkzSAeoBQVVfeXFMT2hvanNQbUtmS3g0Nk5YRXpYeWdReFZoeThTRy13ZVZDS0RMdXhXMEZMMkNtQ056YTZpT3l3bGtDMW1zT2ZwWHZ6QjJfUzVzSkVaWDFkNEdCZFBIbk5tb3Y4aHhsMWxEVUwtWWloMnJ6WG1mSGlMdGtxTk1IM19ST3lQYTdrLW52VUNRRUR5Vks4YjRQbVJDS2xIbURENTN6aW9mRmJhMVR6eUw5NGdpeUFUZUdXcmRVWXNxSGI3emkxdXRKLUVJamViTDUtVThfeVlDQWxEYnhEMUxTb1pjY3NKaC1HUDFfaUZR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNd3JZMUdvbUNaMGIzQkVVMnFuTEZKWWdmOFliOTNwbVpUMmVHa3NRUWRaV1I4UnpNRTFpQXBWV255YVd4TWRUSEptcjdNWlpSRUtoMUQyQnBmaE1fcWZydzFrcl9QV1Bucnh3WGRzeUMtQ3RFb05EaWFoc1FHeGx1THpZSWpFeGEwa3pvS1ViNVExcjM5aEJNNTJFb0RkZWJMZVZZQ3RZR3lwYVJ3eFlwS0pIV2JXSVk5NkZIV2hsN3ZicnVBNHpDSXZMRi1vNW5icDR3cEpEMXZSRXNwTGpHQ3FLbkzSAeoBQVVfeXFMT2hvanNQbUtmS3g0Nk5YRXpYeWdReFZoeThTRy13ZVZDS0RMdXhXMEZMMkNtQ056YTZpT3l3bGtDMW1zT2ZwWHZ6QjJfUzVzSkVaWDFkNEdCZFBIbk5tb3Y4aHhsMWxEVUwtWWloMnJ6WG1mSGlMdGtxTk1IM19ST3lQYTdrLW52VUNRRUR5Vks4YjRQbVJDS2xIbURENTN6aW9mRmJhMVR6eUw5NGdpeUFUZUdXcmRVWXNxSGI3emkxdXRKLUVJamViTDUtVThfeVlDQWxEYnhEMUxTb1pjY3NKaC1HUDFfaUZR?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-18T13:39:09Z"
+    },
+    {
+      "id": "03d65007ecbd0f3d66bd",
+      "title": "Property Development in Smaller Indian Cities: Growth & Outlook - IBEF",
+      "description": "Property Development in Smaller Indian Cities: Growth & Outlook IBEF",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaDJySm5FXy03dWtnSi1zYVE1N0UzLWFsY1pUQ1lHd1B0YnRYX19iWGtXd1V4amM3b3JmelJGaF9Db1p1TTl4eXVuenZKVkd4QTh3NXhwSEtoT2ZlbFVEdVFVdndETjZGaGdpR1JHdTVOeVhsRlRrZ0xhRVlMRkVJZzVrMlhSQngxb1RaT0JJRlppSkhRVUpJYTRqdHJzVHREVWM0d2pnOXZLYjg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaDJySm5FXy03dWtnSi1zYVE1N0UzLWFsY1pUQ1lHd1B0YnRYX19iWGtXd1V4amM3b3JmelJGaF9Db1p1TTl4eXVuenZKVkd4QTh3NXhwSEtoT2ZlbFVEdVFVdndETjZGaGdpR1JHdTVOeVhsRlRrZ0xhRVlMRkVJZzVrMlhSQngxb1RaT0JJRlppSkhRVUpJYTRqdHJzVHREVWM0d2pnOXZLYjg?oc=5",
+      "source": "IBEF",
+      "category": "India",
+      "publishedAt": "2026-11-18T12:30:29Z"
+    },
     {
       "id": "f493ab0ec11c657abf34",
       "title": "Ho Chi Minh City assigns new duties to chairman and seven vice chairmen - Báo VietNamNet",
@@ -289,6 +469,26 @@
       "publishedAt": "2026-11-18T11:01:00Z"
     },
     {
+      "id": "095b2f491b2ef3cf03a4",
+      "title": "Changing climate, other environmental factors can play role in spread of antimicrobial resistance - European Environment Agency (EEA)",
+      "description": "Changing climate, other environmental factors can play role in spread of antimicrobial resistance European Environment Agency (EEA)",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeFJEWkZwU1UxajB1ZVdobUE0dktydmxZMVNtRVNFdGNid0ZldFFvMlFaTUI4N2hEU2JuWjRUWnp6bzEwU3lNeVdWdXBXN3hTd3cwTnZ4ZTJmel9mT1g3ekV4T3JWUUkzVFByMFJMb3g3aHdIZ001YjhMeDRVSktVZlFnM05GZnVjYndRdFl4c283cVJDSWlORnQ1RVVPRkhOeWZqS3dNbU1temhUNE9rLV80ZDdCd0hzcHdHVGQ3TUgzUldvNXlyN1I5Rzd4QUJlSWVaT0NB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeFJEWkZwU1UxajB1ZVdobUE0dktydmxZMVNtRVNFdGNid0ZldFFvMlFaTUI4N2hEU2JuWjRUWnp6bzEwU3lNeVdWdXBXN3hTd3cwTnZ4ZTJmel9mT1g3ekV4T3JWUUkzVFByMFJMb3g3aHdIZ001YjhMeDRVSktVZlFnM05GZnVjYndRdFl4c283cVJDSWlORnQ1RVVPRkhOeWZqS3dNbU1temhUNE9rLV80ZDdCd0hzcHdHVGQ3TUgzUldvNXlyN1I5Rzd4QUJlSWVaT0NB?oc=5",
+      "source": "European Environment Agency (EEA)",
+      "category": "Environment",
+      "publishedAt": "2026-11-18T10:59:00Z"
+    },
+    {
+      "id": "35f3ab3592de8782bb67",
+      "title": "P.E.I. family competes in International Canoe Federation Dragon Boat World Cup - PNI Atlantic News",
+      "description": "P.E.I. family competes in International Canoe Federation Dragon Boat World Cup PNI Atlantic News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcnM3QkZSdXhGRzlfZDhfcEk4UnRUQXRWeTNjS3Z4NGU2WmVjVUhqTXVCVmdXOWhGQzFqdEw5X2RGSUw0LXJCb2R0OHJzbE5ibGIxdXZhODFObWNSMHI3ZFRiUXBLaFRLX3V4b3lBV2E1TUhHSGZlSVZ6QzdWYkRqdnU2S05YUW5aelFmcTUtYmxrcFRZQXhzQm9EN2FNdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcnM3QkZSdXhGRzlfZDhfcEk4UnRUQXRWeTNjS3Z4NGU2WmVjVUhqTXVCVmdXOWhGQzFqdEw5X2RGSUw0LXJCb2R0OHJzbE5ibGIxdXZhODFObWNSMHI3ZFRiUXBLaFRLX3V4b3lBV2E1TUhHSGZlSVZ6QzdWYkRqdnU2S05YUW5aelFmcTUtYmxrcFRZQXhzQm9EN2FNdw?oc=5",
+      "source": "PNI Atlantic News",
+      "category": "World",
+      "publishedAt": "2026-11-18T10:33:39Z"
+    },
+    {
       "id": "d2d28cc69a6f6c3f95f5",
       "title": "Countdown to World Bowls Junior Indoor Championship - Bowls international",
       "description": "Countdown to World Bowls Junior Indoor Championship Bowls international",
@@ -297,16 +497,6 @@
       "source": "Bowls international",
       "category": "World",
       "publishedAt": "2026-11-18T10:22:03Z"
-    },
-    {
-      "id": "5a69028ad12691ba1d31",
-      "title": "Los Angeles weather: Storm expected to bring heavy rain, flood risk to Southern California. Here's the timeline - ABC7 Los Angeles",
-      "description": "Los Angeles weather: Storm expected to bring heavy rain, flood risk to Southern California. Here's the timeline ABC7 Los Angeles",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHBveFJoaFppc1F5bWJYdDNscnYtM1BEb1l3UHI0UDFkUkdZdWpLcHo2UGNtLXVMbFl6cTRFYW96UjBScDJFbHJCelZLaE5oSnZJeFhUWmFfVGZtS1Znd3RHWnpEVnFWVXlQWFBtX2VJZGtSWTFYMnJuTFprdzdsWDJsY1ZqaEFJ0gGOAUFVX3lxTE53M1lpY0dkY2g2RXVsR1hYcUlVeThwUWdHS29WUVhuMDg1dXkzWlFFTVBxTFNZOXIwQXIxY2dJemRDdjQ1THFXa0EtWERDZ1VMcE5RblZuOWRqOHdJOXpEVG5yVUd5STFUYU5aNHdvbFZ6d0dSZFFQMG9SakhPY3pZZHNDQ05EdXBsdGVES1E?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHBveFJoaFppc1F5bWJYdDNscnYtM1BEb1l3UHI0UDFkUkdZdWpLcHo2UGNtLXVMbFl6cTRFYW96UjBScDJFbHJCelZLaE5oSnZJeFhUWmFfVGZtS1Znd3RHWnpEVnFWVXlQWFBtX2VJZGtSWTFYMnJuTFprdzdsWDJsY1ZqaEFJ0gGOAUFVX3lxTE53M1lpY0dkY2g2RXVsR1hYcUlVeThwUWdHS29WUVhuMDg1dXkzWlFFTVBxTFNZOXIwQXIxY2dJemRDdjQ1THFXa0EtWERDZ1VMcE5RblZuOWRqOHdJOXpEVG5yVUd5STFUYU5aNHdvbFZ6d0dSZFFQMG9SakhPY3pZZHNDQ05EdXBsdGVES1E?oc=5",
-      "source": "ABC7 Los Angeles",
-      "category": "Disaster",
-      "publishedAt": "2026-11-18T10:12:56Z"
     },
     {
       "id": "9e8357c78a4e1a49d996",
@@ -449,6 +639,16 @@
       "publishedAt": "2026-11-17T23:34:06Z"
     },
     {
+      "id": "1334e6a5cf32dbc66c78",
+      "title": "International Ice Hockey Federation website hacked after Russia banned from event - BBC",
+      "description": "International Ice Hockey Federation website hacked after Russia banned from event BBC",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1aNTY0WVpQellKSm5sbHlITDdLRXVISlBRRnRpQ0NYNG1YR1h5ZE5VSU8xV2NHSEhGR1Badnl0dFBfMVNhLThEcEwxeWFMV3padkY3aGRhX3ppWnRTZURzMUIyMERRY3VUR0dB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1aNTY0WVpQellKSm5sbHlITDdLRXVISlBRRnRpQ0NYNG1YR1h5ZE5VSU8xV2NHSEhGR1Badnl0dFBfMVNhLThEcEwxeWFMV3padkY3aGRhX3ppWnRTZURzMUIyMERRY3VUR0dB?oc=5",
+      "source": "BBC",
+      "category": "World",
+      "publishedAt": "2026-11-17T22:14:31Z"
+    },
+    {
       "id": "d0043b6cbfd288df636b",
       "title": "Downtown Tech Summit 2026 in Doha Highlights Qatar's Innovation Ecosystem - News and Statistics - IndexBox",
       "description": "Downtown Tech Summit 2026 in Doha Highlights Qatar's Innovation Ecosystem - News and Statistics IndexBox",
@@ -477,6 +677,16 @@
       "source": "World Boxing Association",
       "category": "World",
       "publishedAt": "2026-11-17T20:21:25Z"
+    },
+    {
+      "id": "0fd341dd08ff9c908ea7",
+      "title": "Rassie Erasmus: South Africa coach suspended for six international matches after comments about officiating double standards - Sky Sports",
+      "description": "Rassie Erasmus: South Africa coach suspended for six international matches after comments about officiating double standards Sky Sports",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZ1pKeVpnMkYtbHFGeU0yR3piTURlNE1ZbTd5YTdWc2ZoQUVRbDhlUHpBaTU2RkZ4bmRQcl9KVzFXb0ExTWZQUFpkcWtMQTF0S2x6enkwZXluYmxZODB3RlJqZ3gyM3p4X1QwUlg3M0ZNWFJ4akRHbUdwa183dV82ZURiMmZ6TmEyTG1zSkxRam0xX2NzZUFZR1U0MWR4MkhYOHA3dmJrSWU0Y0lmbk9WdmxNcWNma2EzdV9rNDVacGhWa0RqRFBUcnVNVTE3R0dLX09vTnJuNDl5Z1J5ZmlRa1QxWHZmdEZ0ZnpidnBYQlh1QVNMWnFGcWpMVDFIb0Mxc0VkQUxB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOZ1pKeVpnMkYtbHFGeU0yR3piTURlNE1ZbTd5YTdWc2ZoQUVRbDhlUHpBaTU2RkZ4bmRQcl9KVzFXb0ExTWZQUFpkcWtMQTF0S2x6enkwZXluYmxZODB3RlJqZ3gyM3p4X1QwUlg3M0ZNWFJ4akRHbUdwa183dV82ZURiMmZ6TmEyTG1zSkxRam0xX2NzZUFZR1U0MWR4MkhYOHA3dmJrSWU0Y0lmbk9WdmxNcWNma2EzdV9rNDVacGhWa0RqRFBUcnVNVTE3R0dLX09vTnJuNDl5Z1J5ZmlRa1QxWHZmdEZ0ZnpidnBYQlh1QVNMWnFGcWpMVDFIb0Mxc0VkQUxB?oc=5",
+      "source": "Sky Sports",
+      "category": "World",
+      "publishedAt": "2026-11-17T19:19:02Z"
     },
     {
       "id": "149711f94c41c9f509eb",
@@ -557,6 +767,16 @@
       "source": "Post Register",
       "category": "World",
       "publishedAt": "2026-11-17T16:23:40Z"
+    },
+    {
+      "id": "a76b5febd5918ebd8416",
+      "title": "IN-SPACe Selects Three Indian Space Startups for 3D Mapping of Indian Cities - Indian Startup Times",
+      "description": "IN-SPACe Selects Three Indian Space Startups for 3D Mapping of Indian Cities Indian Startup Times",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPakMtQnJ4RHk4YTBUQXc4ZjRGYXVGVzdrMDVwTGJOQ1h2dW8xSW5FRV8zMGVGV2FLUm9raHdrX01XSHNfUXhrdVBvdzZVTENYT3ZQOUNMcTNia2t6Z0l2QnhfR1Y5RnlLOU1UWkJOangzT2d6cmZFaFVtWGotZUdsMjJZcml0b3h5WjVoaVJpV0VJZTduWmFHSjB0amJKZWFZRzJrS2xfQmJnWFVfaG1sMlE5U1hjVkw3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPakMtQnJ4RHk4YTBUQXc4ZjRGYXVGVzdrMDVwTGJOQ1h2dW8xSW5FRV8zMGVGV2FLUm9raHdrX01XSHNfUXhrdVBvdzZVTENYT3ZQOUNMcTNia2t6Z0l2QnhfR1Y5RnlLOU1UWkJOangzT2d6cmZFaFVtWGotZUdsMjJZcml0b3h5WjVoaVJpV0VJZTduWmFHSjB0amJKZWFZRzJrS2xfQmJnWFVfaG1sMlE5U1hjVkw3?oc=5",
+      "source": "Indian Startup Times",
+      "category": "India",
+      "publishedAt": "2026-11-17T15:37:12Z"
     },
     {
       "id": "af863da93c9f728acec7",
@@ -856,6 +1076,16 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcklhNWdaQkVFQ3ZxUFNoX1FPTXJFalY3bVROZE4wY2ZGS2pHdlFDRzNzTzk5VVA4bjNlVVhxOHdpLURPMEpwSXBpVEtHd1dldWFxRjBVdlNwakpfMmFLQTVWTUF3VmFXYWlWZUZwM2lDNXRjY1ViZmtyVmhUWkY1WkFn?oc=5",
       "source": "Vietnam.vn",
       "category": "Environment",
+      "publishedAt": "2026-11-17T02:35:22Z"
+    },
+    {
+      "id": "d6652663747a2998fccc",
+      "title": "Prime Minister Le Minh Hung: Using science, technology, and innovation as new driving forces for the ASEAN-Korea partnership. - Vietnam.vn",
+      "description": "Prime Minister Le Minh Hung: Using science, technology, and innovation as new driving forces for the ASEAN-Korea partnership. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQXhXb2ZnUHZMWnhhakxEcjgzZDNOYjZNcU5MSG9NeTlGVENWbmtWT1VYT3d0TU9tMVlBSEM4dHJCSkNLYjU0dkEwdWl2QkF2blpKM1VRcWhRVUprdnBCSjk2NEwxMkVyQTNKZkhEZkhfaF8yM2NPWHZSU0Z3cUFBalhMejAyMDZHNnNHWDM0NU4zYzh6VFBwaG1VZXJiQUhoTVF6Z1ktUUk3blFnMk94aVcxMVBscHJWay16b1pxUUVVSGZWLU5wcm9lZnFCQ2RWQzRodER4d0VEWW8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQXhXb2ZnUHZMWnhhakxEcjgzZDNOYjZNcU5MSG9NeTlGVENWbmtWT1VYT3d0TU9tMVlBSEM4dHJCSkNLYjU0dkEwdWl2QkF2blpKM1VRcWhRVUprdnBCSjk2NEwxMkVyQTNKZkhEZkhfaF8yM2NPWHZSU0Z3cUFBalhMejAyMDZHNnNHWDM0NU4zYzh6VFBwaG1VZXJiQUhoTVF6Z1ktUUk3blFnMk94aVcxMVBscHJWay16b1pxUUVVSGZWLU5wcm9lZnFCQ2RWQzRodER4d0VEWW8?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
       "publishedAt": "2026-11-17T02:35:22Z"
     },
     {
@@ -3057,228 +3287,8 @@
       "source": "Sailweb",
       "category": "World",
       "publishedAt": "2026-11-12T08:19:54Z"
-    },
-    {
-      "id": "e06f598bf145d6f15ff8",
-      "title": "12 of the World’s Deadliest Natural Disasters - Britannica",
-      "description": "12 of the World’s Deadliest Natural Disasters Britannica",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTk01dXNobERxWUZhcV80MkVfZzhMTHhzNEpTbU53clV6a01NT3FJR244RnhpRlpoRi1TdzJsWXkyc0tjWUFmZHpLMnZJdDhxSml2YjJWS1pZLU9xV004U190d0FmdW5IV0V4eDA0bTJiLVA0a083ZzRSRHNFWktucA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTk01dXNobERxWUZhcV80MkVfZzhMTHhzNEpTbU53clV6a01NT3FJR244RnhpRlpoRi1TdzJsWXkyc0tjWUFmZHpLMnZJdDhxSml2YjJWS1pZLU9xV004U190d0FmdW5IV0V4eDA0bTJiLVA0a083ZzRSRHNFWktucA?oc=5",
-      "source": "Britannica",
-      "category": "Disaster",
-      "publishedAt": "2026-11-12T08:00:00Z"
-    },
-    {
-      "id": "2192d9299f02264b196e",
-      "title": "AMERICA’S CUP STARS DOMINATE INTERNATIONAL MOTH WORLD CHAMPIONSHIPS IN PERTH - Louis Vuitton 38th America’s Cup",
-      "description": "AMERICA’S CUP STARS DOMINATE INTERNATIONAL MOTH WORLD CHAMPIONSHIPS IN PERTH Louis Vuitton 38th America’s Cup",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUjVjd2Uta01vam5uWDZVODNUV0twUGxxY1VwajNka2xzbk9URWZwTkkyS1J3c2dDbHN5RnpvcmFLcHpPell0cTZEMHNyMmVKaUcxX0xISnB0d0hkOTE5ZzB4WXJhY1JTY0VKSEFMMkZOMXAtc055cWV2WFhBVHJmS29SNHEwVzF2ZGU0TEVJQl9sSjB4SUhQVS11N3dPZDN5QktUR1RCRzFxZmM3b0VoRkprSQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUjVjd2Uta01vam5uWDZVODNUV0twUGxxY1VwajNka2xzbk9URWZwTkkyS1J3c2dDbHN5RnpvcmFLcHpPell0cTZEMHNyMmVKaUcxX0xISnB0d0hkOTE5ZzB4WXJhY1JTY0VKSEFMMkZOMXAtc055cWV2WFhBVHJmS29SNHEwVzF2ZGU0TEVJQl9sSjB4SUhQVS11N3dPZDN5QktUR1RCRzFxZmM3b0VoRkprSQ?oc=5",
-      "source": "Louis Vuitton 38th America’s Cup",
-      "category": "World",
-      "publishedAt": "2026-11-12T07:38:00Z"
-    },
-    {
-      "id": "a703d0b1a7bd2bd3e9de",
-      "title": "UN climate change summit puts Türkiye at center of international diplomacy: Communications director - A News",
-      "description": "UN climate change summit puts Türkiye at center of international diplomacy: Communications director A News",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcHBsUWpMY2FFdmdTQmNxOUNPLVlzUHViR21Ja1d0b2RRekJYQVh6eWxHREFGbkZwVThLclRjSGkyTnV5eVpwb2s3bGo5Yy1QZ0s2RzhoOHdGNXZNRmdNci1IQ01zanp4Rnh0M0xrVWdZcmxQT3VObVM3NkFDemFWaGdyTTdUYTVia3FaaGNZMjFvQnNpbGFiY2JEVXltS3lCejVKRWVVcFhwSGRDUWtIUG1aeXZndzFmSTl1aTJ1OEd2MldEc202Z0dOczI3RzFsbjhNb3hLONIB3AFBVV95cUxQZTJRQlVYOUZ6aXFuaWo2cEd3c0FqLTZkS3Rmd1lYTTNhYThHYVNBcjRKSUpXdUp5cTF6RTZHR2RRdHlYQnpiXzg3Qmxub0tHcG1SWG5oYllnTUVnUEFyUzEzRUlzb1ljQzg5RkR1MVM5bnUxNVhhbWptQW9lajJUc2VsQWxXNFFLaXBKQ0d2MHdoRURIRm1ackRTS3p6dnkxYi1DUGg4dFlvRU5ZYmE5WnNMOEt3N2dOczQzUHlXOHVZM2tJNFBFT3NZaXhORjVTRVREQmUtWGYzZjR2?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcHBsUWpMY2FFdmdTQmNxOUNPLVlzUHViR21Ja1d0b2RRekJYQVh6eWxHREFGbkZwVThLclRjSGkyTnV5eVpwb2s3bGo5Yy1QZ0s2RzhoOHdGNXZNRmdNci1IQ01zanp4Rnh0M0xrVWdZcmxQT3VObVM3NkFDemFWaGdyTTdUYTVia3FaaGNZMjFvQnNpbGFiY2JEVXltS3lCejVKRWVVcFhwSGRDUWtIUG1aeXZndzFmSTl1aTJ1OEd2MldEc202Z0dOczI3RzFsbjhNb3hLONIB3AFBVV95cUxQZTJRQlVYOUZ6aXFuaWo2cEd3c0FqLTZkS3Rmd1lYTTNhYThHYVNBcjRKSUpXdUp5cTF6RTZHR2RRdHlYQnpiXzg3Qmxub0tHcG1SWG5oYllnTUVnUEFyUzEzRUlzb1ljQzg5RkR1MVM5bnUxNVhhbWptQW9lajJUc2VsQWxXNFFLaXBKQ0d2MHdoRURIRm1ackRTS3p6dnkxYi1DUGg4dFlvRU5ZYmE5WnNMOEt3N2dOczQzUHlXOHVZM2tJNFBFT3NZaXhORjVTRVREQmUtWGYzZjR2?oc=5",
-      "source": "A News",
-      "category": "World",
-      "publishedAt": "2026-11-12T07:25:40Z"
-    },
-    {
-      "id": "3a21d8b0624e16d6537b",
-      "title": "Holiday on November 12, 2026 — International Tempranillo Wine Day - UA.NEWS",
-      "description": "Holiday on November 12, 2026 — International Tempranillo Wine Day UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQalJSclh4UzZsYXh6VWNiSG91d0NnMFMyc0lZQzFRNWhMeFlNOVowdVczc1c4ZE1xaWFxY19HWWRyeG9yV0pPM2RJUldWbjd4V1BjdXNUdDZHR0JwZTZiYkdLV2FsMVp2SHVjMkdRZEhkMWdFb3FfWFgxQlM4aGFIZVQ1dV9OUHlzcUJTZ2FSU2U0SFJ1TFBMTDBfcF8xT0lXZ1hNc3Ztdw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQalJSclh4UzZsYXh6VWNiSG91d0NnMFMyc0lZQzFRNWhMeFlNOVowdVczc1c4ZE1xaWFxY19HWWRyeG9yV0pPM2RJUldWbjd4V1BjdXNUdDZHR0JwZTZiYkdLV2FsMVp2SHVjMkdRZEhkMWdFb3FfWFgxQlM4aGFIZVQ1dV9OUHlzcUJTZ2FSU2U0SFJ1TFBMTDBfcF8xT0lXZ1hNc3Ztdw?oc=5",
-      "source": "UA.NEWS",
-      "category": "World",
-      "publishedAt": "2026-11-12T07:21:51Z"
-    },
-    {
-      "id": "b10acd63c44b232f1343",
-      "title": "$100,000 OPT fees could shut international students out of post-study work, US universities warn | Hindustan Times - Hindustan Times",
-      "description": "$100,000 OPT fees could shut international students out of post-study work, US universities warn | Hindustan Times Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPTDZYRVhzdEo3SGpFMUhZc1pjMHMwcS1rTHRjQjVjNkI4OUQxX0l5UVFwUTJPblhwLThscWlrS2pwd2R3OG95MEVpT3VzTTVDRk5KWlRqYUhmOXExUGRyR1JTelFFZE0wQVpfZzNLSTV2a0t1WHRUTExEMXZENW9XOXhmbWJjS01xNmJJZnFvdXVsektHY00xS0k2ZDhqbG5GN2lJNlZFZE9SREF1NDhQREI3VnVUZW8xTHV6aXNYUVByNEZzSmxlY3lJR2c0U3k3VGVpZE81Q3lTTG9oSW1HWVVEc2JTeTRiUThSWDhILXlqRmNHMXg2ZVdQNlbSAfwBQVVfeXFMT0w2WEVYc3RKN0hqRTFIWXNaYzBzMHEta0x0Y0I1YzZCODlEMV9JeVFRcFEyT25YcC04bHFpa0tqcHdkdzhveTBFaU91c001Q0ZOSlpUamFIZjlxMVBkckdSU3pRRWRNMEFaX2czS0k1dmtLdVh0VExMRDF2RDVvVzl4Zm1iY0tNcTZiSWZxb3V1bHpLR2NNMUtJNmQ4amxuRjdpSTZWRWRPUkRBdTQ4UERCN1Z1VGVvMUx1emlzWFFQcjRGc0psZWN5SUdnNFN5N1RlaWRPNUN5U0xvaEltR1lVRHNiU3k0YlE4Ulg4SC15akZjRzF4NmVXUDZW?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPTDZYRVhzdEo3SGpFMUhZc1pjMHMwcS1rTHRjQjVjNkI4OUQxX0l5UVFwUTJPblhwLThscWlrS2pwd2R3OG95MEVpT3VzTTVDRk5KWlRqYUhmOXExUGRyR1JTelFFZE0wQVpfZzNLSTV2a0t1WHRUTExEMXZENW9XOXhmbWJjS01xNmJJZnFvdXVsektHY00xS0k2ZDhqbG5GN2lJNlZFZE9SREF1NDhQREI3VnVUZW8xTHV6aXNYUVByNEZzSmxlY3lJR2c0U3k3VGVpZE81Q3lTTG9oSW1HWVVEc2JTeTRiUThSWDhILXlqRmNHMXg2ZVdQNlbSAfwBQVVfeXFMT0w2WEVYc3RKN0hqRTFIWXNaYzBzMHEta0x0Y0I1YzZCODlEMV9JeVFRcFEyT25YcC04bHFpa0tqcHdkdzhveTBFaU91c001Q0ZOSlpUamFIZjlxMVBkckdSU3pRRWRNMEFaX2czS0k1dmtLdVh0VExMRDF2RDVvVzl4Zm1iY0tNcTZiSWZxb3V1bHpLR2NNMUtJNmQ4amxuRjdpSTZWRWRPUkRBdTQ4UERCN1Z1VGVvMUx1emlzWFFQcjRGc0psZWN5SUdnNFN5N1RlaWRPNUN5U0xvaEltR1lVRHNiU3k0YlE4Ulg4SC15akZjRzF4NmVXUDZW?oc=5",
-      "source": "Hindustan Times",
-      "category": "World",
-      "publishedAt": "2026-11-12T07:19:26Z"
-    },
-    {
-      "id": "61ebd930fde2246e7503",
-      "title": "'Ratioed': El Salvador President Nayib Bukele Uses Gen Z Slang To Criticise Amnesty International - NDTV",
-      "description": "'Ratioed': El Salvador President Nayib Bukele Uses Gen Z Slang To Criticise Amnesty International NDTV",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTWZNWHZYQXBsRW5ZaVlsdFFSTzhuUmo1QkhzODk0eVRCWVpJTjkwc1FMa29iVlRrSFFHZFlrY2JJTXdTYXhBOHVFdjVtcHNDakotNGlMVXF0cnZTZkV3c3M3bmpiM043Wjd2VHZraU5hUW1lZV9tUXZvX09jVnN1QURUc1VwblBrUWdwWUtUaVRRSjRuZTN6VmdnTU8ydlV3MktoZ25HVWxCUzRDVE10NFpuOU9VdUU5c1pyVWJjSllseWQzQktkN2doM1Zqbnct0gHYAUFVX3lxTE5xTElodmdKWjczMGdLTFFFX2pXTG1WdDFzQnVydnl3bGhvMjhSZUlIQVhkNDVLVmgzQTU5SjFkMWFpMmNrY2g1SlkyeFJROG5Zd2VXeFlGVFRlbTVENW1kcEhPTERhVzUxR05JR18wNEVvRDBBTjZ1VmJLcGhZZEZ6UkQwVEdRX29Vdlo2T2swMGI3NTBwRWxZbVRGcW1YaTUzM1kzMVdZcjQxUUNETm1RQmZNRGRKMlhPMkJPTkxYZFFFeWcyN1IyOTBYZjlGSWphSXNFeGRtcw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTWZNWHZYQXBsRW5ZaVlsdFFSTzhuUmo1QkhzODk0eVRCWVpJTjkwc1FMa29iVlRrSFFHZFlrY2JJTXdTYXhBOHVFdjVtcHNDakotNGlMVXF0cnZTZkV3c3M3bmpiM043Wjd2VHZraU5hUW1lZV9tUXZvX09jVnN1QURUc1VwblBrUWdwWUtUaVRRSjRuZTN6VmdnTU8ydlV3MktoZ25HVWxCUzRDVE10NFpuOU9VdUU5c1pyVWJjSllseWQzQktkN2doM1Zqbnct0gHYAUFVX3lxTE5xTElodmdKWjczMGdLTFFFX2pXTG1WdDFzQnVydnl3bGhvMjhSZUlIQVhkNDVLVmgzQTU5SjFkMWFpMmNrY2g1SlkyeFJROG5Zd2VXeFlGVFRlbTVENW1kcEhPTERhVzUxR05JR18wNEVvRDBBTjZ1VmJLcGhZZEZ6UkQwVEdRX29Vdlo2T2swMGI3NTBwRWxZbVRGcW1YaTUzM1kzMVdZcjQxUUNETm1RQmZNRGRKMlhPMkJPTkxYZFFFeWcyN1IyOTBYZjlGSWphSXNFeGRtcw?oc=5",
-      "source": "NDTV",
-      "category": "World",
-      "publishedAt": "2026-11-12T06:25:56Z"
-    },
-    {
-      "id": "2cd576b5de4fa11009bd",
-      "title": "Suspected Pakistani Drone Recovered Near International Border In J&K's Samba, BSF Launches Search Operation - Republic World",
-      "description": "Suspected Pakistani Drone Recovered Near International Border In J&K's Samba, BSF Launches Search Operation Republic World",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxONGsyaUl6eGdKVzdLd0g1U3g4dUFPUTcxMXBPOXZRSGFMZmVOTG9TWno4NkEwMkNwaEtkczNOTms4alQteVM2OGY0S0dIMXEtVnFQZ1dJcXZnbkdLaE8xMm5MdjU0NEMtRGlyaThRUC1pb1NncEZHeFpKajBJUU9odVBHd1ZjWDAwZkotYmNfLV92MjF5WXAwdnVIc0NJUHd0eG5pRlNFalRJS2tsREtIY29LS0tOYlRLR3pZRU1wRkV4RHNWOVdNTVNrNWhUVlV1dGZkMVVrcXFxUmg4UVdjZmp3RWN4OXRNbnRHUV9JTkTSAfYBQVVfeXFMUEtieW04VWR0UXVQSXFsN08ycEJEaTBmUHZxTjU3SmRYNHptUW9FWTViUkprcHJRbm1DbDFhQ2xPOGp5UVdJNmdKNWhnamEzTnVlNm5JVWlhMGl3ZzNIaDZRenNjR2phYVYydExNQ1Yzbm5QdzhtbHpyc01GcF9ObHpfZXdZcWJkcjAyVWJ1dXlqaTNway1OTmNrTW81SzRsYlNIN2l5WjhhcWItWDQ2N2FzTVdOM0lfMWw5VWFad19jS1YxUjJEaHMyVHc2QjdOS3VBellJUVBySnZPVjlkdlppRjAwWGZSNXBqOUd3TzhXTUluWHNn?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxONGsyaUl6eGdKVzdLd0g1U3g4dUFPUTcxMXBPOXZRSGFMZmVOTG9TWno4NkEwMkNwaEtkczNOTms4alQteVM2OGY0S0dIMXEtVnFQZ1dJcXZnbkdLaE8xMm5MdjU0NEMtRGlyaThRUC1pb1NncEZHeFpKajBJUU9odVBHd1ZjWDAwZkotYmNfLV92MjF5WXAwdnVIc0NJUHd0eG5pRlNFalRJS2tsREtIY29LS0tOYlRLR3pZRU1wRkV4RHNWOVdNTVNrNWhUVlV1dGZkMVVrcXFxUmg4UVdjZmp3RWN4OXRNbnRHUV9JTkTSAfYBQVVfeXFMUEtieW04VWR0UXVQSXFsN08ycEJEaTBmUHZxTjU3SmRYNHptUW9FWTViUkprcHJRbm1DbDFhQ2xPOGp5UVdJNmdKNWhnamEzTnVlNm5JVWlhMGl3ZzNIaDZRenNjR2phYVYydExNQ1Yzbm5QdzhtbHpyc01GcF9ObHpfZXdZcWJkcjAyVWJ1dXlqaTNway1OTmNrTW81SzRsYlNIN2l5WjhhcWItWDQ2N2FzTVdOM0lfMWw5VWFad19jS1YxUjJEaHMyVHc2QjdOS3VBellJUVBySnZPVjlkdlppRjAwWGZSNXBqOUd3TzhXTUluWHNn?oc=5",
-      "source": "Republic World",
-      "category": "World",
-      "publishedAt": "2026-11-12T06:19:22Z"
-    },
-    {
-      "id": "871155b7db2e6ea64dc2",
-      "title": "Gaza Faces Severe Flooding Amid Infrastructure Crisis - India News Network",
-      "description": "Gaza Faces Severe Flooding Amid Infrastructure Crisis India News Network",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmxSWjRUSUpFVm5tQlkwT2ZncFpsOXUtQnRhbXBFajBVS1dJM1Jha3R4Y0tvVFE3UVU0dnFMeWx5MTJSS2FDdFUtZmRnRmVfdGVDVFJ1dFc2WXVkX2NiaUd2NVktbVpMN1NHczQ2R1BlMEVSR3JiNGt2eXFOUmhKOXlWWUR6WDhYLV9zREF3VFlEd2pVRDE2OEZlTzdxV1E?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmxSWjRUSUpFVm5tQlkwT2ZncFpsOXUtQnRhbXBFajBVS1dJM1Jha3R4Y0tvVFE3UVU0dnFMeWx5MTJSS2FDdFUtZmRnRmVfdGVDVFJ1dFc2WXVkX2NiaUd2NVktbVpMN1NHczQ2R1BlMEVSR3JiNGt2eXFOUmhKOXlWWUR6WDhYLV9zREF3VFlEd2pVRDE2OEZlTzdxV1E?oc=5",
-      "source": "India News Network",
-      "category": "India",
-      "publishedAt": "2026-11-12T05:54:42Z"
-    },
-    {
-      "id": "ab7600592c46cca5ba19",
-      "title": "Super 16 Power Rankings go international to celebrate Global Series - NHL.com",
-      "description": "Super 16 Power Rankings go international to celebrate Global Series NHL.com",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeTQ5aTc4a191WjBHa0JRaWVYdXZ0RjhhTWR4RkdwTHI2MlVmYTZQODVuMWFMeWtZSy1WcnQ1bDA2blMtbHkwalVHdDg5czdzUXRoWElwbGM5Y21GaWRyVUpneHVJZGE1NWlqTnVEdlFGY3hwZzNvYV9BbXFMZ2JWWUpLcElTN0dMM3NiVw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeTQ5aTc4a191WjBHa0JRaWVYdXZ0RjhhTWR4RkdwTHI2MlVmYTZQODVuMWFMeWtZSy1WcnQ1bDA2blMtbHkwalVHdDg5czdzUXRoWElwbGM5Y21GaWRyVUpneHVJZGE1NWlqTnVEdlFGY3hwZzNvYV9BbXFMZ2JWWUpLcElTN0dMM3NiVw?oc=5",
-      "source": "NHL.com",
-      "category": "World",
-      "publishedAt": "2026-11-12T04:48:59Z"
-    },
-    {
-      "id": "b6d4a806505507c3d5c1",
-      "title": "Vietnamese and Japanese businesses promote cooperation in innovation. - Vietnam.vn",
-      "description": "Vietnamese and Japanese businesses promote cooperation in innovation. Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTWJJZUw3QzNEVnFORDJxRzhDZGxtODZGLWowNkROR0FHMGFweEo2Y21EdVJqVTR0ZGxFX2hvSUdMa0t2T2RzWGVpUEV1aVdIRFFPbGcxY3g2OVl1RGlaRjhwb1pQOWUxc1p4VWxMSkRWd25SZXFRbVlVZk5hZmcwV3QyUHlZTmdPREtuMkcyQnFGbHEw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTWJJZUw3QzNEVnFORDJxRzhDZGxtODZGLWowNkROR0FHMGFweEo2Y21EdVJqVTR0ZGxFX2hvSUdMa0t2T2RzWGVpUEV1aVdIRFFPbGcxY3g2OVl1RGlaRjhwb1pQOWUxc1p4VWxMSkRWd25SZXFRbVlVZk5hZmcwV3QyUHlZTmdPREtuMkcyQnFGbHEw?oc=5",
-      "source": "Vietnam.vn",
-      "category": "Technology",
-      "publishedAt": "2026-11-12T04:26:10Z"
-    },
-    {
-      "id": "7e0828ed1de63fc444c3",
-      "title": "5 years of fighting climate change haven't done much and stronger targets are needed, report says - KVUE",
-      "description": "5 years of fighting climate change haven't done much and stronger targets are needed, report says KVUE",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQMEQ3SGRnbjY4dDlNQ2dTMm1zMVlTdEl1dTJMSkdDVkVhdXNPZEw3VTlFSU1zZGcyRWJkVnB6dWpTZUMya3Y1NWlZU0V5ZXUzYlVkNV9CN1V3WDNSWEhMYXJOZFpHQ3JHUGlJejhmMkJ3cVBKcGJOTFRRNHEzdEZZZmphc2VTTzNHTmp2R01vQVAwRlVUaFMwUEJNa3ZBY3JVLWdBQUZJdC11b28xWHBjT0tsOWhNTGNBUW94cHAwelNDOUFBWDlYYWdobUVaT0NTUDBfcjl1RzJiMDBEbUI5ZmtITmVuY2xHZXdjdWVRa0VLR3NGaS1WLXZiUlBMTWpIVmZ5MGZLVGJHeDF0Q3hlV1d3Y2YzWk1GY3hZVTRR?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQMEQ3SGRnbjY4dDlNQ2dTMm1zMVlTdEl1dTJMSkdDVkVhdXNPZEw3VTlFSU1zZGcyRWJkVnB6dWpTZUMya3Y1NWlZU0V5ZXUzYlVkNV9CN1V3WDNSWEhMYXJOZFpHQ3JHUGlJejhmMkJ3cVBKcGJOTFRRNHEzdEZZZmphc2VTTzNHTmp2R01vQVAwRlVUaFMwUEJNa3ZBY3JVLWdBQUZJdC11b28xWHBjT0tsOWhNTGNBUW94cHAwelNDOUFBWDlYYWdobUVaT0NTUDBfcjl1RzJiMDBEbUI5ZmtITmVuY2xHZXdjdWVRa0VLR3NGaS1WLXZiUlBMTWpIVmZ5MGZLVGJHeDF0Q3hlV1d3Y2YzWk1GY3hZVTRR?oc=5",
-      "source": "KVUE",
-      "category": "Environment",
-      "publishedAt": "2026-11-12T04:11:57Z"
-    },
-    {
-      "id": "a3b5a7b4cddc2b789a40",
-      "title": "Texas A&M participates in international forum for global food security - The Battalion",
-      "description": "Texas A&M participates in international forum for global food security The Battalion",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOckk3Q0R4Q3FWbl9qb2RfN3VyX0MyU1BXcThWY1pYZ19GOTVpa2I2TkNQdW1xWEdhazVqTHUwSHAxODZsWUdycVBTc3BjRW9sVnhsZXZSYnlIUDZ3TlVMcHoybnhFQUhuWnJwZTJiMEt2VGNBM3B3dUVXYXo5TUN6LVlJZ0hBRUpDWFFHbEpoOVpRN2VObm96dml5Z2Nvdw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOckk3Q0R4Q3FWbl9qb2RfN3VyX0MyU1BXcThWY1pYZ19GOTVpa2I2TkNQdW1xWEdhazVqTHUwSHAxODZsWUdycVBTc3BjRW9sVnhsZXZSYnlIUDZ3TlVMcHoybnhFQUhuWnJwZTJiMEt2VGNBM3B3dUVXYXo5TUN6LVlJZ0hBRUpDWFFHbEpoOVpRN2VObm96dml5Z2Nvdw?oc=5",
-      "source": "The Battalion",
-      "category": "World",
-      "publishedAt": "2026-11-12T01:50:23Z"
-    },
-    {
-      "id": "4b3e52652d6638f71ed4",
-      "title": "Strait of Hormuz will 'never return' to pre-war status: Ghalibaf says 'ball in US court' on peace talks - The Economic Times",
-      "description": "Strait of Hormuz will 'never return' to pre-war status: Ghalibaf says 'ball in US court' on peace talks The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQTERkTVNOSGhwSmp3NDMyc1RPWnpFSUxmMTJETmM4eVJ3SWxDRHJJWEp4WXRYaUF2T3RjOHpfUmlsdTFvOU9vTkRHa1JqdV9qLWFDZHRCbUFRYmVMeXZsMDV0TmNyYkMtUFhpTEk2MDk2T09lZXRyTWFRNUZaZGRfMWhOR2JBckY2amFhMEpDYVc2djF4MHFZa3NIR2tvbzhDeHcwYW5wZnI5bklKVGZDZGhqYVYwb3hPSV9ZRWNUMkxPbzRWYW5wajhQQWJEZlJVd3NFRjhSWXFhZzIwRFhVN3djZmhzbzB3OTVmTTNvUjVWQkd3VmVaaGh6cFBCY1dQZE9LUGt2TU04WW5QOWVv0gGUAkFVX3lxTE9saFVza3NBTENSLW81bnRUc1puREJjcUp5N0UyRkRxemstSXFTeUlvZ0M5eHFhUG01ZmVpQnpCSElKWU5jbXhMT0ROcHpwblByN2I3RmZ4dS05ek85MVBPUnplWFJIQUY5N2UtMGIzdVQ2R3ZCS3g5YVQ2aTctWmltYmoxaVlkOU44U1Nhc01WakxUbXFGMnl2cnNSbXJ4UnFjU2NRNk9BSlp1bUc4QVE5NlZpUlRjS01kckljZkRUbGsxR2JNRHU0cUVqb1NCNkQ1VGJPN3QxNG5KSVVSeWpHLTNMTUgxdXhYcXFQUGQ5R1kweDBxWkY3dUFUVGhCTFN4WTNxeHhENld4a3NwcWhWUVpHaw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQTERkTVNOSGhwSmp3NDMyc1RPWnpFSUxmMTJETmM4eVJ3SWxDRHJJWEp4WXRYaUF2T3RjOHpfUmlsdTFvOU9vTkRHa1JqdV9qLWFDZHRCbUFRYmVMeXZsMDV0TmNyYkMtUFhpTEk2MDk2T09lZXRyTWFRNUZaZGRfMWhOR2JBckY2amFhMEpDYVc2djF4MHFZa3NIR2tvbzhDeHcwYW5wZnI5bklKVGZDZGhqYVYwb3hPSV9ZRWNUMkxPbzRWYW5wajhQQWJEZlJVd3NFRjhSWXFhZzIwRFhVN3djZmhzbzB3OTVmTTNvUjVWQkd3VmVaaGh6cFBCY1dQZE9LUGt2TU04WW5QOWVv0gGUAkFVX3lxTE9saFVza3NBTENSLW81bnRUc1puREJjcUp5N0UyRkRxemstSXFTeUlvZ0M5eHFhUG01ZmVpQnpCSElKWU5jbXhMT0ROcHpwblByN2I3RmZ4dS05ek85MVBPUnplWFJIQUY5N2UtMGIzdVQ2R3ZCS3g5YVQ2aTctWmltYmoxaVlkOU44U1Nhc01WakxUbXFGMnl2cnNSbXJ4UnFjU2NRNk9BSlp1bUc4QVE5NlZpUlRjS01kckljZkRUbGsxR2JNRHU0cUVqb1NCNkQ1VGJPN3QxNG5KSVVSeWpHLTNMTUgxdXhYcXFQUGQ5R1kweDBxWkY3dUFUVGhCTFN4WTNxeHhENld4a3NwcWhWUVpHaw?oc=5",
-      "source": "The Economic Times",
-      "category": "World",
-      "publishedAt": "2026-11-12T01:22:59Z"
-    },
-    {
-      "id": "acdfc149fd0e420028e2",
-      "title": "Environmental organisations look back at a year of successes and uncertainties ahead - Port Stephens News Of The Area",
-      "description": "Environmental organisations look back at a year of successes and uncertainties ahead Port Stephens News Of The Area",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNX0Zja3hEdXZjNF91ZnloM1JTcXdRYTcyZmdaREN0RUpEbjhDc3JuOFU5WFBIQzltNm1ERDVDa1E5VUdPYzd4S3NHZm5yX3VNaVJid19ndXBjVUxDTWtEb0djMFJacU9uNFduRWZHdVd1VGMxVkFXaGRQZ1BUbzc1SzZYR1RpNmtkQ3hJbEtDY2dTU2JkWDcxQkFCRmdMSER5LWJxVGhvLVBRQS1LTXZ3dHZwYlBvYUh5Z1k2LVEyZGZHV0R6?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNX0Zja3hEdXZjNF91ZnloM1JTcXdRYTcyZmdaREN0RUpEbjhDc3JuOFU5WFBIQzltNm1ERDVDa1E5VUdPYzd4S3NHZm5yX3VNaVJid19ndXBjVUxDTWtEb0djMFJacU9uNFduRWZHdVd1VGMxVkFXaGRQZ1BUbzc1SzZYR1RpNmtkQ3hJbEtDY2dTU2JkWDcxQkFCRmdMSER5LWJxVGhvLVBRQS1LTXZ3dHZwYlBvYUh5Z1k2LVEyZGZHV0R6?oc=5",
-      "source": "Port Stephens News Of The Area",
-      "category": "Environment",
-      "publishedAt": "2026-11-12T00:10:50Z"
-    },
-    {
-      "id": "7a5b62812c4edd1a8ef7",
-      "title": "Cost-effective climate change mitigation through land sector contributions - Nature",
-      "description": "Cost-effective climate change mitigation through land sector contributions Nature",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVZUswelB1VXpvcUxXWjBHY2VWMU42bV9OdkZ2SmtidTlGVDA3Yll1N0hRVGZDdWl4V0o5b0RqWExDcG5VTDZSUG5WSnRSeHNQZEkyTGp2TUdJWnBLcFp3?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVZUswelB1VXpvcUxXWjBHY2VWMU42bV9OdkZ2SmtidTlGVDA3Yll1N0hRVGZDdWl4V0o5b0RqWExDcG5VTDZSUG5WSnRSeHNQZEkyTGp2TUdJWnBLcFp3?oc=5",
-      "source": "Nature",
-      "category": "Environment",
-      "publishedAt": "2026-11-11T23:59:38Z"
-    },
-    {
-      "id": "526f8db8c798f35ca5d4",
-      "title": "LIVE | End of an era! SS United States sinks as the world's largest artificial reef takes shape - The Economic Times",
-      "description": "LIVE | End of an era! SS United States sinks as the world's largest artificial reef takes shape The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTXVUY2s0SHpSbW40OWw4TXZ1ZExkWTkxMGpOSmg4YXhoWjBiajcxc05QQkdiU3Z2VGFqZzVMQ0JrSWh5aUl2RDl6Nm5qeEJiMnBqeEZzTWY2YlN3UWJwQ216Rl9GTFRtT0NnbzV3bXd3UkZNaTkwZmFNOWdHbTFwX0E3ckJzZWt3b3VhM21oWFdTbWxtTmo3QkZ3V1FPOHozWDZVS1FGWGdGQjBCd2VtbDYta284QUpCLTQySlZTZW5kT09LeDJaNnNNN24zTElKQm0yYUF2N0NnenlNZGhlOFdqVURFR3hDQ2ZQSXVobjdhNmhLT3hLQnJEay1nUy1nbllV0gGIAkFVX3lxTE4yNU5OcUVZODlLay0taWlwd19DUXY1Z19KSDVkclJGbjlCVmdXUE5JdzBLZ21hbUttRTh0dU1uQnYweDRxRmFEWnBvbk9PRXMyNGRaTmVlY3prc1RMajg4RE15RjdRLUx2TFNKOUxKSWcxT0VObnlVYktrTnFxTjZsamwwSVNPQVpUM185eW15bF8zOURlSi1YQk8yM0lTV3BpUE10b0ljQ0RVYWZUdllGVXY2RVVJUFVtUFJ2U2dlV3JlZEtUanRIZU9pUk1Udy0wSjJZcUJlY2xhbEpMcWZZMURfSXBqVWlWU2IwTEZ3cEwzYnhxRUFuQWJVQ2VQWlFKN2RfVHA4MA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTXVUY2s0SHpSbW40OWw4TXZ1ZExkWTkxMGpOSmg4YXhoWjBiajcxc05QQkdiU3Z2VGFqZzVMQ0JrSWh5aUl2RDl6Nm5qeEJiMnBqeEZzTWY2YlN3UWJwQ216Rl9GTFRtT0NnbzV3bXd3UkZNaTkwZmFNOWdHbTFwX0E3ckJzZWt3b3VhM21oWFdTbWxtTmo3QkZ3V1FPOHozWDZVS1FGWGdGQjBCd2VtbDYta284QUpCLTQySlZTZW5kT09LeDJaNnNNN24zTElKQm0yYUF2N0NnenlNZGhlOFdqVURFR3hDQ2ZQSXVobjdhNmhLT3hLQnJEay1nUy1nbllV0gGIAkFVX3lxTE4yNU5OcUVZODlLay0taWlwd19DUXY1Z19KSDVkclJGbjlCVmdXUE5JdzBLZ21hbUttRTh0dU1uQnYweDRxRmFEWnBvbk9PRXMyNGRaTmVlY3prc1RMajg4RE15RjdRLUx2TFNKOUxKSWcxT0VObnlVYktrTnFxTjZsamwwSVNPQVpUM185eW15bF8zOURlSi1YQk8yM0lTV3BpUE10b0ljQ0RVYWZUdllGVXY2RVVJUFVtUFJ2U2dlV3JlZEtUanRIZU9pUk1Udy0wSjJZcUJlY2xhbEpMcWZZMURfSXBqVWlWU2IwTEZ3cEwzYnhxRUFuQWJVQ2VQWlFKN2RfVHA4MA?oc=5",
-      "source": "The Economic Times",
-      "category": "World",
-      "publishedAt": "2026-11-11T21:43:24Z"
-    },
-    {
-      "id": "86bf19c8e6ec48df7492",
-      "title": "\"America Did Not Start Iran War\": Trump Says Wants To Have \"Total Victory\" - NDTV",
-      "description": "\"America Did Not Start Iran War\": Trump Says Wants To Have \"Total Victory\" NDTV",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR0JyNUNhOFVEUGdxbkNGQklxVnJPRHNoZW4wcElsRVFndmM1c0k0OFZhUzlDMUZwb1FsQkM5aUxjdzRxWWprckJWQ2xBWHlNQ3dxT2lvbHl0YnBHUTRYZFFQNExQY0ZSQmNKY0hsM3B2QTlUWGF5QzY0Yy1Rb1JuTmJKaFBTd2VJUThObko5SE5EcEhwcXpfS05OQm1GNDFVeFhTWGNROEs5eVBMeFB0cFp6UEcwVlFJ0gHAAUFVX3lxTFBCR3lNbEZpQTcyQUdJY25LU0h6bVA3NUhrUDBqRUNRMHlUam9NRlNMWWYtYTZJZEJpOHJiVW9UMkwtQ1dDUjVVVHRuQW9saFZMNHhBUjZ0OFlHUGlORndtSFA2RzhoOFVzQnRMWXpWcTl6U3ZMWnQxVmphVnhsel9XdnNPS2NiLTVGTHBPNmJqNEhjQ1puWk9iNm52V1h5QkE1T3RXckt1ZTJMSDA0cFE4T0RMQ0VyeW9HYVJuMjRkUA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR0JyNUNhOFVEUGdxbkNGQklxVnJPRHNoZW4wcElsRVFndmM1c0k0OFZhUzlDMUZwb1FsQkM5aUxjdzRxWWprckJWQ2xBWHlNQ3dxT2lvbHl0YnBHUTRYZFFQNExQY0ZSQmNKY0hsM3B2QTlUWGF5QzY0Yy1Rb1JuTmJKaFBTd2VJUThObko5SE5EcEhwcXpfS05OQm1GNDFVeFhTWGNROEs5eVBMeFB0cFp6UEcwVlFJ0gHAAUFVX3lxTFBCR3lNbEZpQTcyQUdJY25LU0h6bVA3NUhrUDBqRUNRMHlUam9NRlNMWWYtYTZJZEJpOHJiVW9UMkwtQ1dDUjVVVHRuQW9saFZMNHhBUjZ0OFlHUGlORndtSFA2RzhoOFVzQnRMWXpWcTl6U3ZMWnQxVmphVnhsel9XdnNPS2NiLTVGTHBPNmJqNEhjQ1puWk9iNm52V1h5QkE1T3RXckt1ZTJMSDA0cFE4T0RMQ0VyeW9HYVJuMjRkUA?oc=5",
-      "source": "NDTV",
-      "category": "World",
-      "publishedAt": "2026-11-11T20:28:49Z"
-    },
-    {
-      "id": "d100ffcedc4bf2a4e092",
-      "title": "Iran president accuses US, Israel of causing environmental damage during war - The Korea Times",
-      "description": "Iran president accuses US, Israel of causing environmental damage during war The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRXo0QkN4dk13UEVTeHFjQ1ZVb01mR3AxNWhNYnpsU0hGZEZxbzlIRjlFdFdJN2tBUDdhZ3FhNG40LXN5TUJhUmNMUmpRUktjSlF5UTkzdDNsMXVxbDBUMExIUkhMQmQ5U1R1dHVQRTB4cVI2c0pIWnRsem5qanlfZzhybGlrZ1lXMmU3TEpHRHJiVTAzaFBKQmtZOWJ5WGFZdkJST2hLVGljSkNIMDJVUlRrZ3pRaWlmTTE00gHAAUFVX3lxTFBoV29yNS1jWDBMSFJVTXlOeXhNOUhjQWZTejFqLVVVcjNoay1zSDdSdHdvZmw2MmpBUEQ0eTV1SDRmd0E1SW1tVUxZSVNXTVVYdkIybm5wQ3dDZm04SkNBQ241bXA0SVg2TDB2YkduZFRCYy11bGg0ZE8xM0xuZHlObkZWSEZJempGNGZ0VGxDbUJJY3JDMDBIRHFwbURPYmpMaEtJdGdQR1lpbkZuVV9Ga3ZnZDMwRlQ5TFF4SFpFdQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRXo0QkN4dk13UEVTeHFjQ1ZVb01mR3AxNWhNYnpsU0hGZEZxbzlIRjlFdFdJN2tBUDdhZ3FhNG40LXN5TUJhUmNMUmpRUktjSlF5UTkzdDNsMXVxbDBUMExIUkhMQmQ5U1R1dHVQRTB4cVI2c0pIWnRsem5qanlfZzhybGlrZ1lXMmU3TEpHRHJiVTAzaFBKQmtZOWJ5WGFZdkJST2hLVGljSkNIMDJVUlRrZ3pRaWlmTTE00gHAAUFVX3lxTFBoV29yNS1jWDBMSFJVTXlOeXhNOUhjQWZTejFqLVVVcjNoay1zSDdSdHdvZmw2MmpBUEQ0eTV1SDRmd0E1SW1tVUxZSVNXTVVYdkIybm5wQ3dDZm04SkNBQ241bXA0SVg2TDB2YkduZFRCYy11bGg0ZE8xM0xuZHlObkZWSEZJempGNGZ0VGxDbUJJY3JDMDBIRHFwbURPYmpMaEtJdGdQR1lpbkZuVV9Ga3ZnZDMwRlQ5TFF4SFpFdQ?oc=5",
-      "source": "The Korea Times",
-      "category": "Environment",
-      "publishedAt": "2026-11-11T18:44:00Z"
-    },
-    {
-      "id": "e7c9639f048bd60131f6",
-      "title": "Ex-SPFL Premiership star who won major trophy lands first international call-up from world's only Scottish national boss - The Scottish Sun",
-      "description": "Ex-SPFL Premiership star who won major trophy lands first international call-up from world's only Scottish national boss The Scottish Sun",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeXFKUkdMVS1yUDFzS2J2YUFFYjhpQ1BDeXdLVUxxdmtHRVF2a3BuRmlHZ2dDUGJuSnlwRFVPdWY3aXhzbVY1RlVUMm9ILU41M3VsNVczWkxEVURvby13LVZMSDdTc0JCRFZ0RXlhZ2dDMVptdmlqMnF6VF9hNk11YmRTaFFPeHlEaXhEa2x4S1llVUNYMkdtdDBqbHZUSzRqYnlr?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeXFKUkdMVS1yUDFzS2J2YUFFYjhpQ1BDeXdLVUxxdmtHRVF2a3BuRmlHZ2dDUGJuSnlwRFVPdWY3aXhzbVY1RlVUMm9ILU41M3VsNVczWkxEVURvby13LVZMSDdTc0JCRFZ0RXlhZ2dDMVptdmlqMnF6VF9hNk11YmRTaFFPeHlEaXhEa2x4S1llVUNYMkdtdDBqbHZUSzRqYnlr?oc=5",
-      "source": "The Scottish Sun",
-      "category": "World",
-      "publishedAt": "2026-11-11T17:15:00Z"
-    },
-    {
-      "id": "dca5567d10621e2ed5e0",
-      "title": "Amnesty International urges oil firms to fund Niger Delta environmental restoration - EnviroNews Nigeria",
-      "description": "Amnesty International urges oil firms to fund Niger Delta environmental restoration EnviroNews Nigeria",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOWU0a19BT0d2UW5UcVVtOERqejVvc3ozVlo5RlhFZEVmdWJrQ1JaQkxpQTJ6cGZMY2J4Tmpfek9FTVFXVTV1U0dRNjNfS3Z6UHBTVTRjVkUwSmM0djRHVFVzRFdKQmRNb3lRYUs3NGw2YVg0SW84YWtCbGF6U1lxMmhINjdWLXo5MUQ2NVBRMmphazJXbjluRFBNSW8yWGxwQTV0WlQ1X1ZfakVTYXdwaW0taWUxR3ZOZGc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOWU0a19BT0d2UW5UcVVtOERqejVvc3ozVlo5RlhFZEVmdWJrQ1JaQkxpQTJ6cGZMY2J4Tmpfek9FTVFXVTV1U0dRNjNfS3Z6UHBTVTRjVkUwSmM0djRHVFVzRFdKQmRNb3lRYUs3NGw2YVg0SW84YWtCbGF6U1lxMmhINjdWLXo5MUQ2NVBRMmphazJXbjluRFBNSW8yWGxwQTV0WlQ1X1ZfakVTYXdwaW0taWUxR3ZOZGc?oc=5",
-      "source": "EnviroNews Nigeria",
-      "category": "Environment",
-      "publishedAt": "2026-11-11T16:25:51Z"
-    },
-    {
-      "id": "19260c414baf9bb82aa7",
-      "title": "UAE leads the way in empowering Arab women, says international advocate - The National",
-      "description": "UAE leads the way in empowering Arab women, says international advocate The National",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQS11VkJtUmxzOGtxUHNOcXllS1J3N3lCWGtDSFlYbGpFcm5HSkp2X0k4QUFpdW95VjZrSjRYMDhJaHQ2UDZVNVJuQkpMeTdLelpRdXNxUkRnWEQtdFVjcXl2RXZNQ0NCaVFmdDd6djFFSHY3bFQyb2hrbEZZMWI2TTZRV0ZvWjFKSHlxM3Q0SmdpVlp5RkN5dDUyUXc0WTd2V1pCNElzRGZsb2VzNVc5ZW9welVPMDFsM2F5clpHckM?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQS11VkJtUmxzOGtxUHNOcXllS1J3N3lCWGtDSFlYbGpFcm5HSkp2X0k4QUFpdW95VjZrSjRYMDhJaHQ2UDZVNVJuQkpMeTdLelpRdXNxUkRnWEQtdFVjcXl2RXZNQ0NCaVFmdDd6djFFSHY3bFQyb2hrbEZZMWI2TTZRV0ZvWjFKSHlxM3Q0SmdpVlp5RkN5dDUyUXc0WTd2V1pCNElzRGZsb2VzNVc5ZW9welVPMDFsM2F5clpHckM?oc=5",
-      "source": "The National",
-      "category": "World",
-      "publishedAt": "2026-11-11T15:28:31Z"
-    },
-    {
-      "id": "9a26cc6da1a7f73ddeae",
-      "title": "At COP31, Turkey pushes zero-waste plan to curb climate change - ABC News - Breaking News, Latest News and Videos",
-      "description": "At COP31, Turkey pushes zero-waste plan to curb climate change ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMzg2d3ZRMnZHNWZzb3pjVlFjbmFZdVRET1puajV5MGR5ZW0tLVRxQ3dqU2ljMXFYY1VXR0UtTDVRaVdCd1ZySm8teE8zbTFQWXN6eUdLbG1CMnJfU3R3cHp0T3BNTkVyMV9UNThyUFRYeEI5ekR5cEVTZzVWWGFBR3FYZWVxazFON1IzZEJpWjFDektSeGx1b1Q0VXo5Z9IBowFBVV95cUxQdjBVbEREaTRrdEtZMHdFLWw5bFJ1Y2tTUm5ubGdFTkJwVUNydlR3UkJtSUtVRXhZa2prR1dtXzZCNzFBZ0VlRzNiWmM1OWdCU2hWU1pjcS1oVUxUNlpzUVUydjY5eHBYRlM4bzNLWjlmTHNpLWJhOWN3SlZVNE84RkdWaWh6bW9aQXpveEdEWDItcWtNa19YZ1QzUW5jUm83QzNJ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMzg2d3ZRMnZHNWZzb3pjVlFjbmFZdVRET1puajV5MGR5ZW0tLVRxQ3dqU2ljMXFYY1VXR0UtTDVRaVdCd1ZySm8teE8zbTFQWXN6eUdLbG1CMnJfU3R3cHp0T3BNTkVyMV9UNThyUFRYeEI5ekR5cEVTZzVWWGFBR3FYZWVxazFON1IzZEJpWjFDektSeGx1b1Q0VXo5Z9IBowFBVV95cUxQdjBVbEREaTRrdEtZMHdFLWw5bFJ1Y2tTUm5ubGdFTkJwVUNydlR3UkJtSUtVRXhZa2prR1dtXzZCNzFBZ0VlRzNiWmM1OWdCU2hWU1pjcS1oVUxUNlpzUVUydjY5eHBYRlM4bzNLWjlmTHNpLWJhOWN3SlZVNE84RkdWaWh6bW9aQXpveEdEWDItcWtNa19YZ1QzUW5jUm83QzNJ?oc=5",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "category": "Environment",
-      "publishedAt": "2026-11-11T15:20:37Z"
     }
   ],
-  "lastUpdated": "2026-11-18T12:08:28Z",
-  "updatedAt": "2026-11-18T12:08:28Z"
+  "lastUpdated": "2026-11-18T20:49:04Z",
+  "updatedAt": "2026-11-18T20:49:04Z"
 }
