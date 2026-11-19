@@ -240,54 +240,103 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-18T20:49:04Z",
-    "lastSuccessfulRun": "2026-11-18T20:49:04Z",
-    "lastUpdated": "2026-11-18T20:49:04Z",
-    "articlesAdded": 22,
+    "lastRun": "2026-11-19T02:23:46Z",
+    "lastSuccessfulRun": "2026-11-19T02:23:46Z",
+    "lastUpdated": "2026-11-19T02:23:46Z",
+    "articlesAdded": 11,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 19,
+    "duplicatesRemoved": 36,
     "failedSources": [],
     "newArticleIds": [
-      "db8492fd4b7553ef4fb0",
-      "b3624810b0d9b229b39a",
-      "14e1fdea68f7f04b0c86",
-      "7a0b6d7d89c53db1374a",
-      "2314a68fc36b9709d411",
-      "7d1913cd1af5f58d868e",
-      "9fa052db31ede51300ce",
-      "de27cd6b79b31258f8eb",
-      "3e05f66e5acd72ba08de",
-      "833e7e801b4adca32c36",
-      "67cfdd76a8a4e60020b7",
-      "96473a730df97dc57579",
-      "e339832c9c936d366ce0",
-      "1165f2e38297de5a586b",
-      "56229b2a8c390525224c",
-      "03d65007ecbd0f3d66bd",
-      "095b2f491b2ef3cf03a4",
-      "35f3ab3592de8782bb67",
-      "1334e6a5cf32dbc66c78",
-      "0fd341dd08ff9c908ea7",
-      "a76b5febd5918ebd8416",
-      "d6652663747a2998fccc"
+      "0f72f7b93a0fa19e297a",
+      "4f4ff0e58d69a5c0889b",
+      "04198938fa845fe06a61",
+      "6c3f6a9dbdbcb49cfbc4",
+      "d2b041e318552fbab552",
+      "4cdf68053135105bc610",
+      "98081145d4c96e65d6bf",
+      "7ec00260a4561d27bf90",
+      "8d4c9b8d6b0e7e4818a9",
+      "b22e2eb8444f98ab9d36",
+      "6968a09a2f828bf2798a"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 22,
+    "articlesRemoved": 11,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 193,
+      "World": 194,
       "India": 25,
       "Technology": 19,
-      "Environment": 56,
+      "Environment": 55,
       "Disaster": 7
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "0f72f7b93a0fa19e297a",
+      "title": "Global: Protesting children and young people face human rights abuses, including violence and discrimination - Amnesty International",
+      "description": "Global: Protesting children and young people face human rights abuses, including violence and discrimination Amnesty International",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTmNlODJidXIyTmVpNVBBNHJUVlNCbGZoanZfck56T0o3bC05aGtRQzlNcGt6cDBFSjZiRlNFTEp0NWU4ckNJbW96ZHpqajRCZXNkbXM4emJPempkYjd3dlMxV2k5ZWRwQmlMaUJVTVVOWnVJSGk5N21nTHZub1pTU09YTFhIVVItRGtMQXpYekFKUnlJUm9XM1lSMElnMnNNRnpoUUwwWGVCOVFJTHAzNUdUbUpEN3M?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTmNlODJidXIyTmVpNVBBNHJUVlNCbGZoanZfck56T0o3bC05aGtRQzlNcGt6cDBFSjZiRlNFTEp0NWU4ckNJbW96ZHpqajRCZXNkbXM4emJPempkYjd3dlMxV2k5ZWRwQmlMaUJVTVVOWnVJSGk5N21nTHZub1pTU09YTFhIVVItRGtMQXpYekFKUnlJUm9XM1lSMElnMnNNRnpoUUwwWGVCOVFJTHAzNUdUbUpEN3M?oc=5",
+      "source": "Amnesty International",
+      "category": "World",
+      "publishedAt": "2026-11-19T01:01:00Z"
+    },
+    {
+      "id": "4f4ff0e58d69a5c0889b",
+      "title": "Creating momentum for the development of the innovation ecosystem in the Capital City. - Vietnam.vn",
+      "description": "Creating momentum for the development of the innovation ecosystem in the Capital City. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWdubmFmeDc5NVlMU3lLM2Z4a1hYQnc5ZjVVclpTTGx6Q0I1WWJoOTBzamNCWVdGZ1I0VjJFZVQxVE5FRVVra1I5Mm5ndWc3R2VzSHJPRHRiSGRMQ2RzVmV4NjdhNjlxcWI4Y1NqNFJQVXAwYW94MzVWbi05bWFJUGVCdV9sRWw0VE80aEljSFM3dWM2?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWdubmFmeDc5NVlMU3lLM2Z4a1hYQnc5ZjVVclpTTGx6Q0I1WWJoOTBzamNCWVdGZ1I0VjJFZVQxVE5FRVVra1I5Mm5ndWc3R2VzSHJPRHRiSGRMQ2RzVmV4NjdhNjlxcWI4Y1NqNFJQVXAwYW94MzVWbi05bWFJUGVCdV9sRWw0VE80aEljSFM3dWM2?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-19T00:43:23Z"
+    },
+    {
+      "id": "04198938fa845fe06a61",
+      "title": "Salt Lake City International Airport named 'World's Best Large Airport' by Time magazine - FOX 13 News Utah",
+      "description": "Salt Lake City International Airport named 'World's Best Large Airport' by Time magazine FOX 13 News Utah",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT2dkNWtZVEFsX1dvY0tmX1kxZHlwQVhPbzRuaXhYUGVjTi1YcUVXQUtnTnpHaFpkYU1ORDlPYjJqb1NDTG9PbHNyOVctQ3Ric3BNRFNkd0xtbW5GSDFTSDUzSzU4cjRncVJ1WEdRdkZLSHBIUENwTzAxY1F5V21pNFFCVUVZY1NTRkFxcjVBeTRSeTVCRHNDR0NLRllVZlN0SUpmMU1HemExSVhyZU9TaE5jbkZGcHF3QkJIamd0c0x6R0lTZWw3VW5CWmJ2Wmgwcm85V181SVY?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT2dkNWtZVEFsX1dvY0tmX1kxZHlwQVhPbzRuaXhYUGVjTi1YcUVXQUtnTnpHaFpkYU1ORDlPYjJqb1NDTG9PbHNyOVctQ3Ric3BNRFNkd0xtbW5GSDFTSDUzSzU4cjRncVJ1WEdRdkZLSHBIUENwTzAxY1F5V21pNFFCVUVZY1NTRkFxcjVBeTRSeTVCRHNDR0NLRllVZlN0SUpmMU1HemExSVhyZU9TaE5jbkZGcHF3QkJIamd0c0x6R0lTZWw3VW5CWmJ2Wmgwcm85V181SVY?oc=5",
+      "source": "FOX 13 News Utah",
+      "category": "World",
+      "publishedAt": "2026-11-18T22:10:32Z"
+    },
+    {
+      "id": "6c3f6a9dbdbcb49cfbc4",
+      "title": "Fencing Sends Three Tar Heels To International World Cups - University of North Carolina Athletics - University of North Carolina Athletics",
+      "description": "Fencing Sends Three Tar Heels To International World Cups - University of North Carolina Athletics University of North Carolina Athletics",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS2E3Z3czVFFXMS1naDNSbUVrTURreXhUWXpRc1ZhNzdtN2c3ZjFXeUpkSkJrS1QxeG9WZWtNaTNHM25ON1JwZVJaaXFVM01veGxEeDRYcDlQYmtHdk95U0xscDJjTDVCMC1neW1UUVZVa3NOeGIyRi1vQVNvc1Z3YWFCT2tBUy1BYUNpSzBpTGdkeDdWYlRmVA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS2E3Z3czVFFXMS1naDNSbUVrTURreXhUWXpRc1ZhNzdtN2c3ZjFXeUpkSkJrS1QxeG9WZWtNaTNHM25ON1JwZVJaaXFVM01veGxEeDRYcDlQYmtHdk95U0xscDJjTDVCMC1neW1UUVZVa3NOeGIyRi1vQVNvc1Z3YWFCT2tBUy1BYUNpSzBpTGdkeDdWYlRmVA?oc=5",
+      "source": "University of North Carolina Athletics",
+      "category": "World",
+      "publishedAt": "2026-11-18T21:07:37Z"
+    },
+    {
+      "id": "d2b041e318552fbab552",
+      "title": "Roushanda Levy to represent Jamaica at 34th Miss Model of the World International Pageant in China - Jamaica Observer",
+      "description": "Roushanda Levy to represent Jamaica at 34th Miss Model of the World International Pageant in China Jamaica Observer",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMms1ZEVRX0l3ZGdLellVUUdzWTBqSTRHb2ZHOXBCNzVhSE9ORk0wUDlvalEtV2lVSEJNbFV2WUxUbzlBVmNGNFhWTVRKQVlBRDhXaVp6QnMwZXNjQkpZVkozTlNraEdxdHQ0WWhDdEF4Mmk0eXFpOUx3NC1JbUN2M2VFbW1tMGIwUHlSc2Vyamp5T01Jc2RLdGNTU3g1dlFRc2F4LTRkWGFKX293TVZoOVllX2xZYk9LWFl5MUt0YnhfLTBF?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMms1ZEVRX0l3ZGdLellVUUdzWTBqSTRHb2ZHOXBCNzVhSE9ORk0wUDlvalEtV2lVSEJNbFV2WUxUbzlBVmNGNFhWTVRKQVlBRDhXaVp6QnMwZXNjQkpZVkozTlNraEdxdHQ0WWhDdEF4Mmk0eXFpOUx3NC1JbUN2M2VFbW1tMGIwUHlSc2Vyamp5T01Jc2RLdGNTU3g1dlFRc2F4LTRkWGFKX293TVZoOVllX2xZYk9LWFl5MUt0YnhfLTBF?oc=5",
+      "source": "Jamaica Observer",
+      "category": "World",
+      "publishedAt": "2026-11-18T20:56:12Z"
+    },
+    {
+      "id": "4cdf68053135105bc610",
+      "title": "The Permitting Bill Is Splitting the Environmental Movement - The New York Times",
+      "description": "The Permitting Bill Is Splitting the Environmental Movement The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUnoyZXFYYVF3anE4LVZFa2VHajRLZWtJT2s5Vk5GNzl2MlVUNUN3MzM4YU00MVlfN1NIZzZVVkc3VkhBRkpxNEZCbHlJMkN3UzI0dlBDVi1vS1cxTElWUUliWjlmZ3FpZUFEUVNFRm1OWmV6djhSWU5OM2xGdEc5ZjVCU3hEZTZuX2ZZOFMxS3N1ZzlHZGRfVG5n?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUnoyZXFYYVF3anE4LVZFa2VHajRLZWtJT2s5Vk5GNzl2MlVUNUN3MzM4YU00MVlfN1NIZzZVVkc3VkhBRkpxNEZCbHlJMkN3UzI0dlBDVi1vS1cxTElWUUliWjlmZ3FpZUFEUVNFRm1OWmV6djhSWU5OM2xGdEc5ZjVCU3hEZTZuX2ZZOFMxS3N1ZzlHZGRfVG5n?oc=5",
+      "source": "The New York Times",
+      "category": "Environment",
+      "publishedAt": "2026-11-18T20:45:33Z"
+    },
     {
       "id": "db8492fd4b7553ef4fb0",
       "title": "Morocco Inaugurates Mohammed VI International University Hospital Complex in Dakhla - Morocco World News",
@@ -299,16 +348,6 @@
       "publishedAt": "2026-11-18T20:09:13Z"
     },
     {
-      "id": "b3624810b0d9b229b39a",
-      "title": "The Permitting Bill Is Splitting the Environmental Movement - The New York Times",
-      "description": "The Permitting Bill Is Splitting the Environmental Movement The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOG1Zbnl2Y1BNTjg4dWF4MGxFT3dxS0J0cWhualUzdEhjNHZ2blA0ZUZXMHluaFgxdjJNZVVpczhpdmtOc2lBWW41SEx5UEcxTVczTnFuaWhlNEgxUWxmalVYUnllWDk1Ymd1Y2NRdXJQUmtqYkFQcmV2UmVpQ0twRHZPX3F1OExuY0R4OXNxM0FlZ1N2bmlxNDF5TmVpYS1Y?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOG1Zbnl2Y1BNTjg4dWF4MGxFT3dxS0J0cWhualUzdEhjNHZ2blA0ZUZXMHluaFgxdjJNZVVpczhpdmtOc2lBWW41SEx5UEcxTVczTnFuaWhlNEgxUWxmalVYUnllWDk1Ymd1Y2NRdXJQUmtqYkFQcmV2UmVpQ0twRHZPX3F1OExuY0R4OXNxM0FlZ1N2bmlxNDF5TmVpYS1Y?oc=5",
-      "source": "The New York Times",
-      "category": "Environment",
-      "publishedAt": "2026-11-18T20:07:46Z"
-    },
-    {
       "id": "5a69028ad12691ba1d31",
       "title": "Los Angeles weather: Storm expected to bring heavy rain, flood risk to Southern California. Here's the timeline - ABC7 Los Angeles",
       "description": "Los Angeles weather: Storm expected to bring heavy rain, flood risk to Southern California. Here's the timeline ABC7 Los Angeles",
@@ -317,6 +356,26 @@
       "source": "ABC7 Los Angeles",
       "category": "Disaster",
       "publishedAt": "2026-11-18T19:27:05Z"
+    },
+    {
+      "id": "98081145d4c96e65d6bf",
+      "title": "Senate Democrats Greenlight Environmental Catastrophe By Advancing Permitting Reform - Center for Biological Diversity",
+      "description": "Senate Democrats Greenlight Environmental Catastrophe By Advancing Permitting Reform Center for Biological Diversity",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOX3hTXzktbXVIZzNrYjR1dW9YSmlTTXU1ekdTVmxKT1ZzMEhOY25ZR3k2a3JpM21XR2ZhNGwtNm5Zeksxak5RQWR4M1dUeGItMUVNcHpsM3pTZElvU2JIbEpGQXJMaktINldmdTl5b0dJYkUtTWlVYWNRVDJHZi1EOHBYYTg4aXA2aU43cVAyMWVnU3lqX3VMRmk4VDZQdHdiM2I5M05xQnRMdUZmNzFiZTZ5MzhsLVBhMHZpcGNfN2dUSFBSckhkd09wa0RLMGpTeHVBSHhoY3M5NEctMTU4VXRPZEU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOX3hTXzktbXVIZzNrYjR1dW9YSmlTTXU1ekdTVmxKT1ZzMEhOY25ZR3k2a3JpM21XR2ZhNGwtNm5Zeksxak5RQWR4M1dUeGItMUVNcHpsM3pTZElvU2JIbEpGQXJMaktINldmdTl5b0dJYkUtTWlVYWNRVDJHZi1EOHBYYTg4aXA2aU43cVAyMWVnU3lqX3VMRmk4VDZQdHdiM2I5M05xQnRMdUZmNzFiZTZ5MzhsLVBhMHZpcGNfN2dUSFBSckhkd09wa0RLMGpTeHVBSHhoY3M5NEctMTU4VXRPZEU?oc=5",
+      "source": "Center for Biological Diversity",
+      "category": "Environment",
+      "publishedAt": "2026-11-18T19:24:15Z"
+    },
+    {
+      "id": "7ec00260a4561d27bf90",
+      "title": "International Hockey Continues to Ice Russia Out of Global Competition - Yahoo Sports",
+      "description": "International Hockey Continues to Ice Russia Out of Global Competition Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOVZ6U0NrWFRzY2Y2ZFZNWWRJTWllUmtQRUdWNTI2YWszZGQ4d0NqVTFCSHlaVmI3Qy0wNHR2cFRkSXQ3aU1BTTVLQktXTHpIemF1azBNY0hIR05KdmZaNmFWRkxnVmtsaWdHWkt4Y3IwUm0yWXJBc01rbDk1TE5reHA3c1pHRnNNQmRDaFlieWlWQXFx?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOVZ6U0NrWFRzY2Y2ZFZNWWRJTWllUmtQRUdWNTI2YWszZGQ4d0NqVTFCSHlaVmI3Qy0wNHR2cFRkSXQ3aU1BTTVLQktXTHpIemF1azBNY0hIR05KdmZaNmFWRkxnVmtsaWdHWkt4Y3IwUm0yWXJBc01rbDk1TE5reHA3c1pHRnNNQmRDaFlieWlWQXFx?oc=5",
+      "source": "Yahoo Sports",
+      "category": "World",
+      "publishedAt": "2026-11-18T19:24:11Z"
     },
     {
       "id": "14e1fdea68f7f04b0c86",
@@ -497,6 +556,16 @@
       "source": "Bowls international",
       "category": "World",
       "publishedAt": "2026-11-18T10:22:03Z"
+    },
+    {
+      "id": "8d4c9b8d6b0e7e4818a9",
+      "title": "Climate Change, the Mother of All Affordability Problems - The American Prospect",
+      "description": "Climate Change, the Mother of All Affordability Problems The American Prospect",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUDhlU0FGTUN6c1ZrSVlpSm5pZVZCc3Q3VEtZUHlKdVhxUXNhTWxqeHJHdTFjcXRKVm9NaWZDNUFKRGtfQkJ2STZONHZpYTItU1lmSnpvZ215dldqVGhBUXYwZ3BOdjdwbXlLbjRTUG9BUExsZ29wcFBUeUtrc0VyM2lmTFdZY3BISXVCSA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUDhlU0FGTUN6c1ZrSVlpSm5pZVZCc3Q3VEtZUHlKdVhxUXNhTWxqeHJHdTFjcXRKVm9NaWZDNUFKRGtfQkJ2STZONHZpYTItU1lmSnpvZ215dldqVGhBUXYwZ3BOdjdwbXlLbjRTUG9BUExsZ29wcFBUeUtrc0VyM2lmTFdZY3BISXVCSA?oc=5",
+      "source": "The American Prospect",
+      "category": "Environment",
+      "publishedAt": "2026-11-18T10:15:00Z"
     },
     {
       "id": "9e8357c78a4e1a49d996",
@@ -889,6 +958,16 @@
       "publishedAt": "2026-11-17T11:13:00Z"
     },
     {
+      "id": "b22e2eb8444f98ab9d36",
+      "title": "Environmental and delivery system changes that should have helped control health care costs - Substack",
+      "description": "Environmental and delivery system changes that should have helped control health care costs Substack",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VUFlua091YWw3U1EtX0xoZlRvaHJIbXNRS3ppTU9zY0U4bWd0emEyMTQ0N1k2TmFaaFZYMTlXYVI5VHppTHp6SDhUdEtxaTZsZV8wS3ZfVWtpSEstTXVEakQ2VTQ3NFZ5TTljbXBuejZpWm9sTnpZdVBXcmlpdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VUFlua091YWw3U1EtX0xoZlRvaHJIbXNRS3ppTU9zY0U4bWd0emEyMTQ0N1k2TmFaaFZYMTlXYVI5VHppTHp6SDhUdEtxaTZsZV8wS3ZfVWtpSEstTXVEakQ2VTQ3NFZ5TTljbXBuejZpWm9sTnpZdVBXcmlpdw?oc=5",
+      "source": "Substack",
+      "category": "Environment",
+      "publishedAt": "2026-11-17T10:06:29Z"
+    },
+    {
       "id": "3fa375ae2fe160d4f231",
       "title": "World leaders gather in Tampa to build international partnerships that could benefit the city - WUSF",
       "description": "World leaders gather in Tampa to build international partnerships that could benefit the city WUSF",
@@ -1087,6 +1166,16 @@
       "source": "Vietnam.vn",
       "category": "Technology",
       "publishedAt": "2026-11-17T02:35:22Z"
+    },
+    {
+      "id": "6968a09a2f828bf2798a",
+      "title": "Environmental, Public Health Experts Testify During Public Hearings on Methane Pollution Rollback Proposal - CleanTechnica",
+      "description": "Environmental, Public Health Experts Testify During Public Hearings on Methane Pollution Rollback Proposal CleanTechnica",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUFEzU0tTUDZfRlUtTkc3bnFNRURHNkxldGRnYVh1R0RYOTZaNnBiOVhkS2pYbVdRZ2pwRENCNDdLX2xyUWNxNFRSVjBpREJqMC0xeFNjWGtmemFLX0ZNdmowdFdRaVhtSUlKYUhDOFRKRGk2MXMteHlVcmhOSnBwazR4eVAyZmhkRi02Q1ZSZkc2VHFaejFZbi1zdVp1WEVFWG1PQ0Nuck9PMDM4OVdFRWFfeE8wUkFWZlY4LXFtM19jMkpDU1ViX2owdUozTHk3bXpwdVR6UXNoWG8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUFEzU0tTUDZfRlUtTkc3bnFNRURHNkxldGRnYVh1R0RYOTZaNnBiOVhkS2pYbVdRZ2pwRENCNDdLX2xyUWNxNFRSVjBpREJqMC0xeFNjWGtmemFLX0ZNdmowdFdRaVhtSUlKYUhDOFRKRGk2MXMteHlVcmhOSnBwazR4eVAyZmhkRi02Q1ZSZkc2VHFaejFZbi1zdVp1WEVFWG1PQ0Nuck9PMDM4OVdFRWFfeE8wUkFWZlY4LXFtM19jMkpDU1ViX2owdUozTHk3bXpwdVR6UXNoWG8?oc=5",
+      "source": "CleanTechnica",
+      "category": "Environment",
+      "publishedAt": "2026-11-17T02:11:23Z"
     },
     {
       "id": "4fdf4462fa7a239eed12",
@@ -3187,108 +3276,8 @@
       "source": "Salford Now",
       "category": "Environment",
       "publishedAt": "2026-11-12T12:38:17Z"
-    },
-    {
-      "id": "2577dedc5b1fd2c232b6",
-      "title": "Scottish Sailor Dominates at International Moth Lowrider World Championship 2026 in Australia - Sail-World.com",
-      "description": "Scottish Sailor Dominates at International Moth Lowrider World Championship 2026 in Australia Sail-World.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbnpNTXp1OGdsRmswb194dDZhMXVOMlctVXlGVzIzTjNZYUlwUmxDaDJBTWp1aTBndHRHcnJfNkthMHFrTGZjZmhpdVdqc3ZZYzQ1akx5bjRBNHlISkI1UGE5cU5vS3FiZ2Rxck5QSlE2d2tRN2dPcGFlSENEd0ZKazdPQzM3c0U?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbnpNTXp1OGdsRmswb194dDZhMXVOMlctVXlGVzIzTjNZYUlwUmxDaDJBTWp1aTBndHRHcnJfNkthMHFrTGZjZmhpdVdqc3ZZYzQ1akx5bjRBNHlISkI1UGE5cU5vS3FiZ2Rxck5QSlE2d2tRN2dPcGFlSENEd0ZKazdPQzM3c0U?oc=5",
-      "source": "Sail-World.com",
-      "category": "World",
-      "publishedAt": "2026-11-12T12:20:00Z"
-    },
-    {
-      "id": "ec9afb9d9db84f7f9caf",
-      "title": "Goal 10: Reduced Inequalities - UNEP - UN Environment Programme",
-      "description": "Goal 10: Reduced Inequalities UNEP - UN Environment Programme",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYXpfbG8xUEQ1ZHJnRE9kbkRqNU5GZmlkckk4YVlLVFU0Zm4tQ2QwbHJfZ2pvTmtSSWZ3akJrbVhYY0d6WENaQ1BuOWJ6VE9pd3JDQ2JFekpxWVlnUFJZWUczSktWYWJmX09CT0tVRklwblNNbTR6djQ5THpzRVVZRzE2ZmdaWUxsX0JnTGh1T3F4X05DdUdsOXZWYXhTZDJQRWV1Ym80NVJNUS05cUxNdjlsMjVUa0U?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYXpfbG8xUEQ1ZHJnRE9kbkRqNU5GZmlkckk4YVlLVFU0Zm4tQ2QwbHJfZ2pvTmtSSWZ3akJrbVhYY0d6WENaQ1BuOWJ6VE9pd3JDQ2JFekpxWVlnUFJZWUczSktWYWJmX09CT0tVRklwblNNbTR6djQ5THpzRVVZRzE2ZmdaWUxsX0JnTGh1T3F4X05DdUdsOXZWYXhTZDJQRWV1Ym80NVJNUS05cUxNdjlsMjVUa0U?oc=5",
-      "source": "UNEP - UN Environment Programme",
-      "category": "Environment",
-      "publishedAt": "2026-11-12T11:25:34Z"
-    },
-    {
-      "id": "5f7886dc1c7d56b164c2",
-      "title": "AFG International Company unveils “AFG Retail” to replace Cenomi Retail - Trend News Agency",
-      "description": "AFG International Company unveils “AFG Retail” to replace Cenomi Retail Trend News Agency",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBaS3hQQlV4d0dOaUtEZTVBc0FCSll0S29IUzZDT2hJOVZ3QmFXSl9KanpVNWFhRDdiUkYxNmRyeUNTb0dqaUdVcElSazVpM1g2?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBaS3hQQlV4d0dOaUtEZTVBc0FCSll0S29IUzZDT2hJOVZ3QmFXSl9KanpVNWFhRDdiUkYxNmRyeUNTb0dqaUdVcElSazVpM1g2?oc=5",
-      "source": "Trend News Agency",
-      "category": "World",
-      "publishedAt": "2026-11-12T11:04:22Z"
-    },
-    {
-      "id": "26ca620482f986691925",
-      "title": "School assembly news headlines for 13th November, 2026: Top Indian, International, Sports and Business news - Education Times",
-      "description": "School assembly news headlines for 13th November, 2026: Top Indian, International, Sports and Business news Education Times",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPS01qaGNKUU8xMUxvMHNNeDBYRUt5aTBvMEVTT09BSk95YlZnZFdnZk9RcGNxVGNkalBxTDZSMG51ZlItR1VrOUFHQlR1Mm5ZdjhCdjl2YVltT2ZuRTk3a0IzYUxPSW5tUWR2Sm1yb01vVEhWa1ctNjFjbFR2dXQtRF9qQnF4STZSbWNCRmRCSTJHY1JkcUNWaHMxY1Bnd2draUxOckhUV3NObEtONXhNcW5RdHF4aG44VXgxaHlTenNqZ2JWWlFfQkpmTHBNY3M0RF9ZVGpCQU85Yy1qcnVtRlFyTkNNdjRfYlhqUnlhUTZMc2R2UE9xTQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPS01qaGNKUU8xMUxvMHNNeDBYRUt5aTBvMEVTT09BSk95YlZnZFdnZk9RcGNxVGNkalBxTDZSMG51ZlItR1VrOUFHQlR1Mm5ZdjhCdjl2YVltT2ZuRTk3a0IzYUxPSW5tUWR2Sm1yb01vVEhWa1ctNjFjbFR2dXQtRF9qQnF4STZSbWNCRmRCSTJHY1JkcUNWaHMxY1Bnd2draUxOckhUV3NObEtONXhNcW5RdHF4aG44VXgxaHlTenNqZ2JWWlFfQkpmTHBNY3M0RF9ZVGpCQU85Yy1qcnVtRlFyTkNNdjRfYlhqUnlhUTZMc2R2UE9xTQ?oc=5",
-      "source": "Education Times",
-      "category": "World",
-      "publishedAt": "2026-11-12T10:58:00Z"
-    },
-    {
-      "id": "9074c211c4278db985af",
-      "title": "Msheireb Properties concludes Qatar Sustainability Week 2026 participation with a focus on smart city innovation - Doha News",
-      "description": "Msheireb Properties concludes Qatar Sustainability Week 2026 participation with a focus on smart city innovation Doha News",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeTVSMC1yWjB3alpibTRrMG1GWUEtQUZYMXNXdU5uLUQzYnRERU5WbjdES2JiMEsxRmZjWUZZNEx3V0pHZmJvYWNSQ2J1aEJwNWNfalJOWllpYllmY2ZQZUlMNFhpMG1TRk9WZU43UFAzY3BwWTlQWGM5ODVNcFJSY2RRX3BNQ0wyVmRTdW9CZEN5TzA0eHpsSkpzV0FqTWJQWlNCOUF4Rlh0Q1dEZUxqWnZ2NXdZLUtiS0MyYjZJRVg5NHA5Y3hrZk1YWlR0dw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeTVSMC1yWjB3alpibTRrMG1GWUEtQUZYMXNXdU5uLUQzYnRERU5WbjdES2JiMEsxRmZjWUZZNEx3V0pHZmJvYWNSQ2J1aEJwNWNfalJOWllpYllmY2ZQZUlMNFhpMG1TRk9WZU43UFAzY3BwWTlQWGM5ODVNcFJSY2RRX3BNQ0wyVmRTdW9CZEN5TzA0eHpsSkpzV0FqTWJQWlNCOUF4Rlh0Q1dEZUxqWnZ2NXdZLUtiS0MyYjZJRVg5NHA5Y3hrZk1YWlR0dw?oc=5",
-      "source": "Doha News",
-      "category": "Technology",
-      "publishedAt": "2026-11-12T10:45:40Z"
-    },
-    {
-      "id": "8106167d7783273a6d4f",
-      "title": "Environmental health impacts - European Environment Agency (EEA)",
-      "description": "Environmental health impacts European Environment Agency (EEA)",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1henIxYmJkYTJFRXQyTmdMS1pwRHl5bGNUSGxhNUlIbmFQbjhOekpINjJwYjhfSTFWR0kwZFZnMFZRUUZVSVpNQ0hqaEREcmQ5THhMNVVvcDYyUkZrel9TNmlLejZVRHFfM0VKdWFZOEVPZVJ0dlBsREdCWE1iZw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1henIxYmJkYTJFRXQyTmdMS1pwRHl5bGNUSGxhNUlIbmFQbjhOekpINjJwYjhfSTFWR0kwZFZnMFZRUUZVSVpNQ0hqaEREcmQ5THhMNVVvcDYyUkZrel9TNmlLejZVRHFfM0VKdWFZOEVPZVJ0dlBsREdCWE1iZw?oc=5",
-      "source": "European Environment Agency (EEA)",
-      "category": "Environment",
-      "publishedAt": "2026-11-12T10:29:48Z"
-    },
-    {
-      "id": "7904662be63524777418",
-      "title": "Energy, PFAS and Knowles-Nelson on the environmental agenda as Democrats take control - Wisconsin Examiner",
-      "description": "Energy, PFAS and Knowles-Nelson on the environmental agenda as Democrats take control Wisconsin Examiner",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYk5lTFRBUUFSUVhNVUozRmhBTXVtUUw4dWRwVHdvU19KbGdCaWdDa0hyMmtxZXI1M01YdFR1T3p2ekh2MXJ6MVZ4Skp6elpHYXlMSGhfT055OXF5cDhaMFRUMktaRmdORVg5aTJTb25vUkxfUjNZT0RaWDYybUNiak5yTGx2MTdSSnFMaXpWRmVOeVhYMklwRldvM1MtbVpNUFVNUGhnOGpvcXY5WGxPR3RjQ2VWRTdCLWQ5S2htSXF0T3lK?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYk5lTFRBUUFSUVhNVUozRmhBTXVtUUw4dWRwVHdvU19KbGdCaWdDa0hyMmtxZXI1M01YdFR1T3p2ekh2MXJ6MVZ4Skp6elpHYXlMSGhfT055OXF5cDhaMFRUMktaRmdORVg5aTJTb25vUkxfUjNZT0RaWDYybUNiak5yTGx2MTdSSnFMaXpWRmVOeVhYMklwRldvM1MtbVpNUFVNUGhnOGpvcXY5WGxPR3RjQ2VWRTdCLWQ5S2htSXF0T3lK?oc=5",
-      "source": "Wisconsin Examiner",
-      "category": "Environment",
-      "publishedAt": "2026-11-12T09:48:15Z"
-    },
-    {
-      "id": "b9a4e0f762bfc4118a29",
-      "title": "Students apply AI in environmental protection initiatives. - Vietnam.vn",
-      "description": "Students apply AI in environmental protection initiatives. Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcWJXOEtWcXNoWTZKUVU1aEFSX1VtZVBXMllvUkttWnh4WE1lV0lYMU5rRVVhdkdLNktLNldrelozdDBWOE5GMUd3S1p2MTFGeHF5MGJrWHhTNzlQcnJkWXJrZnJHY2FTX1d0ZHBWVVFKY0paYWVNMTRhWnBwODZZbnB5aVY2d3kxdWZ5MzhR?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcWJXOEtWcXNoWTZKUVU1aEFSX1VtZVBXMllvUkttWnh4WE1lV0lYMU5rRVVhdkdLNktLNldrelozdDBWOE5GMUd3S1p2MTFGeHF5MGJrWHhTNzlQcnJkWXJrZnJHY2FTX1d0ZHBWVVFKY0paYWVNMTRhWnBwODZZbnB5aVY2d3kxdWZ5MzhR?oc=5",
-      "source": "Vietnam.vn",
-      "category": "Environment",
-      "publishedAt": "2026-11-12T09:43:16Z"
-    },
-    {
-      "id": "5c3b65a6d1b5c1e15351",
-      "title": "UNEP, nations show real progress on reducing methane emissions | UNEP - UN Environment Programme - UNEP - UN Environment Programme",
-      "description": "UNEP, nations show real progress on reducing methane emissions | UNEP - UN Environment Programme UNEP - UN Environment Programme",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcmxtaDBFRlEzUUgzYTBkc29zV1Ywbm8tYmZ5TXc3MGh3R0MyOTR5UHd1bHZ0ak5ZbFRxZEFXeGU2bEFhdm9mcXJEUGFCeWFLeU1sY1hxLWthSERlN2QwZldCVFBubnllX0gwZkR1bFJNNkNhNjl4QUV6cWJlNkctTkxzQjBiTVZXNHJDdEV3eElubmdENWpQXzZhckxHRkdhUDFVT3ljZHZYU2lyNlNiZFNSbw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcmxtaDBFRlEzUUgzYTBkc29zV1Ywbm8tYmZ5TXc3MGh3R0MyOTR5UHd1bHZ0ak5ZbFRxZEFXeGU2bEFhdm9mcXJEUGFCeWFLeU1sY1hxLWthSERlN2QwZldCVFBubnllX0gwZkR1bFJNNkNhNjl4QUV6cWJlNkctTkxzQjBiTVZXNHJDdEV3eElubmdENWpQXzZhckxHRkdhUDFVT3ljZHZYU2lyNlNiZFNSbw?oc=5",
-      "source": "UNEP - UN Environment Programme",
-      "category": "Environment",
-      "publishedAt": "2026-11-12T09:17:59Z"
-    },
-    {
-      "id": "a65ec59d21d8faece8c9",
-      "title": "Enzo Balanger is 2026 International Moth World Champion - Sailweb",
-      "description": "Enzo Balanger is 2026 International Moth World Champion Sailweb",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdS0zVEkyN1BpT0ZPNGh1NEN2OHZsSUhQdE9ORmI4S0dXUkFyakJMeC1tQ1BjOGRTa0djLVdQcWZMSUdQZm1iRXMxMFA4UEJkVEplSC1JMnVraFZpQ3duNk9qOHRzZWNfMlo2b3pBTm1sNzA0bUF3SGs0OFByYW1nTEVFTmtvaXdZNk9mcXhnRTRHSEloUnU0cQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdS0zVEkyN1BpT0ZPNGh1NEN2OHZsSUhQdE9ORmI4S0dXUkFyakJMeC1tQ1BjOGRTa0djLVdQcWZMSUdQZm1iRXMxMFA4UEJkVEplSC1JMnVraFZpQ3duNk9qOHRzZWNfMlo2b3pBTm1sNzA0bUF3SGs0OFByYW1nTEVFTmtvaXdZNk9mcXhnRTRHSEloUnU0cQ?oc=5",
-      "source": "Sailweb",
-      "category": "World",
-      "publishedAt": "2026-11-12T08:19:54Z"
     }
   ],
-  "lastUpdated": "2026-11-18T20:49:04Z",
-  "updatedAt": "2026-11-18T20:49:04Z"
+  "lastUpdated": "2026-11-19T02:23:46Z",
+  "updatedAt": "2026-11-19T02:23:46Z"
 }
