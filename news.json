@@ -240,56 +240,97 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-20T17:43:04Z",
-    "lastSuccessfulRun": "2026-11-20T17:43:04Z",
-    "lastUpdated": "2026-11-20T17:43:04Z",
-    "articlesAdded": 24,
+    "lastRun": "2026-11-20T23:48:27Z",
+    "lastSuccessfulRun": "2026-11-20T23:48:27Z",
+    "lastUpdated": "2026-11-20T23:48:27Z",
+    "articlesAdded": 15,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 34,
+    "duplicatesRemoved": 41,
     "failedSources": [],
     "newArticleIds": [
-      "e3d14d434023e2bd39ce",
-      "5c0fd8bbbbfb18ad0c82",
-      "2885351ab3dce938da3d",
-      "ddade8bf9ca7cf1a09fe",
-      "c83e1797a6b053472c99",
-      "6727ae23184a9d6def50",
-      "1c452877fd60f57fbe62",
-      "7c35ecb02b92be2239f6",
-      "9d2a367fe052c4d2c283",
-      "fcdb8c70d18894790d30",
-      "96ea9966c55899994dac",
-      "93ea83c78448fc41b328",
-      "2768e5b25b4f0efcb2fc",
-      "4044ae2e322df56b47d2",
-      "eca3e1d8a7c7d3c087be",
-      "10ea235dc21a0c89e693",
-      "6569e1f89274ed68404c",
-      "81a70f17b06313230a33",
-      "2970959be8667e4e347d",
-      "8caae1e99426266c880a",
-      "3670a1d6bdb13cbae64d",
-      "a1c342c6047ceb62c573",
-      "5beb022048d3c7f13e8f",
-      "cf23bbe968e5180e9c9d"
+      "9a162a598c686c70e3c2",
+      "1dc94d47ee34946bd2dc",
+      "a5ff50dedd8816f77d31",
+      "de7154e0278bf0956d34",
+      "d00b345b4a8fff9a3b48",
+      "0901fae63b94c0f0edf3",
+      "1085a71375eb7415deb7",
+      "d1cca483a75d3a87a567",
+      "2e32a4adc4a79cb1affc",
+      "15e800987f00f24483ad",
+      "64dfbdac2ef89da68672",
+      "b80795181038ae2c8365",
+      "c878b91e52c0509eac37",
+      "dc160308c3663b38985d",
+      "828f9caf46e75080d112"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 24,
+    "articlesRemoved": 15,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 192,
+      "World": 190,
       "India": 26,
       "Technology": 20,
-      "Environment": 51,
-      "Disaster": 11
+      "Environment": 54,
+      "Disaster": 10
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "9a162a598c686c70e3c2",
+      "title": "A world of welcome: International Education Week at Bates - Bates College",
+      "description": "A world of welcome: International Education Week at Bates Bates College",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOXzQ2YjRXcnRIRW9WUFZ2QTdTVzgxdkZ0V2lqWEtub3BrdFc0UFRXaHVqODRxQlJBMmdxSHdIRGp4RXJUcjVzaDFsVVpSZl9JMlNGV3Vpa3dUalJ1MWIxdXZZR2R3T0owMjZEZGhuWndGcklmUjdrcVk5cHlIZDVwYlo0Q0JnUExjNVNDRnNQMVd2YU41U2ZOVS1Hbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOXzQ2YjRXcnRIRW9WUFZ2QTdTVzgxdkZ0V2lqWEtub3BrdFc0UFRXaHVqODRxQlJBMmdxSHdIRGp4RXJUcjVzaDFsVVpSZl9JMlNGV3Vpa3dUalJ1MWIxdXZZR2R3T0owMjZEZGhuWndGcklmUjdrcVk5cHlIZDVwYlo0Q0JnUExjNVNDRnNQMVd2YU41U2ZOVS1Hbw?oc=5",
+      "source": "Bates College",
+      "category": "World",
+      "publishedAt": "2026-11-20T21:59:38Z"
+    },
+    {
+      "id": "1dc94d47ee34946bd2dc",
+      "title": "Players reject MLB’s international draft proposal - News-Herald",
+      "description": "Players reject MLB’s international draft proposal News-Herald",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMTRTVFkxay1fTUgwNTRTM1NNVGFtcEU5WjQtYVhpekpNU1RwRkIxNV9vUHlqR0ZPajFwWi1HSGZKbTJqLUdzVlF6YzczVXMwVTdSQzVHalVKSndISHpQNUYtMldkdmtLTUREVmhHV1k3bUNwVVFqQjhzenJIdkFxVHNPeFFhZzRmM1l3MFJTU0RMQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMTRTVFkxay1fTUgwNTRTM1NNVGFtcEU5WjQtYVhpekpNU1RwRkIxNV9vUHlqR0ZPajFwWi1HSGZKbTJqLUdzVlF6YzczVXMwVTdSQzVHalVKSndISHpQNUYtMldkdmtLTUREVmhHV1k3bUNwVVFqQjhzenJIdkFxVHNPeFFhZzRmM1l3MFJTU0RMQQ?oc=5",
+      "source": "News-Herald",
+      "category": "World",
+      "publishedAt": "2026-11-20T20:17:41Z"
+    },
+    {
+      "id": "a5ff50dedd8816f77d31",
+      "title": "What in the World? - Foreign Policy",
+      "description": "What in the World? Foreign Policy",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYmdBLTUwbF9lWERyWF95VHV2eW80UC1Fd0hLWVRxVTJPSEE3SEhOVVpFRjZCRlB4V0ExVWlWY01zazM3aVZ3WHRSdWV5UDRzWDhzXzdYUUhZdDBOam1MZllKTllRRnd0Y0I2OGEzWjlBQ0lIazYyQkk2dDF6TllNbzRSV1U2c05jWlJLZDNBUXIxN0lEUTh0MG9lTHZTN2xOOUdJRU5tbDBuOFdfT1Zv?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYmdBLTUwbF9lWERyWF95VHV2eW80UC1Fd0hLWVRxVTJPSEE3SEhOVVpFRjZCRlB4V0ExVWlWY01zazM3aVZ3WHRSdWV5UDRzWDhzXzdYUUhZdDBOam1MZllKTllRRnd0Y0I2OGEzWjlBQ0lIazYyQkk2dDF6TllNbzRSV1U2c05jWlJLZDNBUXIxN0lEUTh0MG9lTHZTN2xOOUdJRU5tbDBuOFdfT1Zv?oc=5",
+      "source": "Foreign Policy",
+      "category": "World",
+      "publishedAt": "2026-11-20T19:12:23Z"
+    },
+    {
+      "id": "de7154e0278bf0956d34",
+      "title": "B.C. ski resorts named among best in the world by international travellers - Daily Hive",
+      "description": "B.C. ski resorts named among best in the world by international travellers Daily Hive",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVhicDlQTkJQLUh4WXBtSzQ3QnB2TUZfTzFPNmRycVA0V2xEYmtHRVBXVGtuWjNyTjg1Q0ktbUdhbnBpd3JRSTVpVDl1a25aUDNwN1ZPTFJ5cU5uNGdpR2R3aF9mX2drc1pOMWV1N0ZsNy1QVVNzWlA1aHcxMFcwZWlrRQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVhicDlQTkJQLUh4WXBtSzQ3QnB2TUZfTzFPNmRycVA0V2xEYmtHRVBXVGtuWjNyTjg1Q0ktbUdhbnBpd3JRSTVpVDl1a25aUDNwN1ZPTFJ5cU5uNGdpR2R3aF9mX2drc1pOMWV1N0ZsNy1QVVNzWlA1aHcxMFcwZWlrRQ?oc=5",
+      "source": "Daily Hive",
+      "category": "World",
+      "publishedAt": "2026-11-20T18:53:00Z"
+    },
+    {
+      "id": "d00b345b4a8fff9a3b48",
+      "title": "Clean energy choices shape environmental impacts beyond greenhouse gas emissions - Phys.org",
+      "description": "Clean energy choices shape environmental impacts beyond greenhouse gas emissions Phys.org",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORTFPcjdya3doTVJHUm9QYjdScTJGUnNLVWRPOU1kR3hSTHJPVWFMRjJVZmxsLWx4OUtSbUE5dUlSYTFUN3hyUjJMQW83MmdaLXlQcW9DV0RpV1pma1p5eWhVcW1hbUVjWWtzRTI2NmxWa3hEc2FfNEhLVmhUbXFSLXlQdEIwalQ0Ync?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORTFPcjdya3doTVJHUm9QYjdScTJGUnNLVWRPOU1kR3hSTHJPVWFMRjJVZmxsLWx4OUtSbUE5dUlSYTFUN3hyUjJMQW83MmdaLXlQcW9DV0RpV1pma1p5eWhVcW1hbUVjWWtzRTI2NmxWa3hEc2FfNEhLVmhUbXFSLXlQdEIwalQ0Ync?oc=5",
+      "source": "Phys.org",
+      "category": "Environment",
+      "publishedAt": "2026-11-20T18:20:03Z"
+    },
     {
       "id": "e3d14d434023e2bd39ce",
       "title": "International Stabilization Force in Gaza: Morocco Sends Additional FAR Personnel - Morocco World News",
@@ -301,6 +342,16 @@
       "publishedAt": "2026-11-20T17:29:36Z"
     },
     {
+      "id": "0901fae63b94c0f0edf3",
+      "title": "Myanmar says international court's genocide ruling unfair - RTE.ie",
+      "description": "Myanmar says international court's genocide ruling unfair RTE.ie",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5tUUNyM1FZU3RXajVnUlFQZlBQYlZoRTNSejduOGF4b1FCTEw0dFVGenNkcWo0ZVVDeE44aWtuZ2pXX01UWm1JeFBSeFdidE1zYnpZODFNQ0g2MFVtel9LUy10M1dQdXNEMFBoOXVWS2N4NWM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5tUUNyM1FZU3RXajVnUlFQZlBQYlZoRTNSejduOGF4b1FCTEw0dFVGenNkcWo0ZVVDeE44aWtuZ2pXX01UWm1JeFBSeFdidE1zYnpZODFNQ0g2MFVtel9LUy10M1dQdXNEMFBoOXVWS2N4NWM?oc=5",
+      "source": "RTE.ie",
+      "category": "World",
+      "publishedAt": "2026-11-20T16:49:29Z"
+    },
+    {
       "id": "5c0fd8bbbbfb18ad0c82",
       "title": "A New Grassland Hub Connecting to the World: Hohhot Shengle International Airport Set to Open - USA Today",
       "description": "A New Grassland Hub Connecting to the World: Hohhot Shengle International Airport Set to Open USA Today",
@@ -309,6 +360,16 @@
       "source": "USA Today",
       "category": "World",
       "publishedAt": "2026-11-20T16:44:14Z"
+    },
+    {
+      "id": "1085a71375eb7415deb7",
+      "title": "‘Say no to war’: Scottish students join international strike in global protests - The National Scot",
+      "description": "‘Say no to war’: Scottish students join international strike in global protests The National Scot",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTDFwV05BVUhPWHZ4Q3BsQmhoRlRwMEJhNXlMbGJyYmdFMk41NUQyX09ISjRuYVRXRTlOSERvNkltTWY5WGNyVDRWM3A0QkMzZ3hCU3FBTEl6QXc0SDFlR3pCZkpxb3Q2bExTZU80MVFXZHAwb0xlLVNyTUIxTEtMd0tEaEdrb2RWc3dRanNmaw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTDFwV05BVUhPWHZ4Q3BsQmhoRlRwMEJhNXlMbGJyYmdFMk41NUQyX09ISjRuYVRXRTlOSERvNkltTWY5WGNyVDRWM3A0QkMzZ3hCU3FBTEl6QXc0SDFlR3pCZkpxb3Q2bExTZU80MVFXZHAwb0xlLVNyTUIxTEtMd0tEaEdrb2RWc3dRanNmaw?oc=5",
+      "source": "The National Scot",
+      "category": "World",
+      "publishedAt": "2026-11-20T16:14:58Z"
     },
     {
       "id": "2885351ab3dce938da3d",
@@ -331,6 +392,16 @@
       "publishedAt": "2026-11-20T16:00:00Z"
     },
     {
+      "id": "d1cca483a75d3a87a567",
+      "title": "The world’s worst climate change gas is hiding in power lines. Nations take aim - Los Angeles Times",
+      "description": "The world’s worst climate change gas is hiding in power lines. Nations take aim Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUzBGV0FVUFg2VTRzTHVsNUtHS3dRMWdRSDgya0YybndydU5TNXU3c0t1dFlKZ285cENRVElhanRjZmtxMHgtMmVGX1owR0JJRDZ6YlRud3A2TXZCblo5aXRGNllpMUVvRFN1ZWRRUm54Tk9kSENUS055emVzVmh3bC1GTXJzM05FaGFXZ1pfVjhBYm9MWmlRTUFSTHFoM1VSSUhwOXBLVE5xM18wWFRqMmFNS2tnbHhURmNN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUzBGV0FVUFg2VTRzTHVsNUtHS3dRMWdRSDgya0YybndydU5TNXU3c0t1dFlKZ285cENRVElhanRjZmtxMHgtMmVGX1owR0JJRDZ6YlRud3A2TXZCblo5aXRGNllpMUVvRFN1ZWRRUm54Tk9kSENUS055emVzVmh3bC1GTXJzM05FaGFXZ1pfVjhBYm9MWmlRTUFSTHFoM1VSSUhwOXBLVE5xM18wWFRqMmFNS2tnbHhURmNN?oc=5",
+      "source": "Los Angeles Times",
+      "category": "Environment",
+      "publishedAt": "2026-11-20T16:00:00Z"
+    },
+    {
       "id": "c83e1797a6b053472c99",
       "title": "What an international court's historic genocide ruling could mean for future cases - CBC",
       "description": "What an international court's historic genocide ruling could mean for future cases CBC",
@@ -339,6 +410,16 @@
       "source": "CBC",
       "category": "World",
       "publishedAt": "2026-11-20T15:30:44Z"
+    },
+    {
+      "id": "2e32a4adc4a79cb1affc",
+      "title": "A New Grassland Hub Connecting to the World: Hohhot Shengle International Airport Set to Open - Sin Chew Daily",
+      "description": "A New Grassland Hub Connecting to the World: Hohhot Shengle International Airport Set to Open Sin Chew Daily",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PS0NQeUlWRzlpQkRCeFJjczdfd3F5VWF4aW1hYTVjQVN3S2RxSnhmblZsUVFjRUlFUVA2VWFFcHdxamdPZDZTblR2N1Byc0lpRHNVQ2h0bEpDR2UyNTI5Xy1sVXNrYVhsVmc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PS0NQeUlWRzlpQkRCeFJjczdfd3F5VWF4aW1hYTVjQVN3S2RxSnhmblZsUVFjRUlFUVA2VWFFcHdxamdPZDZTblR2N1Byc0lpRHNVQ2h0bEpDR2UyNTI5Xy1sVXNrYVhsVmc?oc=5",
+      "source": "Sin Chew Daily",
+      "category": "World",
+      "publishedAt": "2026-11-20T15:25:00Z"
     },
     {
       "id": "6727ae23184a9d6def50",
@@ -449,6 +530,16 @@
       "source": "safety4sea",
       "category": "Environment",
       "publishedAt": "2026-11-20T10:11:56Z"
+    },
+    {
+      "id": "15e800987f00f24483ad",
+      "title": "Climate change: Is the fight against global warming and its alarming impact on the planet already lost? - DW.com",
+      "description": "Climate change: Is the fight against global warming and its alarming impact on the planet already lost? DW.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXdiQnRwZmtaeTV1Q1JaZlpHTlo1eHAwUVd5VHNDeGFzSUZDcXVqaldkcTI3RDNtb2hTZHYxLUpVbnRibm5iVUdOOTVJWGVQdUF3U1p4QnZ2ajk4ZDhTNTFOak5wNVVtUlNKRU10bkg2MGJTRVhFX1RxVEhpeFA5dUFwUFU4UFlS0gGIAUFVX3lxTE50UGJwRVotdmpPa0s3TzJJNUNtMk9tU1VRaVk4aThYQ0VtUnByUkh0dkthTksybnZzZ1JsckVhTVh0QmNqTWhrRWdwbGlQSWQxVzVvc2s3VzBrVTNpZ0tWalhpM2VYYkt4amdwM1E2WTV1bjJObWx4UUp1a0FnY0loNzVuaE1QdWw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXdiQnRwZmtaeTV1Q1JaZlpHTlo1eHAwUVd5VHNDeGFzSUZDcXVqaldkcTI3RDNtb2hTZHYxLUpVbnRibm5iVUdOOTVJWGVQdUF3U1p4QnZ2ajk4ZDhTNTFOak5wNVVtUlNKRU10bkg2MGJTRVhFX1RxVEhpeFA5dUFwUFU4UFlS0gGIAUFVX3lxTE50UGJwRVotdmpPa0s3TzJJNUNtMk9tU1VRaVk4aThYQ0VtUnByUkh0dkthTksybnZzZ1JsckVhTVh0QmNqTWhrRWdwbGlQSWQxVzVvc2s3VzBrVTNpZ0tWalhpM2VYYkt4amdwM1E2WTV1bjJObWx4UUp1a0FnY0loNzVuaE1QdWw?oc=5",
+      "source": "DW.com",
+      "category": "Environment",
+      "publishedAt": "2026-11-20T09:58:24Z"
     },
     {
       "id": "10ea235dc21a0c89e693",
@@ -731,6 +822,16 @@
       "publishedAt": "2026-11-19T18:12:44Z"
     },
     {
+      "id": "64dfbdac2ef89da68672",
+      "title": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds - The New York Times",
+      "description": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQmhFRFFBc3duc2NLLWctWmR1RUExSDFJV1lxRVY1UXhlaW0xS0xILUJNRGJmMjFacnhDeHdBVXFkVHdQdTRqWEJoVk5weFNBRnEyV0RENEJTWTFKQWxnU3hxYjlCVVFLcTdQbGVWTElDdkdGVE9ENjcyMFNBVXQ2Z01aaERfQzJQVDMw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQmhFRFFBc3duc2NLLWctWmR1RUExSDFJV1lxRVY1UXhlaW0xS0xILUJNRGJmMjFacnhDeHdBVXFkVHdQdTRqWEJoVk5weFNBRnEyV0RENEJTWTFKQWxnU3hxYjlCVVFLcTdQbGVWTElDdkdGVE9ENjcyMFNBVXQ2Z01aaERfQzJQVDMw?oc=5",
+      "source": "The New York Times",
+      "category": "World",
+      "publishedAt": "2026-11-19T17:55:23Z"
+    },
+    {
       "id": "4cdf68053135105bc610",
       "title": "The Permitting Bill Is Splitting the Environmental Movement - The New York Times",
       "description": "The Permitting Bill Is Splitting the Environmental Movement The New York Times",
@@ -781,6 +882,16 @@
       "publishedAt": "2026-11-19T16:47:59Z"
     },
     {
+      "id": "b80795181038ae2c8365",
+      "title": "Two-time World Champ Vialle confirmed for Hawkstone International - the Auto-Cycle Union",
+      "description": "Two-time World Champ Vialle confirmed for Hawkstone International the Auto-Cycle Union",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1FzNHhhbng5RHRsZEE2dGlDN2ZSTXJwUEJJX05VUWZZTGtlTjUwS0tVWlJSWU4xWDIwbmZmbS1wOUVTeEQyYlFCM2VGNHZjT0lQYldmdklwMVVvbjRybzhTRHhQYmZwZjdPbnZXV2lCcXlKSlRiRmttal96SG90ZHd3UndLT1pXSDJiZEQyM284Z2hwWjJweTE3dUw3cXRKMG1uTw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1FzNHhhbng5RHRsZEE2dGlDN2ZSTXJwUEJJX05VUWZZTGtlTjUwS0tVWlJSWU4xWDIwbmZmbS1wOUVTeEQyYlFCM2VGNHZjT0lQYldmdklwMVVvbjRybzhTRHhQYmZwZjdPbnZXV2lCcXlKSlRiRmttal96SG90ZHd3UndLT1pXSDJiZEQyM284Z2hwWjJweTE3dUw3cXRKMG1uTw?oc=5",
+      "source": "the Auto-Cycle Union",
+      "category": "World",
+      "publishedAt": "2026-11-19T16:43:00Z"
+    },
+    {
       "id": "1817b46d5924f3e4e14b",
       "title": "Myanmar: International Court of Justice recognizes \"genocide\" of the Rohingya - Vatican News",
       "description": "Myanmar: International Court of Justice recognizes \"genocide\" of the Rohingya Vatican News",
@@ -809,6 +920,16 @@
       "source": "Republic World",
       "category": "World",
       "publishedAt": "2026-11-19T16:26:31Z"
+    },
+    {
+      "id": "c878b91e52c0509eac37",
+      "title": "‘On Display Global 2026’: Presentation honors International Day of Persons with Disabilities, Dec. 3 - Marquette Today",
+      "description": "‘On Display Global 2026’: Presentation honors International Day of Persons with Disabilities, Dec. 3 Marquette Today",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkhqV0NqLWlMenFYcTl1TG8tY0FScGtlbUtZWjBUVGVuRXlUaXBNbXIzSFZmTURKU3h6dWlBOHBxei13T2RUajdTZm5EQTBRbXRnMDJaYTVndXVORzBMYmVzVUlZRFRPZmFlZF9XN3BZNnlkWTZEV2k0OXVmS0FCWWNxQU5OMkczYS1kWGRWN2NUdDlaV3FlU1VBWXdrMGZDM3IwOTBHX09oNHpuRE5EeW53T1FnNkdaMlhrRVJ1dDVqS0xrYjJiRFN1R20?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkhqV0NqLWlMenFYcTl1TG8tY0FScGtlbUtZWjBUVGVuRXlUaXBNbXIzSFZmTURKU3h6dWlBOHBxei13T2RUajdTZm5EQTBRbXRnMDJaYTVndXVORzBMYmVzVUlZRFRPZmFlZF9XN3BZNnlkWTZEV2k0OXVmS0FCWWNxQU5OMkczYS1kWGRWN2NUdDlaV3FlU1VBWXdrMGZDM3IwOTBHX09oNHpuRE5EeW53T1FnNkdaMlhrRVJ1dDVqS0xrYjJiRFN1R20?oc=5",
+      "source": "Marquette Today",
+      "category": "World",
+      "publishedAt": "2026-11-19T16:11:46Z"
     },
     {
       "id": "d4e955e69bab812e1774",
@@ -899,6 +1020,16 @@
       "source": "Euro Weekly News",
       "category": "World",
       "publishedAt": "2026-11-19T14:03:46Z"
+    },
+    {
+      "id": "dc160308c3663b38985d",
+      "title": "Study reveals data centers’ long-distance damage to air quality - MIT News",
+      "description": "Study reveals data centers’ long-distance damage to air quality MIT News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQejgxSnFTTTMxUmVKLU9zOTJhWjFJUUJGOXE3bUt1SHpxVEpPZGxwUzExenV2bU9EOTlHbG1FS01GYlU4eFhRa3VJeVg3OGxYZnNCQmx6d2YxcTVoY2lFS09seUt6UkYxcm53Rll4RUpEdDkzVm9XOTZjaWRXbjhBWjBkU0ZRWERFVjhKWXc4NlpXOFlQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQejgxSnFTTTMxUmVKLU9zOTJhWjFJUUJGOXE3bUt1SHpxVEpPZGxwUzExenV2bU9EOTlHbG1FS01GYlU4eFhRa3VJeVg3OGxYZnNCQmx6d2YxcTVoY2lFS09seUt6UkYxcm53Rll4RUpEdDkzVm9XOTZjaWRXbjhBWjBkU0ZRWERFVjhKWXc4NlpXOFlQ?oc=5",
+      "source": "MIT News",
+      "category": "Environment",
+      "publishedAt": "2026-11-19T14:00:00Z"
     },
     {
       "id": "9c43e4c06e35e69e3905",
@@ -1439,6 +1570,16 @@
       "source": "The Economic Times",
       "category": "World",
       "publishedAt": "2026-11-18T13:39:09Z"
+    },
+    {
+      "id": "828f9caf46e75080d112",
+      "title": "Kathure, a beneficiary of Green Earth’s energy-saving jiko programme, highlights how the improved cooking stove will help reduce firewood consumption, minimise indoor air pollution and lower household cooking costs while contributing to the conservation o - Facebook",
+      "description": "Kathure, a beneficiary of Green Earth’s energy-saving jiko programme, highlights how the improved cooking stove will help reduce firewood consumption, minimise indoor air pollution and lower household cooking costs while contributing to the conservation o Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeFZPYnlqZjVqdWZrd19xLVR4ZlVndFRUaWtXMXNLeENCZTYxSU5IOU52QWttSE9XRm1GMGpCTm5UcklCanlVZW1Ram9jbjYyN0h1b0hmdk45OUNxTUhwOGV3bUROc2FTWVBKQlFQY1B1QS15YXdpNUh2M280WWtmWnJaM1FsNmpXQ1J5Z3poVGpDcEZDNkxwX29wYXFVN0N1amlxSjBXeXhydXhaczJaX1U2SjFvbmFDcC1GQ2N5V0dySzNpbG16bXhzc2Z1TkJXZ2h0TlQ2a2dsSHItYXpz?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeFZPYnlqZjVqdWZrd19xLVR4ZlVndFRUaWtXMXNLeENCZTYxSU5IOU52QWttSE9XRm1GMGpCTm5UcklCanlVZW1Ram9jbjYyN0h1b0hmdk45OUNxTUhwOGV3bUROc2FTWVBKQlFQY1B1QS15YXdpNUh2M280WWtmWnJaM1FsNmpXQ1J5Z3poVGpDcEZDNkxwX29wYXFVN0N1amlxSjBXeXhydXhaczJaX1U2SjFvbmFDcC1GQ2N5V0dySzNpbG16bXhzc2Z1TkJXZ2h0TlQ2a2dsSHItYXpz?oc=5",
+      "source": "Facebook",
+      "category": "Environment",
+      "publishedAt": "2026-11-18T12:39:03Z"
     },
     {
       "id": "03d65007ecbd0f3d66bd",
@@ -3139,158 +3280,8 @@
       "source": "eNCA",
       "category": "Disaster",
       "publishedAt": "2026-11-14T13:17:42Z"
-    },
-    {
-      "id": "4cc34f253ef861a3833a",
-      "title": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather - The Guardian",
-      "description": "Choking fires, deadly heat and devastating floods: 2026 in extreme weather The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd2Z4dnV2cGtEVVBGU25RVTk4VXVVdFpMbGtCNWtaZFU0WE1RRjVQSWtQR05KMjRxX2Y3cnN2ZWFNWHplRUdJYWNKTGpRYXJKazdjTjMtSk1ENFJlaXlCUVpPLVFNNHZvV0FsRFdpVU5tVUFNakExRTNCZV82aEM2Y1ZnVjdndUUtUzFNSA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd2Z4dnV2cGtEVVBGU25RVTk4VXVVdFpMbGtCNWtaZFU0WE1RRjVQSWtQR05KMjRxX2Y3cnN2ZWFNWHplRUdJYWNKTGpRYXJKazdjTjMtSk1ENFJlaXlCUVpPLVFNNHZvV0FsRFdpVU5tVUFNakExRTNCZV82aEM2Y1ZnVjdndUUtUzFNSA?oc=5",
-      "source": "The Guardian",
-      "category": "Disaster",
-      "publishedAt": "2026-11-14T13:02:00Z"
-    },
-    {
-      "id": "31897d53c758d76e0601",
-      "title": "International nonprofit One World One Family Mission establishes U.S. headquarters in Stafford - The Business Journals",
-      "description": "International nonprofit One World One Family Mission establishes U.S. headquarters in Stafford The Business Journals",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQlVDdXNDNDVDTWsyMEhKdHg1ZmFVM05fZWh2SFdhb3RidVlTZDJ4dVltUVpzUlZEZHNlNFhoNV9Ya1JPSkc2amhiNWw3aEV4UUt6WDZ4dmJaN2c5MzFoazJ2QWFQMXBnbWR0cFBWalh4MXRyOGk4YlpVbVNTc3I1YXdwQVVEM3NRaXlDOXEwTEZ6TnE0OHBxU0Nlck85Q2wyZklMYjJMZThfSDA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQlVDdXNDNDVDTWsyMEhKdHg1ZmFVM05fZWh2SFdhb3RidVlTZDJ4dVltUVpzUlZEZHNlNFhoNV9Ya1JPSkc2amhiNWw3aEV4UUt6WDZ4dmJaN2c5MzFoazJ2QWFQMXBnbWR0cFBWalh4MXRyOGk4YlpVbVNTc3I1YXdwQVVEM3NRaXlDOXEwTEZ6TnE0OHBxU0Nlck85Q2wyZklMYjJMZThfSDA?oc=5",
-      "source": "The Business Journals",
-      "category": "World",
-      "publishedAt": "2026-11-14T12:00:00Z"
-    },
-    {
-      "id": "61e7baa8078f4e294f79",
-      "title": "Morocco Contributes to Arrest of International Drug Trafficking Fugitive - Morocco World News",
-      "description": "Morocco Contributes to Arrest of International Drug Trafficking Fugitive Morocco World News",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPXzlUZEtCLWVTT0NiT3l4QUZ6cTlWNDZyalI5Q1d0SlVjTGNON0dhbXQtcUc3aDRKSFBtSVhrREZFSExPOEd4b29mUFY0RUFHcmlxWW5FeWt3REEwUEJJd1VqTUdFdHpKUlVCd3FQWDJNZEd0YXF0cjFiVnFocEgxYzQ0NVFFODQwWlJsNG44OUdmeXVPdkpYak8wTDNUczBtcHlWQ2hqRDAxX095Q0M2NGlrRlRSc1JadGpGMlB3?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPXzlUZEtCLWVTT0NiT3l4QUZ6cTlWNDZyalI5Q1d0SlVjTGNON0dhbXQtcUc3aDRKSFBtSVhrREZFSExPOEd4b29mUFY0RUFHcmlxWW5FeWt3REEwUEJJd1VqTUdFdHpKUlVCd3FQWDJNZEd0YXF0cjFiVnFocEgxYzQ0NVFFODQwWlJsNG44OUdmeXVPdkpYak8wTDNUczBtcHlWQ2hqRDAxX095Q0M2NGlrRlRSc1JadGpGMlB3?oc=5",
-      "source": "Morocco World News",
-      "category": "World",
-      "publishedAt": "2026-11-14T11:35:54Z"
-    },
-    {
-      "id": "4ecb5016bbf30879a4ec",
-      "title": "Brazil and Philippines unite in defence of international law amid “a polarised world” – Global South Institute - Brasil 247",
-      "description": "Brazil and Philippines unite in defence of international law amid “a polarised world” – Global South Institute Brasil 247",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQzVQdDBrTjlSQjRfM25GRHZYNE9US2V5UzBDZEw5ZUhxdC1WWkdjRnpicEZUWi1MWUh1UVBZMW50dDRnV2pfdHEyQU9JTkRjZTRoLWExcGJvVWlyUWxlODRtMWpIMW55aEI2Vm1yZ0QwdnVvSnhGeU00VThKWWE5cXdmdXY5ZlpHcXdtaUh6ZXE5V01BeGd1MkRYWmFDMDZ5ZEZ0VGYwd1ZKeS1wdTNUQ1JEazVfWnJCYjI1eTBQeS1HZGZFaGJsVjdiX042dThzS0p4aHFzeXFkTUNFN3Y2RUU2UVZLMkJhT0RiM2JuTnFLOVU?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQzVQdDBrTjlSQjRfM25GRHZYNE9US2V5UzBDZEw5ZUhxdC1WWkdjRnpicEZUWi1MWUh1UVBZMW50dDRnV2pfdHEyQU9JTkRjZTRoLWExcGJvVWlyUWxlODRtMWpIMW55aEI2Vm1yZ0QwdnVvSnhGeU00VThKWWE5cXdmdXY5ZlpHcXdtaUh6ZXE5V01BeGd1MkRYWmFDMDZ5ZEZ0VGYwd1ZKeS1wdTNUQ1JEazVfWnJCYjI1eTBQeS1HZGZFaGJsVjdiX042dThzS0p4aHFzeXFkTUNFN3Y2RUU2UVZLMkJhT0RiM2JuTnFLOVU?oc=5",
-      "source": "Brasil 247",
-      "category": "World",
-      "publishedAt": "2026-11-14T11:34:02Z"
-    },
-    {
-      "id": "a326de96b55445931027",
-      "title": "Environmental action no longer optional in addressing AMR - Modern Ghana",
-      "description": "Environmental action no longer optional in addressing AMR Modern Ghana",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ0VLTnBZMFJCeUlMOFc0MEVOUFBWdDV1dzhWVHJFYVpYUXVGMUFlT3hwblZLWTE0a051NjN6dElQRUtqNnZRdjl1ekhwSnlZUHdkd3lYS21zOFJCaF8zcGZDRFUydlphZ1VXb1JKZUNWSzFURThwdlJwSm90eGdFaGVpdUVhdS1lYjV6MGJYTEtINTUxMVZFc2JSQVbSAZsBQVVfeXFMTzhmR25DQVQzUkxOeV9EMlRnYW9acFlZd1FQOWtSYjhuc1VURjd0a09lWi1ZVUh3LTBTOUJISWVfZy1pbzNiTDNpMXFSQnhjekNyRVFtWXNTR0ZqOFVBRWdKdTAxZG5zQWlQN1Y0cGFBNmlnS1d4dWdYYzVxZVZocFFDaEc4NW0xdjhwbTdkT2dlYURZZDhWeEJONUE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ0VLTnBZMFJCeUlMOFc0MEVOUFBWdDV1dzhWVHJFYVpYUXVGMUFlT3hwblZLWTE0a051NjN6dElQRUtqNnZRdjl1ekhwSnlZUHdkd3lYS21zOFJCaF8zcGZDRFUydlphZ1VXb1JKZUNWSzFURThwdlJwSm90eGdFaGVpdUVhdS1lYjV6MGJYTEtINTUxMVZFc2JSQVbSAZsBQVVfeXFMTzhmR25DQVQzUkxOeV9EMlRnYW9acFlZd1FQOWtSYjhuc1VURjd0a09lWi1ZVUh3LTBTOUJISWVfZy1pbzNiTDNpMXFSQnhjekNyRVFtWXNTR0ZqOFVBRWdKdTAxZG5zQWlQN1Y0cGFBNmlnS1d4dWdYYzVxZVZocFFDaEc4NW0xdjhwbTdkT2dlYURZZDhWeEJONUE?oc=5",
-      "source": "Modern Ghana",
-      "category": "Environment",
-      "publishedAt": "2026-11-14T10:39:00Z"
-    },
-    {
-      "id": "8cf38606d8ac26c536d5",
-      "title": "Chinas intensified pressure on Tibet draws global attention at international advocacy meet - The Tribune",
-      "description": "Chinas intensified pressure on Tibet draws global attention at international advocacy meet The Tribune",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeTNDZ3JrTHVoQ2RieWV4ZHp0WDRhekpFLVhNcUF4SGJzZE1Hd0k4anotMVd5ZEw4eTdnTFJ4cnNQTUFVMWhmTE9iV1ZWUzVwVjNWcHJfeTNzc2M1WGFVS3BQdDEwdlRvZHRuTUdwX3ZfUTdncjF0S1d3V0lFbE1JZVYzcFc3R0pYN0ZyWTZJTVVjcFdDOXFteGdROWZIeFJmVk5RWXI0T0VyYW9zZUluRnEzMTBGNENvVEZYWnpCVnpJc2ZvVUtSTTdIc9IBzwFBVV95cUxNRHo2SU5aODRKMVNVWHY0N1cwajJwd0lmYVJoMUdBUERLeVg4WkxITUhvcWdUX054TWs4aFVyb0FyZ2tMNEJwLXdBc0pXZXNUd0M4b1hMdXE0a1JBWWlOYmxCQmVtZTFCTmExc05OSXoxNzFndy1qV1BEd2VTSjctZ1YwSkxOVFNLZVY4SXk3ekF5V0d5OGdSM2hMV09URDhsTFE5d0pycHZqN094SC1WOTBGZVh0RHpHWWxTd05KSm5SOWNQTUZ4Y1BEd3J1aGM?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeTNDZ3JrTHVoQ2RieWV4ZHp0WDRhekpFLVhNcUF4SGJzZE1Hd0k4anotMVd5ZEw4eTdnTFJ4cnNQTUFVMWhmTE9iV1ZWUzVwVjNWcHJfeTNzc2M1WGFVS3BQdDEwdlRvZHRuTUdwX3ZfUTdncjF0S1d3V0lFbE1JZVYzcFc3R0pYN0ZyWTZJTVVjcFdDOXFteGdROWZIeFJmVk5RWXI0T0VyYW9zZUluRnEzMTBGNENvVEZYWnpCVnpJc2ZvVUtSTTdIc9IBzwFBVV95cUxNRHo2SU5aODRKMVNVWHY0N1cwajJwd0lmYVJoMUdBUERLeVg4WkxITUhvcWdUX054TWs4aFVyb0FyZ2tMNEJwLXdBc0pXZXNUd0M4b1hMdXE0a1JBWWlOYmxCQmVtZTFCTmExc05OSXoxNzFndy1qV1BEd2VTSjctZ1YwSkxOVFNLZVY4SXk3ekF5V0d5OGdSM2hMV09URDhsTFE5d0pycHZqN094SC1WOTBGZVh0RHpHWWxTd05KSm5SOWNQTUZ4Y1BEd3J1aGM?oc=5",
-      "source": "The Tribune",
-      "category": "World",
-      "publishedAt": "2026-11-14T10:27:14Z"
-    },
-    {
-      "id": "fa3fa888eaed5a8e71e7",
-      "title": "China's intensified pressure on Tibet draws global attention at international advocacy meet - ANI News",
-      "description": "China's intensified pressure on Tibet draws global attention at international advocacy meet ANI News",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUHdhUjF4dmt6WmJsQ0lIc0xOODV0NUxqYXhBSG9VWWl6a1lWREZCNnl0bXVPOVlfelJSRUJlNUs0cmFYTk0wSUFXODN5eE1kbE90c3Vob1RtYzJ5SE5pV0NfdnlvYjhELTRPQkpOd0c3UWg4ZHppd19udGFCa0lxMHdxVlRHUFhPS1RBSGQ1UFdRNTl1Q3U3VTN3Skl6UDJZejBid1pBT1Fyd19Ycm5xREpRdGdvandxUjNfTVB2bU1hbF9QdWNrYllMNmZBeVR4U0ttMVhsdHpScmFIZEE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUHdhUjF4dmt6WmJsQ0lIc0xOODV0NUxqYXhBSG9VWWl6a1lWREZCNnl0bXVPOVlfelJSRUJlNUs0cmFYTk0wSUFXODN5eE1kbE90c3Vob1RtYzJ5SE5pV0NfdnlvYjhELTRPQkpOd0c3UWg4ZHppd19udGFCa0lxMHdxVlRHUFhPS1RBSGQ1UFdRNTl1Q3U3VTN3Skl6UDJZejBid1pBT1Fyd19Ycm5xREpRdGdvandxUjNfTVB2bU1hbF9QdWNrYllMNmZBeVR4U0ttMVhsdHpScmFIZEE?oc=5",
-      "source": "ANI News",
-      "category": "World",
-      "publishedAt": "2026-11-14T10:23:00Z"
-    },
-    {
-      "id": "576e2e3d1a0abcbc184d",
-      "title": "Rubio labels international law a tool of elites and attacks ICC - The Japan Times",
-      "description": "Rubio labels international law a tool of elites and attacks ICC The Japan Times",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNM2FMWkM5Ri15cnBRV3czOVc0RVFaY2lyZ1h1UW0ycTBKZG1Ub2tSN0p1NmpGcUx0M1locFVCRWIyZGNPZkw4NHVXeWV4dFhnSWc0ak1ZemxFa0IxTHNvU1R4bjUxbEpUWEo2Rm9jajJwU0t1MEgybEVPNkZzVEVnVU1UZEItVGdGUVpHM011eDhhZw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNM2FMWkM5Ri15cnBRV3czOVc0RVFaY2lyZ1h1UW0ycTBKZG1Ub2tSN0p1NmpGcUx0M1locFVCRWIyZGNPZkw4NHVXeWV4dFhnSWc0ak1ZemxFa0IxTHNvU1R4bjUxbEpUWEo2Rm9jajJwU0t1MEgybEVPNkZzVEVnVU1UZEItVGdGUVpHM011eDhhZw?oc=5",
-      "source": "The Japan Times",
-      "category": "World",
-      "publishedAt": "2026-11-14T09:32:50Z"
-    },
-    {
-      "id": "aeed8098d444ee941363",
-      "title": "Canadian judge decries U.S. sanctions of International Criminal Court as 'attack in favour of impunity' - CBC",
-      "description": "Canadian judge decries U.S. sanctions of International Criminal Court as 'attack in favour of impunity' CBC",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ1k5bk1pbjl4TVJHNjV0akVDcG43aXdURWVlS1NWUzlvZ2tfQkFuVC1ma0s5djNGSFpQNWV2WF9hMV8yb2lZbGpPMmxiS0ZvN2llTFEyaDU2dURwSFF3RFlFQ3RyMUtYLVU2REdfQWFINUU3SGIxSzYwU3VYMlFXSDQyRjNXbExRREdTaW05Zw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ1k5bk1pbjl4TVJHNjV0akVDcG43aXdURWVlS1NWUzlvZ2tfQkFuVC1ma0s5djNGSFpQNWV2WF9hMV8yb2lZbGpPMmxiS0ZvN2llTFEyaDU2dURwSFF3RFlFQ3RyMUtYLVU2REdfQWFINUU3SGIxSzYwU3VYMlFXSDQyRjNXbExRREdTaW05Zw?oc=5",
-      "source": "CBC",
-      "category": "World",
-      "publishedAt": "2026-11-14T09:00:00Z"
-    },
-    {
-      "id": "958b9d49425ea8ec1a18",
-      "title": "Canada sets annual target of 150,000 new international students through 2029 | Hindustan Times - Hindustan Times",
-      "description": "Canada sets annual target of 150,000 new international students through 2029 | Hindustan Times Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVHZzN3E5eWlRaVF2ZUc1MWR5YzJWdmZzbzZ4REV5UldRdS0tNmthS2VZam1UN2ZnVGxKY1JNWGhNNm5HemZ5d3lBM1V4NlZqV1hQanBNZFZZVkU1QkktcUxGMTJJMWk5OEFFU3NtOHFvdDhhemVYeWRoOThjZUpDcENtV2tkY0o2dGhMV2FzTlE5RU95WngyQUZuM0RlSHpQTkRkWXhDck54UEhXTHdTVHRIYzRnam5Pc282VUhHYVcwcTljY0c1dEQ5bnJTanRUSl9oWXI5OWJvVHV1eXpGS9IB5gFBVV95cUxQNG4weXJQeVdsVTQtR3hEYjlBenpDUmhfb2VlSVdPSjVfWVUtNEs3SWVEZ1lxcTEzSGM3dVQ1RG1xaVpUTDJBUDFZUFJYOXAwaGNNRUdnQUNuaFVpT2ZCWFpGZ2pGQ3A3ZGFTXzEtMlBqRHVhUURVVjBDS3dFZmhwdXJubEVrcTFIVWd2RDB3VWd2RUE0eXFOUnNTZGxsUGEteVExelN2Z1RYMk9pbDE1UXlFZ2JRZ2tlMklIRW9hR0F6Z0RmckREYnI4eWN5akpySjE0YlpUbWk0R09WOG9KUktxVDdWQQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVHZzN3E5eWlRaVF2ZUc1MWR5YzJWdmZzbzZ4REV5UldRdS0tNmthS2VZam1UN2ZnVGxKY1JNWGhNNm5HemZ5d3lBM1V4NlZqV1hQanBNZFZZVkU1QkktcUxGMTJJMWk5OEFFU3NtOHFvdDhhemVYeWRoOThjZUpDcENtV2tkY0o2dGhMV2FzTlE5RU95WngyQUZuM0RlSHpQTkRkWXhDck54UEhXTHdTVHRIYzRnam5Pc282VUhHYVcwcTljY0c1dEQ5bnJTanRUSl9oWXI5OWJvVHV1eXpGS9IB5gFBVV95cUxQNG4weXJQeVdsVTQtR3hEYjlBenpDUmhfb2VlSVdPSjVfWVUtNEs3SWVEZ1lxcTEzSGM3dVQ1RG1xaVpUTDJBUDFZUFJYOXAwaGNNRUdnQUNuaFVpT2ZCWFpGZ2pGQ3A3ZGFTXzEtMlBqRHVhUURVVjBDS3dFZmhwdXJubEVrcTFIVWd2RDB3VWd2RUE0eXFOUnNTZGxsUGEteVExelN2Z1RYMk9pbDE1UXlFZ2JRZ2tlMklIRW9hR0F6Z0RmckREYnI4eWN5akpySjE0YlpUbWk0R09WOG9KUktxVDdWQQ?oc=5",
-      "source": "Hindustan Times",
-      "category": "World",
-      "publishedAt": "2026-11-14T08:49:12Z"
-    },
-    {
-      "id": "89b673c3032eee32a80f",
-      "title": "The World’s Best Japanese Whisky—According To The 2026 International Spirits Challenge - Forbes",
-      "description": "The World’s Best Japanese Whisky—According To The 2026 International Spirits Challenge Forbes",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc1hJVnc1d29hcXFTaEdsRThNLWFyY2hZVFRfZXR4Z1ljczJ3blp4ZmItMmZ2MGJ2YXRFd2xBQkRib05FTnM5bWJ2blFoZ2JxT0NTengtZGt3N3drR3FBcDJ1YVdFb2xKVUp3ejBIWjJnM0dsc1h4OU0ybUdTRWhMQmxUcHV1NkxOdkU4bXlTa1Jvc0oxYWZQdVZUbzdFMFlHMEl4UkxKVEhyQkIzNUN1Tktrb0k4STk5ejFFcnYybEg5QWFHSmFnZzZYa3VCNHNRWlE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc1hJVnc1d29hcXFTaEdsRThNLWFyY2hZVFRfZXR4Z1ljczJ3blp4ZmItMmZ2MGJ2YXRFd2xBQkRib05FTnM5bWJ2blFoZ2JxT0NTengtZGt3N3drR3FBcDJ1YVdFb2xKVUp3ejBIWjJnM0dsc1h4OU0ybUdTRWhMQmxUcHV1NkxOdkU4bXlTa1Jvc0oxYWZQdVZUbzdFMFlHMEl4UkxKVEhyQkIzNUN1Tktrb0k4STk5ejFFcnYybEg5QWFHSmFnZzZYa3VCNHNRWlE?oc=5",
-      "source": "Forbes",
-      "category": "World",
-      "publishedAt": "2026-11-14T08:30:00Z"
-    },
-    {
-      "id": "cd81a509323b8d8523fa",
-      "title": "Environment and sustainable development in India - Britannica",
-      "description": "Environment and sustainable development in India Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUWlpMUs0cXVQLXd3MjBvQVlwTFVyX3hSaFFKM05Qd2dwVXJXWGtuLVE3X29Yb2dod3M4U25WYjFDQVdhVHRLRHVhM01BY2V0bE1aajRSSjd0RXE2ZV8wdGJldC1MR3JDUzgzU0FiRmxFNE1DMlM1aWVpWmEtQVZtQ3U5cm5MazBp?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUWlpMUs0cXVQLXd3MjBvQVlwTFVyX3hSaFFKM05Qd2dwVXJXWGtuLVE3X29Yb2dod3M4U25WYjFDQVdhVHRLRHVhM01BY2V0bE1aajRSSjd0RXE2ZV8wdGJldC1MR3JDUzgzU0FiRmxFNE1DMlM1aWVpWmEtQVZtQ3U5cm5MazBp?oc=5",
-      "source": "Britannica",
-      "category": "Environment",
-      "publishedAt": "2026-11-14T08:00:00Z"
-    },
-    {
-      "id": "a98116aef16e62fb0e4c",
-      "title": "COP31: Türkiye, World Bank launch urban resilience platform - Myanmar International TV",
-      "description": "COP31: Türkiye, World Bank launch urban resilience platform Myanmar International TV",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRUVScTlYYWw3Y2hVeFdfVDFPZFNUOWszU21BVjBxLUVlajFDVVdjR3lIVEtZRjMxVk5FaEdmMGk0LXFfU2NDdE9rTUlVVnp4emV6c3p4ZU04YW1Xc0MzYTJSdVFlZWhLenIwcUJ2TlJudjN3QmxKQW5XdGM5UEkxVExhMWcxa1lDVG5qeDdrTk1JeUF4dWxOSHZR?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRUVScTlYYWw3Y2hVeFdfVDFPZFNUOWszU21BVjBxLUVlajFDVVdjR3lIVEtZRjMxVk5FaEdmMGk0LXFfU2NDdE9rTUlVVnp4emV6c3p4ZU04YW1Xc0MzYTJSdVFlZWhLenIwcUJ2TlJudjN3QmxKQW5XdGM5UEkxVExhMWcxa1lDVG5qeDdrTk1JeUF4dWxOSHZR?oc=5",
-      "source": "Myanmar International TV",
-      "category": "World",
-      "publishedAt": "2026-11-14T07:32:09Z"
-    },
-    {
-      "id": "3681c6c6d49c0bed28e2",
-      "title": "Microsoft restores service to Outlook and Teams after global outage - Reuters",
-      "description": "Microsoft restores service to Outlook and Teams after global outage Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWpWeUZnbllhcFk4WktZS0s3T1N6T3k3Vnhhd3pfSE9SWF9iRmRIQUljdHZXN0UtWS1uZS1rbUNZSlVPd1NXLXRtVUVtc3NQNTgxMVFMWjVnT3pPb09EX1g1YUx3WkF2VHk0bUMwWlhkRHdpT0JFRE5SQ3pQRkdmSnpUOHNXLUo1dXNSY3lFdkpSdU5laDdwSlhWRDVnNjBFcUh2Y0FwMXNldE8tSFpPaw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWpWeUZnbllhcFk4WktZS0s3T1N6T3k3Vnhhd3pfSE9SWF9iRmRIQUljdHZXN0UtWS1uZS1rbUNZSlVPd1NXLXRtVUVtc3NQNTgxMVFMWjVnT3pPb09EX1g1YUx3WkF2VHk0bUMwWlhkRHdpT0JFRE5SQ3pQRkdmSnpUOHNXLUo1dXNSY3lFdkpSdU5laDdwSlhWRDVnNjBFcUh2Y0FwMXNldE8tSFpPaw?oc=5",
-      "source": "Reuters",
-      "category": "World",
-      "publishedAt": "2026-11-14T07:24:34Z"
-    },
-    {
-      "id": "ad6c6bde5597ab621720",
-      "title": "Rubio takes swipe at international law, attacks ICC - Ammon News",
-      "description": "Rubio takes swipe at international law, attacks ICC Ammon News",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE55X2gxNXpZbk1Fbll5QmxMenBBejFvR1VqS21iU3FUOE1TakxZVGZvcVZDR0dXV1JzYUdrV3RBZ3Z1QjFfb2lKcUZNRVVudw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE55X2gxNXpZbk1Fbll5QmxMenBBejFvR1VqS21iU3FUOE1TakxZVGZvcVZDR0dXV1JzYUdrV3RBZ3Z1QjFfb2lKcUZNRVVudw?oc=5",
-      "source": "Ammon News",
-      "category": "World",
-      "publishedAt": "2026-11-14T07:13:58Z"
     }
   ],
-  "lastUpdated": "2026-11-20T17:43:04Z",
-  "updatedAt": "2026-11-20T17:43:04Z"
+  "lastUpdated": "2026-11-20T23:48:27Z",
+  "updatedAt": "2026-11-20T23:48:27Z"
 }
