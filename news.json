@@ -240,50 +240,36 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-19T19:25:09Z",
-    "lastSuccessfulRun": "2026-11-19T19:25:09Z",
-    "lastUpdated": "2026-11-19T19:25:09Z",
-    "articlesAdded": 25,
+    "lastRun": "2026-11-20T01:25:04Z",
+    "lastSuccessfulRun": "2026-11-20T01:25:04Z",
+    "lastUpdated": "2026-11-20T01:25:04Z",
+    "articlesAdded": 11,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 26,
+    "duplicatesRemoved": 38,
     "failedSources": [],
     "newArticleIds": [
-      "233dcda3d95a13239dc1",
-      "3c9e1324523006373f27",
-      "13f3653c3cd2fae672ce",
-      "6564d49ae941874a3ec4",
-      "7559a3cd534d1bf46454",
-      "b7aa56c19e19d1d65e90",
-      "bf78179dd8ff9ad1e751",
-      "53dd90510421beeb6ec7",
-      "61a58c82870f9833ff24",
-      "4ad483693b47b9d9a16a",
-      "01650e72e9d3e34a2642",
-      "b5b9062e671def9a296f",
-      "bf74feb7ee32b3f01c2e",
-      "65e1802f8f9579c30987",
-      "475130d8d8c555254755",
-      "218477c5f195dc3528be",
-      "ad61ceb37d890c3f777f",
-      "201eb4ea083e026b5b9c",
-      "0ff4e95c824be80878e5",
-      "df4a111ce0388cd39266",
-      "a1d6d273a7e5af276ed1",
-      "defaab37c3769ca12c93",
-      "09598a4d27deaca11eca",
-      "fbcd89309c9533c10cb5",
-      "eb33277a5a0cfedcc70d"
+      "280f8012fe4e97466898",
+      "ff94d4e9c750ca5d243e",
+      "f4d11703f6be200df485",
+      "1817b46d5924f3e4e14b",
+      "d4e955e69bab812e1774",
+      "b3a5d2da14a89c4e8d8f",
+      "a05abedecc1bd6054bd9",
+      "9c43e4c06e35e69e3905",
+      "a069fd2dc95fb420e72b",
+      "4aae3a24acc658cfa307",
+      "c1c88e2bd8ab89e1ddd6"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 25,
+    "articlesRemoved": 11,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 197,
-      "India": 25,
-      "Technology": 20,
+      "World": 199,
+      "India": 24,
+      "Technology": 19,
       "Environment": 49,
       "Disaster": 9
     },
@@ -291,6 +277,56 @@
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "280f8012fe4e97466898",
+      "title": "MP Sports Development: 11 Academies, 201 International Medals and World-Class Facilities Under CM Mohan Yadav - Indian Masterminds",
+      "description": "MP Sports Development: 11 Academies, 201 International Medals and World-Class Facilities Under CM Mohan Yadav Indian Masterminds",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRVRYa2RVa3hOOXNnY0ZFbXFvR0l5RzczVnB4UnpJVTNKUlFjNFdrbnlScU1VZEhiLTRocWdIUWZtQThNejMtamR6cGNuWC1JaWd0T0Y1NzJfZFU1RnlPS1NqWUFmcGdmZXRwSXQzcktxS2RSeTdlbkVzdWdidlpPc0V6a2Y4WnMwNTFhaUZGU3k5M0luS2JJZElGdmpveUZkTDNQQTFXZmtXM0U5R0kxM3ZsZUc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRVRYa2RVa3hOOXNnY0ZFbXFvR0l5RzczVnB4UnpJVTNKUlFjNFdrbnlScU1VZEhiLTRocWdIUWZtQThNejMtamR6cGNuWC1JaWd0T0Y1NzJfZFU1RnlPS1NqWUFmcGdmZXRwSXQzcktxS2RSeTdlbkVzdWdidlpPc0V6a2Y4WnMwNTFhaUZGU3k5M0luS2JJZElGdmpveUZkTDNQQTFXZmtXM0U5R0kxM3ZsZUc?oc=5",
+      "source": "Indian Masterminds",
+      "category": "World",
+      "publishedAt": "2026-11-19T23:30:00Z"
+    },
+    {
+      "id": "6564d49ae941874a3ec4",
+      "title": "Statement: Bill 42 Strips Away Alberta’s Last Climate Guardrails - Environmental Defence",
+      "description": "Statement: Bill 42 Strips Away Alberta’s Last Climate Guardrails Environmental Defence",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSVpfaTJFU3hCSVE4c3B1U1JsR1htNnVNQTZVZnBpM2kwQzBoeThMU3pSRlNxYlhod01ISlZic3haa1I0cUFxbjV1RlkydHR2eEJ6bXlLWmJlRExRT3ZNd0xwNFpaQ0Y2M3BfZW5WMzlDa1FrZEVuSkJxajcxNS1leXk1SVpLRlotZTFHMVFDVU9IOUVzR2x1RjM1Z2hrbzRIRG81N002VFlZQQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSVpfaTJFU3hCSVE4c3B1U1JsR1htNnVNQTZVZnBpM2kwQzBoeThMU3pSRlNxYlhod01ISlZic3haa1I0cUFxbjV1RlkydHR2eEJ6bXlLWmJlRExRT3ZNd0xwNFpaQ0Y2M3BfZW5WMzlDa1FrZEVuSkJxajcxNS1leXk1SVpLRlotZTFHMVFDVU9IOUVzR2x1RjM1Z2hrbzRIRG81N002VFlZQQ?oc=5",
+      "source": "Environmental Defence",
+      "category": "Environment",
+      "publishedAt": "2026-11-19T21:24:28Z"
+    },
+    {
+      "id": "2adfb13cff066beff7d6",
+      "title": "International Men's Day 2026: Date, history, theme, significance and more - Business Standard",
+      "description": "International Men's Day 2026: Date, history, theme, significance and more Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZkJUYXd0VmFtOTNOYm90S3hKVmwwejI5cmZ3Q0diTWhXYWcxUTBOX1diY2NXZVVkQkpqWVp3RjRzUS1SUWRoTzg4SjdacFdjdDZMWmdNUjJsMlJ3bkNrckwwdEdMbmQ3QlRWajBaWWlzODVicHhySUEzLXBlVTN1ZmZCaTFLMkZWMFF3RUg1UU83TTVsN2c5RGtzM0hTSkQ3V25vS090UVVwWFRaY010bkRZMG5YZG9IcVZQQ01iN095bG02OWphV0R0RThPNkNLSEhv0gHYAUFVX3lxTE1wTHBIdUtrdGJoejVNbHNGY3RwY2R5czhBVVZpUmNnQ3M4SFd3QkZKbWh0c2pOb2xZaXg2MkZlM0loTHVDMkthTERfZkZ1UTJiZERWWFN6UlBrY3hJWktUN29uZDc5M0FzM2RPU2xUZ2VsZU92Z0Q2cHREOWNhNldWNGZNUHE2Y2htVWdFSlBVUzVKMV96ajRzcGJac29wekVXODV0QWhWMzVUWVRqTEVoLW90d3pNNGVFSDhzYlJCdm5YeVhTWlpFclIwOVVVMWllRmhveWlJTA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZkJUYXd0VmFtOTNOYm90S3hKVmwwejI5cmZ3Q0diTWhXYWcxUTBOX1diY2NXZVVkQkpqWVp3RjRzUS1SUWRoTzg4SjdacFdjdDZMWmdNUjJsMlJ3bkNrckwwdEdMbmQ3QlRWajBaWWlzODVicHhySUEzLXBlVTN1ZmZCaTFLMkZWMFF3RUg1UU83TTVsN2c5RGtzM0hTSkQ3V25vS090UVVwWFRaY010bkRZMG5YZG9IcVZQQ01iN095bG02OWphV0R0RThPNkNLSEhv0gHYAUFVX3lxTE1wTHBIdUtrdGJoejVNbHNGY3RwY2R5czhBVVZpUmNnQ3M4SFd3QkZKbWh0c2pOb2xZaXg2MkZlM0loTHVDMkthTERfZkZ1UTJiZERWWFN6UlBrY3hJWktUN29uZDc5M0FzM2RPU2xUZ2VsZU92Z0Q2cHREOWNhNldWNGZNUHE2Y2htVWdFSlBVUzVKMV96ajRzcGJac29wekVXODV0QWhWMzVUWVRqTEVoLW90d3pNNGVFSDhzYlJCdm5YeVhTWlpFclIwOVVVMWllRmhveWlJTA?oc=5",
+      "source": "Business Standard",
+      "category": "World",
+      "publishedAt": "2026-11-19T20:53:15Z"
+    },
+    {
+      "id": "ff94d4e9c750ca5d243e",
+      "title": "Time magazine ranks Halifax Stanfield International Airport as world's best small airport - PNI Atlantic News",
+      "description": "Time magazine ranks Halifax Stanfield International Airport as world's best small airport PNI Atlantic News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVl9JdDIxYzNhM1RDV2d1b24zTmJGT09Db0lTaEd2YkFWTUNPbEhQTGh0dlZaZDl5U09ETkp6NjNwRlM0eDkteFNOS1VvYlBWMlRNVXRnWkpoOUpLdUhOMjdvVklNc2JET09jY1hkS3ZmWlZZbUswNHJ2QVptYUNmdXdOWHdOV0NaTVlPRXRGdEpSb0FJa3ZPVklzUnRvRGthUjlJZUdEUUFGVXF0YUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVl9JdDIxYzNhM1RDV2d1b24zTmJGT09Db0lTaEd2YkFWTUNPbEhQTGh0dlZaZDl5U09ETkp6NjNwRlM0eDkteFNOS1VvYlBWMlRNVXRnWkpoOUpLdUhOMjdvVklNc2JET09jY1hkS3ZmWlZZbUswNHJ2QVptYUNmdXdOWHdOV0NaTVlPRXRGdEpSb0FJa3ZPVklzUnRvRGthUjlJZUdEUUFGVXF0YUE?oc=5",
+      "source": "PNI Atlantic News",
+      "category": "World",
+      "publishedAt": "2026-11-19T18:51:56Z"
+    },
+    {
+      "id": "f4d11703f6be200df485",
+      "title": "UN defends International Criminal Court as ‘crucial’ for international justice after Trump, Xi, Putin target tribunal - Anadolu Ajansı",
+      "description": "UN defends International Criminal Court as ‘crucial’ for international justice after Trump, Xi, Putin target tribunal Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdmlEaXByMTdTMy0yZEZlS2xUYThCVWpBZ1lSTVFuZi04d3BKNmxVVVdhbTkxZkFWSnJJbFc4RW5iaUJjMXJkZGRDMHd0ankwZFJFY05DVktqUmVBV3pJZ2VWdFBYTGlfSjFiVEtVTTc4TTVZWlhLaGJfMHFtVWhrLUhqSVhwa1ZNM085VXhCXzdueEtvU2xMX2ZsblJVWWhLMWhqT3pHYmFENWhYNUFjNGg2dnE0OFBxNGF2R2VrY3ZZdkhrSF82VTliUEdqWWdvR3dCMldnYnMzTzlEbUFWdk91am5HVFk?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdmlEaXByMTdTMy0yZEZlS2xUYThCVWpBZ1lSTVFuZi04d3BKNmxVVVdhbTkxZkFWSnJJbFc4RW5iaUJjMXJkZGRDMHd0ankwZFJFY05DVktqUmVBV3pJZ2VWdFBYTGlfSjFiVEtVTTc4TTVZWlhLaGJfMHFtVWhrLUhqSVhwa1ZNM085VXhCXzdueEtvU2xMX2ZsblJVWWhLMWhqT3pHYmFENWhYNUFjNGg2dnE0OFBxNGF2R2VrY3ZZdkhrSF82VTliUEdqWWdvR3dCMldnYnMzTzlEbUFWdk91am5HVFk?oc=5",
+      "source": "Anadolu Ajansı",
+      "category": "World",
+      "publishedAt": "2026-11-19T18:47:27Z"
+    },
     {
       "id": "233dcda3d95a13239dc1",
       "title": "Three Presidents, One World They Cannot Control - International Policy Digest",
@@ -322,16 +358,6 @@
       "publishedAt": "2026-11-19T18:39:33Z"
     },
     {
-      "id": "6564d49ae941874a3ec4",
-      "title": "Statement: Bill 42 Strips Away Alberta’s Last Climate Guardrails - Environmental Defence",
-      "description": "Statement: Bill 42 Strips Away Alberta’s Last Climate Guardrails Environmental Defence",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSVpfaTJFU3hCSVE4c3B1U1JsR1htNnVNQTZVZnBpM2kwQzBoeThMU3pSRlNxYlhod01ISlZic3haa1I0cUFxbjV1RlkydHR2eEJ6bXlLWmJlRExRT3ZNd0xwNFpaQ0Y2M3BfZW5WMzlDa1FrZEVuSkJxajcxNS1leXk1SVpLRlotZTFHMVFDVU9IOUVzR2x1RjM1Z2hrbzRIRG81N002VFlZQQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSVpfaTJFU3hCSVE4c3B1U1JsR1htNnVNQTZVZnBpM2kwQzBoeThMU3pSRlNxYlhod01ISlZic3haa1I0cUFxbjV1RlkydHR2eEJ6bXlLWmJlRExRT3ZNd0xwNFpaQ0Y2M3BfZW5WMzlDa1FrZEVuSkJxajcxNS1leXk1SVpLRlotZTFHMVFDVU9IOUVzR2x1RjM1Z2hrbzRIRG81N002VFlZQQ?oc=5",
-      "source": "Environmental Defence",
-      "category": "Environment",
-      "publishedAt": "2026-11-19T18:34:04Z"
-    },
-    {
       "id": "7559a3cd534d1bf46454",
       "title": "3 world leaders walked into a room — and took aim at international law and institutions - CBC",
       "description": "3 world leaders walked into a room — and took aim at international law and institutions CBC",
@@ -342,14 +368,14 @@
       "publishedAt": "2026-11-19T18:12:44Z"
     },
     {
-      "id": "2adfb13cff066beff7d6",
-      "title": "International Men's Day 2026: Date, history, theme, significance and more - Business Standard",
-      "description": "International Men's Day 2026: Date, history, theme, significance and more Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZkJUYXd0VmFtOTNOYm90S3hKVmwwejI5cmZ3Q0diTWhXYWcxUTBOX1diY2NXZVVkQkpqWVp3RjRzUS1SUWRoTzg4SjdacFdjdDZMWmdNUjJsMlJ3bkNrckwwdEdMbmQ3QlRWajBaWWlzODVicHhySUEzLXBlVTN1ZmZCaTFLMkZWMFF3RUg1UU83TTVsN2c5RGtzM0hTSkQ3V25vS090UVVwWFRaY010bkRZMG5YZG9IcVZQQ01iN095bG02OWphV0R0RThPNkNLSEhv0gHYAUFVX3lxTE1wTHBIdUtrdGJoejVNbHNGY3RwY2R5czhBVVZpUmNnQ3M4SFd3QkZKbWh0c2pOb2xZaXg2MkZlM0loTHVDMkthTERfZkZ1UTJiZERWWFN6UlBrY3hJWktUN29uZDc5M0FzM2RPU2xUZ2VsZU92Z0Q2cHREOWNhNldWNGZNUHE2Y2htVWdFSlBVUzVKMV96ajRzcGJac29wekVXODV0QWhWMzVUWVRqTEVoLW90d3pNNGVFSDhzYlJCdm5YeVhTWlpFclIwOVVVMWllRmhveWlJTA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZkJUYXd0VmFtOTNOYm90S3hKVmwwejI5cmZ3Q0diTWhXYWcxUTBOX1diY2NXZVVkQkpqWVp3RjRzUS1SUWRoTzg4SjdacFdjdDZMWmdNUjJsMlJ3bkNrckwwdEdMbmQ3QlRWajBaWWlzODVicHhySUEzLXBlVTN1ZmZCaTFLMkZWMFF3RUg1UU83TTVsN2c5RGtzM0hTSkQ3V25vS090UVVwWFRaY010bkRZMG5YZG9IcVZQQ01iN095bG02OWphV0R0RThPNkNLSEhv0gHYAUFVX3lxTE1wTHBIdUtrdGJoejVNbHNGY3RwY2R5czhBVVZpUmNnQ3M4SFd3QkZKbWh0c2pOb2xZaXg2MkZlM0loTHVDMkthTERfZkZ1UTJiZERWWFN6UlBrY3hJWktUN29uZDc5M0FzM2RPU2xUZ2VsZU92Z0Q2cHREOWNhNldWNGZNUHE2Y2htVWdFSlBVUzVKMV96ajRzcGJac29wekVXODV0QWhWMzVUWVRqTEVoLW90d3pNNGVFSDhzYlJCdm5YeVhTWlpFclIwOVVVMWllRmhveWlJTA?oc=5",
-      "source": "Business Standard",
-      "category": "World",
-      "publishedAt": "2026-11-19T17:48:20Z"
+      "id": "4cdf68053135105bc610",
+      "title": "The Permitting Bill Is Splitting the Environmental Movement - The New York Times",
+      "description": "The Permitting Bill Is Splitting the Environmental Movement The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUnoyZXFYYVF3anE4LVZFa2VHajRLZWtJT2s5Vk5GNzl2MlVUNUN3MzM4YU00MVlfN1NIZzZVVkc3VkhBRkpxNEZCbHlJMkN3UzI0dlBDVi1vS1cxTElWUUliWjlmZ3FpZUFEUVNFRm1OWmV6djhSWU5OM2xGdEc5ZjVCU3hEZTZuX2ZZOFMxS3N1ZzlHZGRfVG5n?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUnoyZXFYYVF3anE4LVZFa2VHajRLZWtJT2s5Vk5GNzl2MlVUNUN3MzM4YU00MVlfN1NIZzZVVkc3VkhBRkpxNEZCbHlJMkN3UzI0dlBDVi1vS1cxTElWUUliWjlmZ3FpZUFEUVNFRm1OWmV6djhSWU5OM2xGdEc5ZjVCU3hEZTZuX2ZZOFMxS3N1ZzlHZGRfVG5n?oc=5",
+      "source": "The New York Times",
+      "category": "Environment",
+      "publishedAt": "2026-11-19T17:49:00Z"
     },
     {
       "id": "b7aa56c19e19d1d65e90",
@@ -392,6 +418,16 @@
       "publishedAt": "2026-11-19T16:47:59Z"
     },
     {
+      "id": "1817b46d5924f3e4e14b",
+      "title": "Myanmar: International Court of Justice recognizes \"genocide\" of the Rohingya - Vatican News",
+      "description": "Myanmar: International Court of Justice recognizes \"genocide\" of the Rohingya Vatican News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWklRUU5MLU13NFVwT3d5b2RqTEJTZjE5YkxpU1FtZHhwRU55MWFIczctLUgzeV9zMVlpZDhRVVR3X3pfVTlNQ1lPVkxobVVNWURacnNMQnBaTW9SREQzaFBNRkdPczI4YUlpRlFjcUlWLUNxc1JPemNnQUExdU9mX3NqSWZMS01GcWIwSlFwN2NIU3NobWdrSlR5azYwcjFTMjUxLXlFVk4zQ0Z5bExZ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWklRUU5MLU13NFVwT3d5b2RqTEJTZjE5YkxpU1FtZHhwRU55MWFIczctLUgzeV9zMVlpZDhRVVR3X3pfVTlNQ1lPVkxobVVNWURacnNMQnBaTW9SREQzaFBNRkdPczI4YUlpRlFjcUlWLUNxc1JPemNnQUExdU9mX3NqSWZMS01GcWIwSlFwN2NIU3NobWdrSlR5azYwcjFTMjUxLXlFVk4zQ0Z5bExZ?oc=5",
+      "source": "Vatican News",
+      "category": "World",
+      "publishedAt": "2026-11-19T16:37:16Z"
+    },
+    {
       "id": "61a58c82870f9833ff24",
       "title": "Edmonton International Airport ranked among the world's best small airports - Daily Hive",
       "description": "Edmonton International Airport ranked among the world's best small airports Daily Hive",
@@ -410,6 +446,16 @@
       "source": "Republic World",
       "category": "World",
       "publishedAt": "2026-11-19T16:26:31Z"
+    },
+    {
+      "id": "d4e955e69bab812e1774",
+      "title": "Ash Barty and Shingo Kunieda elected to the International Tennis Hall of Fame - Tennis Majors",
+      "description": "Ash Barty and Shingo Kunieda elected to the International Tennis Hall of Fame Tennis Majors",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT2FoclRGdFBZem9fME9IMDJONm84dVotZXYtdHFZRmxCYndNSWs4RlB1dlFsRUw1RloxOHRjM08xTlNpUld4b1RzYndkTXlBRUlyM0lqN04wN2VmT1VpRUM0LUc0RHFGbkRuVms4TkNBTGFqVmVwaXp4Wi1VWmZ2TXVMdS1EREpwZVVQZng2ZXZ3Nm1ZVWhwaVlON1dITUIyMWFsNVNkVjFCVWt2bnJCZmRtSjJIcU1QS0c0REFQa3BKUU5PRlQzam00MkU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT2FoclRGdFBZem9fME9IMDJONm84dVotZXYtdHFZRmxCYndNSWs4RlB1dlFsRUw1RloxOHRjM08xTlNpUld4b1RzYndkTXlBRUlyM0lqN04wN2VmT1VpRUM0LUc0RHFGbkRuVms4TkNBTGFqVmVwaXp4Wi1VWmZ2TXVMdS1EREpwZVVQZng2ZXZ3Nm1ZVWhwaVlON1dITUIyMWFsNVNkVjFCVWt2bnJCZmRtSjJIcU1QS0c0REFQa3BKUU5PRlQzam00MkU?oc=5",
+      "source": "Tennis Majors",
+      "category": "World",
+      "publishedAt": "2026-11-19T15:44:54Z"
     },
     {
       "id": "01650e72e9d3e34a2642",
@@ -442,6 +488,16 @@
       "publishedAt": "2026-11-19T15:30:57Z"
     },
     {
+      "id": "b3a5d2da14a89c4e8d8f",
+      "title": "Russia Is Weaponizing Climate Change in International Diplomacy - The Moscow Times",
+      "description": "Russia Is Weaponizing Climate Change in International Diplomacy The Moscow Times",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbnBZNWFVdXNEYmJSaXJUNlJyakVja2xFV1phS3ZzVVFneUxVbnRBZmpPMDZ4UHE4ekRYSm4yUnNKdHhYcnhwUUQ1dERXNlM3SkZZS010aEt1R1lrellGTnBWakdESGVRMHZCMnFpSXl0OVNQMWx4NV9EX2Fxa0JwTkZMTHJlX2N5eFI5X1lUYS1aZ1pVaUZmM29jdFBOVTJacXBIWUZjV3gtOTZvQUxaWGRR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbnBZNWFVdXNEYmJSaXJUNlJyakVja2xFV1phS3ZzVVFneUxVbnRBZmpPMDZ4UHE4ekRYSm4yUnNKdHhYcnhwUUQ1dERXNlM3SkZZS010aEt1R1lrellGTnBWakdESGVRMHZCMnFpSXl0OVNQMWx4NV9EX2Fxa0JwTkZMTHJlX2N5eFI5X1lUYS1aZ1pVaUZmM29jdFBOVTJacXBIWUZjV3gtOTZvQUxaWGRR?oc=5",
+      "source": "The Moscow Times",
+      "category": "World",
+      "publishedAt": "2026-11-19T15:12:00Z"
+    },
+    {
       "id": "65e1802f8f9579c30987",
       "title": "Future-Ready Cities: Experts Highlight Connectivity, Digital Governance and Port Modernisation in West Bengal - Indian Masterminds",
       "description": "Future-Ready Cities: Experts Highlight Connectivity, Digital Governance and Port Modernisation in West Bengal Indian Masterminds",
@@ -452,6 +508,16 @@
       "publishedAt": "2026-11-19T15:08:40Z"
     },
     {
+      "id": "a05abedecc1bd6054bd9",
+      "title": "The Rohingya question: International solidarity, accountability and the missing road home - The Hindu",
+      "description": "The Rohingya question: International solidarity, accountability and the missing road home The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNVliSV82TVlRVjdBQVVQOHNVLUQzVnMxTzFLb2dyeUJ0Y0Y3QjNzcUdabEVOaVRFRUpHdkhLbXY2UHRmSm84RWotOGNHeFE1ZGlNYzVINjhfcmxvYkFWQjE0OWh1NC1vUkFhal9XeUprRldnTzlrR0NIUzM4Zlk4UmIyWEhkOGZYN3RuUS1BWkVzMXA0ZS14NFZHMll0RzlSSFlWRzdhYm1PMHBKeTBKaU1zWEhZa0ZiaUFFeGdrWGJvOF8zM1E2U3pZQnRhMVJ6VHNiSEdmOGd6RGttaHFZenRNM0F2Z9IB7AFBVV95cUxOczN5QTctMERIU0gtSFZWQ09SeVVYUDJUdnAyc3pBQTMwTm54ckM4UDBKT0hwZEFjdzlURU55Z2VlRHB2ZXBfaXV6S2RiX3NBS3FudE9MdEZ3eUg0ZWI2Rmp1NG5oMU5iQmhHQUR5VXhLSi1maXpkQnJ6SHZ1ZjZ5MXZ4bGNQSVM4WHZhZGczaVBRbVpULVgxZXI3Y0dJYi10VzRTdFVVd1pJOWRGQUdzTmg3MXhWcy1PVXYzWk1lVFJOR3BiQWdYamstNDJBQUJFOEZxUU5tdUM1QkFKcDBmUzVQMXJhZVRlRlpTOA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPNVliSV82TVlRVjdBQVVQOHNVLUQzVnMxTzFLb2dyeUJ0Y0Y3QjNzcUdabEVOaVRFRUpHdkhLbXY2UHRmSm84RWotOGNHeFE1ZGlNYzVINjhfcmxvYkFWQjE0OWh1NC1vUkFhal9XeUprRldnTzlrR0NIUzM4Zlk4UmIyWEhkOGZYN3RuUS1BWkVzMXA0ZS14NFZHMll0RzlSSFlWRzdhYm1PMHBKeTBKaU1zWEhZa0ZiaUFFeGdrWGJvOF8zM1E2U3pZQnRhMVJ6VHNiSEdmOGd6RGttaHFZenRNM0F2Z9IB7AFBVV95cUxOczN5QTctMERIU0gtSFZWQ09SeVVYUDJUdnAyc3pBQTMwTm54ckM4UDBKT0hwZEFjdzlURU55Z2VlRHB2ZXBfaXV6S2RiX3NBS3FudE9MdEZ3eUg0ZWI2Rmp1NG5oMU5iQmhHQUR5VXhLSi1maXpkQnJ6SHZ1ZjZ5MXZ4bGNQSVM4WHZhZGczaVBRbVpULVgxZXI3Y0dJYi10VzRTdFVVd1pJOWRGQUdzTmg3MXhWcy1PVXYzWk1lVFJOR3BiQWdYamstNDJBQUJFOEZxUU5tdUM1QkFKcDBmUzVQMXJhZVRlRlpTOA?oc=5",
+      "source": "The Hindu",
+      "category": "World",
+      "publishedAt": "2026-11-19T14:37:07Z"
+    },
+    {
       "id": "475130d8d8c555254755",
       "title": "World’s best Latin dancers are coming to Mallorca for spectacular international championship in Calvia - Euro Weekly News",
       "description": "World’s best Latin dancers are coming to Mallorca for spectacular international championship in Calvia Euro Weekly News",
@@ -460,6 +526,16 @@
       "source": "Euro Weekly News",
       "category": "World",
       "publishedAt": "2026-11-19T14:03:46Z"
+    },
+    {
+      "id": "9c43e4c06e35e69e3905",
+      "title": "World Junior U20 Chess Championship 2026 begins in Caracas, Venezuela – International Chess Federation - FIDE",
+      "description": "World Junior U20 Chess Championship 2026 begins in Caracas, Venezuela – International Chess Federation FIDE",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOFM5MWFaaks1dThmSDJOamhCVTJtc2E4YVQtZ0p1OXV4Y3EwVDhmYVRYcjlxTnVuUFVOOUk0WnJYRWxYbGV0QVF2TUZaa2RNcDZzbWdVb1hQNFFqWHFaNzBNaWxwUXVoc3ZVVzZtRUZXUk9OZnpyczFMVHBVUHpaM1VnVXNTcVRBbWlCOU90a0Raamd3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOFM5MWFaaks1dThmSDJOamhCVTJtc2E4YVQtZ0p1OXV4Y3EwVDhmYVRYcjlxTnVuUFVOOUk0WnJYRWxYbGV0QVF2TUZaa2RNcDZzbWdVb1hQNFFqWHFaNzBNaWxwUXVoc3ZVVzZtRUZXUk9OZnpyczFMVHBVUHpaM1VnVXNTcVRBbWlCOU90a0Raamd3?oc=5",
+      "source": "FIDE",
+      "category": "World",
+      "publishedAt": "2026-11-19T13:42:18Z"
     },
     {
       "id": "218477c5f195dc3528be",
@@ -570,6 +646,16 @@
       "source": "The Economic Times",
       "category": "World",
       "publishedAt": "2026-11-19T09:14:28Z"
+    },
+    {
+      "id": "a069fd2dc95fb420e72b",
+      "title": "The role of arbitral institutions in the New World Order - International Chamber of Commerce",
+      "description": "The role of arbitral institutions in the New World Order International Chamber of Commerce",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbVVmcTFyMHJTWVJKVjhYTkFBVmVIVndBM1BOT1NzMlZFUUtIT2VJbnZXbjhTcEk1QldqM1dfdTFuVXREQURZbGtGaGZ3YXZKbkc0ejZMZXZuYW8zeHdDWTBqRUhIdXVCWlB5ZXpuNFg1RjZxTXV3VXUwQWtwTTFYWDBpTWQtYWFDc3gydnpUZVVZVDkzbDlMMWQtLXNDell5?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbVVmcTFyMHJTWVJKVjhYTkFBVmVIVndBM1BOT1NzMlZFUUtIT2VJbnZXbjhTcEk1QldqM1dfdTFuVXREQURZbGtGaGZ3YXZKbkc0ejZMZXZuYW8zeHdDWTBqRUhIdXVCWlB5ZXpuNFg1RjZxTXV3VXUwQWtwTTFYWDBpTWQtYWFDc3gydnpUZVVZVDkzbDlMMWQtLXNDell5?oc=5",
+      "source": "International Chamber of Commerce",
+      "category": "World",
+      "publishedAt": "2026-11-19T09:01:55Z"
     },
     {
       "id": "61f0dc3ce319b338fbac",
@@ -750,16 +836,6 @@
       "source": "Jamaica Observer",
       "category": "World",
       "publishedAt": "2026-11-18T20:56:12Z"
-    },
-    {
-      "id": "4cdf68053135105bc610",
-      "title": "The Permitting Bill Is Splitting the Environmental Movement - The New York Times",
-      "description": "The Permitting Bill Is Splitting the Environmental Movement The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUnoyZXFYYVF3anE4LVZFa2VHajRLZWtJT2s5Vk5GNzl2MlVUNUN3MzM4YU00MVlfN1NIZzZVVkc3VkhBRkpxNEZCbHlJMkN3UzI0dlBDVi1vS1cxTElWUUliWjlmZ3FpZUFEUVNFRm1OWmV6djhSWU5OM2xGdEc5ZjVCU3hEZTZuX2ZZOFMxS3N1ZzlHZGRfVG5n?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUnoyZXFYYVF3anE4LVZFa2VHajRLZWtJT2s5Vk5GNzl2MlVUNUN3MzM4YU00MVlfN1NIZzZVVkc3VkhBRkpxNEZCbHlJMkN3UzI0dlBDVi1vS1cxTElWUUliWjlmZ3FpZUFEUVNFRm1OWmV6djhSWU5OM2xGdEc5ZjVCU3hEZTZuX2ZZOFMxS3N1ZzlHZGRfVG5n?oc=5",
-      "source": "The New York Times",
-      "category": "Environment",
-      "publishedAt": "2026-11-18T20:45:33Z"
     },
     {
       "id": "db8492fd4b7553ef4fb0",
@@ -1250,6 +1326,26 @@
       "source": "Post Register",
       "category": "World",
       "publishedAt": "2026-11-17T16:23:40Z"
+    },
+    {
+      "id": "4aae3a24acc658cfa307",
+      "title": "Can COP31's proposed 'age of electricity' slow global warming? - Reuters",
+      "description": "Can COP31's proposed 'age of electricity' slow global warming? Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNODNEMkVzTlg0VUR2S0hmSTRXOXZVV0pZRy0yTk9xMkZkVzN2a1dBdEV6SGlYeVhSWHQ3V1VNZW9RNXJkWmViaXBmY0pUSlpMLXc1M2xrLVh0QVdPdkJ3Zno0RUs4THVkek90WHdsclBPS2FTckVBYUo5RE9oYk1iSDcxVnNZb0l4ZUtBWlV0Sk9JNG5ITm1DbFJlUGRzMVZkekdtdnZEVTd1dXBRRFYw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNODNEMkVzTlg0VUR2S0hmSTRXOXZVV0pZRy0yTk9xMkZkVzN2a1dBdEV6SGlYeVhSWHQ3V1VNZW9RNXJkWmViaXBmY0pUSlpMLXc1M2xrLVh0QVdPdkJ3Zno0RUs4THVkek90WHdsclBPS2FTckVBYUo5RE9oYk1iSDcxVnNZb0l4ZUtBWlV0Sk9JNG5ITm1DbFJlUGRzMVZkekdtdnZEVTd1dXBRRFYw?oc=5",
+      "source": "Reuters",
+      "category": "Environment",
+      "publishedAt": "2026-11-17T16:16:09Z"
+    },
+    {
+      "id": "c1c88e2bd8ab89e1ddd6",
+      "title": "Air pollution - European Environment Agency (EEA)",
+      "description": "Air pollution European Environment Agency (EEA)",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLLXc1aVp0Y0dua0RtdkJHakJMRkxzejlxM3g0d3I3N2hReVhhUkhJc3h5eFpsd1pySXZKcy1veXVPVnhjbVRUTGZYeTZmZk02YjMwakZ6TWhnZnRSa2VnamE4alYyRTU0ZXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLLXc1aVp0Y0dua0RtdkJHakJMRkxzejlxM3g0d3I3N2hReVhhUkhJc3h5eFpsd1pySXZKcy1veXVPVnhjbVRUTGZYeTZmZk02YjMwakZ6TWhnZnRSa2VnamE4alYyRTU0ZXc?oc=5",
+      "source": "European Environment Agency (EEA)",
+      "category": "Environment",
+      "publishedAt": "2026-11-17T15:49:20Z"
     },
     {
       "id": "a76b5febd5918ebd8416",
@@ -3180,118 +3276,8 @@
       "source": "Vietnam.vn",
       "category": "Environment",
       "publishedAt": "2026-11-13T14:19:16Z"
-    },
-    {
-      "id": "e8d6a4bdc8e7289937c8",
-      "title": "Future of Environmental Science and Engineering: Career Scope, Job Opportunities & Higher Studies - PW",
-      "description": "Future of Environmental Science and Engineering: Career Scope, Job Opportunities & Higher Studies PW",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMW5MLXlROXIyajlZYUwwUXhjQXVDWGllZXU2Q2t4aU1oWktLTjdtNllBR3hOWTR3bDZVSEUyVTRDM0pCZm5sQ1o0TldJN0hCMXRGX29adDBIS29KN04xN3MxX0dBUWRLMmZBMVBiNUxSX0hsNDNaaE1YUjNiZDY3SnNIRlg?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMW5MLXlROXIyajlZYUwwUXhjQXVDWGllZXU2Q2t4aU1oWktLTjdtNllBR3hOWTR3bDZVSEUyVTRDM0pCZm5sQ1o0TldJN0hCMXRGX29adDBIS29KN04xN3MxX0dBUWRLMmZBMVBiNUxSX0hsNDNaaE1YUjNiZDY3SnNIRlg?oc=5",
-      "source": "PW",
-      "category": "Environment",
-      "publishedAt": "2026-11-13T14:07:10Z"
-    },
-    {
-      "id": "ca928d83a5c0f52dc4c5",
-      "title": "BU Celebrates International Education Week 2026 | BU Today - Boston University",
-      "description": "BU Celebrates International Education Week 2026 | BU Today Boston University",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvTmQ0QkhXSDFWRU8yQ2dGajFyMlhwNU1GSUFrVzI2b2RVcktxNFNkVldwcGQzaGdGbXdDYllCMnhYRkJKbnFOMXRMT3NfZ3Uwb291UEZVaGdYWEUwSHRzbmhLd2k3SFZTb2JNaDdFZ2Z0aUk?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvTmQ0QkhXSDFWRU8yQ2dGajFyMlhwNU1GSUFrVzI2b2RVcktxNFNkVldwcGQzaGdGbXdDYllCMnhYRkJKbnFOMXRMT3NfZ3Uwb291UEZVaGdYWEUwSHRzbmhLd2k3SFZTb2JNaDdFZ2Z0aUk?oc=5",
-      "source": "Boston University",
-      "category": "World",
-      "publishedAt": "2026-11-13T14:04:00Z"
-    },
-    {
-      "id": "0f97ecb3dc9bda4073c2",
-      "title": "International Friendly: River Plate vs. Inter Miami CF at Estadio Monumental - Inter Miami CF",
-      "description": "International Friendly: River Plate vs. Inter Miami CF at Estadio Monumental Inter Miami CF",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcXp0TkxuclQ5X2tCQXIwTjgzU201MFF4OThYSTFYTV8tQXlxaHpESVdncEFwdXNfQUpwbFJqRW15SXRqdFBFaFlWdm9nZ0VQRHVtR0lWaS1lSklZODNLb29BRk1RZWZTMFdYOVBTTnZSQkVNd1BEUGtKTkZxWlkyRTdlTzlsdlBHMmNkRGZRZXNSbjdrZjRCXzJKOEREMi1KdzRxbmVKWTJ3ZGdJ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcXp0TkxuclQ5X2tCQXIwTjgzU201MFF4OThYSTFYTV8tQXlxaHpESVdncEFwdXNfQUpwbFJqRW15SXRqdFBFaFlWdm9nZ0VQRHVtR0lWaS1lSklZODNLb29BRk1RZWZTMFdYOVBTTnZSQkVNd1BEUGtKTkZxWlkyRTdlTzlsdlBHMmNkRGZRZXNSbjdrZjRCXzJKOEREMi1KdzRxbmVKWTJ3ZGdJ?oc=5",
-      "source": "Inter Miami CF",
-      "category": "World",
-      "publishedAt": "2026-11-13T14:01:31Z"
-    },
-    {
-      "id": "c7c81d286657726eb1b0",
-      "title": "VCU to highlight International Education Week with wide range of programs - VCU News",
-      "description": "VCU to highlight International Education Week with wide range of programs VCU News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa1FHMC15NmctbUpJSUNNMkhzRzE2bUtXZHdyLWN1dENGMHJfNHR3QU9nbzRfMExFXy1XcUtQVVZuLThmMDBrRkxRTE1CckF2Ri1zaU4xVTFnOWFIeXplcWNxREUyQ0J2LWRkOXp5Z2tHZzhmVjhMM0hGb1pCMkdnenI1RTdmOTRlZ1N5TW1RVFdmVFpYWmQtTmJhemtMdjlBQ1ZiYg?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQa1FHMC15NmctbUpJSUNNMkhzRzE2bUtXZHdyLWN1dENGMHJfNHR3QU9nbzRfMExFXy1XcUtQVVZuLThmMDBrRkxRTE1CckF2Ri1zaU4xVTFnOWFIeXplcWNxREUyQ0J2LWRkOXp5Z2tHZzhmVjhMM0hGb1pCMkdnenI1RTdmOTRlZ1N5TW1RVFdmVFpYWmQtTmJhemtMdjlBQ1ZiYg?oc=5",
-      "source": "VCU News",
-      "category": "World",
-      "publishedAt": "2026-11-13T13:19:05Z"
-    },
-    {
-      "id": "f38041f5b9d172d3853b",
-      "title": "Surveying the planning of the High-Tech Park, promoting technology projects in Hue. - Vietnam.vn",
-      "description": "Surveying the planning of the High-Tech Park, promoting technology projects in Hue. Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUloxRFQ1bWQ4dU96M3gyWlhrQ1J5UFMySUlxN0FSZmtjUnpKQWNiNWdvZk1yYnZCS3dWcVFZUHNwV0RWdFlVampyMHFyaTlDOGl3RFFoV015V2prblNfcFFzb0lPM2F0NEhmczBCVEU4QlM1X1NLN0tvRHpWOWotdmJraXdpcU5rUGo3Vi1hSm5FVWxFcVJfNF90SlNoYktU?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUloxRFQ1bWQ4dU96M3gyWlhrQ1J5UFMySUlxN0FSZmtjUnpKQWNiNWdvZk1yYnZCS3dWcVFZUHNwV0RWdFlVampyMHFyaTlDOGl3RFFoV015V2prblNfcFFzb0lPM2F0NEhmczBCVEU4QlM1X1NLN0tvRHpWOWotdmJraXdpcU5rUGo3Vi1hSm5FVWxFcVJfNF90SlNoYktU?oc=5",
-      "source": "Vietnam.vn",
-      "category": "Technology",
-      "publishedAt": "2026-11-13T13:03:55Z"
-    },
-    {
-      "id": "90509d25cc63f69a74d4",
-      "title": "Nanoplastics and climate change have an unexpected enemy: Fiber - Anthropocene Magazine",
-      "description": "Nanoplastics and climate change have an unexpected enemy: Fiber Anthropocene Magazine",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVWxVQzREbXFTUnJzelVHU2tTVkVNeV9GVFU5U05kdnZjenlLNXVEWHV5aE5CRlR5QWI1RXhhUUg1X2xYeFFYQnpkRXdsZmZEcWFvMWhCdENpSHlRWVllQlJuTHE3VGx4MmJyS0JLU01OeWQ0QXVMdnNDdjF0cGlpWnBfNGROTHZKMFotbjc4UVpOWUhSY0JTYXJELXBfWDBWd2ZES1NZV2o3UlVN?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVWxVQzREbXFTUnJzelVHU2tTVkVNeV9GVFU5U05kdnZjenlLNXVEWHV5aE5CRlR5QWI1RXhhUUg1X2xYeFFYQnpkRXdsZmZEcWFvMWhCdENpSHlRWVllQlJuTHE3VGx4MmJyS0JLU01OeWQ0QXVMdnNDdjF0cGlpWnBfNGROTHZKMFotbjc4UVpOWUhSY0JTYXJELXBfWDBWd2ZES1NZV2o3UlVN?oc=5",
-      "source": "Anthropocene Magazine",
-      "category": "Environment",
-      "publishedAt": "2026-11-13T13:01:05Z"
-    },
-    {
-      "id": "dd9cc9c4f1bdccbfe52a",
-      "title": "Pakistan Urges International Community to Protect UNRWA and Sustain Its Operations - UrduPoint",
-      "description": "Pakistan Urges International Community to Protect UNRWA and Sustain Its Operations UrduPoint",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSllXTVl6a0lPYkMzZ0ZXamVLamRDQmwxM3l5dzlPQkUwcVBkc2s0V3cxQzJjQTcwT0t1cTZqNDV1cXZsemUxWDlGV2ZZSkFNZlhKVDhBbktLVk55Nm55OE5KQ1h0VUdQZFNaMFF1S3kySjd4bVUyTmsyUXBOVEpHSnUxRHBscjNPUC1CbE9IR1NCbGdxN2drRg?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSllXTVl6a0lPYkMzZ0ZXamVLamRDQmwxM3l5dzlPQkUwcVBkc2s0V3cxQzJjQTcwT0t1cTZqNDV1cXZsemUxWDlGV2ZZSkFNZlhKVDhBbktLVk55Nm55OE5KQ1h0VUdQZFNaMFF1S3kySjd4bVUyTmsyUXBOVEpHSnUxRHBscjNPUC1CbE9IR1NCbGdxN2drRg?oc=5",
-      "source": "UrduPoint",
-      "category": "World",
-      "publishedAt": "2026-11-13T11:55:59Z"
-    },
-    {
-      "id": "1d514a7ef9acb5291bce",
-      "title": "Code Becomes A Weapon: Suspected Iran Cyber Campaign Reaches U.S Infrastructure And European Cities - The Times of India",
-      "description": "Code Becomes A Weapon: Suspected Iran Cyber Campaign Reaches U.S Infrastructure And European Cities The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ3JQOE1pcXpMR3VvZjE5YXcxMjVzQUpoOUxORUtFZjJYaTJZamV5VmVpbVgyMnFRVWVZVWw2bHk1ZnJFa2VVY25EdzQtcDA4cTNYbXpfaWRYYjVNbm14N3ZrUkRiQkk2TXUwZTdScTEwcDlwYWFGOVRaR19ORndMUzRtNThiSEZvT2hJcWpzc21uOVFPTHQ1TGxpQTdBQk5GQ3AyZ0Q4WklJVkgzUjM0OURVbnJoLUU3eWp1cVdINnNkWVF1WWpUQ2lQbjJYbkJrcU9SU1pPMnk5cnlyWTU0MW1OZHI1UFFxc2NqWHNQZU15N2xORVNVZHJqWnI4RlIyRmRCY1Fqa1NkcnfSAZACQVVfeXFMTmFaWEEtbnFRMkdnbDZXZ1AxVmcyN1hRZUl6U3F2Y3JWeTNIeEVINVBkeDBoZVloV0lvdGd6QTVhcmtURDBhbm52TlFmdWw3ckNTLWNISW1rZ2NUeV92UXowRXN5UlJ3SHNyU0hJN1VoZXRkN2Jxd0w1QVFZRExIS3RtN2VMdVZlWHAtbFN6YXlfdHktdEt1eVFnZl8xaXhSZVI4NlpkNlFBbzJBUWZ3LXpBUU5Pb3hpT2Z4T3FUdHM0RkVJR1hveVpYSmxLS3Zya3NQYV9HNG5FSHVSbjVTOTR1MVl1c1dwOWc5QkUxZWVnN1JjQ1JtN1RSNUFXYktsMHhlTXNpTG92THNSUk1iYUc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ3JQOE1pcXpMR3VvZjE5YXcxMjVzQUpoOUxORUtFZjJYaTJZamV5VmVpbVgyMnFRVWVZVWw2bHk1ZnJFa2VVY25EdzQtcDA4cTNYbXpfaWRYYjVNbm14N3ZrUkRiQkk2TXUwZTdScTEwcDlwYWFGOVRaR19ORndMUzRtNThiSEZvT2hJcWpzc21uOVFPTHQ1TGxpQTdBQk5GQ3AyZ0Q4WklJVkgzUjM0OURVbnJoLUU3eWp1cVdINnNkWVF1WWpUQ2lQbjJYbkJrcU9SU1pPMnk5cnlyWTU0MW1OZHI1UFFxc2NqWHNQZU15N2xORVNVZHJqWnI4RlIyRmRCY1Fqa1NkcnfSAZACQVVfeXFMTmFaWEEtbnFRMkdnbDZXZ1AxVmcyN1hRZUl6U3F2Y3JWeTNIeEVINVBkeDBoZVloV0lvdGd6QTVhcmtURDBhbm52TlFmdWw3ckNTLWNISW1rZ2NUeV92UXowRXN5UlJ3SHNyU0hJN1VoZXRkN2Jxd0w1QVFZRExIS3RtN2VMdVZlWHAtbFN6YXlfdHktdEt1eVFnZl8xaXhSZVI4NlpkNlFBbzJBUWZ3LXpBUU5Pb3hpT2Z4T3FUdHM0RkVJR1hveVpYSmxLS3Zya3NQYV9HNG5FSHVSbjVTOTR1MVl1c1dwOWc5QkUxZWVnN1JjQ1JtN1RSNUFXYktsMHhlTXNpTG92THNSUk1iYUc?oc=5",
-      "source": "The Times of India",
-      "category": "India",
-      "publishedAt": "2026-11-13T11:44:01Z"
-    },
-    {
-      "id": "3d3bbba546b3cb843e4f",
-      "title": "School assembly news headlines for 14th November 2026: Top Indian, International, Sports and Business News - Education Times",
-      "description": "School assembly news headlines for 14th November 2026: Top Indian, International, Sports and Business News Education Times",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQa3Q0bjZFeExfOWRLVjNrMkpFTElqcjNXOEZWeG9OWE9VYzJYbEhpU0tFY1dVMjJ4bmhWZ2xyWUw0cVdRTkFSZ2lBQ1NUZ0E1VTc3MTFiQlF3UTVmZlRZb3VoVXoxSmVNN3NRT1dRN3gyM2JaOExQeGMwTm9WZndFM1BLalhuRV9hcWhJb19RM2Fzd1lGZG9jTUswUkxwSUZXcm5FQ2QxMkwzeG4wdFFvc0R4MjNGaXJweTAwTXhwYlJnR3d5czAxZXJHd2c3XzBnd1dvdkVVV2l5MmpleW9uQVYyM0xYQWRXU1NoS2p6Q3BmNU9MaUJTbg?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQa3Q0bjZFeExfOWRLVjNrMkpFTElqcjNXOEZWeG9OWE9VYzJYbEhpU0tFY1dVMjJ4bmhWZ2xyWUw0cVdRTkFSZ2lBQ1NUZ0E1VTc3MTFiQlF3UTVmZlRZb3VoVXoxSmVNN3NRT1dRN3gyM2JaOExQeGMwTm9WZndFM1BLalhuRV9hcWhJb19RM2Fzd1lGZG9jTUswUkxwSUZXcm5FQ2QxMkwzeG4wdFFvc0R4MjNGaXJweTAwTXhwYlJnR3d5czAxZXJHd2c3XzBnd1dvdkVVV2l5MmpleW9uQVYyM0xYQWRXU1NoS2p6Q3BmNU9MaUJTbg?oc=5",
-      "source": "Education Times",
-      "category": "World",
-      "publishedAt": "2026-11-13T11:26:00Z"
-    },
-    {
-      "id": "8f8fe4a40382863b2ac8",
-      "title": "South Africa President urges renewed commitment to international rule of law - Tripura Chronicle",
-      "description": "South Africa President urges renewed commitment to international rule of law Tripura Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ3lybWtSRXpyNU9PLUZ3b3pOZ2tEemI3TV80WXV0cGZ1Uk9ERkptOGtzbURVenkzWjZsMkhacXZIWEphWHNjWk16UFI5U0pCejg3T19QYVowZ2xtZHFGQkxCbjlzRmFxd1F6S012dGMzWUlyMHFMS1B3T2plTHJQVm1uNzRhbFJWSGRpZElJSUFhMWMyWmNLSjl1N253WkNiWTV2VXlxRVJ2dE0tQjI1b0tRVnd5YVk?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ3lybWtSRXpyNU9PLUZ3b3pOZ2tEemI3TV80WXV0cGZ1Uk9ERkptOGtzbURVenkzWjZsMkhacXZIWEphWHNjWk16UFI5U0pCejg3T19QYVowZ2xtZHFGQkxCbjlzRmFxd1F6S012dGMzWUlyMHFMS1B3T2plTHJQVm1uNzRhbFJWSGRpZElJSUFhMWMyWmNLSjl1N253WkNiWTV2VXlxRVJ2dE0tQjI1b0tRVnd5YVk?oc=5",
-      "source": "Tripura Chronicle",
-      "category": "World",
-      "publishedAt": "2026-11-13T11:12:49Z"
-    },
-    {
-      "id": "63307412f26303436db3",
-      "title": "Global Oil Market Set to Return to Surplus as Gulf Exports Recover, IEA Says - WSJ",
-      "description": "Global Oil Market Set to Return to Surplus as Gulf Exports Recover, IEA Says WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQVljaDkwUzhILVlYVTR6aFdubUJxUV9xMURUOWpaVkpmejFYcXZCOGUyYUlKZDhMVzJkNF9idTIyOVI4OGtMdWJiMlhVN1VKUV9qX181SUs0azJ6S2wyR2hBY3Q0cU5NaXlXaUZodFJBTFlXRjdtRkVmVGFBWFBhTTlFNWRWaUxtSF9RREF2YUluNkZyVFlybW14RlBPRFFJcFFiN3R6em84MXdKT0w0amJpSDlRbnEyYmExQ3VDVGljdw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQVljaDkwUzhILVlYVTR6aFdubUJxUV9xMURUOWpaVkpmejFYcXZCOGUyYUlKZDhMVzJkNF9idTIyOVI4OGtMdWJiMlhVN1VKUV9qX181SUs0azJ6S2wyR2hBY3Q0cU5NaXlXaUZodFJBTFlXRjdtRkVmVGFBWFBhTTlFNWRWaUxtSF9RREF2YUluNkZyVFlybW14RlBPRFFJcFFiN3R6em84MXdKT0w0amJpSDlRbnEyYmExQ3VDVGljdw?oc=5",
-      "source": "WSJ",
-      "category": "World",
-      "publishedAt": "2026-11-13T09:40:00Z"
     }
   ],
-  "lastUpdated": "2026-11-19T19:25:09Z",
-  "updatedAt": "2026-11-19T19:25:09Z"
+  "lastUpdated": "2026-11-20T01:25:04Z",
+  "updatedAt": "2026-11-20T01:25:04Z"
 }
