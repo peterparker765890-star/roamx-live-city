@@ -240,47 +240,100 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-20T23:48:27Z",
-    "lastSuccessfulRun": "2026-11-20T23:48:27Z",
-    "lastUpdated": "2026-11-20T23:48:27Z",
-    "articlesAdded": 15,
+    "lastRun": "2026-11-21T06:18:59Z",
+    "lastSuccessfulRun": "2026-11-21T06:18:59Z",
+    "lastUpdated": "2026-11-21T06:18:59Z",
+    "articlesAdded": 8,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 41,
+    "duplicatesRemoved": 51,
     "failedSources": [],
     "newArticleIds": [
-      "9a162a598c686c70e3c2",
-      "1dc94d47ee34946bd2dc",
-      "a5ff50dedd8816f77d31",
-      "de7154e0278bf0956d34",
-      "d00b345b4a8fff9a3b48",
-      "0901fae63b94c0f0edf3",
-      "1085a71375eb7415deb7",
-      "d1cca483a75d3a87a567",
-      "2e32a4adc4a79cb1affc",
-      "15e800987f00f24483ad",
-      "64dfbdac2ef89da68672",
-      "b80795181038ae2c8365",
-      "c878b91e52c0509eac37",
-      "dc160308c3663b38985d",
-      "828f9caf46e75080d112"
+      "cd458346413c72fb143e",
+      "52128c80ff8736ae2671",
+      "9e8747f87239c313013e",
+      "1bd43f1fae9e326e4893",
+      "64fbb8364c819e243167",
+      "8a74af34bcffb6e63a93",
+      "14ff39c6ed0b8a8a74ea",
+      "428ef2c1420f53ce1ef6"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 15,
+    "articlesRemoved": 8,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 190,
+      "World": 189,
       "India": 26,
       "Technology": 20,
-      "Environment": 54,
-      "Disaster": 10
+      "Environment": 56,
+      "Disaster": 9
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "d1dc9bd26ec9c71e08e6",
+      "title": "Weekend weather: SA braces for severe thunderstorms, flooding and damaging winds as Orange Level 5 warning issued - IOL",
+      "description": "Weekend weather: SA braces for severe thunderstorms, flooding and damaging winds as Orange Level 5 warning issued IOL",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNnJoTE9jS1FsSHlObEdLMlBFZGlLOXczQU93T2ZqMWxWMEM3cGdHS1BXMkZRdGtDRHBzMlFRR3JMRk5uSWNkNG0tRkw3SkVOMjdVdW5rcl8zUUhZUWJWVXZ2aVg5bVhCTHctbTBDb2t4cHU3bG5abUhtdjN6Ymx6Sk9oWnRFS3E2Z1RDcHJOcWNkT213d0czcERTOTBMTFhKcXJJck5kbVBfaENtekxHSGlMOTliaDVDU1prUXNRWDJFMHBuMDZsRm10YzNjUE1VcDZFdFFiMUJoRk1XUnRZNUgtdFlqamczZGc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNnJoTE9jS1FsSHlObEdLMlBFZGlLOXczQU93T2ZqMWxWMEM3cGdHS1BXMkZRdGtDRHBzMlFRR3JMRk5uSWNkNG0tRkw3SkVOMjdVdW5rcl8zUUhZUWJWVXZ2aVg5bVhCTHctbTBDb2t4cHU3bG5abUhtdjN6Ymx6Sk9oWnRFS3E2Z1RDcHJOcWNkT213d0czcERTOTBMTFhKcXJJck5kbVBfaENtekxHSGlMOTliaDVDU1prUXNRWDJFMHBuMDZsRm10YzNjUE1VcDZFdFFiMUJoRk1XUnRZNUgtdFlqamczZGc?oc=5",
+      "source": "IOL",
+      "category": "Disaster",
+      "publishedAt": "2026-11-21T05:57:21Z"
+    },
+    {
+      "id": "cd458346413c72fb143e",
+      "title": "India’s Environmental Crisis Puts Public Health At Risk - WE News English",
+      "description": "India’s Environmental Crisis Puts Public Health At Risk WE News English",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMUZ4bHZ5WkFDTmFLSU5MZ2FkVjM2d1hHWWU4a2t0MS13MnVNRDdySWFjVktDM29wUlljOWQ0QjhkcWhSblhCREFJTmdybGlOOUVZdUppd2dZZURSakMtQ19pNDVJM0F2WVFlREUtejV3R2ZrZnVEc2FxY3NVbnJhaFVzTWx3cF9k?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMUZ4bHZ5WkFDTmFLSU5MZ2FkVjM2d1hHWWU4a2t0MS13MnVNRDdySWFjVktDM29wUlljOWQ0QjhkcWhSblhCREFJTmdybGlOOUVZdUppd2dZZURSakMtQ19pNDVJM0F2WVFlREUtejV3R2ZrZnVEc2FxY3NVbnJhaFVzTWx3cF9k?oc=5",
+      "source": "WE News English",
+      "category": "Environment",
+      "publishedAt": "2026-11-21T04:30:33Z"
+    },
+    {
+      "id": "52128c80ff8736ae2671",
+      "title": "Climate change meet at WCC calls for more awareness, research, community-driven action - DT Next",
+      "description": "Climate change meet at WCC calls for more awareness, research, community-driven action DT Next",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaTVDZVF3NWt1dXdrMmdPLUxYbGxiMkd2RXpTRC13U1NnRUFoOFRleEFMdXR6eVRMOE9sWm9uYWtxYmctblpzWm5WSGNrMTdUZjRsMlNMZGJERFJQZmJhbmpzQ3YzYUdPX1pYTUVKd1Rhc3Y5ejZFWVVqb1ZOSV9EUkpvNDRUSWhrOElZc3RWdzdleGJFNFZFQ3B1MmVOdzlKeFJBcV8zbjdxR3BkMlkzU3NyQzNmYTdiaXVj0gHIAUFVX3lxTE96aUJuZTNYT0pzcmRjOVhsRTZQcVhvcHVYWXBlc2ZrNC1YNUxWQ01kdWlod3hEdkREYi12bjFNQkdmZmNZaGU1YkpQUEEycjdjTVc3cjdENHgtOHNITWl0bW9leGVoT2U2QkJaTmNYdFhFVHdwX3dJQXh5eUItN2ZqOHJzbHdESU4tZk94VFBkN2JTMGdVT21ENllremlQVnFwb1lDbXhzSjlnbnBIM2YxaTVMN05LTVpOajZDUUFTNnlkZGducktE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaTVDZVF3NWt1dXdrMmdPLUxYbGxiMkd2RXpTRC13U1NnRUFoOFRleEFMdXR6eVRMOE9sWm9uYWtxYmctblpzWm5WSGNrMTdUZjRsMlNMZGJERFJQZmJhbmpzQ3YzYUdPX1pYTUVKd1Rhc3Y5ejZFWVVqb1ZOSV9EUkpvNDRUSWhrOElZc3RWdzdleGJFNFZFQ3B1MmVOdzlKeFJBcV8zbjdxR3BkMlkzU3NyQzNmYTdiaXVj0gHIAUFVX3lxTE96aUJuZTNYT0pzcmRjOVhsRTZQcVhvcHVYWXBlc2ZrNC1YNUxWQ01kdWlod3hEdkREYi12bjFNQkdmZmNZaGU1YkpQUEEycjdjTVc3cjdENHgtOHNITWl0bW9leGVoT2U2QkJaTmNYdFhFVHdwX3dJQXh5eUItN2ZqOHJzbHdESU4tZk94VFBkN2JTMGdVT21ENllremlQVnFwb1lDbXhzSjlnbnBIM2YxaTVMN05LTVpOajZDUUFTNnlkZGducktE?oc=5",
+      "source": "DT Next",
+      "category": "Environment",
+      "publishedAt": "2026-11-21T01:59:08Z"
+    },
+    {
+      "id": "9e8747f87239c313013e",
+      "title": "China Adopts Unified Ecological Code Integrating Thirty Environmental Laws - Bioengineer.org",
+      "description": "China Adopts Unified Ecological Code Integrating Thirty Environmental Laws Bioengineer.org",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQjdtdGZvXzJTTXNSbHlYci1tMW5OTHU5Z3psNEtzVG81VVVEWkpsRUFCNjdIbU9fTVphaG5LNEJCekp5UFlTeVl5RDZFUzA0bXh6dFRyM3UtNS1ORl9Zc3pfWHRVX3pjQ3Q4NUZ3T3pxWW1QMEdVOU1TR3RaOEVfODc5T2NUZUlMbVFGLWFsMWpoU2gwRVNYc3lhLTdoXzF6?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQjdtdGZvXzJTTXNSbHlYci1tMW5OTHU5Z3psNEtzVG81VVVEWkpsRUFCNjdIbU9fTVphaG5LNEJCekp5UFlTeVl5RDZFUzA0bXh6dFRyM3UtNS1ORl9Zc3pfWHRVX3pjQ3Q4NUZ3T3pxWW1QMEdVOU1TR3RaOEVfODc5T2NUZUlMbVFGLWFsMWpoU2gwRVNYc3lhLTdoXzF6?oc=5",
+      "source": "Bioengineer.org",
+      "category": "Environment",
+      "publishedAt": "2026-11-21T01:06:08Z"
+    },
+    {
+      "id": "1bd43f1fae9e326e4893",
+      "title": "The world did not witness Yalta 2.0 in Shenzhen: ASEAN, the East Asia Summit and APEC remain closely connected - Awani International",
+      "description": "The world did not witness Yalta 2.0 in Shenzhen: ASEAN, the East Asia Summit and APEC remain closely connected Awani International",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ2xhMkR0LTJaSTVkTTF0VnhnMlZYT05Ec2JDMWQ5Z3BKZEF5b0lmcS1wUzhiNzg2bHBYU1c4dTFCbi1PRXNwY0poaWVKanY5bzJUUUlvWWlzRjluOEptT1BkbkZUNHN5eHQ0eDl6dHltVXRZZ0tvMi03N016cmZ2aHNZQ3ptemptQW9VUHdsTVRoa3ZPVHZ0aUVuMXZBX3FfVHFLY0t5OTJyOTZuNHhGZXVSZkRLRkZvS1hDc3huTVFydEVCbWxKWVdteHZDSTJPa0pMV0xUeDFnT3NRRkE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ2xhMkR0LTJaSTVkTTF0VnhnMlZYT05Ec2JDMWQ5Z3BKZEF5b0lmcS1wUzhiNzg2bHBYU1c4dTFCbi1PRXNwY0poaWVKanY5bzJUUUlvWWlzRjluOEptT1BkbkZUNHN5eHQ0eDl6dHltVXRZZ0tvMi03N016cmZ2aHNZQ3ptemptQW9VUHdsTVRoa3ZPVHZ0aUVuMXZBX3FfVHFLY0t5OTJyOTZuNHhGZXVSZkRLRkZvS1hDc3huTVFydEVCbWxKWVdteHZDSTJPa0pMV0xUeDFnT3NRRkE?oc=5",
+      "source": "Awani International",
+      "category": "World",
+      "publishedAt": "2026-11-21T00:33:14Z"
+    },
+    {
+      "id": "64fbb8364c819e243167",
+      "title": "World leaders gather in Halifax for international security forum - CTV News",
+      "description": "World leaders gather in Halifax for international security forum CTV News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZFJZQ04xM1g1d2RVUW9yYXI2bklKemFhZWdUd2g5RlFac3h2THR3LWNIZWUtZjRmbkY2bUx6R3BuUF9NSGJGNFZXT001SW1EdGR5XzdEenBFMzgtVkNkb3MxUmJZZFJDMVNzeFctLVdVN2VYR29hVlFVM2ZoZ1pPNFRwRlFkdWh1V0tVT1V6cXRZdHowb3RLLTFZMTZkYk9xMXJYNndB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZFJZQ04xM1g1d2RVUW9yYXI2bklKemFhZWdUd2g5RlFac3h2THR3LWNIZWUtZjRmbkY2bUx6R3BuUF9NSGJGNFZXT001SW1EdGR5XzdEenBFMzgtVkNkb3MxUmJZZFJDMVNzeFctLVdVN2VYR29hVlFVM2ZoZ1pPNFRwRlFkdWh1V0tVT1V6cXRZdHowb3RLLTFZMTZkYk9xMXJYNndB?oc=5",
+      "source": "CTV News",
+      "category": "World",
+      "publishedAt": "2026-11-21T00:30:00Z"
+    },
     {
       "id": "9a162a598c686c70e3c2",
       "title": "A world of welcome: International Education Week at Bates - Bates College",
@@ -422,6 +475,16 @@
       "publishedAt": "2026-11-20T15:25:00Z"
     },
     {
+      "id": "8a74af34bcffb6e63a93",
+      "title": "Karnataka to set up India’s first govt sports technology centre with Amagi in Bengaluru - ET Government",
+      "description": "Karnataka to set up India’s first govt sports technology centre with Amagi in Bengaluru ET Government",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVnJoSlhJWjZ4TUJ1dC1GeVFBaDZMdDRNYi1zUXhFOEtQRTAxWnI0cnZZU2dwVjhQWFNBb0k0YmlKcDE3VWNjS0RXTi0zQU10WDVsUFVtS3Bpc3hKYzl5LXVxcWlnRF9ZVk50Yjh2MjJtdHlEenB5V0xXMnFmT2dyVURZbG9zdl9KQk54cDV2SFNDOXhZc09XN0RseUM1RENBQTk4Zk9sSTJDZGtjWmZfaEstckcxY0t6SzVqd1MxSEh3WlREUnFqZTc5alZ5Y0JfTG5pSWdJS1FxN3ZtcEtObkl1OTdUcUU5WndQY1Ewc29SUdIB9gFBVV95cUxPbDNkLXYyaU9UZ3U2ekdTVmd3YVBjMnhBLXdYeFhDdWd1dFU0OG5KNDJjbWNyOWg2QWdJUkJvMzdHZ2pFYzFoVzRxLVI0dFJpdXZzdWcxZHI1TUIta1hXc2M1VGx4QXJNU0pxb1VBYWY3eUdCb3g0bUgtcXVxSlQ2U2lUcElmdzVVbGc4b3YteW15eEk3OXpyRGFiRG1FUEh2LUhLVXRKR2FOMEEzajFyRExzcUxZSlUtVUlGQl9HX2g4cW9TOVpCcnNvOE5sTjI0NmF6ak1TclIyRHV4NWdxT2VHLVNDTWNkY2gyZ21BclB6Z3V0RXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOVnJoSlhJWjZ4TUJ1dC1GeVFBaDZMdDRNYi1zUXhFOEtQRTAxWnI0cnZZU2dwVjhQWFNBb0k0YmlKcDE3VWNjS0RXTi0zQU10WDVsUFVtS3Bpc3hKYzl5LXVxcWlnRF9ZVk50Yjh2MjJtdHlEenB5V0xXMnFmT2dyVURZbG9zdl9KQk54cDV2SFNDOXhZc09XN0RseUM1RENBQTk4Zk9sSTJDZGtjWmZfaEstckcxY0t6SzVqd1MxSEh3WlREUnFqZTc5alZ5Y0JfTG5pSWdJS1FxN3ZtcEtObkl1OTdUcUU5WndQY1Ewc29SUdIB9gFBVV95cUxPbDNkLXYyaU9UZ3U2ekdTVmd3YVBjMnhBLXdYeFhDdWd1dFU0OG5KNDJjbWNyOWg2QWdJUkJvMzdHZ2pFYzFoVzRxLVI0dFJpdXZzdWcxZHI1TUIta1hXc2M1VGx4QXJNU0pxb1VBYWY3eUdCb3g0bUgtcXVxSlQ2U2lUcElmdzVVbGc4b3YteW15eEk3OXpyRGFiRG1FUEh2LUhLVXRKR2FOMEEzajFyRExzcUxZSlUtVUlGQl9HX2g4cW9TOVpCcnNvOE5sTjI0NmF6ak1TclIyRHV4NWdxT2VHLVNDTWNkY2gyZ21BclB6Z3V0RXc?oc=5",
+      "source": "ET Government",
+      "category": "India",
+      "publishedAt": "2026-11-20T15:02:15Z"
+    },
+    {
       "id": "6727ae23184a9d6def50",
       "title": "Key International Summits, Diplomatic Talks, and Geopolitical Shifts Shaping Our World - News Talk Florida",
       "description": "Key International Summits, Diplomatic Talks, and Geopolitical Shifts Shaping Our World News Talk Florida",
@@ -472,6 +535,16 @@
       "publishedAt": "2026-11-20T13:54:33Z"
     },
     {
+      "id": "14ff39c6ed0b8a8a74ea",
+      "title": "President Murmu calls for One Health approach, urges collaboration between human, animal and environmental health experts - DD News",
+      "description": "President Murmu calls for One Health approach, urges collaboration between human, animal and environmental health experts DD News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNblRsZGowd3BtRmNZMS1hbW1ZbnNSenhPM1ZFWWpuSUxkU2FPbFdmV1F1dW4zSTBvZ3RSRGh3MlJYMzROWkl0bzdySkZMNlVnaHBGVGlZUm13UG4ySFN0amRuVEdVdTYxM0hnVVV1Tll4QlJ3dXVlLTJmTWx3MDlCeVgtaG1uYVoyN21xRE50cThrZmoxRGZqS2c0ZnRFemNrWjQ2MHJSX19GVzJfNlBUNWFDM0dRRmFfNjI4YzdURC0zVzNudTJ5bWx6TXlLY25Qd3IyQVpjX0NRNTVvQVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNblRsZGowd3BtRmNZMS1hbW1ZbnNSenhPM1ZFWWpuSUxkU2FPbFdmV1F1dW4zSTBvZ3RSRGh3MlJYMzROWkl0bzdySkZMNlVnaHBGVGlZUm13UG4ySFN0amRuVEdVdTYxM0hnVVV1Tll4QlJ3dXVlLTJmTWx3MDlCeVgtaG1uYVoyN21xRE50cThrZmoxRGZqS2c0ZnRFemNrWjQ2MHJSX19GVzJfNlBUNWFDM0dRRmFfNjI4YzdURC0zVzNudTJ5bWx6TXlLY25Qd3IyQVpjX0NRNTVvQVE?oc=5",
+      "source": "DD News",
+      "category": "Environment",
+      "publishedAt": "2026-11-20T13:50:30Z"
+    },
+    {
       "id": "96ea9966c55899994dac",
       "title": "Environmental and material implications of global climate mitigation pathways - Nature",
       "description": "Environmental and material implications of global climate mitigation pathways Nature",
@@ -490,16 +563,6 @@
       "source": "DD News",
       "category": "Environment",
       "publishedAt": "2026-11-20T11:10:27Z"
-    },
-    {
-      "id": "2768e5b25b4f0efcb2fc",
-      "title": "Karnataka to set up India’s first govt sports technology centre with Amagi in Bengaluru - ET Government",
-      "description": "Karnataka to set up India’s first govt sports technology centre with Amagi in Bengaluru ET Government",
-      "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPUEZ3SWVCS1pieFFWSTN3dDRXbXM2VmhITUQ4V3Exa2VNTm4zMktPRUJLNnhMSHRsRlR0U1VSMVg0aWdOUE9ULUJkbklHTGtfQTE4Mk56cEw4YWt4NTFnQ0FJVWdhZURUZ2ZhSEU5VFdSbTZjb1FDTzh1QWhTVnMwNTcxeGM0TTlZRDFQZEE2Y1U1WGpKREhaaTBVZEdGRXFmWHBFZkFkdzMwVDlDY3BESDVRWTNDblB0VG1DQU1zaTBNYnNtcmV4TkxrdEU0U05HVzRUS1pkUWJOX1R3U0p5bmhsbmF3Y2lJd3JVcmpLeWRveVhUNC1aWWZOSEphUHRJWmluQnVQWTU2RERvNXQxdmRxZmZpYmEyd0RsU2ZlWk44SWFHeXVvNThuc9IB9gFBVV95cUxPbDNkLXYyaU9UZ3U2ekdTVmd3YVBjMnhBLXdYeFhDdWd1dFU0OG5KNDJjbWNyOWg2QWdJUkJvMzdHZ2pFYzFoVzRxLVI0dFJpdXZzdWcxZHI1TUIta1hXc2M1VGx4QXJNU0pxb1VBYWY3eUdCb3g0bUgtcXVxSlQ2U2lUcElmdzVVbGc4b3YteW15eEk3OXpyRGFiRG1FUEh2LUhLVXRKR2FOMEEzajFyRExzcUxZSlUtVUlGQl9HX2g4cW9TOVpCcnNvOE5sTjI0NmF6ak1TclIyRHV4NWdxT2VHLVNDTWNkY2gyZ21BclB6Z3V0RXc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPUEZ3SWVCS1pieFFWSTN3dDRXbXM2VmhITUQ4V3Exa2VNTm4zMktPRUJLNnhMSHRsRlR0U1VSMVg0aWdOUE9ULUJkbklHTGtfQTE4Mk56cEw4YWt4NTFnQ0FJVWdhZURUZ2ZhSEU5VFdSbTZjb1FDTzh1QWhTVnMwNTcxeGM0TTlZRDFQZEE2Y1U1WGpKREhaaTBVZEdGRXFmWHBFZkFkdzMwVDlDY3BESDVRWTNDblB0VG1DQU1zaTBNYnNtcmV4TkxrdEU0U05HVzRUS1pkUWJOX1R3U0p5bmhsbmF3Y2lJd3JVcmpLeWRveVhUNC1aWWZOSEphUHRJWmluQnVQWTU2RERvNXQxdmRxZmZpYmEyd0RsU2ZlWk44SWFHeXVvNThuc9IB9gFBVV95cUxPbDNkLXYyaU9UZ3U2ekdTVmd3YVBjMnhBLXdYeFhDdWd1dFU0OG5KNDJjbWNyOWg2QWdJUkJvMzdHZ2pFYzFoVzRxLVI0dFJpdXZzdWcxZHI1TUIta1hXc2M1VGx4QXJNU0pxb1VBYWY3eUdCb3g0bUgtcXVxSlQ2U2lUcElmdzVVbGc4b3YteW15eEk3OXpyRGFiRG1FUEh2LUhLVXRKR2FOMEEzajFyRExzcUxZSlUtVUlGQl9HX2g4cW9TOVpCcnNvOE5sTjI0NmF6ak1TclIyRHV4NWdxT2VHLVNDTWNkY2gyZ21BclB6Z3V0RXc?oc=5",
-      "source": "ET Government",
-      "category": "India",
-      "publishedAt": "2026-11-20T11:00:06Z"
     },
     {
       "id": "4044ae2e322df56b47d2",
@@ -570,16 +633,6 @@
       "source": "The Sun Malaysia",
       "category": "Technology",
       "publishedAt": "2026-11-20T09:06:34Z"
-    },
-    {
-      "id": "d1dc9bd26ec9c71e08e6",
-      "title": "Weekend weather: SA braces for severe thunderstorms, flooding and damaging winds as Orange Level 5 warning issued - IOL",
-      "description": "Weekend weather: SA braces for severe thunderstorms, flooding and damaging winds as Orange Level 5 warning issued IOL",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNnJoTE9jS1FsSHlObEdLMlBFZGlLOXczQU93T2ZqMWxWMEM3cGdHS1BXMkZRdGtDRHBzMlFRR3JMRk5uSWNkNG0tRkw3SkVOMjdVdW5rcl8zUUhZUWJWVXZ2aVg5bVhCTHctbTBDb2t4cHU3bG5abUhtdjN6Ymx6Sk9oWnRFS3E2Z1RDcHJOcWNkT213d0czcERTOTBMTFhKcXJJck5kbVBfaENtekxHSGlMOTliaDVDU1prUXNRWDJFMHBuMDZsRm10YzNjUE1VcDZFdFFiMUJoRk1XUnRZNUgtdFlqamczZGc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNnJoTE9jS1FsSHlObEdLMlBFZGlLOXczQU93T2ZqMWxWMEM3cGdHS1BXMkZRdGtDRHBzMlFRR3JMRk5uSWNkNG0tRkw3SkVOMjdVdW5rcl8zUUhZUWJWVXZ2aVg5bVhCTHctbTBDb2t4cHU3bG5abUhtdjN6Ymx6Sk9oWnRFS3E2Z1RDcHJOcWNkT213d0czcERTOTBMTFhKcXJJck5kbVBfaENtekxHSGlMOTliaDVDU1prUXNRWDJFMHBuMDZsRm10YzNjUE1VcDZFdFFiMUJoRk1XUnRZNUgtdFlqamczZGc?oc=5",
-      "source": "IOL",
-      "category": "Disaster",
-      "publishedAt": "2026-11-20T08:33:56Z"
     },
     {
       "id": "2970959be8667e4e347d",
@@ -660,6 +713,16 @@
       "source": "Latest news from Azerbaijan",
       "category": "Environment",
       "publishedAt": "2026-11-20T05:22:55Z"
+    },
+    {
+      "id": "428ef2c1420f53ce1ef6",
+      "title": "Top UN court finds Myanmar committed genocide against Muslim Rohingya The International Court of Justice or ICJ rules Thursday, November 19, Myanmar committed genocide against Rohingya Muslims in Northern Rakhine State in 2017. Full story: https://w - Facebook",
+      "description": "Top UN court finds Myanmar committed genocide against Muslim Rohingya The International Court of Justice or ICJ rules Thursday, November 19, Myanmar committed genocide against Rohingya Muslims in Northern Rakhine State in 2017. Full story: https://w Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkdzTzFBSmwxdEYwQ1hPdndybEtkaDZYWTE3MTkwRkZGZ0ZVdm1OQkx1dkF3NzF2aldBTXJaZ3hrWERpdWZHNGJlRXA1bXZPSHVudmE3bzEtbkltd2JvNUhCYXBDNjZqWURGZHZvaFpaTnh2dllGbkx3TkZ5VEhZWTVNR0lKNlR5QnJyNkl0Y3hZcm9kREdRM25DRTdLNUREYUpmZ24tV09WVm9GcjE3c2FvdFRfVzM0dUFjZzJhWElGZWxOVVpBeUhxRGVQZnBmQ2o0TTFONGlkVjc5?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkdzTzFBSmwxdEYwQ1hPdndybEtkaDZYWTE3MTkwRkZGZ0ZVdm1OQkx1dkF3NzF2aldBTXJaZ3hrWERpdWZHNGJlRXA1bXZPSHVudmE3bzEtbkltd2JvNUhCYXBDNjZqWURGZHZvaFpaTnh2dllGbkx3TkZ5VEhZWTVNR0lKNlR5QnJyNkl0Y3hZcm9kREdRM25DRTdLNUREYUpmZ24tV09WVm9GcjE3c2FvdFRfVzM0dUFjZzJhWElGZWxOVVpBeUhxRGVQZnBmQ2o0TTFONGlkVjc5?oc=5",
+      "source": "Facebook",
+      "category": "World",
+      "publishedAt": "2026-11-20T04:43:31Z"
     },
     {
       "id": "8156643b63f00efa58a7",
@@ -3210,78 +3273,8 @@
       "source": "Oncodaily",
       "category": "World",
       "publishedAt": "2026-11-14T21:32:35Z"
-    },
-    {
-      "id": "17d3a77ca52355441a84",
-      "title": "Tunis Arab Novel Forum Calls For Stronger Green Literature And Environmental Criticism - Sada Elbalad English",
-      "description": "Tunis Arab Novel Forum Calls For Stronger Green Literature And Environmental Criticism Sada Elbalad English",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdlJqX1lDaDBaS0N5dXVSdmQ4b0I3V1VFUGpkOHBlSzZCQUxQZnB4RW91TUxpc2dJcVhpa0FJLS1LaGtwR2hWSW9kblNpYVpRc0F4dUZKZDltX2J4dDE1QUpkSXY1eHF0Z0E2NHU5czZEa0w3Y29ZMHZyRmNCQTBVX002MjUxLUFmcjBnOENBLWVNdGhPV2k3dklxMnlNTGlkbDBYYjNR?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdlJqX1lDaDBaS0N5dXVSdmQ4b0I3V1VFUGpkOHBlSzZCQUxQZnB4RW91TUxpc2dJcVhpa0FJLS1LaGtwR2hWSW9kblNpYVpRc0F4dUZKZDltX2J4dDE1QUpkSXY1eHF0Z0E2NHU5czZEa0w3Y29ZMHZyRmNCQTBVX002MjUxLUFmcjBnOENBLWVNdGhPV2k3dklxMnlNTGlkbDBYYjNR?oc=5",
-      "source": "Sada Elbalad English",
-      "category": "Environment",
-      "publishedAt": "2026-11-14T20:45:46Z"
-    },
-    {
-      "id": "99f53b68b64549100870",
-      "title": "French protesters chant against inflation and police - International - World - Ahram Online",
-      "description": "French protesters chant against inflation and police - International - World Ahram Online",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcC1ZNGRsM1kyckdCV1M2V3VNWkJnT0NsMW16cnVYZ2lLeHFrWGdhbk1vMk0wbm1fT0M2UmxGaVVaMGt6VmpOdG5la09lbVBBR1pFZ0pDNGFaQTliWWVfWEN2aEVZSFVwTk9udXJxZXJnN0otV2htUEpUajdJVHU2OWxjUVE1cDgwUmhzd1JkcmRlUy1VWk92ejRDODRWNHhyUUVCZHRKUlEzYUVSbU9OWWpQalptRzVtcTk2WVRLMmVsbU5meFE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcC1ZNGRsM1kyckdCV1M2V3VNWkJnT0NsMW16cnVYZ2lLeHFrWGdhbk1vMk0wbm1fT0M2UmxGaVVaMGt6VmpOdG5la09lbVBBR1pFZ0pDNGFaQTliWWVfWEN2aEVZSFVwTk9udXJxZXJnN0otV2htUEpUajdJVHU2OWxjUVE1cDgwUmhzd1JkcmRlUy1VWk92ejRDODRWNHhyUUVCZHRKUlEzYUVSbU9OWWpQalptRzVtcTk2WVRLMmVsbU5meFE?oc=5",
-      "source": "Ahram Online",
-      "category": "World",
-      "publishedAt": "2026-11-14T20:19:41Z"
-    },
-    {
-      "id": "73ec054144f997f950d0",
-      "title": "November international break: How PSG players fared on the international stage - LiveScore",
-      "description": "November international break: How PSG players fared on the international stage LiveScore",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbUxYUTFpb3Q4TzNidjlIVHVNemo3MnNmX1NhZGtaSWJ3bEppbklHRnJJYUFhcFEtbXJrUF9La3R6aFRtQVJSUmJCTDFlOWNPTmhEZVZKTk1SbXRDc3JjLTJLdWlfTzR6azBuN1hyaFFkdU93N0U5LU91YUhhdnhCa0d4SkhCSUgwcTNGdWxNaUN4YnNhcEJncW9BTGotVTF4cFp1Qlg3M2U5VlI0blpnYkRPbklJLWtZeXFSQVVkeWlBUEZZcUQyV2lWMFN0QXpDNmE3c0JTeTVTdnBXNEE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbUxYUTFpb3Q4TzNidjlIVHVNemo3MnNmX1NhZGtaSWJ3bEppbklHRnJJYUFhcFEtbXJrUF9La3R6aFRtQVJSUmJCTDFlOWNPTmhEZVZKTk1SbXRDc3JjLTJLdWlfTzR6azBuN1hyaFFkdU93N0U5LU91YUhhdnhCa0d4SkhCSUgwcTNGdWxNaUN4YnNhcEJncW9BTGotVTF4cFp1Qlg3M2U5VlI0blpnYkRPbklJLWtZeXFSQVVkeWlBUEZZcUQyV2lWMFN0QXpDNmE3c0JTeTVTdnBXNEE?oc=5",
-      "source": "LiveScore",
-      "category": "World",
-      "publishedAt": "2026-11-14T19:24:13Z"
-    },
-    {
-      "id": "c78575e7d8a604a70018",
-      "title": "Kenya seeks stronger environmental and social safeguards as development expands - KBC Digital",
-      "description": "Kenya seeks stronger environmental and social safeguards as development expands KBC Digital",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYWJKcWRtYmdmdlNkckZVb0FvUmVocDRMZGltb2ZkdmZEekhFakNYZU5KMWZMWlNxMW95LURIeFRjMHg0aWdCa1FaRnBSNVlMTlhwazlmVlRCd2NqNlpLcmZ6blZJZTRIekNBV2hhQ21QY0FjaXhEY1NySTB3MzR0XzBkVEZXOGdrVG1KekNYSnZFazFwVm5UZWFTWVdUTTIzeFUtdQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYWJKcWRtYmdmdlNkckZVb0FvUmVocDRMZGltb2ZkdmZEekhFakNYZU5KMWZMWlNxMW95LURIeFRjMHg0aWdCa1FaRnBSNVlMTlhwazlmVlRCd2NqNlpLcmZ6blZJZTRIekNBV2hhQ21QY0FjaXhEY1NySTB3MzR0XzBkVEZXOGdrVG1KekNYSnZFazFwVm5UZWFTWVdUTTIzeFUtdQ?oc=5",
-      "source": "KBC Digital",
-      "category": "Environment",
-      "publishedAt": "2026-11-14T16:01:14Z"
-    },
-    {
-      "id": "6f683deb2d9a26b88c7c",
-      "title": "Czechia and 8 EU countries call for stricter family reunification rules — Radio Prague International - UA.NEWS",
-      "description": "Czechia and 8 EU countries call for stricter family reunification rules — Radio Prague International UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ3VLYWdYcGM1dEJPTUpMd0hpdGUwX25Hb0lVVVpoTVlWYWRtM2Y1Nk5YQUE2dVVOdWRkV2YxWlVWdWVRczRDajNXR3A2aDF5anZicGo2VkRYaVJqYklOeEgzaElrQUh4YmFORzJTSnBpR1F3SEtyVEhlSnVwejFlWDNXaGlGejlPSHc1bHU1alR2RjIwUmFIWVkwZGxwdjdqZVd2VXpKVUFSaGtUZ21xT2M1MUdxNVo3eWxXeHRGOUlVMXJ0bHd1SWFR?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ3VLYWdYcGM1dEJPTUpMd0hpdGUwX25Hb0lVVVpoTVlWYWRtM2Y1Nk5YQUE2dVVOdWRkV2YxWlVWdWVRczRDajNXR3A2aDF5anZicGo2VkRYaVJqYklOeEgzaElrQUh4YmFORzJTSnBpR1F3SEtyVEhlSnVwejFlWDNXaGlGejlPSHc1bHU1alR2RjIwUmFIWVkwZGxwdjdqZVd2VXpKVUFSaGtUZ21xT2M1MUdxNVo3eWxXeHRGOUlVMXJ0bHd1SWFR?oc=5",
-      "source": "UA.NEWS",
-      "category": "World",
-      "publishedAt": "2026-11-14T14:49:59Z"
-    },
-    {
-      "id": "a0da18da8a6c2fc2c1c6",
-      "title": "Global Safety Net: Major Jewish Organizations Launch International Crisis Response Unit - Jewish Post and News",
-      "description": "Global Safety Net: Major Jewish Organizations Launch International Crisis Response Unit Jewish Post and News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOFAxVVZ6UUlTSndsdnRYdGtua2hlMnVvZ1ZPbUFNXzNnME0xZ1JmNkVFa0doc3U1RzYwZVBJZjdZQWVUbi04Qy1uRWpFcG4zSXc4ZHg4cDAxc1RDWGZFZ1pzYUg4TUhNZHVPSHVETHJtb2JWbkJNZlY2cUVFTGN5d1ozeTk0Y3hWV0ZjZXpGaVVqaFk0cDEwOHpIVWZFNWJ6ajZpaU1JYw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOFAxVVZ6UUlTSndsdnRYdGtua2hlMnVvZ1ZPbUFNXzNnME0xZ1JmNkVFa0doc3U1RzYwZVBJZjdZQWVUbi04Qy1uRWpFcG4zSXc4ZHg4cDAxc1RDWGZFZ1pzYUg4TUhNZHVPSHVETHJtb2JWbkJNZlY2cUVFTGN5d1ozeTk0Y3hWV0ZjZXpGaVVqaFk0cDEwOHpIVWZFNWJ6ajZpaU1JYw?oc=5",
-      "source": "Jewish Post and News",
-      "category": "World",
-      "publishedAt": "2026-11-14T14:11:52Z"
-    },
-    {
-      "id": "d4f59d23f2d58c9d68ee",
-      "title": "From heatwave to thunderstorm: Heavy downpours expected in these areas - eNCA",
-      "description": "From heatwave to thunderstorm: Heavy downpours expected in these areas eNCA",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQXdEbWljWDFSdUV2SWRGbnJodmhKMkc2aXBZR0ZlZFF6SlhpanJiTjdCR3VRUFd0MmI2QlZlbUVMWU5PbjZkMVFIdXktTFJueWZwUGQxcUEwMXJldnhaNVZqTEZzWDR5Ql9kX2FpeUtuR3pVUHMwRHdGdU9kaUUyNTZGLUZLaUliTkxsRnVXSzQ1TFp0c3NpYjh2YjI?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQXdEbWljWDFSdUV2SWRGbnJodmhKMkc2aXBZR0ZlZFF6SlhpanJiTjdCR3VRUFd0MmI2QlZlbUVMWU5PbjZkMVFIdXktTFJueWZwUGQxcUEwMXJldnhaNVZqTEZzWDR5Ql9kX2FpeUtuR3pVUHMwRHdGdU9kaUUyNTZGLUZLaUliTkxsRnVXSzQ1TFp0c3NpYjh2YjI?oc=5",
-      "source": "eNCA",
-      "category": "Disaster",
-      "publishedAt": "2026-11-14T13:17:42Z"
     }
   ],
-  "lastUpdated": "2026-11-20T23:48:27Z",
-  "updatedAt": "2026-11-20T23:48:27Z"
+  "lastUpdated": "2026-11-21T06:18:59Z",
+  "updatedAt": "2026-11-21T06:18:59Z"
 }
