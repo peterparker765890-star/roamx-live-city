@@ -240,34 +240,35 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-21T06:18:59Z",
-    "lastSuccessfulRun": "2026-11-21T06:18:59Z",
-    "lastUpdated": "2026-11-21T06:18:59Z",
-    "articlesAdded": 8,
+    "lastRun": "2026-11-21T14:53:00Z",
+    "lastSuccessfulRun": "2026-11-21T14:53:00Z",
+    "lastUpdated": "2026-11-21T14:53:00Z",
+    "articlesAdded": 9,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 51,
+    "duplicatesRemoved": 53,
     "failedSources": [],
     "newArticleIds": [
-      "cd458346413c72fb143e",
-      "52128c80ff8736ae2671",
-      "9e8747f87239c313013e",
-      "1bd43f1fae9e326e4893",
-      "64fbb8364c819e243167",
-      "8a74af34bcffb6e63a93",
-      "14ff39c6ed0b8a8a74ea",
-      "428ef2c1420f53ce1ef6"
+      "3aab466451b4adc34ca4",
+      "f7a029a7a535fa500da2",
+      "839dea9a9801e9a5f4b9",
+      "45fc1c04744c6d2b9411",
+      "2620d81e1b250255a913",
+      "6a1b56aca05891aee622",
+      "70dcded6bbaddef62b56",
+      "2ea58633166cf8dc8917",
+      "be329a1c840bb85c265d"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 8,
+    "articlesRemoved": 9,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 189,
-      "India": 26,
+      "World": 188,
+      "India": 25,
       "Technology": 20,
-      "Environment": 56,
+      "Environment": 58,
       "Disaster": 9
     },
     "successfulSources": 9,
@@ -282,7 +283,47 @@
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNnJoTE9jS1FsSHlObEdLMlBFZGlLOXczQU93T2ZqMWxWMEM3cGdHS1BXMkZRdGtDRHBzMlFRR3JMRk5uSWNkNG0tRkw3SkVOMjdVdW5rcl8zUUhZUWJWVXZ2aVg5bVhCTHctbTBDb2t4cHU3bG5abUhtdjN6Ymx6Sk9oWnRFS3E2Z1RDcHJOcWNkT213d0czcERTOTBMTFhKcXJJck5kbVBfaENtekxHSGlMOTliaDVDU1prUXNRWDJFMHBuMDZsRm10YzNjUE1VcDZFdFFiMUJoRk1XUnRZNUgtdFlqamczZGc?oc=5",
       "source": "IOL",
       "category": "Disaster",
-      "publishedAt": "2026-11-21T05:57:21Z"
+      "publishedAt": "2026-11-21T14:42:07Z"
+    },
+    {
+      "id": "3aab466451b4adc34ca4",
+      "title": "Ghanaian cyclist takes climate campaign to COP31, calls for youth-led environmental action - MyJoyOnline",
+      "description": "Ghanaian cyclist takes climate campaign to COP31, calls for youth-led environmental action MyJoyOnline",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVW5WOXFYQ0EyaGtpWXdzbWduY3ZReTFNNndlQVB5Z1RTMnNiaVU0TGw4YWhjeVNwTHcxcm9YbnJ5dzFndGtod0s4MHNydGdmd2xvcU5sSWp3N0p3cjUtdkZEQ05aa08ySE1talc4aDRmeHdrR3hwTHg5UmFEX2p0Ql9wSzE3YU5nZ3NScFFVN2N3TkJqV0wyTnF1dmZKbVAwUzA2WmFhNHc0ZHlKcTRfNkc0VW9LblpJRVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVW5WOXFYQ0EyaGtpWXdzbWduY3ZReTFNNndlQVB5Z1RTMnNiaVU0TGw4YWhjeVNwTHcxcm9YbnJ5dzFndGtod0s4MHNydGdmd2xvcU5sSWp3N0p3cjUtdkZEQ05aa08ySE1talc4aDRmeHdrR3hwTHg5UmFEX2p0Ql9wSzE3YU5nZ3NScFFVN2N3TkJqV0wyTnF1dmZKbVAwUzA2WmFhNHc0ZHlKcTRfNkc0VW9LblpJRVE?oc=5",
+      "source": "MyJoyOnline",
+      "category": "Environment",
+      "publishedAt": "2026-11-21T14:40:53Z"
+    },
+    {
+      "id": "f7a029a7a535fa500da2",
+      "title": "World Cup 2026 – LYL International : results - Kartcom",
+      "description": "World Cup 2026 – LYL International : results Kartcom",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkNURKdDJQbDk0YktaWWt3RlI0aXNrSTFuS1h0b2tydktpc1lMZmdEbl9mSG1qUnlUTnBuSFZpbXU5S2thS09XMjVtMXhIS3NOcnBxVlJzLTU1TVZDcy1TelBMbjFtZEQ2YlVsYlZMc19ZZXRWTF9DT1d1RQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBkNURKdDJQbDk0YktaWWt3RlI0aXNrSTFuS1h0b2tydktpc1lMZmdEbl9mSG1qUnlUTnBuSFZpbXU5S2thS09XMjVtMXhIS3NOcnBxVlJzLTU1TVZDcy1TelBMbjFtZEQ2YlVsYlZMc19ZZXRWTF9DT1d1RQ?oc=5",
+      "source": "Kartcom",
+      "category": "World",
+      "publishedAt": "2026-11-21T12:33:23Z"
+    },
+    {
+      "id": "839dea9a9801e9a5f4b9",
+      "title": "Geography, violence, distrust hitting DR Congo Ebola fight: Handicap International - Africa - World - Ahram Online",
+      "description": "Geography, violence, distrust hitting DR Congo Ebola fight: Handicap International - Africa - World Ahram Online",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWnBBWEZ4TUlMd3FTakVLeS1wRVJqbkMzYjJWNDJUZmZIcjh0dEFWVFVEMkNIeXk0NnNvUG1OV0FncHhiWVNWQkt3WEw5eFRLbDV1WU9xVlRUQ052U1hxWXNIdXhhakFGckJEa0xiclhHMVFRUjBFSTNjWFZNZ3VMM2RuQms5WTVPUm5oNFZiam1HXzdDazU2aE9zUlF6TVJ3OHAtaVhLR3dCRFN0dWZHc1puUExOX3RJcjBuSDZB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWnBBWEZ4TUlMd3FTakVLeS1wRVJqbkMzYjJWNDJUZmZIcjh0dEFWVFVEMkNIeXk0NnNvUG1OV0FncHhiWVNWQkt3WEw5eFRLbDV1WU9xVlRUQ052U1hxWXNIdXhhakFGckJEa0xiclhHMVFRUjBFSTNjWFZNZ3VMM2RuQms5WTVPUm5oNFZiam1HXzdDazU2aE9zUlF6TVJ3OHAtaVhLR3dCRFN0dWZHc1puUExOX3RJcjBuSDZB?oc=5",
+      "source": "Ahram Online",
+      "category": "World",
+      "publishedAt": "2026-11-21T11:37:09Z"
+    },
+    {
+      "id": "45fc1c04744c6d2b9411",
+      "title": "3 Southeast Asian streets among world's coolest: Time Out - VnExpress International",
+      "description": "3 Southeast Asian streets among world's coolest: Time Out VnExpress International",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYnpVa1daUWlnTVN4UXUxZF9iS3BhNTRaanR4WVVuaWFJVUV6NUxldHA5QUZEUTQ0cm11d3EyNXJUaDREUTljejlpWTBxc0JfRFVyV1JVakpWdXd5d2QxQUVvVDlEUEVXYnBRMFBVSmxtWGNtYnBwVHRBNHp3SFdLSWZSRWhhZEtoYU5KakdVTFM0b2dBbzlQYmtqemp0WVFEYXFqMDB5ckUzNDJhYUVFRkxn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYnpVa1daUWlnTVN4UXUxZF9iS3BhNTRaanR4WVVuaWFJVUV6NUxldHA5QUZEUTQ0cm11d3EyNXJUaDREUTljejlpWTBxc0JfRFVyV1JVakpWdXd5d2QxQUVvVDlEUEVXYnBRMFBVSmxtWGNtYnBwVHRBNHp3SFdLSWZSRWhhZEtoYU5KakdVTFM0b2dBbzlQYmtqemp0WVFEYXFqMDB5ckUzNDJhYUVFRkxn?oc=5",
+      "source": "VnExpress International",
+      "category": "World",
+      "publishedAt": "2026-11-21T11:00:00Z"
     },
     {
       "id": "cd458346413c72fb143e",
@@ -292,7 +333,37 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMUZ4bHZ5WkFDTmFLSU5MZ2FkVjM2d1hHWWU4a2t0MS13MnVNRDdySWFjVktDM29wUlljOWQ0QjhkcWhSblhCREFJTmdybGlOOUVZdUppd2dZZURSakMtQ19pNDVJM0F2WVFlREUtejV3R2ZrZnVEc2FxY3NVbnJhaFVzTWx3cF9k?oc=5",
       "source": "WE News English",
       "category": "Environment",
-      "publishedAt": "2026-11-21T04:30:33Z"
+      "publishedAt": "2026-11-21T08:37:07Z"
+    },
+    {
+      "id": "2620d81e1b250255a913",
+      "title": "Countries open path towards 'killer robots' pact - International - World - Ahram Online",
+      "description": "Countries open path towards 'killer robots' pact - International - World Ahram Online",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wWm00X3c0NnZFNk96OVV6WFNaUWI0MDRfT0JHTmFLX2xJNDByejJuWGcwNW9xcW1ZWFIzdEZqQjNIbzh0bmVVR3ZIYjEtWDNHWG1MaXFoazE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wWm00X3c0NnZFNk96OVV6WFNaUWI0MDRfT0JHTmFLX2xJNDByejJuWGcwNW9xcW1ZWFIzdEZqQjNIbzh0bmVVR3ZIYjEtWDNHWG1MaXFoazE?oc=5",
+      "source": "Ahram Online",
+      "category": "World",
+      "publishedAt": "2026-11-21T07:16:16Z"
+    },
+    {
+      "id": "6a1b56aca05891aee622",
+      "title": "International & World News – 21 November 2026 - Saachi Baat",
+      "description": "International & World News – 21 November 2026 Saachi Baat",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWN5eTVtT1FIRHgwR0xjclJjaWVFT3R4Z1pwQUtoSk9wWEZwY0RnWkZiVlpHcHFDRnNuUmpOQ3J6Q0p1QURwLWlmSHVfOEdWN0IzQWxTM3NpdGNRMG1QSjZIa05JRnBiS3pBWDlVUUZhS3pJNXFBX0xnb20zZGNtNDJuR3BxSDh4dkp6Ug?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWN5eTVtT1FIRHgwR0xjclJjaWVFT3R4Z1pwQUtoSk9wWEZwY0RnWkZiVlpHcHFDRnNuUmpOQ3J6Q0p1QURwLWlmSHVfOEdWN0IzQWxTM3NpdGNRMG1QSjZIa05JRnBiS3pBWDlVUUZhS3pJNXFBX0xnb20zZGNtNDJuR3BxSDh4dkp6Ug?oc=5",
+      "source": "Saachi Baat",
+      "category": "World",
+      "publishedAt": "2026-11-21T04:00:37Z"
+    },
+    {
+      "id": "64fbb8364c819e243167",
+      "title": "World leaders gather in Halifax for international security forum - CTV News",
+      "description": "World leaders gather in Halifax for international security forum CTV News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZFJZQ04xM1g1d2RVUW9yYXI2bklKemFhZWdUd2g5RlFac3h2THR3LWNIZWUtZjRmbkY2bUx6R3BuUF9NSGJGNFZXT001SW1EdGR5XzdEenBFMzgtVkNkb3MxUmJZZFJDMVNzeFctLVdVN2VYR29hVlFVM2ZoZ1pPNFRwRlFkdWh1V0tVT1V6cXRZdHowb3RLLTFZMTZkYk9xMXJYNndB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZFJZQ04xM1g1d2RVUW9yYXI2bklKemFhZWdUd2g5RlFac3h2THR3LWNIZWUtZjRmbkY2bUx6R3BuUF9NSGJGNFZXT001SW1EdGR5XzdEenBFMzgtVkNkb3MxUmJZZFJDMVNzeFctLVdVN2VYR29hVlFVM2ZoZ1pPNFRwRlFkdWh1V0tVT1V6cXRZdHowb3RLLTFZMTZkYk9xMXJYNndB?oc=5",
+      "source": "CTV News",
+      "category": "World",
+      "publishedAt": "2026-11-21T02:08:00Z"
     },
     {
       "id": "52128c80ff8736ae2671",
@@ -303,6 +374,16 @@
       "source": "DT Next",
       "category": "Environment",
       "publishedAt": "2026-11-21T01:59:08Z"
+    },
+    {
+      "id": "70dcded6bbaddef62b56",
+      "title": "A New Global News Editor in New York - The New York Times Company",
+      "description": "A New Global News Editor in New York The New York Times Company",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqUjQ1TS04eFRra2QxR0VEUlBxSDR0RmtLMDhqRFdmRk0tWGtDSUJxQzRaU0lfZDRIbERhcXpGbUNpcExLcl9hRGd1WDQ1TE5rLURRcHI5LUk1Y3lzVFdaWi1oZGZMMUUzUzdKNDNLVGctbU0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqUjQ1TS04eFRra2QxR0VEUlBxSDR0RmtLMDhqRFdmRk0tWGtDSUJxQzRaU0lfZDRIbERhcXpGbUNpcExLcl9hRGd1WDQ1TE5rLURRcHI5LUk1Y3lzVFdaWi1oZGZMMUUzUzdKNDNLVGctbU0?oc=5",
+      "source": "The New York Times Company",
+      "category": "World",
+      "publishedAt": "2026-11-21T01:32:45Z"
     },
     {
       "id": "9e8747f87239c313013e",
@@ -323,16 +404,6 @@
       "source": "Awani International",
       "category": "World",
       "publishedAt": "2026-11-21T00:33:14Z"
-    },
-    {
-      "id": "64fbb8364c819e243167",
-      "title": "World leaders gather in Halifax for international security forum - CTV News",
-      "description": "World leaders gather in Halifax for international security forum CTV News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZFJZQ04xM1g1d2RVUW9yYXI2bklKemFhZWdUd2g5RlFac3h2THR3LWNIZWUtZjRmbkY2bUx6R3BuUF9NSGJGNFZXT001SW1EdGR5XzdEenBFMzgtVkNkb3MxUmJZZFJDMVNzeFctLVdVN2VYR29hVlFVM2ZoZ1pPNFRwRlFkdWh1V0tVT1V6cXRZdHowb3RLLTFZMTZkYk9xMXJYNndB?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZFJZQ04xM1g1d2RVUW9yYXI2bklKemFhZWdUd2g5RlFac3h2THR3LWNIZWUtZjRmbkY2bUx6R3BuUF9NSGJGNFZXT001SW1EdGR5XzdEenBFMzgtVkNkb3MxUmJZZFJDMVNzeFctLVdVN2VYR29hVlFVM2ZoZ1pPNFRwRlFkdWh1V0tVT1V6cXRZdHowb3RLLTFZMTZkYk9xMXJYNndB?oc=5",
-      "source": "CTV News",
-      "category": "World",
-      "publishedAt": "2026-11-21T00:30:00Z"
     },
     {
       "id": "9a162a598c686c70e3c2",
@@ -393,6 +464,16 @@
       "source": "Morocco World News",
       "category": "World",
       "publishedAt": "2026-11-20T17:29:36Z"
+    },
+    {
+      "id": "2ea58633166cf8dc8917",
+      "title": "Indoor Air Quality Alert: Florida, USA Flooding - IQAir",
+      "description": "Indoor Air Quality Alert: Florida, USA Flooding IQAir",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWjJUdTYxdlJfTkZjQU1kcHBiakpPaGJIR1dreDk3aTZFaU5aWWtIamM5VUZxdUM2a3pfNHhxNVFZYmpPdEJDX1FoMWdUNVNGNlhZTU0tTGF3a0stS01RajJsRXUydUoxdTM4SXVwaGl5N2t5ZDZkaXR3SDBXM3hSMDNFSVMzODZIM1E?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWjJUdTYxdlJfTkZjQU1kcHBiakpPaGJIR1dreDk3aTZFaU5aWWtIamM5VUZxdUM2a3pfNHhxNVFZYmpPdEJDX1FoMWdUNVNGNlhZTU0tTGF3a0stS01RajJsRXUydUoxdTM4SXVwaGl5N2t5ZDZkaXR3SDBXM3hSMDNFSVMzODZIM1E?oc=5",
+      "source": "IQAir",
+      "category": "Environment",
+      "publishedAt": "2026-11-20T17:12:55Z"
     },
     {
       "id": "0901fae63b94c0f0edf3",
@@ -523,6 +604,16 @@
       "source": "Latest news from Azerbaijan",
       "category": "Environment",
       "publishedAt": "2026-11-20T13:57:31Z"
+    },
+    {
+      "id": "be329a1c840bb85c265d",
+      "title": "Environmental group says EPA has failed to act while Great Bay Estuary nears collapse - New Hampshire Public Radio",
+      "description": "Environmental group says EPA has failed to act while Great Bay Estuary nears collapse New Hampshire Public Radio",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZVNpS1Y4N1dERlJNamxKSWRtV01KQ3FEbnFKdkViVjVtSGVpa1FrVW5Ka2N2c1dRbnhVNGZkXzd1eVBBXzB1bl9lTmFWZHVMaGtobTB6c0RfWkpzYllGYkdzcXVVd19nS2pxeElHVHV3eVY4YXRWNTRKMndkUV9WS0w3dTZjUUNXTERvRUxIc0hSQUgtY3duYlZQX0hfbkNGRTJBUU5YcjB2b1JsekE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZVNpS1Y4N1dERlJNamxKSWRtV01KQ3FEbnFKdkViVjVtSGVpa1FrVW5Ka2N2c1dRbnhVNGZkXzd1eVBBXzB1bl9lTmFWZHVMaGtobTB6c0RfWkpzYllGYkdzcXVVd19nS2pxeElHVHV3eVY4YXRWNTRKMndkUV9WS0w3dTZjUUNXTERvRUxIc0hSQUgtY3duYlZQX0hfbkNGRTJBUU5YcjB2b1JsekE?oc=5",
+      "source": "New Hampshire Public Radio",
+      "category": "Environment",
+      "publishedAt": "2026-11-20T13:56:00Z"
     },
     {
       "id": "fcdb8c70d18894790d30",
@@ -3183,98 +3274,8 @@
       "source": "Daily Tribune",
       "category": "India",
       "publishedAt": "2026-11-15T05:13:12Z"
-    },
-    {
-      "id": "a99ab6bff89f3f80cd97",
-      "title": "International & World News – 15 November 2026 - Saachi Baat",
-      "description": "International & World News – 15 November 2026 Saachi Baat",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY0hRYmFOS0otYzZVT0JMX2hmZWNlQzkybU9JUHA4bmpJNkpJd1NxUFBESzByOWU4RWtPT2w5bVNmSnJIZS1YMzQ5SjNjeXJjZ0plSHF3LUpVSnJueGlpV0RMMzdLNjgtTnN1M1g2M0NMWUNYT1FVV0RQV1BqSUZZcE9WQXFqaHBpaVZWVg?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY0hRYmFOS0otYzZVT0JMX2hmZWNlQzkybU9JUHA4bmpJNkpJd1NxUFBESzByOWU4RWtPT2w5bVNmSnJIZS1YMzQ5SjNjeXJjZ0plSHF3LUpVSnJueGlpV0RMMzdLNjgtTnN1M1g2M0NMWUNYT1FVV0RQV1BqSUZZcE9WQXFqaHBpaVZWVg?oc=5",
-      "source": "Saachi Baat",
-      "category": "World",
-      "publishedAt": "2026-11-15T04:57:37Z"
-    },
-    {
-      "id": "ad6f44ac482077d17756",
-      "title": "Local and foreign media at the International Media Center inside the World Trade Center in Pasay City on Sunday (Nov. 15, 2026). The 49th #ASEANSummit and Related Summits opened at nearby Philippine International Convention Center. (PNA photos by - Facebook",
-      "description": "Local and foreign media at the International Media Center inside the World Trade Center in Pasay City on Sunday (Nov. 15, 2026). The 49th #ASEANSummit and Related Summits opened at nearby Philippine International Convention Center. (PNA photos by Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc3U5ME5ienE3TW5lc3pwMDZrY09acHJiM1N5aU5KNnhwbHkwWWFTdkdoSWlSVWtOeUUyWlBaTHpVamNNUW04dGlSTEpubEFPVmpCc2wtek5YOWlwR1EyYXdJRkxISEc5Si0xRlVOYUYwZE1ZZVVoQWt1aVhLUHkzNlB5MS16aDFQVm8wQlF1LVFmMnpwdGM2end5NmhldUxHenkyRWhnVWZiOU8zSGhqUkphQjVVRnhqOU5JTUNwcnpmS3ZDQVBFaHNBcjVScmNhTHAzbA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc3U5ME5ienE3TW5lc3pwMDZrY09acHJiM1N5aU5KNnhwbHkwWWFTdkdoSWlSVWtOeUUyWlBaTHpVamNNUW04dGlSTEpubEFPVmpCc2wtek5YOWlwR1EyYXdJRkxISEc5Si0xRlVOYUYwZE1ZZVVoQWt1aVhLUHkzNlB5MS16aDFQVm8wQlF1LVFmMnpwdGM2end5NmhldUxHenkyRWhnVWZiOU8zSGhqUkphQjVVRnhqOU5JTUNwcnpmS3ZDQVBFaHNBcjVScmNhTHAzbA?oc=5",
-      "source": "Facebook",
-      "category": "World",
-      "publishedAt": "2026-11-15T04:12:30Z"
-    },
-    {
-      "id": "ee0d68830dc4aac7ae31",
-      "title": "ASEAN must advance effective South China Sea Code of Conduct under international law: Philippine President - The Economic Times",
-      "description": "ASEAN must advance effective South China Sea Code of Conduct under international law: Philippine President The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPWHhIUm93ZTBQZHlUYUFjd1ViVERkU1RENnVqVzdSRkNnOTdmMW8xYXpqQUxfSDBKQ3U0dDRaTG5lQXZqM0dLWGVaZGdBa2R4SGVSX2dqNDhvVndtcUtjWVh3X01id2oyODNLd0RNeDlZc3dRM3NBUFRvYWoxWWtwY0pPVl94djhaV0Z2S2dXc0RNaUZYSWVuTmJNZGVuUE5xd2hHUEotdVdLdnRCM2FVb2lmWjEySFVDaFNYR2JvOXMxWUYxVmt2U0dCV2RrWHg3cE4wMXJibUlMckZDNFdFTjdNVUpBazFkX0ZXb3dZUThJU0ZwMWdISzNMTGx6UE5IWUFZUUNHZ1otQkNqcnloWmR3bUotaGF5dGRhQnpHaEVmUdIBpwJBVV95cUxQUU5yQUFoamdRTmNvLU9vT1Z5WC1YYVBnVG1wVFpnRVluRVdhaG15TTVpMUhGNm9LM2poWUhtczFqeHhQYmdldFFVUk1kQ1RpOVoyRVBvaTgyalNlT29uQXI0SkJ6R1lxaS0zV0ZidVZncmhPcTJRU21ERWRUNnZiaXE5SE9wYzc0YUw0ajU1X3VqVnlQSGdhN0R5N0ZoVnduSUx2RmNfa0sxSEVMNHRkSmdvY2dMNGctVUEyRkgxX3FMRE5QdFZra2wxVGNtcElwXzIzVXdGYkhlSWZmZ2hWQVdLRllaSVdBa2JUdlEzZEd1a2U0V0UzOEZJMTVVM0FKOGdCRnF5ZmI5bzVueWk1SEMteGhCc1JSX0pkWWJCMk5vQzhkVUxr?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPWHhIUm93ZTBQZHlUYUFjd1ViVERkU1RENnVqVzdSRkNnOTdmMW8xYXpqQUxfSDBKQ3U0dDRaTG5lQXZqM0dLWGVaZGdBa2R4SGVSX2dqNDhvVndtcUtjWVh3X01id2oyODNLd0RNeDlZc3dRM3NBUFRvYWoxWWtwY0pPVl94djhaV0Z2S2dXc0RNaUZYSWVuTmJNZGVuUE5xd2hHUEotdVdLdnRCM2FVb2lmWjEySFVDaFNYR2JvOXMxWUYxVmt2U0dCV2RrWHg3cE4wMXJibUlMckZDNFdFTjdNVUpBazFkX0ZXb3dZUThJU0ZwMWdISzNMTGx6UE5IWUFZUUNHZ1otQkNqcnloWmR3bUotaGF5dGRhQnpHaEVmUdIBpwJBVV95cUxQUU5yQUFoamdRTmNvLU9vT1Z5WC1YYVBnVG1wVFpnRVluRVdhaG15TTVpMUhGNm9LM2poWUhtczFqeHhQYmdldFFVUk1kQ1RpOVoyRVBvaTgyalNlT29uQXI0SkJ6R1lxaS0zV0ZidVZncmhPcTJRU21ERWRUNnZiaXE5SE9wYzc0YUw0ajU1X3VqVnlQSGdhN0R5N0ZoVnduSUx2RmNfa0sxSEVMNHRkSmdvY2dMNGctVUEyRkgxX3FMRE5QdFZra2wxVGNtcElwXzIzVXdGYkhlSWZmZ2hWQVdLRllaSVdBa2JUdlEzZEd1a2U0V0UzOEZJMTVVM0FKOGdCRnF5ZmI5bzVueWk1SEMteGhCc1JSX0pkWWJCMk5vQzhkVUxr?oc=5",
-      "source": "The Economic Times",
-      "category": "World",
-      "publishedAt": "2026-11-15T03:53:48Z"
-    },
-    {
-      "id": "3b827c44c075870b1fc4",
-      "title": "UPS plane and Copa Airlines aircraft collide at Miami International Airport; no injuries reported - Hindustan Times",
-      "description": "UPS plane and Copa Airlines aircraft collide at Miami International Airport; no injuries reported Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPQndyRFJNOVpnTXdjSU1FV2tlQ1JKSVZEdEFMd0pYdTNqaUQyUF9obzhJVHh3Wm05MDNmNDlkYmI3ZEphVlRaYldISExqUWFIVkdWTi1mYUEyTTRMeGFhNThBbkJGd3pxQTJqUG95NC1VbFpNSndmVzJrOGFkSWJCNTVzdHpROF9nQU03aUR1RU1CbVlHSEh0ZTBqWmJVaXNjbmpBZGJfM09YSDRSdjBTWkRFeGRDdUdPRVJCbkJ2aWxuUTA4UVBUQ1M0cEFPY2luN0xRQlU2N0lfaW92QjdMTUl1QUNoQ0xJSW4xRmNlRWEyVEphVmRBWWRNTQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPQndyRFJNOVpnTXdjSU1FV2tlQ1JKSVZEdEFMd0pYdTNqaUQyUF9obzhJVHh3Wm05MDNmNDlkYmI3ZEphVlRaYldISExqUWFIVkdWTi1mYUEyTTRMeGFhNThBbkJGd3pxQTJqUG95NC1VbFpNSndmVzJrOGFkSWJCNTVzdHpROF9nQU03aUR1RU1CbVlHSEh0ZTBqWmJVaXNjbmpBZGJfM09YSDRSdjBTWkRFeGRDdUdPRVJCbkJ2aWxuUTA4UVBUQ1M0cEFPY2luN0xRQlU2N0lfaW92QjdMTUl1QUNoQ0xJSW4xRmNlRWEyVEphVmRBWWRNTQ?oc=5",
-      "source": "Hindustan Times",
-      "category": "World",
-      "publishedAt": "2026-11-15T03:41:36Z"
-    },
-    {
-      "id": "e9abe62396537b5903c4",
-      "title": "Real estate push: Three townships, new infrastructure on southern Lucknow’s horizon | Hindustan Times - Hindustan Times",
-      "description": "Real estate push: Three townships, new infrastructure on southern Lucknow’s horizon | Hindustan Times Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRXpNM3I5OUV3RzZCOFVZLVR5OEFFWTI0MWFxQVl4Vkx2U3RPNTJlSExQOFBNUmxTRlItekZmX3dSWFhlN2ZYd0tNTWFEYjRJZnZvV3YzYUFKNlJySVNpMmlyZWNOWEtsaEpQandrVkV3akRlX2V6cER6VWJTVU85UlN3TmgtUXJ2VG1UUFNRelBkRDZfOGtSVFVoWXB6b1NRdHo5a0djY2wxOFIyNDM4MHVkVkpqbGZEMmpYUTcwNGVFUms0MVB5UW05Y0RicVBqM2hyeGlRQWpEZEdydjRta3gxLWdBSFBEQ1NuRFpB0gHuAUFVX3lxTFBFek0zcjk5RXdHNkI4VVktVHk4QUVZMjQxYXFBWXhWTHZTdE81MmVITFA4UE1SbFNGUi16RmZfd1JYWGU3Zlh3S01NYURiNElmdm9XdjNhQUo2UnJJU2kyaXJlY05YS2xoSlBqd2tWRXdqRGVfZXpwRHpVYlNVTzlSU3dOaC1RcnZUbVRQU1F6UGRENl84a1JUVWhZcHpvU1F0ejlrR2NjbDE4UjI0MzgwdWRWSmpsZkQyalhRNzA0ZUVSazQxUHlRbTljRGJxUGozaHJ4aVFBakRkR3J2NG1reDEtZ0FIUERDU25EWkE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQRXpNM3I5OUV3RzZCOFVZLVR5OEFFWTI0MWFxQVl4Vkx2U3RPNTJlSExQOFBNUmxTRlItekZmX3dSWFhlN2ZYd0tNTWFEYjRJZnZvV3YzYUFKNlJySVNpMmlyZWNOWEtsaEpQandrVkV3akRlX2V6cER6VWJTVU85UlN3TmgtUXJ2VG1UUFNRelBkRDZfOGtSVFVoWXB6b1NRdHo5a0djY2wxOFIyNDM4MHVkVkpqbGZEMmpYUTcwNGVFUms0MVB5UW05Y0RicVBqM2hyeGlRQWpEZEdydjRta3gxLWdBSFBEQ1NuRFpB0gHuAUFVX3lxTFBFek0zcjk5RXdHNkI4VVktVHk4QUVZMjQxYXFBWXhWTHZTdE81MmVITFA4UE1SbFNGUi16RmZfd1JYWGU3Zlh3S01NYURiNElmdm9XdjNhQUo2UnJJU2kyaXJlY05YS2xoSlBqd2tWRXdqRGVfZXpwRHpVYlNVTzlSU3dOaC1RcnZUbVRQU1F6UGRENl84a1JUVWhZcHpvU1F0ejlrR2NjbDE4UjI0MzgwdWRWSmpsZkQyalhRNzA0ZUVSazQxUHlRbTljRGJxUGozaHJ4aVFBakRkR3J2NG1reDEtZ0FIUERDU25EWkE?oc=5",
-      "source": "Hindustan Times",
-      "category": "India",
-      "publishedAt": "2026-11-15T02:17:20Z"
-    },
-    {
-      "id": "fe111e484d80378b9565",
-      "title": "LOOK: World leaders and delegates arrived at the Philippine International Convention Center for the #ASEAN2026 Summit and Related Summits on Sunday, Nov. 15. Screengrab from ASEAN Philippines 2026 Visit www.gmanetwork.com/news for updates. - Facebook",
-      "description": "LOOK: World leaders and delegates arrived at the Philippine International Convention Center for the #ASEAN2026 Summit and Related Summits on Sunday, Nov. 15. Screengrab from ASEAN Philippines 2026 Visit www.gmanetwork.com/news for updates. Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMDVIRXc1eGN2MnpLLTJqd2k3UFBqUHNadS1hU1ItRGU5Z1gtX2o5Zjc0LUNNNmZyQ0JqeGFXLVZRaDM5UHY5M3lfNEI2WkdaclRHMzhPVXU3LU5qMHhUZmRnei1qWmVNQlRDNE43TWd0dVA3UWJOcVZXRE04V2tWMV80Zlp6MkNHUEZURTZ3VVAxRC1BaE4wMThxRXh5dlZvVkE0YlpUSGRiZEpzUGtfSWVKS0lneUlvSzNxMlE1M1lLTFFRRFVBam9uRnFxbmh1WWlN?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMDVIRXc1eGN2MnpLLTJqd2k3UFBqUHNadS1hU1ItRGU5Z1gtX2o5Zjc0LUNNNmZyQ0JqeGFXLVZRaDM5UHY5M3lfNEI2WkdaclRHMzhPVXU3LU5qMHhUZmRnei1qWmVNQlRDNE43TWd0dVA3UWJOcVZXRE04V2tWMV80Zlp6MkNHUEZURTZ3VVAxRC1BaE4wMThxRXh5dlZvVkE0YlpUSGRiZEpzUGtfSWVKS0lneUlvSzNxMlE1M1lLTFFRRFVBam9uRnFxbmh1WWlN?oc=5",
-      "source": "Facebook",
-      "category": "World",
-      "publishedAt": "2026-11-15T01:22:36Z"
-    },
-    {
-      "id": "dabefe21e9c4698c0c56",
-      "title": "World Senior Chess Champions 2026 crowned in Vrnjačka Banja, Serbia – International Chess Federation - FIDE",
-      "description": "World Senior Chess Champions 2026 crowned in Vrnjačka Banja, Serbia – International Chess Federation FIDE",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNUN2c0VGYlhBSmdLTUQ3MEkzZmxOUUxfRHo5TjZMYzlfZlNhSHRoX0hNQkZjV0VWRTZQMDhxazVLMnJYeElpb1JvZ3RyTnlXanc2dFl6RnJ6akRDY2lOcEtxTDdVSWF5QzJlNllOUER3cEVNc2JVUDZ6TmhIOTZldlZOem5ETzJ4Y0Fsd0dZbUI4Zw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNUN2c0VGYlhBSmdLTUQ3MEkzZmxOUUxfRHo5TjZMYzlfZlNhSHRoX0hNQkZjV0VWRTZQMDhxazVLMnJYeElpb1JvZ3RyTnlXanc2dFl6RnJ6akRDY2lOcEtxTDdVSWF5QzJlNllOUER3cEVNc2JVUDZ6TmhIOTZldlZOem5ETzJ4Y0Fsd0dZbUI4Zw?oc=5",
-      "source": "FIDE",
-      "category": "World",
-      "publishedAt": "2026-11-15T00:20:49Z"
-    },
-    {
-      "id": "5430cd83dcf082ede729",
-      "title": "Environmental Action No Longer Optional In Addressing AMR – OpEd - Eurasia Review",
-      "description": "Environmental Action No Longer Optional In Addressing AMR – OpEd Eurasia Review",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZVFscDBfVTBoLWFwV1ZXTWx1a1d2cjJ4SExUYnZhSjU0TEdSVm1rX3I5bm95Q0UyWS13ZmFKSGNsZGpxc2ZrLWdnZ29ZT0d5UWVTN0tpNEZxRmdSWnVpeUJJcTN5MFhyY2JuMjlWVkZxUVJWalBVM0RMZVoxMmFxR0hMX2NGZXRJSTI2V3pLXzhnVVRyOGVXLTg0MFhSYkttREZ2RA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZVFscDBfVTBoLWFwV1ZXTWx1a1d2cjJ4SExUYnZhSjU0TEdSVm1rX3I5bm95Q0UyWS13ZmFKSGNsZGpxc2ZrLWdnZ29ZT0d5UWVTN0tpNEZxRmdSWnVpeUJJcTN5MFhyY2JuMjlWVkZxUVJWalBVM0RMZVoxMmFxR0hMX2NGZXRJSTI2V3pLXzhnVVRyOGVXLTg0MFhSYkttREZ2RA?oc=5",
-      "source": "Eurasia Review",
-      "category": "Environment",
-      "publishedAt": "2026-11-14T23:42:41Z"
-    },
-    {
-      "id": "628b2d974b06c5a584af",
-      "title": "Darren Haywood: Australian Researcher Receives International Recognition at IPOS World Congress - Oncodaily",
-      "description": "Darren Haywood: Australian Researcher Receives International Recognition at IPOS World Congress Oncodaily",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvYzV0RzFnU3o2NnBMOXN5VW1kMk1pU2ZlYTJRdWo2V053cjdRM1Q2RUJVSW9rNDg2cFhCcUltNG1jWmxyLW5BSHlRWlhsbW56MGVEak1DNTNTYUNGSDVBR0d3?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvYzV0RzFnU3o2NnBMOXN5VW1kMk1pU2ZlYTJRdWo2V053cjdRM1Q2RUJVSW9rNDg2cFhCcUltNG1jWmxyLW5BSHlRWlhsbW56MGVEak1DNTNTYUNGSDVBR0d3?oc=5",
-      "source": "Oncodaily",
-      "category": "World",
-      "publishedAt": "2026-11-14T21:32:35Z"
     }
   ],
-  "lastUpdated": "2026-11-21T06:18:59Z",
-  "updatedAt": "2026-11-21T06:18:59Z"
+  "lastUpdated": "2026-11-21T14:53:00Z",
+  "updatedAt": "2026-11-21T14:53:00Z"
 }
