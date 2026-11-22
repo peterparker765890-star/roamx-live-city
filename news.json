@@ -240,38 +240,99 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-22T16:58:23Z",
-    "lastSuccessfulRun": "2026-11-22T16:58:23Z",
-    "lastUpdated": "2026-11-22T16:58:23Z",
-    "articlesAdded": 6,
+    "lastRun": "2026-11-22T22:23:48Z",
+    "lastSuccessfulRun": "2026-11-22T22:23:48Z",
+    "lastUpdated": "2026-11-22T22:23:48Z",
+    "articlesAdded": 7,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 47,
+    "duplicatesRemoved": 28,
     "failedSources": [],
     "newArticleIds": [
-      "8cbe3be48499b5b56292",
-      "f975b158bda4785411e5",
-      "1b32224b431569dc3b57",
-      "3935377b09db01d72862",
-      "52f1cd35334236205166",
-      "d108fda837fe31f2795e"
+      "7c019b41fd932966545b",
+      "6f9c8b2445c5458c747f",
+      "664f3782a28b02b1e694",
+      "00c27da3d5f248db8bc0",
+      "36ca30874e81eb184ab6",
+      "c1e12cff3d7cd16cb9b0",
+      "e4b6f3ed3dbb0177615d"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 6,
+    "articlesRemoved": 7,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 180,
-      "India": 26,
-      "Technology": 22,
-      "Environment": 62,
-      "Disaster": 10
+      "World": 179,
+      "India": 25,
+      "Technology": 21,
+      "Environment": 63,
+      "Disaster": 12
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "7c019b41fd932966545b",
+      "title": "Storms to hit south-western Qld as heatwave lingers in far north - ABC News & Headlines – Australian Broadcasting Corporation",
+      "description": "Storms to hit south-western Qld as heatwave lingers in far north ABC News & Headlines – Australian Broadcasting Corporation",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNGVKcE92OXJKWi1ydlZad2YxQVprSEtqOXlqd3FmTnpzMzRHUTI3NmFKY29YamxRWDUxTEFKUEVnUDRsTDU5LVB0OGNyWVAxd3A4YkhOM3FZZzBhN2F2MjZTNVJUcWlVcTNBbFVyLUpvWko5T2I0QWRXUTJhNjNtM0M5aXUtck9IMl91U1VlaXhUZWJwZ2x4Qk1TWFlIMXFC?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNGVKcE92OXJKWi1ydlZad2YxQVprSEtqOXlqd3FmTnpzMzRHUTI3NmFKY29YamxRWDUxTEFKUEVnUDRsTDU5LVB0OGNyWVAxd3A4YkhOM3FZZzBhN2F2MjZTNVJUcWlVcTNBbFVyLUpvWko5T2I0QWRXUTJhNjNtM0M5aXUtck9IMl91U1VlaXhUZWJwZ2x4Qk1TWFlIMXFC?oc=5",
+      "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+      "category": "Disaster",
+      "publishedAt": "2026-11-22T20:32:29Z"
+    },
+    {
+      "id": "6f9c8b2445c5458c747f",
+      "title": "Three Ghanaian referees earn international promotions at 2026 World Armwrestling Championship - Ghana News Agency",
+      "description": "Three Ghanaian referees earn international promotions at 2026 World Armwrestling Championship Ghana News Agency",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOUZaMXd4SzNHdzNGRkZNNXNaS2VkOXJac3ZnWk1mY3NZcHBCaXExVnlPN1VPMFFabW41UnRrZzN0dzdZWjU0bWI2b2s4dl9wZkNtNFB6TUp4R0VkWGhtZ3BYaUF1cnA5N0tTVmpFaklQTHBReTN1THFGXzgweUFvNjE2c20tS1V0RU1vMEVSUXBkaV9wMkk1NXlFa1VBeVpOaXBrc0g3YnB2aV9DazZud2xnSzNoa3NSRHpTVXFB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOUZaMXd4SzNHdzNGRkZNNXNaS2VkOXJac3ZnWk1mY3NZcHBCaXExVnlPN1VPMFFabW41UnRrZzN0dzdZWjU0bWI2b2s4dl9wZkNtNFB6TUp4R0VkWGhtZ3BYaUF1cnA5N0tTVmpFaklQTHBReTN1THFGXzgweUFvNjE2c20tS1V0RU1vMEVSUXBkaV9wMkk1NXlFa1VBeVpOaXBrc0g3YnB2aV9DazZud2xnSzNoa3NSRHpTVXFB?oc=5",
+      "source": "Ghana News Agency",
+      "category": "World",
+      "publishedAt": "2026-11-22T19:12:18Z"
+    },
+    {
+      "id": "664f3782a28b02b1e694",
+      "title": "Formatbiz Arrives in New York as the International Emmy World Television Festival Kicks Off Ahead of Monday’s Gala - FormatBiz",
+      "description": "Formatbiz Arrives in New York as the International Emmy World Television Festival Kicks Off Ahead of Monday’s Gala FormatBiz",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fajVGYUt3SW5fdVpzZzVhd3pMM0xpNjZCbl93cFZ5Q3VFNWhDMnk1LUZ2NnAzTVFlcEtndHJoLTBSbXIydGFnTjZ6cEFiZmFzQTRRcTI1SVNZQlU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fajVGYUt3SW5fdVpzZzVhd3pMM0xpNjZCbl93cFZ5Q3VFNWhDMnk1LUZ2NnAzTVFlcEtndHJoLTBSbXIydGFnTjZ6cEFiZmFzQTRRcTI1SVNZQlU?oc=5",
+      "source": "FormatBiz",
+      "category": "World",
+      "publishedAt": "2026-11-22T18:21:59Z"
+    },
+    {
+      "id": "00c27da3d5f248db8bc0",
+      "title": "Crystal Heights International School makes history with 12 world’s highest marks at Pearson Awards - CitiNewsroom.com",
+      "description": "Crystal Heights International School makes history with 12 world’s highest marks at Pearson Awards CitiNewsroom.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRXZKSE1INjVnQWhKMm1uakcyUTBfN2VJUkJUbVI3WVluNFZfdm91Tm1QaXdnNnV3RTBSYnh6dmI0X0VfeE1qVmRSdEdRc2xmbnNILXFDQ3lGLWMwOGYtMkdCOElQXzdNNU9obHZfM0dpbkNTMFNRLXUzbWJ2QW03eXdrdlVfb3dsMUtiQ3NPNDRoSlN0WEVnNDBtT0lhdmNHamlwaC1rbTFkdXlEZkVtS3dMTXROVFk5czVTaXNIUlJqOGFLMzk3dUFqc1VobjJE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRXZKSE1INjVnQWhKMm1uakcyUTBfN2VJUkJUbVI3WVluNFZfdm91Tm1QaXdnNnV3RTBSYnh6dmI0X0VfeE1qVmRSdEdRc2xmbnNILXFDQ3lGLWMwOGYtMkdCOElQXzdNNU9obHZfM0dpbkNTMFNRLXUzbWJ2QW03eXdrdlVfb3dsMUtiQ3NPNDRoSlN0WEVnNDBtT0lhdmNHamlwaC1rbTFkdXlEZkVtS3dMTXROVFk5czVTaXNIUlJqOGFLMzk3dUFqc1VobjJE?oc=5",
+      "source": "CitiNewsroom.com",
+      "category": "World",
+      "publishedAt": "2026-11-22T18:10:51Z"
+    },
+    {
+      "id": "36ca30874e81eb184ab6",
+      "title": "As World Powers Challenge International Justice, Tiny Gambia Makes History - CODEPINK - Women for Peace",
+      "description": "As World Powers Challenge International Justice, Tiny Gambia Makes History CODEPINK - Women for Peace",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11Nms3ajFZUW1ZWFpfTkh5TWllNFhqUGhJTzQ5WExXNEF4RGEycWxockEycmhtUC1HSjZ5bThXRFUyekd2TThpV2tQS0xmcnh0SHB5SXdHWXg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE11Nms3ajFZUW1ZWFpfTkh5TWllNFhqUGhJTzQ5WExXNEF4RGEycWxockEycmhtUC1HSjZ5bThXRFUyekd2TThpV2tQS0xmcnh0SHB5SXdHWXg?oc=5",
+      "source": "CODEPINK - Women for Peace",
+      "category": "World",
+      "publishedAt": "2026-11-22T18:04:44Z"
+    },
+    {
+      "id": "c1e12cff3d7cd16cb9b0",
+      "title": "Climate change talks fall apart in final hours over fossil fuels - NPR",
+      "description": "Climate change talks fall apart in final hours over fossil fuels NPR",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeEN2LWdsQ0xfZmJMcHRRNmdhd0FlSjNlZzVnbG1xbzl3SE9UMTNSZnU1UTU1WWZfLUd3UEJVUnY4Q2c2ODk3aGtEQ0w2QTF2YUUxVDlfRlhKU25xQVpoeUN2RzFlOURpaUhHT2JTWWttT1g5UVg3cWhRWThfTDlOX0NKOGF3QmRhOXdlNlVn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeEN2LWdsQ0xfZmJMcHRRNmdhd0FlSjNlZzVnbG1xbzl3SE9UMTNSZnU1UTU1WWZfLUd3UEJVUnY4Q2c2ODk3aGtEQ0w2QTF2YUUxVDlfRlhKU25xQVpoeUN2RzFlOURpaUhHT2JTWWttT1g5UVg3cWhRWThfTDlOX0NKOGF3QmRhOXdlNlVn?oc=5",
+      "source": "NPR",
+      "category": "Environment",
+      "publishedAt": "2026-11-22T16:33:22Z"
+    },
     {
       "id": "8cbe3be48499b5b56292",
       "title": "The Fight Against Climate Change Goes Small - The Atlantic",
@@ -551,6 +612,16 @@
       "source": "WE News English",
       "category": "Environment",
       "publishedAt": "2026-11-21T08:37:07Z"
+    },
+    {
+      "id": "e4b6f3ed3dbb0177615d",
+      "title": "Natural disaster | Causes, Types, & Facts - Britannica",
+      "description": "Natural disaster | Causes, Types, & Facts Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vMDE1X2pVcjlrYzMzY3QzQ2hXdHdYbkZ1WkFkUGNmLXU3NnNPaXEyMEhSQ2FPY3E1R0VneWhvaDJIbXdFejFNUWRQczdnZl9aTHhUbG1ZVHhwNF9xVlRmOQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vMDE1X2pVcjlrYzMzY3QzQ2hXdHdYbkZ1WkFkUGNmLXU3NnNPaXEyMEhSQ2FPY3E1R0VneWhvaDJIbXdFejFNUWRQczdnZl9aTHhUbG1ZVHhwNF9xVlRmOQ?oc=5",
+      "source": "Britannica",
+      "category": "Disaster",
+      "publishedAt": "2026-11-21T08:00:00Z"
     },
     {
       "id": "0034d90996b9493b30b1",
@@ -3201,78 +3272,8 @@
       "source": "파이낸셜뉴스",
       "category": "Technology",
       "publishedAt": "2026-11-16T00:47:22Z"
-    },
-    {
-      "id": "a86b940ff1b3ef15ab70",
-      "title": "FAA issues brief ground stop at Orlando International Airport after aircraft experiences blown tire - Hindustan Times",
-      "description": "FAA issues brief ground stop at Orlando International Airport after aircraft experiences blown tire Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPYktBU0pIcXlBR2J4eVYxd21VT3lUTkhhemQxSXBWYUY5YnVnc3BlZHZpUHo4UHZxQ0kxLWFpRFJaMEhDN01rWVY2bG44YmM2WF94djJ3Z215UldHLTZWb01nTGxvQmFZd0pMVUhoZ1BjbXkxQlNZME1COGZRbUl3RnAxOHpWaWpzNnlpbDFuNzA4ZnZDd0xnNW16enN3M1NtM3gxa3hkZHZEaHl0a1paZ3M5YVNGNEJUc3ZlVTNDVDMxLXprX3NuUk44bk85NEE3OWNkX2t4a0xZTWd4VkNTS0ZuZk9wU3otTi05RUREMDM0c0drXzR3MXlnMnA1ZzA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPYktBU0pIcXlBR2J4eVYxd21VT3lUTkhhemQxSXBWYUY5YnVnc3BlZHZpUHo4UHZxQ0kxLWFpRFJaMEhDN01rWVY2bG44YmM2WF94djJ3Z215UldHLTZWb01nTGxvQmFZd0pMVUhoZ1BjbXkxQlNZME1COGZRbUl3RnAxOHpWaWpzNnlpbDFuNzA4ZnZDd0xnNW16enN3M1NtM3gxa3hkZHZEaHl0a1paZ3M5YVNGNEJUc3ZlVTNDVDMxLXprX3NuUk44bk85NEE3OWNkX2t4a0xZTWd4VkNTS0ZuZk9wU3otTi05RUREMDM0c0drXzR3MXlnMnA1ZzA?oc=5",
-      "source": "Hindustan Times",
-      "category": "World",
-      "publishedAt": "2026-11-16T00:11:00Z"
-    },
-    {
-      "id": "048594510ce542f19db0",
-      "title": "Shaping the Future Together: Voices from Around the World at the III International Symposium 'Creating the Future' in Russia - TradingView",
-      "description": "Shaping the Future Together: Voices from Around the World at the III International Symposium 'Creating the Future' in Russia TradingView",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPZW1mSGZIVUZIYVIzYUwweHE2WHdNeFl6RklYNG1faEVhWDg4MDhGOGl1M2pEbU9QY1hBaGQyZFlnZDl3RzVJWTdsSlU2aUVPTlc4b3ZWeG82VE5xZVYyaXY2bnR2X3AzMVRLTzNXRkYxQlhsN1F4ZkQ2Yy11c1I5RmtTc3JLdGZrTkl5bDNLNnR0cGlxQzNobVdyUFk2a29jTGF6YV9oQThObFpIdEk3dkhuTlIwWW9OMS1scE9EUEpfRWllVVNNcFVyZDhHOFJwcGhieFhaZzc1d2YzRlBLTDIza3JTM2ZpU2ZjT2FJa2dseHd5QUpPS1p3Wk9Wd1NYbHBTWEZIWG5QRS1BYVlQdXJSQ2ZwRUpOVTk5bVBoQ3NENlk?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPZW1mSGZIVUZIYVIzYUwweHE2WHdNeFl6RklYNG1faEVhWDg4MDhGOGl1M2pEbU9QY1hBaGQyZFlnZDl3RzVJWTdsSlU2aUVPTlc4b3ZWeG82VE5xZVYyaXY2bnR2X3AzMVRLTzNXRkYxQlhsN1F4ZkQ2Yy11c1I5RmtTc3JLdGZrTkl5bDNLNnR0cGlxQzNobVdyUFk2a29jTGF6YV9oQThObFpIdEk3dkhuTlIwWW9OMS1scE9EUEpfRWllVVNNcFVyZDhHOFJwcGhieFhaZzc1d2YzRlBLTDIza3JTM2ZpU2ZjT2FJa2dseHd5QUpPS1p3Wk9Wd1NYbHBTWEZIWG5QRS1BYVlQdXJSQ2ZwRUpOVTk5bVBoQ3NENlk?oc=5",
-      "source": "TradingView",
-      "category": "World",
-      "publishedAt": "2026-11-15T23:29:29Z"
-    },
-    {
-      "id": "8ae04b651d48173a29d1",
-      "title": "Luis Fernando Larrazabal quickest with Asconos Girl Z at Wellington International - World of Showjumping",
-      "description": "Luis Fernando Larrazabal quickest with Asconos Girl Z at Wellington International World of Showjumping",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWDU1RFFwWXJial9MSUdyYmd3Z1pFWDlQOGJEV2JoVkY2dUtZaVNhV1ZIakljS2UzbDhYeHVxQUZUZXpHOFdSa2loU2QzN005NHplUHJtV1I4WndCZHp1X2pIbkpVaEd2VUlwb0R6d0Q4QTJ3TEw3Mm5vR0tXVzlZeVNISnZnODNEYWdoN052TXhBRWdwMU40Yjd5eVRRUGx6dVFvekRzVkNEWGdBdHpjZzI2bUttN081SG9xY05kejk0Rlp5Qk1wU1BLUlhFRXE1UVlzNw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWDU1RFFwWXJial9MSUdyYmd3Z1pFWDlQOGJEV2JoVkY2dUtZaVNhV1ZIakljS2UzbDhYeHVxQUZUZXpHOFdSa2loU2QzN005NHplUHJtV1I4WndCZHp1X2pIbkpVaEd2VUlwb0R6d0Q4QTJ3TEw3Mm5vR0tXVzlZeVNISnZnODNEYWdoN052TXhBRWdwMU40Yjd5eVRRUGx6dVFvekRzVkNEWGdBdHpjZzI2bUttN081SG9xY05kejk0Rlp5Qk1wU1BLUlhFRXE1UVlzNw?oc=5",
-      "source": "World of Showjumping",
-      "category": "World",
-      "publishedAt": "2026-11-15T23:12:29Z"
-    },
-    {
-      "id": "0579550acb08542c8171",
-      "title": "New Zealanders find international karting success as Thomasen crowned world champion, Hart second - VelocityNews",
-      "description": "New Zealanders find international karting success as Thomasen crowned world champion, Hart second VelocityNews",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFdqZzdOUUlnRzd6MjFKanBDVG54dkhwNmtpVGY2M3Z2WmNqSzFRTWhuNFdhS3BtWVdiT2EzNkVtOXdrcjRpaG1xSVpmNmt2VFhpZ0xXV2ZKcGhuSDNQcXp5aXRYem5MVVhWaU8wbnhlbWZKRktwRDNpdnB2dGkwb1h3WVR1R1k5WTJobWExTlJVWGtTanNKakJiZHUtTnN3N0wyOGR0RU91MGlYdWZVN3Nsay1oTHkxbnlxN09sOEg5R3BldFRN?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNFdqZzdOUUlnRzd6MjFKanBDVG54dkhwNmtpVGY2M3Z2WmNqSzFRTWhuNFdhS3BtWVdiT2EzNkVtOXdrcjRpaG1xSVpmNmt2VFhpZ0xXV2ZKcGhuSDNQcXp5aXRYem5MVVhWaU8wbnhlbWZKRktwRDNpdnB2dGkwb1h3WVR1R1k5WTJobWExTlJVWGtTanNKakJiZHUtTnN3N0wyOGR0RU91MGlYdWZVN3Nsay1oTHkxbnlxN09sOEg5R3BldFRN?oc=5",
-      "source": "VelocityNews",
-      "category": "World",
-      "publishedAt": "2026-11-15T20:49:52Z"
-    },
-    {
-      "id": "6a481e6d7410326d4709",
-      "title": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience - ET Government",
-      "description": "Why India escaped the global Microsoft 365 disruption and how to develop lasting cyber resilience ET Government",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOcVBfREU1a09iRTRPbjRkMHhQU0hDU3Y2c2VYMTJpZ1hKbWd1SWFVWW9WcmNGd1NvNF94eno4Tkh4Nkc2MzBscVI0SlQ5VF9Wa1BKemFpaTVxYUNfWFMzTV9xOEF6bXJKTHVfWUx6MWV1bzl4TWd0blNoM3ZGZlpvLUR1cnpKU2xkNzJ3OHo2WUFsak1EdVpLVzdHeEpidlNoN3cxUTNRVlZBQU1yaU1SZXY0OE93UktlcDB6TWJxMC16SF9wNVUyUi1iOTcwRkxPSWJFYlgzS0ltbTZPOExVWUhuM2RHbG04VUxXY0lqdkxUd9IB9gFBVV95cUxNRzBLblBxMC0yTHgzdlN3OExUcEJTWC1ERnJ2ZUJ3WHozZ0h6bVlVUzlERi1NT2FNbXUwQnhyd1NhcWQ4NWw4NGo5b2hBdmVvaWtPT3huUmpBcXhMcDJBbm1UdF9LLVRrdm9jOW5kM2pObE5oYWx0eVhiQzkyRUtoYXh3amE5V215WVQwMXZQMFJLVEVqWUNZLTRuYzhXYVdoMlVDYXJoVXR4NDRCbzFKTEl3SlFpUWhnM195T2FFQXBpYXhENXUxRnlLam14NlBSWEZYMklnOGo2eUsxRDdXQWVHT3ZrNnhfUFJ5eDV2SVd4ME1FaXc?oc=5",
-      "source": "ET Government",
-      "category": "India",
-      "publishedAt": "2026-11-15T20:10:55Z"
-    },
-    {
-      "id": "3be354e1ada5b2701b09",
-      "title": "Hong Kong's development of an innovation ecosystem offers valuable lessons for Vietnam. - Vietnam.vn",
-      "description": "Hong Kong's development of an innovation ecosystem offers valuable lessons for Vietnam. Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdDFwdzR0X1B1RkNjbVA0R0dmRGZYVFFMN2ZoSFM5NjBjNkhpWEFROEFPWGVPZkE1MTh5ell2SEpBT0dnTWt4VXB4MWFELUJ5M1hyWGFhWElYQWZpdm1CRHp5UFZDX19SOGdzUU1XODc4VUFST19WRTFXaVIxaUhSSFJMTGlsRzJLdTJld21rc1VLUl9zTGVXZkgweXA4ZDExQ1FiTUpxUTd3TEdQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdDFwdzR0X1B1RkNjbVA0R0dmRGZYVFFMN2ZoSFM5NjBjNkhpWEFROEFPWGVPZkE1MTh5ell2SEpBT0dnTWt4VXB4MWFELUJ5M1hyWGFhWElYQWZpdm1CRHp5UFZDX19SOGdzUU1XODc4VUFST19WRTFXaVIxaUhSSFJMTGlsRzJLdTJld21rc1VLUl9zTGVXZkgweXA4ZDExQ1FiTUpxUTd3TEdQ?oc=5",
-      "source": "Vietnam.vn",
-      "category": "Technology",
-      "publishedAt": "2026-11-15T18:34:21Z"
-    },
-    {
-      "id": "1e53501807e153f35eb4",
-      "title": "UPS plane, Copa Airlines flight collide at Miami International Airport - Central Oregon Daily",
-      "description": "UPS plane, Copa Airlines flight collide at Miami International Airport Central Oregon Daily",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNaWo0RWZXTE83MzlvbUlGbUFOekhNXzhTSUxpSlZrTWFORlpGOTI4RXlXdldXZlM3cHlYQkJJM2JEWExLWGVPZ2NpVGdvb1lKRmFDTjVHSVEtOVNBSVlRYXFyRUZtRmJuXzAwR2g3QjBGMWhIQnBpaEQ2TGdTMkxPelRQTlBwb2FreHk5eGMxUjJ2UTAxa2UwOXF6TG8zVlZlQUFCZUM3bUo0cDg0ZDJlcVVWWkpuSzNPcWxMOElCbmh3UEp3Zm4zM1NCN1J5S2h4TXRLLW1KMGVrRVhSMzBIWTJTc09HQ0hIa01aZ0pBV0hHQ0FDdHlVSnJiX3ZrUG8?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNaWo0RWZXTE83MzlvbUlGbUFOekhNXzhTSUxpSlZrTWFORlpGOTI4RXlXdldXZlM3cHlYQkJJM2JEWExLWGVPZ2NpVGdvb1lKRmFDTjVHSVEtOVNBSVlRYXFyRUZtRmJuXzAwR2g3QjBGMWhIQnBpaEQ2TGdTMkxPelRQTlBwb2FreHk5eGMxUjJ2UTAxa2UwOXF6TG8zVlZlQUFCZUM3bUo0cDg0ZDJlcVVWWkpuSzNPcWxMOElCbmh3UEp3Zm4zM1NCN1J5S2h4TXRLLW1KMGVrRVhSMzBIWTJTc09HQ0hIa01aZ0pBV0hHQ0FDdHlVSnJiX3ZrUG8?oc=5",
-      "source": "Central Oregon Daily",
-      "category": "World",
-      "publishedAt": "2026-11-15T18:27:55Z"
     }
   ],
-  "lastUpdated": "2026-11-22T16:58:23Z",
-  "updatedAt": "2026-11-22T16:58:23Z"
+  "lastUpdated": "2026-11-22T22:23:48Z",
+  "updatedAt": "2026-11-22T22:23:48Z"
 }
