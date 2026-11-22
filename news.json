@@ -240,25 +240,23 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-22T08:37:40Z",
-    "lastSuccessfulRun": "2026-11-22T08:37:40Z",
-    "lastUpdated": "2026-11-22T08:37:40Z",
-    "articlesAdded": 8,
+    "lastRun": "2026-11-22T16:58:23Z",
+    "lastSuccessfulRun": "2026-11-22T16:58:23Z",
+    "lastUpdated": "2026-11-22T16:58:23Z",
+    "articlesAdded": 6,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 41,
+    "duplicatesRemoved": 47,
     "failedSources": [],
     "newArticleIds": [
-      "cc015728c741d8971392",
-      "5abf13232bb211bae1cc",
-      "0d9ef66170dc7cb2fd61",
-      "e87f2724a295d632dce6",
-      "f97ef9de6d00836687a2",
-      "8d0edc7a3f0f0e8cca53",
-      "daacd527b22a0e145745",
-      "8066cd80a9e5793099d5"
+      "8cbe3be48499b5b56292",
+      "f975b158bda4785411e5",
+      "1b32224b431569dc3b57",
+      "3935377b09db01d72862",
+      "52f1cd35334236205166",
+      "d108fda837fe31f2795e"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 8,
+    "articlesRemoved": 6,
     "successfulSources": 9
   },
   "statistics": {
@@ -266,8 +264,8 @@
     "categories": {
       "World": 180,
       "India": 26,
-      "Technology": 21,
-      "Environment": 63,
+      "Technology": 22,
+      "Environment": 62,
       "Disaster": 10
     },
     "successfulSources": 9,
@@ -275,14 +273,34 @@
   },
   "articles": [
     {
-      "id": "cc015728c741d8971392",
-      "title": "Turkey’s final draft at UN climate talks doesn’t mention the fossil fuels that cause global warming - The Boston Globe",
-      "description": "Turkey’s final draft at UN climate talks doesn’t mention the fossil fuels that cause global warming The Boston Globe",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT055RW1ITTVkSTY1SDJPbzB3VEdqeXVWX1BBM2dCN0I1M3NWVEJvVkJCSmlWYlEyOFAyV2xEajJKS0dGRjkzTFcyZFZQaVZucHRPT1RpNmhtQWVOTHZ5RTdLMmtENkh1RFJ0SlVySXVQLUZwRjNuR1FtMGE5VGZFZ2VKS0dHVmZDbGJSYzBES3gzdlJ0bUE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT055RW1ITTVkSTY1SDJPbzB3VEdqeXVWX1BBM2dCN0I1M3NWVEJvVkJCSmlWYlEyOFAyV2xEajJKS0dGRjkzTFcyZFZQaVZucHRPT1RpNmhtQWVOTHZ5RTdLMmtENkh1RFJ0SlVySXVQLUZwRjNuR1FtMGE5VGZFZ2VKS0dHVmZDbGJSYzBES3gzdlJ0bUE?oc=5",
-      "source": "The Boston Globe",
+      "id": "8cbe3be48499b5b56292",
+      "title": "The Fight Against Climate Change Goes Small - The Atlantic",
+      "description": "The Fight Against Climate Change Goes Small The Atlantic",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2X3dqVzBIT3VhckhpRTFZSDhBc09oRFhldmRUd1Z3ak1TOC1BaFZMa0htcnpxQ0VyNnYtejAyTFNMeWxkcENhb19URDZpeS1EU3BPem9QM2djdm5KMXFXUGEySkNPaloy?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2X3dqVzBIT3VhckhpRTFZSDhBc09oRFhldmRUd1Z3ak1TOC1BaFZMa0htcnpxQ0VyNnYtejAyTFNMeWxkcENhb19URDZpeS1EU3BPem9QM2djdm5KMXFXUGEySkNPaloy?oc=5",
+      "source": "The Atlantic",
       "category": "Environment",
-      "publishedAt": "2026-11-22T08:30:10Z"
+      "publishedAt": "2026-11-22T15:47:38Z"
+    },
+    {
+      "id": "f975b158bda4785411e5",
+      "title": "Leading international yacht builders set for world and regional premieres at Dubai International Boat Show 2026 - Zawya",
+      "description": "Leading international yacht builders set for world and regional premieres at Dubai International Boat Show 2026 Zawya",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQMXZhOWJ1MG0ybS1PUlFPVWZoRTY1bDdkTTlGNkNPUGIzNjZ2WEVTWEZzVmppSTdXRi1CeUItT1BrclE1X2kzZWlJZlplZTl2MTh4RnVlZ0k0REJiZmdmbHhlcjNZZV9tcDgta18xRnBEcVlWNGRCdzdQT0E1b2ZPWS1NeVUtTEtBN1R1OVpfVjBzS3pwNG54ZUpFLWZsTVlpcndWWkVDaWpXTzBDWHI5R21oOHYyQlFja25hTGJzd01XN1Y1V0hBQ2lONS1uMUgtY0VRMEpFd1ZRckwzdVJyMEVmRDd4QTdLSFF6X053UEpqRDc5WDRLQi1KTG5qYlNHYmFISnl4aXU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQMXZhOWJ1MG0ybS1PUlFPVWZoRTY1bDdkTTlGNkNPUGIzNjZ2WEVTWEZzVmppSTdXRi1CeUItT1BrclE1X2kzZWlJZlplZTl2MTh4RnVlZ0k0REJiZmdmbHhlcjNZZV9tcDgta18xRnBEcVlWNGRCdzdQT0E1b2ZPWS1NeVUtTEtBN1R1OVpfVjBzS3pwNG54ZUpFLWZsTVlpcndWWkVDaWpXTzBDWHI5R21oOHYyQlFja25hTGJzd01XN1Y1V0hBQ2lONS1uMUgtY0VRMEpFd1ZRckwzdVJyMEVmRDd4QTdLSFF6X053UEpqRDc5WDRLQi1KTG5qYlNHYmFISnl4aXU?oc=5",
+      "source": "Zawya",
+      "category": "World",
+      "publishedAt": "2026-11-22T13:41:00Z"
+    },
+    {
+      "id": "1b32224b431569dc3b57",
+      "title": "Global South Needs Greater Representation in International Geopolitics - Asianet Newsable",
+      "description": "Global South Needs Greater Representation in International Geopolitics Asianet Newsable",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWkN3NmVMTnJIV29LNW55TlRldzl4VlRhT0U5NnVFWnJia3p5aldKejQ5YzNlV2JQTVpJN2VzekRaSXFTRXpsdmNMNC1JcVRLM1VIQXAyaHlpSF83bmlfNVQySFhqM0NfN1NxeTBLRjR1WlFSczdvZk5waWNuai1UZ2NHSHZVbS1ta0pMNVhuMGJjNVpWbzZaTXFjTXBxSmZ4NHlPVGVZX3FkOGxKYzBhcmxKWFU3dUVTWWs3WnpRdkN0Z0Zhcno0WA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWkN3NmVMTnJIV29LNW55TlRldzl4VlRhT0U5NnVFWnJia3p5aldKejQ5YzNlV2JQTVpJN2VzekRaSXFTRXpsdmNMNC1JcVRLM1VIQXAyaHlpSF83bmlfNVQySFhqM0NfN1NxeTBLRjR1WlFSczdvZk5waWNuai1UZ2NHSHZVbS1ta0pMNVhuMGJjNVpWbzZaTXFjTXBxSmZ4NHlPVGVZX3FkOGxKYzBhcmxKWFU3dUVTWWs3WnpRdkN0Z0Zhcno0WA?oc=5",
+      "source": "Asianet Newsable",
+      "category": "World",
+      "publishedAt": "2026-11-22T13:30:12Z"
     },
     {
       "id": "93ea83c78448fc41b328",
@@ -292,7 +310,37 @@
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUHQtbGZtampkeFg1aWI3SnNVUEZHM3dSNlNMSU82TGgxNlBhZDdlREF1V1FldXpXdDBEV0hRR0twRDBTd0hGOEE4QXEzU1FleVVxQVREX1BVRVlYUVRxRmwxdnB3N3BkT3NtNGxRSVdSR25UanpBdkhFaDlKMjNiWld4a3g5X21YMHNHWlo3eUF6d3VtcW5aeVA4M2NVbVpBWS02Zi1RTl9wZ2dnMDVGMVZYN05MRTduVHRFUGt0cHJJRDBSY3hIdzc4MWtLTG9LZUFnSkI0R0dXSDRUWmFJ?oc=5",
       "source": "DD News",
       "category": "Environment",
-      "publishedAt": "2026-11-22T08:00:43Z"
+      "publishedAt": "2026-11-22T11:01:23Z"
+    },
+    {
+      "id": "3935377b09db01d72862",
+      "title": "From Ingo to the World: Journalist Dennis Lubanga wins prestigious international award - Mulembe News",
+      "description": "From Ingo to the World: Journalist Dennis Lubanga wins prestigious international award Mulembe News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRmI5RGNkeVRYdlRzRFR3emJDU1g1REhZV3N2LVd2TUFBTUFGVmY0WUx6R0RrOENmc3F1eGZ0ZUtwNWhObGVMNXdwQ2stZW9odnlJOG1XZXFKd3ZSYTBaR0Q4aUZUTzZMQWZXMDlFOUtoNTN3b3NWeDlncHhqUW9Cb1pnZXNrdnhpcEZ1WTc4bWpXbWNJM05XSWVMV2k4THlsQ0pTXzk0YkxTUXRyWUNZNXQ3MzI5Ql9jcy1V?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRmI5RGNkeVRYdlRzRFR3emJDU1g1REhZV3N2LVd2TUFBTUFGVmY0WUx6R0RrOENmc3F1eGZ0ZUtwNWhObGVMNXdwQ2stZW9odnlJOG1XZXFKd3ZSYTBaR0Q4aUZUTzZMQWZXMDlFOUtoNTN3b3NWeDlncHhqUW9Cb1pnZXNrdnhpcEZ1WTc4bWpXbWNJM05XSWVMV2k4THlsQ0pTXzk0YkxTUXRyWUNZNXQ3MzI5Ql9jcy1V?oc=5",
+      "source": "Mulembe News",
+      "category": "World",
+      "publishedAt": "2026-11-22T10:39:29Z"
+    },
+    {
+      "id": "52f1cd35334236205166",
+      "title": "Nipa Ahmed competes in Miss International World 2026 finale - Daily Times Of Bangladesh",
+      "description": "Nipa Ahmed competes in Miss International World 2026 finale Daily Times Of Bangladesh",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOU95MkhOVHhsaktsSHZBZlJIV0VPRllfalhqZHhVSUxUUVNsZWc2QTdjbDlORzBmYW42MDZMdUhUYmpsSlFBelVyaFlnREZCV01lbmY1dXlZNllSRjcyVDZEbzB3M2pPa211Tld0T1FFNHBWZzVDdDlxQUNQRXVkNWh4aw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOU95MkhOVHhsaktsSHZBZlJIV0VPRllfalhqZHhVSUxUUVNsZWc2QTdjbDlORzBmYW42MDZMdUhUYmpsSlFBelVyaFlnREZCV01lbmY1dXlZNllSRjcyVDZEbzB3M2pPa211Tld0T1FFNHBWZzVDdDlxQUNQRXVkNWh4aw?oc=5",
+      "source": "Daily Times Of Bangladesh",
+      "category": "World",
+      "publishedAt": "2026-11-22T10:30:01Z"
+    },
+    {
+      "id": "cc015728c741d8971392",
+      "title": "Turkey’s final draft at UN climate talks doesn’t mention the fossil fuels that cause global warming - The Boston Globe",
+      "description": "Turkey’s final draft at UN climate talks doesn’t mention the fossil fuels that cause global warming The Boston Globe",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT055RW1ITTVkSTY1SDJPbzB3VEdqeXVWX1BBM2dCN0I1M3NWVEJvVkJCSmlWYlEyOFAyV2xEajJKS0dGRjkzTFcyZFZQaVZucHRPT1RpNmhtQWVOTHZ5RTdLMmtENkh1RFJ0SlVySXVQLUZwRjNuR1FtMGE5VGZFZ2VKS0dHVmZDbGJSYzBES3gzdlJ0bUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT055RW1ITTVkSTY1SDJPbzB3VEdqeXVWX1BBM2dCN0I1M3NWVEJvVkJCSmlWYlEyOFAyV2xEajJKS0dGRjkzTFcyZFZQaVZucHRPT1RpNmhtQWVOTHZ5RTdLMmtENkh1RFJ0SlVySXVQLUZwRjNuR1FtMGE5VGZFZ2VKS0dHVmZDbGJSYzBES3gzdlJ0bUE?oc=5",
+      "source": "The Boston Globe",
+      "category": "Environment",
+      "publishedAt": "2026-11-22T08:30:10Z"
     },
     {
       "id": "5abf13232bb211bae1cc",
@@ -333,6 +381,16 @@
       "source": "Saachi Baat",
       "category": "World",
       "publishedAt": "2026-11-22T03:49:52Z"
+    },
+    {
+      "id": "14ff39c6ed0b8a8a74ea",
+      "title": "President Murmu calls for One Health approach, urges collaboration between human, animal and environmental health experts - DD News",
+      "description": "President Murmu calls for One Health approach, urges collaboration between human, animal and environmental health experts DD News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNblRsZGowd3BtRmNZMS1hbW1ZbnNSenhPM1ZFWWpuSUxkU2FPbFdmV1F1dW4zSTBvZ3RSRGh3MlJYMzROWkl0bzdySkZMNlVnaHBGVGlZUm13UG4ySFN0amRuVEdVdTYxM0hnVVV1Tll4QlJ3dXVlLTJmTWx3MDlCeVgtaG1uYVoyN21xRE50cThrZmoxRGZqS2c0ZnRFemNrWjQ2MHJSX19GVzJfNlBUNWFDM0dRRmFfNjI4YzdURC0zVzNudTJ5bWx6TXlLY25Qd3IyQVpjX0NRNTVvQVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNblRsZGowd3BtRmNZMS1hbW1ZbnNSenhPM1ZFWWpuSUxkU2FPbFdmV1F1dW4zSTBvZ3RSRGh3MlJYMzROWkl0bzdySkZMNlVnaHBGVGlZUm13UG4ySFN0amRuVEdVdTYxM0hnVVV1Tll4QlJ3dXVlLTJmTWx3MDlCeVgtaG1uYVoyN21xRE50cThrZmoxRGZqS2c0ZnRFemNrWjQ2MHJSX19GVzJfNlBUNWFDM0dRRmFfNjI4YzdURC0zVzNudTJ5bWx6TXlLY25Qd3IyQVpjX0NRNTVvQVE?oc=5",
+      "source": "DD News",
+      "category": "Environment",
+      "publishedAt": "2026-11-22T03:23:40Z"
     },
     {
       "id": "8d0edc7a3f0f0e8cca53",
@@ -815,16 +873,6 @@
       "publishedAt": "2026-11-20T13:54:33Z"
     },
     {
-      "id": "14ff39c6ed0b8a8a74ea",
-      "title": "President Murmu calls for One Health approach, urges collaboration between human, animal and environmental health experts - DD News",
-      "description": "President Murmu calls for One Health approach, urges collaboration between human, animal and environmental health experts DD News",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNblRsZGowd3BtRmNZMS1hbW1ZbnNSenhPM1ZFWWpuSUxkU2FPbFdmV1F1dW4zSTBvZ3RSRGh3MlJYMzROWkl0bzdySkZMNlVnaHBGVGlZUm13UG4ySFN0amRuVEdVdTYxM0hnVVV1Tll4QlJ3dXVlLTJmTWx3MDlCeVgtaG1uYVoyN21xRE50cThrZmoxRGZqS2c0ZnRFemNrWjQ2MHJSX19GVzJfNlBUNWFDM0dRRmFfNjI4YzdURC0zVzNudTJ5bWx6TXlLY25Qd3IyQVpjX0NRNTVvQVE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNblRsZGowd3BtRmNZMS1hbW1ZbnNSenhPM1ZFWWpuSUxkU2FPbFdmV1F1dW4zSTBvZ3RSRGh3MlJYMzROWkl0bzdySkZMNlVnaHBGVGlZUm13UG4ySFN0amRuVEdVdTYxM0hnVVV1Tll4QlJ3dXVlLTJmTWx3MDlCeVgtaG1uYVoyN21xRE50cThrZmoxRGZqS2c0ZnRFemNrWjQ2MHJSX19GVzJfNlBUNWFDM0dRRmFfNjI4YzdURC0zVzNudTJ5bWx6TXlLY25Qd3IyQVpjX0NRNTVvQVE?oc=5",
-      "source": "DD News",
-      "category": "Environment",
-      "publishedAt": "2026-11-20T13:50:30Z"
-    },
-    {
       "id": "96ea9966c55899994dac",
       "title": "Environmental and material implications of global climate mitigation pathways - Nature",
       "description": "Environmental and material implications of global climate mitigation pathways Nature",
@@ -855,6 +903,16 @@
       "publishedAt": "2026-11-20T10:55:44Z"
     },
     {
+      "id": "15e800987f00f24483ad",
+      "title": "Climate change: Is the fight against global warming and its alarming impact on the planet already lost? - DW.com",
+      "description": "Climate change: Is the fight against global warming and its alarming impact on the planet already lost? DW.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXdiQnRwZmtaeTV1Q1JaZlpHTlo1eHAwUVd5VHNDeGFzSUZDcXVqaldkcTI3RDNtb2hTZHYxLUpVbnRibm5iVUdOOTVJWGVQdUF3U1p4QnZ2ajk4ZDhTNTFOak5wNVVtUlNKRU10bkg2MGJTRVhFX1RxVEhpeFA5dUFwUFU4UFlS0gGIAUFVX3lxTE50UGJwRVotdmpPa0s3TzJJNUNtMk9tU1VRaVk4aThYQ0VtUnByUkh0dkthTksybnZzZ1JsckVhTVh0QmNqTWhrRWdwbGlQSWQxVzVvc2s3VzBrVTNpZ0tWalhpM2VYYkt4amdwM1E2WTV1bjJObWx4UUp1a0FnY0loNzVuaE1QdWw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXdiQnRwZmtaeTV1Q1JaZlpHTlo1eHAwUVd5VHNDeGFzSUZDcXVqaldkcTI3RDNtb2hTZHYxLUpVbnRibm5iVUdOOTVJWGVQdUF3U1p4QnZ2ajk4ZDhTNTFOak5wNVVtUlNKRU10bkg2MGJTRVhFX1RxVEhpeFA5dUFwUFU4UFlS0gGIAUFVX3lxTE50UGJwRVotdmpPa0s3TzJJNUNtMk9tU1VRaVk4aThYQ0VtUnByUkh0dkthTksybnZzZ1JsckVhTVh0QmNqTWhrRWdwbGlQSWQxVzVvc2s3VzBrVTNpZ0tWalhpM2VYYkt4amdwM1E2WTV1bjJObWx4UUp1a0FnY0loNzVuaE1QdWw?oc=5",
+      "source": "DW.com",
+      "category": "Environment",
+      "publishedAt": "2026-11-20T10:35:31Z"
+    },
+    {
       "id": "eca3e1d8a7c7d3c087be",
       "title": "Environmental groups call for IMO Net-Zero Framework adoption before year-end - safety4sea",
       "description": "Environmental groups call for IMO Net-Zero Framework adoption before year-end safety4sea",
@@ -863,16 +921,6 @@
       "source": "safety4sea",
       "category": "Environment",
       "publishedAt": "2026-11-20T10:11:56Z"
-    },
-    {
-      "id": "15e800987f00f24483ad",
-      "title": "Climate change: Is the fight against global warming and its alarming impact on the planet already lost? - DW.com",
-      "description": "Climate change: Is the fight against global warming and its alarming impact on the planet already lost? DW.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXdiQnRwZmtaeTV1Q1JaZlpHTlo1eHAwUVd5VHNDeGFzSUZDcXVqaldkcTI3RDNtb2hTZHYxLUpVbnRibm5iVUdOOTVJWGVQdUF3U1p4QnZ2ajk4ZDhTNTFOak5wNVVtUlNKRU10bkg2MGJTRVhFX1RxVEhpeFA5dUFwUFU4UFlS0gGIAUFVX3lxTE50UGJwRVotdmpPa0s3TzJJNUNtMk9tU1VRaVk4aThYQ0VtUnByUkh0dkthTksybnZzZ1JsckVhTVh0QmNqTWhrRWdwbGlQSWQxVzVvc2s3VzBrVTNpZ0tWalhpM2VYYkt4amdwM1E2WTV1bjJObWx4UUp1a0FnY0loNzVuaE1QdWw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXdiQnRwZmtaeTV1Q1JaZlpHTlo1eHAwUVd5VHNDeGFzSUZDcXVqaldkcTI3RDNtb2hTZHYxLUpVbnRibm5iVUdOOTVJWGVQdUF3U1p4QnZ2ajk4ZDhTNTFOak5wNVVtUlNKRU10bkg2MGJTRVhFX1RxVEhpeFA5dUFwUFU4UFlS0gGIAUFVX3lxTE50UGJwRVotdmpPa0s3TzJJNUNtMk9tU1VRaVk4aThYQ0VtUnByUkh0dkthTksybnZzZ1JsckVhTVh0QmNqTWhrRWdwbGlQSWQxVzVvc2s3VzBrVTNpZ0tWalhpM2VYYkt4amdwM1E2WTV1bjJObWx4UUp1a0FnY0loNzVuaE1QdWw?oc=5",
-      "source": "DW.com",
-      "category": "Environment",
-      "publishedAt": "2026-11-20T09:58:24Z"
     },
     {
       "id": "10ea235dc21a0c89e693",
@@ -1003,6 +1051,16 @@
       "source": "The South First",
       "category": "Environment",
       "publishedAt": "2026-11-20T04:32:48Z"
+    },
+    {
+      "id": "d108fda837fe31f2795e",
+      "title": "Sixth Asia International Innovation and Invention Hong Kong Showcases Over 180 Innovations from the Asia-Pacific - Media OutReach Newswire",
+      "description": "Sixth Asia International Innovation and Invention Hong Kong Showcases Over 180 Innovations from the Asia-Pacific Media OutReach Newswire",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNWVpHelg1d0pRXzlQWHlDODY5UHJBZmRlRDJUaVFBYkVkSUR5bnItbUlJak5hNXZWZ0I0UV83TU9Hc3ZocndabkFERmNCdHpuWk1uenhFd1MxenppQVVxTGFsMVNhZkdaT3JNaGtsWDhXX2ZfYkVmVF9FX0hYXzM1b2pwc29JeGt0VjAteWtJMnhXUl9Dd3dUSWR4enhkd19Cc2tKZXdpaDRGdVRrUk1GaUFSdEI5ckhBM1FYMkI3bzJfRUthMFFpV20yWG1yX0lXb1piNHpGbEF6WkZfaXU4YTY2M0FDVnNHMDRiYzEya3dvaVFNVjRjdE4zMVV3enpwakRtS2JKeTY?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNWVpHelg1d0pRXzlQWHlDODY5UHJBZmRlRDJUaVFBYkVkSUR5bnItbUlJak5hNXZWZ0I0UV83TU9Hc3ZocndabkFERmNCdHpuWk1uenhFd1MxenppQVVxTGFsMVNhZkdaT3JNaGtsWDhXX2ZfYkVmVF9FX0hYXzM1b2pwc29JeGt0VjAteWtJMnhXUl9Dd3dUSWR4enhkd19Cc2tKZXdpaDRGdVRrUk1GaUFSdEI5ckhBM1FYMkI3bzJfRUthMFFpV20yWG1yX0lXb1piNHpGbEF6WkZfaXU4YTY2M0FDVnNHMDRiYzEya3dvaVFNVjRjdE4zMVV3enpwakRtS2JKeTY?oc=5",
+      "source": "Media OutReach Newswire",
+      "category": "Technology",
+      "publishedAt": "2026-11-20T03:35:00Z"
     },
     {
       "id": "3670a1d6bdb13cbae64d",
@@ -3213,68 +3271,8 @@
       "source": "Central Oregon Daily",
       "category": "World",
       "publishedAt": "2026-11-15T18:27:55Z"
-    },
-    {
-      "id": "4177802f3d14fb8ec256",
-      "title": "International Ice Hockey Federation bars Russia's U20 team from World Junior Championship in Canada - Українська правда",
-      "description": "International Ice Hockey Federation bars Russia's U20 team from World Junior Championship in Canada Українська правда",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IZHE1cjFRSXUyblFzd1JSVnpnR25DUFZ5U21TMEMzcGtYLTg1QjliNEdFbXJfSUxRMGpKaWZ1WmdyeXdPUkl3LURnQkNEM1Z6YUhxX0VpSEEzV2RnX1V5eV9QNlPSAXBBVV95cUxPZTZQMDlxZXdJbjBpeEZJdV9aTmxkVHZ6NW1aS0JVTEpEVkU5UDM2SjA5LVJyeU1lek9qYXoxNzB6VWRnMFJEdTBsTGZwRUs4LWJwUVZDclFhUzRBZFI2Sk9jRXdKczlPTEU5V3RlWDdh?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9IZHE1cjFRSXUyblFzd1JSVnpnR25DUFZ5U21TMEMzcGtYLTg1QjliNEdFbXJfSUxRMGpKaWZ1WmdyeXdPUkl3LURnQkNEM1Z6YUhxX0VpSEEzV2RnX1V5eV9QNlPSAXBBVV95cUxPZTZQMDlxZXdJbjBpeEZJdV9aTmxkVHZ6NW1aS0JVTEpEVkU5UDM2SjA5LVJyeU1lek9qYXoxNzB6VWRnMFJEdTBsTGZwRUs4LWJwUVZDclFhUzRBZFI2Sk9jRXdKczlPTEU5V3RlWDdh?oc=5",
-      "source": "Українська правда",
-      "category": "World",
-      "publishedAt": "2026-11-15T18:08:00Z"
-    },
-    {
-      "id": "6c72516039f62270991b",
-      "title": "How a class on climate change leaves students feeling ‘energized’ - The Hechinger Report",
-      "description": "How a class on climate change leaves students feeling ‘energized’ The Hechinger Report",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSmJvZ0dvSjZzMUJXdkc3QkFINnlISV9nMWo0RWtOVTFxeVU2cmc3MXAzb3VVSGN1ZWQ0ZGVqT2MwR3dNeHN0enJMVmVlMkNVWThqOGhmWDZOUFIySm1LMlQwdGJrYk1VX3Y4eHFkN1FzNHhXMEg3R1dha0IzLURZZ09GVEk5OHJOaDFHS1dILTZneG9GX29Z?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSmJvZ0dvSjZzMUJXdkc3QkFINnlISV9nMWo0RWtOVTFxeVU2cmc3MXAzb3VVSGN1ZWQ0ZGVqT2MwR3dNeHN0enJMVmVlMkNVWThqOGhmWDZOUFIySm1LMlQwdGJrYk1VX3Y4eHFkN1FzNHhXMEg3R1dha0IzLURZZ09GVEk5OHJOaDFHS1dILTZneG9GX29Z?oc=5",
-      "source": "The Hechinger Report",
-      "category": "Environment",
-      "publishedAt": "2026-11-15T17:00:00Z"
-    },
-    {
-      "id": "0a8782d65fa7e3089266",
-      "title": "UN chief says 'immediate and drastic' emissions cuts needed to avert climate change catastrophe - WBRZ",
-      "description": "UN chief says 'immediate and drastic' emissions cuts needed to avert climate change catastrophe WBRZ",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk9QZ1VTTXA1dkQ4ZF85TDVIa0hCdXpRYWI0NUpVQWR4UVBPNWROOVVrYWJpQzRWNzI2ZWc2bndueWNxZzBzREFwb09uUEFiV3N0X0JnVWYtNEMtanpOVllYWGdwLTJvejBveEpZeVI4d1RJemxyNERIU1hxcTQxa1Z3TE9BODQtN1VELWZJNi1oWDdXbnc5cjluZDVRblpEdm5udmFiVWZtZmtaaGdzQThYZ05Ja1dnYXl4SQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTk9QZ1VTTXA1dkQ4ZF85TDVIa0hCdXpRYWI0NUpVQWR4UVBPNWROOVVrYWJpQzRWNzI2ZWc2bndueWNxZzBzREFwb09uUEFiV3N0X0JnVWYtNEMtanpOVllYWGdwLTJvejBveEpZeVI4d1RJemxyNERIU1hxcTQxa1Z3TE9BODQtN1VELWZJNi1oWDdXbnc5cjluZDVRblpEdm5udmFiVWZtZmtaaGdzQThYZ05Ja1dnYXl4SQ?oc=5",
-      "source": "WBRZ",
-      "category": "Environment",
-      "publishedAt": "2026-11-15T16:38:33Z"
-    },
-    {
-      "id": "0b4555d6b0d89f2ac567",
-      "title": "Arunachal: International adventure racing teams experience traditional bamboo rafting ahead of Mechukha Championship qualifier - India Today NE",
-      "description": "Arunachal: International adventure racing teams experience traditional bamboo rafting ahead of Mechukha Championship qualifier India Today NE",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb3pXb1g1SlJzTmtqS3djUGg3Ml9NSzhwMlAybTJva1FIQ2EwajZJMnhFOEl6ZXJlOUFoc0JwUE1NMF9NMmNsakY0SWUzalRYZG00UG5EM3pJbV9pTXFYeFRHbTFiNkFZRUpIT3c4Z3JydFRHMEJEZHo2ckl2WGVzNnpKVTZGNk5WMVd5cjNHamRfZWlnV1BETDd0QXktVFkzLWlVQkFidmthZnBZd2ZiRU5HSEdQSkJxbDlBNjNXRHF1RkRFdkVOMmdoLWU0elpESkRF0gHYAUFVX3lxTFAtTGJ2cnBPY01yUUZUcTZWRmlQWWRES2dsUE5qcE9NLXZsTjFiUTZwYmVWaUpyN3FHWDczaXo0SHkyalJMdEl6WDMyTkdzck90bVFSdXhBU3Q3a25GRWNkNWlRYUpyZVdKczh5a19Db3VMNHJIa2pHTWZWUGM5b2hmQV93X0VLVlUzLW5LY1lpekNXc1JIRnBERWdhVDBPZWdxcm9vdnFiZk9OUE1JaUpyMjFPX1Blb0N2blRXOWVBNTBEUy1sdHlWem9wOFBGNzRUYVh2MzlORQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb3pXb1g1SlJzTmtqS3djUGg3Ml9NSzhwMlAybTJva1FIQ2EwajZJMnhFOEl6ZXJlOUFoc0JwUE1NMF9NMmNsakY0SWUzalRYZG00UG5EM3pJbV9pTXFYeFRHbTFiNkFZRUpIT3c4Z3JydFRHMEJEZHo2ckl2WGVzNnpKVTZGNk5WMVd5cjNHamRfZWlnV1BETDd0QXktVFkzLWlVQkFidmthZnBZd2ZiRU5HSEdQSkJxbDlBNjNXRHF1RkRFdkVOMmdoLWU0elpESkRF0gHYAUFVX3lxTFAtTGJ2cnBPY01yUUZUcTZWRmlQWWRES2dsUE5qcE9NLXZsTjFiUTZwYmVWaUpyN3FHWDczaXo0SHkyalJMdEl6WDMyTkdzck90bVFSdXhBU3Q3a25GRWNkNWlRYUpyZVdKczh5a19Db3VMNHJIa2pHTWZWUGM5b2hmQV93X0VLVlUzLW5LY1lpekNXc1JIRnBERWdhVDBPZWdxcm9vdnFiZk9OUE1JaUpyMjFPX1Blb0N2blRXOWVBNTBEUy1sdHlWem9wOFBGNzRUYVh2MzlORQ?oc=5",
-      "source": "India Today NE",
-      "category": "World",
-      "publishedAt": "2026-11-15T15:23:14Z"
-    },
-    {
-      "id": "ac82f5f36ccebe038a0d",
-      "title": "Ajman expands international partnerships at IBTM World 2026 in Barcelona - www.wam.ae",
-      "description": "Ajman expands international partnerships at IBTM World 2026 in Barcelona www.wam.ae",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVjRvZGJWSUIzeG9WSVI3aElVbE05eHpiT0FzV2JwSWc0WVAtVWNoUk9PVHJqbnVFeHhkRG1NTG1ESHBQSkxXVVY5V05OUzlMUjdfY2FmWHh2MFhLcEVBQ2VxM3hBRGRjMW5fOE1lZFVEM0JwcWNQMVNvaUs0QkN4MUVRLUVXZHhhcEVj?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVjRvZGJWSUIzeG9WSVI3aElVbE05eHpiT0FzV2JwSWc0WVAtVWNoUk9PVHJqbnVFeHhkRG1NTG1ESHBQSkxXVVY5V05OUzlMUjdfY2FmWHh2MFhLcEVBQ2VxM3hBRGRjMW5fOE1lZFVEM0JwcWNQMVNvaUs0QkN4MUVRLUVXZHhhcEVj?oc=5",
-      "source": "www.wam.ae",
-      "category": "World",
-      "publishedAt": "2026-11-15T15:12:32Z"
-    },
-    {
-      "id": "4e8457cd77c99f77f656",
-      "title": "Top 10 global developments this week: Trump-Xi-Putin meeting, Nvidia crisis, and more - The Financial Express",
-      "description": "Top 10 global developments this week: Trump-Xi-Putin meeting, Nvidia crisis, and more The Financial Express",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR19DVWtrbVJXdndrcVZycjRMN3pSTDBTNlpvSkFiakczNkwyRndCRTZ5ek5NbzZnZ28xSUpBbFcxZE1wVlJWZGtJaVB3LXVVdl9JWTF5eDVYMXhpUGhTRi0wS2ZtM3l1MnVmWEtBVnpSRXJoeEZCdVkxRXA1dkZ5NjRCQjF1WERWTXItTGwtMFRMVEgwLUhZU2FRZDQ4NkNidUdwN1o0OUwyRWRpTnhFeGswRXdCbmF5ZnNNSGplZ2lQMk00SWNobmVOOGpwOV940gHXAUFVX3lxTFB3MlloemIyWkZJQW1JYUg2Yk9fN0VnSlJiSXRaVTZOOHppcmNkZnpqdGVHQlNQUERLdHVZRmVBdHJJSGZDUUU2U250Y1ZXYWw4TTQ2M2pkRGJzZldBTy1WRWZBekJqSmtJOHVFRHNleU5BUzhUWUdpa2lTZ3dkaGFfY1ZsS0xzOVFodnVlYnluMFlJN245bFJHVUwtVGpKa0JBc3N1VlRjVTBNOVpqX1Vhb0ZSTC1heERXX0I3QWFPSjRrSjJ3SU5kYTIxN1hoOHNxQnZRNEpz?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOR19DVWtrbVJXdndrcVZycjRMN3pSTDBTNlpvSkFiakczNkwyRndCRTZ5ek5NbzZnZ28xSUpBbFcxZE1wVlJWZGtJaVB3LXVVdl9JWTF5eDVYMXhpUGhTRi0wS2ZtM3l1MnVmWEtBVnpSRXJoeEZCdVkxRXA1dkZ5NjRCQjF1WERWTXItTGwtMFRMVEgwLUhZU2FRZDQ4NkNidUdwN1o0OUwyRWRpTnhFeGswRXdCbmF5ZnNNSGplZ2lQMk00SWNobmVOOGpwOV940gHXAUFVX3lxTFB3MlloemIyWkZJQW1JYUg2Yk9fN0VnSlJiSXRaVTZOOHppcmNkZnpqdGVHQlNQUERLdHVZRmVBdHJJSGZDUUU2U250Y1ZXYWw4TTQ2M2pkRGJzZldBTy1WRWZBekJqSmtJOHVFRHNleU5BUzhUWUdpa2lTZ3dkaGFfY1ZsS0xzOVFodnVlYnluMFlJN245bFJHVUwtVGpKa0JBc3N1VlRjVTBNOVpqX1Vhb0ZSTC1heERXX0I3QWFPSjRrSjJ3SU5kYTIxN1hoOHNxQnZRNEpz?oc=5",
-      "source": "The Financial Express",
-      "category": "World",
-      "publishedAt": "2026-11-15T14:47:20Z"
     }
   ],
-  "lastUpdated": "2026-11-22T08:37:40Z",
-  "updatedAt": "2026-11-22T08:37:40Z"
+  "lastUpdated": "2026-11-22T16:58:23Z",
+  "updatedAt": "2026-11-22T16:58:23Z"
 }
