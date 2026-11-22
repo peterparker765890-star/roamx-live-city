@@ -240,50 +240,44 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-21T20:50:12Z",
-    "lastSuccessfulRun": "2026-11-21T20:50:12Z",
-    "lastUpdated": "2026-11-21T20:50:12Z",
-    "articlesAdded": 9,
+    "lastRun": "2026-11-22T01:03:34Z",
+    "lastSuccessfulRun": "2026-11-22T01:03:34Z",
+    "lastUpdated": "2026-11-22T01:03:34Z",
+    "articlesAdded": 3,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 58,
+    "duplicatesRemoved": 56,
     "failedSources": [],
     "newArticleIds": [
-      "a2ccbf28ca69289022a0",
-      "b3c3847bea768cc50c51",
-      "c2adefa39b6597a96100",
-      "e21aecf5f33d6d6a3141",
-      "56e1ded0577b14a58799",
-      "06364a08c62bceaa26fa",
-      "0034d90996b9493b30b1",
-      "57ceef91db14c04687d2",
-      "71477e8f83b7774f37e2"
+      "c4943164f3f2472df852",
+      "a60d19ddf3c4e623ba56",
+      "76b8ab6e61aab78670b1"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 9,
+    "articlesRemoved": 3,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 185,
+      "World": 183,
       "India": 25,
       "Technology": 22,
-      "Environment": 59,
-      "Disaster": 9
+      "Environment": 60,
+      "Disaster": 10
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
     {
-      "id": "a2ccbf28ca69289022a0",
-      "title": "Fossil fuel dispute threatens to scupper climate deal - International - World - Ahram Online",
-      "description": "Fossil fuel dispute threatens to scupper climate deal - International - World Ahram Online",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFFVQzRDSVVHZW5zdnNvVDFzd05DWWprNWNnSkpVVXNPd2RYTGVXdWVNa3d4d1hZeGJLNHBCd0lwSjl2VnMwblZYX2JHVmQ0QWFDMVVlc1BBMnVlUFVnVVAwUVY4YVZ4ZGZFdERKRUtVUk1HSUYzN2x0N1JjUHBpVk9uSkFTVGI0SEVLY05XSkdmazhXd2xhZUFLR2FxSHBvbV9HZzEtX1BQVlVRSE1QTVducFBnREF1VXFNMFFsNEJod0NMYUE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFFVQzRDSVVHZW5zdnNvVDFzd05DWWprNWNnSkpVVXNPd2RYTGVXdWVNa3d4d1hZeGJLNHBCd0lwSjl2VnMwblZYX2JHVmQ0QWFDMVVlc1BBMnVlUFVnVVAwUVY4YVZ4ZGZFdERKRUtVUk1HSUYzN2x0N1JjUHBpVk9uSkFTVGI0SEVLY05XSkdmazhXd2xhZUFLR2FxSHBvbV9HZzEtX1BQVlVRSE1QTVducFBnREF1VXFNMFFsNEJod0NMYUE?oc=5",
-      "source": "Ahram Online",
-      "category": "World",
-      "publishedAt": "2026-11-21T18:50:48Z"
+      "id": "c4943164f3f2472df852",
+      "title": "The Many Dimensions Of Environmental Crisis In Global South – OpEd - Eurasia Review",
+      "description": "The Many Dimensions Of Environmental Crisis In Global South – OpEd Eurasia Review",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPalZMUEV4ZFhaNUxFOHF2OThiVVRqWlZUN0Nra3hIN3huY0dmMG13aUg4SWJncnVEaTgzT0ZYMEV4dUEyQjlMaDFEcDBuRXdHUk5BOG9VS1pvR2RtaUxEdC0zc0tZaHJEZS11alI3NVhTdENNTEdIQ0lKaEZJeUhQY29HR3hNUkIzaHYyTV9SdXJlV0FYSWRhTi14NWdDemJUelhNV05wOA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPalZMUEV4ZFhaNUxFOHF2OThiVVRqWlZUN0Nra3hIN3huY0dmMG13aUg4SWJncnVEaTgzT0ZYMEV4dUEyQjlMaDFEcDBuRXdHUk5BOG9VS1pvR2RtaUxEdC0zc0tZaHJEZS11alI3NVhTdENNTEdIQ0lKaEZJeUhQY29HR3hNUkIzaHYyTV9SdXJlV0FYSWRhTi14NWdDemJUelhNV05wOA?oc=5",
+      "source": "Eurasia Review",
+      "category": "Environment",
+      "publishedAt": "2026-11-22T00:44:07Z"
     },
     {
       "id": "b3c3847bea768cc50c51",
@@ -293,7 +287,17 @@
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaVRCb1N1dEl5YVdlckFtY0p2anRWekFWdnVfVjFaS0l3R3RuVHU2cVZEYWxqM0dBTTVEUTJRRlRWLWRaYjRKbVJINE1yUl96QnM4YkFvelRPSGNDN0tQTF9iMXdBNVU3SVNJdy1zMFRIdUY2NENhektsdFZSSC0xSmVzLVI1Y3oyNDgtZ3BrWnM4Sl9sdHfSAZsBQVVfeXFMUGtsQmhlczluMzRVMDI1Y2pOb0ROaklOTjgtdVAxXzZ2Y0tkb0xFdEZBVTFZWUgwd2xnN0VhdjZlb2dCeW5sLUZZdGk0WjMxNDJKVDFteUVDUXJvS0trbDdNQVg3aGNJSjVmVk1jRG5VMnlwWE5Oa2ZBek5ScHhrYWhLSEw5ZzZBN0xkbDM0WEZOUzVqLWRiSmJvVGc?oc=5",
       "source": "World Israel News",
       "category": "World",
-      "publishedAt": "2026-11-21T18:09:27Z"
+      "publishedAt": "2026-11-21T21:33:32Z"
+    },
+    {
+      "id": "a2ccbf28ca69289022a0",
+      "title": "Fossil fuel dispute threatens to scupper climate deal - International - World - Ahram Online",
+      "description": "Fossil fuel dispute threatens to scupper climate deal - International - World Ahram Online",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFFVQzRDSVVHZW5zdnNvVDFzd05DWWprNWNnSkpVVXNPd2RYTGVXdWVNa3d4d1hZeGJLNHBCd0lwSjl2VnMwblZYX2JHVmQ0QWFDMVVlc1BBMnVlUFVnVVAwUVY4YVZ4ZGZFdERKRUtVUk1HSUYzN2x0N1JjUHBpVk9uSkFTVGI0SEVLY05XSkdmazhXd2xhZUFLR2FxSHBvbV9HZzEtX1BQVlVRSE1QTVducFBnREF1VXFNMFFsNEJod0NMYUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFFVQzRDSVVHZW5zdnNvVDFzd05DWWprNWNnSkpVVXNPd2RYTGVXdWVNa3d4d1hZeGJLNHBCd0lwSjl2VnMwblZYX2JHVmQ0QWFDMVVlc1BBMnVlUFVnVVAwUVY4YVZ4ZGZFdERKRUtVUk1HSUYzN2x0N1JjUHBpVk9uSkFTVGI0SEVLY05XSkdmazhXd2xhZUFLR2FxSHBvbV9HZzEtX1BQVlVRSE1QTVducFBnREF1VXFNMFFsNEJod0NMYUE?oc=5",
+      "source": "Ahram Online",
+      "category": "World",
+      "publishedAt": "2026-11-21T18:50:48Z"
     },
     {
       "id": "c2adefa39b6597a96100",
@@ -324,6 +328,16 @@
       "source": "MyJoyOnline",
       "category": "Environment",
       "publishedAt": "2026-11-21T14:40:53Z"
+    },
+    {
+      "id": "a60d19ddf3c4e623ba56",
+      "title": "ASRA Q. NOMANI: Communist, hard-left groups mount global youth strike to bring 'socialist revolution' - Fox News",
+      "description": "ASRA Q. NOMANI: Communist, hard-left groups mount global youth strike to bring 'socialist revolution' Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZzk4aEs3clczMGRDVmxBVjUyRFpTY2dySnVQTTR0SDFJY3FvVFFoWmpGa0FueHVaczN5RG16NXQxSEp6NVB2Uk9zVGFidGpqRFhxS2Z1VkM0WWJTQTl1R2Yxc0lQZ054c0dzbzV4YkpVYjU1Uk4wNE5jRW5yWVBTS3Rpak1Kb2VQNXItOFBkMDQ2LXpTbU92N01paFFVTEh4X1V4LXNybHpQNGlTMVlwOXFjcmxQaVNCU3EzbF9ROGxuR1Q4NE5zWmV1a9IB0AFBVV95cUxOX04wWk1PbmRwNk5Id013THBJUllLN0JmdlV2RllvUUZELXpuR0s2VU9jYTRIcFdnUzRIU2xmREppUjV6NUw0cG9BQVFmUkhpWDc2NU1GMzZvSUQ5bEQwRUlfbjNjLTZkajJ5Z183VVZ4QTBHTFRmUWdWZVR0Ukg3aVA3SVNnWFZyenkwYXhDR1pNN21mR2oxTnVtOXdQRVNDZWEtZ0xkLWlRVldkaWZSQ1FKV3BGaHpDNVFTc3Y0UXZ2dTMzT3ZCWWd0cFRCV3VZ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZzk4aEs3clczMGRDVmxBVjUyRFpTY2dySnVQTTR0SDFJY3FvVFFoWmpGa0FueHVaczN5RG16NXQxSEp6NVB2Uk9zVGFidGpqRFhxS2Z1VkM0WWJTQTl1R2Yxc0lQZ054c0dzbzV4YkpVYjU1Uk4wNE5jRW5yWVBTS3Rpak1Kb2VQNXItOFBkMDQ2LXpTbU92N01paFFVTEh4X1V4LXNybHpQNGlTMVlwOXFjcmxQaVNCU3EzbF9ROGxuR1Q4NE5zWmV1a9IB0AFBVV95cUxOX04wWk1PbmRwNk5Id013THBJUllLN0JmdlV2RllvUUZELXpuR0s2VU9jYTRIcFdnUzRIU2xmREppUjV6NUw0cG9BQVFmUkhpWDc2NU1GMzZvSUQ5bEQwRUlfbjNjLTZkajJ5Z183VVZ4QTBHTFRmUWdWZVR0Ukg3aVA3SVNnWFZyenkwYXhDR1pNN21mR2oxTnVtOXdQRVNDZWEtZ0xkLWlRVldkaWZSQ1FKV3BGaHpDNVFTc3Y0UXZ2dTMzT3ZCWWd0cFRCV3VZ?oc=5",
+      "source": "Fox News",
+      "category": "World",
+      "publishedAt": "2026-11-21T13:33:39Z"
     },
     {
       "id": "e21aecf5f33d6d6a3141",
@@ -1434,6 +1448,16 @@
       "source": "The Indian Express",
       "category": "India",
       "publishedAt": "2026-11-19T08:14:20Z"
+    },
+    {
+      "id": "76b8ab6e61aab78670b1",
+      "title": "Earthquakes, Tornadoes, and Wildfires | All About Natural Disasters - Britannica",
+      "description": "Earthquakes, Tornadoes, and Wildfires | All About Natural Disasters Britannica",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wUHFYY0N5Z2lqd1FjLVpmRzhvM1FKNGhXbGc0Wm41bjE1bnI1YmdtVmtDS3IwQVJGb1E2eGh6bllWM0hDVU9BbHB1RzBFclZRVXNZbGpjYzl3QWJPMVczSTMyLXdsMVJqTDZMNWtVTTRnMmM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wUHFYY0N5Z2lqd1FjLVpmRzhvM1FKNGhXbGc0Wm41bjE1bnI1YmdtVmtDS3IwQVJGb1E2eGh6bllWM0hDVU9BbHB1RzBFclZRVXNZbGpjYzl3QWJPMVczSTMyLXdsMVJqTDZMNWtVTTRnMmM?oc=5",
+      "source": "Britannica",
+      "category": "Disaster",
+      "publishedAt": "2026-11-19T08:00:00Z"
     },
     {
       "id": "1dcd60e9c59f92131706",
@@ -3244,38 +3268,8 @@
       "source": "Zero Tackle",
       "category": "World",
       "publishedAt": "2026-11-15T11:47:22Z"
-    },
-    {
-      "id": "013e1c09fc9f8aed0fa7",
-      "title": "International students turn to US again? Report says study interest jumps 40% after midterms - The Times of India",
-      "description": "International students turn to US again? Report says study interest jumps 40% after midterms The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSkRkRXpRNnFlRzdKYXh0MGNtbWhGcm9WSzNSN09zR3R5ZC1CaWdQSVhhRUozalFyNi1wSmpVaXlkQzhBXzZuUGZBR1Q0M1BhaDNhazRBTEo0NEg4bE0tSVlKaWxiUV9FLUlSbG91MEVyM1NPR0xFT3BLUzJKeXplVXQtd1R6c2ZQUTVKejM1NDF6VlozY21YMVdiT0dBbTEwRnJONEFRWFI1MlNZRVZaRFlEUTlLVnFFa0JGdFhQSE9YamkyQ3dRMnptNE9SUGZvS0ZrNmhxZnZ4V2tfMDlsZEZyUEhmTDM1VGZfcUNORWRneknSAfgBQVVfeXFMT2RLYlAzb3RqbTFZU3Jjd1pSNno5Y2p3Z1NvRWUzSWd4eHM0ZmFJd1pwMEtXNE4zLVRjWjhHRWxsR2pWTlNiY1pyQ0Q1WjhJNFY4TFNhY0tsbHZmTExQNGUtLWpETjZaM3BfRUdmUklZb25RaVBrZDFLQmhwNzM5STN0M0xKWWFvZDhQdDIyaGJxVTZSdFpHanpIWl8xdldPSWtDNWFvTkpoc1R6VU5OUDJJcGZZTXRwdHRCY2ZfOC1USkFoWWsxT1k1QVNLa3lNdjVoS3hieUlNcy01TGtIVS1SWmsxa0V5ZTZqWHVwWW01N0ViN1d2UTE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSkRkRXpRNnFlRzdKYXh0MGNtbWhGcm9WSzNSN09zR3R5ZC1CaWdQSVhhRUozalFyNi1wSmpVaXlkQzhBXzZuUGZBR1Q0M1BhaDNhazRBTEo0NEg4bE0tSVlKaWxiUV9FLUlSbG91MEVyM1NPR0xFT3BLUzJKeXplVXQtd1R6c2ZQUTVKejM1NDF6VlozY21YMVdiT0dBbTEwRnJONEFRWFI1MlNZRVZaRFlEUTlLVnFFa0JGdFhQSE9YamkyQ3dRMnptNE9SUGZvS0ZrNmhxZnZ4V2tfMDlsZEZyUEhmTDM1VGZfcUNORWRneknSAfgBQVVfeXFMT2RLYlAzb3RqbTFZU3Jjd1pSNno5Y2p3Z1NvRWUzSWd4eHM0ZmFJd1pwMEtXNE4zLVRjWjhHRWxsR2pWTlNiY1pyQ0Q1WjhJNFY4TFNhY0tsbHZmTExQNGUtLWpETjZaM3BfRUdmUklZb25RaVBrZDFLQmhwNzM5STN0M0xKWWFvZDhQdDIyaGJxVTZSdFpHanpIWl8xdldPSWtDNWFvTkpoc1R6VU5OUDJJcGZZTXRwdHRCY2ZfOC1USkFoWWsxT1k1QVNLa3lNdjVoS3hieUlNcy01TGtIVS1SWmsxa0V5ZTZqWHVwWW01N0ViN1d2UTE?oc=5",
-      "source": "The Times of India",
-      "category": "World",
-      "publishedAt": "2026-11-15T10:35:00Z"
-    },
-    {
-      "id": "42220aaea23b15920d61",
-      "title": "US sees 40% surge in international student interest after midterm elections: Report - Hindustan Times",
-      "description": "US sees 40% surge in international student interest after midterm elections: Report Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTEROWU53YUZOd1RpaVpvUUdETmdXbzdSQnNwNlRybWRzVmRpXzl2UFVQRF9OaGNmLXhvT1dlSEUxMktrUVNNZEpMaVlzQmxZVlRjOTczWm9jVjZISU1yX1VVYy1wYm11aTVBUnhxaVF3VXkxQkF1OW9DenR2UDlnM1dSNWQxRUZVVXhzdG45UWFnNkdNcEIzcEdRWl80endHWDVSbzJ6ZEQ3MnhELXM0YWhlMkE3YzFLSXVOMElkblREcUowclpiRF93ZnNFdm5rV21JbW1MTjdQNmxrd2NtTnlnbVpTblk?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTEROWU53YUZOd1RpaVpvUUdETmdXbzdSQnNwNlRybWRzVmRpXzl2UFVQRF9OaGNmLXhvT1dlSEUxMktrUVNNZEpMaVlzQmxZVlRjOTczWm9jVjZISU1yX1VVYy1wYm11aTVBUnhxaVF3VXkxQkF1OW9DenR2UDlnM1dSNWQxRUZVVXhzdG45UWFnNkdNcEIzcEdRWl80endHWDVSbzJ6ZEQ3MnhELXM0YWhlMkE3YzFLSXVOMElkblREcUowclpiRF93ZnNFdm5rV21JbW1MTjdQNmxrd2NtTnlnbVpTblk?oc=5",
-      "source": "Hindustan Times",
-      "category": "World",
-      "publishedAt": "2026-11-15T09:22:57Z"
-    },
-    {
-      "id": "1d7822ae01ad3abf6369",
-      "title": "US sees 40% surge in international student interest after midterm elections: Report | Hindustan Times - Hindustan Times",
-      "description": "US sees 40% surge in international student interest after midterm elections: Report | Hindustan Times Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTEROWU53YUZOd1RpaVpvUUdETmdXbzdSQnNwNlRybWRzVmRpXzl2UFVQRF9OaGNmLXhvT1dlSEUxMktrUVNNZEpMaVlzQmxZVlRjOTczWm9jVjZISU1yX1VVYy1wYm11aTVBUnhxaVF3VXkxQkF1OW9DenR2UDlnM1dSNWQxRUZVVXhzdG45UWFnNkdNcEIzcEdRWl80endHWDVSbzJ6ZEQ3MnhELXM0YWhlMkE3YzFLSXVOMElkblREcUowclpiRF93ZnNFdm5rV21JbW1MTjdQNmxrd2NtTnlnbVpTblnSAewBQVVfeXFMT05QelhqQy1BRlNuUXlzaGZEaE5tUUtYbXh6ZmkxUnZORnJMcWk3bEpDaWVHaTc2MlNCTTBWcmhabFJOSTM1U0x4OFl0Nms3YzVCaUxwdFByS2FhcEpuQVpMZ2lnSk1PWFNESGpNSXp2Y1NEWHFNMDN3Wm5ub0FvUTIwSkFMSFh3VGpYX0w1MG9lXy1WUlAxY2NmdFBCOXFpek1udjJ4NXRScE1OeDgycDZ5VldWS2VKSUl4TnliWkhpQjJscWVwbVhVVnhnWWx0YzVnb08zLW5GSDAya2g1SEFGdnJURWxnSGY2SzA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQTEROWU53YUZOd1RpaVpvUUdETmdXbzdSQnNwNlRybWRzVmRpXzl2UFVQRF9OaGNmLXhvT1dlSEUxMktrUVNNZEpMaVlzQmxZVlRjOTczWm9jVjZISU1yX1VVYy1wYm11aTVBUnhxaVF3VXkxQkF1OW9DenR2UDlnM1dSNWQxRUZVVXhzdG45UWFnNkdNcEIzcEdRWl80endHWDVSbzJ6ZEQ3MnhELXM0YWhlMkE3YzFLSXVOMElkblREcUowclpiRF93ZnNFdm5rV21JbW1MTjdQNmxrd2NtTnlnbVpTblnSAewBQVVfeXFMT05QelhqQy1BRlNuUXlzaGZEaE5tUUtYbXh6ZmkxUnZORnJMcWk3bEpDaWVHaTc2MlNCTTBWcmhabFJOSTM1U0x4OFl0Nms3YzVCaUxwdFByS2FhcEpuQVpMZ2lnSk1PWFNESGpNSXp2Y1NEWHFNMDN3Wm5ub0FvUTIwSkFMSFh3VGpYX0w1MG9lXy1WUlAxY2NmdFBCOXFpek1udjJ4NXRScE1OeDgycDZ5VldWS2VKSUl4TnliWkhpQjJscWVwbVhVVnhnWWx0YzVnb08zLW5GSDAya2g1SEFGdnJURWxnSGY2SzA?oc=5",
-      "source": "Hindustan Times",
-      "category": "World",
-      "publishedAt": "2026-11-15T09:22:57Z"
     }
   ],
-  "lastUpdated": "2026-11-21T20:50:12Z",
-  "updatedAt": "2026-11-21T20:50:12Z"
+  "lastUpdated": "2026-11-22T01:03:34Z",
+  "updatedAt": "2026-11-22T01:03:34Z"
 }
