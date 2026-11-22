@@ -240,35 +240,110 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-22T01:03:34Z",
-    "lastSuccessfulRun": "2026-11-22T01:03:34Z",
-    "lastUpdated": "2026-11-22T01:03:34Z",
-    "articlesAdded": 3,
+    "lastRun": "2026-11-22T08:37:40Z",
+    "lastSuccessfulRun": "2026-11-22T08:37:40Z",
+    "lastUpdated": "2026-11-22T08:37:40Z",
+    "articlesAdded": 8,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 56,
+    "duplicatesRemoved": 41,
     "failedSources": [],
     "newArticleIds": [
-      "c4943164f3f2472df852",
-      "a60d19ddf3c4e623ba56",
-      "76b8ab6e61aab78670b1"
+      "cc015728c741d8971392",
+      "5abf13232bb211bae1cc",
+      "0d9ef66170dc7cb2fd61",
+      "e87f2724a295d632dce6",
+      "f97ef9de6d00836687a2",
+      "8d0edc7a3f0f0e8cca53",
+      "daacd527b22a0e145745",
+      "8066cd80a9e5793099d5"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 3,
+    "articlesRemoved": 8,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 183,
-      "India": 25,
-      "Technology": 22,
-      "Environment": 60,
+      "World": 180,
+      "India": 26,
+      "Technology": 21,
+      "Environment": 63,
       "Disaster": 10
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "cc015728c741d8971392",
+      "title": "Turkey’s final draft at UN climate talks doesn’t mention the fossil fuels that cause global warming - The Boston Globe",
+      "description": "Turkey’s final draft at UN climate talks doesn’t mention the fossil fuels that cause global warming The Boston Globe",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT055RW1ITTVkSTY1SDJPbzB3VEdqeXVWX1BBM2dCN0I1M3NWVEJvVkJCSmlWYlEyOFAyV2xEajJKS0dGRjkzTFcyZFZQaVZucHRPT1RpNmhtQWVOTHZ5RTdLMmtENkh1RFJ0SlVySXVQLUZwRjNuR1FtMGE5VGZFZ2VKS0dHVmZDbGJSYzBES3gzdlJ0bUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT055RW1ITTVkSTY1SDJPbzB3VEdqeXVWX1BBM2dCN0I1M3NWVEJvVkJCSmlWYlEyOFAyV2xEajJKS0dGRjkzTFcyZFZQaVZucHRPT1RpNmhtQWVOTHZ5RTdLMmtENkh1RFJ0SlVySXVQLUZwRjNuR1FtMGE5VGZFZ2VKS0dHVmZDbGJSYzBES3gzdlJ0bUE?oc=5",
+      "source": "The Boston Globe",
+      "category": "Environment",
+      "publishedAt": "2026-11-22T08:30:10Z"
+    },
+    {
+      "id": "93ea83c78448fc41b328",
+      "title": "President Murmu calls for collaboration across human and veterinary medicine, environmental science to advance ‘One Health’ - DD News",
+      "description": "President Murmu calls for collaboration across human and veterinary medicine, environmental science to advance ‘One Health’ DD News",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUHQtbGZtampkeFg1aWI3SnNVUEZHM3dSNlNMSU82TGgxNlBhZDdlREF1V1FldXpXdDBEV0hRR0twRDBTd0hGOEE4QXEzU1FleVVxQVREX1BVRVlYUVRxRmwxdnB3N3BkT3NtNGxRSVdSR25UanpBdkhFaDlKMjNiWld4a3g5X21YMHNHWlo3eUF6d3VtcW5aeVA4M2NVbVpBWS02Zi1RTl9wZ2dnMDVGMVZYN05MRTduVHRFUGt0cHJJRDBSY3hIdzc4MWtLTG9LZUFnSkI0R0dXSDRUWmFJ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUHQtbGZtampkeFg1aWI3SnNVUEZHM3dSNlNMSU82TGgxNlBhZDdlREF1V1FldXpXdDBEV0hRR0twRDBTd0hGOEE4QXEzU1FleVVxQVREX1BVRVlYUVRxRmwxdnB3N3BkT3NtNGxRSVdSR25UanpBdkhFaDlKMjNiWld4a3g5X21YMHNHWlo3eUF6d3VtcW5aeVA4M2NVbVpBWS02Zi1RTl9wZ2dnMDVGMVZYN05MRTduVHRFUGt0cHJJRDBSY3hIdzc4MWtLTG9LZUFnSkI0R0dXSDRUWmFJ?oc=5",
+      "source": "DD News",
+      "category": "Environment",
+      "publishedAt": "2026-11-22T08:00:43Z"
+    },
+    {
+      "id": "5abf13232bb211bae1cc",
+      "title": "Cornell reopens CPT applications for international students after US court pauses tighter eligibility rules | Hindustan Times - Hindustan Times",
+      "description": "Cornell reopens CPT applications for international students after US court pauses tighter eligibility rules | Hindustan Times Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOZDFMYTF1blJoWTdBYlZqekdTbFpOamE5RVpIdXlfdGwyazZHOUd6aWJyZ0lMRTNQRWtTdWVzV2VFYUZYVjc1YU1TaHBsZnFjQzBSRGMzS3dzd1VMSmZ5ZEM2QnNacmRPbzJvenRtUkRxZEdWdUcyRDFydExkazg0cE5Ydk84M2FxR29JaTVEV2tnQkVqSS11d3lTeUlkRklzOXIzQTYxZ3EzUVNhakJSa1ZJNmdWS0JaMURuRWZFQlY1ck1jU01vRUo2Y2U4LUQwUkdLaG9OdkQ5b0hRb0thVWVOSjBtakJZWW8tQWFRcFg5VHB2eXNyaW9xdkRZZXZmT0ozdFl2XzRaUdIBjwJBVV95cUxQZzctRWs3TjFDZGhDWTVESzNBUzUtc0dsdk9NN1puTjU5ZFVXVnBTbEFGTFUxeWFaZ21wcC1lVnhQVGdwYTNQbTFGYUxwcmkya0N0Umx6M1hEckFSLU03RW8wY0tCYzVhbU5oaFdzSnRUZFI3dEV5bWlxdDlja2Y5SWRCSHowOEVycWh4dkgybElkV3hPbzl1czlJNlVEeGE1NDFtQWJicDJ3TDRId0laUk1Hakx5UTRwYWM3TG4ybHROdWVIR21KRGU2QVZGLWM4eHlMbnJ2QTZ0dXNySlZGcDJTYWI2Y1pia09sMnY1MkhnWGRjTEFtVVRaN3pFY29Xd2JSeHNUQTU0cjR1OFlR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOZDFMYTF1blJoWTdBYlZqekdTbFpOamE5RVpIdXlfdGwyazZHOUd6aWJyZ0lMRTNQRWtTdWVzV2VFYUZYVjc1YU1TaHBsZnFjQzBSRGMzS3dzd1VMSmZ5ZEM2QnNacmRPbzJvenRtUkRxZEdWdUcyRDFydExkazg0cE5Ydk84M2FxR29JaTVEV2tnQkVqSS11d3lTeUlkRklzOXIzQTYxZ3EzUVNhakJSa1ZJNmdWS0JaMURuRWZFQlY1ck1jU01vRUo2Y2U4LUQwUkdLaG9OdkQ5b0hRb0thVWVOSjBtakJZWW8tQWFRcFg5VHB2eXNyaW9xdkRZZXZmT0ozdFl2XzRaUdIBjwJBVV95cUxQZzctRWs3TjFDZGhDWTVESzNBUzUtc0dsdk9NN1puTjU5ZFVXVnBTbEFGTFUxeWFaZ21wcC1lVnhQVGdwYTNQbTFGYUxwcmkya0N0Umx6M1hEckFSLU03RW8wY0tCYzVhbU5oaFdzSnRUZFI3dEV5bWlxdDlja2Y5SWRCSHowOEVycWh4dkgybElkV3hPbzl1czlJNlVEeGE1NDFtQWJicDJ3TDRId0laUk1Hakx5UTRwYWM3TG4ybHROdWVIR21KRGU2QVZGLWM4eHlMbnJ2QTZ0dXNySlZGcDJTYWI2Y1pia09sMnY1MkhnWGRjTEFtVVRaN3pFY29Xd2JSeHNUQTU0cjR1OFlR?oc=5",
+      "source": "Hindustan Times",
+      "category": "World",
+      "publishedAt": "2026-11-22T06:26:57Z"
+    },
+    {
+      "id": "0d9ef66170dc7cb2fd61",
+      "title": "Crazy Taxi: World Tour Reveals Final International Map - Bleeding Cool News",
+      "description": "Crazy Taxi: World Tour Reveals Final International Map Bleeding Cool News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbGE1TzhRNWxYVTItcFRSMDlRWlE2V2xpSWx0TVllaWRRVFdKX1RQUmx5VWJ5UDAyT2ZzUnhrOEp2ZDRJSWJxWFVlalZpQnlzMkZENFFJZnlEY0tlUnl4bFZLc0FtNUpuUTFXdnRVSTlzTm8ydVQyY0hGMnZJc2tEMHlyaGxxbVV0T1Rla0p3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbGE1TzhRNWxYVTItcFRSMDlRWlE2V2xpSWx0TVllaWRRVFdKX1RQUmx5VWJ5UDAyT2ZzUnhrOEp2ZDRJSWJxWFVlalZpQnlzMkZENFFJZnlEY0tlUnl4bFZLc0FtNUpuUTFXdnRVSTlzTm8ydVQyY0hGMnZJc2tEMHlyaGxxbVV0T1Rla0p3?oc=5",
+      "source": "Bleeding Cool News",
+      "category": "World",
+      "publishedAt": "2026-11-22T04:42:08Z"
+    },
+    {
+      "id": "e87f2724a295d632dce6",
+      "title": "‘Water was on fire’: British swimmer flags environmental cost of war after 15-km Strait of Hormuz swim - The Times of India",
+      "description": "‘Water was on fire’: British swimmer flags environmental cost of war after 15-km Strait of Hormuz swim The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPNS12OEtYTW95Nm42UXVqM1R0cS1ydTZjd3J3azROUkhlcjlfb3ZYUTBDNmg2WG83MzlDcmItN2RyNGgzS0VPeUI4Ym1nZUVfZTZQUzl1WnhNYnFxV1lWcm11VFRYQU5ZNVVhUmRSbXd6cTJRSU1SdWtmbURXVk9uWVJ4U2V2UUdrUnpVRHlTTWlFeUZwMTRMR29MYnN3YlZtQ1kyamt3bkk1dE9rcWxwUTgycm4tVUs1eEVxMU5TZUFMeWljdEk1TmVRR0FPSG9pR3o4MTVYbnh4dnBGMC1oM0FVdmdDRmo1LU1RUWRZbGVjNHdaS2pnV2xWdmp2WmlxSDdrSUlqQkh0bGPSAZACQVVfeXFMT1VBcGJKclFod1VRQy00T1VQeDZsTzdNTG9wZmI2S2NnME5LN2p5Y1FWRVVLbWZZTDMybFlFdlRaMVhKejNuTk92WV9BNlE3bU5IVTY2ZHl6Nnl2dExXUWg3elZIbTUtTGY3UUJvWEd5ZXdYa0p0RFM3elJkenZhUEdMdFMzMEZ3MlZjbFp2bEtEWFpTTXRBeUdDSW82OVd3TzBqRkpnNmdaeUZKN2JBalkzaG9IWGRTbE1qUEpPZVFLTW55MUw0MFBjZmswSXlDM044VFJUWWh1VktmUWE3SXV3R3hxQ0ptRlQ3d2F3Wk43SkttcTNCN3BwVU1Mdm16bDNlMXFjc2tVUXhTMm1uSzI?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPNS12OEtYTW95Nm42UXVqM1R0cS1ydTZjd3J3azROUkhlcjlfb3ZYUTBDNmg2WG83MzlDcmItN2RyNGgzS0VPeUI4Ym1nZUVfZTZQUzl1WnhNYnFxV1lWcm11VFRYQU5ZNVVhUmRSbXd6cTJRSU1SdWtmbURXVk9uWVJ4U2V2UUdrUnpVRHlTTWlFeUZwMTRMR29MYnN3YlZtQ1kyamt3bkk1dE9rcWxwUTgycm4tVUs1eEVxMU5TZUFMeWljdEk1TmVRR0FPSG9pR3o4MTVYbnh4dnBGMC1oM0FVdmdDRmo1LU1RUWRZbGVjNHdaS2pnV2xWdmp2WmlxSDdrSUlqQkh0bGPSAZACQVVfeXFMT1VBcGJKclFod1VRQy00T1VQeDZsTzdNTG9wZmI2S2NnME5LN2p5Y1FWRVVLbWZZTDMybFlFdlRaMVhKejNuTk92WV9BNlE3bU5IVTY2ZHl6Nnl2dExXUWg3elZIbTUtTGY3UUJvWEd5ZXdYa0p0RFM3elJkenZhUEdMdFMzMEZ3MlZjbFp2bEtEWFpTTXRBeUdDSW82OVd3TzBqRkpnNmdaeUZKN2JBalkzaG9IWGRTbE1qUEpPZVFLTW55MUw0MFBjZmswSXlDM044VFJUWWh1VktmUWE3SXV3R3hxQ0ptRlQ3d2F3Wk43SkttcTNCN3BwVU1Mdm16bDNlMXFjc2tVUXhTMm1uSzI?oc=5",
+      "source": "The Times of India",
+      "category": "Environment",
+      "publishedAt": "2026-11-22T04:35:00Z"
+    },
+    {
+      "id": "f97ef9de6d00836687a2",
+      "title": "International & World News – 22 November 2026 - Saachi Baat",
+      "description": "International & World News – 22 November 2026 Saachi Baat",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdG5QaWlkSDhBNklfS1Z4SlZ3eDd4cWs1cVk4bkFQWXRQaUh6dkZ4VFYwQ2g3ZHRYTU5kbHZyaWVkU2ZaS1p1QUNId2d4eFR5TGQxMXhVcVl1QVZvSGJ1MmlpU3NSaWtJSEJJb0NhRE82VnVxVm14MlVPcUJQZjFRcGZIQTB2N2ZzeFdWcA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdG5QaWlkSDhBNklfS1Z4SlZ3eDd4cWs1cVk4bkFQWXRQaUh6dkZ4VFYwQ2g3ZHRYTU5kbHZyaWVkU2ZaS1p1QUNId2d4eFR5TGQxMXhVcVl1QVZvSGJ1MmlpU3NSaWtJSEJJb0NhRE82VnVxVm14MlVPcUJQZjFRcGZIQTB2N2ZzeFdWcA?oc=5",
+      "source": "Saachi Baat",
+      "category": "World",
+      "publishedAt": "2026-11-22T03:49:52Z"
+    },
+    {
+      "id": "8d0edc7a3f0f0e8cca53",
+      "title": "[World Class] SNU brings global push home with new international student division - The Korea Herald",
+      "description": "[World Class] SNU brings global push home with new international student division The Korea Herald",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Qd0RhVzVreEUzR21YeGJfMDlxLVhEN3ZfTHZ6RHBPVm9JQzJrRkFXS2V2X1FHa3JxMlJ3N3A2OEM5WHVHZTdBeTFOQ0Q1SWRSa3ZyM3gtbw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Qd0RhVzVreEUzR21YeGJfMDlxLVhEN3ZfTHZ6RHBPVm9JQzJrRkFXS2V2X1FHa3JxMlJ3N3A2OEM5WHVHZTdBeTFOQ0Q1SWRSa3ZyM3gtbw?oc=5",
+      "source": "The Korea Herald",
+      "category": "World",
+      "publishedAt": "2026-11-22T02:34:12Z"
+    },
     {
       "id": "c4943164f3f2472df852",
       "title": "The Many Dimensions Of Environmental Crisis In Global South – OpEd - Eurasia Review",
@@ -390,6 +465,16 @@
       "publishedAt": "2026-11-21T11:00:00Z"
     },
     {
+      "id": "daacd527b22a0e145745",
+      "title": "All Eyes on Lake Ontario: Renaming efforts draw new attention to lake’s environmental challenges - Great Lakes Echo",
+      "description": "All Eyes on Lake Ontario: Renaming efforts draw new attention to lake’s environmental challenges Great Lakes Echo",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVFBNei1ka240NlBxVDgzMWIyeUNYNkdpcldJS1FNQTlYTDlJdjU1U2pVaTRuTDB2VWc3MjlybkxtZUxBTGpFNUgyOWdxaE5TN1R2bUxSZThHc2d6MnZtUDZZeEtEeXR1b2NZYTJKRWxpWTB2S2RvbFF0VlU3eE94YnFrZVIxTlhCTW9MNDR0aWFrc3pEWTlKZjlBQ1g4bko4S3pmUnVJbU1LUGxERmpua2pCLTZhUmNmLVJMQlV3T3BjZE1QbFh0R00wNThodw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVFBNei1ka240NlBxVDgzMWIyeUNYNkdpcldJS1FNQTlYTDlJdjU1U2pVaTRuTDB2VWc3MjlybkxtZUxBTGpFNUgyOWdxaE5TN1R2bUxSZThHc2d6MnZtUDZZeEtEeXR1b2NZYTJKRWxpWTB2S2RvbFF0VlU3eE94YnFrZVIxTlhCTW9MNDR0aWFrc3pEWTlKZjlBQ1g4bko4S3pmUnVJbU1LUGxERmpua2pCLTZhUmNmLVJMQlV3T3BjZE1QbFh0R00wNThodw?oc=5",
+      "source": "Great Lakes Echo",
+      "category": "Environment",
+      "publishedAt": "2026-11-21T10:54:00Z"
+    },
+    {
       "id": "06364a08c62bceaa26fa",
       "title": "From metros to mobile payments: the forces transforming India’s economy - The Herald",
       "description": "From metros to mobile payments: the forces transforming India’s economy The Herald",
@@ -428,6 +513,16 @@
       "source": "Ahram Online",
       "category": "World",
       "publishedAt": "2026-11-21T07:16:16Z"
+    },
+    {
+      "id": "8066cd80a9e5793099d5",
+      "title": "SIAM Holds First National EV Charging Day to Accelerate India’s Charging Infrastructure Growth - Machine Maker",
+      "description": "SIAM Holds First National EV Charging Day to Accelerate India’s Charging Infrastructure Growth Machine Maker",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTWpfSVhFN1BLSHhHVFFGSHg2U0xOejU0eDVuanF6cy1PMnZWX3VlSTZRUlhWbGRDdXpWY1M4YTJiQ2M0enRvN2JIMDl3OWhjV0RkX1EybWxJUGt3WmNDWkV0TFFwVXBpZ044MnYyTzlpNEZ0UDNLX0xhRTFhSXc1cW8tSlZXZDFTcHYwLVZ1b092bUNaazdMQWRyLWNwdzRnX3FUbFlJQVJZVHZCTnk0U3k2S2pOakc1UEtad3R3NG5kaktxOUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTWpfSVhFN1BLSHhHVFFGSHg2U0xOejU0eDVuanF6cy1PMnZWX3VlSTZRUlhWbGRDdXpWY1M4YTJiQ2M0enRvN2JIMDl3OWhjV0RkX1EybWxJUGt3WmNDWkV0TFFwVXBpZ044MnYyTzlpNEZ0UDNLX0xhRTFhSXc1cW8tSlZXZDFTcHYwLVZ1b092bUNaazdMQWRyLWNwdzRnX3FUbFlJQVJZVHZCTnk0U3k2S2pOakc1UEtad3R3NG5kaktxOUE?oc=5",
+      "source": "Machine Maker",
+      "category": "India",
+      "publishedAt": "2026-11-21T04:33:56Z"
     },
     {
       "id": "6a1b56aca05891aee622",
@@ -738,16 +833,6 @@
       "source": "Nature",
       "category": "Environment",
       "publishedAt": "2026-11-20T13:14:08Z"
-    },
-    {
-      "id": "93ea83c78448fc41b328",
-      "title": "President Murmu calls for collaboration across human and veterinary medicine, environmental science to advance ‘One Health’ - DD News",
-      "description": "President Murmu calls for collaboration across human and veterinary medicine, environmental science to advance ‘One Health’ DD News",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUHQtbGZtampkeFg1aWI3SnNVUEZHM3dSNlNMSU82TGgxNlBhZDdlREF1V1FldXpXdDBEV0hRR0twRDBTd0hGOEE4QXEzU1FleVVxQVREX1BVRVlYUVRxRmwxdnB3N3BkT3NtNGxRSVdSR25UanpBdkhFaDlKMjNiWld4a3g5X21YMHNHWlo3eUF6d3VtcW5aeVA4M2NVbVpBWS02Zi1RTl9wZ2dnMDVGMVZYN05MRTduVHRFUGt0cHJJRDBSY3hIdzc4MWtLTG9LZUFnSkI0R0dXSDRUWmFJ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUHQtbGZtampkeFg1aWI3SnNVUEZHM3dSNlNMSU82TGgxNlBhZDdlREF1V1FldXpXdDBEV0hRR0twRDBTd0hGOEE4QXEzU1FleVVxQVREX1BVRVlYUVRxRmwxdnB3N3BkT3NtNGxRSVdSR25UanpBdkhFaDlKMjNiWld4a3g5X21YMHNHWlo3eUF6d3VtcW5aeVA4M2NVbVpBWS02Zi1RTl9wZ2dnMDVGMVZYN05MRTduVHRFUGt0cHJJRDBSY3hIdzc4MWtLTG9LZUFnSkI0R0dXSDRUWmFJ?oc=5",
-      "source": "DD News",
-      "category": "Environment",
-      "publishedAt": "2026-11-20T11:10:27Z"
     },
     {
       "id": "4044ae2e322df56b47d2",
@@ -3188,88 +3273,8 @@
       "source": "The Financial Express",
       "category": "World",
       "publishedAt": "2026-11-15T14:47:20Z"
-    },
-    {
-      "id": "3cfb13e0ba1e6a38e7f4",
-      "title": "Hanoi is gradually putting policies to promote science and technology into practice. - Vietnam.vn",
-      "description": "Hanoi is gradually putting policies to promote science and technology into practice. Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa05PZlp2aGJWQ1dDS1JmSUgxOUVHdnhqX1dIeEs5MFpEQmlaczl0RWkwTzB1VU5kb2hMel9JWGl5S0FtTnhpTTdzVE5aNl8xUzNVWU5UdS1kVndLZmd1S1ptaENxQXNSNnFnRl9JRjBPUTBHTG50MU9OQjQxVm1aT2tPR1RTMUxmdndTMXdhZU5zUmc5bjIxNVJFSmF1MnZVdVlBemRn?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa05PZlp2aGJWQ1dDS1JmSUgxOUVHdnhqX1dIeEs5MFpEQmlaczl0RWkwTzB1VU5kb2hMel9JWGl5S0FtTnhpTTdzVE5aNl8xUzNVWU5UdS1kVndLZmd1S1ptaENxQXNSNnFnRl9JRjBPUTBHTG50MU9OQjQxVm1aT2tPR1RTMUxmdndTMXdhZU5zUmc5bjIxNVJFSmF1MnZVdVlBemRn?oc=5",
-      "source": "Vietnam.vn",
-      "category": "Technology",
-      "publishedAt": "2026-11-15T14:44:07Z"
-    },
-    {
-      "id": "f5d1f775cd8b6effa5f8",
-      "title": "Prague metro services limited due to pro-media protest — Radio Prague International - UA.NEWS",
-      "description": "Prague metro services limited due to pro-media protest — Radio Prague International UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVEw2bm9lZ21vdUM5a2luRVdMbUxJek5qREFERng4Q0xCUEZDVTA3OUhsVnljOXdQeVd0Tjg0UjZ0WHFuVnhVSmdINGVWczI5d204Sk5rc000YVlmQi1YY21LV1RPZ0EtUE92WHNHXzhDemVRbVNPZ1Zxd2h4djFJaVVOSHZqbDF6QmVMUDNIZmpSLUZwbU92SGlTZEViLUx3RUlZNnpjQ1E5alpMZjZNWjRBZ2NFR3BiVlUyUko3TUxWUQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVEw2bm9lZ21vdUM5a2luRVdMbUxJek5qREFERng4Q0xCUEZDVTA3OUhsVnljOXdQeVd0Tjg0UjZ0WHFuVnhVSmdINGVWczI5d204Sk5rc000YVlmQi1YY21LV1RPZ0EtUE92WHNHXzhDemVRbVNPZ1Zxd2h4djFJaVVOSHZqbDF6QmVMUDNIZmpSLUZwbU92SGlTZEViLUx3RUlZNnpjQ1E5alpMZjZNWjRBZ2NFR3BiVlUyUko3TUxWUQ?oc=5",
-      "source": "UA.NEWS",
-      "category": "World",
-      "publishedAt": "2026-11-15T14:15:58Z"
-    },
-    {
-      "id": "034cb1677774d6c15279",
-      "title": "James Tedesco joins historic octet after World Cup win and confirms international retirement - Serious About Rugby League",
-      "description": "James Tedesco joins historic octet after World Cup win and confirms international retirement Serious About Rugby League",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaHdwVDlJYTlBYy1zLTVVdDd2YXlDYnd6TFU3Tzg5bFByTHhhOURjUXMtd0FHd19jSjVyMUROUnIxVHdNZ2E1RlVqS2Y1QkJSbF9BNkNYekRzckhteXQyWWFFak0xWEJMQUZCMk56bTVWSVEzcUpQX2d3bjZZSHh5bzJyRkRQcXlFRmlqVVpLVmN5YlhzVkVNNHVDTGJMd0I5MER5NklpakdMM2lDaWZTZlB0Uk1WUjcybkpPOHNzWHR6TkIzQndLLXBpNNIB0AFBVV95cUxQeklMTHc0bG81SjJvNmNlY3UtRTRINHdVM2FBRGpqMDNhYTFxMWhSeE0wZ2dFU0RuNHdQYVNSNUhhMVNfTW9GbHhxWWduMldVU0pfb0pnQ0VwXzRVUDVFUHpTdDM1UTMydjhrOVJROGlOQjVKUXI3T2lINEYzMmJoZDZNeF93X3RTQk4ybnlSZThCeHZGbGlESUxKS01yLUI5cmxwTmhyRFpVNXYtNVhuMVpKdnFWQlN5eGppWl9tTTdxc1FyT2pjbkxkc2otZ0pq?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaHdwVDlJYTlBYy1zLTVVdDd2YXlDYnd6TFU3Tzg5bFByTHhhOURjUXMtd0FHd19jSjVyMUROUnIxVHdNZ2E1RlVqS2Y1QkJSbF9BNkNYekRzckhteXQyWWFFak0xWEJMQUZCMk56bTVWSVEzcUpQX2d3bjZZSHh5bzJyRkRQcXlFRmlqVVpLVmN5YlhzVkVNNHVDTGJMd0I5MER5NklpakdMM2lDaWZTZlB0Uk1WUjcybkpPOHNzWHR6TkIzQndLLXBpNNIB0AFBVV95cUxQeklMTHc0bG81SjJvNmNlY3UtRTRINHdVM2FBRGpqMDNhYTFxMWhSeE0wZ2dFU0RuNHdQYVNSNUhhMVNfTW9GbHhxWWduMldVU0pfb0pnQ0VwXzRVUDVFUHpTdDM1UTMydjhrOVJROGlOQjVKUXI3T2lINEYzMmJoZDZNeF93X3RTQk4ybnlSZThCeHZGbGlESUxKS01yLUI5cmxwTmhyRFpVNXYtNVhuMVpKdnFWQlN5eGppWl9tTTdxc1FyT2pjbkxkc2otZ0pq?oc=5",
-      "source": "Serious About Rugby League",
-      "category": "World",
-      "publishedAt": "2026-11-15T14:00:38Z"
-    },
-    {
-      "id": "bfb0762223102f72d4da",
-      "title": "'Tool of the global elite': Marco Rubio takes aim at ICC in warning over international law - The Economic Times",
-      "description": "'Tool of the global elite': Marco Rubio takes aim at ICC in warning over international law The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ1BWMEgwWTV1UFNlWFhidUlTVl9HbFgwVlJrdWN6Z0IzU0RCdXBLcGFLMDNfZlg0aTBzVFZwNnZaWU5GY2MyOC1PdUI5b2h1Ml90S2Nkc0ZYNkdBZnBIbGNNRngtUzh1ZXhDOUVaSGJBQi05cDVobDVESkxiZnZUbmVDTmZ0Y1VfRDhWNmFHUU53bkJFVW1VV0sxLXdDWlNGRi1xb2R0OUt4NmtGMmN0c3E4SFc3Rm1UaWJrakdGTG9uTUJFMWRLblgyWHpRa0VLcUJGcGpGYU9SOUxxTFM5T2JpdGloNEJFNmtVcnNtTTVmQjFIQURKRWNYS2xwNmtacktr0gGIAkFVX3lxTE9hdnZJZTRhbWFyZmUxcXVudHRuMlRkaHlWendiOENobko4cHZWeUFzLWVFTkJwS0VueXFpVGtLX25LakstcW0zcEQ2bjJqNDRSTGRoTzFlYmJQMkd5anVLWVQyRnlucUhjNElQdnhWR2UyNTdYcS1Xck5VRnVJMFNMOE04aWZJdVF2ZS1FTmd2ZktMMmd3Qktoa3JfZVFDR1IwSWtWMlBTYjM0NVpKUTk5c0V0NTg1MnFRX2hvWllQYXJUYkFrTTRRZTJuY2RYREhuNmZaNGt3d2l4c1QwdHp5eHcyQURlVWVlMjNaaFh5Q1lXSEg0SXo5WUhFRV9JblZxelFjaDY1ag?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZ1BWMEgwWTV1UFNlWFhidUlTVl9HbFgwVlJrdWN6Z0IzU0RCdXBLcGFLMDNfZlg0aTBzVFZwNnZaWU5GY2MyOC1PdUI5b2h1Ml90S2Nkc0ZYNkdBZnBIbGNNRngtUzh1ZXhDOUVaSGJBQi05cDVobDVESkxiZnZUbmVDTmZ0Y1VfRDhWNmFHUU53bkJFVW1VV0sxLXdDWlNGRi1xb2R0OUt4NmtGMmN0c3E4SFc3Rm1UaWJrakdGTG9uTUJFMWRLblgyWHpRa0VLcUJGcGpGYU9SOUxxTFM5T2JpdGloNEJFNmtVcnNtTTVmQjFIQURKRWNYS2xwNmtacktr0gGIAkFVX3lxTE9hdnZJZTRhbWFyZmUxcXVudHRuMlRkaHlWendiOENobko4cHZWeUFzLWVFTkJwS0VueXFpVGtLX25LakstcW0zcEQ2bjJqNDRSTGRoTzFlYmJQMkd5anVLWVQyRnlucUhjNElQdnhWR2UyNTdYcS1Xck5VRnVJMFNMOE04aWZJdVF2ZS1FTmd2ZktMMmd3Qktoa3JfZVFDR1IwSWtWMlBTYjM0NVpKUTk5c0V0NTg1MnFRX2hvWllQYXJUYkFrTTRRZTJuY2RYREhuNmZaNGt3d2l4c1QwdHp5eHcyQURlVWVlMjNaaFh5Q1lXSEg0SXo5WUhFRV9JblZxelFjaDY1ag?oc=5",
-      "source": "The Economic Times",
-      "category": "World",
-      "publishedAt": "2026-11-15T13:54:23Z"
-    },
-    {
-      "id": "669c5038813020bece22",
-      "title": "‘My last time’: Tedesco announces international retirement - Nine.com.au",
-      "description": "‘My last time’: Tedesco announces international retirement Nine.com.au",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPbndFVFRDM0VrbEhGSlZIMUdoUFBxY3Q3UlhJaldHcGx3MUNmU19ZWXlJQVhwa3BVaGMzSm1yb3dkZVVUdFBKQU9JcE9BRGhOV0NuODk2dUZZUktpWkFBRDhoSVl0TDhmZGxVWUVFakNJLTdVNTVWSVpYeW01d3l1Y01KMm1UenFTYnBmUkRDYkxzeXVoNVJIeVVJWDJYeFJhdlN1d2U5VktSVEhDM0dSYV82bUZSOEJJRDIzRVhuWUJHaC1KSk8wMnlpTHM0YjFTY0NXdHdQQ2EzeFBmeFpxeHp2a3J4VXY4VzFkRE1nWnBNa3JHUk55eks4WThMUzc0bHM4ejVncS1yeDZHSWc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPbndFVFRDM0VrbEhGSlZIMUdoUFBxY3Q3UlhJaldHcGx3MUNmU19ZWXlJQVhwa3BVaGMzSm1yb3dkZVVUdFBKQU9JcE9BRGhOV0NuODk2dUZZUktpWkFBRDhoSVl0TDhmZGxVWUVFakNJLTdVNTVWSVpYeW01d3l1Y01KMm1UenFTYnBmUkRDYkxzeXVoNVJIeVVJWDJYeFJhdlN1d2U5VktSVEhDM0dSYV82bUZSOEJJRDIzRVhuWUJHaC1KSk8wMnlpTHM0YjFTY0NXdHdQQ2EzeFBmeFpxeHp2a3J4VXY4VzFkRE1nWnBNa3JHUk55eks4WThMUzc0bHM4ejVncS1yeDZHSWc?oc=5",
-      "source": "Nine.com.au",
-      "category": "World",
-      "publishedAt": "2026-11-15T13:44:04Z"
-    },
-    {
-      "id": "557c99490b7760e4d884",
-      "title": "£2.1m Pompey man shines on return to world stage after international controversy - Portsmouth News",
-      "description": "£2.1m Pompey man shines on return to world stage after international controversy Portsmouth News",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdEpXb3h4cjBHcDM3cDF5X01nTWhqYnJCUjBHR3Q0eFlNSmU1eXRGSi0zcHFuOFFBeGJTWHMtYVFmUzdBRHpZOEJrY29DaXV1MkRsXzFONGwyTE1aS2xzMm9zSzgySmdnOVVsZk5CcjBKUXFOVnpWTVJVdE96NGZvREJacmJWbEF6TUxkaEdKMmdjdlpvYzNKVVVYVG15MkRsWHBIRWx0U0g5OTh2ZlNpb3N1ZGFvUWwxUUhsWnNXYzVjWTdsZzRsQ05Gbw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdEpXb3h4cjBHcDM3cDF5X01nTWhqYnJCUjBHR3Q0eFlNSmU1eXRGSi0zcHFuOFFBeGJTWHMtYVFmUzdBRHpZOEJrY29DaXV1MkRsXzFONGwyTE1aS2xzMm9zSzgySmdnOVVsZk5CcjBKUXFOVnpWTVJVdE96NGZvREJacmJWbEF6TUxkaEdKMmdjdlpvYzNKVVVYVG15MkRsWHBIRWx0U0g5OTh2ZlNpb3N1ZGFvUWwxUUhsWnNXYzVjWTdsZzRsQ05Gbw?oc=5",
-      "source": "Portsmouth News",
-      "category": "World",
-      "publishedAt": "2026-11-15T13:00:00Z"
-    },
-    {
-      "id": "b2d6f8aaf96869fe0a2b",
-      "title": "Rugby League World Cup conclusion creates international void amid questions over 2027 Kiwi tour - Serious About Rugby League",
-      "description": "Rugby League World Cup conclusion creates international void amid questions over 2027 Kiwi tour Serious About Rugby League",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTkR1TkhnNDlpUzdObGhmV0xYeUR5Q011MHBsYXhJTWVaa1IzQlcxMWtfSnpndE9uejg2STdYX1hMeVJWMG5VanZDVDJmUDJIUm5ka2VCRXdzOWpOWGloT2lMX05RZF8yQ0paTDFLZDVRWnVFMDVmV1EwMEpQbTljVnVpX05rN05pUGFNS1ZhYlE4UTVuVGxBbHlaQkljbEFtRm9fVi05Rnd6RHpqMkhmMkVHZjNhbDF2OUtrNExNYl9IZXhfSS0wWkg4dnFiRGPSAdQBQVVfeXFMT0RfUEFibDYxM3RVcjU1aUdVMmNpRGZSQTNfbTZHbmp0X0JBQ2FKU2hYOS1HMThsN0g0OTg0UTlxZVhIZFVSZ0ZfaTJSb1YtY2VJRDg0MnVKQkpHMDhmdktNbHc5eF9weDJwaXNXZUxVZThXUjVrT1F1M3pXbTBZZmJseXV6ZG5oNWl0RHU0U2Ntc3l2d19EWVVLSmF5SlZvY2VMQXhrSmFCUnU4SXhTSng0VHdJdFpEU01BaGpHSUllb1h3V1dLaWFVQjBNRnA1VXFGUnE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTkR1TkhnNDlpUzdObGhmV0xYeUR5Q011MHBsYXhJTWVaa1IzQlcxMWtfSnpndE9uejg2STdYX1hMeVJWMG5VanZDVDJmUDJIUm5ka2VCRXdzOWpOWGloT2lMX05RZF8yQ0paTDFLZDVRWnVFMDVmV1EwMEpQbTljVnVpX05rN05pUGFNS1ZhYlE4UTVuVGxBbHlaQkljbEFtRm9fVi05Rnd6RHpqMkhmMkVHZjNhbDF2OUtrNExNYl9IZXhfSS0wWkg4dnFiRGPSAdQBQVVfeXFMT0RfUEFibDYxM3RVcjU1aUdVMmNpRGZSQTNfbTZHbmp0X0JBQ2FKU2hYOS1HMThsN0g0OTg0UTlxZVhIZFVSZ0ZfaTJSb1YtY2VJRDg0MnVKQkpHMDhmdktNbHc5eF9weDJwaXNXZUxVZThXUjVrT1F1M3pXbTBZZmJseXV6ZG5oNWl0RHU0U2Ntc3l2d19EWVVLSmF5SlZvY2VMQXhrSmFCUnU4SXhTSng0VHdJdFpEU01BaGpHSUllb1h3V1dLaWFVQjBNRnA1VXFGUnE?oc=5",
-      "source": "Serious About Rugby League",
-      "category": "World",
-      "publishedAt": "2026-11-15T12:24:56Z"
-    },
-    {
-      "id": "ff7b9b585431993fbbf0",
-      "title": "James Tedesco confirms international future after World Cup win - Zero Tackle",
-      "description": "James Tedesco confirms international future after World Cup win Zero Tackle",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVHpTNUpnLS1yLWNsZU1EanFzOEo4dW5wb25hSWlYNmdEeVRBdkFKRmtiSXg1V0pITlhQLW5sdmk4bmo4Y2xKUFhvaW9DNVNxanlkcDRhdjhqdGlFamJCLU1UT3NocjRlb0Y3dmE2UGJsUjlkWVNXQ3hmb2ZSTWdxdURKeS1Cd1hEc3B1VGpZUGpFb0tmNEI4ckFLdXFYeVU?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVHpTNUpnLS1yLWNsZU1EanFzOEo4dW5wb25hSWlYNmdEeVRBdkFKRmtiSXg1V0pITlhQLW5sdmk4bmo4Y2xKUFhvaW9DNVNxanlkcDRhdjhqdGlFamJCLU1UT3NocjRlb0Y3dmE2UGJsUjlkWVNXQ3hmb2ZSTWdxdURKeS1Cd1hEc3B1VGpZUGpFb0tmNEI4ckFLdXFYeVU?oc=5",
-      "source": "Zero Tackle",
-      "category": "World",
-      "publishedAt": "2026-11-15T11:47:22Z"
     }
   ],
-  "lastUpdated": "2026-11-22T01:03:34Z",
-  "updatedAt": "2026-11-22T01:03:34Z"
+  "lastUpdated": "2026-11-22T08:37:40Z",
+  "updatedAt": "2026-11-22T08:37:40Z"
 }
