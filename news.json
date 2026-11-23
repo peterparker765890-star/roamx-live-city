@@ -240,37 +240,112 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-23T02:59:13Z",
-    "lastSuccessfulRun": "2026-11-23T02:59:13Z",
-    "lastUpdated": "2026-11-23T02:59:13Z",
-    "articlesAdded": 5,
+    "lastRun": "2026-11-23T12:14:47Z",
+    "lastSuccessfulRun": "2026-11-23T12:14:47Z",
+    "lastUpdated": "2026-11-23T12:14:47Z",
+    "articlesAdded": 10,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 41,
+    "duplicatesRemoved": 27,
     "failedSources": [],
     "newArticleIds": [
-      "90878f0def051d691dc5",
-      "8b44ddbc25d87b7e6b61",
-      "cca281720f3b0d7ffae5",
-      "02fb2690cb6dc96d79a2",
-      "c30dc8a629b6df73b795"
+      "1057da3ed6dfa2b9396b",
+      "781468a28864f5027b7b",
+      "07714e406cae13072252",
+      "2e09b78b074c27e30c99",
+      "2bc3a579ffcec8c5fefe",
+      "dce61e6f2fd73edb6f76",
+      "be9d9f88b1a4aaa7ec45",
+      "0350613e4c1a316f8a95",
+      "c1be81246ce74a9826c7",
+      "40bd91d7afe500562235"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 5,
+    "articlesRemoved": 17,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 300,
+    "totalArticles": 293,
     "categories": {
-      "World": 176,
-      "India": 25,
-      "Technology": 21,
-      "Environment": 66,
-      "Disaster": 12
+      "World": 171,
+      "India": 24,
+      "Technology": 18,
+      "Environment": 67,
+      "Disaster": 13
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "1057da3ed6dfa2b9396b",
+      "title": "‘Environmental crimes’: Israel blamed for toxic pollution in 99% of Gaza - Al Jazeera",
+      "description": "‘Environmental crimes’: Israel blamed for toxic pollution in 99% of Gaza Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb013cjg4U2JTTjlyaExqSlpXNmJlb0RVbkp4aV9rS195ZzJoRTNzejZhZW5IaFM4UnUzbHROcndmLWhhdlBRb0VjR0ZRdVRPaW9IbENwVEIzWXFQcEJ1TEIwOUdOYVdXMDU2cTNQbDRtcjdXZDFEUEotMWptUUVvRUt3T3Bobmtobzd6T0EycUlTWlVmdnJmOEU1Uy1uUlFhT05QUGhxYlBCOHFxNk5R0gG0AUFVX3lxTE90OHhmbDdMQ2d5MTl6Y19XaXdQS3M3enpRZXBVWHZNZkcyYTFWNGpqWjQtbVlUc3RQNWF6VUdyM2tVQ0VVLXl0dzQ5eWNaUGJ0VElUdFNpWk5YMTR1clBDYUZrWGtaaHFDZjZJTDJnT0ExSGRnYTV1bVJ4VFZ5dFlnbTdZcTJpWE9HU2pXUGZOb3MyNFBGTEpDZEhYbXdoekk3MGxIdnBZWjNldF9GZWhWN2Fndw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb013cjg4U2JTTjlyaExqSlpXNmJlb0RVbkp4aV9rS195ZzJoRTNzejZhZW5IaFM4UnUzbHROcndmLWhhdlBRb0VjR0ZRdVRPaW9IbENwVEIzWXFQcEJ1TEIwOUdOYVdXMDU2cTNQbDRtcjdXZDFEUEotMWptUUVvRUt3T3Bobmtobzd6T0EycUlTWlVmdnJmOEU1Uy1uUlFhT05QUGhxYlBCOHFxNk5R0gG0AUFVX3lxTE90OHhmbDdMQ2d5MTl6Y19XaXdQS3M3enpRZXBVWHZNZkcyYTFWNGpqWjQtbVlUc3RQNWF6VUdyM2tVQ0VVLXl0dzQ5eWNaUGJ0VElUdFNpWk5YMTR1clBDYUZrWGtaaHFDZjZJTDJnT0ExSGRnYTV1bVJ4VFZ5dFlnbTdZcTJpWE9HU2pXUGZOb3MyNFBGTEpDZEhYbXdoekk3MGxIdnBZWjNldF9GZWhWN2Fndw?oc=5",
+      "source": "Al Jazeera",
+      "category": "Environment",
+      "publishedAt": "2026-11-23T09:34:17Z"
+    },
+    {
+      "id": "781468a28864f5027b7b",
+      "title": "'Safety A Priority': Bisleri International Says It Will Continue To Cooperate With FSSAI After Packaged Drinking Water Sample Flagged Unsafe Over Bromate Levels - oneworldnews.com",
+      "description": "'Safety A Priority': Bisleri International Says It Will Continue To Cooperate With FSSAI After Packaged Drinking Water Sample Flagged Unsafe Over Bromate Levels oneworldnews.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jeEdXXzlBLVRRSVZNdU1pcXFWMUt2U0ZVWUUxM2RlNjExTENCa3FkMU9PZk1ld0ZqOGd4b2ZOTkljR1QteW5ZN3hpQU1yTjE3UGJlN3pPMXJhZDE5YnBTQTdNdGNLa19xQkNRNA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jeEdXXzlBLVRRSVZNdU1pcXFWMUt2U0ZVWUUxM2RlNjExTENCa3FkMU9PZk1ld0ZqOGd4b2ZOTkljR1QteW5ZN3hpQU1yTjE3UGJlN3pPMXJhZDE5YnBTQTdNdGNLa19xQkNRNA?oc=5",
+      "source": "oneworldnews.com",
+      "category": "World",
+      "publishedAt": "2026-11-23T08:38:48Z"
+    },
+    {
+      "id": "07714e406cae13072252",
+      "title": "The global climate relay race: An intergenerational commitment to environmental education, responsible practices, and climate-friendly lifestyles - The Business Standard",
+      "description": "The global climate relay race: An intergenerational commitment to environmental education, responsible practices, and climate-friendly lifestyles The Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZkhZeUQ4cTlZZ2lxSktld1BYc1lqaVN6VkhmLUVqQ191cXZBb1EwMWk5M0lSRkxCUmdrLUFSY1M5NE9hWDFvaWRNZDM2eFFPYzhMX0x1X1laTTA5LWxOd2dLd2FGaU5lM1dObTFiM1dfS2s2Wmk4OHJ1dmhwRFFVUHZhTjlfZnR2MUt1TVdZVUwwaFJLY2tnSU1wUUthQUJsSi1zZzgxRUt1cmRkeUcwSi1SMWZ2cjk2enpnc1hveXM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZkhZeUQ4cTlZZ2lxSktld1BYc1lqaVN6VkhmLUVqQ191cXZBb1EwMWk5M0lSRkxCUmdrLUFSY1M5NE9hWDFvaWRNZDM2eFFPYzhMX0x1X1laTTA5LWxOd2dLd2FGaU5lM1dObTFiM1dfS2s2Wmk4OHJ1dmhwRFFVUHZhTjlfZnR2MUt1TVdZVUwwaFJLY2tnSU1wUUthQUJsSi1zZzgxRUt1cmRkeUcwSi1SMWZ2cjk2enpnc1hveXM?oc=5",
+      "source": "The Business Standard",
+      "category": "Environment",
+      "publishedAt": "2026-11-23T07:50:00Z"
+    },
+    {
+      "id": "2e09b78b074c27e30c99",
+      "title": "PH recognized at FIVB World Congress MANILA – The International Volleyball Federation (FIVB) honored the Philippines as one of its long-time members during the 40th World Congress on Nov. 20-22 in Punta Cana, Dominican Republic. Asian Volleyball Co - Facebook",
+      "description": "PH recognized at FIVB World Congress MANILA – The International Volleyball Federation (FIVB) honored the Philippines as one of its long-time members during the 40th World Congress on Nov. 20-22 in Punta Cana, Dominican Republic. Asian Volleyball Co Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcVQ3MHczY29PM2pDX2luZlo5V0VDRXE3eEJKZVMtMV9kZVhDZFdfRGgtU1ladmkxc0lxTVR6b1N4bFowV3dfT1ZWRG1wclpKX01wMUswZ3VneElQVlBRTVdzd0RVT2hQRWh3UC1yWTRvblRrcGQtSU1qOXFDLVBKRmNPckJOMHBEaENJWC1kaDNBTkZqMDVrZFNmcWo4TlJ3Nkg3a3lGN1IzaTBacm5MM0kta2J3d0NieHBRQXlHMDZUUzZSeEZVTzBXd3Z6UjlPdGp2Nw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcVQ3MHczY29PM2pDX2luZlo5V0VDRXE3eEJKZVMtMV9kZVhDZFdfRGgtU1ladmkxc0lxTVR6b1N4bFowV3dfT1ZWRG1wclpKX01wMUswZ3VneElQVlBRTVdzd0RVT2hQRWh3UC1yWTRvblRrcGQtSU1qOXFDLVBKRmNPckJOMHBEaENJWC1kaDNBTkZqMDVrZFNmcWo4TlJ3Nkg3a3lGN1IzaTBacm5MM0kta2J3d0NieHBRQXlHMDZUUzZSeEZVTzBXd3Z6UjlPdGp2Nw?oc=5",
+      "source": "Facebook",
+      "category": "World",
+      "publishedAt": "2026-11-23T07:24:56Z"
+    },
+    {
+      "id": "2bc3a579ffcec8c5fefe",
+      "title": "World rail contract news round-up - Railway Gazette International",
+      "description": "World rail contract news round-up Railway Gazette International",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTWZzYXNveU9Sd2Z1NVIzUzJjLVpsNEhHcHpUY1UybEVGRV9aMEtuZnJhV1A0TVBXRGhabXcwY19qMnp6TEJMaVBGLTNkcTVVeEsxWllISDRwR0tBTktYOGFzcVY5eHNyTnhyZ0NkODE1T0VVcnZzd2FTZ3NUUTJFTmZ1THR6T2RESlFN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTWZzYXNveU9Sd2Z1NVIzUzJjLVpsNEhHcHpUY1UybEVGRV9aMEtuZnJhV1A0TVBXRGhabXcwY19qMnp6TEJMaVBGLTNkcTVVeEsxWllISDRwR0tBTktYOGFzcVY5eHNyTnhyZ0NkODE1T0VVcnZzd2FTZ3NUUTJFTmZ1THR6T2RESlFN?oc=5",
+      "source": "Railway Gazette International",
+      "category": "World",
+      "publishedAt": "2026-11-23T06:03:29Z"
+    },
+    {
+      "id": "dce61e6f2fd73edb6f76",
+      "title": "Jamaican international lands Australian move - Zero Tackle",
+      "description": "Jamaican international lands Australian move Zero Tackle",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWUdVNXBiQnVzV0V0eGxhR1dSYUFXdUsxRkZ2R2VFZHBoQlhoaHJwUmF2RmJHT2lITng4c3ptVHN5UmpzbGY4N3lBaTNuYVUzUGxVWndBaERJOXFMeFFtd2NZYTJpclJJTXZZOTBUd2tEWE1SRVpSX2lGaWxjZ1Z5YThFcWVGdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWUdVNXBiQnVzV0V0eGxhR1dSYUFXdUsxRkZ2R2VFZHBoQlhoaHJwUmF2RmJHT2lITng4c3ptVHN5UmpzbGY4N3lBaTNuYVUzUGxVWndBaERJOXFMeFFtd2NZYTJpclJJTXZZOTBUd2tEWE1SRVpSX2lGaWxjZ1Z5YThFcWVGdw?oc=5",
+      "source": "Zero Tackle",
+      "category": "World",
+      "publishedAt": "2026-11-23T05:16:54Z"
+    },
+    {
+      "id": "be9d9f88b1a4aaa7ec45",
+      "title": "International & World News – 23 November 2026 - Saachi Baat",
+      "description": "International & World News – 23 November 2026 Saachi Baat",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN3pMVEVudFNvTFlQZ0RqWjdMT25Nbk9nNXgzcldwQV9sX1B4Q3NrWEN4S0tIZTNvYS1HdERlelJ4aENwclJBZE4tZHpLMVhjdGNTdkV1Zk5vaFNpa3lHUThqb21qYllpZXpfOVV5QkM0S1NVRTVULVBZdXlpUFRGdHhNdGF2NkhaajQzVw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN3pMVEVudFNvTFlQZ0RqWjdMT25Nbk9nNXgzcldwQV9sX1B4Q3NrWEN4S0tIZTNvYS1HdERlelJ4aENwclJBZE4tZHpLMVhjdGNTdkV1Zk5vaFNpa3lHUThqb21qYllpZXpfOVV5QkM0S1NVRTVULVBZdXlpUFRGdHhNdGF2NkhaajQzVw?oc=5",
+      "source": "Saachi Baat",
+      "category": "World",
+      "publishedAt": "2026-11-23T03:46:06Z"
+    },
     {
       "id": "90878f0def051d691dc5",
       "title": "Why Nations Failed to Secure a New Global Climate Change Agreement - Bloomberg.com",
@@ -382,6 +457,16 @@
       "publishedAt": "2026-11-22T16:33:22Z"
     },
     {
+      "id": "0350613e4c1a316f8a95",
+      "title": "NDRF's 12th Battalion campus in Arunachal Pradesh: How India is strengthening disaster preparedness - Bureaucrats India",
+      "description": "NDRF's 12th Battalion campus in Arunachal Pradesh: How India is strengthening disaster preparedness Bureaucrats India",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOXA5OFdpd0Q4UW1BdlFQQno5WE9QWnVwZHJGbFI0Q2RaaEdQUmV5bzJoZmc4eG43TlItSTdSeUVMOE9MNFZMb1dYSk5yelBkRDV1djV0cTB3c3FhNTBJWFloNWlQYkdfSjZqM1NvMWlfMHdrVF9EdEFSWmJWOW9fc2NTSE5YVlYwNk1FQzVQenB6dlNHQ2Jxb1A0c2ZWRTBOVk9LMUZhQzRlc3dvQlpMbGVmUV9JWXFmeXVMN0s1OEJyaDNzeGdnYzRqTzZza2Z6?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOXA5OFdpd0Q4UW1BdlFQQno5WE9QWnVwZHJGbFI0Q2RaaEdQUmV5bzJoZmc4eG43TlItSTdSeUVMOE9MNFZMb1dYSk5yelBkRDV1djV0cTB3c3FhNTBJWFloNWlQYkdfSjZqM1NvMWlfMHdrVF9EdEFSWmJWOW9fc2NTSE5YVlYwNk1FQzVQenB6dlNHQ2Jxb1A0c2ZWRTBOVk9LMUZhQzRlc3dvQlpMbGVmUV9JWXFmeXVMN0s1OEJyaDNzeGdnYzRqTzZza2Z6?oc=5",
+      "source": "Bureaucrats India",
+      "category": "Disaster",
+      "publishedAt": "2026-11-22T16:30:05Z"
+    },
+    {
       "id": "8cbe3be48499b5b56292",
       "title": "The Fight Against Climate Change Goes Small - The Atlantic",
       "description": "The Fight Against Climate Change Goes Small The Atlantic",
@@ -440,6 +525,16 @@
       "source": "Daily Times Of Bangladesh",
       "category": "World",
       "publishedAt": "2026-11-22T10:30:01Z"
+    },
+    {
+      "id": "c1be81246ce74a9826c7",
+      "title": "Turkey's final draft at UN climate talks doesn't mention the fossil fuels that cause global warming - The Tribune-Democrat",
+      "description": "Turkey's final draft at UN climate talks doesn't mention the fossil fuels that cause global warming The Tribune-Democrat",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMGpaaXJ6WE9UcjM5RjNNQUc0N2Q5Q1ZMWHBGU0djZENLRHJZNGtVc0tlTUR3TldaQV9nVEt5cnQ0MXVxUWJCYXhlaGZOUEZDVS1kS2p5dkFxSEZncU1VYmlDS3pFZGhYYS1wQ1d2NmVqYncwNjlzNnp2MmhnR2lrZWd5Zk5UTWw3U0RWb04zMWVEQ0ZBNi10X2c0UXRPV2JMS3l5aXlCLWk0TkpyNF8yc0lmZlRQUW9IRncyUWQyTy14OWtuaUpJQ3FpWWlWbzZFOUJ0OVVhZE9iMWNIb0gxOFY2eTNPWVhtdWRJV1ZtYXBXT3BQbWRKdTMwUUU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNMGpaaXJ6WE9UcjM5RjNNQUc0N2Q5Q1ZMWHBGU0djZENLRHJZNGtVc0tlTUR3TldaQV9nVEt5cnQ0MXVxUWJCYXhlaGZOUEZDVS1kS2p5dkFxSEZncU1VYmlDS3pFZGhYYS1wQ1d2NmVqYncwNjlzNnp2MmhnR2lrZWd5Zk5UTWw3U0RWb04zMWVEQ0ZBNi10X2c0UXRPV2JMS3l5aXlCLWk0TkpyNF8yc0lmZlRQUW9IRncyUWQyTy14OWtuaUpJQ3FpWWlWbzZFOUJ0OVVhZE9iMWNIb0gxOFY2eTNPWVhtdWRJV1ZtYXBXT3BQbWRKdTMwUUU?oc=5",
+      "source": "The Tribune-Democrat",
+      "category": "Environment",
+      "publishedAt": "2026-11-22T10:30:00Z"
     },
     {
       "id": "cc015728c741d8971392",
@@ -640,6 +735,16 @@
       "source": "Great Lakes Echo",
       "category": "Environment",
       "publishedAt": "2026-11-21T10:54:00Z"
+    },
+    {
+      "id": "40bd91d7afe500562235",
+      "title": "Chemicals and pollution action - UNEP - UN Environment Programme",
+      "description": "Chemicals and pollution action UNEP - UN Environment Programme",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GQ0RyOUNoYVRzR05pUmwzR05yU0J6emdFQjg0d0tOMUNfSGl2MDQ4RXYtOHgtdnV3SG9JWG9qVXdZRXJKWHhKZk9uMUVXaTJZUmhGWXhjNC1sSjhSSkVFZm5RS3dUQ3FzUEJiRWxpOUhOakU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1GQ0RyOUNoYVRzR05pUmwzR05yU0J6emdFQjg0d0tOMUNfSGl2MDQ4RXYtOHgtdnV3SG9JWG9qVXdZRXJKWHhKZk9uMUVXaTJZUmhGWXhjNC1sSjhSSkVFZm5RS3dUQ3FzUEJiRWxpOUhOakU?oc=5",
+      "source": "UNEP - UN Environment Programme",
+      "category": "Environment",
+      "publishedAt": "2026-11-21T10:41:36Z"
     },
     {
       "id": "06364a08c62bceaa26fa",
@@ -3100,178 +3205,8 @@
       "source": "Sacramento Bee",
       "category": "Disaster",
       "publishedAt": "2026-11-16T13:00:00Z"
-    },
-    {
-      "id": "d6ae4cad2b3434bf1c58",
-      "title": "The construction industry is promoting the application of science and technology, creating new drivers of growth. - Vietnam.vn",
-      "description": "The construction industry is promoting the application of science and technology, creating new drivers of growth. Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOHVhZy02aGtZbFJRVFhaUnZVVDFTRF9UTEFfY2pzd3pLbDk0VXZtYVJKc0V2OHFZangtRHZ0ZDZrbVhjSXljcGIwX2RRVHlDYWxGRldoWTM5RGJPNE16SHdmcmU1M2htNUtlYUF6VFhuRkJnQ3hsSTA2bV80ZW5UUVV6TlJpdWFHUklkeWdvN3pzV195QVZiVndzNmlheXBRQVltZnlYWE5pUQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOHVhZy02aGtZbFJRVFhaUnZVVDFTRF9UTEFfY2pzd3pLbDk0VXZtYVJKc0V2OHFZangtRHZ0ZDZrbVhjSXljcGIwX2RRVHlDYWxGRldoWTM5RGJPNE16SHdmcmU1M2htNUtlYUF6VFhuRkJnQ3hsSTA2bV80ZW5UUVV6TlJpdWFHUklkeWdvN3pzV195QVZiVndzNmlheXBRQVltZnlYWE5pUQ?oc=5",
-      "source": "Vietnam.vn",
-      "category": "Technology",
-      "publishedAt": "2026-11-16T12:13:20Z"
-    },
-    {
-      "id": "e718f2bcf79bf7b6fbcc",
-      "title": "‘Drugs’ Claims: Algeria’s New International Attention-Seeking Threats Against Morocco - Morocco World News",
-      "description": "‘Drugs’ Claims: Algeria’s New International Attention-Seeking Threats Against Morocco Morocco World News",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdkk0al9FN1N0UDhWU2phOXRtdk81cHZfZE0zUlBYZVlIM29nTGFhLXVUYmNPYnBDdVltWXNMMHIwRjJSM21QRWJxNlJLd0xRZzhlLXUxcTl5bzhsaVNXYTZMZDJqbDFGTGE1a3dyM3pQdUlaRWhnbGd0cmo1U01MOUN1cjFFb3hNMXBXZjlTTTNnV293SkxIWlZsdVM4R3ZTUklrNjFmSjI2c1NFZVY4V3ZOendkbmtZb1ZFZXdyWFdJV0ROb0pYcWdR?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdkk0al9FN1N0UDhWU2phOXRtdk81cHZfZE0zUlBYZVlIM29nTGFhLXVUYmNPYnBDdVltWXNMMHIwRjJSM21QRWJxNlJLd0xRZzhlLXUxcTl5bzhsaVNXYTZMZDJqbDFGTGE1a3dyM3pQdUlaRWhnbGd0cmo1U01MOUN1cjFFb3hNMXBXZjlTTTNnV293SkxIWlZsdVM4R3ZTUklrNjFmSjI2c1NFZVY4V3ZOendkbmtZb1ZFZXdyWFdJV0ROb0pYcWdR?oc=5",
-      "source": "Morocco World News",
-      "category": "World",
-      "publishedAt": "2026-11-16T11:56:56Z"
-    },
-    {
-      "id": "6c262a29cd99eaf0f0e1",
-      "title": "Romelu Lukaku: Belgium striker announces retirement from international football - BBC",
-      "description": "Romelu Lukaku: Belgium striker announces retirement from international football BBC",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA3TjN0eHZKa25vLTdvRE1kLVJza2tjS2lGOTA4cG9uajZlN2c1OW1hTXMtU0otSTllUV9NMW0zR1k2RHFEWGxvTEs5Rm9PdzVHc19QcFlpTFhGV1QxaWFVTjJXQUtLcDhV?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA3TjN0eHZKa25vLTdvRE1kLVJza2tjS2lGOTA4cG9uajZlN2c1OW1hTXMtU0otSTllUV9NMW0zR1k2RHFEWGxvTEs5Rm9PdzVHc19QcFlpTFhGV1QxaWFVTjJXQUtLcDhV?oc=5",
-      "source": "BBC",
-      "category": "World",
-      "publishedAt": "2026-11-16T11:40:20Z"
-    },
-    {
-      "id": "7ea31e56dcdcff12c599",
-      "title": "Innovation, Research & Smart Cities: Mid-November 2026 Funding Opportunities (28 new opportunities) - Substack",
-      "description": "Innovation, Research & Smart Cities: Mid-November 2026 Funding Opportunities (28 new opportunities) Substack",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVkJaYjNqSmVCVVJjYVkwUVJfRS13WFN2UHZQU3R6dF95bDRjVU9vcW9UMXBfZTh2T1hsQXY4Y0o0MzZEQUstdEdoNTNKT0JaTFhTX0FYM3FRMUpqVW9wMVJmQVNpRUlxWGV4dTItREVEWVo0a2NVNUtfZk12SEtlSmRXQQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVkJaYjNqSmVCVVJjYVkwUVJfRS13WFN2UHZQU3R6dF95bDRjVU9vcW9UMXBfZTh2T1hsQXY4Y0o0MzZEQUstdEdoNTNKT0JaTFhTX0FYM3FRMUpqVW9wMVJmQVNpRUlxWGV4dTItREVEWVo0a2NVNUtfZk12SEtlSmRXQQ?oc=5",
-      "source": "Substack",
-      "category": "Technology",
-      "publishedAt": "2026-11-16T11:14:59Z"
-    },
-    {
-      "id": "06311224c8630632c79e",
-      "title": "Big Oil, Climate Change, and a ‘Smoking Gun’ - Rolling Stone",
-      "description": "Big Oil, Climate Change, and a ‘Smoking Gun’ Rolling Stone",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY1hxckhBbHJUeEVlVjlrQjl0YjZPbGxaRmlvLVpCdTU5YzVLcEFELWpSVDk4cjJFd3c3VXdtU1U4c19EVVhvbEh1SHZybTQ1Z3FCc1d1bDBrWnNCQ1M5VXFqSDZqOTVab2hFZVdPYXpyLTF3eXpuRlB6UllUaFp2Zk9jVVhvVnZ6U0pJWnNhVXJLYWRiZnlKVUJFU0NBdWNmYVltRDdhQUpwMmtxenZ3?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY1hxckhBbHJUeEVlVjlrQjl0YjZPbGxaRmlvLVpCdTU5YzVLcEFELWpSVDk4cjJFd3c3VXdtU1U4c19EVVhvbEh1SHZybTQ1Z3FCc1d1bDBrWnNCQ1M5VXFqSDZqOTVab2hFZVdPYXpyLTF3eXpuRlB6UllUaFp2Zk9jVVhvVnZ6U0pJWnNhVXJLYWRiZnlKVUJFU0NBdWNmYVltRDdhQUpwMmtxenZ3?oc=5",
-      "source": "Rolling Stone",
-      "category": "Environment",
-      "publishedAt": "2026-11-16T11:00:00Z"
-    },
-    {
-      "id": "da7fe30267a70d039e13",
-      "title": "Science, technology, and innovation must become the main driving force in the development of the construction industry. - Vietnam.vn",
-      "description": "Science, technology, and innovation must become the main driving force in the development of the construction industry. Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWUF4MUxJQ3pZb0gxOEZKQlhWZmZGbVNmeW1palZhRWllS29STVlHWTZXS2JiMEpvYjdXMEQtQUNNejM4SmtZY1NDaHJsam1XZUFGc1VCWElJUUhuaWtWeGgySGNrSjI5czBfVnB0ZGM5Y2dVSGJYTHlUTjczZkRpemJKWWhqUWtMaEtyWExYdjllaUpLSFRUQzh6QjZHRmRrNGxLYWcyYTRWNzk5ZEtvTGstRVhqZmNBbHdKSFRfN1diV00?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWUF4MUxJQ3pZb0gxOEZKQlhWZmZGbVNmeW1palZhRWllS29STVlHWTZXS2JiMEpvYjdXMEQtQUNNejM4SmtZY1NDaHJsam1XZUFGc1VCWElJUUhuaWtWeGgySGNrSjI5czBfVnB0ZGM5Y2dVSGJYTHlUTjczZkRpemJKWWhqUWtMaEtyWExYdjllaUpLSFRUQzh6QjZHRmRrNGxLYWcyYTRWNzk5ZEtvTGstRVhqZmNBbHdKSFRfN1diV00?oc=5",
-      "source": "Vietnam.vn",
-      "category": "Technology",
-      "publishedAt": "2026-11-16T10:35:29Z"
-    },
-    {
-      "id": "50b2520f5e4949cc300b",
-      "title": "China says Xi, Trump, Putin to discuss 'world peace' - The Economic Times",
-      "description": "China says Xi, Trump, Putin to discuss 'world peace' The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQUdrUWpESWh1N0xZMjA3eGdadGpWOS1uSGlhTTB3Z0FMeWVUYjNkamJsSDhIVGswVnVNUGFHV3FlQldtYmlCY0JXRnpic2hwc1FLVW1lUl9CYXU1RTlmOVNjX0xKbjJMWFZqcmlyTlJ5eFpQYnBXOHVmakVjM2JzNmtNR0xBQ2MyWHZUMHZ0QWdSMkFDVUhGS004QzJYWnBEbjcxNHNzM1NiVlNEWXhRSmpvYW45S1dZdndOWVlEVHd0ZU9wTHVqYkxCejjSAdIBQVVfeXFMTTY1OTFEczhJWkpkbUFwVmgtWWlrZEliRUpvSzZYbm03ZGExZ3ZmdHFHRXdwNlJhbGlCd19tSzlXOEhXOGhaTnlOY3U5eUFKbVEzV1JkbGUxQTFoLXBHUFduVkRXQm84cGd3dFlEWXRtbW1rS2JkeEU0R0dsOHd6Y0xwSkVzbHJUbUE2ejhXSUNjWl96M09HRk85SFZSV2lfZ3pMazFpckNSeXpjYWZvUFdXano5dnRUbl9qclBESlNMV1BkUW1lbmxfWEh3ZGlLcTln?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQUdrUWpESWh1N0xZMjA3eGdadGpWOS1uSGlhTTB3Z0FMeWVUYjNkamJsSDhIVGswVnVNUGFHV3FlQldtYmlCY0JXRnpic2hwc1FLVW1lUl9CYXU1RTlmOVNjX0xKbjJMWFZqcmlyTlJ5eFpQYnBXOHVmakVjM2JzNmtNR0xBQ2MyWHZUMHZ0QWdSMkFDVUhGS004QzJYWnBEbjcxNHNzM1NiVlNEWXhRSmpvYW45S1dZdndOWVlEVHd0ZU9wTHVqYkxCejjSAdIBQVVfeXFMTTY1OTFEczhJWkpkbUFwVmgtWWlrZEliRUpvSzZYbm03ZGExZ3ZmdHFHRXdwNlJhbGlCd19tSzlXOEhXOGhaTnlOY3U5eUFKbVEzV1JkbGUxQTFoLXBHUFduVkRXQm84cGd3dFlEWXRtbW1rS2JkeEU0R0dsOHd6Y0xwSkVzbHJUbUE2ejhXSUNjWl96M09HRk85SFZSV2lfZ3pMazFpckNSeXpjYWZvUFdXano5dnRUbl9qclBESlNMV1BkUW1lbmxfWEh3ZGlLcTln?oc=5",
-      "source": "The Economic Times",
-      "category": "World",
-      "publishedAt": "2026-11-16T10:22:04Z"
-    },
-    {
-      "id": "90b394c09d801fbaac33",
-      "title": "Austria International Pharmacy Program - Post Register",
-      "description": "Austria International Pharmacy Program Post Register",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUE9kSm4xdEJzWUN0VnE5MldrSFBmWUhBSzR3M1YxU0NwenZ2UkZ1eEVmLV9CbGJBaGlzX3hoYS1vdVd0UkVROFM2LVl1bnRzMGpCMFdKUWFuUE40SHV5V2dSRGdtc0ZGa05pNmE0dHFHc2J0RDViNUx3V0MySUV1a3o1djRYdkFITGRnbjVvek1XNDJPSFdhbGVyLTBOMEFqSnVSUkptTkE2MlAwVzBTZnBCTUVjUEt2YVZWQlBOOEpzNDc2?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUE9kSm4xdEJzWUN0VnE5MldrSFBmWUhBSzR3M1YxU0NwenZ2UkZ1eEVmLV9CbGJBaGlzX3hoYS1vdVd0UkVROFM2LVl1bnRzMGpCMFdKUWFuUE40SHV5V2dSRGdtc0ZGa05pNmE0dHFHc2J0RDViNUx3V0MySUV1a3o1djRYdkFITGRnbjVvek1XNDJPSFdhbGVyLTBOMEFqSnVSUkptTkE2MlAwVzBTZnBCTUVjUEt2YVZWQlBOOEpzNDc2?oc=5",
-      "source": "Post Register",
-      "category": "World",
-      "publishedAt": "2026-11-16T10:08:13Z"
-    },
-    {
-      "id": "df4be5438561472b29d2",
-      "title": "Baku hosts international Turkic World 2026 DanceSport competition [PHOTOS] - AzerNews",
-      "description": "Baku hosts international Turkic World 2026 DanceSport competition [PHOTOS] AzerNews",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MZEx0THlvS2VWeWZGNUtOR1c4aGpwOWN6RVVuTmFWNlhFVTZGQVphSktILXVhM2h3ZVRmODFyLXEwWlVISTVBT2VYZEQ2UjBULTBBSA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MZEx0THlvS2VWeWZGNUtOR1c4aGpwOWN6RVVuTmFWNlhFVTZGQVphSktILXVhM2h3ZVRmODFyLXEwWlVISTVBT2VYZEQ2UjBULTBBSA?oc=5",
-      "source": "AzerNews",
-      "category": "World",
-      "publishedAt": "2026-11-16T09:13:00Z"
-    },
-    {
-      "id": "09b992f14d7bdc11adac",
-      "title": "International Law for a Fragile World: Political Risk – Authoritarianism, Information Warfare, and Democratic Fragility (Part II) - Opinio Juris",
-      "description": "International Law for a Fragile World: Political Risk – Authoritarianism, Information Warfare, and Democratic Fragility (Part II) Opinio Juris",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYUIwenozM191bUdzNnBGQ21vbTZDVlNBSldxclZYVnJUWHVqZ3JnenFySjVSLVZSLXg0T2hnTzBROUlNRGYwUk0yRFMySEFSb19nRnYxSjFCaHlNYVp1RkI5WU1tVXVvQ3E1dTV1NnhUSnB1UEtGSlhkNWFDazdBMFV1R2l6QjlMUFNJZlduRlFoOEhlek9kUDYxN2E1YjJDczczejJnYkFuVnU4WVFJTXpWRHUyc3VGeHJEX1Fhd0RIYjhsZnh6NGJPVm0yS21vM2FUT2VmNzBSSFhnREtyLWVCQ2plWWFiOHUxZHR4Yw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOYUIwenozM191bUdzNnBGQ21vbTZDVlNBSldxclZYVnJUWHVqZ3JnenFySjVSLVZSLXg0T2hnTzBROUlNRGYwUk0yRFMySEFSb19nRnYxSjFCaHlNYVp1RkI5WU1tVXVvQ3E1dTV1NnhUSnB1UEtGSlhkNWFDazdBMFV1R2l6QjlMUFNJZlduRlFoOEhlek9kUDYxN2E1YjJDczczejJnYkFuVnU4WVFJTXpWRHUyc3VGeHJEX1Fhd0RIYjhsZnh6NGJPVm0yS21vM2FUT2VmNzBSSFhnREtyLWVCQ2plWWFiOHUxZHR4Yw?oc=5",
-      "source": "Opinio Juris",
-      "category": "World",
-      "publishedAt": "2026-11-16T09:01:01Z"
-    },
-    {
-      "id": "b22b95bb25d9cdfe790b",
-      "title": "Tomy International to become TakaraTomy International - Toy World Magazine",
-      "description": "Tomy International to become TakaraTomy International Toy World Magazine",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ2RuQUF4ejJ6Smo3a2V6U1BzVW9kLXUzV0I1UlZteTJ1ZnJYMjBKejhEbi1TZjZCcGhyNHZORF8yeGVORUEtSFVna09lMjFCZkpZMGlwM3YyT1dfNE1ZNEZna1liX19jZWdDS3VvX2EzUEtlclJKbEozXzV1WEh2bE0xWDk3SFE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ2RuQUF4ejJ6Smo3a2V6U1BzVW9kLXUzV0I1UlZteTJ1ZnJYMjBKejhEbi1TZjZCcGhyNHZORF8yeGVORUEtSFVna09lMjFCZkpZMGlwM3YyT1dfNE1ZNEZna1liX19jZWdDS3VvX2EzUEtlclJKbEozXzV1WEh2bE0xWDk3SFE?oc=5",
-      "source": "Toy World Magazine",
-      "category": "World",
-      "publishedAt": "2026-11-16T08:43:30Z"
-    },
-    {
-      "id": "2cb0f2cfd78fbe7093ff",
-      "title": "Turkic World 2026 international dancesport competition held in Baku - Latest news from Azerbaijan",
-      "description": "Turkic World 2026 international dancesport competition held in Baku Latest news from Azerbaijan",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPblg1VVF3SDJISTZPYW9GdmR3dWZyY1BPUUtnWlFhNnpoeENxOU9MWjhTeUoxYTNUNEZfdUR6Qm1STEFOMWZBdTYtOUhvN0o4SmV1SHYyajMyN3pyTnhNTTR5Y3NYdDFSWl9MLTl3bndzdWJ0RmhTcHhTRmUyS29meUpGNWhrRVBqY2hVVWdsTzZJQQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPblg1VVF3SDJISTZPYW9GdmR3dWZyY1BPUUtnWlFhNnpoeENxOU9MWjhTeUoxYTNUNEZfdUR6Qm1STEFOMWZBdTYtOUhvN0o4SmV1SHYyajMyN3pyTnhNTTR5Y3NYdDFSWl9MLTl3bndzdWJ0RmhTcHhTRmUyS29meUpGNWhrRVBqY2hVVWdsTzZJQQ?oc=5",
-      "source": "Latest news from Azerbaijan",
-      "category": "World",
-      "publishedAt": "2026-11-16T08:19:58Z"
-    },
-    {
-      "id": "446974e99b514e6f12d3",
-      "title": "Climate change and pollution increasingly affect respiratory health in Romania, say 97% of surveyed doctors - Business Review",
-      "description": "Climate change and pollution increasingly affect respiratory health in Romania, say 97% of surveyed doctors Business Review",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcVpfYjhZdG5Gb0UxUUhhTFZqdjRDZnJnZUxENmhGSE5TbFl2M0RXX1piZFhMSU94N0NjazJ3OU8tR1NaT1dIRHNoOEtwM3JNV2pUeUxTM0hFTVJVakw5VUN1UjdaRHQ5NHlpUTdSSlhIMHhpbmhXUDRRdi1sVllBT09GRWhIbG5oaVRZYjlwa0g1UEF1V1N4YXA2UXNBUlgybEdtX2dPcjZwdkN0RGxfYno4NGpwbGY2aXlwb3Y5THZXNTdtQzNGd0tsWEZnb2NWOTAtdzZ3RHN6RUtLUU5Pd1FQei1qdm1KNm1xcjFiUGs?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcVpfYjhZdG5Gb0UxUUhhTFZqdjRDZnJnZUxENmhGSE5TbFl2M0RXX1piZFhMSU94N0NjazJ3OU8tR1NaT1dIRHNoOEtwM3JNV2pUeUxTM0hFTVJVakw5VUN1UjdaRHQ5NHlpUTdSSlhIMHhpbmhXUDRRdi1sVllBT09GRWhIbG5oaVRZYjlwa0g1UEF1V1N4YXA2UXNBUlgybEdtX2dPcjZwdkN0RGxfYno4NGpwbGY2aXlwb3Y5THZXNTdtQzNGd0tsWEZnb2NWOTAtdzZ3RHN6RUtLUU5Pd1FQei1qdm1KNm1xcjFiUGs?oc=5",
-      "source": "Business Review",
-      "category": "Environment",
-      "publishedAt": "2026-11-16T08:11:45Z"
-    },
-    {
-      "id": "c2b32fc381fde485f86f",
-      "title": "China says Xi, Trump, Putin to discuss 'world peace' in trilateral - International - World - Ahram Online",
-      "description": "China says Xi, Trump, Putin to discuss 'world peace' in trilateral - International - World Ahram Online",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2tYVFIxb2lVbXJReGtTaGc1LXN0SDdzQ3BwZ01Od244MjlET0JoYk5SQXdBcXRWOVdnWUtqTFFxb3VmaEhqUTdaREl6ak03cUxWOWxqczI4NmxqeE9aMTJ5YVRTb2JoSFNHamFjRlhSMnMwYklKeDhnVTZwalE0RWpCNHh5aVJhZUt3NF9OVFhLYnZYSDFSYThVYUlSaFo2NXJkeE1lNFJoSnBiUXdYeFlEaHNxR2ZNeC1vS1BJY3dBNWp5QVE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2tYVFIxb2lVbXJReGtTaGc1LXN0SDdzQ3BwZ01Od244MjlET0JoYk5SQXdBcXRWOVdnWUtqTFFxb3VmaEhqUTdaREl6ak03cUxWOWxqczI4NmxqeE9aMTJ5YVRTb2JoSFNHamFjRlhSMnMwYklKeDhnVTZwalE0RWpCNHh5aVJhZUt3NF9OVFhLYnZYSDFSYThVYUlSaFo2NXJkeE1lNFJoSnBiUXdYeFlEaHNxR2ZNeC1vS1BJY3dBNWp5QVE?oc=5",
-      "source": "Ahram Online",
-      "category": "World",
-      "publishedAt": "2026-11-16T08:00:56Z"
-    },
-    {
-      "id": "3ff6ab3cfd0dc0cbdd39",
-      "title": "Record 700 Carbon Capture Lobbyists Secured Access to COP31 Climate Talks - Center for International Environmental Law | CIEL",
-      "description": "Record 700 Carbon Capture Lobbyists Secured Access to COP31 Climate Talks Center for International Environmental Law | CIEL",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOenF4SFJTcDVKaC1HYnVCUGN2OHJGOENCWS1CdEd0eFV6WUdMdHAwdzM2MUJZVVZSNjVMM2k2dEdYc2FSbzFNa2d1djBUVUlENmVKMThJSGcyaWVSbkhlbGs4SmRuZC1fRnhlei03cUxtY3NGZm9KVlhKcFhQV1dTdjI0VEFsdlVkUTFhVWtQR0lfWGx3TGxjOE1JYnlYWTBsUEE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOenF4SFJTcDVKaC1HYnVCUGN2OHJGOENCWS1CdEd0eFV6WUdMdHAwdzM2MUJZVVZSNjVMM2k2dEdYc2FSbzFNa2d1djBUVUlENmVKMThJSGcyaWVSbkhlbGs4SmRuZC1fRnhlei03cUxtY3NGZm9KVlhKcFhQV1dTdjI0VEFsdlVkUTFhVWtQR0lfWGx3TGxjOE1JYnlYWTBsUEE?oc=5",
-      "source": "Center for International Environmental Law | CIEL",
-      "category": "Environment",
-      "publishedAt": "2026-11-16T06:36:57Z"
-    },
-    {
-      "id": "38de2460288896371029",
-      "title": "AirTrunk signs MoU with Andhra Pradesh government for two data centre campuses having combined capacity of 1.8 GW - Indian Infrastructure Magazine",
-      "description": "AirTrunk signs MoU with Andhra Pradesh government for two data centre campuses having combined capacity of 1.8 GW Indian Infrastructure Magazine",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZGs5a2x0YWZtUFNNVmZhdnBLQjBvQU9wRloxQUpZZE9zOG95LUxGUl9sUU5WY09TY1ZCMk1OSFFnTUtpNlhPMnFWb01EMGdoY2VZSkxKUGRqU1JQVFRhRXB6TGIwM2VBcG55WGNoZVpYS0Q4bHJSb0hWR2F2SlQ1eTZmRk1FY1pUOGVSamdYRmcwTTk1TnJmNmxtNXFINUhWSTBsV25jTVRrSHRvTkdtRVlHR2JiN0NHQkJZNWNZZ2hobDlQRDBiZ1UyMnJPSFp4V1FKRGtoR0RqaFhPTUo0LUtsZVJ3aWE1Rk9IdjA0TjU?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZGs5a2x0YWZtUFNNVmZhdnBLQjBvQU9wRloxQUpZZE9zOG95LUxGUl9sUU5WY09TY1ZCMk1OSFFnTUtpNlhPMnFWb01EMGdoY2VZSkxKUGRqU1JQVFRhRXB6TGIwM2VBcG55WGNoZVpYS0Q4bHJSb0hWR2F2SlQ1eTZmRk1FY1pUOGVSamdYRmcwTTk1TnJmNmxtNXFINUhWSTBsV25jTVRrSHRvTkdtRVlHR2JiN0NHQkJZNWNZZ2hobDlQRDBiZ1UyMnJPSFp4V1FKRGtoR0RqaFhPTUo0LUtsZVJ3aWE1Rk9IdjA0TjU?oc=5",
-      "source": "Indian Infrastructure Magazine",
-      "category": "India",
-      "publishedAt": "2026-11-16T06:31:16Z"
-    },
-    {
-      "id": "d05d2929aa56f2437cf6",
-      "title": "Global call to action for equality launched at international summit in Copenhagen - The Nordic Co-operation",
-      "description": "Global call to action for equality launched at international summit in Copenhagen The Nordic Co-operation",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeTk0THJDR1JfMzBIemFRSk55OEdWTWFqMXRrS2dEdVQ0TE9kdnFtTFR4akVYOEVTWU5zYTZtRElGU3d1UGhQYW1TUTlJNFYzR25YZHgzUWNObS00Mm1VTkh2YUdOcUhrWWdleFlnbWlvQUpzNjhLVDA3ZWFiTl95VmxsLUVIRU5rUzd1WndUTWVsMDZvcFg4ZGVBS0JrSmhw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeTk0THJDR1JfMzBIemFRSk55OEdWTWFqMXRrS2dEdVQ0TE9kdnFtTFR4akVYOEVTWU5zYTZtRElGU3d1UGhQYW1TUTlJNFYzR25YZHgzUWNObS00Mm1VTkh2YUdOcUhrWWdleFlnbWlvQUpzNjhLVDA3ZWFiTl95VmxsLUVIRU5rUzd1WndUTWVsMDZvcFg4ZGVBS0JrSmhw?oc=5",
-      "source": "The Nordic Co-operation",
-      "category": "World",
-      "publishedAt": "2026-11-16T04:55:00Z"
     }
   ],
-  "lastUpdated": "2026-11-23T02:59:13Z",
-  "updatedAt": "2026-11-23T02:59:13Z"
+  "lastUpdated": "2026-11-23T12:14:47Z",
+  "updatedAt": "2026-11-23T12:14:47Z"
 }
