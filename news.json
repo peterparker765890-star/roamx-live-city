@@ -240,39 +240,87 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-22T22:23:48Z",
-    "lastSuccessfulRun": "2026-11-22T22:23:48Z",
-    "lastUpdated": "2026-11-22T22:23:48Z",
-    "articlesAdded": 7,
+    "lastRun": "2026-11-23T02:59:13Z",
+    "lastSuccessfulRun": "2026-11-23T02:59:13Z",
+    "lastUpdated": "2026-11-23T02:59:13Z",
+    "articlesAdded": 5,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 28,
+    "duplicatesRemoved": 41,
     "failedSources": [],
     "newArticleIds": [
-      "7c019b41fd932966545b",
-      "6f9c8b2445c5458c747f",
-      "664f3782a28b02b1e694",
-      "00c27da3d5f248db8bc0",
-      "36ca30874e81eb184ab6",
-      "c1e12cff3d7cd16cb9b0",
-      "e4b6f3ed3dbb0177615d"
+      "90878f0def051d691dc5",
+      "8b44ddbc25d87b7e6b61",
+      "cca281720f3b0d7ffae5",
+      "02fb2690cb6dc96d79a2",
+      "c30dc8a629b6df73b795"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 7,
+    "articlesRemoved": 5,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 300,
     "categories": {
-      "World": 179,
+      "World": 176,
       "India": 25,
       "Technology": 21,
-      "Environment": 63,
+      "Environment": 66,
       "Disaster": 12
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "90878f0def051d691dc5",
+      "title": "Why Nations Failed to Secure a New Global Climate Change Agreement - Bloomberg.com",
+      "description": "Why Nations Failed to Secure a New Global Climate Change Agreement Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOEZaeWtwOXBoWTBIVU00ZThzR1gycVhSLXJQcko2VnNkdWNKaWRJY2VReFJ5R3loTVRHbk5jLVBnd0pPeUJkNlpfeG5GbG04dmdQb3RoVUE0dTVPQUwtbTZpU1lKTHhleWROZXJYUlZiVzR0RElsbExCRlJ0Vk43MUswZzNOSUxNazhTWm5vbF9WbDlnV2R0NVp4cmJmWUNJanBMeUhtUFlFd090dXdkNXQ5OHRTeEVvY183Q2ZOS1RWQktQTXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOEZaeWtwOXBoWTBIVU00ZThzR1gycVhSLXJQcko2VnNkdWNKaWRJY2VReFJ5R3loTVRHbk5jLVBnd0pPeUJkNlpfeG5GbG04dmdQb3RoVUE0dTVPQUwtbTZpU1lKTHhleWROZXJYUlZiVzR0RElsbExCRlJ0Vk43MUswZzNOSUxNazhTWm5vbF9WbDlnV2R0NVp4cmJmWUNJanBMeUhtUFlFd090dXdkNXQ5OHRTeEVvY183Q2ZOS1RWQktQTXc?oc=5",
+      "source": "Bloomberg.com",
+      "category": "Environment",
+      "publishedAt": "2026-11-23T02:48:19Z"
+    },
+    {
+      "id": "8b44ddbc25d87b7e6b61",
+      "title": "AI's 'Beijing Chapter': From Innovation to Economic Growth - International Web Portal of Beijing",
+      "description": "AI's 'Beijing Chapter': From Innovation to Economic Growth International Web Portal of Beijing",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQlZMc3NWSHBGU2NzaHJYTFBiMTFxbFFRdHAwZFdlSkdNTlRMeW16djBaSGxwejV0QkM4TU9mQ2ZRdWNxM3Q0elZjMUdBZmVEaWZ5UXlmQ3NxZDE3X3ZMTS03U0NqQ1dXNUV6V1RNUXZQQ3FFSWh4ZE1zSmlTMl9CanlRN2FjU3N3RGY4bjk1RUh5LU0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQlZMc3NWSHBGU2NzaHJYTFBiMTFxbFFRdHAwZFdlSkdNTlRMeW16djBaSGxwejV0QkM4TU9mQ2ZRdWNxM3Q0elZjMUdBZmVEaWZ5UXlmQ3NxZDE3X3ZMTS03U0NqQ1dXNUV6V1RNUXZQQ3FFSWh4ZE1zSmlTMl9CanlRN2FjU3N3RGY4bjk1RUh5LU0?oc=5",
+      "source": "International Web Portal of Beijing",
+      "category": "Technology",
+      "publishedAt": "2026-11-23T01:53:54Z"
+    },
+    {
+      "id": "cca281720f3b0d7ffae5",
+      "title": "Environmental War Crimes: How Israel’s military assault has turned Gaza into a toxic wasteland, threatening human survival (November 2026) - ReliefWeb",
+      "description": "Environmental War Crimes: How Israel’s military assault has turned Gaza into a toxic wasteland, threatening human survival (November 2026) ReliefWeb",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOeUZWQzM5M0JvVGdRRW9QaFRRWGRRenplR1ZYdWNhcTA5am5DNEE5aU5BVXN5UnRlS3Nnd3Zub1VkcTFuaEk0dm5jR3EzUDVERG5WU1I3N09OM3d1N2VTalF3NElqY25FZE5UWnh0T0xQVTJYMVFmY3pkdi05S2czVDBQU2hwMXB2SlIyNXU1cXVERkNUODJtLUNMdFFhdkRyX2JsVkp6ZThGbWlxYkVYbWdFRHFHOXdQS2pFWlB5XzAtb0RxVi1WbS1sejl2OXJOTjgxN3A1YWNxTDZfbkNkcVRsTW1kQmk4UlozQy11c1lnb2ZFcE9pSHItMlhpN2xYbjJPc3BjV0JnOEtVV3FMR0oxbXA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOeUZWQzM5M0JvVGdRRW9QaFRRWGRRenplR1ZYdWNhcTA5am5DNEE5aU5BVXN5UnRlS3Nnd3Zub1VkcTFuaEk0dm5jR3EzUDVERG5WU1I3N09OM3d1N2VTalF3NElqY25FZE5UWnh0T0xQVTJYMVFmY3pkdi05S2czVDBQU2hwMXB2SlIyNXU1cXVERkNUODJtLUNMdFFhdkRyX2JsVkp6ZThGbWlxYkVYbWdFRHFHOXdQS2pFWlB5XzAtb0RxVi1WbS1sejl2OXJOTjgxN3A1YWNxTDZfbkNkcVRsTW1kQmk4UlozQy11c1lnb2ZFcE9pSHItMlhpN2xYbjJPc3BjV0JnOEtVV3FMR0oxbXA?oc=5",
+      "source": "ReliefWeb",
+      "category": "Environment",
+      "publishedAt": "2026-11-23T01:03:05Z"
+    },
+    {
+      "id": "02fb2690cb6dc96d79a2",
+      "title": "Batangas LGUs tap universities for science-based solutions to local problems - Daily Tribune",
+      "description": "Batangas LGUs tap universities for science-based solutions to local problems Daily Tribune",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPampGTTFJR1dRLVlvYVBvVlY2SXZrVE1BQkNnbzhEYUlyeEZIUXdJaktSMmx5U2hxWlpHM0twanNiRnBiQTNPY3FsLVF4V2YwSm1rWjFWdjRZREFMUnN0MWZIdzY0X2VPbGY4UUVMdjY5emJHNEQxVjZZZjAtRW9GTnVQLUVkX2t4WlkzS3h4WWJMTlh6NlhrTWRXaHlLcXpPaTk3ZFpmQi1GbVdoQlgw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPampGTTFJR1dRLVlvYVBvVlY2SXZrVE1BQkNnbzhEYUlyeEZIUXdJaktSMmx5U2hxWlpHM0twanNiRnBiQTNPY3FsLVF4V2YwSm1rWjFWdjRZREFMUnN0MWZIdzY0X2VPbGY4UUVMdjY5emJHNEQxVjZZZjAtRW9GTnVQLUVkX2t4WlkzS3h4WWJMTlh6NlhrTWRXaHlLcXpPaTk3ZFpmQi1GbVdoQlgw?oc=5",
+      "source": "Daily Tribune",
+      "category": "Technology",
+      "publishedAt": "2026-11-23T00:50:12Z"
+    },
+    {
+      "id": "c30dc8a629b6df73b795",
+      "title": "Sustainable Transportation and the Role of Geneva - Geneva Environment Network",
+      "description": "Sustainable Transportation and the Role of Geneva Geneva Environment Network",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMnl5cGFiZWdHdkxqT25DXzFTUE5fUkRSY3pjbmdobVJvZVNOWnhMV3hheWhlcHNoQTRTVUhkUWQwQ044c1pCMzU0Z0tIeXJiQ2hLTTNxT3pJNlhrUkNDaVpobTdyVEdiZTk2WkYwd1FHZTN1YnVycHpJZmFOcGdoTzNfdlpQRXJFUHltV2ppRjZKT3RtWUFjc0dyWlhCNEtwWFFlUExKVUQtOEJCUUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMnl5cGFiZWdHdkxqT25DXzFTUE5fUkRSY3pjbmdobVJvZVNOWnhMV3hheWhlcHNoQTRTVUhkUWQwQ044c1pCMzU0Z0tIeXJiQ2hLTTNxT3pJNlhrUkNDaVpobTdyVEdiZTk2WkYwd1FHZTN1YnVycHpJZmFOcGdoTzNfdlpQRXJFUHltV2ppRjZKT3RtWUFjc0dyWlhCNEtwWFFlUExKVUQtOEJCUUE?oc=5",
+      "source": "Geneva Environment Network",
+      "category": "Environment",
+      "publishedAt": "2026-11-22T21:43:05Z"
+    },
     {
       "id": "7c019b41fd932966545b",
       "title": "Storms to hit south-western Qld as heatwave lingers in far north - ABC News & Headlines – Australian Broadcasting Corporation",
@@ -3222,58 +3270,8 @@
       "source": "The Nordic Co-operation",
       "category": "World",
       "publishedAt": "2026-11-16T04:55:00Z"
-    },
-    {
-      "id": "0dfe531aad2b78a104e0",
-      "title": "KIIT Organises International Law Conference on ICJ’s Contribution to World Peace - KIIT",
-      "description": "KIIT Organises International Law Conference on ICJ’s Contribution to World Peace KIIT",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSG9uaFpxLXJxdFFuQ2QyZ1RiemNlb2dwRnY3STJLQUxtN1hqclZtNWNTdFBib1dYR2RvbS1QV0R6VDVZbXZGUG1qZjN2eVpsXzdVX0h4NGpjQ1hTUjh2RF9XTGxMV055M3VCaFUtMTJLTGt4WXN5NE9fbXB1a3FLdVhjZUpsazNVRVVLcURQa2FWTEYxbk5tSnJyaVlZLTJOWHUtMG5GdGZjWnRMTlVTc0JXMGhJQ00?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSG9uaFpxLXJxdFFuQ2QyZ1RiemNlb2dwRnY3STJLQUxtN1hqclZtNWNTdFBib1dYR2RvbS1QV0R6VDVZbXZGUG1qZjN2eVpsXzdVX0h4NGpjQ1hTUjh2RF9XTGxMV055M3VCaFUtMTJLTGt4WXN5NE9fbXB1a3FLdVhjZUpsazNVRVVLcURQa2FWTEYxbk5tSnJyaVlZLTJOWHUtMG5GdGZjWnRMTlVTc0JXMGhJQ00?oc=5",
-      "source": "KIIT",
-      "category": "World",
-      "publishedAt": "2026-11-16T04:51:08Z"
-    },
-    {
-      "id": "61efe291c67664b32a69",
-      "title": "International & World News – 16 November 2026 - Saachi Baat",
-      "description": "International & World News – 16 November 2026 Saachi Baat",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcVpJbmt5V19QRm9DaFhWRENRS1ZNbGV4NUhsdFpvWlpzdHdVWldwckFwbzNFYnJXWFFGNldIX2pmTlZXTjI4NzhfaHVtWVlLNmxkVmNFS1NZU3ZxcE9QemlpLVIzc3M4TE40ck1VaTM3REtIcXVmdGd0Ni1Cdl94NGlzellGUU14RlV5Xw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcVpJbmt5V19QRm9DaFhWRENRS1ZNbGV4NUhsdFpvWlpzdHdVWldwckFwbzNFYnJXWFFGNldIX2pmTlZXTjI4NzhfaHVtWVlLNmxkVmNFS1NZU3ZxcE9QemlpLVIzc3M4TE40ck1VaTM3REtIcXVmdGd0Ni1Cdl94NGlzellGUU14RlV5Xw?oc=5",
-      "source": "Saachi Baat",
-      "category": "World",
-      "publishedAt": "2026-11-16T04:05:06Z"
-    },
-    {
-      "id": "041d0498dbd5df91a3dc",
-      "title": "Construction industry accelerates research, technology application and digital transformation - Laodong.vn",
-      "description": "Construction industry accelerates research, technology application and digital transformation Laodong.vn",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRVZ1UE9kbXBSSlR1Y1JRLWxIU2RYdVhrb1BTUVFxeXFtSkt1d0RnQnpPYUlkMEJqa3d1WGZvUDYtbWJ3UFZjTEdXZm9LZlZXQXlSeVJlZF9vdHFIUmpDWTV3WGtCQ0NpeXZpci1KNFFXdlRkZEhLZ3FPckRBUEhiMzdZaFJ4NzgyY1Jray02Yld2Mko1ZGUtZEFuNm5rMTVHVFk2RGR2TGVnWjhKSEt1V0xEdzVPOTFXNTg0?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRVZ1UE9kbXBSSlR1Y1JRLWxIU2RYdVhrb1BTUVFxeXFtSkt1d0RnQnpPYUlkMEJqa3d1WGZvUDYtbWJ3UFZjTEdXZm9LZlZXQXlSeVJlZF9vdHFIUmpDWTV3WGtCQ0NpeXZpci1KNFFXdlRkZEhLZ3FPckRBUEhiMzdZaFJ4NzgyY1Jray02Yld2Mko1ZGUtZEFuNm5rMTVHVFk2RGR2TGVnWjhKSEt1V0xEdzVPOTFXNTg0?oc=5",
-      "source": "Laodong.vn",
-      "category": "Technology",
-      "publishedAt": "2026-11-16T04:05:01Z"
-    },
-    {
-      "id": "c9c72d315c9cabc98bf2",
-      "title": "US universities face international student enrollment decline as Trump tightens visa and work rules | Hindustan Times - Hindustan Times",
-      "description": "US universities face international student enrollment decline as Trump tightens visa and work rules | Hindustan Times Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOT0h4NzhGS3htZnRVN0kxZ0plaUxCSENhWHlZeldQQ2dDOWFzV3haMGxRSTNDcFk3N2NJTUV0SUJtMkRaRmV2ajlDeGVJMGl1VUdBbDVEOVBzdF9NaFl1Q0JSMDFiMnRBdzRYLWYxZTgxWTY5eXBhbFdtMXJqNkJtUDF3WVJsR0JtTTRHT21PazNxbXFTVzJfX243dTdrR1NhMmZ3cDlBY1dINGk3cmFzSHhGQmpRZXlHSnFiWGY2clBIaGZDR3VYSTZEOWVaeWJOeWxINUQwemFybUFjdVptRW9mREZZT2NRRzFSbVl1WUstRU9wc1hraFI3QS1ZOUHSAYQCQVVfeXFMTmJHcDJKT185ZlFkbm9jdDY4RzJiR1ozTDZCNXFacVZXSFUyOFJGT2pmMVBobS0wOHlfTTUzRktlenVHaXZkd3ZqNThuT0hBZ1dEdUtDMHhmcEFoZWhOWVhISnNOLXl6SUxUUkZaT1dYS2ZVRWhWeTRuMHdrZVVIamtfbUczMVVuaV9kdlk3LWl5dXIzNFUzVzJNdEdYd194QkxVTjNXck5NMXRDSWxreFNyUjZqdjJBWHFIRjZ5WldtQVhmdHlPRnRpTzROTHFtQ0hGMDlRMGlzbjJFYkk3TkpHXzg1eVlzY3oxUDRaWXEzZXRJWmRNWlFsNkhTN0E2X2lKbFQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOT0h4NzhGS3htZnRVN0kxZ0plaUxCSENhWHlZeldQQ2dDOWFzV3haMGxRSTNDcFk3N2NJTUV0SUJtMkRaRmV2ajlDeGVJMGl1VUdBbDVEOVBzdF9NaFl1Q0JSMDFiMnRBdzRYLWYxZTgxWTY5eXBhbFdtMXJqNkJtUDF3WVJsR0JtTTRHT21PazNxbXFTVzJfX243dTdrR1NhMmZ3cDlBY1dINGk3cmFzSHhGQmpRZXlHSnFiWGY2clBIaGZDR3VYSTZEOWVaeWJOeWxINUQwemFybUFjdVptRW9mREZZT2NRRzFSbVl1WUstRU9wc1hraFI3QS1ZOUHSAYQCQVVfeXFMTmJHcDJKT185ZlFkbm9jdDY4RzJiR1ozTDZCNXFacVZXSFUyOFJGT2pmMVBobS0wOHlfTTUzRktlenVHaXZkd3ZqNThuT0hBZ1dEdUtDMHhmcEFoZWhOWVhISnNOLXl6SUxUUkZaT1dYS2ZVRWhWeTRuMHdrZVVIamtfbUczMVVuaV9kdlk3LWl5dXIzNFUzVzJNdEdYd194QkxVTjNXck5NMXRDSWxreFNyUjZqdjJBWHFIRjZ5WldtQVhmdHlPRnRpTzROTHFtQ0hGMDlRMGlzbjJFYkk3TkpHXzg1eVlzY3oxUDRaWXEzZXRJWmRNWlFsNkhTN0E2X2lKbFQ?oc=5",
-      "source": "Hindustan Times",
-      "category": "World",
-      "publishedAt": "2026-11-16T01:11:37Z"
-    },
-    {
-      "id": "a487ff4bfe50a89c36c4",
-      "title": "Busan Promotes Its Smart City Technology Competitiveness in Spain - 파이낸셜뉴스",
-      "description": "Busan Promotes Its Smart City Technology Competitiveness in Spain 파이낸셜뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54dzhBS2FzSGJnbXV4RTZqemswNUpNQTFoYmpoUlBMZ1lCSjdIb0NxdDlHelpGOUo3WDRVbWFiVHRSQzFMLWg4bmpNT3FtVllYYUlseGZsc00?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54dzhBS2FzSGJnbXV4RTZqemswNUpNQTFoYmpoUlBMZ1lCSjdIb0NxdDlHelpGOUo3WDRVbWFiVHRSQzFMLWg4bmpNT3FtVllYYUlseGZsc00?oc=5",
-      "source": "파이낸셜뉴스",
-      "category": "Technology",
-      "publishedAt": "2026-11-16T00:47:22Z"
     }
   ],
-  "lastUpdated": "2026-11-22T22:23:48Z",
-  "updatedAt": "2026-11-22T22:23:48Z"
+  "lastUpdated": "2026-11-23T02:59:13Z",
+  "updatedAt": "2026-11-23T02:59:13Z"
 }
