@@ -240,63 +240,134 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-25T23:13:54Z",
-    "lastSuccessfulRun": "2026-11-25T23:13:54Z",
-    "lastUpdated": "2026-11-25T23:13:54Z",
-    "articlesAdded": 29,
-    "articlesUpdated": 1,
-    "duplicatesRemoved": 31,
+    "lastRun": "2026-11-26T05:20:26Z",
+    "lastSuccessfulRun": "2026-11-26T05:20:26Z",
+    "lastUpdated": "2026-11-26T05:20:26Z",
+    "articlesAdded": 12,
+    "articlesUpdated": 0,
+    "duplicatesRemoved": 44,
     "failedSources": [],
     "newArticleIds": [
-      "2bd47cb76320456c8817",
-      "4bba1ab3183d2937261c",
-      "462c30a82cb9ec459fed",
-      "4dc7b0f077ddeaa35b24",
-      "b2f34c394ce58478c4e6",
-      "a01318cf696851342bd1",
-      "f4bfa831abd3ecd88e0c",
-      "65960d588fd15f1f5068",
-      "7a01d863d80c81cde88e",
-      "e3f75095793c755b9d4b",
-      "fe6b5d5ebc7cdc6ab813",
-      "55aabf29ec934c9e6c52",
-      "f3d6ef9563062a9b3708",
-      "26d6e97466b2368307e6",
-      "772ce9761c3e1cd3e94c",
-      "2348cf594e10968bc1e5",
-      "2858f78db4fdf46493f4",
-      "5193d841b4391cc44720",
-      "25cc42cef26d0ff540fc",
-      "985d0f9068a05f12984c",
-      "785b95fed0aad20cd96d",
-      "d8ae7c4dc055eb3b996b",
-      "d5b77651ce14dc8e1ea5",
-      "20e1a304eab130020046",
-      "8a356e053b43004837d2",
-      "e0c5c1473d28ae3ef3d0",
-      "3dd6e345a1c144cdd721",
-      "8724e9fa0a26699c1b6c",
-      "7128b49d229aca01de97"
+      "b765c3fad876eb91a562",
+      "b2cde9712c8d07eb8a7e",
+      "60907ebf3c68e5ae9dc5",
+      "c196ef3b9b43b4b90cf6",
+      "861bf46088921f219366",
+      "2909ec9528548c2dce2a",
+      "48ed5f3a1dc9981fbc0a",
+      "066ff0f5b717b03e70db",
+      "8e46d25907c2a73fbd49",
+      "6e9e59af91fef0091843",
+      "653f405adf1457a2a0b2",
+      "1a5a3b1a32b14cfde315"
     ],
-    "updatedArticleIds": [
-      "2ae4da4e131833b53b12"
-    ],
-    "articlesRemoved": 21,
+    "updatedArticleIds": [],
+    "articlesRemoved": 8,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 291,
+    "totalArticles": 295,
     "categories": {
-      "World": 163,
+      "World": 164,
       "India": 20,
-      "Technology": 14,
-      "Environment": 79,
+      "Technology": 13,
+      "Environment": 83,
       "Disaster": 15
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "b765c3fad876eb91a562",
+      "title": "Shanghai’s two international airports named among world's most innovative airports - VnExpress International",
+      "description": "Shanghai’s two international airports named among world's most innovative airports VnExpress International",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZXdzZzBVcHAwa2JUd1R3T2h5Q0tVZWtNbE45WHdvQUJQakdlcEZZOGJEVVlJVkg4dTE1bjV6ZGtUUDJCOFhBd0hPX0x5c0VoeGRlQ19zTHRYenJhY2hTQkNEZE5PZi16TUt1blNlWG9UNlJiRWVUaHg0aEh6Mjd6RVJHdkRaWWN6b0NnT3MxdlRhOHp0QUJNSk9OX2hKTmJLQ2UwMmpLbmxITlU4QUtLcVpaSmt3QzlrYkNZclhka1I5OGVWQzR6cTVscVA4b0pZZTdqdHFB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZXdzZzBVcHAwa2JUd1R3T2h5Q0tVZWtNbE45WHdvQUJQakdlcEZZOGJEVVlJVkg4dTE1bjV6ZGtUUDJCOFhBd0hPX0x5c0VoeGRlQ19zTHRYenJhY2hTQkNEZE5PZi16TUt1blNlWG9UNlJiRWVUaHg0aEh6Mjd6RVJHdkRaWWN6b0NnT3MxdlRhOHp0QUJNSk9OX2hKTmJLQ2UwMmpLbmxITlU4QUtLcVpaSmt3QzlrYkNZclhka1I5OGVWQzR6cTVscVA4b0pZZTdqdHFB?oc=5",
+      "source": "VnExpress International",
+      "category": "World",
+      "publishedAt": "2026-11-26T04:25:49Z"
+    },
+    {
+      "id": "b2cde9712c8d07eb8a7e",
+      "title": "From youth voices to global action: Chinese youth in environmental health governance - Global Times",
+      "description": "From youth voices to global action: Chinese youth in environmental health governance Global Times",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13R0pUWjhnSmhBQ0FUVXhsN0MzZGdVbEVsclRCanF1UFdRQ1haUk1zTTByTjdQUzM4S3k1X0NicE1IWmdLejVjTXJYeEx5VGd3WV9SekZhTkp3RElMQ2RUZG53?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13R0pUWjhnSmhBQ0FUVXhsN0MzZGdVbEVsclRCanF1UFdRQ1haUk1zTTByTjdQUzM4S3k1X0NicE1IWmdLejVjTXJYeEx5VGd3WV9SekZhTkp3RElMQ2RUZG53?oc=5",
+      "source": "Global Times",
+      "category": "Environment",
+      "publishedAt": "2026-11-26T04:02:00Z"
+    },
+    {
+      "id": "60907ebf3c68e5ae9dc5",
+      "title": "Four provinces face severe storm warnings as heatwave hits Western Cape, Northern Cape - IOL",
+      "description": "Four provinces face severe storm warnings as heatwave hits Western Cape, Northern Cape IOL",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNXp2bzJKSFdneGtlSVhhYkc5a2UzUy1acDdobTBudmt3MjhkYS1tbThOMk1qa0FGNVA3OEJ1X0ZqUFhFWHB0TGpnOGJ3QWhkaWdUa1I5WHBJcHZfSV9sc281OXZITVl6UjJnV2VKUDRHVG9SUTlkSFJGb1p4eEVYNVlZNjVHaFNTalpzOHM4Vjl5aGUwZVVmNm83ZTMwQnY5ajdmZlNOUGtLWTZtRWotRUZZS0NPempxTldPX1NQQW04a2RYeTQtS2F4Yk5yUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNXp2bzJKSFdneGtlSVhhYkc5a2UzUy1acDdobTBudmt3MjhkYS1tbThOMk1qa0FGNVA3OEJ1X0ZqUFhFWHB0TGpnOGJ3QWhkaWdUa1I5WHBJcHZfSV9sc281OXZITVl6UjJnV2VKUDRHVG9SUTlkSFJGb1p4eEVYNVlZNjVHaFNTalpzOHM4Vjl5aGUwZVVmNm83ZTMwQnY5ajdmZlNOUGtLWTZtRWotRUZZS0NPempxTldPX1NQQW04a2RYeTQtS2F4Yk5yUQ?oc=5",
+      "source": "IOL",
+      "category": "Disaster",
+      "publishedAt": "2026-11-26T03:59:08Z"
+    },
+    {
+      "id": "c196ef3b9b43b4b90cf6",
+      "title": "South Korea's passport slips to third place, trailing Japan and UAE - VnExpress International",
+      "description": "South Korea's passport slips to third place, trailing Japan and UAE VnExpress International",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRENhVTI5ZEZ6QTdxYnoxb045WFh4c1A1U0w0S3pEVjFxcGNDRkhwTWZSY1VxYTRscVNtYWZYblp6a3FXdGRIZnpoSFlZdW5ZZXd2c1Y2ampOeEVtSFUyMTBCLXVOT3VyUndNN2VwbDZSTkdlV2RRenljMDdxOFBVaHNJWC1tc0hndXpsTHlKY1RmTnAwN183clk2LVZPWWZMTUcwZnl2NEJaRE9YLXFkaW1qVFduVTlIMEdRNw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRENhVTI5ZEZ6QTdxYnoxb045WFh4c1A1U0w0S3pEVjFxcGNDRkhwTWZSY1VxYTRscVNtYWZYblp6a3FXdGRIZnpoSFlZdW5ZZXd2c1Y2ampOeEVtSFUyMTBCLXVOT3VyUndNN2VwbDZSTkdlV2RRenljMDdxOFBVaHNJWC1tc0hndXpsTHlKY1RmTnAwN183clk2LVZPWWZMTUcwZnl2NEJaRE9YLXFkaW1qVFduVTlIMEdRNw?oc=5",
+      "source": "VnExpress International",
+      "category": "World",
+      "publishedAt": "2026-11-26T03:34:07Z"
+    },
+    {
+      "id": "861bf46088921f219366",
+      "title": "Strengthening control over water, air, and soil environmental quality. - Vietnam.vn",
+      "description": "Strengthening control over water, air, and soil environmental quality. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHJaSWM3MHlmMUxnaEdIOVRUWVRSVnQ4bkJQVTZibUdtTUJBWlpBQVV5bFlJR2pQX3ZWUmdlZnc5YkhURkRMZl9oTmt1Vi1OZ3VsR05kQk8wVDFXVjFJTTE2NUs4MmZCYzJuaVV6TmJGVXpiUTE4YUFrOHhJTnpqb3M4YV9yRlFEbTBMamsxZjZTakdQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRHJaSWM3MHlmMUxnaEdIOVRUWVRSVnQ4bkJQVTZibUdtTUJBWlpBQVV5bFlJR2pQX3ZWUmdlZnc5YkhURkRMZl9oTmt1Vi1OZ3VsR05kQk8wVDFXVjFJTTE2NUs4MmZCYzJuaVV6TmJGVXpiUTE4YUFrOHhJTnpqb3M4YV9yRlFEbTBMamsxZjZTakdQ?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Environment",
+      "publishedAt": "2026-11-26T02:12:25Z"
+    },
+    {
+      "id": "2909ec9528548c2dce2a",
+      "title": "Korean ministries to discuss integrated land and environmental planning - Chosunbiz",
+      "description": "Korean ministries to discuss integrated land and environmental planning Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUmstbFY5NXRacXdPeHZEUjJvOEFTTFpBb0VDOG1ybFhocWFOZ29MWktYSkpqYTBza0gxYlpvS2pZRjFDVmw3S0R3TTUxTWgzQWxjcnpYVTdvQzd6QU5Xd2lVTkk5LW93czJXNEdhaG9LOFVYaEgxRUl3RURvT2VBWl9YZ3nSAZgBQVVfeXFMTTRGZDFTRmpGLUxfLWZhbmlHWWc1YlJHZ1ZLTzNaY2F6Wjh6a3JhUkJxb0UweGVXbTl3ZHEwR2NpUHVZczdZWnNPRmFqTjN5NGVxQkVZSUpQcXZjMndFUnZhRUlOOERlWGxhaFpnU2lIQjRwZFRhWnphVDhta1l6QWF1cG5KTWY4amplZWhNalVWVmJ0Uk5FV0c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUmstbFY5NXRacXdPeHZEUjJvOEFTTFpBb0VDOG1ybFhocWFOZ29MWktYSkpqYTBza0gxYlpvS2pZRjFDVmw3S0R3TTUxTWgzQWxjcnpYVTdvQzd6QU5Xd2lVTkk5LW93czJXNEdhaG9LOFVYaEgxRUl3RURvT2VBWl9YZ3nSAZgBQVVfeXFMTTRGZDFTRmpGLUxfLWZhbmlHWWc1YlJHZ1ZLTzNaY2F6Wjh6a3JhUkJxb0UweGVXbTl3ZHEwR2NpUHVZczdZWnNPRmFqTjN5NGVxQkVZSUpQcXZjMndFUnZhRUlOOERlWGxhaFpnU2lIQjRwZFRhWnphVDhta1l6QWF1cG5KTWY4amplZWhNalVWVmJ0Uk5FV0c?oc=5",
+      "source": "Chosunbiz",
+      "category": "Environment",
+      "publishedAt": "2026-11-26T02:00:00Z"
+    },
+    {
+      "id": "48ed5f3a1dc9981fbc0a",
+      "title": "DW News. . Demonstrations took place around the world to mark the UN's International Day for the Elimination of Violence against Women. Protestors from Bolivia to Turkey marched to denounce feminicide, gender inequality and sexual violence. #dwnews - Facebook",
+      "description": "DW News. . Demonstrations took place around the world to mark the UN's International Day for the Elimination of Violence against Women. Protestors from Bolivia to Turkey marched to denounce feminicide, gender inequality and sexual violence. #dwnews Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObWJFdGJQLWNKckdFM1hEUEYzckZRVU9xQy1rTV9RdmlhRUpKZ2VYOHlnRGUwMHFGYmIwVFBBUWZpWk1HV1lzazJrdnltWjVNSVhlM3NmVE1GYW5WYUxtQm1FSHotekpIb3BiNk8xVE5mQmVHQW9qekRIZDBMcjVTZnAyeEF1bTViWnZKb1haN2g0VGNUblNyUWFxN2ludGR5amFzZHpjRWFjYU1TWldZV25saXpzQlNxQ3o0cVN1MllCMEFJVGgwblFKX3lvb3pyQ2d5UWlBSFpQbTVBU0NhQlNn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObWJFdGJQLWNKckdFM1hEUEYzckZRVU9xQy1rTV9RdmlhRUpKZ2VYOHlnRGUwMHFGYmIwVFBBUWZpWk1HV1lzazJrdnltWjVNSVhlM3NmVE1GYW5WYUxtQm1FSHotekpIb3BiNk8xVE5mQmVHQW9qekRIZDBMcjVTZnAyeEF1bTViWnZKb1haN2g0VGNUblNyUWFxN2ludGR5amFzZHpjRWFjYU1TWldZV25saXpzQlNxQ3o0cVN1MllCMEFJVGgwblFKX3lvb3pyQ2d5UWlBSFpQbTVBU0NhQlNn?oc=5",
+      "source": "Facebook",
+      "category": "World",
+      "publishedAt": "2026-11-26T01:22:19Z"
+    },
+    {
+      "id": "066ff0f5b717b03e70db",
+      "title": "A Skeptic’s Response to Marc Defant’s Call for Us to Be Skeptical of Environmental Alarmism - Skeptic",
+      "description": "A Skeptic’s Response to Marc Defant’s Call for Us to Be Skeptical of Environmental Alarmism Skeptic",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakhiZXpkdlJuX2lOSVlVNmRaeVViVldKWi16bFJFYXdJbWRMM2ZuTkJ3QkZQRXE4VUtUUzZUaC00ZjF6Wmk3UUhjeDRSdDBISFlKSFJlNzFUNUdpeU5EbnVGcEFqRG9IZE15ZGxSSHBDcHlIamxlYWJsZFQxZEdKYUw3NDBUdHRTYWdKU2RMZGoxaVBBWVhMNFVyVTNzRF9TTkZOUXgxV0hQWnAyV2Y4c0RncHNiX28zbGRnbkJn?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNakhiZXpkdlJuX2lOSVlVNmRaeVViVldKWi16bFJFYXdJbWRMM2ZuTkJ3QkZQRXE4VUtUUzZUaC00ZjF6Wmk3UUhjeDRSdDBISFlKSFJlNzFUNUdpeU5EbnVGcEFqRG9IZE15ZGxSSHBDcHlIamxlYWJsZFQxZEdKYUw3NDBUdHRTYWdKU2RMZGoxaVBBWVhMNFVyVTNzRF9TTkZOUXgxV0hQWnAyV2Y4c0RncHNiX28zbGRnbkJn?oc=5",
+      "source": "Skeptic",
+      "category": "Environment",
+      "publishedAt": "2026-11-26T00:21:12Z"
+    },
+    {
+      "id": "8e46d25907c2a73fbd49",
+      "title": "Four Gotham FC Players Called Up for World Cup Qualifying Playoffs, International Friendlies - GothamFC.com",
+      "description": "Four Gotham FC Players Called Up for World Cup Qualifying Playoffs, International Friendlies GothamFC.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOW9rY2ZlcFhrdHpCaENTZlJSYkx2ZkFLRFRIQ0lvLTRETHZvMUtmUEpNVUdDMzM2cW1ER2J5X0RnbFZMeHNJVnJpVXcxNWkxZkdNbldXekRBaUNMS19RYi12QWpXdlJKbXVLWTdjQVI1YnQyYlRnbG1yR2tfTm1aeFpsNnl6SmV3THBjRDlYYkZBOTBxQThMWUZjQ2g4T0x4YjBQZjdqMzNnM1p5N3A4RHhGZTBleGp4NVpYU2VB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOW9rY2ZlcFhrdHpCaENTZlJSYkx2ZkFLRFRIQ0lvLTRETHZvMUtmUEpNVUdDMzM2cW1ER2J5X0RnbFZMeHNJVnJpVXcxNWkxZkdNbldXekRBaUNMS19RYi12QWpXdlJKbXVLWTdjQVI1YnQyYlRnbG1yR2tfTm1aeFpsNnl6SmV3THBjRDlYYkZBOTBxQThMWUZjQ2g4T0x4YjBQZjdqMzNnM1p5N3A4RHhGZTBleGp4NVpYU2VB?oc=5",
+      "source": "GothamFC.com",
+      "category": "World",
+      "publishedAt": "2026-11-26T00:00:25Z"
+    },
     {
       "id": "2bd47cb76320456c8817",
       "title": "EXCLUSIVE: Billionaire Boehly signs US-backed share swap deal to buy Lukoil global assets - Reuters",
@@ -316,6 +387,16 @@
       "source": "Asianet Newsable",
       "category": "World",
       "publishedAt": "2026-11-25T21:30:03Z"
+    },
+    {
+      "id": "6e9e59af91fef0091843",
+      "title": "U.S.-Backed Consortium Signs Deal for Lukoil's International Oil Empire - Crude Oil Prices Today | OilPrice.com",
+      "description": "U.S.-Backed Consortium Signs Deal for Lukoil's International Oil Empire Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ3BBMzY4MGJnM3M3d3hJSENYUnFpQk5OeEx6dXdSS0I0Zlo4U2NyaXp2RmloTVoyYkVDSGxpMi01bjN6Z1pfcExkMG5oMG4wTzNzbzZpd0doNXBISFpUYl9UVnlqTEEtYlpJSnNySWtfVHM2NjVkdlVoRjFOM3FGenVIRjB6Nk03YXNFUGxDMVdOenptdW85YUJ5TDNRTVNzdU1NOG5uOW1oYXF3aGN3SC1UMkZZalp1VXBSOUNZY05vZ9IBxwFBVV95cUxNVW5ZeTRYZVdpWC1OeTl4WDlJRjZ1WGZaWTlrdV9BOWpPZC1QOVFSTnhKLXRIZFlWVUI3TDVpVzBWSkdnT0NhMjMzS2pJbks4N0ppVWxlYVJ2UzR6ak5qeUx3V3BOX2RJQ05GLURvS1BXekNqeDJhRUVmSHFwbXBDcm9jNkIzSTQxM1lSc1lLd1gxNGFsaG5WVktIbGhob0NDSV9ybFhYQ0NSX0NYUnpwaEFsQTNVR3dmcVM1THRfTDFqYmNTYWFN?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ3BBMzY4MGJnM3M3d3hJSENYUnFpQk5OeEx6dXdSS0I0Zlo4U2NyaXp2RmloTVoyYkVDSGxpMi01bjN6Z1pfcExkMG5oMG4wTzNzbzZpd0doNXBISFpUYl9UVnlqTEEtYlpJSnNySWtfVHM2NjVkdlVoRjFOM3FGenVIRjB6Nk03YXNFUGxDMVdOenptdW85YUJ5TDNRTVNzdU1NOG5uOW1oYXF3aGN3SC1UMkZZalp1VXBSOUNZY05vZ9IBxwFBVV95cUxNVW5ZeTRYZVdpWC1OeTl4WDlJRjZ1WGZaWTlrdV9BOWpPZC1QOVFSTnhKLXRIZFlWVUI3TDVpVzBWSkdnT0NhMjMzS2pJbks4N0ppVWxlYVJ2UzR6ak5qeUx3V3BOX2RJQ05GLURvS1BXekNqeDJhRUVmSHFwbXBDcm9jNkIzSTQxM1lSc1lLd1gxNGFsaG5WVktIbGhob0NDSV9ybFhYQ0NSX0NYUnpwaEFsQTNVR3dmcVM1THRfTDFqYmNTYWFN?oc=5",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "category": "World",
+      "publishedAt": "2026-11-25T20:30:00Z"
     },
     {
       "id": "462c30a82cb9ec459fed",
@@ -628,6 +709,16 @@
       "publishedAt": "2026-11-25T06:11:37Z"
     },
     {
+      "id": "653f405adf1457a2a0b2",
+      "title": "A scientific response to climate change is incompatible with capitalism - World Socialist Web Site",
+      "description": "A scientific response to climate change is incompatible with capitalism World Socialist Web Site",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UaF9NYjlBQTZMT0VEZjNoYmpnZ1g3QTVXZWJMemhqSWZMbU1hcm1idFNta0RxbDNFUV9qZXB4SWc4VHpFUGlJalVkMzl2M3hnR09UdVhlVFBZMXNxNjFqaUNmQV9HTVZj?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5UaF9NYjlBQTZMT0VEZjNoYmpnZ1g3QTVXZWJMemhqSWZMbU1hcm1idFNta0RxbDNFUV9qZXB4SWc4VHpFUGlJalVkMzl2M3hnR09UdVhlVFBZMXNxNjFqaUNmQV9HTVZj?oc=5",
+      "source": "World Socialist Web Site",
+      "category": "Environment",
+      "publishedAt": "2026-11-25T05:08:38Z"
+    },
+    {
       "id": "8a356e053b43004837d2",
       "title": "SAIF Security and Innovation Fair Wraps Up First Day with Global Participation - وكالة الأنباء السعودية",
       "description": "SAIF Security and Innovation Fair Wraps Up First Day with Global Participation وكالة الأنباء السعودية",
@@ -696,6 +787,16 @@
       "source": "Morgan Lewis",
       "category": "World",
       "publishedAt": "2026-11-25T01:02:42Z"
+    },
+    {
+      "id": "1a5a3b1a32b14cfde315",
+      "title": "International Education Week Introduces a World of Opportunity - Bowie State University",
+      "description": "International Education Week Introduces a World of Opportunity Bowie State University",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORjF2dk5OYk4zRE5iZG53aURxNFZVUTE4YktybXVpdElWTldycXVlTWlXbkt2dDRYdVg4MkMyTnJpYmhQYTJRa2dTOHVNMGZlMC0yeFBmS0xvenlkdTdLbHljVHZUYXFWU1NENWVnd0M2THFZQkVWcWFRWGtCejJOS1R5TG5YdVFNVHRTT00yU1UzbGhudXVfRm4wV19uZFo3RjlPS1RQX0w?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORjF2dk5OYk4zRE5iZG53aURxNFZVUTE4YktybXVpdElWTldycXVlTWlXbkt2dDRYdVg4MkMyTnJpYmhQYTJRa2dTOHVNMGZlMC0yeFBmS0xvenlkdTdLbHljVHZUYXFWU1NENWVnd0M2THFZQkVWcWFRWGtCejJOS1R5TG5YdVFNVHRTT00yU1UzbGhudXVfRm4wV19uZFo3RjlPS1RQX0w?oc=5",
+      "source": "Bowie State University",
+      "category": "World",
+      "publishedAt": "2026-11-25T00:55:12Z"
     },
     {
       "id": "87819f57d72b89b07214",
@@ -3126,88 +3227,8 @@
       "source": "Routesonline",
       "category": "World",
       "publishedAt": "2026-11-19T05:28:00Z"
-    },
-    {
-      "id": "eb33277a5a0cfedcc70d",
-      "title": "As an unprecedented shock reshapes the energy world, its duration will determine the scale of the change - IEA - International Energy Agency",
-      "description": "As an unprecedented shock reshapes the energy world, its duration will determine the scale of the change IEA - International Energy Agency",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYk1Nbk91b25zX0pyZEk1WVBuM3JCZmw4VmZKaS1vQXdnX096MFc3Skl3UVN2ekNNMnRmdnhjOGoyVnFnQ05FZy04VzNnX2ZaemljQnlfUHF6NUttUU0xa0pMdDhiUzdta0lCMWhZc0Z0Q0JCSFdSWWZzcEgtY3RLU3hsekwtX1V4YndYX2ZKZlc4Tkp6NnNlb2FnN0xKUVc0QlZ4QnpOQXdPWVVjSUQ2ek1vN3pfWUNKS1lHOUJ2UVo3cktvRFpz?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYk1Nbk91b25zX0pyZEk1WVBuM3JCZmw4VmZKaS1vQXdnX096MFc3Skl3UVN2ekNNMnRmdnhjOGoyVnFnQ05FZy04VzNnX2ZaemljQnlfUHF6NUttUU0xa0pMdDhiUzdta0lCMWhZc0Z0Q0JCSFdSWWZzcEgtY3RLU3hsekwtX1V4YndYX2ZKZlc4Tkp6NnNlb2FnN0xKUVc0QlZ4QnpOQXdPWVVjSUQ2ek1vN3pfWUNKS1lHOUJ2UVo3cktvRFpz?oc=5",
-      "source": "IEA - International Energy Agency",
-      "category": "World",
-      "publishedAt": "2026-11-19T05:00:00Z"
-    },
-    {
-      "id": "c7cdedcd420a6198622e",
-      "title": "Gia Binh International Airport and APEC 2027: on track for Vietnam's year on the world stage - Routesonline",
-      "description": "Gia Binh International Airport and APEC 2027: on track for Vietnam's year on the world stage Routesonline",
-      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNeHNUc0kwOEZSWXg5SEhXVFgwSFdXX0FaQm5PWjV0SEVEaXpwbjY1cWxBZTRzcWd3eGl4Wml2TGVwaEd6WldkQWYxdGdWcFBuc1p2OThlTHNGaTdLQmJKaGJxd2JINjFtSVV6c3I1OFRKX1l4SE9DVmM1V1h0RHJWRFZFeGd1QW9WWm1NcU9TaVBHOGM1OTVQVU4wbWRTU2F3MFNmeDJyblFwanY1MHlDYm51bHQwN2owOFJfeVNtT0JTVlNFSGYzMjRFa2NSUHFuLWNIbzRXNlJiTTVEeElGejFGQnpVeFBBRlEyZ2RfVllYTjRXNEQ4Mlc2azdER2VHOWcxbkJVUjJBTF91SGNIbFkzbTlLWlE0NDM5d3l4bmVwWjhfMEpreVpZSndhdU1TaEVWeA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNeHNUc0kwOEZSWXg5SEhXVFgwSFdXX0FaQm5PWjV0SEVEaXpwbjY1cWxBZTRzcWd3eGl4Wml2TGVwaEd6WldkQWYxdGdWcFBuc1p2OThlTHNGaTdLQmJKaGJxd2JINjFtSVV6c3I1OFRKX1l4SE9DVmM1V1h0RHJWRFZFeGd1QW9WWm1NcU9TaVBHOGM1OTVQVU4wbWRTU2F3MFNmeDJyblFwanY1MHlDYm51bHQwN2owOFJfeVNtT0JTVlNFSGYzMjRFa2NSUHFuLWNIbzRXNlJiTTVEeElGejFGQnpVeFBBRlEyZ2RfVllYTjRXNEQ4Mlc2azdER2VHOWcxbkJVUjJBTF91SGNIbFkzbTlLWlE0NDM5d3l4bmVwWjhfMEpreVpZSndhdU1TaEVWeA?oc=5",
-      "source": "Routesonline",
-      "category": "World",
-      "publishedAt": "2026-11-19T04:48:00Z"
-    },
-    {
-      "id": "214bb587ba725a7ac962",
-      "title": "Digital transformation in the environmental sector: Removing bottlenecks and enhancing pollution control capabilities. - Vietnam.vn",
-      "description": "Digital transformation in the environmental sector: Removing bottlenecks and enhancing pollution control capabilities. Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXdSV1c2RzU3MWxRMkdZVTNSTkVMbGNkOXBuaThXLV90OW5pVFB3cjJNTzdKTGFGNDNhdWJ3YzA1STBETFkxaW1MSmNUTWdjRWF5cDd0c012amNZa2VqY01GelpTR2ZSZGlrMW8wNWNvSGRtUXhONjhBdFFlcDZLOFJ5OGdINVlTQ20wY0RMN25EemJXU0EzT2hUMWNiMWxlTTk5MA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXdSV1c2RzU3MWxRMkdZVTNSTkVMbGNkOXBuaThXLV90OW5pVFB3cjJNTzdKTGFGNDNhdWJ3YzA1STBETFkxaW1MSmNUTWdjRWF5cDd0c012amNZa2VqY01GelpTR2ZSZGlrMW8wNWNvSGRtUXhONjhBdFFlcDZLOFJ5OGdINVlTQ20wY0RMN25EemJXU0EzT2hUMWNiMWxlTTk5MA?oc=5",
-      "source": "Vietnam.vn",
-      "category": "Environment",
-      "publishedAt": "2026-11-19T03:40:14Z"
-    },
-    {
-      "id": "2474f4b182b7413ea152",
-      "title": "For Putin, sharing spotlight with Trump and Xi boosts his profile on global stage - The Economic Times",
-      "description": "For Putin, sharing spotlight with Trump and Xi boosts his profile on global stage The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPdW9ZTk1rREJpZmx6RmVZc3N5d3c1MlZaaFNsTFJHMU5POXNEbTRyTGdTX0NKemxMdkRJQ3UyTlZjUHFMN0llekdnaHFNeGNDM2VsQ2tIN193dTRNT2ItS1JWM0xHY1U5cmRJWUdLRFNCWGxaSUUzTm1hLUlIR20yajZOejd4YlZaTjV2UnNnVnpiLWR0MXdfQjlJVlFvVE9qY3h5dnBTeTVJTl9NSTFyb0FfN1FyUGQwVUU2NktSWXBZS3JWd0JmY1p0dk4zcVJhaXdURDIwTXhlY2JnaTNPa05iWlFuVE15ajBoYnJvNUYxR2c4LUZN0gH8AUFVX3lxTFBCVjlteWYzQmpQMWVVRzVkZlB6M3lKWVN5U2N4MWhSYjdua21ILWZWSGozTlc0cFpQeWZfQU44VlJkUmZnRS03T3JGM0t4ZUpLclZFd3d3dDFxRkY4M1VId2hobXFGaVZ5ZEJaSFlCcTM1TUVrV0V0RGpYbVVNNU9pYUpfdlFnMHQ5WkRKOVY0ck9YNkFTSF9Kd0JjaHlFTU1qQTgzNF9HemtiS21GLXhkMW5BVGhoc2puZ0NyR1VKU3VKdUdLLW82a3VEUS1yMjRwcVR3clNFLUZEX0Z6TGNjT0c1SGoyTGRLd1VtNVdUaG9CUHhZRnlpRHNhLQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPdW9ZTk1rREJpZmx6RmVZc3N5d3c1MlZaaFNsTFJHMU5POXNEbTRyTGdTX0NKemxMdkRJQ3UyTlZjUHFMN0llekdnaHFNeGNDM2VsQ2tIN193dTRNT2ItS1JWM0xHY1U5cmRJWUdLRFNCWGxaSUUzTm1hLUlIR20yajZOejd4YlZaTjV2UnNnVnpiLWR0MXdfQjlJVlFvVE9qY3h5dnBTeTVJTl9NSTFyb0FfN1FyUGQwVUU2NktSWXBZS3JWd0JmY1p0dk4zcVJhaXdURDIwTXhlY2JnaTNPa05iWlFuVE15ajBoYnJvNUYxR2c4LUZN0gH8AUFVX3lxTFBCVjlteWYzQmpQMWVVRzVkZlB6M3lKWVN5U2N4MWhSYjdua21ILWZWSGozTlc0cFpQeWZfQU44VlJkUmZnRS03T3JGM0t4ZUpLclZFd3d3dDFxRkY4M1VId2hobXFGaVZ5ZEJaSFlCcTM1TUVrV0V0RGpYbVVNNU9pYUpfdlFnMHQ5WkRKOVY0ck9YNkFTSF9Kd0JjaHlFTU1qQTgzNF9HemtiS21GLXhkMW5BVGhoc2puZ0NyR1VKU3VKdUdLLW82a3VEUS1yMjRwcVR3clNFLUZEX0Z6TGNjT0c1SGoyTGRLd1VtNVdUaG9CUHhZRnlpRHNhLQ?oc=5",
-      "source": "The Economic Times",
-      "category": "World",
-      "publishedAt": "2026-11-19T03:32:17Z"
-    },
-    {
-      "id": "97418d8ba62f45703dd9",
-      "title": "International & World News – 19 November 2026 - Saachi Baat",
-      "description": "International & World News – 19 November 2026 Saachi Baat",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbTFRWGQwZWNXOTBCZlh1cjhsR0hXOFo2WmZBLUp4U2lmNWtWQlBzdUg4bkYzXzhhOEpvbEpuT2VuSmEwOHJaV2ZxenVDeVRGNEh1aExFY0pDTEZPdmRzRU9qNUc4eXYxazlvdHlPVXQ1UllFRGdGZ082d2pMcUYxcWs2eXlZRU9xUG1pcw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbTFRWGQwZWNXOTBCZlh1cjhsR0hXOFo2WmZBLUp4U2lmNWtWQlBzdUg4bkYzXzhhOEpvbEpuT2VuSmEwOHJaV2ZxenVDeVRGNEh1aExFY0pDTEZPdmRzRU9qNUc4eXYxazlvdHlPVXQ1UllFRGdGZ082d2pMcUYxcWs2eXlZRU9xUG1pcw?oc=5",
-      "source": "Saachi Baat",
-      "category": "World",
-      "publishedAt": "2026-11-19T03:32:08Z"
-    },
-    {
-      "id": "427149a51f458e52a138",
-      "title": "Extreme weather events cause trillions of dollars in damage globally. - Vietnam.vn",
-      "description": "Extreme weather events cause trillions of dollars in damage globally. Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVGlaNlpQeVowY0M4VUUwTmxMMzltT1Q0RnhrRzgwZGFkS0dEWFVRTndldV94Z3VhWGZuTnpJVXk5WUN5Ry13NzZRd0hkWUFSRjBvOEQ0YzBud1c5Qlpabm5XZmplRXRpejVVRFNFQ0gzY3BldDRKdVJYZFFKYWw4YjYtZTRaRmgtNlN0WldjbmJkNGVJ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVGlaNlpQeVowY0M4VUUwTmxMMzltT1Q0RnhrRzgwZGFkS0dEWFVRTndldV94Z3VhWGZuTnpJVXk5WUN5Ry13NzZRd0hkWUFSRjBvOEQ0YzBud1c5Qlpabm5XZmplRXRpejVVRFNFQ0gzY3BldDRKdVJYZFFKYWw4YjYtZTRaRmgtNlN0WldjbmJkNGVJ?oc=5",
-      "source": "Vietnam.vn",
-      "category": "Disaster",
-      "publishedAt": "2026-11-19T02:29:07Z"
-    },
-    {
-      "id": "0f72f7b93a0fa19e297a",
-      "title": "Global: Protesting children and young people face human rights abuses, including violence and discrimination - Amnesty International",
-      "description": "Global: Protesting children and young people face human rights abuses, including violence and discrimination Amnesty International",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTmNlODJidXIyTmVpNVBBNHJUVlNCbGZoanZfck56T0o3bC05aGtRQzlNcGt6cDBFSjZiRlNFTEp0NWU4ckNJbW96ZHpqajRCZXNkbXM4emJPempkYjd3dlMxV2k5ZWRwQmlMaUJVTVVOWnVJSGk5N21nTHZub1pTU09YTFhIVVItRGtMQXpYekFKUnlJUm9XM1lSMElnMnNNRnpoUUwwWGVCOVFJTHAzNUdUbUpEN3M?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTmNlODJidXIyTmVpNVBBNHJUVlNCbGZoanZfck56T0o3bC05aGtRQzlNcGt6cDBFSjZiRlNFTEp0NWU4ckNJbW96ZHpqajRCZXNkbXM4emJPempkYjd3dlMxV2k5ZWRwQmlMaUJVTVVOWnVJSGk5N21nTHZub1pTU09YTFhIVVItRGtMQXpYekFKUnlJUm9XM1lSMElnMnNNRnpoUUwwWGVCOVFJTHAzNUdUbUpEN3M?oc=5",
-      "source": "Amnesty International",
-      "category": "World",
-      "publishedAt": "2026-11-19T01:01:00Z"
-    },
-    {
-      "id": "4f4ff0e58d69a5c0889b",
-      "title": "Creating momentum for the development of the innovation ecosystem in the Capital City. - Vietnam.vn",
-      "description": "Creating momentum for the development of the innovation ecosystem in the Capital City. Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWdubmFmeDc5NVlMU3lLM2Z4a1hYQnc5ZjVVclpTTGx6Q0I1WWJoOTBzamNCWVdGZ1I0VjJFZVQxVE5FRVVra1I5Mm5ndWc3R2VzSHJPRHRiSGRMQ2RzVmV4NjdhNjlxcWI4Y1NqNFJQVXAwYW94MzVWbi05bWFJUGVCdV9sRWw0VE80aEljSFM3dWM2?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWdubmFmeDc5NVlMU3lLM2Z4a1hYQnc5ZjVVclpTTGx6Q0I1WWJoOTBzamNCWVdGZ1I0VjJFZVQxVE5FRVVra1I5Mm5ndWc3R2VzSHJPRHRiSGRMQ2RzVmV4NjdhNjlxcWI4Y1NqNFJQVXAwYW94MzVWbi05bWFJUGVCdV9sRWw0VE80aEljSFM3dWM2?oc=5",
-      "source": "Vietnam.vn",
-      "category": "Technology",
-      "publishedAt": "2026-11-19T00:43:23Z"
     }
   ],
-  "lastUpdated": "2026-11-25T23:13:54Z",
-  "updatedAt": "2026-11-25T23:13:54Z"
+  "lastUpdated": "2026-11-26T05:20:26Z",
+  "updatedAt": "2026-11-26T05:20:26Z"
 }
