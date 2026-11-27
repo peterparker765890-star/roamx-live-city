@@ -240,50 +240,69 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-26T15:38:10Z",
-    "lastSuccessfulRun": "2026-11-26T15:38:10Z",
-    "lastUpdated": "2026-11-26T15:38:10Z",
-    "articlesAdded": 16,
-    "articlesUpdated": 1,
-    "duplicatesRemoved": 28,
+    "lastRun": "2026-11-27T00:25:24Z",
+    "lastSuccessfulRun": "2026-11-27T00:25:24Z",
+    "lastUpdated": "2026-11-27T00:25:24Z",
+    "articlesAdded": 7,
+    "articlesUpdated": 0,
+    "duplicatesRemoved": 42,
     "failedSources": [],
     "newArticleIds": [
-      "fbacbcab6da8530350f2",
-      "96c6ddbc4f845ab91ee8",
-      "e98e9dff8dd7cdb22219",
-      "f3d5487ff80363c63039",
-      "1abf19d186ee9602efc0",
-      "6ab8435ff36cff4d9c38",
-      "da15ef73f7392373ce91",
-      "4443c441112fa1c41c30",
-      "bcf3720cc845861ecbdb",
-      "4532add125fc4896d7c5",
-      "bea31a63707e27b5ae06",
-      "1ed5016e767c5f0327dd",
-      "d77a31431bd2b734a273",
-      "ba30caab05f92c94f2e2",
-      "a81d29e005671adc5015",
-      "0cabc77abdb79e051929"
+      "75ef6c7a02d112a35fc0",
+      "079ef96ea3cbd9433e4a",
+      "247b6217dd53aa820da9",
+      "c1bcaac6e38eaabda21e",
+      "0885588c384f43856789",
+      "6ffff1aceaa3f65bae24",
+      "e06f598bf145d6f15ff8"
     ],
-    "updatedArticleIds": [
-      "b2b3efa95b65127ac0e6"
-    ],
-    "articlesRemoved": 32,
+    "updatedArticleIds": [],
+    "articlesRemoved": 27,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 279,
+    "totalArticles": 259,
     "categories": {
-      "World": 159,
+      "World": 145,
       "India": 20,
       "Technology": 11,
-      "Environment": 77,
+      "Environment": 71,
       "Disaster": 12
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "75ef6c7a02d112a35fc0",
+      "title": "Infrastructure, anti-doping steps part of India’s presentation to IOC | Sports News - Hindustan Times",
+      "description": "Infrastructure, anti-doping steps part of India’s presentation to IOC | Sports News Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaHRJMW5YTllXVE1CamdHNWd0NWxEOXJzdENCMEpBNHJ5b2owbEFqOTZrX1l2MVZ1SG5URmxDRldmRFhrTl9jVl9sazA5SFpjZUFySHJuSll0dVExVnhvVVpnbFlTLUpIeFBELWM1OTExc1hYclhrNC1CTnVKTzdMMjZZZzQ1TnVNYlBMbEZVbjZGUlpYZ1pzenJuQTlkamdBQWVpSHk5QXFpNmdKSTZSZEwyRThTY21GQ2h2ODE0aVVKeF9vdGfSAcsBQVVfeXFMT0lZelFZcW44LVQzRG1fTDNhaHQwLWwwaHl2bTlXaktIRjlrT3B1bFRBMlZvakxvYWZCWm5LY0lwZmVGcG4zRGVFX2J1Vkg0RS1aRmdPclpmRE1uOHprczBLYlVNZlhkNVBXbkFwMndtNGI2UzF2WVphMU5faXBoSmpYdW1XS08zcGU0bzJTRDgzZ0RQWV9PX1ZKN3VnWmMwT3ZHU19GaWlkS2VyRHVyaEhXblRRLWVvZmk0RE1ZSFo4UnVLYVkyTENibU0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaHRJMW5YTllXVE1CamdHNWd0NWxEOXJzdENCMEpBNHJ5b2owbEFqOTZrX1l2MVZ1SG5URmxDRldmRFhrTl9jVl9sazA5SFpjZUFySHJuSll0dVExVnhvVVpnbFlTLUpIeFBELWM1OTExc1hYclhrNC1CTnVKTzdMMjZZZzQ1TnVNYlBMbEZVbjZGUlpYZ1pzenJuQTlkamdBQWVpSHk5QXFpNmdKSTZSZEwyRThTY21GQ2h2ODE0aVVKeF9vdGfSAcsBQVVfeXFMT0lZelFZcW44LVQzRG1fTDNhaHQwLWwwaHl2bTlXaktIRjlrT3B1bFRBMlZvakxvYWZCWm5LY0lwZmVGcG4zRGVFX2J1Vkg0RS1aRmdPclpmRE1uOHprczBLYlVNZlhkNVBXbkFwMndtNGI2UzF2WVphMU5faXBoSmpYdW1XS08zcGU0bzJTRDgzZ0RQWV9PX1ZKN3VnWmMwT3ZHU19GaWlkS2VyRHVyaEhXblRRLWVvZmk0RE1ZSFo4UnVLYVkyTENibU0?oc=5",
+      "source": "Hindustan Times",
+      "category": "India",
+      "publishedAt": "2026-11-26T17:31:17Z"
+    },
+    {
+      "id": "079ef96ea3cbd9433e4a",
+      "title": "FIM joins the International Council for Coaching Excellence (ICCE) - FIM",
+      "description": "FIM joins the International Council for Coaching Excellence (ICCE) FIM",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV0xIWERVSmNMVkM3TDZUbENGS3dGVXZ4UjV3YWJubm1SZDhTbF8zMlIwQWdCSFJmM2dnWndIZU4xckZ1WlIxYlFuTS1yakhvR3pGZWN2WFdzdWJjZ3hmcUgzRkRTc2p3YlYxN0h0TDlEa2VtcHFWNk5NMEFlX3BvZ3Nrdk5QXzZjQURfckplWlkxQXNqUHRtb1ZtMGp4Yld3dzdUZXp1SmJ5UHF5WnJsSS1kMjdIYTNM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV0xIWERVSmNMVkM3TDZUbENGS3dGVXZ4UjV3YWJubm1SZDhTbF8zMlIwQWdCSFJmM2dnWndIZU4xckZ1WlIxYlFuTS1yakhvR3pGZWN2WFdzdWJjZ3hmcUgzRkRTc2p3YlYxN0h0TDlEa2VtcHFWNk5NMEFlX3BvZ3Nrdk5QXzZjQURfckplWlkxQXNqUHRtb1ZtMGp4Yld3dzdUZXp1SmJ5UHF5WnJsSS1kMjdIYTNM?oc=5",
+      "source": "FIM",
+      "category": "World",
+      "publishedAt": "2026-11-26T17:12:45Z"
+    },
+    {
+      "id": "247b6217dd53aa820da9",
+      "title": "Video: Kazakh President Tokayev Expresses Admiration for Putin's International Achievements - UA.NEWS",
+      "description": "Video: Kazakh President Tokayev Expresses Admiration for Putin's International Achievements UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb2ZfcDd5SkptcjJVejdQdkxka1NaVkh2MHpHZ19Tb1Zfa25ValNYX1dhWG5xRm40MGxrMDkyN093SUdQVGpqc0NFQVhnWi1QOU5sSkI2UVllaXFiUjJ3M1ZzOGJBNmFrRFlTSjVPSUhuTTJDNEJMSzJNZVFENlJHM2tmRzJtV25oQW9SSVZhdjZfZEpCcEN6OXVBdV8yMDJvaEg2dU94UEV1bXdVcmdWZ2hldw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb2ZfcDd5SkptcjJVejdQdkxka1NaVkh2MHpHZ19Tb1Zfa25ValNYX1dhWG5xRm40MGxrMDkyN093SUdQVGpqc0NFQVhnWi1QOU5sSkI2UVllaXFiUjJ3M1ZzOGJBNmFrRFlTSjVPSUhuTTJDNEJMSzJNZVFENlJHM2tmRzJtV25oQW9SSVZhdjZfZEpCcEN6OXVBdV8yMDJvaEg2dU94UEV1bXdVcmdWZ2hldw?oc=5",
+      "source": "UA.NEWS",
+      "category": "World",
+      "publishedAt": "2026-11-26T16:41:56Z"
+    },
     {
       "id": "fbacbcab6da8530350f2",
       "title": "Da Nang welcomes international partners, heritage city and experts at the World Heritage Cooperation Conference 2026. - Vietnam.vn",
@@ -302,7 +321,7 @@
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb3ZicHJhcjVUeERHcXhYZk1pM2FMSzRKbzJjUVVCbFVIUWxQZGF4d0QtTmVTZE1ycTFmclBHekRzVGppaE9BcEZ0Zmo3MTYwTzZXZFJ3VWtZam1zVDdCR2gwR2NxVGJBeEk1VkFXMlZuWTFKeElteDlZbXFmc0pnV0RGdEptUUc5QlNGV0VCNjFzdG1wWWc?oc=5",
       "source": "worldathletics.org",
       "category": "World",
-      "publishedAt": "2026-11-26T13:39:09Z"
+      "publishedAt": "2026-11-26T13:46:50Z"
     },
     {
       "id": "e98e9dff8dd7cdb22219",
@@ -325,6 +344,16 @@
       "publishedAt": "2026-11-26T11:20:28Z"
     },
     {
+      "id": "c1bcaac6e38eaabda21e",
+      "title": "DXRACER Sponsors World of Tanks Championship International (WCI) 2026, Bringing Exclusive Giveaways to Chongqing - The Detroit News",
+      "description": "DXRACER Sponsors World of Tanks Championship International (WCI) 2026, Bringing Exclusive Giveaways to Chongqing The Detroit News",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZUVIRi1FdWYybUk1WHVsOWIzRzdYck9MQlZkajY5ZmYwR2J1dWZneXI2WW15NjFCd3FKeTNBYjhzcmZVcnBTbHVrYkpmSHY5bWlSVWVVWGdoZUNpb2dvLWtXSEpyempmSkh0NEsxd0J4UW1odlBkMVdoSmQyakVtOXJxWXRWamVvMVZkYUJjVnkzajhpMTQ2emVvNUJRUzJmRW9wei1tTHdnQW9HVkRvM2R6RVNZNUFxRFpaZVBZSklLdWxfUDZoa0hNS043ZWQ3VFd1aFRSMnJxTVVzRkdNcEZ6a2Y1MU52ZGp5WWN4aWV3S0tNX1lPWg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZUVIRi1FdWYybUk1WHVsOWIzRzdYck9MQlZkajY5ZmYwR2J1dWZneXI2WW15NjFCd3FKeTNBYjhzcmZVcnBTbHVrYkpmSHY5bWlSVWVVWGdoZUNpb2dvLWtXSEpyempmSkh0NEsxd0J4UW1odlBkMVdoSmQyakVtOXJxWXRWamVvMVZkYUJjVnkzajhpMTQ2emVvNUJRUzJmRW9wei1tTHdnQW9HVkRvM2R6RVNZNUFxRFpaZVBZSklLdWxfUDZoa0hNS043ZWQ3VFd1aFRSMnJxTVVzRkdNcEZ6a2Y1MU52ZGp5WWN4aWV3S0tNX1lPWg?oc=5",
+      "source": "The Detroit News",
+      "category": "World",
+      "publishedAt": "2026-11-26T10:22:05Z"
+    },
+    {
       "id": "1abf19d186ee9602efc0",
       "title": "DXRACER Sponsors World of Tanks Championship International (WCI) 2026, Bringing Exclusive Giveaways to Chongqing - Cincinnati Enquirer",
       "description": "DXRACER Sponsors World of Tanks Championship International (WCI) 2026, Bringing Exclusive Giveaways to Chongqing Cincinnati Enquirer",
@@ -343,6 +372,16 @@
       "source": "Brasil 247",
       "category": "World",
       "publishedAt": "2026-11-26T09:56:05Z"
+    },
+    {
+      "id": "0885588c384f43856789",
+      "title": "Technological innovation for the development of clean energy sources. - Vietnam.vn",
+      "description": "Technological innovation for the development of clean energy sources. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOazQwQWswdk9qdHQ3OHd2TnJWRjYySHhsLUhxUXBtREszTDVoaHFrLXpra0pjczVHN2lHdTYwQVNkeXFPVXJHbEJ4ekpmRkFxRlo3OUhPX3YtcmJnR0hET2JqWDEyMFBsYi1PUS1TZDZFbVNVT1Nva1RhOWtYMktoaUpsU2lTZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOazQwQWswdk9qdHQ3OHd2TnJWRjYySHhsLUhxUXBtREszTDVoaHFrLXpra0pjczVHN2lHdTYwQVNkeXFPVXJHbEJ4ekpmRkFxRlo3OUhPX3YtcmJnR0hET2JqWDEyMFBsYi1PUS1TZDZFbVNVT1Nva1RhOWtYMktoaUpsU2lTZw?oc=5",
+      "source": "Vietnam.vn",
+      "category": "Technology",
+      "publishedAt": "2026-11-26T09:46:01Z"
     },
     {
       "id": "da15ef73f7392373ce91",
@@ -793,6 +832,16 @@
       "source": "UNEP - UN Environment Programme",
       "category": "Environment",
       "publishedAt": "2026-11-25T11:15:33Z"
+    },
+    {
+      "id": "6ffff1aceaa3f65bae24",
+      "title": "UK cracks down on online abuse ahead of international summit seeking to end violence against women and girls - GOV.UK",
+      "description": "UK cracks down on online abuse ahead of international summit seeking to end violence against women and girls GOV.UK",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQc2VhTTAxczlMaTI2T05zd0VlNjhWS1RpSkhGQVBCa2otT1JPd3J3ZERkSlJ1eExwVHNKYUlmNnJnLWhfTFpUcFM2WFcwYUhwNURZcUdpbTNMOEVnbDBfeTZ4WU03MXBpXzBlZmRLR0M3dWZUWlJ4ZEFGSkd4QmVCN0o4czB6SklFS19sRmZkX0o5NlgteW8yZzhiTHBPVzFnNnRsaEFXSjZtQXZsR2NQMm5LX2otc2hTOVdiWjdoSWN4TWVaUnNhVnA4dm1aWHd1clZBTnRTemdUdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQc2VhTTAxczlMaTI2T05zd0VlNjhWS1RpSkhGQVBCa2otT1JPd3J3ZERkSlJ1eExwVHNKYUlmNnJnLWhfTFpUcFM2WFcwYUhwNURZcUdpbTNMOEVnbDBfeTZ4WU03MXBpXzBlZmRLR0M3dWZUWlJ4ZEFGSkd4QmVCN0o4czB6SklFS19sRmZkX0o5NlgteW8yZzhiTHBPVzFnNnRsaEFXSjZtQXZsR2NQMm5LX2otc2hTOVdiWjdoSWN4TWVaUnNhVnA4dm1aWHd1clZBTnRTemdUdw?oc=5",
+      "source": "GOV.UK",
+      "category": "World",
+      "publishedAt": "2026-11-25T10:41:18Z"
     },
     {
       "id": "d5b77651ce14dc8e1ea5",
@@ -1283,6 +1332,16 @@
       "source": "Afghanistan International",
       "category": "World",
       "publishedAt": "2026-11-24T08:12:53Z"
+    },
+    {
+      "id": "e06f598bf145d6f15ff8",
+      "title": "12 of the World’s Deadliest Natural Disasters - Britannica",
+      "description": "12 of the World’s Deadliest Natural Disasters Britannica",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTk01dXNobERxWUZhcV80MkVfZzhMTHhzNEpTbU53clV6a01NT3FJR244RnhpRlpoRi1TdzJsWXkyc0tjWUFmZHpLMnZJdDhxSml2YjJWS1pZLU9xV004U190d0FmdW5IV0V4eDA0bTJiLVA0a083ZzRSRHNFWktucA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTk01dXNobERxWUZhcV80MkVfZzhMTHhzNEpTbU53clV6a01NT3FJR244RnhpRlpoRi1TdzJsWXkyc0tjWUFmZHpLMnZJdDhxSml2YjJWS1pZLU9xV004U190d0FmdW5IV0V4eDA0bTJiLVA0a083ZzRSRHNFWktucA?oc=5",
+      "source": "Britannica",
+      "category": "Disaster",
+      "publishedAt": "2026-11-24T08:00:00Z"
     },
     {
       "id": "57bff8d8e95576079224",
@@ -2803,278 +2862,8 @@
       "source": "Bioengineer.org",
       "category": "Environment",
       "publishedAt": "2026-11-20T00:31:03Z"
-    },
-    {
-      "id": "280f8012fe4e97466898",
-      "title": "MP Sports Development: 11 Academies, 201 International Medals and World-Class Facilities Under CM Mohan Yadav - Indian Masterminds",
-      "description": "MP Sports Development: 11 Academies, 201 International Medals and World-Class Facilities Under CM Mohan Yadav Indian Masterminds",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRVRYa2RVa3hOOXNnY0ZFbXFvR0l5RzczVnB4UnpJVTNKUlFjNFdrbnlScU1VZEhiLTRocWdIUWZtQThNejMtamR6cGNuWC1JaWd0T0Y1NzJfZFU1RnlPS1NqWUFmcGdmZXRwSXQzcktxS2RSeTdlbkVzdWdidlpPc0V6a2Y4WnMwNTFhaUZGU3k5M0luS2JJZElGdmpveUZkTDNQQTFXZmtXM0U5R0kxM3ZsZUc?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRVRYa2RVa3hOOXNnY0ZFbXFvR0l5RzczVnB4UnpJVTNKUlFjNFdrbnlScU1VZEhiLTRocWdIUWZtQThNejMtamR6cGNuWC1JaWd0T0Y1NzJfZFU1RnlPS1NqWUFmcGdmZXRwSXQzcktxS2RSeTdlbkVzdWdidlpPc0V6a2Y4WnMwNTFhaUZGU3k5M0luS2JJZElGdmpveUZkTDNQQTFXZmtXM0U5R0kxM3ZsZUc?oc=5",
-      "source": "Indian Masterminds",
-      "category": "World",
-      "publishedAt": "2026-11-19T23:30:00Z"
-    },
-    {
-      "id": "7eaa291105ab2cc4e42d",
-      "title": "COP31: Peru and Türkiye reach historic environmental cooperation agreement | News | ANDINA - Peru News Agency - Agencia Andina",
-      "description": "COP31: Peru and Türkiye reach historic environmental cooperation agreement | News | ANDINA - Peru News Agency Agencia Andina",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeExTM0kzZF9SbVM3YXFLRmN1QmdjaDN5NDNZckkwa3VRdENNRFh6b2x5S0s3SXJrN3JpZnlDVmh4TmVzVTJIRVNnMG9fdDEta0ZFekhPTnJqc1RwSGV4VVBPSHVFN1dvakRTMzMyRUVPdWZUWGpxTlo5U2Yzbi1vTDM3LUJERHFkWWlZSkdwbmxSSUZTRVB6YUxfYnowaE5YeXZJLUhnVmdKVFNrb1NxTjZFcUV5MEQtZUU5Z1ItQ3FZUQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeExTM0kzZF9SbVM3YXFLRmN1QmdjaDN5NDNZckkwa3VRdENNRFh6b2x5S0s3SXJrN3JpZnlDVmh4TmVzVTJIRVNnMG9fdDEta0ZFekhPTnJqc1RwSGV4VVBPSHVFN1dvakRTMzMyRUVPdWZUWGpxTlo5U2Yzbi1vTDM3LUJERHFkWWlZSkdwbmxSSUZTRVB6YUxfYnowaE5YeXZJLUhnVmdKVFNrb1NxTjZFcUV5MEQtZUU5Z1ItQ3FZUQ?oc=5",
-      "source": "Agencia Andina",
-      "category": "Environment",
-      "publishedAt": "2026-11-19T22:57:36Z"
-    },
-    {
-      "id": "e54691689e6f7954ff7e",
-      "title": "Environmental group says EPA has failed to act while Great Bay Estuary nears collapse - New Hampshire Bulletin",
-      "description": "Environmental group says EPA has failed to act while Great Bay Estuary nears collapse New Hampshire Bulletin",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUHZ6YmxoV1N0UnRnN2o5RDN0T28zYUN4LWVnM3k0LVk4dHNodFBMZHE3MnhMaWFPUFZNS0JrZUxldzd2ZEdBUnBISUM3WlVNNk5RZ3BHeVVlTDM0dHJxMDQySFhrMS1ZMnN2U0F2VHZVU0wxbV82UjZRRU9wNmNCWlJFVmJVMTlrSHJ3cUVCUndkTDJjQUVnaTZXU3FlU0V1TXdNWFFPSGs3eWpzSXExUHd3c0J1YU41cnljSlo0bVJRZmVoUkZaZkZB?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUHZ6YmxoV1N0UnRnN2o5RDN0T28zYUN4LWVnM3k0LVk4dHNodFBMZHE3MnhMaWFPUFZNS0JrZUxldzd2ZEdBUnBISUM3WlVNNk5RZ3BHeVVlTDM0dHJxMDQySFhrMS1ZMnN2U0F2VHZVU0wxbV82UjZRRU9wNmNCWlJFVmJVMTlrSHJ3cUVCUndkTDJjQUVnaTZXU3FlU0V1TXdNWFFPSGs3eWpzSXExUHd3c0J1YU41cnljSlo0bVJRZmVoUkZaZkZB?oc=5",
-      "source": "New Hampshire Bulletin",
-      "category": "Environment",
-      "publishedAt": "2026-11-19T22:27:52Z"
-    },
-    {
-      "id": "71477e8f83b7774f37e2",
-      "title": "SMART SEED Innovation Awards Launch Scholar-Driven Research to Power the Next Era of Defense Science and Technology - DVIDS",
-      "description": "SMART SEED Innovation Awards Launch Scholar-Driven Research to Power the Next Era of Defense Science and Technology DVIDS",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPd0FwT3dmakdHQWVOOC1naGZXbzFPQ2JKOS1PRVF1T254SVp4dGx1WTJxQ0hYQjNKbW5xLTNvR3dSWjZlWGRGQVFHSFktMVRMVUxXal92Nm8wdVJ5eUFlczA3UHhzYVg0U0syZ0ZZYjk3OGpjM1VhcUN3SV82MlU2UkVPMTI2a1pDV2ZWNW9WcHlwR3pzNnloSE96akFxbXNobTNheWp0N2tBdUxnVFlqOTFvX05xc1VnY2V0dUdsMEl0cGZadGxreE5wdFg0S3FraXowMDhzWnpWZw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPd0FwT3dmakdHQWVOOC1naGZXbzFPQ2JKOS1PRVF1T254SVp4dGx1WTJxQ0hYQjNKbW5xLTNvR3dSWjZlWGRGQVFHSFktMVRMVUxXal92Nm8wdVJ5eUFlczA3UHhzYVg0U0syZ0ZZYjk3OGpjM1VhcUN3SV82MlU2UkVPMTI2a1pDV2ZWNW9WcHlwR3pzNnloSE96akFxbXNobTNheWp0N2tBdUxnVFlqOTFvX05xc1VnY2V0dUdsMEl0cGZadGxreE5wdFg0S3FraXowMDhzWnpWZw?oc=5",
-      "source": "DVIDS",
-      "category": "Technology",
-      "publishedAt": "2026-11-19T21:27:00Z"
-    },
-    {
-      "id": "6564d49ae941874a3ec4",
-      "title": "Statement: Bill 42 Strips Away Alberta’s Last Climate Guardrails - Environmental Defence",
-      "description": "Statement: Bill 42 Strips Away Alberta’s Last Climate Guardrails Environmental Defence",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSVpfaTJFU3hCSVE4c3B1U1JsR1htNnVNQTZVZnBpM2kwQzBoeThMU3pSRlNxYlhod01ISlZic3haa1I0cUFxbjV1RlkydHR2eEJ6bXlLWmJlRExRT3ZNd0xwNFpaQ0Y2M3BfZW5WMzlDa1FrZEVuSkJxajcxNS1leXk1SVpLRlotZTFHMVFDVU9IOUVzR2x1RjM1Z2hrbzRIRG81N002VFlZQQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSVpfaTJFU3hCSVE4c3B1U1JsR1htNnVNQTZVZnBpM2kwQzBoeThMU3pSRlNxYlhod01ISlZic3haa1I0cUFxbjV1RlkydHR2eEJ6bXlLWmJlRExRT3ZNd0xwNFpaQ0Y2M3BfZW5WMzlDa1FrZEVuSkJxajcxNS1leXk1SVpLRlotZTFHMVFDVU9IOUVzR2x1RjM1Z2hrbzRIRG81N002VFlZQQ?oc=5",
-      "source": "Environmental Defence",
-      "category": "Environment",
-      "publishedAt": "2026-11-19T21:24:28Z"
-    },
-    {
-      "id": "8618834bcffef917f108",
-      "title": "3 world leaders walked into a room — and took aim at international law and institutions - Radio-Canada",
-      "description": "3 world leaders walked into a room — and took aim at international law and institutions Radio-Canada",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNS01IWEpLRmZON0VnWTBPNC1pdGxSMU9RdFlrV1c0TTV3SkdRNlp6ZHdOQXp4X1I1d1JaZnBydzdwRkh3NFJuTmhnSWpLZnZ1MVhKY29MUUlsWkNkbXJDMndyc2hVWGtTYnl0d1p5WS1SWl9LUS05TVdsM0g3eFhXTGNjd2ZDbElyNGVOYnd5RlB6VnZnbXN5QmdmLVBYZnZJMUVXM3ZRU2xPeUtUVWt6Sy01S3hsczJWNXFSNXZLRFlWTnVHMGU0TWZLcS1Odw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNS01IWEpLRmZON0VnWTBPNC1pdGxSMU9RdFlrV1c0TTV3SkdRNlp6ZHdOQXp4X1I1d1JaZnBydzdwRkh3NFJuTmhnSWpLZnZ1MVhKY29MUUlsWkNkbXJDMndyc2hVWGtTYnl0d1p5WS1SWl9LUS05TVdsM0g3eFhXTGNjd2ZDbElyNGVOYnd5RlB6VnZnbXN5QmdmLVBYZnZJMUVXM3ZRU2xPeUtUVWt6Sy01S3hsczJWNXFSNXZLRFlWTnVHMGU0TWZLcS1Odw?oc=5",
-      "source": "Radio-Canada",
-      "category": "World",
-      "publishedAt": "2026-11-19T20:09:17Z"
-    },
-    {
-      "id": "894f23fff246a6c3e9d6",
-      "title": "Global courts under attack and four more takeaways from the Trump, Xi, Putin meeting - The Guardian",
-      "description": "Global courts under attack and four more takeaways from the Trump, Xi, Putin meeting The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMUtWd210TUZ4UEo0RmNWV01MQkJ2a1pKNEs1OHRJZ2JuX3B2amhfanR5a0puRlc0MzliVkhDQVRaZDI2cEp1RFByRVk4Q3VFbFQ2N2RPQmZmMjRXem9UbE1WRXlkXzhsczJQQU04NUlQVDhqcl8wdlVlTmJHcjFTRENUTUlMOVJNYlY2UWZ5ZDBhZXJuV01GaVlLVFVyYXRjVmQ4?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMUtWd210TUZ4UEo0RmNWV01MQkJ2a1pKNEs1OHRJZ2JuX3B2amhfanR5a0puRlc0MzliVkhDQVRaZDI2cEp1RFByRVk4Q3VFbFQ2N2RPQmZmMjRXem9UbE1WRXlkXzhsczJQQU04NUlQVDhqcl8wdlVlTmJHcjFTRENUTUlMOVJNYlY2UWZ5ZDBhZXJuV01GaVlLVFVyYXRjVmQ4?oc=5",
-      "source": "The Guardian",
-      "category": "World",
-      "publishedAt": "2026-11-19T19:52:00Z"
-    },
-    {
-      "id": "ff94d4e9c750ca5d243e",
-      "title": "Time magazine ranks Halifax Stanfield International Airport as world's best small airport - PNI Atlantic News",
-      "description": "Time magazine ranks Halifax Stanfield International Airport as world's best small airport PNI Atlantic News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVl9JdDIxYzNhM1RDV2d1b24zTmJGT09Db0lTaEd2YkFWTUNPbEhQTGh0dlZaZDl5U09ETkp6NjNwRlM0eDkteFNOS1VvYlBWMlRNVXRnWkpoOUpLdUhOMjdvVklNc2JET09jY1hkS3ZmWlZZbUswNHJ2QVptYUNmdXdOWHdOV0NaTVlPRXRGdEpSb0FJa3ZPVklzUnRvRGthUjlJZUdEUUFGVXF0YUE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVl9JdDIxYzNhM1RDV2d1b24zTmJGT09Db0lTaEd2YkFWTUNPbEhQTGh0dlZaZDl5U09ETkp6NjNwRlM0eDkteFNOS1VvYlBWMlRNVXRnWkpoOUpLdUhOMjdvVklNc2JET09jY1hkS3ZmWlZZbUswNHJ2QVptYUNmdXdOWHdOV0NaTVlPRXRGdEpSb0FJa3ZPVklzUnRvRGthUjlJZUdEUUFGVXF0YUE?oc=5",
-      "source": "PNI Atlantic News",
-      "category": "World",
-      "publishedAt": "2026-11-19T18:51:56Z"
-    },
-    {
-      "id": "f4d11703f6be200df485",
-      "title": "UN defends International Criminal Court as ‘crucial’ for international justice after Trump, Xi, Putin target tribunal - Anadolu Ajansı",
-      "description": "UN defends International Criminal Court as ‘crucial’ for international justice after Trump, Xi, Putin target tribunal Anadolu Ajansı",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdmlEaXByMTdTMy0yZEZlS2xUYThCVWpBZ1lSTVFuZi04d3BKNmxVVVdhbTkxZkFWSnJJbFc4RW5iaUJjMXJkZGRDMHd0ankwZFJFY05DVktqUmVBV3pJZ2VWdFBYTGlfSjFiVEtVTTc4TTVZWlhLaGJfMHFtVWhrLUhqSVhwa1ZNM085VXhCXzdueEtvU2xMX2ZsblJVWWhLMWhqT3pHYmFENWhYNUFjNGg2dnE0OFBxNGF2R2VrY3ZZdkhrSF82VTliUEdqWWdvR3dCMldnYnMzTzlEbUFWdk91am5HVFk?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdmlEaXByMTdTMy0yZEZlS2xUYThCVWpBZ1lSTVFuZi04d3BKNmxVVVdhbTkxZkFWSnJJbFc4RW5iaUJjMXJkZGRDMHd0ankwZFJFY05DVktqUmVBV3pJZ2VWdFBYTGlfSjFiVEtVTTc4TTVZWlhLaGJfMHFtVWhrLUhqSVhwa1ZNM085VXhCXzdueEtvU2xMX2ZsblJVWWhLMWhqT3pHYmFENWhYNUFjNGg2dnE0OFBxNGF2R2VrY3ZZdkhrSF82VTliUEdqWWdvR3dCMldnYnMzTzlEbUFWdk91am5HVFk?oc=5",
-      "source": "Anadolu Ajansı",
-      "category": "World",
-      "publishedAt": "2026-11-19T18:47:27Z"
-    },
-    {
-      "id": "233dcda3d95a13239dc1",
-      "title": "Three Presidents, One World They Cannot Control - International Policy Digest",
-      "description": "Three Presidents, One World They Cannot Control International Policy Digest",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWklWeWJDWE50azRLYjhMVk5jcGFKNDFUVmNLVVZGMG8xcWp4Ykp6dVAxZWJ2b1kxdUhPYXAwSkk1ZmNMMmlET1J6SEVzODVJcFpCM2k2R3BYblFXNGZjdjVkdVhZMmZ1d214MkhDanlQWEFVRlBrR2ZuVzhZcWp5Rg?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWklWeWJDWE50azRLYjhMVk5jcGFKNDFUVmNLVVZGMG8xcWp4Ykp6dVAxZWJ2b1kxdUhPYXAwSkk1ZmNMMmlET1J6SEVzODVJcFpCM2k2R3BYblFXNGZjdjVkdVhZMmZ1d214MkhDanlQWEFVRlBrR2ZuVzhZcWp5Rg?oc=5",
-      "source": "International Policy Digest",
-      "category": "World",
-      "publishedAt": "2026-11-19T18:44:19Z"
-    },
-    {
-      "id": "3c9e1324523006373f27",
-      "title": "Yelm City Council unanimously authorizes Nisqually Indian Tribe to install telecommunications infrastructure - Nisqually Valley News",
-      "description": "Yelm City Council unanimously authorizes Nisqually Indian Tribe to install telecommunications infrastructure Nisqually Valley News",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQblFIaEYtNi1ZUllrOV92Z1pIeTdlV0ltWHVyUW90OFNrUnpjM0FzcTEzV2tlVVEtUDVnRWhldUNHaWVaaFZZdTBNRWE4TXlOUy1fazh5NW5yZGNYNklCUlRtRkpWajVLdmdQTEVucEo2eGw1emdXeWtYMVZRQ24zd2lqRzJYQlB6QWFnRENQMEZWYXVhd201QUt1U3FucmgwZHUtdmlCTEpTZmVfN1dUSFhKLXZMOWFXQmhqYW9TdlRMbzNrNVBfcDlpWWtWRVk?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQblFIaEYtNi1ZUllrOV92Z1pIeTdlV0ltWHVyUW90OFNrUnpjM0FzcTEzV2tlVVEtUDVnRWhldUNHaWVaaFZZdTBNRWE4TXlOUy1fazh5NW5yZGNYNklCUlRtRkpWajVLdmdQTEVucEo2eGw1emdXeWtYMVZRQ24zd2lqRzJYQlB6QWFnRENQMEZWYXVhd201QUt1U3FucmgwZHUtdmlCTEpTZmVfN1dUSFhKLXZMOWFXQmhqYW9TdlRMbzNrNVBfcDlpWWtWRVk?oc=5",
-      "source": "Nisqually Valley News",
-      "category": "India",
-      "publishedAt": "2026-11-19T18:42:32Z"
-    },
-    {
-      "id": "13f3653c3cd2fae672ce",
-      "title": "Al Gore on climate change 20 years after An Inconvenient Truth: 'There are tremendous signs of progress' - CNN",
-      "description": "Al Gore on climate change 20 years after An Inconvenient Truth: 'There are tremendous signs of progress' CNN",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMGVydm9OdDNUT2dVdFJQMFFMNmxjQnRsWmVtRU93UHdjSV96QnA4azlaSU5JYjFJdXNQR1ZZcTJWZndBY0JYaWJic1U3NHFSVUwxM09TNWZ5U0o4MDNoM3REZWRsMGVYbFVKUnFjVnh2MDN5Znk4RlZFdHNuSXlpN3E2RWhKWGswRFo4VWlveVlGdWU2S2hDNnlVTnVwSEVKb055N3l6a0VURjl4dWtkMU45ODY2UzgtVHNWeERpX3Y?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMGVydm9OdDNUT2dVdFJQMFFMNmxjQnRsWmVtRU93UHdjSV96QnA4azlaSU5JYjFJdXNQR1ZZcTJWZndBY0JYaWJic1U3NHFSVUwxM09TNWZ5U0o4MDNoM3REZWRsMGVYbFVKUnFjVnh2MDN5Znk4RlZFdHNuSXlpN3E2RWhKWGswRFo4VWlveVlGdWU2S2hDNnlVTnVwSEVKb055N3l6a0VURjl4dWtkMU45ODY2UzgtVHNWeERpX3Y?oc=5",
-      "source": "CNN",
-      "category": "Environment",
-      "publishedAt": "2026-11-19T18:39:33Z"
-    },
-    {
-      "id": "1ac414e19f5ab988daf2",
-      "title": "Local environmental groups implore RI’s federal delegation to oppose BAAJA - SteveAhlquist.news",
-      "description": "Local environmental groups implore RI’s federal delegation to oppose BAAJA SteveAhlquist.news",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1NemU5c3NuX3RXQzF1SUdtLVJxOWNXczNQZjQ1elBRSkt6QTFBOVBzMVFCLS11d09lYXR6T1NCVTFBbXpuN2Nic29yWDJ5MURReGljOG1HdzdwVnRtYklNbkVqVjhjQTNXM01mRVM0cG1JUHlLMEFlZjhfTQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1NemU5c3NuX3RXQzF1SUdtLVJxOWNXczNQZjQ1elBRSkt6QTFBOVBzMVFCLS11d09lYXR6T1NCVTFBbXpuN2Nic29yWDJ5MURReGljOG1HdzdwVnRtYklNbkVqVjhjQTNXM01mRVM0cG1JUHlLMEFlZjhfTQ?oc=5",
-      "source": "SteveAhlquist.news",
-      "category": "Environment",
-      "publishedAt": "2026-11-19T18:16:39Z"
-    },
-    {
-      "id": "7559a3cd534d1bf46454",
-      "title": "3 world leaders walked into a room — and took aim at international law and institutions - CBC",
-      "description": "3 world leaders walked into a room — and took aim at international law and institutions CBC",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTOGVSRl83UElBOUVzamcyVU9xelZuWk1yX3ZSN3dGb3BkM2V4NXpiend2ZnlCUmZycmdhc1ppREtjUGo0dGJIb0FVVUE3dlAxdnl3dVNtX2R3QlpGQjdoMTNWb2w?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTOGVSRl83UElBOUVzamcyVU9xelZuWk1yX3ZSN3dGb3BkM2V4NXpiend2ZnlCUmZycmdhc1ppREtjUGo0dGJIb0FVVUE3dlAxdnl3dVNtX2R3QlpGQjdoMTNWb2w?oc=5",
-      "source": "CBC",
-      "category": "World",
-      "publishedAt": "2026-11-19T18:12:44Z"
-    },
-    {
-      "id": "64dfbdac2ef89da68672",
-      "title": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds - The New York Times",
-      "description": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQmhFRFFBc3duc2NLLWctWmR1RUExSDFJV1lxRVY1UXhlaW0xS0xILUJNRGJmMjFacnhDeHdBVXFkVHdQdTRqWEJoVk5weFNBRnEyV0RENEJTWTFKQWxnU3hxYjlCVVFLcTdQbGVWTElDdkdGVE9ENjcyMFNBVXQ2Z01aaERfQzJQVDMw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQmhFRFFBc3duc2NLLWctWmR1RUExSDFJV1lxRVY1UXhlaW0xS0xILUJNRGJmMjFacnhDeHdBVXFkVHdQdTRqWEJoVk5weFNBRnEyV0RENEJTWTFKQWxnU3hxYjlCVVFLcTdQbGVWTElDdkdGVE9ENjcyMFNBVXQ2Z01aaERfQzJQVDMw?oc=5",
-      "source": "The New York Times",
-      "category": "World",
-      "publishedAt": "2026-11-19T17:55:23Z"
-    },
-    {
-      "id": "4cdf68053135105bc610",
-      "title": "The Permitting Bill Is Splitting the Environmental Movement - The New York Times",
-      "description": "The Permitting Bill Is Splitting the Environmental Movement The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUnoyZXFYYVF3anE4LVZFa2VHajRLZWtJT2s5Vk5GNzl2MlVUNUN3MzM4YU00MVlfN1NIZzZVVkc3VkhBRkpxNEZCbHlJMkN3UzI0dlBDVi1vS1cxTElWUUliWjlmZ3FpZUFEUVNFRm1OWmV6djhSWU5OM2xGdEc5ZjVCU3hEZTZuX2ZZOFMxS3N1ZzlHZGRfVG5n?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUnoyZXFYYVF3anE4LVZFa2VHajRLZWtJT2s5Vk5GNzl2MlVUNUN3MzM4YU00MVlfN1NIZzZVVkc3VkhBRkpxNEZCbHlJMkN3UzI0dlBDVi1vS1cxTElWUUliWjlmZ3FpZUFEUVNFRm1OWmV6djhSWU5OM2xGdEc5ZjVCU3hEZTZuX2ZZOFMxS3N1ZzlHZGRfVG5n?oc=5",
-      "source": "The New York Times",
-      "category": "Environment",
-      "publishedAt": "2026-11-19T17:50:00Z"
-    },
-    {
-      "id": "b7aa56c19e19d1d65e90",
-      "title": "Ex-World No.1 Ash Barty elected to International Tennis Hall of Fame - India Today",
-      "description": "Ex-World No.1 Ash Barty elected to International Tennis Hall of Fame India Today",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYkRtT19jT0k0dFVnRHFYODZSLU9GelVaNFF5eWRUbzZMUGlicTdkT2Y5ejZMSjZpNzd2bmdvWXhHaW1HbFBVU0wtZTZ4bng4NDF2Q3dWQXFULW9YSUZiUG4wdm5DcDBySHJjcFRpUHFSVFVTOVBBTG0zY1RyeW9rZkZELUJDZlQwczUxV2pkcjNpbDk1NXBPZ2ZSRFRNRUhCWm5XbF9TTVZNY0NQOVBnMk9RZVVIZ1Bzb0R6dWNJR0tpMzBEeFlmWU5QU1RuRUnSAdQBQVVfeXFMTTF6SzhkT3ZFdjFRazY0Y252Z0JEZ282R0FMYzVGdUZNZS1YTjNGc2k1cFFORXl0S2xlaThhcjgtQTVqcHBTUU5CVUpJMThxd0NpUE5xaEJhT2p0UGxnTFZZcDVDRVNTWHlvRlkyV3hCc2VWSWJYSHZXaEpzVGltNGJnUndTLVhWR0JfTEtoX09tb2w0a0I5Z3FTZUtYUHYySTNjLU5MMmJ4SnJwSklLT1VpcjFhUW1YSzgwd21WQ3ltR3hMU1RHdkotbVFCVE1ySy1iSFA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYkRtT19jT0k0dFVnRHFYODZSLU9GelVaNFF5eWRUbzZMUGlicTdkT2Y5ejZMSjZpNzd2bmdvWXhHaW1HbFBVU0wtZTZ4bng4NDF2Q3dWQXFULW9YSUZiUG4wdm5DcDBySHJjcFRpUHFSVFVTOVBBTG0zY1RyeW9rZkZELUJDZlQwczUxV2pkcjNpbDk1NXBPZ2ZSRFRNRUhCWm5XbF9TTVZNY0NQOVBnMk9RZVVIZ1Bzb0R6dWNJR0tpMzBEeFlmWU5QU1RuRUnSAdQBQVVfeXFMTTF6SzhkT3ZFdjFRazY0Y252Z0JEZ282R0FMYzVGdUZNZS1YTjNGc2k1cFFORXl0S2xlaThhcjgtQTVqcHBTUU5CVUpJMThxd0NpUE5xaEJhT2p0UGxnTFZZcDVDRVNTWHlvRlkyV3hCc2VWSWJYSHZXaEpzVGltNGJnUndTLVhWR0JfTEtoX09tb2w0a0I5Z3FTZUtYUHYySTNjLU5MMmJ4SnJwSklLT1VpcjFhUW1YSzgwd21WQ3ltR3hMU1RHdkotbVFCVE1ySy1iSFA?oc=5",
-      "source": "India Today",
-      "category": "World",
-      "publishedAt": "2026-11-19T17:26:37Z"
-    },
-    {
-      "id": "bf78179dd8ff9ad1e751",
-      "title": "Children in Gaza mark World Children’s Day, call for international support - Middle East Monitor",
-      "description": "Children in Gaza mark World Children’s Day, call for international support Middle East Monitor",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR1UxXzFhRWdFWUN6TDIxM0lhNFkyVVhMUXVqdXMzOXBrOVdfSmZvS2F2NnVBdFhVSUsxdFQyTkY2ZHNYa21Ecm1MaGU0RGkzTC1ueWtRNHV1dE02QkQ4ODM5MVdjdGRDZnUzQ0JFRngtbEZieG1aQWxGWldRUkwzc0hNNGpUcVI0MTREUHUzSTFxMkRWbmtnOVAyVFN6WkVMVzZyQjRRS05lSzVuX3lqUXZXbUlTM1XSAbwBQVVfeXFMT2JnVHFFS3ltaTRHUzZkLUJTdkFSSklNa0g1VGI3UTdCS0FsaHg0Z3l2UXpKVzVqRzQ3SmxqQkllQmdndGlOQThIUGo1WEY0OGVWS211OXhobU85WVI3RnpNOGwwWktPbEk4a3VpNnZsREhPU0NTSG5JOWJ0SXd2bWZEUGZZU1dRME5MaDRhS3dGY01PeUpaWHE2Z1lxeFVZZ2JSTVJYcmdpRGw3elNnbk9lbTJ2endQV1lCZlA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR1UxXzFhRWdFWUN6TDIxM0lhNFkyVVhMUXVqdXMzOXBrOVdfSmZvS2F2NnVBdFhVSUsxdFQyTkY2ZHNYa21Ecm1MaGU0RGkzTC1ueWtRNHV1dE02QkQ4ODM5MVdjdGRDZnUzQ0JFRngtbEZieG1aQWxGWldRUkwzc0hNNGpUcVI0MTREUHUzSTFxMkRWbmtnOVAyVFN6WkVMVzZyQjRRS05lSzVuX3lqUXZXbUlTM1XSAbwBQVVfeXFMT2JnVHFFS3ltaTRHUzZkLUJTdkFSSklNa0g1VGI3UTdCS0FsaHg0Z3l2UXpKVzVqRzQ3SmxqQkllQmdndGlOQThIUGo1WEY0OGVWS211OXhobU85WVI3RnpNOGwwWktPbEk4a3VpNnZsREhPU0NTSG5JOWJ0SXd2bWZEUGZZU1dRME5MaDRhS3dGY01PeUpaWHE2Z1lxeFVZZ2JSTVJYcmdpRGw3elNnbk9lbTJ2endQV1lCZlA?oc=5",
-      "source": "Middle East Monitor",
-      "category": "World",
-      "publishedAt": "2026-11-19T17:26:00Z"
-    },
-    {
-      "id": "5a69028ad12691ba1d31",
-      "title": "Los Angeles weather: Storm expected to bring heavy rain, flood risk to Southern California. Here's the timeline - ABC7 Los Angeles",
-      "description": "Los Angeles weather: Storm expected to bring heavy rain, flood risk to Southern California. Here's the timeline ABC7 Los Angeles",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHBveFJoaFppc1F5bWJYdDNscnYtM1BEb1l3UHI0UDFkUkdZdWpLcHo2UGNtLXVMbFl6cTRFYW96UjBScDJFbHJCelZLaE5oSnZJeFhUWmFfVGZtS1Znd3RHWnpEVnFWVXlQWFBtX2VJZGtSWTFYMnJuTFprdzdsWDJsY1ZqaEFJ0gGOAUFVX3lxTE53M1lpY0dkY2g2RXVsR1hYcUlVeThwUWdHS29WUVhuMDg1dXkzWlFFTVBxTFNZOXIwQXIxY2dJemRDdjQ1THFXa0EtWERDZ1VMcE5RblZuOWRqOHdJOXpEVG5yVUd5STFUYU5aNHdvbFZ6d0dSZFFQMG9SakhPY3pZZHNDQ05EdXBsdGVES1E?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaHBveFJoaFppc1F5bWJYdDNscnYtM1BEb1l3UHI0UDFkUkdZdWpLcHo2UGNtLXVMbFl6cTRFYW96UjBScDJFbHJCelZLaE5oSnZJeFhUWmFfVGZtS1Znd3RHWnpEVnFWVXlQWFBtX2VJZGtSWTFYMnJuTFprdzdsWDJsY1ZqaEFJ0gGOAUFVX3lxTE53M1lpY0dkY2g2RXVsR1hYcUlVeThwUWdHS29WUVhuMDg1dXkzWlFFTVBxTFNZOXIwQXIxY2dJemRDdjQ1THFXa0EtWERDZ1VMcE5RblZuOWRqOHdJOXpEVG5yVUd5STFUYU5aNHdvbFZ6d0dSZFFQMG9SakhPY3pZZHNDQ05EdXBsdGVES1E?oc=5",
-      "source": "ABC7 Los Angeles",
-      "category": "Disaster",
-      "publishedAt": "2026-11-19T16:48:40Z"
-    },
-    {
-      "id": "53dd90510421beeb6ec7",
-      "title": "Two-time World Champ Vialle confirmed for Hawkstone International - MX Vice",
-      "description": "Two-time World Champ Vialle confirmed for Hawkstone International MX Vice",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVmVUbHZSWm0yMkt1STltUzdIUndJR1A2azM3aDZfeTNzSW1qZnNUZDBETTdwV0VPTncxZ19GRTNLOXpxdTc5em1LaVVDbGk5blJURmt0Nl9wR0UtR3kwQmU1LXhjd3V3WUFxT1JaZ0czRUwwUDJyOFlsUGFtMFJpV1NkaEU0VnNFa1hSZzVPWVJhSWlkVV9jNGQ3NXA?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVmVUbHZSWm0yMkt1STltUzdIUndJR1A2azM3aDZfeTNzSW1qZnNUZDBETTdwV0VPTncxZ19GRTNLOXpxdTc5em1LaVVDbGk5blJURmt0Nl9wR0UtR3kwQmU1LXhjd3V3WUFxT1JaZ0czRUwwUDJyOFlsUGFtMFJpV1NkaEU0VnNFa1hSZzVPWVJhSWlkVV9jNGQ3NXA?oc=5",
-      "source": "MX Vice",
-      "category": "World",
-      "publishedAt": "2026-11-19T16:47:59Z"
-    },
-    {
-      "id": "b80795181038ae2c8365",
-      "title": "Two-time World Champ Vialle confirmed for Hawkstone International - the Auto-Cycle Union",
-      "description": "Two-time World Champ Vialle confirmed for Hawkstone International the Auto-Cycle Union",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1FzNHhhbng5RHRsZEE2dGlDN2ZSTXJwUEJJX05VUWZZTGtlTjUwS0tVWlJSWU4xWDIwbmZmbS1wOUVTeEQyYlFCM2VGNHZjT0lQYldmdklwMVVvbjRybzhTRHhQYmZwZjdPbnZXV2lCcXlKSlRiRmttal96SG90ZHd3UndLT1pXSDJiZEQyM284Z2hwWjJweTE3dUw3cXRKMG1uTw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1FzNHhhbng5RHRsZEE2dGlDN2ZSTXJwUEJJX05VUWZZTGtlTjUwS0tVWlJSWU4xWDIwbmZmbS1wOUVTeEQyYlFCM2VGNHZjT0lQYldmdklwMVVvbjRybzhTRHhQYmZwZjdPbnZXV2lCcXlKSlRiRmttal96SG90ZHd3UndLT1pXSDJiZEQyM284Z2hwWjJweTE3dUw3cXRKMG1uTw?oc=5",
-      "source": "the Auto-Cycle Union",
-      "category": "World",
-      "publishedAt": "2026-11-19T16:43:00Z"
-    },
-    {
-      "id": "1817b46d5924f3e4e14b",
-      "title": "Myanmar: International Court of Justice recognizes \"genocide\" of the Rohingya - Vatican News",
-      "description": "Myanmar: International Court of Justice recognizes \"genocide\" of the Rohingya Vatican News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWklRUU5MLU13NFVwT3d5b2RqTEJTZjE5YkxpU1FtZHhwRU55MWFIczctLUgzeV9zMVlpZDhRVVR3X3pfVTlNQ1lPVkxobVVNWURacnNMQnBaTW9SREQzaFBNRkdPczI4YUlpRlFjcUlWLUNxc1JPemNnQUExdU9mX3NqSWZMS01GcWIwSlFwN2NIU3NobWdrSlR5azYwcjFTMjUxLXlFVk4zQ0Z5bExZ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWklRUU5MLU13NFVwT3d5b2RqTEJTZjE5YkxpU1FtZHhwRU55MWFIczctLUgzeV9zMVlpZDhRVVR3X3pfVTlNQ1lPVkxobVVNWURacnNMQnBaTW9SREQzaFBNRkdPczI4YUlpRlFjcUlWLUNxc1JPemNnQUExdU9mX3NqSWZMS01GcWIwSlFwN2NIU3NobWdrSlR5azYwcjFTMjUxLXlFVk4zQ0Z5bExZ?oc=5",
-      "source": "Vatican News",
-      "category": "World",
-      "publishedAt": "2026-11-19T16:37:16Z"
-    },
-    {
-      "id": "61a58c82870f9833ff24",
-      "title": "Edmonton International Airport ranked among the world's best small airports - Daily Hive",
-      "description": "Edmonton International Airport ranked among the world's best small airports Daily Hive",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcW9EM1NUQVAtbzlCa0xya0JrRm9OTzd6LTN2U0pHVVJ1eDNlSk1hNDRzVDlsOV9hVnF6UmRjMkZXc2g2MmRFZnRpN3oxNm5yNHhfenRzamY1WnoyMlRjSFFJeG9xOUVyRVFwMWRDajlNalk2VGZxbkpKX2diSWpwVVY4R1Q1TnBwR0FhVU5yRV91dw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcW9EM1NUQVAtbzlCa0xya0JrRm9OTzd6LTN2U0pHVVJ1eDNlSk1hNDRzVDlsOV9hVnF6UmRjMkZXc2g2MmRFZnRpN3oxNm5yNHhfenRzamY1WnoyMlRjSFFJeG9xOUVyRVFwMWRDajlNalk2VGZxbkpKX2diSWpwVVY4R1Q1TnBwR0FhVU5yRV91dw?oc=5",
-      "source": "Daily Hive",
-      "category": "World",
-      "publishedAt": "2026-11-19T16:27:00Z"
-    },
-    {
-      "id": "4ad483693b47b9d9a16a",
-      "title": "Gurugram Police Bust Fake International Call Centre Running Customer Support Scam, 17 Arrested - Republic World",
-      "description": "Gurugram Police Bust Fake International Call Centre Running Customer Support Scam, 17 Arrested Republic World",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSmFoNWVJMG9Vc1FQSHdiMkt6dENrUERaaXZNUnVMbHp5OG5kUlFvNDZrcXg2cVNVblA4UUVLNXlKanB1TjZ4Z2MtcVhYMUhESmdOMW5oa01PcnBvUzdSY1ZZTEJaRUxuVEtjWkd3SEREUHQtYWUzbmw5bTJQSHktUXdEcjltZl83ZXVLSXJUOWZjWVhPa0JOOHhXVVZ4MVZOaHV2LUdIUmxLQkFMc2pXNkJNVVBscHd5XzBVY1dQemdFMm5ISS1zNWl2R25PZEc3RlQzUmdYeS1YT3NGQlNDZNIB5gFBVV95cUxPY2tSeTY0UGxMU0dtY1lFb2tBemJYMVRoc2hPQjJzbjEzX1ZtX0JoU0dicVFTSmFpVU9LYnI0Y0FxZEd5aFVFWUQ0WDFSSnFzQjI5NlNYVWNWOGpOcFI2aXEtMmNhVVBDZEJPdlBNWWt4dkh6bm9GZGhNQ3J2VkZvbXJpR2ltM3ZHS25VUTBObzd3RjhLUDZYWTAxRjU5NkpuSmhYRlFqZzQ2ckVSQ0pfYVlZbHhpZ0x6M1pEdTdHMDhmOWZzeF92M0w1N3BVa3E3TE1aRlVkMmNfTURTUnZUU05sRExhZw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSmFoNWVJMG9Vc1FQSHdiMkt6dENrUERaaXZNUnVMbHp5OG5kUlFvNDZrcXg2cVNVblA4UUVLNXlKanB1TjZ4Z2MtcVhYMUhESmdOMW5oa01PcnBvUzdSY1ZZTEJaRUxuVEtjWkd3SEREUHQtYWUzbmw5bTJQSHktUXdEcjltZl83ZXVLSXJUOWZjWVhPa0JOOHhXVVZ4MVZOaHV2LUdIUmxLQkFMc2pXNkJNVVBscHd5XzBVY1dQemdFMm5ISS1zNWl2R25PZEc3RlQzUmdYeS1YT3NGQlNDZNIB5gFBVV95cUxPY2tSeTY0UGxMU0dtY1lFb2tBemJYMVRoc2hPQjJzbjEzX1ZtX0JoU0dicVFTSmFpVU9LYnI0Y0FxZEd5aFVFWUQ0WDFSSnFzQjI5NlNYVWNWOGpOcFI2aXEtMmNhVVBDZEJPdlBNWWt4dkh6bm9GZGhNQ3J2VkZvbXJpR2ltM3ZHS25VUTBObzd3RjhLUDZYWTAxRjU5NkpuSmhYRlFqZzQ2ckVSQ0pfYVlZbHhpZ0x6M1pEdTdHMDhmOWZzeF92M0w1N3BVa3E3TE1aRlVkMmNfTURTUnZUU05sRExhZw?oc=5",
-      "source": "Republic World",
-      "category": "World",
-      "publishedAt": "2026-11-19T16:26:31Z"
-    },
-    {
-      "id": "c878b91e52c0509eac37",
-      "title": "‘On Display Global 2026’: Presentation honors International Day of Persons with Disabilities, Dec. 3 - Marquette Today",
-      "description": "‘On Display Global 2026’: Presentation honors International Day of Persons with Disabilities, Dec. 3 Marquette Today",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkhqV0NqLWlMenFYcTl1TG8tY0FScGtlbUtZWjBUVGVuRXlUaXBNbXIzSFZmTURKU3h6dWlBOHBxei13T2RUajdTZm5EQTBRbXRnMDJaYTVndXVORzBMYmVzVUlZRFRPZmFlZF9XN3BZNnlkWTZEV2k0OXVmS0FCWWNxQU5OMkczYS1kWGRWN2NUdDlaV3FlU1VBWXdrMGZDM3IwOTBHX09oNHpuRE5EeW53T1FnNkdaMlhrRVJ1dDVqS0xrYjJiRFN1R20?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSkhqV0NqLWlMenFYcTl1TG8tY0FScGtlbUtZWjBUVGVuRXlUaXBNbXIzSFZmTURKU3h6dWlBOHBxei13T2RUajdTZm5EQTBRbXRnMDJaYTVndXVORzBMYmVzVUlZRFRPZmFlZF9XN3BZNnlkWTZEV2k0OXVmS0FCWWNxQU5OMkczYS1kWGRWN2NUdDlaV3FlU1VBWXdrMGZDM3IwOTBHX09oNHpuRE5EeW53T1FnNkdaMlhrRVJ1dDVqS0xrYjJiRFN1R20?oc=5",
-      "source": "Marquette Today",
-      "category": "World",
-      "publishedAt": "2026-11-19T16:11:46Z"
-    },
-    {
-      "id": "d4e955e69bab812e1774",
-      "title": "Ash Barty and Shingo Kunieda elected to the International Tennis Hall of Fame - Tennis Majors",
-      "description": "Ash Barty and Shingo Kunieda elected to the International Tennis Hall of Fame Tennis Majors",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT2FoclRGdFBZem9fME9IMDJONm84dVotZXYtdHFZRmxCYndNSWs4RlB1dlFsRUw1RloxOHRjM08xTlNpUld4b1RzYndkTXlBRUlyM0lqN04wN2VmT1VpRUM0LUc0RHFGbkRuVms4TkNBTGFqVmVwaXp4Wi1VWmZ2TXVMdS1EREpwZVVQZng2ZXZ3Nm1ZVWhwaVlON1dITUIyMWFsNVNkVjFCVWt2bnJCZmRtSjJIcU1QS0c0REFQa3BKUU5PRlQzam00MkU?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT2FoclRGdFBZem9fME9IMDJONm84dVotZXYtdHFZRmxCYndNSWs4RlB1dlFsRUw1RloxOHRjM08xTlNpUld4b1RzYndkTXlBRUlyM0lqN04wN2VmT1VpRUM0LUc0RHFGbkRuVms4TkNBTGFqVmVwaXp4Wi1VWmZ2TXVMdS1EREpwZVVQZng2ZXZ3Nm1ZVWhwaVlON1dITUIyMWFsNVNkVjFCVWt2bnJCZmRtSjJIcU1QS0c0REFQa3BKUU5PRlQzam00MkU?oc=5",
-      "source": "Tennis Majors",
-      "category": "World",
-      "publishedAt": "2026-11-19T15:44:54Z"
-    },
-    {
-      "id": "01650e72e9d3e34a2642",
-      "title": "INX International CEO Bryce Kristo to Retire - Ink World Magazine",
-      "description": "INX International CEO Bryce Kristo to Retire Ink World Magazine",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdEowSFkwNktERDhyOWxyY25kVTIwZTZOWFBEbHRMSERVanhvX3lzcjBwTVZUM05FSWtWcjNRdFp3QXl6VjhELVhjQjNNWnR2MFdpdzFvcVlmalBHN2hUckZZdmw2bnVRRnZCcW85cUZkSkdjWm9OMk45UHdST0ZJZjVjTzJLOWRwUkZNQU5UM1REWlhhZUVR?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdEowSFkwNktERDhyOWxyY25kVTIwZTZOWFBEbHRMSERVanhvX3lzcjBwTVZUM05FSWtWcjNRdFp3QXl6VjhELVhjQjNNWnR2MFdpdzFvcVlmalBHN2hUckZZdmw2bnVRRnZCcW85cUZkSkdjWm9OMk45UHdST0ZJZjVjTzJLOWRwUkZNQU5UM1REWlhhZUVR?oc=5",
-      "source": "Ink World Magazine",
-      "category": "World",
-      "publishedAt": "2026-11-19T15:40:31Z"
     }
   ],
-  "lastUpdated": "2026-11-26T15:38:10Z",
-  "updatedAt": "2026-11-26T15:38:10Z"
+  "lastUpdated": "2026-11-27T00:25:24Z",
+  "updatedAt": "2026-11-27T00:25:24Z"
 }
