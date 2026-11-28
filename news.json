@@ -240,36 +240,82 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-28T01:48:55Z",
-    "lastSuccessfulRun": "2026-11-28T01:48:55Z",
-    "lastUpdated": "2026-11-28T01:48:55Z",
-    "articlesAdded": 4,
+    "lastRun": "2026-11-28T09:58:00Z",
+    "lastSuccessfulRun": "2026-11-28T09:58:00Z",
+    "lastUpdated": "2026-11-28T09:58:00Z",
+    "articlesAdded": 10,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 28,
+    "duplicatesRemoved": 22,
     "failedSources": [],
     "newArticleIds": [
-      "7bb457442810cdcc8eed",
-      "f9f30d68647d1b3be8b3",
-      "4002e9705180f44ff571",
-      "26a4ecd1e44cab4173e7"
+      "27cccfeb5e7c302d80c6",
+      "c41de6259a19d3fdce73",
+      "8150d3d44610b3f427a2",
+      "c2345d885da6e07ccfbc",
+      "77fbb415697a51d61e19",
+      "030184b046a7ac18de80",
+      "17ba9f4f39151536e2e2",
+      "1040e0f80d0debebe89b",
+      "31983960b02a5c6966f8",
+      "b21607dadcd0df2716c1"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 7,
+    "articlesRemoved": 10,
     "successfulSources": 9
   },
   "statistics": {
     "totalArticles": 235,
     "categories": {
-      "World": 136,
-      "India": 20,
-      "Technology": 8,
-      "Environment": 59,
-      "Disaster": 12
+      "World": 141,
+      "India": 18,
+      "Technology": 7,
+      "Environment": 58,
+      "Disaster": 11
     },
     "successfulSources": 9,
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "27cccfeb5e7c302d80c6",
+      "title": "Final spring deluge delivers storms and flood warnings - https://aapnews.aap.com.au/",
+      "description": "Final spring deluge delivers storms and flood warnings https://aapnews.aap.com.au/",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWUlRakpobmloSU1zUFRFdVhVLVdUbWI2LWZFUU5neVVkcXNHc0RpOFQxQTVhNU9jYW5lVVllSk1taU5JWjZ4eEVSTDFmZlhKeFpodGJnWk9CdGhaSlB6Smo1SV9JRVViOHVOWWJxaDVHaWRwdG9ZR0c4bmI4SWlUM0VQanRPVmhnZ0Q2Sm5DMA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWUlRakpobmloSU1zUFRFdVhVLVdUbWI2LWZFUU5neVVkcXNHc0RpOFQxQTVhNU9jYW5lVVllSk1taU5JWjZ4eEVSTDFmZlhKeFpodGJnWk9CdGhaSlB6Smo1SV9JRVViOHVOWWJxaDVHaWRwdG9ZR0c4bmI4SWlUM0VQanRPVmhnZ0Q2Sm5DMA?oc=5",
+      "source": "https://aapnews.aap.com.au/",
+      "category": "Disaster",
+      "publishedAt": "2026-11-28T07:24:35Z"
+    },
+    {
+      "id": "c41de6259a19d3fdce73",
+      "title": "Andy Cruz is crowned world champion of the International Boxing Federation - CiberCuba",
+      "description": "Andy Cruz is crowned world champion of the International Boxing Federation CiberCuba",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeThIaHd3ZnhGNEYyS1pJc0Q3dERWdlF0VURlamk0ZDctUGo5blUzQTd1OW1rTEtwbVRUZlZmVnlJYmpoSnEzRGVFUVpweVdGVzNnWnltdEpjUEhNbndCV1NVdmZ5WUJYc2ZQYmc3NkhoVGdUbkNWQXpMVTNDeTFLdTd4NGphRXZnZzVIRFdULVhmZ1o2YkRnbnZreS15U0lYcXd5XzRGMGR6SjJWbXZfbk82NE1OQVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeThIaHd3ZnhGNEYyS1pJc0Q3dERWdlF0VURlamk0ZDctUGo5blUzQTd1OW1rTEtwbVRUZlZmVnlJYmpoSnEzRGVFUVpweVdGVzNnWnltdEpjUEhNbndCV1NVdmZ5WUJYc2ZQYmc3NkhoVGdUbkNWQXpMVTNDeTFLdTd4NGphRXZnZzVIRFdULVhmZ1o2YkRnbnZreS15U0lYcXd5XzRGMGR6SjJWbXZfbk82NE1OQVE?oc=5",
+      "source": "CiberCuba",
+      "category": "World",
+      "publishedAt": "2026-11-28T02:35:42Z"
+    },
+    {
+      "id": "8150d3d44610b3f427a2",
+      "title": "International & World News – 28 November 2026 - Saachi Baat",
+      "description": "International & World News – 28 November 2026 Saachi Baat",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNlBzTDNsc3pFLTdKXzhDbTAwS3VfVHJsQkN0dVE3eEp2Q2hQbEV6bl9TWEhpTDhFT2JSYU9ibUIzWVFCcFhjUWRLWmxUendaQ2ptQ25CVmpVNEJiRzNSTm1NQ0R1dXM1a0FzaVBERWhZMTdqZHRSbkV3WUZ5QndrUjZ0YzlMN2duamtmTQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNlBzTDNsc3pFLTdKXzhDbTAwS3VfVHJsQkN0dVE3eEp2Q2hQbEV6bl9TWEhpTDhFT2JSYU9ibUIzWVFCcFhjUWRLWmxUendaQ2ptQ25CVmpVNEJiRzNSTm1NQ0R1dXM1a0FzaVBERWhZMTdqZHRSbkV3WUZ5QndrUjZ0YzlMN2duamtmTQ?oc=5",
+      "source": "Saachi Baat",
+      "category": "World",
+      "publishedAt": "2026-11-28T01:52:23Z"
+    },
+    {
+      "id": "c2345d885da6e07ccfbc",
+      "title": "Ahead of Taiwan local elections, politicians crowd in at Art Taipei - The Art Newspaper",
+      "description": "Ahead of Taiwan local elections, politicians crowd in at Art Taipei The Art Newspaper",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV2l3U2RIWTdRRkdKYUlQdWxMOU1iRzhSYUU3d2dqOFdMcV9PSXYzREMxNk5yVUtMRGptLXk3bWRfaXJaODZGa0pPdTFDZ083NndwX3gxbUJhdHg3Ymt3SEJUT3BPeVBDc0h5SXpFbGtucy11RFhLUEVNNE5lSTBXTm5GMmwyNFVjR3o5VTZoYjBBdlk1UWJ0VUU1allrLVlS?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV2l3U2RIWTdRRkdKYUlQdWxMOU1iRzhSYUU3d2dqOFdMcV9PSXYzREMxNk5yVUtMRGptLXk3bWRfaXJaODZGa0pPdTFDZ083NndwX3gxbUJhdHg3Ymt3SEJUT3BPeVBDc0h5SXpFbGtucy11RFhLUEVNNE5lSTBXTm5GMmwyNFVjR3o5VTZoYjBBdlk1UWJ0VUU1allrLVlS?oc=5",
+      "source": "The Art Newspaper",
+      "category": "World",
+      "publishedAt": "2026-11-27T21:46:41Z"
+    },
     {
       "id": "7bb457442810cdcc8eed",
       "title": "International Cottages bring food, drink and festivities from around the world to December Nights - San Diego Union-Tribune",
@@ -279,6 +325,16 @@
       "source": "San Diego Union-Tribune",
       "category": "World",
       "publishedAt": "2026-11-27T20:12:52Z"
+    },
+    {
+      "id": "77fbb415697a51d61e19",
+      "title": "UH Mānoa sociology professor honored with international global studies award - University of Hawaii System",
+      "description": "UH Mānoa sociology professor honored with international global studies award University of Hawaii System",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tek5YNl9CeTFHNDZrdVcybFZ1NnBrMzU2Y1pqcTlTOHdnamlua1AxRzlhckpsemZkVlJMTUt4YVVLcUZyQU1FWGNBUWxqYnY2czN6M1pwTHhDWDhOb2NSTWZGdDBZT1NpMUlZVEZGRkwtSnE5ekE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tek5YNl9CeTFHNDZrdVcybFZ1NnBrMzU2Y1pqcTlTOHdnamlua1AxRzlhckpsemZkVlJMTUt4YVVLcUZyQU1FWGNBUWxqYnY2czN6M1pwTHhDWDhOb2NSTWZGdDBZT1NpMUlZVEZGRkwtSnE5ekE?oc=5",
+      "source": "University of Hawaii System",
+      "category": "World",
+      "publishedAt": "2026-11-27T19:21:34Z"
     },
     {
       "id": "f9f30d68647d1b3be8b3",
@@ -361,6 +417,16 @@
       "publishedAt": "2026-11-27T12:44:11Z"
     },
     {
+      "id": "030184b046a7ac18de80",
+      "title": "Algeria’s Regime Threatens Morocco With ‘International Complaint’ Over Alleged Pollution - Morocco World News",
+      "description": "Algeria’s Regime Threatens Morocco With ‘International Complaint’ Over Alleged Pollution Morocco World News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZElrWFgyWjB3MXZqcFBqb045QWc1ZUJ1LWlaSGptY3RzNHZYcUVZZkFmc2VRdFdMMU4yZ0VMMXhpYTYyVk1Va216QXZDU2ZIeEMtVUE2MENVNDhIcjV2WmxreHFuNFdkaWN6azRlYkpRX0ZscGRZbU01YmVKeVNZVHZZNjZkY08yOFY1dVp2bjVwRjZEX0REeThyU1FscjhhTVR3QVpJRWdDaUZjeTBpbzZ5Rm5sUUw0YXZzNWRfN0ozeTJVYXNCeGJRalpkaW8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZElrWFgyWjB3MXZqcFBqb045QWc1ZUJ1LWlaSGptY3RzNHZYcUVZZkFmc2VRdFdMMU4yZ0VMMXhpYTYyVk1Va216QXZDU2ZIeEMtVUE2MENVNDhIcjV2WmxreHFuNFdkaWN6azRlYkpRX0ZscGRZbU01YmVKeVNZVHZZNjZkY08yOFY1dVp2bjVwRjZEX0REeThyU1FscjhhTVR3QVpJRWdDaUZjeTBpbzZ5Rm5sUUw0YXZzNWRfN0ozeTJVYXNCeGJRalpkaW8?oc=5",
+      "source": "Morocco World News",
+      "category": "World",
+      "publishedAt": "2026-11-27T12:29:54Z"
+    },
+    {
       "id": "9de9a0adcd08f495575f",
       "title": "Czechia approves plan to reduce antibiotic use — Radio Prague International - UA.NEWS",
       "description": "Czechia approves plan to reduce antibiotic use — Radio Prague International UA.NEWS",
@@ -389,6 +455,26 @@
       "source": "The Guardian",
       "category": "Disaster",
       "publishedAt": "2026-11-27T10:45:00Z"
+    },
+    {
+      "id": "17ba9f4f39151536e2e2",
+      "title": "air pollution weakens global spring greening - Nature",
+      "description": "air pollution weakens global spring greening Nature",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90YnFROGlSR3FVMkgwcFIwWDBGNzltZ0RINUJrNXRLdFRwYk9SQUZUNV9FeHBGOWtsNjdmR1B0ZnZKSnZFNXh2RzlIQlE1aXozSnQtMlRwLWtyWkdKYWtJ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90YnFROGlSR3FVMkgwcFIwWDBGNzltZ0RINUJrNXRLdFRwYk9SQUZUNV9FeHBGOWtsNjdmR1B0ZnZKSnZFNXh2RzlIQlE1aXozSnQtMlRwLWtyWkdKYWtJ?oc=5",
+      "source": "Nature",
+      "category": "Environment",
+      "publishedAt": "2026-11-27T10:22:14Z"
+    },
+    {
+      "id": "1040e0f80d0debebe89b",
+      "title": "Columbia-affiliated Barnard College resumes CPT approvals for international students | Hindustan Times - Hindustan Times",
+      "description": "Columbia-affiliated Barnard College resumes CPT approvals for international students | Hindustan Times Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMzBPSnp4WEQ3dC1hazF1VmszOHJnRFpXUG9zUzEzalZ2Uk1QNjRIX2g5NnlUZ0twY3lYNC1uRFB4OGR5YnZTUVZwdEVGVC1qc1Q1aU5INFc5c3NUclRlM0dwMEljMF94OHhzbVdEcHZNWDhnZmhRZjBOZkR0bERvRFRoRVZTOHpKajIteENXVmVBdGhDVzd0ZDkwTGRWSlhBM1JON0NiSUh4Q1lWbmNzZklNMi1rdU5uVkltTmRoT3Z3dXM1aVRjVm5pTHIzWG03azZJS2hLbE9FSHd6Tk03eGgyZjRrMC1lMFHSAe8BQVVfeXFMT2t4UGNya24xRjhfYkRQRTdudmY2Q051bmdJWE9IZXhMSlRoMmxGTkdBVXU2QmFXTExYN21QSk1ZTk5BT2czQlpJRHhoeXJaTHYyN1poZjg1QV9kOTEwNGQ2eWFZTUk1YkEtR0tfanFMT2k0dHFodEVadUlsa01rN1JHTDd3TU9ZSUhxN2RHQjZNa1hJcVUyM0RsZVI0Q3lTZEsxRHhGdEdiS1lybkIyOFdPQUNWU2NlZkpZQnBNMHJIVFJYYnlrV0ZuUWxaM0Uyc0I0eG9MRWt2WkNMYmpBU09TdzZNZDFGVElXWHhJTDg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMzBPSnp4WEQ3dC1hazF1VmszOHJnRFpXUG9zUzEzalZ2Uk1QNjRIX2g5NnlUZ0twY3lYNC1uRFB4OGR5YnZTUVZwdEVGVC1qc1Q1aU5INFc5c3NUclRlM0dwMEljMF94OHhzbVdEcHZNWDhnZmhRZjBOZkR0bERvRFRoRVZTOHpKajIteENXVmVBdGhDVzd0ZDkwTGRWSlhBM1JON0NiSUh4Q1lWbmNzZklNMi1rdU5uVkltTmRoT3Z3dXM1aVRjVm5pTHIzWG03azZJS2hLbE9FSHd6Tk03eGgyZjRrMC1lMFHSAe8BQVVfeXFMT2t4UGNya24xRjhfYkRQRTdudmY2Q051bmdJWE9IZXhMSlRoMmxGTkdBVXU2QmFXTExYN21QSk1ZTk5BT2czQlpJRHhoeXJaTHYyN1poZjg1QV9kOTEwNGQ2eWFZTUk1YkEtR0tfanFMT2k0dHFodEVadUlsa01rN1JHTDd3TU9ZSUhxN2RHQjZNa1hJcVUyM0RsZVI0Q3lTZEsxRHhGdEdiS1lybkIyOFdPQUNWU2NlZkpZQnBNMHJIVFJYYnlrV0ZuUWxaM0Uyc0I0eG9MRWt2WkNMYmpBU09TdzZNZDFGVElXWHhJTDg?oc=5",
+      "source": "Hindustan Times",
+      "category": "World",
+      "publishedAt": "2026-11-27T08:42:34Z"
     },
     {
       "id": "079b4101b69d898c4c7b",
@@ -461,6 +547,16 @@
       "publishedAt": "2026-11-27T04:34:35Z"
     },
     {
+      "id": "31983960b02a5c6966f8",
+      "title": "International & World News -27 November 2026 - Saachi Baat",
+      "description": "International & World News -27 November 2026 Saachi Baat",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQVAzMHM1Q25pdkhfZmtnbGNZZlBkYjZnVzdvei1PM01fSUlGbHJiX0NKMkdBTUZMUEVUSlIzRmJycHdjalV1OXo0QkpIckxfTnRicDk4dUZoMVpfOHB5UDRLemNaaXFRRjBDT2sxcHpHODg0U29FR3hwd3h5dnNfNnlRaDdrdzdqM0VGOQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQVAzMHM1Q25pdkhfZmtnbGNZZlBkYjZnVzdvei1PM01fSUlGbHJiX0NKMkdBTUZMUEVUSlIzRmJycHdjalV1OXo0QkpIckxfTnRicDk4dUZoMVpfOHB5UDRLemNaaXFRRjBDT2sxcHpHODg0U29FR3hwd3h5dnNfNnlRaDdrdzdqM0VGOQ?oc=5",
+      "source": "Saachi Baat",
+      "category": "World",
+      "publishedAt": "2026-11-27T04:32:17Z"
+    },
+    {
       "id": "04da24498b25690da811",
       "title": "'Robotex International World Competition' to Be Held in Incheon for First Time in Korea on Nov. 28-29 - 아시아경제",
       "description": "'Robotex International World Competition' to Be Held in Incheon for First Time in Korea on Nov. 28-29 아시아경제",
@@ -469,6 +565,16 @@
       "source": "아시아경제",
       "category": "World",
       "publishedAt": "2026-11-27T04:13:35Z"
+    },
+    {
+      "id": "b21607dadcd0df2716c1",
+      "title": "‘He can come if he wants’: Trump invites Putin to G20 summit, says ‘some people wouldn’t like that’ - The Economic Times",
+      "description": "‘He can come if he wants’: Trump invites Putin to G20 summit, says ‘some people wouldn’t like that’ The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZmdwbXV4bHMwY1VYcERhXzVvRmNaaU1qOE9acmgxemxkcGVKeWNjZWhTcUJBajF3QzcxVmZaOFU0NmN1TGVyZkw3WnZ2RHZGRTQyS1J5TExxNHQtMnNNUjI3QmU3X1VKb0JUQVI4ZFVJa0ZadTN6TnRUbmxZUkMycVpwSHhVTE5zMF9yMVZLLWZWUUdoNzBxMm1sZWV3S2NVLTZoZXBmUGxydVVMcGlmeEhZWDU0NER1aFpwLUlkR3pGY3A5WUxjZ0FHUlBmRmUwX1FnakU2Ny1BOFkxRGc5cG5SckxVb1U2dnBRMUtnOGMwWVBvQWcxOXlyRE5IZDAycy1fQ9IBigJBVV95cUxNVmJuRHlURzk0VXBfY004akQ4a1N1V3FBOHgzU2NWZkdtNHZBTGNHd3BMQ2tHa1FmVUM2UFJwdXpIZkFhTWdnTmhxOGI2Wl9PN2JRR3prTGk3VEZVeHU3WjNLVkVUSFlfamtfR2NBdC1fcTNxN3NQRXhqVnFRd0R0THFJZlNpWnF1NzBBNzRfVGZ5X09ZR0NXUllBSm03Q21KaVAzYVN5R1RYVHQ5MG1GQnhMQXNyY0pXb1lXVnc4WE9UZ1JydG1TTHdEa3BJYXpYN3RCcEZDY20tQmFIaHF3WUc1N1gxOEppWlo2ckl4dDYzd2djckh4NTc3MEN1c1VEQ280UGtEWk9Kdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZmdwbXV4bHMwY1VYcERhXzVvRmNaaU1qOE9acmgxemxkcGVKeWNjZWhTcUJBajF3QzcxVmZaOFU0NmN1TGVyZkw3WnZ2RHZGRTQyS1J5TExxNHQtMnNNUjI3QmU3X1VKb0JUQVI4ZFVJa0ZadTN6TnRUbmxZUkMycVpwSHhVTE5zMF9yMVZLLWZWUUdoNzBxMm1sZWV3S2NVLTZoZXBmUGxydVVMcGlmeEhZWDU0NER1aFpwLUlkR3pGY3A5WUxjZ0FHUlBmRmUwX1FnakU2Ny1BOFkxRGc5cG5SckxVb1U2dnBRMUtnOGMwWVBvQWcxOXlyRE5IZDAycy1fQ9IBigJBVV95cUxNVmJuRHlURzk0VXBfY004akQ4a1N1V3FBOHgzU2NWZkdtNHZBTGNHd3BMQ2tHa1FmVUM2UFJwdXpIZkFhTWdnTmhxOGI2Wl9PN2JRR3prTGk3VEZVeHU3WjNLVkVUSFlfamtfR2NBdC1fcTNxN3NQRXhqVnFRd0R0THFJZlNpWnF1NzBBNzRfVGZ5X09ZR0NXUllBSm03Q21KaVAzYVN5R1RYVHQ5MG1GQnhMQXNyY0pXb1lXVnc4WE9UZ1JydG1TTHdEa3BJYXpYN3RCcEZDY20tQmFIaHF3WUc1N1gxOEppWlo2ckl4dDYzd2djckh4NTc3MEN1c1VEQ280UGtEWk9Kdw?oc=5",
+      "source": "The Economic Times",
+      "category": "World",
+      "publishedAt": "2026-11-27T03:22:30Z"
     },
     {
       "id": "8606af7b424aa0fca861",
@@ -2519,108 +2625,8 @@
       "source": "UNEP - UN Environment Programme",
       "category": "Environment",
       "publishedAt": "2026-11-21T10:41:36Z"
-    },
-    {
-      "id": "06364a08c62bceaa26fa",
-      "title": "From metros to mobile payments: the forces transforming India’s economy - The Herald",
-      "description": "From metros to mobile payments: the forces transforming India’s economy The Herald",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ3J2cFQwU3JuSHRNY3RVdmhtYV9VaXMzNDdIbEFxbUlqR2h3ZzlxTl9hWlVqQXpoeHRQNXZVQWhmLW9ZUllYMHdhWXN5R0J5VjBYRG15MzFlZWpvcC1CeXMwVVJQTkNhbndBUzY0THRwdk0zLUp0YTdDWENXOGV6d3p6RVVaeTVCS3Itd1N2UkpYV0E?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ3J2cFQwU3JuSHRNY3RVdmhtYV9VaXMzNDdIbEFxbUlqR2h3ZzlxTl9hWlVqQXpoeHRQNXZVQWhmLW9ZUllYMHdhWXN5R0J5VjBYRG15MzFlZWpvcC1CeXMwVVJQTkNhbndBUzY0THRwdk0zLUp0YTdDWENXOGV6d3p6RVVaeTVCS3Itd1N2UkpYV0E?oc=5",
-      "source": "The Herald",
-      "category": "India",
-      "publishedAt": "2026-11-21T08:53:36Z"
-    },
-    {
-      "id": "cd458346413c72fb143e",
-      "title": "India’s Environmental Crisis Puts Public Health At Risk - WE News English",
-      "description": "India’s Environmental Crisis Puts Public Health At Risk WE News English",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMUZ4bHZ5WkFDTmFLSU5MZ2FkVjM2d1hHWWU4a2t0MS13MnVNRDdySWFjVktDM29wUlljOWQ0QjhkcWhSblhCREFJTmdybGlOOUVZdUppd2dZZURSakMtQ19pNDVJM0F2WVFlREUtejV3R2ZrZnVEc2FxY3NVbnJhaFVzTWx3cF9k?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMUZ4bHZ5WkFDTmFLSU5MZ2FkVjM2d1hHWWU4a2t0MS13MnVNRDdySWFjVktDM29wUlljOWQ0QjhkcWhSblhCREFJTmdybGlOOUVZdUppd2dZZURSakMtQ19pNDVJM0F2WVFlREUtejV3R2ZrZnVEc2FxY3NVbnJhaFVzTWx3cF9k?oc=5",
-      "source": "WE News English",
-      "category": "Environment",
-      "publishedAt": "2026-11-21T08:37:07Z"
-    },
-    {
-      "id": "e4b6f3ed3dbb0177615d",
-      "title": "Natural disaster | Causes, Types, & Facts - Britannica",
-      "description": "Natural disaster | Causes, Types, & Facts Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vMDE1X2pVcjlrYzMzY3QzQ2hXdHdYbkZ1WkFkUGNmLXU3NnNPaXEyMEhSQ2FPY3E1R0VneWhvaDJIbXdFejFNUWRQczdnZl9aTHhUbG1ZVHhwNF9xVlRmOQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vMDE1X2pVcjlrYzMzY3QzQ2hXdHdYbkZ1WkFkUGNmLXU3NnNPaXEyMEhSQ2FPY3E1R0VneWhvaDJIbXdFejFNUWRQczdnZl9aTHhUbG1ZVHhwNF9xVlRmOQ?oc=5",
-      "source": "Britannica",
-      "category": "Disaster",
-      "publishedAt": "2026-11-21T08:00:00Z"
-    },
-    {
-      "id": "4aecafe709bbe1c1ca2d",
-      "title": "Pakistan floods of 2022 - Britannica",
-      "description": "Pakistan floods of 2022 Britannica",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKM0dxeENwLTh3WUNyVGNpSVpjTWVwS0RQbzNjanoxa1l0V1FVb3NfTzhEVTRUYlpoaEZBcXFDRVhtS3diWjN4RnVGTWRoNWNBekZmWFBZOV9nYlFzbTJSNFVLaTFuOTg?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKM0dxeENwLTh3WUNyVGNpSVpjTWVwS0RQbzNjanoxa1l0V1FVb3NfTzhEVTRUYlpoaEZBcXFDRVhtS3diWjN4RnVGTWRoNWNBekZmWFBZOV9nYlFzbTJSNFVLaTFuOTg?oc=5",
-      "source": "Britannica",
-      "category": "Disaster",
-      "publishedAt": "2026-11-21T08:00:00Z"
-    },
-    {
-      "id": "0034d90996b9493b30b1",
-      "title": "More Than 190 Iranian Companies Present Urban Innovations at Tehran’s CITEX Exhibition - تسنیم",
-      "description": "More Than 190 Iranian Companies Present Urban Innovations at Tehran’s CITEX Exhibition تسنیم",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWXFjT1oxN3R5Q0FYcElIT0NENWZWNDBZMy10TmY4a1lPQTBqU0N1TFJuSVA1ekRTUW9PTXFUNVFaMFl3NzlIM3VhOG5hTEV6QWpja3gwLWRiVGxXSVdOUDdic1M3Nm1ETTNMLVgycTgxZ2VWS2t4NUNYelhkbW1ZdlB5XzY5TlZSd2tEMWVNSVp3blRrbzZsbTVpN2diS2N5RFBTWGQ3NWtSZnoxcnNBYU1DZXh0eDdCS0RGSFpQeUI2a3Bwci1hclB4OThubEJYT1AzTUl30gHbAUFVX3lxTE1Kd2M2VWlHeW5uUUhNek40c2RHTHVKTHY5RnAzdnh0NTBIS2VrV21QcWdoWWFKREVZcGJ5cElNZUxHOHY2T1N4ZUktVkJrcVFOOXVhOGdmTlZyTDZJYjNwU3VzTmlCNEJ3V21SSmgtMkFPVm1zWG8ySVI5X2lpbTlWMmxWX0x5bDBJaHJTMWhrR0ZQV0gwUlNqTDd1SFBjQkJxckFPNXR3NXNITF8xYmJMVUJTQUZYYmp5cTNsbzlYOWx3TmRoTng2MkM1REk5endOd2pFeWtlVDFPaw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQWXFjT1oxN3R5Q0FYcElIT0NENWZWNDBZMy10TmY4a1lPQTBqU0N1TFJuSVA1ekRTUW9PTXFUNVFaMFl3NzlIM3VhOG5hTEV6QWpja3gwLWRiVGxXSVdOUDdic1M3Nm1ETTNMLVgycTgxZ2VWS2t4NUNYelhkbW1ZdlB5XzY5TlZSd2tEMWVNSVp3blRrbzZsbTVpN2diS2N5RFBTWGQ3NWtSZnoxcnNBYU1DZXh0eDdCS0RGSFpQeUI2a3Bwci1hclB4OThubEJYT1AzTUl30gHbAUFVX3lxTE1Kd2M2VWlHeW5uUUhNek40c2RHTHVKTHY5RnAzdnh0NTBIS2VrV21QcWdoWWFKREVZcGJ5cElNZUxHOHY2T1N4ZUktVkJrcVFOOXVhOGdmTlZyTDZJYjNwU3VzTmlCNEJ3V21SSmgtMkFPVm1zWG8ySVI5X2lpbTlWMmxWX0x5bDBJaHJTMWhrR0ZQV0gwUlNqTDd1SFBjQkJxckFPNXR3NXNITF8xYmJMVUJTQUZYYmp5cTNsbzlYOWx3TmRoTng2MkM1REk5endOd2pFeWtlVDFPaw?oc=5",
-      "source": "تسنیم",
-      "category": "Technology",
-      "publishedAt": "2026-11-21T07:54:27Z"
-    },
-    {
-      "id": "2620d81e1b250255a913",
-      "title": "Countries open path towards 'killer robots' pact - International - World - Ahram Online",
-      "description": "Countries open path towards 'killer robots' pact - International - World Ahram Online",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wWm00X3c0NnZFNk96OVV6WFNaUWI0MDRfT0JHTmFLX2xJNDByejJuWGcwNW9xcW1ZWFIzdEZqQjNIbzh0bmVVR3ZIYjEtWDNHWG1MaXFoazE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9wWm00X3c0NnZFNk96OVV6WFNaUWI0MDRfT0JHTmFLX2xJNDByejJuWGcwNW9xcW1ZWFIzdEZqQjNIbzh0bmVVR3ZIYjEtWDNHWG1MaXFoazE?oc=5",
-      "source": "Ahram Online",
-      "category": "World",
-      "publishedAt": "2026-11-21T07:16:16Z"
-    },
-    {
-      "id": "8066cd80a9e5793099d5",
-      "title": "SIAM Holds First National EV Charging Day to Accelerate India’s Charging Infrastructure Growth - Machine Maker",
-      "description": "SIAM Holds First National EV Charging Day to Accelerate India’s Charging Infrastructure Growth Machine Maker",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTWpfSVhFN1BLSHhHVFFGSHg2U0xOejU0eDVuanF6cy1PMnZWX3VlSTZRUlhWbGRDdXpWY1M4YTJiQ2M0enRvN2JIMDl3OWhjV0RkX1EybWxJUGt3WmNDWkV0TFFwVXBpZ044MnYyTzlpNEZ0UDNLX0xhRTFhSXc1cW8tSlZXZDFTcHYwLVZ1b092bUNaazdMQWRyLWNwdzRnX3FUbFlJQVJZVHZCTnk0U3k2S2pOakc1UEtad3R3NG5kaktxOUE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTWpfSVhFN1BLSHhHVFFGSHg2U0xOejU0eDVuanF6cy1PMnZWX3VlSTZRUlhWbGRDdXpWY1M4YTJiQ2M0enRvN2JIMDl3OWhjV0RkX1EybWxJUGt3WmNDWkV0TFFwVXBpZ044MnYyTzlpNEZ0UDNLX0xhRTFhSXc1cW8tSlZXZDFTcHYwLVZ1b092bUNaazdMQWRyLWNwdzRnX3FUbFlJQVJZVHZCTnk0U3k2S2pOakc1UEtad3R3NG5kaktxOUE?oc=5",
-      "source": "Machine Maker",
-      "category": "India",
-      "publishedAt": "2026-11-21T04:33:56Z"
-    },
-    {
-      "id": "6a1b56aca05891aee622",
-      "title": "International & World News – 21 November 2026 - Saachi Baat",
-      "description": "International & World News – 21 November 2026 Saachi Baat",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWN5eTVtT1FIRHgwR0xjclJjaWVFT3R4Z1pwQUtoSk9wWEZwY0RnWkZiVlpHcHFDRnNuUmpOQ3J6Q0p1QURwLWlmSHVfOEdWN0IzQWxTM3NpdGNRMG1QSjZIa05JRnBiS3pBWDlVUUZhS3pJNXFBX0xnb20zZGNtNDJuR3BxSDh4dkp6Ug?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWN5eTVtT1FIRHgwR0xjclJjaWVFT3R4Z1pwQUtoSk9wWEZwY0RnWkZiVlpHcHFDRnNuUmpOQ3J6Q0p1QURwLWlmSHVfOEdWN0IzQWxTM3NpdGNRMG1QSjZIa05JRnBiS3pBWDlVUUZhS3pJNXFBX0xnb20zZGNtNDJuR3BxSDh4dkp6Ug?oc=5",
-      "source": "Saachi Baat",
-      "category": "World",
-      "publishedAt": "2026-11-21T04:00:37Z"
-    },
-    {
-      "id": "64fbb8364c819e243167",
-      "title": "World leaders gather in Halifax for international security forum - CTV News",
-      "description": "World leaders gather in Halifax for international security forum CTV News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZFJZQ04xM1g1d2RVUW9yYXI2bklKemFhZWdUd2g5RlFac3h2THR3LWNIZWUtZjRmbkY2bUx6R3BuUF9NSGJGNFZXT001SW1EdGR5XzdEenBFMzgtVkNkb3MxUmJZZFJDMVNzeFctLVdVN2VYR29hVlFVM2ZoZ1pPNFRwRlFkdWh1V0tVT1V6cXRZdHowb3RLLTFZMTZkYk9xMXJYNndB?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZFJZQ04xM1g1d2RVUW9yYXI2bklKemFhZWdUd2g5RlFac3h2THR3LWNIZWUtZjRmbkY2bUx6R3BuUF9NSGJGNFZXT001SW1EdGR5XzdEenBFMzgtVkNkb3MxUmJZZFJDMVNzeFctLVdVN2VYR29hVlFVM2ZoZ1pPNFRwRlFkdWh1V0tVT1V6cXRZdHowb3RLLTFZMTZkYk9xMXJYNndB?oc=5",
-      "source": "CTV News",
-      "category": "World",
-      "publishedAt": "2026-11-21T02:08:00Z"
-    },
-    {
-      "id": "52128c80ff8736ae2671",
-      "title": "Climate change meet at WCC calls for more awareness, research, community-driven action - DT Next",
-      "description": "Climate change meet at WCC calls for more awareness, research, community-driven action DT Next",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaTVDZVF3NWt1dXdrMmdPLUxYbGxiMkd2RXpTRC13U1NnRUFoOFRleEFMdXR6eVRMOE9sWm9uYWtxYmctblpzWm5WSGNrMTdUZjRsMlNMZGJERFJQZmJhbmpzQ3YzYUdPX1pYTUVKd1Rhc3Y5ejZFWVVqb1ZOSV9EUkpvNDRUSWhrOElZc3RWdzdleGJFNFZFQ3B1MmVOdzlKeFJBcV8zbjdxR3BkMlkzU3NyQzNmYTdiaXVj0gHIAUFVX3lxTE96aUJuZTNYT0pzcmRjOVhsRTZQcVhvcHVYWXBlc2ZrNC1YNUxWQ01kdWlod3hEdkREYi12bjFNQkdmZmNZaGU1YkpQUEEycjdjTVc3cjdENHgtOHNITWl0bW9leGVoT2U2QkJaTmNYdFhFVHdwX3dJQXh5eUItN2ZqOHJzbHdESU4tZk94VFBkN2JTMGdVT21ENllremlQVnFwb1lDbXhzSjlnbnBIM2YxaTVMN05LTVpOajZDUUFTNnlkZGducktE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaTVDZVF3NWt1dXdrMmdPLUxYbGxiMkd2RXpTRC13U1NnRUFoOFRleEFMdXR6eVRMOE9sWm9uYWtxYmctblpzWm5WSGNrMTdUZjRsMlNMZGJERFJQZmJhbmpzQ3YzYUdPX1pYTUVKd1Rhc3Y5ejZFWVVqb1ZOSV9EUkpvNDRUSWhrOElZc3RWdzdleGJFNFZFQ3B1MmVOdzlKeFJBcV8zbjdxR3BkMlkzU3NyQzNmYTdiaXVj0gHIAUFVX3lxTE96aUJuZTNYT0pzcmRjOVhsRTZQcVhvcHVYWXBlc2ZrNC1YNUxWQ01kdWlod3hEdkREYi12bjFNQkdmZmNZaGU1YkpQUEEycjdjTVc3cjdENHgtOHNITWl0bW9leGVoT2U2QkJaTmNYdFhFVHdwX3dJQXh5eUItN2ZqOHJzbHdESU4tZk94VFBkN2JTMGdVT21ENllremlQVnFwb1lDbXhzSjlnbnBIM2YxaTVMN05LTVpOajZDUUFTNnlkZGducktE?oc=5",
-      "source": "DT Next",
-      "category": "Environment",
-      "publishedAt": "2026-11-21T01:59:08Z"
     }
   ],
-  "lastUpdated": "2026-11-28T01:48:55Z",
-  "updatedAt": "2026-11-28T01:48:55Z"
+  "lastUpdated": "2026-11-28T09:58:00Z",
+  "updatedAt": "2026-11-28T09:58:00Z"
 }
