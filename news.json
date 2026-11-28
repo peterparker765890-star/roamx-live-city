@@ -240,33 +240,28 @@
     "showStaleDatabaseWarning": true
   },
   "changeLog": {
-    "lastRun": "2026-11-27T18:50:20Z",
-    "lastSuccessfulRun": "2026-11-27T18:50:20Z",
-    "lastUpdated": "2026-11-27T18:50:20Z",
-    "articlesAdded": 9,
+    "lastRun": "2026-11-28T01:48:55Z",
+    "lastSuccessfulRun": "2026-11-28T01:48:55Z",
+    "lastUpdated": "2026-11-28T01:48:55Z",
+    "articlesAdded": 4,
     "articlesUpdated": 0,
-    "duplicatesRemoved": 31,
+    "duplicatesRemoved": 28,
     "failedSources": [],
     "newArticleIds": [
-      "eda5e68449cad8cba25a",
-      "01b6e66b501585aff597",
-      "a531f1c65b4816ca6ffd",
-      "340e23c68de597012ba8",
-      "049b440cbe8ff242cfc3",
-      "40270b3527480b806c97",
-      "9de9a0adcd08f495575f",
-      "7e3279b1d5fa82aeb0bc",
-      "5646d1220c007842a5a0"
+      "7bb457442810cdcc8eed",
+      "f9f30d68647d1b3be8b3",
+      "4002e9705180f44ff571",
+      "26a4ecd1e44cab4173e7"
     ],
     "updatedArticleIds": [],
-    "articlesRemoved": 28,
+    "articlesRemoved": 7,
     "successfulSources": 9
   },
   "statistics": {
-    "totalArticles": 238,
+    "totalArticles": 235,
     "categories": {
-      "World": 140,
-      "India": 19,
+      "World": 136,
+      "India": 20,
       "Technology": 8,
       "Environment": 59,
       "Disaster": 12
@@ -275,6 +270,26 @@
     "failedSources": 0
   },
   "articles": [
+    {
+      "id": "7bb457442810cdcc8eed",
+      "title": "International Cottages bring food, drink and festivities from around the world to December Nights - San Diego Union-Tribune",
+      "description": "International Cottages bring food, drink and festivities from around the world to December Nights San Diego Union-Tribune",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS1ctVktQUHdoNTRwWjF5WGJsbDdadkhJQnBneU1wcEpKeDBmcldGZ3hiOWdCX3BpTG1VWmZCVzJVX1JhYldjc2Q1U2xJS0tZUUFkV0prN0FqYnRlU3VOZzN2OWxJWmNPWGlDZWtRVVg5MV9UQ1hFNWNJNEMxZENBLWozU25ZOHFPM1FBOXVDdnZLMVQxdVVWbXRfMzkzdjBMWkplN3pJZXRXZGNNQjBqRTMzeXY?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS1ctVktQUHdoNTRwWjF5WGJsbDdadkhJQnBneU1wcEpKeDBmcldGZ3hiOWdCX3BpTG1VWmZCVzJVX1JhYldjc2Q1U2xJS0tZUUFkV0prN0FqYnRlU3VOZzN2OWxJWmNPWGlDZWtRVVg5MV9UQ1hFNWNJNEMxZENBLWozU25ZOHFPM1FBOXVDdnZLMVQxdVVWbXRfMzkzdjBMWkplN3pJZXRXZGNNQjBqRTMzeXY?oc=5",
+      "source": "San Diego Union-Tribune",
+      "category": "World",
+      "publishedAt": "2026-11-27T20:12:52Z"
+    },
+    {
+      "id": "f9f30d68647d1b3be8b3",
+      "title": "Milton Keynes International Film Festival 2026 championed global cinema, cultural exchange and the next generation of independent filmmakers - Milton Keynes Citizen",
+      "description": "Milton Keynes International Film Festival 2026 championed global cinema, cultural exchange and the next generation of independent filmmakers Milton Keynes Citizen",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPN09IZC0wbXYwcUpTOTBna1pVMkhDbFA1a212RERHa2taWWlCUmY2Z1dZcDlkZ0IwaHFNWFlZOWtIbmVwUjllSDRmaF9ENkVOLUVycU15YVBtRGJBR0dHNlFaa3c5V3k3UTdRYWRRdGFGTS1KSkhfV2hKY0Z6OV85Q1FodmJ0SXg4SFVCb1VmM09Cckw5ODN6M0VSZ0p6QXVtWklsaXJWZnczNFdReE1RZWp2LW5fdVVuVDNTLWhXcS1GOXpsTzRiUHprUWJDUGhYUVlma3ZnWmc4ei1mRGtXM0JFZXRIQU8xcnZ6M0NkSl9uSWJjMHp3djh6N1poYnBQODFqWlhDenk5Z2hGa1BkcXFIbk5Vc1Vs?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPN09IZC0wbXYwcUpTOTBna1pVMkhDbFA1a212RERHa2taWWlCUmY2Z1dZcDlkZ0IwaHFNWFlZOWtIbmVwUjllSDRmaF9ENkVOLUVycU15YVBtRGJBR0dHNlFaa3c5V3k3UTdRYWRRdGFGTS1KSkhfV2hKY0Z6OV85Q1FodmJ0SXg4SFVCb1VmM09Cckw5ODN6M0VSZ0p6QXVtWklsaXJWZnczNFdReE1RZWp2LW5fdVVuVDNTLWhXcS1GOXpsTzRiUHprUWJDUGhYUVlma3ZnWmc4ei1mRGtXM0JFZXRIQU8xcnZ6M0NkSl9uSWJjMHp3djh6N1poYnBQODFqWlhDenk5Z2hGa1BkcXFIbk5Vc1Vs?oc=5",
+      "source": "Milton Keynes Citizen",
+      "category": "World",
+      "publishedAt": "2026-11-27T17:52:00Z"
+    },
     {
       "id": "eda5e68449cad8cba25a",
       "title": "Opinion | Are We Out Of the Woods on Climate Change? - WSJ",
@@ -314,6 +329,16 @@
       "source": "VOV World",
       "category": "World",
       "publishedAt": "2026-11-27T15:05:00Z"
+    },
+    {
+      "id": "4002e9705180f44ff571",
+      "title": "MCD holds workshop to sensitise BEd students on environmental protection - Pioneer Edge",
+      "description": "MCD holds workshop to sensitise BEd students on environmental protection Pioneer Edge",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkRPNFN5ZXRtLThzNVNPRmlFYkJ5eE5XQXZHdm9ZelRfMVBNZFNDTHpjTTVObVpzVjRtX0JNMlZUYWdoWFlsT1J3alBIMVVXWDk3alJCaE9pdGlTTXN6ZVU4LS1sdWFLUXh5NEVIeGRXOW02TzRKNmg4a3E5WEZQbnI1cXpCUjN3YVRKVkJzUjdYOEk5X0c1Nl9ucTg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRkRPNFN5ZXRtLThzNVNPRmlFYkJ5eE5XQXZHdm9ZelRfMVBNZFNDTHpjTTVObVpzVjRtX0JNMlZUYWdoWFlsT1J3alBIMVVXWDk3alJCaE9pdGlTTXN6ZVU4LS1sdWFLUXh5NEVIeGRXOW02TzRKNmg4a3E5WEZQbnI1cXpCUjN3YVRKVkJzUjdYOEk5X0c1Nl9ucTg?oc=5",
+      "source": "Pioneer Edge",
+      "category": "Environment",
+      "publishedAt": "2026-11-27T14:34:30Z"
     },
     {
       "id": "049b440cbe8ff242cfc3",
@@ -394,6 +419,16 @@
       "source": "VnExpress International",
       "category": "World",
       "publishedAt": "2026-11-27T06:55:49Z"
+    },
+    {
+      "id": "26a4ecd1e44cab4173e7",
+      "title": "Breaking the cycle: How bike infrastructure can change cities - DW.com",
+      "description": "Breaking the cycle: How bike infrastructure can change cities DW.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdmg4VXNmWUVmek5udm11Ymx5UkpVazg4cFg4c1J1Q19YaE5RUFB5TDNLaGJDMzAxSWtOZWhUNThQbHJfN3N0cm1qYlQ3c1lmRXhVSkRpVGpmWlpPZmtiR0lKT3JtX0JfSnpwalJYSVBIdjV3OHlUYU4wdnlZSnpKX0pla0tnWDdwaURNWkp4Y25RT00yTHkxLUNNS2gwUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdmg4VXNmWUVmek5udm11Ymx5UkpVazg4cFg4c1J1Q19YaE5RUFB5TDNLaGJDMzAxSWtOZWhUNThQbHJfN3N0cm1qYlQ3c1lmRXhVSkRpVGpmWlpPZmtiR0lKT3JtX0JfSnpwalJYSVBIdjV3OHlUYU4wdnlZSnpKX0pla0tnWDdwaURNWkp4Y25RT00yTHkxLUNNS2gwUQ?oc=5",
+      "source": "DW.com",
+      "category": "India",
+      "publishedAt": "2026-11-27T06:37:44Z"
     },
     {
       "id": "9f5b620c79718242b35b",
@@ -2584,78 +2619,8 @@
       "source": "DT Next",
       "category": "Environment",
       "publishedAt": "2026-11-21T01:59:08Z"
-    },
-    {
-      "id": "70dcded6bbaddef62b56",
-      "title": "A New Global News Editor in New York - The New York Times Company",
-      "description": "A New Global News Editor in New York The New York Times Company",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqUjQ1TS04eFRra2QxR0VEUlBxSDR0RmtLMDhqRFdmRk0tWGtDSUJxQzRaU0lfZDRIbERhcXpGbUNpcExLcl9hRGd1WDQ1TE5rLURRcHI5LUk1Y3lzVFdaWi1oZGZMMUUzUzdKNDNLVGctbU0?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqUjQ1TS04eFRra2QxR0VEUlBxSDR0RmtLMDhqRFdmRk0tWGtDSUJxQzRaU0lfZDRIbERhcXpGbUNpcExLcl9hRGd1WDQ1TE5rLURRcHI5LUk1Y3lzVFdaWi1oZGZMMUUzUzdKNDNLVGctbU0?oc=5",
-      "source": "The New York Times Company",
-      "category": "World",
-      "publishedAt": "2026-11-21T01:32:45Z"
-    },
-    {
-      "id": "9e8747f87239c313013e",
-      "title": "China Adopts Unified Ecological Code Integrating Thirty Environmental Laws - Bioengineer.org",
-      "description": "China Adopts Unified Ecological Code Integrating Thirty Environmental Laws Bioengineer.org",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQjdtdGZvXzJTTXNSbHlYci1tMW5OTHU5Z3psNEtzVG81VVVEWkpsRUFCNjdIbU9fTVphaG5LNEJCekp5UFlTeVl5RDZFUzA0bXh6dFRyM3UtNS1ORl9Zc3pfWHRVX3pjQ3Q4NUZ3T3pxWW1QMEdVOU1TR3RaOEVfODc5T2NUZUlMbVFGLWFsMWpoU2gwRVNYc3lhLTdoXzF6?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQjdtdGZvXzJTTXNSbHlYci1tMW5OTHU5Z3psNEtzVG81VVVEWkpsRUFCNjdIbU9fTVphaG5LNEJCekp5UFlTeVl5RDZFUzA0bXh6dFRyM3UtNS1ORl9Zc3pfWHRVX3pjQ3Q4NUZ3T3pxWW1QMEdVOU1TR3RaOEVfODc5T2NUZUlMbVFGLWFsMWpoU2gwRVNYc3lhLTdoXzF6?oc=5",
-      "source": "Bioengineer.org",
-      "category": "Environment",
-      "publishedAt": "2026-11-21T01:06:08Z"
-    },
-    {
-      "id": "1bd43f1fae9e326e4893",
-      "title": "The world did not witness Yalta 2.0 in Shenzhen: ASEAN, the East Asia Summit and APEC remain closely connected - Awani International",
-      "description": "The world did not witness Yalta 2.0 in Shenzhen: ASEAN, the East Asia Summit and APEC remain closely connected Awani International",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ2xhMkR0LTJaSTVkTTF0VnhnMlZYT05Ec2JDMWQ5Z3BKZEF5b0lmcS1wUzhiNzg2bHBYU1c4dTFCbi1PRXNwY0poaWVKanY5bzJUUUlvWWlzRjluOEptT1BkbkZUNHN5eHQ0eDl6dHltVXRZZ0tvMi03N016cmZ2aHNZQ3ptemptQW9VUHdsTVRoa3ZPVHZ0aUVuMXZBX3FfVHFLY0t5OTJyOTZuNHhGZXVSZkRLRkZvS1hDc3huTVFydEVCbWxKWVdteHZDSTJPa0pMV0xUeDFnT3NRRkE?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ2xhMkR0LTJaSTVkTTF0VnhnMlZYT05Ec2JDMWQ5Z3BKZEF5b0lmcS1wUzhiNzg2bHBYU1c4dTFCbi1PRXNwY0poaWVKanY5bzJUUUlvWWlzRjluOEptT1BkbkZUNHN5eHQ0eDl6dHltVXRZZ0tvMi03N016cmZ2aHNZQ3ptemptQW9VUHdsTVRoa3ZPVHZ0aUVuMXZBX3FfVHFLY0t5OTJyOTZuNHhGZXVSZkRLRkZvS1hDc3huTVFydEVCbWxKWVdteHZDSTJPa0pMV0xUeDFnT3NRRkE?oc=5",
-      "source": "Awani International",
-      "category": "World",
-      "publishedAt": "2026-11-21T00:33:14Z"
-    },
-    {
-      "id": "9a162a598c686c70e3c2",
-      "title": "A world of welcome: International Education Week at Bates - Bates College",
-      "description": "A world of welcome: International Education Week at Bates Bates College",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOXzQ2YjRXcnRIRW9WUFZ2QTdTVzgxdkZ0V2lqWEtub3BrdFc0UFRXaHVqODRxQlJBMmdxSHdIRGp4RXJUcjVzaDFsVVpSZl9JMlNGV3Vpa3dUalJ1MWIxdXZZR2R3T0owMjZEZGhuWndGcklmUjdrcVk5cHlIZDVwYlo0Q0JnUExjNVNDRnNQMVd2YU41U2ZOVS1Hbw?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOXzQ2YjRXcnRIRW9WUFZ2QTdTVzgxdkZ0V2lqWEtub3BrdFc0UFRXaHVqODRxQlJBMmdxSHdIRGp4RXJUcjVzaDFsVVpSZl9JMlNGV3Vpa3dUalJ1MWIxdXZZR2R3T0owMjZEZGhuWndGcklmUjdrcVk5cHlIZDVwYlo0Q0JnUExjNVNDRnNQMVd2YU41U2ZOVS1Hbw?oc=5",
-      "source": "Bates College",
-      "category": "World",
-      "publishedAt": "2026-11-20T21:59:38Z"
-    },
-    {
-      "id": "1dc94d47ee34946bd2dc",
-      "title": "Players reject MLB’s international draft proposal - News-Herald",
-      "description": "Players reject MLB’s international draft proposal News-Herald",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMTRTVFkxay1fTUgwNTRTM1NNVGFtcEU5WjQtYVhpekpNU1RwRkIxNV9vUHlqR0ZPajFwWi1HSGZKbTJqLUdzVlF6YzczVXMwVTdSQzVHalVKSndISHpQNUYtMldkdmtLTUREVmhHV1k3bUNwVVFqQjhzenJIdkFxVHNPeFFhZzRmM1l3MFJTU0RMQQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMTRTVFkxay1fTUgwNTRTM1NNVGFtcEU5WjQtYVhpekpNU1RwRkIxNV9vUHlqR0ZPajFwWi1HSGZKbTJqLUdzVlF6YzczVXMwVTdSQzVHalVKSndISHpQNUYtMldkdmtLTUREVmhHV1k3bUNwVVFqQjhzenJIdkFxVHNPeFFhZzRmM1l3MFJTU0RMQQ?oc=5",
-      "source": "News-Herald",
-      "category": "World",
-      "publishedAt": "2026-11-20T20:17:41Z"
-    },
-    {
-      "id": "a5ff50dedd8816f77d31",
-      "title": "What in the World? - Foreign Policy",
-      "description": "What in the World? Foreign Policy",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYmdBLTUwbF9lWERyWF95VHV2eW80UC1Fd0hLWVRxVTJPSEE3SEhOVVpFRjZCRlB4V0ExVWlWY01zazM3aVZ3WHRSdWV5UDRzWDhzXzdYUUhZdDBOam1MZllKTllRRnd0Y0I2OGEzWjlBQ0lIazYyQkk2dDF6TllNbzRSV1U2c05jWlJLZDNBUXIxN0lEUTh0MG9lTHZTN2xOOUdJRU5tbDBuOFdfT1Zv?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYmdBLTUwbF9lWERyWF95VHV2eW80UC1Fd0hLWVRxVTJPSEE3SEhOVVpFRjZCRlB4V0ExVWlWY01zazM3aVZ3WHRSdWV5UDRzWDhzXzdYUUhZdDBOam1MZllKTllRRnd0Y0I2OGEzWjlBQ0lIazYyQkk2dDF6TllNbzRSV1U2c05jWlJLZDNBUXIxN0lEUTh0MG9lTHZTN2xOOUdJRU5tbDBuOFdfT1Zv?oc=5",
-      "source": "Foreign Policy",
-      "category": "World",
-      "publishedAt": "2026-11-20T19:12:23Z"
-    },
-    {
-      "id": "de7154e0278bf0956d34",
-      "title": "B.C. ski resorts named among best in the world by international travellers - Daily Hive",
-      "description": "B.C. ski resorts named among best in the world by international travellers Daily Hive",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVhicDlQTkJQLUh4WXBtSzQ3QnB2TUZfTzFPNmRycVA0V2xEYmtHRVBXVGtuWjNyTjg1Q0ktbUdhbnBpd3JRSTVpVDl1a25aUDNwN1ZPTFJ5cU5uNGdpR2R3aF9mX2drc1pOMWV1N0ZsNy1QVVNzWlA1aHcxMFcwZWlrRQ?oc=5",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVhicDlQTkJQLUh4WXBtSzQ3QnB2TUZfTzFPNmRycVA0V2xEYmtHRVBXVGtuWjNyTjg1Q0ktbUdhbnBpd3JRSTVpVDl1a25aUDNwN1ZPTFJ5cU5uNGdpR2R3aF9mX2drc1pOMWV1N0ZsNy1QVVNzWlA1aHcxMFcwZWlrRQ?oc=5",
-      "source": "Daily Hive",
-      "category": "World",
-      "publishedAt": "2026-11-20T18:53:00Z"
     }
   ],
-  "lastUpdated": "2026-11-27T18:50:20Z",
-  "updatedAt": "2026-11-27T18:50:20Z"
+  "lastUpdated": "2026-11-28T01:48:55Z",
+  "updatedAt": "2026-11-28T01:48:55Z"
 }
